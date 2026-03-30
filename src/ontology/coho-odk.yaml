@@ -1,0 +1,20 @@
+id: coho
+title: "Cohort Ontology"
+github_org: EBISPOT
+repo: cohort-ontology
+git_main_branch: main
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products: 
+    - id: ro
+robot_java_args: '-Xmx8G'
+documentation:
+  documentation_system: mkdocs

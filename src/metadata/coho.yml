@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/coho
+
+idspace: COHO
+base_url: /obo/coho
+
+products:
+- coho.owl: https://raw.githubusercontent.com/EBISPOT/cohort-ontology/main/coho.owl
+- coho.obo: https://raw.githubusercontent.com/EBISPOT/cohort-ontology/main/coho.obo
+
+term_browser: ontobee
+example_terms:
+- COHO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/EBISPOT/cohort-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/EBISPOT/cohort-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/COHO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/EBISPOT/cohort-ontology/main/
+
