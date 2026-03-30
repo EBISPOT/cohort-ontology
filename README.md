@@ -2,19 +2,7 @@
 ![Build Status](https://github.com/EBISPOT/cohort-ontology/actions/workflows/qc.yml/badge.svg)
 # Cohort Ontology
 
-Description: None
-
-More information can be found at http://obofoundry.org/ontology/coho
-
-## Versions
-
-### Stable release versions
-
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/coho.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+A lightweight ontology for consistent identification and description of human cohorts across EMBL-EBI resources. It defines a unique cohort identifier with minimal metadata, enabling linkage, discovery, and integration of cohort-related data while supporting both named and implicitly defined cohorts.
 
 ### Editors' version
 
