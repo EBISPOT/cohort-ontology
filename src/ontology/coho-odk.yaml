@@ -13,8 +13,14 @@ export_formats:
   - obo
   - json
 import_group:
+  annotation_properties:
+    - rdfs:label
+    - IAO:0000115
+    - oboInOwl:is_metadata_tag
+    - OMO:0002000
   products: 
     - id: ro
+    - id: omo
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
