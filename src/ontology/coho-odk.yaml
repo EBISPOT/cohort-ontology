@@ -50,3 +50,19 @@ components:
       use_template: True
       templates:
         - PRIDE.csv
+robot_report:
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  custom_profile : False
+  use_base_iris: True
+  sparql_test_on:
+    - edit
+    - coho-full.owl
+  custom_sparql_checks :
+    - synonym-as-label
+    - owldef-self-reference
+    - iri-range
+    - label-with-iri
+    - multiple-replaced_by
+    - dc-properties

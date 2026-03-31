@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                1bcaa3d280780401149f697c57c36795a03bba7f857481d44479d5ac23c65ffb
+CONFIG_HASH=                d2ef7588af98ea2e6e9e507d1eec4fdea86572cb7352b59343b8c5e4e2709d0d
 
 
 # ----------------------------------------
@@ -42,11 +42,11 @@ UPDATEREPODIR=              target
 SPARQLDIR =                 ../sparql
 EXTENDED_PREFIX_MAP=        $(TMPDIR)/obo.epm.json
 COMPONENTSDIR =             components
-REPORT_FAIL_ON =            None
-REPORT_LABEL =              -l true
+REPORT_FAIL_ON =            ERROR
+REPORT_LABEL =              
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        --clean-obo "strict drop-untranslatable-axioms"
-SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri multiple-replaced_by dc-properties 
+SPARQL_VALIDATION_CHECKS =  synonym-as-label owldef-self-reference iri-range label-with-iri multiple-replaced_by dc-properties 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.6
 RELAX_OPTIONS =             --include-subclass-of true
@@ -262,10 +262,12 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  $(SRCMERGED) | $(REPORTDIR)
+sparql_test:  $(SRCMERGED) coho-full.owl | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
 	$(ROBOT) verify -i $(SRCMERGED) --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
+  
+	$(ROBOT) verify -i coho-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
