@@ -18,9 +18,11 @@ import_group:
     - IAO:0000115
     - oboInOwl:is_metadata_tag
     - OMO:0002000
+    - oboInOwl:SynonymTypeProperty
   products: 
     - id: ro
     - id: omo
+      module_type: mirror
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
