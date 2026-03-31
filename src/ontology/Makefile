@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                fae540fd728dd087f9ff372bf0fdba9f88bb45532efc70502b6f40326476446c
+CONFIG_HASH=                1bcaa3d280780401149f697c57c36795a03bba7f857481d44479d5ac23c65ffb
 
 
 # ----------------------------------------
@@ -57,7 +57,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 
+OTHER_SRC =                 $(COMPONENTSDIR)/GWAS.owl $(COMPONENTSDIR)/MetaboLight.owl $(COMPONENTSDIR)/EGA.owl $(COMPONENTSDIR)/PRIDE.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -202,7 +202,7 @@ all_imports: $(IMPORT_FILES)
 # ----------------------------------------
 
 
-SUBSETS = 
+SUBSETS =  GWAS MetaboLight EGA PRIDE
 
 SUBSET_ROOTS = $(patsubst %, $(SUBSETDIR)/%, $(SUBSETS))
 SUBSET_FILES = $(foreach n,$(SUBSET_ROOTS), $(foreach f,$(FORMATS_INCL_TSV), $(n).$(f)))
@@ -452,6 +452,74 @@ no-mirror-refresh-%:
 	$(MAKE) --assume-new=$(SRC) --assume-new=$(IMPORTDIR)/$*_terms.txt \
 		IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl
 
+# ----------------------------------------
+# Components
+# ----------------------------------------
+# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
+
+ifeq ($(COMP),true)
+.PHONY: all_components
+all_components: $(OTHER_SRC)
+
+.PHONY: recreate-components
+recreate-components:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
+		--assume-new=$(TMPDIR)/stamp-component-MetaboLight.owl \
+		--assume-new=$(TMPDIR)/stamp-component-EGA.owl \
+		--assume-new=$(TMPDIR)/stamp-component-PRIDE.owl \
+		COMP=true IMP=false MIR=true PAT=true all_components
+
+.PHONY: no-mirror-recreate-components
+no-mirror-recreate-components:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
+		--assume-new=$(TMPDIR)/stamp-component-MetaboLight.owl \
+		--assume-new=$(TMPDIR)/stamp-component-EGA.owl \
+		--assume-new=$(TMPDIR)/stamp-component-PRIDE.owl \
+		COMP=true IMP=false MIR=false PAT=true all_components
+
+.PHONY: recreate-%
+recreate-%:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
+		COMP=true IMP=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl
+
+.PHONY: no-mirror-recreate-%
+no-mirror-recreate-%:
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
+		COMP=true IMP=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl
+
+$(COMPONENTSDIR)/%.owl: $(TMPDIR)/stamp-component-%.owl | $(COMPONENTSDIR)
+	test -f $@ || touch $@
+.PRECIOUS: $(COMPONENTSDIR)/%.owl
+
+$(TMPDIR)/stamp-component-%.owl: | $(TMPDIR)
+	touch $@
+.PRECIOUS: $(TMPDIR)/stamp-component-%.owl
+
+$(COMPONENTSDIR)/GWAS.owl: $(TEMPLATEDIR)/GWAS.csv $(TMPDIR)/stamp-component-GWAS.owl
+	$(ROBOT) template  \
+		 --template $(TEMPLATEDIR)/GWAS.csv \
+		 $(ANNOTATE_CONVERT_FILE)
+.PRECIOUS: $(COMPONENTSDIR)/GWAS.owl
+
+$(COMPONENTSDIR)/MetaboLight.owl: $(TEMPLATEDIR)/MetaboLight.csv $(TMPDIR)/stamp-component-MetaboLight.owl
+	$(ROBOT) template  \
+		 --template $(TEMPLATEDIR)/MetaboLight.csv \
+		 $(ANNOTATE_CONVERT_FILE)
+.PRECIOUS: $(COMPONENTSDIR)/MetaboLight.owl
+
+$(COMPONENTSDIR)/EGA.owl: $(TEMPLATEDIR)/EGA.csv $(TMPDIR)/stamp-component-EGA.owl
+	$(ROBOT) template  \
+		 --template $(TEMPLATEDIR)/EGA.csv \
+		 $(ANNOTATE_CONVERT_FILE)
+.PRECIOUS: $(COMPONENTSDIR)/EGA.owl
+
+$(COMPONENTSDIR)/PRIDE.owl: $(TEMPLATEDIR)/PRIDE.csv $(TMPDIR)/stamp-component-PRIDE.owl
+	$(ROBOT) template  \
+		 --template $(TEMPLATEDIR)/PRIDE.csv \
+		 $(ANNOTATE_CONVERT_FILE)
+.PRECIOUS: $(COMPONENTSDIR)/PRIDE.owl
+
+endif # COMP=true
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------

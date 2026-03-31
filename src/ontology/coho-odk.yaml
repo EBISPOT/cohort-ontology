@@ -26,3 +26,27 @@ import_group:
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
+subset_group:
+  products:
+    - id: GWAS
+    - id: MetaboLight
+    - id: EGA
+    - id: PRIDE
+components:
+  products:
+    - filename: GWAS.owl
+      use_template: True
+      templates:
+        - GWAS.csv
+    - filename: MetaboLight.owl
+      use_template: True
+      templates:
+        - MetaboLight.csv
+    - filename: EGA.owl
+      use_template: True
+      templates:
+        - EGA.csv
+    - filename: PRIDE.owl
+      use_template: True
+      templates:
+        - PRIDE.csv

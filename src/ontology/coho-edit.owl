@@ -10,6 +10,10 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/coho.owl>
+Import(<http://purl.obolibrary.org/obo/coho/components/EGA.owl>)
+Import(<http://purl.obolibrary.org/obo/coho/components/GWAS.owl>)
+Import(<http://purl.obolibrary.org/obo/coho/components/MetaboLight.owl>)
+Import(<http://purl.obolibrary.org/obo/coho/components/PRIDE.owl>)
 Import(<http://purl.obolibrary.org/obo/coho/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/coho/imports/ro_import.owl>)
 Annotation(dcterms:description "None")
