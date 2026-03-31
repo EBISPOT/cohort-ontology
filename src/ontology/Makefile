@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                2527f6711790a7db5cd13955649971b0c1319316d9896b006821c5df593dc708
+CONFIG_HASH=                6e8944928e450da03820daba199044422ff23e9af34cb364fd0b80df14b5bf1a
 
 
 # ----------------------------------------
@@ -42,11 +42,11 @@ UPDATEREPODIR=              target
 SPARQLDIR =                 ../sparql
 EXTENDED_PREFIX_MAP=        $(TMPDIR)/obo.epm.json
 COMPONENTSDIR =             components
-REPORT_FAIL_ON =            ERROR
-REPORT_LABEL =              
+REPORT_FAIL_ON =            None
+REPORT_LABEL =              -l true
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        --clean-obo "strict drop-untranslatable-axioms"
-SPARQL_VALIDATION_CHECKS =  synonym-as-label 
+SPARQL_VALIDATION_CHECKS =  synonym-as-label owldef-self-reference iri-range label-with-iri multiple-replaced_by dc-properties 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.6
 RELAX_OPTIONS =             --include-subclass-of true
@@ -262,12 +262,10 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  $(SRCMERGED) coho-full.owl | $(REPORTDIR)
+sparql_test:  $(SRCMERGED) | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
 	$(ROBOT) verify -i $(SRCMERGED) --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
-  
-	$(ROBOT) verify -i coho-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
@@ -275,10 +273,10 @@ endif
 # ----------------------------------------
 
 $(REPORTDIR)/$(SRC)-obo-report.tsv: $(SRCMERGED) | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/COHO_ --base-iri $(URIBASE)/coho --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o $@
 
 $(REPORTDIR)/%-obo-report.tsv: % | $(REPORTDIR)
-	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --base-iri $(URIBASE)/COHO_ --base-iri $(URIBASE)/coho --print 5 -o $@
+	$(ROBOT) report -i $< $(REPORT_LABEL) $(REPORT_PROFILE_OPTS) --fail-on $(REPORT_FAIL_ON) --print 5 -o $@
 
 check_for_robot_updates:
 	echo "You are not using a custom profile, so you are getting the joy of the latest ROBOT report!"
