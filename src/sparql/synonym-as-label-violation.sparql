@@ -1,0 +1,17 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?cls ?synPred ?synonym ?label
+WHERE {
+  ?cls a owl:Class ;
+       rdfs:label ?label ;
+       ?synPred ?synonym .
+  FILTER (
+    ?synPred = oboInOwl:hasRelatedSynonym ||
+    ?synPred = oboInOwl:hasExactSynonym ||
+    ?synPred = oboInOwl:hasNarrowSynonym ||
+    ?synPred = oboInOwl:hasBroadSynonym
+  )
+  FILTER (str(?synonym) = str(?label))
+}
