@@ -6,9 +6,11 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/coho.owl>
+Import(<http://purl.obolibrary.org/obo/coho/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/coho/imports/ro_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
@@ -18,6 +20,18 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COHO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(oboInOwl:creation_date))
+Declaration(AnnotationProperty(oboInOwl:hasBroadSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasDbXref))
+Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasNarrowSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasRelatedSynonym))
+Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
+Declaration(AnnotationProperty(oboInOwl:id))
+Declaration(AnnotationProperty(oboInOwl:inSubset))
+Declaration(AnnotationProperty(rdfs:comment))
+Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(owl:deprecated))
 ############################
 #   Annotation Properties
 ############################
@@ -33,6 +47,38 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 # Annotation Property: dcterms:title (title)
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
+
+# Annotation Property: oboInOwl:creation_date (creation_date)
+
+AnnotationAssertion(rdfs:label oboInOwl:creation_date "creation_date")
+
+# Annotation Property: oboInOwl:hasBroadSynonym (has_broad_synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasBroadSynonym "has_broad_synonym")
+
+# Annotation Property: oboInOwl:hasDbXref (database_cross_reference)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasDbXref "database_cross_reference")
+
+# Annotation Property: oboInOwl:hasExactSynonym (has exact synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasExactSynonym "has_exact_synonym")
+
+# Annotation Property: oboInOwl:hasNarrowSynonym (has narrow synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasNarrowSynonym "has_narrow_synonym")
+
+# Annotation Property: oboInOwl:hasRelatedSynonym (has_related_synonym)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasRelatedSynonym "has_related_synonym")
+
+# Annotation Property: oboInOwl:hasSynonymType (has_synonym_type)
+
+AnnotationAssertion(rdfs:label oboInOwl:hasSynonymType "has_synonym_type")
+
+# Annotation Property: oboInOwl:inSubset (in_subset)
+
+AnnotationAssertion(rdfs:label oboInOwl:inSubset "in_subset")
 
 
 
