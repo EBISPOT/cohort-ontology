@@ -16,7 +16,7 @@ Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Cohort Ontology")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/COHO_0000000>))
+Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -56,7 +56,7 @@ AnnotationAssertion(rdfs:label oboInOwl:creation_date "creation_date")
 
 AnnotationAssertion(rdfs:label oboInOwl:hasBroadSynonym "has_broad_synonym")
 
-# Annotation Property: oboInOwl:hasDbXref (has cross-reference)
+# Annotation Property: oboInOwl:hasDbXref (database_cross_reference)
 
 AnnotationAssertion(rdfs:label oboInOwl:hasDbXref "database_cross_reference")
 
@@ -86,9 +86,12 @@ AnnotationAssertion(rdfs:label oboInOwl:inSubset "in_subset")
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/COHO_0000000> (root node)
+# Class: <http://www.ebi.ac.uk/coho/COHO_0000000> (cohort)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COHO_0000000> "root node"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000000> "A group of individuals grouped together based on a shared characteristic or property of interest.")
+AnnotationAssertion(oboInOwl:hasDbXref <http://www.ebi.ac.uk/coho/COHO_0000000> "EFO:0004445")
+AnnotationAssertion(oboInOwl:hasDbXref <http://www.ebi.ac.uk/coho/COHO_0000000> "NCIT:C61512")
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho/COHO_0000000> "cohort"@en)
 
 
 )
