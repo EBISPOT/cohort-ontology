@@ -12,12 +12,12 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/coho.owl>
-Import(<http://purl.obolibrary.org/obo/coho/components/EGA.owl>)
-Import(<http://purl.obolibrary.org/obo/coho/components/GWAS.owl>)
-Import(<http://purl.obolibrary.org/obo/coho/components/MetaboLight.owl>)
-Import(<http://purl.obolibrary.org/obo/coho/components/PRIDE.owl>)
-Import(<http://purl.obolibrary.org/obo/coho/imports/omo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/coho/imports/ro_import.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/EGA.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/GWAS.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/MetaboLight.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/PRIDE.owl>)
+Import(<http://www.ebi.ac.uk/coho/imports/omo_import.owl>)
+Import(<http://www.ebi.ac.uk/coho/imports/ro_import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Cohort Ontology")
@@ -231,6 +231,59 @@ Declaration(Class(coho:TEMP_temporary_unclassified))
 Declaration(ObjectProperty(coho:hasCohort))
 Declaration(ObjectProperty(coho:hasSubCohort))
 Declaration(ObjectProperty(coho:isSubCohortOf))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#EGA_subset>))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GWAS_subset>))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#MetaboLight_subset>))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PRIDE_subset>))
+Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#EGA_subset> (EGA_subset)
+
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#EGA_subset> "EGA_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#EGA_subset> oboInOwl:SubsetProperty)
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#GWAS_subset> (GWAS_subset)
+
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#GWAS_subset> "GWAS_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#GWAS_subset> oboInOwl:SubsetProperty)
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#MetaboLight_subset> (MetaboLight_subset)
+
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#MetaboLight_subset> "MetaboLight_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#MetaboLight_subset> oboInOwl:SubsetProperty)
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#PRIDE_subset> (PRIDE_subset)
+
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#PRIDE_subset> "PRIDE_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#PRIDE_subset> oboInOwl:SubsetProperty)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: coho:hasCohort (hasCohort)
+
+AnnotationAssertion(rdfs:label coho:hasCohort "hasCohort"@en)
+ObjectPropertyDomain(coho:hasCohort coho:COHO_0000001)
+ObjectPropertyRange(coho:hasCohort coho:COHO_0000000)
+
+# Object Property: coho:hasSubCohort (hasSubCohort)
+
+AnnotationAssertion(rdfs:label coho:hasSubCohort "hasSubCohort"@en)
+InverseObjectProperties(coho:hasSubCohort coho:isSubCohortOf)
+ObjectPropertyDomain(coho:hasSubCohort coho:COHO_0000000)
+ObjectPropertyRange(coho:hasSubCohort coho:COHO_0000000)
+
+# Object Property: coho:isSubCohortOf (isSubCohortOf)
+
+AnnotationAssertion(rdfs:label coho:isSubCohortOf "isSubCohortOf"@en)
+ObjectPropertyDomain(coho:isSubCohortOf coho:COHO_0000000)
+ObjectPropertyRange(coho:isSubCohortOf coho:COHO_0000000)
+
 
 
 ############################
@@ -1319,8 +1372,8 @@ SubClassOf(coho:COHO_0000179 coho:COHO_0000000)
 
 # Class: coho:COHO_0000180 (UK Inflammatory Bowel Disease Genetics Consortium)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000180 "UKIBDGC")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000180 "UKIBD Genetics Consortium")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000180 "UKIBDGC")
 AnnotationAssertion(rdfs:label coho:COHO_0000180 "UK Inflammatory Bowel Disease Genetics Consortium"@en)
 SubClassOf(coho:COHO_0000180 coho:COHO_0000001)
 
@@ -1469,30 +1522,6 @@ SubClassOf(coho:COHO_0000204 coho:COHO_0000000)
 # Class: coho:TEMP_temporary_unclassified (temporary unclassified)
 
 AnnotationAssertion(rdfs:label coho:TEMP_temporary_unclassified "temporary unclassified"@en)
-
-
-############################
-#   Object Properties
-############################
-
-# Object Property: coho:hasCohort (hasCohort)
-
-AnnotationAssertion(rdfs:label coho:hasCohort "hasCohort"@en)
-ObjectPropertyDomain(coho:hasCohort coho:COHO_0000001)
-ObjectPropertyRange(coho:hasCohort coho:COHO_0000000)
-
-# Object Property: coho:hasSubCohort (hasSubCohort)
-
-AnnotationAssertion(rdfs:label coho:hasSubCohort "hasSubCohort"@en)
-ObjectPropertyDomain(coho:hasSubCohort coho:COHO_0000000)
-ObjectPropertyRange(coho:hasSubCohort coho:COHO_0000000)
-InverseObjectProperties(coho:hasSubCohort coho:isSubCohortOf)
-
-# Object Property: coho:isSubCohortOf (isSubCohortOf)
-
-AnnotationAssertion(rdfs:label coho:isSubCohortOf "isSubCohortOf"@en)
-ObjectPropertyDomain(coho:isSubCohortOf coho:COHO_0000000)
-ObjectPropertyRange(coho:isSubCohortOf coho:COHO_0000000)
 
 
 )

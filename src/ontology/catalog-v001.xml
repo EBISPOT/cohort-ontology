@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
   <group id="odk-managed-catalog" prefer="public">
-    <uri name="http://purl.obolibrary.org/obo/coho/imports/ro_import.owl" uri="imports/ro_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/coho/imports/omo_import.owl" uri="imports/omo_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/coho/components/GWAS.owl" uri="components/GWAS.owl" />
-    <uri name="http://purl.obolibrary.org/obo/coho/components/MetaboLight.owl" uri="components/MetaboLight.owl" />
-    <uri name="http://purl.obolibrary.org/obo/coho/components/EGA.owl" uri="components/EGA.owl" />
-    <uri name="http://purl.obolibrary.org/obo/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/imports/ro_import.owl" uri="imports/ro_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/imports/omo_import.owl" uri="imports/omo_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/GWAS.owl" uri="components/GWAS.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/MetaboLight.owl" uri="components/MetaboLight.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/EGA.owl" uri="components/EGA.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
   </group>
 </catalog>
