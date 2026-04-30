@@ -227,6 +227,7 @@ Declaration(Class(coho:COHO_0000201))
 Declaration(Class(coho:COHO_0000202))
 Declaration(Class(coho:COHO_0000203))
 Declaration(Class(coho:COHO_0000204))
+Declaration(Class(coho:COHO_0000205))
 Declaration(Class(coho:TEMP_temporary_unclassified))
 Declaration(ObjectProperty(coho:hasCohort))
 Declaration(ObjectProperty(coho:hasSubCohort))
@@ -297,9 +298,10 @@ AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000000 "EFO:0004445")
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000000 "NCIT:C61512")
 AnnotationAssertion(rdfs:label coho:COHO_0000000 "cohort"@en)
 
-# Class: coho:COHO_0000001 (study)
+# Class: coho:COHO_0000001 (cohort aggregation)
 
-AnnotationAssertion(rdfs:label coho:COHO_0000001 "study"@en)
+AnnotationAssertion(obo:IAO_0000115 coho:COHO_0000001 "A study, project or consortium that compares multiple cohorts.")
+AnnotationAssertion(rdfs:label coho:COHO_0000001 "cohort aggregation"@en)
 SubClassOf(coho:COHO_0000001 ObjectMinCardinality(2 coho:hasCohort coho:COHO_0000000))
 
 # Class: coho:COHO_0000002 (1000 Genomes)
@@ -1452,6 +1454,7 @@ SubClassOf(coho:COHO_0000192 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000193 "TwinGene")
 AnnotationAssertion(rdfs:label coho:COHO_0000193 "TwinGene Study"@en)
 SubClassOf(coho:COHO_0000193 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000193 ObjectSomeValuesFrom(coho:isSubCohortOf coho:COHO_0000193))
 
 # Class: coho:COHO_0000194 (Uppsala Longitudinal Study of Adult Men)
 
@@ -1518,6 +1521,11 @@ SubClassOf(coho:COHO_0000203 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000204 "HEALS")
 AnnotationAssertion(rdfs:label coho:COHO_0000204 "The Health Effects of Arsenic Longitudinal Study"@en)
 SubClassOf(coho:COHO_0000204 coho:COHO_0000000)
+
+# Class: coho:COHO_0000205 (TwinGene Registry)
+
+AnnotationAssertion(rdfs:label coho:COHO_0000205 "TwinGene Registry"@en)
+SubClassOf(coho:COHO_0000205 coho:COHO_0000000)
 
 # Class: coho:TEMP_temporary_unclassified (temporary unclassified)
 
