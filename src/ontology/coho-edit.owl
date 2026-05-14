@@ -233,6 +233,7 @@ Declaration(Class(coho:COHO_0000205))
 Declaration(Class(coho:TEMP_temporary_unclassified))
 Declaration(ObjectProperty(coho:hasCohort))
 Declaration(ObjectProperty(coho:hasSubCohort))
+Declaration(ObjectProperty(coho:has_data_collection_location))
 Declaration(ObjectProperty(coho:isSubCohortOf))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#EGA_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GWAS_subset>))
@@ -280,6 +281,12 @@ AnnotationAssertion(rdfs:label coho:hasSubCohort "hasSubCohort"@en)
 InverseObjectProperties(coho:hasSubCohort coho:isSubCohortOf)
 ObjectPropertyDomain(coho:hasSubCohort coho:COHO_0000000)
 ObjectPropertyRange(coho:hasSubCohort coho:COHO_0000000)
+
+# Object Property: coho:has_data_collection_location (has_data_collection_location)
+
+AnnotationAssertion(rdfs:label coho:has_data_collection_location "has_data_collection_location"@en)
+TransitiveObjectProperty(coho:has_data_collection_location)
+ObjectPropertyRange(coho:has_data_collection_location obo:NCIT_C16632)
 
 # Object Property: coho:isSubCohortOf (isSubCohortOf)
 
