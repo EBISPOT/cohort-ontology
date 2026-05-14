@@ -9,14 +9,6 @@ COHO_PREFIX = --prefix "COHO: http://www.ebi.ac.uk/coho/COHO_"
 
 ifeq ($(COMP),true)
 
-$(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv $(TMPDIR)/stamp-component-gaz_xrefs.owl
-	$(ROBOT) template --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
-		--template $(TEMPLATEDIR)/gaz_xrefs.tsv \
-		$(ANNOTATE_CONVERT_FILE)
-	# ROBOT template currently serializes BFO:0000050 restrictions as DataSomeValuesFrom.
-	# Convert only those to ObjectSomeValuesFrom so object-property chains can reason over them.
-	sed -i.bak 's/DataSomeValuesFrom(<http:\/\/purl.obolibrary.org\/obo\/BFO_0000050>/ObjectSomeValuesFrom(<http:\/\/purl.obolibrary.org\/obo\/BFO_0000050>/g' $(COMPONENTSDIR)/gaz_xrefs.owl && rm -f $(COMPONENTSDIR)/gaz_xrefs.owl.bak
-
 $(COMPONENTSDIR)/GWAS.owl: $(TEMPLATEDIR)/GWAS.csv $(TMPDIR)/stamp-component-GWAS.owl
 	$(ROBOT) template \
 		$(COHO_PREFIX) \
