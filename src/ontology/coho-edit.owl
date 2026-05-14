@@ -1541,4 +1541,5 @@ SubClassOf(coho:COHO_0000205 coho:COHO_0000000)
 AnnotationAssertion(rdfs:label coho:TEMP_temporary_unclassified "temporary unclassified"@en)
 
 
+SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:BFO_0000050) coho:has_data_collection_location)
 )
