@@ -24,6 +24,7 @@ import_group:
     - id: ro
     - id: omo
       module_type: mirror
+    - id: NCIT
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
@@ -35,6 +36,11 @@ subset_group:
     - id: PRIDE
 components:
   products:
+    - filename: gaz_xrefs.owl
+      use_template: True
+      template_options: '--prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+      templates:
+        - gaz_xrefs.tsv
     - filename: GWAS.owl
       use_template: True
       templates:

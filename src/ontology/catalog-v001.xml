@@ -3,6 +3,8 @@
   <group id="odk-managed-catalog" prefer="public">
     <uri name="http://www.ebi.ac.uk/coho/imports/ro_import.owl" uri="imports/ro_import.owl" />
     <uri name="http://www.ebi.ac.uk/coho/imports/omo_import.owl" uri="imports/omo_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/imports/NCIT_import.owl" uri="imports/NCIT_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl" uri="components/gaz_xrefs.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/GWAS.owl" uri="components/GWAS.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/MetaboLight.owl" uri="components/MetaboLight.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/EGA.owl" uri="components/EGA.owl" />
