@@ -325,6 +325,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000003 "AddNeuroMed")
 AnnotationAssertion(rdfs:label coho:COHO_0000003 "AddNeuroMed Cohort"@en)
 SubClassOf(coho:COHO_0000003 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Finland>))
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/France>))
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Greece>))
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Poland>))
+SubClassOf(coho:COHO_0000003 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000004 (Adenoma Prevention with Celecoxib trail)
 
@@ -333,12 +339,14 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000004 "Adenoma Prevention with Celecoxib")
 AnnotationAssertion(rdfs:label coho:COHO_0000004 "Adenoma Prevention with Celecoxib trail"@en)
 SubClassOf(coho:COHO_0000004 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000004 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000005 (Advanced Study of Aortic Pathology)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000005 "ASAP")
 AnnotationAssertion(rdfs:label coho:COHO_0000005 "Advanced Study of Aortic Pathology"@en)
 SubClassOf(coho:COHO_0000005 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000005 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000006 (Africa Wits-INDEPTH partnership for Genomics studies)
 
@@ -351,6 +359,7 @@ SubClassOf(coho:COHO_0000006 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000007 "arcOGEN")
 AnnotationAssertion(rdfs:label coho:COHO_0000007 "Arthritis Research UK Osteoarthritis Genetics"@en)
 SubClassOf(coho:COHO_0000007 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000007 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000008 (Asian Cancer Project)
 
@@ -363,42 +372,49 @@ SubClassOf(coho:COHO_0000008 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000009 "AAA")
 AnnotationAssertion(rdfs:label coho:COHO_0000009 "Aspirin for Asymptomatic Atherosclerosis Study"@en)
 SubClassOf(coho:COHO_0000009 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000009 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000010 (AtheroExpress)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000010 "AEGS1")
 AnnotationAssertion(rdfs:label coho:COHO_0000010 "AtheroExpress"@en)
 SubClassOf(coho:COHO_0000010 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000010 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000011 (Atherosclerosis Risk in Communities Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000011 "ARIC")
 AnnotationAssertion(rdfs:label coho:COHO_0000011 "Atherosclerosis Risk in Communities Study"@en)
 SubClassOf(coho:COHO_0000011 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000011 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000012 (Atopic Dermatitis Research Network)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000012 "ADRN")
 AnnotationAssertion(rdfs:label coho:COHO_0000012 "Atopic Dermatitis Research Network"@en)
 SubClassOf(coho:COHO_0000012 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000012 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000013 (Australia Cancer Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000013 "ACS")
 AnnotationAssertion(rdfs:label coho:COHO_0000013 "Australia Cancer Study"@en)
 SubClassOf(coho:COHO_0000013 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000013 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000014 (Australian Ovarian Cancer Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000014 "AOCS")
 AnnotationAssertion(rdfs:label coho:COHO_0000014 "Australian Ovarian Cancer Study"@en)
 SubClassOf(coho:COHO_0000014 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000014 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000015 (Australian Twin Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000015 "ATR")
 AnnotationAssertion(rdfs:label coho:COHO_0000015 "Australian Twin Registry"@en)
 SubClassOf(coho:COHO_0000015 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000015 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000016 (Avon Longitudinal Study of Parents and Children)
 
@@ -406,24 +422,28 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000016 "AMC-PAS")
 AnnotationAssertion(rdfs:label coho:COHO_0000016 "Avon Longitudinal Study of Parents and Children"@en)
 SubClassOf(coho:COHO_0000016 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000016 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000017 (Berlin_Frankfurt_Munster trials)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000017 "BFM")
 AnnotationAssertion(rdfs:label coho:COHO_0000017 "Berlin_Frankfurt_Munster trials"@en)
 SubClassOf(coho:COHO_0000017 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000017 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000018 (Bladder Cancer Prognosis Programme)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000018 "BCPP")
 AnnotationAssertion(rdfs:label coho:COHO_0000018 "Bladder Cancer Prognosis Programme"@en)
 SubClassOf(coho:COHO_0000018 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000018 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000019 (Brazilian Cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000019 "Brazil")
 AnnotationAssertion(rdfs:label coho:COHO_0000019 "Brazilian Cohort"@en)
 SubClassOf(coho:COHO_0000019 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000019 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Brazil>))
 
 # Class: coho:COHO_0000020 (Breast Cancer Association Consortium)
 
@@ -436,6 +456,7 @@ SubClassOf(coho:COHO_0000020 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000021 "BRUNECK")
 AnnotationAssertion(rdfs:label coho:COHO_0000021 "Bruneck study"@en)
 SubClassOf(coho:COHO_0000021 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000021 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
 
 # Class: coho:COHO_0000022 (Cancer and Leukemia Group B)
 
@@ -448,18 +469,21 @@ SubClassOf(coho:COHO_0000022 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000023 "TCGA")
 AnnotationAssertion(rdfs:label coho:COHO_0000023 "Cancer Genome Atlas"@en)
 SubClassOf(coho:COHO_0000023 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000023 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000024 (Cancer Prevention Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000024 "CPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000024 "Cancer Prevention Study"@en)
 SubClassOf(coho:COHO_0000024 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000024 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000025 (Cancer Prostate in Sweden)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000025 "CAPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000025 "Cancer Prostate in Sweden"@en)
 SubClassOf(coho:COHO_0000025 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000025 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000026 (Candesartan in Heart failure Assessment of Reduction in Mortality and morbidit)
 
@@ -478,6 +502,7 @@ SubClassOf(coho:COHO_0000027 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000028 "CARDIOGENICS")
 AnnotationAssertion(rdfs:label coho:COHO_0000028 "Cardiogenics Study"@en)
 SubClassOf(coho:COHO_0000028 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000028 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/France>))
 
 # Class: coho:COHO_0000029 (CARDIoGRAMplusC4D)
 
@@ -489,60 +514,70 @@ SubClassOf(coho:COHO_0000029 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000030 "CHANCE")
 AnnotationAssertion(rdfs:label coho:COHO_0000030 "Carolina Head and Neck Cancer Epidemiology"@en)
 SubClassOf(coho:COHO_0000030 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000030 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000031 (CARTaGENE cohort (CHU Sainte-Justine, Quebec, Canada))
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000031 "CARTaGENE")
 AnnotationAssertion(rdfs:label coho:COHO_0000031 "CARTaGENE cohort (CHU Sainte-Justine, Quebec, Canada)"@en)
 SubClassOf(coho:COHO_0000031 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000031 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Canada>))
 
 # Class: coho:COHO_0000032 (Center for Autism Research and Treatment)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000032 "CART")
 AnnotationAssertion(rdfs:label coho:COHO_0000032 "Center for Autism Research and Treatment"@en)
 SubClassOf(coho:COHO_0000032 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000032 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000033 (Center on Antisocial Drug Dependence)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000033 "CADD")
 AnnotationAssertion(rdfs:label coho:COHO_0000033 "Center on Antisocial Drug Dependence"@en)
 SubClassOf(coho:COHO_0000033 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000033 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000034 (Centre dEtude du Polymorphisme Humain)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000034 "CEPH")
 AnnotationAssertion(rdfs:label coho:COHO_0000034 "Centre dEtude du Polymorphisme Humain"@en)
 SubClassOf(coho:COHO_0000034 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000034 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/France>))
 
 # Class: coho:COHO_0000035 (Centre National de G_notypage)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000035 "CNG")
 AnnotationAssertion(rdfs:label coho:COHO_0000035 "Centre National de G_notypage"@en)
 SubClassOf(coho:COHO_0000035 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000035 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/France>))
 
 # Class: coho:COHO_0000036 (Chicago Asthma Genetics)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000036 "CAG")
 AnnotationAssertion(rdfs:label coho:COHO_0000036 "Chicago Asthma Genetics"@en)
 SubClassOf(coho:COHO_0000036 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000036 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000037 (Children, Allergy, Milieu, Stockholm, Epidemiology)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000037 "BAMSE")
 AnnotationAssertion(rdfs:label coho:COHO_0000037 "Children, Allergy, Milieu, Stockholm, Epidemiology"@en)
 SubClassOf(coho:COHO_0000037 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000037 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000038 (Cholesterol and Atherosclerosis Pharmacogenetics)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000038 "CAP")
 AnnotationAssertion(rdfs:label coho:COHO_0000038 "Cholesterol and Atherosclerosis Pharmacogenetics"@en)
 SubClassOf(coho:COHO_0000038 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000038 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000039 (Cilento study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000039 "Cilento")
 AnnotationAssertion(rdfs:label coho:COHO_0000039 "Cilento study"@en)
 SubClassOf(coho:COHO_0000039 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000039 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
 
 # Class: coho:COHO_0000040 (COIN)
 
@@ -559,24 +594,28 @@ SubClassOf(coho:COHO_0000041 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000042 "CORSA")
 AnnotationAssertion(rdfs:label coho:COHO_0000042 "Colorectal Cancer Study of Austria"@en)
 SubClassOf(coho:COHO_0000042 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000042 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Austria>))
 
 # Class: coho:COHO_0000043 (Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000043 "CLEAR")
 AnnotationAssertion(rdfs:label coho:COHO_0000043 "Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis"@en)
 SubClassOf(coho:COHO_0000043 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000043 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000044 (Consortium of Minority Population Genome-Wide Association Studies of Stroke)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000044 "COMPASS")
 AnnotationAssertion(rdfs:label coho:COHO_0000044 "Consortium of Minority Population Genome-Wide Association Studies of Stroke"@en)
 SubClassOf(coho:COHO_0000044 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000044 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000045 (Cooperative Health Research in the Region of Augsburg)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000045 "KORA")
 AnnotationAssertion(rdfs:label coho:COHO_0000045 "Cooperative Health Research in the Region of Augsburg"@en)
 SubClassOf(coho:COHO_0000045 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000045 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000046 (Copenhagen Hospital Biobank)
 
@@ -584,36 +623,42 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000046 "Copenhagen BB")
 AnnotationAssertion(rdfs:label coho:COHO_0000046 "Copenhagen Hospital Biobank"@en)
 SubClassOf(coho:COHO_0000046 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000046 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Denmark>))
 
 # Class: coho:COHO_0000047 (CROATIA-Korcula Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000047 "CROATIA-KORCULA")
 AnnotationAssertion(rdfs:label coho:COHO_0000047 "CROATIA-Korcula Study"@en)
 SubClassOf(coho:COHO_0000047 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000047 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Croatia>))
 
 # Class: coho:COHO_0000048 (Danish Glostrup Cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000048 "DGC")
 AnnotationAssertion(rdfs:label coho:COHO_0000048 "Danish Glostrup Cohort"@en)
 SubClassOf(coho:COHO_0000048 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000048 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Denmark>))
 
 # Class: coho:COHO_0000049 (Diabetes Genetics in Pakistan)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000049 "DGP")
 AnnotationAssertion(rdfs:label coho:COHO_0000049 "Diabetes Genetics in Pakistan"@en)
 SubClassOf(coho:COHO_0000049 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000049 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Pakistan>))
 
 # Class: coho:COHO_0000050 (Diabetes in Mexico Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000050 "DMS")
 AnnotationAssertion(rdfs:label coho:COHO_0000050 "Diabetes in Mexico Study"@en)
 SubClassOf(coho:COHO_0000050 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000050 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Mexico>))
 
 # Class: coho:COHO_0000051 (Diabetes Prevention Program)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000051 "DPP")
 AnnotationAssertion(rdfs:label coho:COHO_0000051 "Diabetes Prevention Program"@en)
 SubClassOf(coho:COHO_0000051 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000051 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000052 (Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication)
 
@@ -632,12 +677,14 @@ SubClassOf(coho:COHO_0000053 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000054 "DHS")
 AnnotationAssertion(rdfs:label coho:COHO_0000054 "Dortmund Health Study"@en)
 SubClassOf(coho:COHO_0000054 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000054 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000055 (Duke Cognition Cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000055 "DCC")
 AnnotationAssertion(rdfs:label coho:COHO_0000055 "Duke Cognition Cohort"@en)
 SubClassOf(coho:COHO_0000055 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000055 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000056 (DUNDEE)
 
@@ -649,6 +696,7 @@ SubClassOf(coho:COHO_0000056 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000057 "DDS")
 AnnotationAssertion(rdfs:label coho:COHO_0000057 "Durban Diabetes Study"@en)
 SubClassOf(coho:COHO_0000057 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000057 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/South_Africa>))
 
 # Class: coho:COHO_0000058 (Dutch and Belgian Lung Cancer Screening Trial)
 
@@ -691,6 +739,7 @@ SubClassOf(coho:COHO_0000063 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000064 "EB")
 AnnotationAssertion(rdfs:label coho:COHO_0000064 "Estonian Biobank"@en)
 SubClassOf(coho:COHO_0000064 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000064 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Estonia>))
 
 # Class: coho:COHO_0000065 (European Prospective Investigation into Cancer)
 
@@ -703,6 +752,7 @@ SubClassOf(coho:COHO_0000065 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000066 "EPIC-Norfolk")
 AnnotationAssertion(rdfs:label coho:COHO_0000066 "European Prospective Investigation of Cancer-Norfolk"@en)
 SubClassOf(coho:COHO_0000066 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000066 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000067 (EuroTARGET project)
 
@@ -715,23 +765,27 @@ SubClassOf(coho:COHO_0000067 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000068 "ELGAN")
 AnnotationAssertion(rdfs:label coho:COHO_0000068 "Extremely Low Gestational Age Newborns"@en)
 SubClassOf(coho:COHO_0000068 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000068 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000069 (Fatty Acid Sensor Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000069 "FAS")
 AnnotationAssertion(rdfs:label coho:COHO_0000069 "Fatty Acid Sensor Study"@en)
 SubClassOf(coho:COHO_0000069 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000069 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Denmark>))
 
 # Class: coho:COHO_0000070 (Finnish Twin Cohort Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000070 "FTC")
 AnnotationAssertion(rdfs:label coho:COHO_0000070 "Finnish Twin Cohort Study"@en)
 SubClassOf(coho:COHO_0000070 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000070 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Finland>))
 
 # Class: coho:COHO_0000071 (FINRISK)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000071 "FINRISK"@en)
 SubClassOf(coho:COHO_0000071 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000071 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Finland>))
 
 # Class: coho:COHO_0000072 (Flemish Gut Flora Project)
 
@@ -773,6 +827,7 @@ SubClassOf(coho:COHO_0000077 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000078 "CRA")
 AnnotationAssertion(rdfs:label coho:COHO_0000078 "Genetic Epidemiology of Asthma in Costa Rica"@en)
 SubClassOf(coho:COHO_0000078 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000078 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Costa_Rica>))
 
 # Class: coho:COHO_0000079 (Genetic Overlap between Metabolic and Psychiatric traits)
 
@@ -785,6 +840,7 @@ SubClassOf(coho:COHO_0000079 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000080 "PROFILE")
 AnnotationAssertion(rdfs:label coho:COHO_0000080 "Genetic Prostate cancer risk stratification for targeted screening"@en)
 SubClassOf(coho:COHO_0000080 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000080 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000081 (Genetic Research in Isolated)
 
@@ -797,12 +853,14 @@ SubClassOf(coho:COHO_0000081 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "GoDARTS")
 AnnotationAssertion(rdfs:label coho:COHO_0000082 "Genetics of diabetes Audit and Research"@en)
 SubClassOf(coho:COHO_0000082 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000082 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000083 (Genetics of Healthy Aging)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000083 "GEHA")
 AnnotationAssertion(rdfs:label coho:COHO_0000083 "Genetics of Healthy Aging"@en)
 SubClassOf(coho:COHO_0000083 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000083 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000084 (GenomeAsia 100K project)
 
@@ -815,54 +873,63 @@ SubClassOf(coho:COHO_0000084 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000085 "GMMG")
 AnnotationAssertion(rdfs:label coho:COHO_0000085 "German Multiple Myeloma Study Group"@en)
 SubClassOf(coho:COHO_0000085 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000085 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000086 (Ghana Prostate Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000086 "GPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000086 "Ghana Prostate Study"@en)
 SubClassOf(coho:COHO_0000086 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000086 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Ghana>))
 
 # Class: coho:COHO_0000087 (Glaucoma Inheritance Study in Tasmania)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000087 "GIST")
 AnnotationAssertion(rdfs:label coho:COHO_0000087 "Glaucoma Inheritance Study in Tasmania"@en)
 SubClassOf(coho:COHO_0000087 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000087 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000088 (Greece Hellenic Isolated Cohorts)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000088 "HELIC")
 AnnotationAssertion(rdfs:label coho:COHO_0000088 "Greece Hellenic Isolated Cohorts"@en)
 SubClassOf(coho:COHO_0000088 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000088 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Greece>))
 
 # Class: coho:COHO_0000089 (Health and Retirement Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000089 "HRS")
 AnnotationAssertion(rdfs:label coho:COHO_0000089 "Health and Retirement Study"@en)
 SubClassOf(coho:COHO_0000089 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000089 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000090 (Health2000 Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000090 "Health2000")
 AnnotationAssertion(rdfs:label coho:COHO_0000090 "Health2000 Study"@en)
 SubClassOf(coho:COHO_0000090 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000090 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Finland>))
 
 # Class: coho:COHO_0000091 (Heart Protection Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000091 "HPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000091 "Heart Protection Study"@en)
 SubClassOf(coho:COHO_0000091 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000091 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000092 (Hoorn Diabetes Care System)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000092 "DCS")
 AnnotationAssertion(rdfs:label coho:COHO_0000092 "Hoorn Diabetes Care System"@en)
 SubClassOf(coho:COHO_0000092 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000092 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000093 (Hospital Discharge Register Sweden)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000093 "HDR")
 AnnotationAssertion(rdfs:label coho:COHO_0000093 "Hospital Discharge Register Sweden"@en)
 SubClassOf(coho:COHO_0000093 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000093 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000094 (Human Genetics Initiative)
 
@@ -875,18 +942,21 @@ SubClassOf(coho:COHO_0000094 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000095 "HCS")
 AnnotationAssertion(rdfs:label coho:COHO_0000095 "Hunter Community Study"@en)
 SubClassOf(coho:COHO_0000095 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000095 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000096 (Icelandic Cancer Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000096 "ICR")
 AnnotationAssertion(rdfs:label coho:COHO_0000096 "Icelandic Cancer Registry"@en)
 SubClassOf(coho:COHO_0000096 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000096 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Iceland>))
 
 # Class: coho:COHO_0000097 (Identification of Men with a genetic predisposition to ProstAte Cancer)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000097 "IMPACT")
 AnnotationAssertion(rdfs:label coho:COHO_0000097 "Identification of Men with a genetic predisposition to ProstAte Cancer"@en)
 SubClassOf(coho:COHO_0000097 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000097 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000098 (IIBDGC genotyped CD study)
 
@@ -899,12 +969,14 @@ SubClassOf(coho:COHO_0000098 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000099 "ISS")
 AnnotationAssertion(rdfs:label coho:COHO_0000099 "Indiana Sisters Study"@en)
 SubClassOf(coho:COHO_0000099 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000099 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000100 (INfancia y Medio Ambiente Project)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000100 "INMA")
 AnnotationAssertion(rdfs:label coho:COHO_0000100 "INfancia y Medio Ambiente Project"@en)
 SubClassOf(coho:COHO_0000100 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000100 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Spain>))
 
 # Class: coho:COHO_0000101 (International Cancer Genome Consortium-Chronic Lymphocytic Leukemia)
 
@@ -941,41 +1013,48 @@ SubClassOf(coho:COHO_0000105 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000106 "LMC")
 AnnotationAssertion(rdfs:label coho:COHO_0000106 "Leeds Melanoma Cohort"@en)
 SubClassOf(coho:COHO_0000106 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000106 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000107 (Leiden Longevity Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000107 "LLS")
 AnnotationAssertion(rdfs:label coho:COHO_0000107 "Leiden Longevity Study"@en)
 SubClassOf(coho:COHO_0000107 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000107 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000108 (LifeLines)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000108 "LifeLines"@en)
 SubClassOf(coho:COHO_0000108 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000108 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000109 (Living Biobank)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000109 "Living-Biobank")
 AnnotationAssertion(rdfs:label coho:COHO_0000109 "Living Biobank"@en)
 SubClassOf(coho:COHO_0000109 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000109 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000110 (Los Angeles component of The Womens Contraceptive and Reproductive Experiences Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000110 "CARE")
 AnnotationAssertion(rdfs:label coho:COHO_0000110 "Los Angeles component of The Womens Contraceptive and Reproductive Experiences Study"@en)
 SubClassOf(coho:COHO_0000110 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000110 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000111 (Lothian Birth Cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000111 "LBC")
 AnnotationAssertion(rdfs:label coho:COHO_0000111 "Lothian Birth Cohort"@en)
 SubClassOf(coho:COHO_0000111 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000111 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000112 (Lund Stroke Register)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000112 "LSR")
 AnnotationAssertion(rdfs:label coho:COHO_0000112 "Lund Stroke Register"@en)
 SubClassOf(coho:COHO_0000112 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000112 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000113 (Marseille Thrombosis Association Study)
 
@@ -983,17 +1062,20 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000113 "Marseille Thrombosis Association")
 AnnotationAssertion(rdfs:label coho:COHO_0000113 "Marseille Thrombosis Association Study"@en)
 SubClassOf(coho:COHO_0000113 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000113 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/France>))
 
 # Class: coho:COHO_0000114 (Mexican Biobank)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000114 "MXBB")
 AnnotationAssertion(rdfs:label coho:COHO_0000114 "Mexican Biobank"@en)
 SubClassOf(coho:COHO_0000114 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000114 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Mexico>))
 
 # Class: coho:COHO_0000115 (MIRAGE)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000115 "MIRAGE"@en)
 SubClassOf(coho:COHO_0000115 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000115 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000116 (Molecular Genetics of Schizophrenia Collaboration)
 
@@ -1018,6 +1100,7 @@ SubClassOf(coho:COHO_0000118 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000119 "MESA")
 AnnotationAssertion(rdfs:label coho:COHO_0000119 "Multi-Ethnic Study of Atherosclerosis"@en)
 SubClassOf(coho:COHO_0000119 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000119 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000120 (Multicenter Family Study)
 
@@ -1030,59 +1113,69 @@ SubClassOf(coho:COHO_0000120 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000121 "MEC")
 AnnotationAssertion(rdfs:label coho:COHO_0000121 "Multiethnic Cohort Study of Diet and Health"@en)
 SubClassOf(coho:COHO_0000121 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000121 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000122 (Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000122 "MEGA")
 AnnotationAssertion(rdfs:label coho:COHO_0000122 "Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis"@en)
 SubClassOf(coho:COHO_0000122 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000122 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000123 (National Health Service Blood and Transplant)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000123 "NHSBT")
 AnnotationAssertion(rdfs:label coho:COHO_0000123 "National Health Service Blood and Transplant"@en)
 SubClassOf(coho:COHO_0000123 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000123 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000124 (National Study of Colorectal Cancer Genetics)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000124 "NSCCG")
 AnnotationAssertion(rdfs:label coho:COHO_0000124 "National Study of Colorectal Cancer Genetics"@en)
 SubClassOf(coho:COHO_0000124 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000124 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000125 (Netherlands Twin Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000125 "NTR")
 AnnotationAssertion(rdfs:label coho:COHO_0000125 "Netherlands Twin Registry"@en)
 SubClassOf(coho:COHO_0000125 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000125 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000126 (New England-based Case-Control Study of Ovarian Cancer)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000126 "NECC")
 AnnotationAssertion(rdfs:label coho:COHO_0000126 "New England-based Case-Control Study of Ovarian Cancer"@en)
 SubClassOf(coho:COHO_0000126 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000126 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000127 (NIDDK)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000127 "NIDDK"@en)
 SubClassOf(coho:COHO_0000127 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000127 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000128 (Nijmegen Biomedical Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000128 "NBS")
 AnnotationAssertion(rdfs:label coho:COHO_0000128 "Nijmegen Biomedical Study"@en)
 SubClassOf(coho:COHO_0000128 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000128 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000129 (Northern Ireland Cohort for Longitudinal Study of Ageing)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000129 "NICOLA")
 AnnotationAssertion(rdfs:label coho:COHO_0000129 "Northern Ireland Cohort for Longitudinal Study of Ageing"@en)
 SubClassOf(coho:COHO_0000129 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000129 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000130 (Northern Sweden Population Health Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000130 "NSPHS")
 AnnotationAssertion(rdfs:label coho:COHO_0000130 "Northern Sweden Population Health Study"@en)
 SubClassOf(coho:COHO_0000130 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000130 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000131 (Norwegian Mother and Child Cohort study)
 
@@ -1090,12 +1183,14 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000131 "MoBa")
 AnnotationAssertion(rdfs:label coho:COHO_0000131 "Norwegian Mother and Child Cohort study"@en)
 SubClassOf(coho:COHO_0000131 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000131 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Norway>))
 
 # Class: coho:COHO_0000132 (Orkney Complex Disease Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000132 "ORCADES")
 AnnotationAssertion(rdfs:label coho:COHO_0000132 "Orkney Complex Disease Study"@en)
 SubClassOf(coho:COHO_0000132 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000132 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000133 (Outcome Reduction With Initial Glargine Intervention Trial)
 
@@ -1121,6 +1216,7 @@ SubClassOf(coho:COHO_0000135 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000136 "OBB")
 AnnotationAssertion(rdfs:label coho:COHO_0000136 "Oxford Biobank"@en)
 SubClassOf(coho:COHO_0000136 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000136 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000137 (PanCareLIFE)
 
@@ -1133,48 +1229,56 @@ SubClassOf(coho:COHO_0000137 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000138 "PEG")
 AnnotationAssertion(rdfs:label coho:COHO_0000138 "Parkinson Environment and Gene"@en)
 SubClassOf(coho:COHO_0000138 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000138 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000139 (People of the British Isles)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000139 "PoBI")
 AnnotationAssertion(rdfs:label coho:COHO_0000139 "People of the British Isles"@en)
 SubClassOf(coho:COHO_0000139 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000139 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000140 (Physical Activity and Nutrition in Children Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000140 "PANIC")
 AnnotationAssertion(rdfs:label coho:COHO_0000140 "Physical Activity and Nutrition in Children Study"@en)
 SubClassOf(coho:COHO_0000140 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000140 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Australia>))
 
 # Class: coho:COHO_0000141 (Population-based Colonoscopy study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000141 "PopCol")
 AnnotationAssertion(rdfs:label coho:COHO_0000141 "Population-based Colonoscopy study"@en)
 SubClassOf(coho:COHO_0000141 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000141 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000142 (Precocious Coronary Artery Disease Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000142 "PROCARDIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000142 "Precocious Coronary Artery Disease Study"@en)
 SubClassOf(coho:COHO_0000142 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000142 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/India>))
 
 # Class: coho:COHO_0000143 (Pressioni Arteriose Monitorate E Loro Associazionie)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000143 "PAMELA")
 AnnotationAssertion(rdfs:label coho:COHO_0000143 "Pressioni Arteriose Monitorate E Loro Associazionie"@en)
 SubClassOf(coho:COHO_0000143 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000143 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
 
 # Class: coho:COHO_0000144 (Prospective Investigation of the Vasculature in Uppsala Seniors)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000144 "PIVUS")
 AnnotationAssertion(rdfs:label coho:COHO_0000144 "Prospective Investigation of the Vasculature in Uppsala Seniors"@en)
 SubClassOf(coho:COHO_0000144 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000144 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000145 (Psoriasis Association Genetics Extension)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000145 "PAGE")
 AnnotationAssertion(rdfs:label coho:COHO_0000145 "Psoriasis Association Genetics Extension"@en)
 SubClassOf(coho:COHO_0000145 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000145 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000146 (Psychiatric GWAS Consortium)
 
@@ -1193,36 +1297,42 @@ SubClassOf(coho:COHO_0000147 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000148 "RS")
 AnnotationAssertion(rdfs:label coho:COHO_0000148 "Rotterdam Study"@en)
 SubClassOf(coho:COHO_0000148 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000148 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000149 (Saguenay-Lac-Saint-Jean asthma study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000149 "SLSJ")
 AnnotationAssertion(rdfs:label coho:COHO_0000149 "Saguenay-Lac-Saint-Jean asthma study"@en)
 SubClassOf(coho:COHO_0000149 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000149 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Canada>))
 
 # Class: coho:COHO_0000150 (Sahlgrenska Academy Study on Ischemic Stroke)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000150 "SAHLSIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000150 "Sahlgrenska Academy Study on Ischemic Stroke"@en)
 SubClassOf(coho:COHO_0000150 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000150 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000151 (SardiNIA Study of Aging)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000151 "SardiNIA")
 AnnotationAssertion(rdfs:label coho:COHO_0000151 "SardiNIA Study of Aging"@en)
 SubClassOf(coho:COHO_0000151 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000151 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
 
 # Class: coho:COHO_0000152 (Scania Diabetes Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000152 "SDR")
 AnnotationAssertion(rdfs:label coho:COHO_0000152 "Scania Diabetes Registry"@en)
 SubClassOf(coho:COHO_0000152 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000152 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000153 (Shanghai Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000153 "Shanghai")
 AnnotationAssertion(rdfs:label coho:COHO_0000153 "Shanghai Study"@en)
 SubClassOf(coho:COHO_0000153 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000153 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/China>))
 
 # Class: coho:COHO_0000154 (Short Course Oncology Treatment trial)
 
@@ -1235,12 +1345,14 @@ SubClassOf(coho:COHO_0000154 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000155 "SSC")
 AnnotationAssertion(rdfs:label coho:COHO_0000155 "Simons Simplex Collection"@en)
 SubClassOf(coho:COHO_0000155 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000155 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000156 (Singapore Chinese Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000156 "SCH")
 AnnotationAssertion(rdfs:label coho:COHO_0000156 "Singapore Chinese Study"@en)
 SubClassOf(coho:COHO_0000156 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000156 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Singapore>))
 
 # Class: coho:COHO_0000157 (SORCE)
 
@@ -1252,78 +1364,91 @@ SubClassOf(coho:COHO_0000157 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000158 "Spit")
 AnnotationAssertion(rdfs:label coho:COHO_0000158 "Spit for Science"@en)
 SubClassOf(coho:COHO_0000158 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000158 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_States>))
 
 # Class: coho:COHO_0000159 (Sweden Bipolar Disorder Cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000159 "SWEBIC")
 AnnotationAssertion(rdfs:label coho:COHO_0000159 "Sweden Bipolar Disorder Cohort"@en)
 SubClassOf(coho:COHO_0000159 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000159 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000160 (Swedish Twin Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000160 "STR")
 AnnotationAssertion(rdfs:label coho:COHO_0000160 "Swedish Twin Registry"@en)
 SubClassOf(coho:COHO_0000160 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000160 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 
 # Class: coho:COHO_0000161 (Taiwan Type 2 Diabetes Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000161 "TDS")
 AnnotationAssertion(rdfs:label coho:COHO_0000161 "Taiwan Type 2 Diabetes Study"@en)
 SubClassOf(coho:COHO_0000161 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000161 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Taiwan>))
 
 # Class: coho:COHO_0000162 (TEENs of Attica: Genes and Environment)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000162 "TEENAGE")
 AnnotationAssertion(rdfs:label coho:COHO_0000162 "TEENs of Attica: Genes and Environment"@en)
 SubClassOf(coho:COHO_0000162 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000162 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Greece>))
 
 # Class: coho:COHO_0000163 (The English Longitudinal Study of Ageing)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000163 "ELSA")
 AnnotationAssertion(rdfs:label coho:COHO_0000163 "The English Longitudinal Study of Ageing"@en)
 SubClassOf(coho:COHO_0000163 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000163 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000164 (The Fenland Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000164 "Fenland")
 AnnotationAssertion(rdfs:label coho:COHO_0000164 "The Fenland Study"@en)
 SubClassOf(coho:COHO_0000164 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000164 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000165 (The Helmholtz-Gemeinschaft Deutscher Forschungszentren)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000165 "HGF")
 AnnotationAssertion(rdfs:label coho:COHO_0000165 "The Helmholtz-Gemeinschaft Deutscher Forschungszentren"@en)
 SubClassOf(coho:COHO_0000165 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000165 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000166 (The MANOLIS cohort)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000166 "MANOLIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000166 "The MANOLIS cohort"@en)
 SubClassOf(coho:COHO_0000166 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000166 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Greece>))
 
 # Class: coho:COHO_0000167 (The Netherlands AAA GWAS dataset)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000167 "Netherlands")
 AnnotationAssertion(rdfs:label coho:COHO_0000167 "The Netherlands AAA GWAS dataset"@en)
 SubClassOf(coho:COHO_0000167 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000167 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000168 (The Norwegian Biobank for Myeloma)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000168 "NBM")
 AnnotationAssertion(rdfs:label coho:COHO_0000168 "The Norwegian Biobank for Myeloma"@en)
 SubClassOf(coho:COHO_0000168 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000168 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Norway>))
 
 # Class: coho:COHO_0000169 (The Pakistan Risk Of Myocardial Infarction Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000169 "PROMIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000169 "The Pakistan Risk Of Myocardial Infarction Study"@en)
 SubClassOf(coho:COHO_0000169 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000169 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Pakistan>))
 
 # Class: coho:COHO_0000170 (The Secondary Manifestations of ARTerial disease study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000170 "SMART")
 AnnotationAssertion(rdfs:label coho:COHO_0000170 "The Secondary Manifestations of ARTerial disease study"@en)
 SubClassOf(coho:COHO_0000170 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000170 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000171 (The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility)
 
@@ -1332,6 +1457,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000171 "The Hellenic study of Interactions between SNPs & Eating in Atherosclerosis")
 AnnotationAssertion(rdfs:label coho:COHO_0000171 "The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility"@en)
 SubClassOf(coho:COHO_0000171 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000171 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Greece>))
 
 # Class: coho:COHO_0000172 (Treating to New Targets)
 
@@ -1344,6 +1470,7 @@ SubClassOf(coho:COHO_0000172 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000173 "TEDS")
 AnnotationAssertion(rdfs:label coho:COHO_0000173 "Twins Early Development Study"@en)
 SubClassOf(coho:COHO_0000173 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000173 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000174 (Type 1 Diabetes Genetics Consortium)
 
@@ -1362,24 +1489,28 @@ SubClassOf(coho:COHO_0000175 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000176 "UKB")
 AnnotationAssertion(rdfs:label coho:COHO_0000176 "UK Biobank"@en)
 SubClassOf(coho:COHO_0000176 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000176 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000177 (UK Brain Expression Consortium)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000177 "UKBEC")
 AnnotationAssertion(rdfs:label coho:COHO_0000177 "UK Brain Expression Consortium"@en)
 SubClassOf(coho:COHO_0000177 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000177 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000178 (UK Childhood Cancer Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000178 "UKCCS")
 AnnotationAssertion(rdfs:label coho:COHO_0000178 "UK Childhood Cancer Study"@en)
 SubClassOf(coho:COHO_0000178 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000178 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000179 (UK Household Longitudinal Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000179 "UKHLS")
 AnnotationAssertion(rdfs:label coho:COHO_0000179 "UK Household Longitudinal Study"@en)
 SubClassOf(coho:COHO_0000179 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000179 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000180 (UK Inflammatory Bowel Disease Genetics Consortium)
 
@@ -1393,6 +1524,7 @@ SubClassOf(coho:COHO_0000180 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000181 "VIKING")
 AnnotationAssertion(rdfs:label coho:COHO_0000181 "Viking Health Study"@en)
 SubClassOf(coho:COHO_0000181 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000181 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000182 (Wellcome Trust Case Control Consortium)
 
@@ -1405,16 +1537,19 @@ SubClassOf(coho:COHO_0000182 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000183 "BCC")
 AnnotationAssertion(rdfs:label coho:COHO_0000183 "Basquecolon cohort"@en)
 SubClassOf(coho:COHO_0000183 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000183 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Spain>))
 
 # Class: coho:COHO_0000184 (INTERVAL study)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000184 "INTERVAL study"@en)
 SubClassOf(coho:COHO_0000184 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000184 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000185 (CONVERGE)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000185 "CONVERGE"@en)
 SubClassOf(coho:COHO_0000185 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000185 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/China>))
 
 # Class: coho:COHO_0000186 (Gene-Environmental Interaction and phenotype study)
 
@@ -1427,12 +1562,14 @@ SubClassOf(coho:COHO_0000186 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000187 "CAS")
 AnnotationAssertion(rdfs:label coho:COHO_0000187 "China Atherosclerosis Study"@en)
 SubClassOf(coho:COHO_0000187 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000187 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/China>))
 
 # Class: coho:COHO_0000188 (Diabetes Prediction and Prevention)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000188 "DIPP")
 AnnotationAssertion(rdfs:label coho:COHO_0000188 "Diabetes Prediction and Prevention"@en)
 SubClassOf(coho:COHO_0000188 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000188 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Finland>))
 
 # Class: coho:COHO_0000189 (Functional genomic diagnostic tools for coronary artery disease)
 
@@ -1445,12 +1582,14 @@ SubClassOf(coho:COHO_0000189 coho:TEMP_temporary_unclassified)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000190 "GCKD")
 AnnotationAssertion(rdfs:label coho:COHO_0000190 "German Chronic Kidney Disease Study"@en)
 SubClassOf(coho:COHO_0000190 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000190 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000191 (German Longevity Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000191 "GLS")
 AnnotationAssertion(rdfs:label coho:COHO_0000191 "German Longevity Study"@en)
 SubClassOf(coho:COHO_0000191 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000191 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000192 (Global Registry of Acute Coronary Events)
 
@@ -1463,6 +1602,7 @@ SubClassOf(coho:COHO_0000192 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000193 "TwinGene")
 AnnotationAssertion(rdfs:label coho:COHO_0000193 "TwinGene Study"@en)
 SubClassOf(coho:COHO_0000193 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000193 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Sweden>))
 SubClassOf(coho:COHO_0000193 ObjectSomeValuesFrom(coho:isSubCohortOf coho:COHO_0000193))
 
 # Class: coho:COHO_0000194 (Uppsala Longitudinal Study of Adult Men)
@@ -1494,12 +1634,14 @@ SubClassOf(coho:COHO_0000197 coho:COHO_0000000)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000198 "Ely")
 AnnotationAssertion(rdfs:label coho:COHO_0000198 "Ely Study"@en)
 SubClassOf(coho:COHO_0000198 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000198 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/United_Kingdom>))
 
 # Class: coho:COHO_0000199 (Genetic Asthma Susceptibility to Indoor Pollution in Peru)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000199 "GASP")
 AnnotationAssertion(rdfs:label coho:COHO_0000199 "Genetic Asthma Susceptibility to Indoor Pollution in Peru"@en)
 SubClassOf(coho:COHO_0000199 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000199 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Peru>))
 
 # Class: coho:COHO_0000200 (Parkinson's Progression Markers Initiative)
 
@@ -1518,18 +1660,21 @@ SubClassOf(coho:COHO_0000201 coho:COHO_0000001)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000202 "SHIP")
 AnnotationAssertion(rdfs:label coho:COHO_0000202 "Study of Health in Pomerania"@en)
 SubClassOf(coho:COHO_0000202 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000202 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Germany>))
 
 # Class: coho:COHO_0000203 (The Cooperative Health Research in South Tyrol)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000203 "CHRIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000203 "The Cooperative Health Research in South Tyrol"@en)
 SubClassOf(coho:COHO_0000203 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000203 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Italy>))
 
 # Class: coho:COHO_0000204 (The Health Effects of Arsenic Longitudinal Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000204 "HEALS")
 AnnotationAssertion(rdfs:label coho:COHO_0000204 "The Health Effects of Arsenic Longitudinal Study"@en)
 SubClassOf(coho:COHO_0000204 coho:COHO_0000000)
+SubClassOf(coho:COHO_0000204 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Bangladesh>))
 
 # Class: coho:COHO_0000205 (TwinGene Registry)
 
