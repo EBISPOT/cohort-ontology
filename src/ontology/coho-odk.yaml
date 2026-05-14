@@ -24,7 +24,7 @@ import_group:
     - id: ro
     - id: omo
       module_type: mirror
-    - id: NCIT
+    - id: ncit
 robot_java_args: '-Xmx8G'
 documentation:
   documentation_system: mkdocs
