@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                5483fdcea0f6bdbb3904028ea1ce8c96e36725191f5380f35c1d7d271eb70a67
+CONFIG_HASH=                7dec12178477131e2fc4a147b2f975a080e90865c33d8b258b9ccaab75ef2217
 
 
 # ----------------------------------------
@@ -57,7 +57,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/GWAS.owl $(COMPONENTSDIR)/MetaboLight.owl $(COMPONENTSDIR)/EGA.owl $(COMPONENTSDIR)/PRIDE.owl 
+OTHER_SRC =                 $(COMPONENTSDIR)/gaz_xrefs.owl $(COMPONENTSDIR)/GWAS.owl $(COMPONENTSDIR)/MetaboLight.owl $(COMPONENTSDIR)/EGA.owl $(COMPONENTSDIR)/PRIDE.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -187,7 +187,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  ro omo
+IMPORTS =  ro omo NCIT
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -465,7 +465,8 @@ all_components: $(OTHER_SRC)
 
 .PHONY: recreate-components
 recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-gaz_xrefs.owl \
+		--assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
 		--assume-new=$(TMPDIR)/stamp-component-MetaboLight.owl \
 		--assume-new=$(TMPDIR)/stamp-component-EGA.owl \
 		--assume-new=$(TMPDIR)/stamp-component-PRIDE.owl \
@@ -473,7 +474,8 @@ recreate-components:
 
 .PHONY: no-mirror-recreate-components
 no-mirror-recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
+	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-gaz_xrefs.owl \
+		--assume-new=$(TMPDIR)/stamp-component-GWAS.owl \
 		--assume-new=$(TMPDIR)/stamp-component-MetaboLight.owl \
 		--assume-new=$(TMPDIR)/stamp-component-EGA.owl \
 		--assume-new=$(TMPDIR)/stamp-component-PRIDE.owl \
@@ -496,6 +498,12 @@ $(COMPONENTSDIR)/%.owl: $(TMPDIR)/stamp-component-%.owl | $(COMPONENTSDIR)
 $(TMPDIR)/stamp-component-%.owl: | $(TMPDIR)
 	touch $@
 .PRECIOUS: $(TMPDIR)/stamp-component-%.owl
+
+$(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv $(TMPDIR)/stamp-component-gaz_xrefs.owl
+	$(ROBOT) template --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
+		 --template $(TEMPLATEDIR)/gaz_xrefs.tsv \
+		 $(ANNOTATE_CONVERT_FILE)
+.PRECIOUS: $(COMPONENTSDIR)/gaz_xrefs.owl
 
 $(COMPONENTSDIR)/GWAS.owl: $(TEMPLATEDIR)/GWAS.csv $(TMPDIR)/stamp-component-GWAS.owl
 	$(ROBOT) template  \
@@ -543,6 +551,14 @@ mirror-ro: | $(TMPDIR)
 mirror-omo: | $(TMPDIR)
 	curl -L $(OBOBASE)/omo.owl --create-dirs -o $(TMPDIR)/omo-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/omo-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: NCIT
+.PHONY: mirror-NCIT
+.PRECIOUS: $(MIRRORDIR)/NCIT.owl
+mirror-NCIT: | $(TMPDIR)
+	curl -L $(OBOBASE)/NCIT.owl --create-dirs -o $(TMPDIR)/NCIT-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/NCIT-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
