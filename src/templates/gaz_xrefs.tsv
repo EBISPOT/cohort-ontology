@@ -1,56 +1,38 @@
-ID	database_cross_reference	parent_class	label	part_of_area
-ID	A oio:hasDbXref	SC %	A rdfs:label	SC BFO:0000050 some %
-dbpedia:Australia	GAZ:00000463	NCIT:C25464	Australia	dbpedia:Oceania
-dbpedia:Austria	GAZ:00002942	NCIT:C25464	Austria	dbpedia:Europe
-dbpedia:Bangladesh	GAZ:00003750	NCIT:C25464	Bangladesh	dbpedia:South_Asia
-dbpedia:Belgium	GAZ:00002938	NCIT:C25464	Belgium	dbpedia:Europe
-dbpedia:Brazil	GAZ:00002828	NCIT:C25464	Brazil	dbpedia:SouthAmerica
-dbpedia:Burkina_Faso	GAZ:00000905	NCIT:C25464	Burkina Faso	dbpedia:Western_Africa
-dbpedia:Canada	GAZ:00002560	NCIT:C25464	Canada	dbpedia:Northern_America
-dbpedia:China	GAZ:00002845	NCIT:C25464	China	dbpedia:Eastern_Asia
-dbpedia:Costa_Rica	GAZ:00002901	NCIT:C25464	Costa Rica	dbpedia:Central_America
-dbpedia:Croatia	GAZ:00002719	NCIT:C25464	Croatia	dbpedia:Europe
-dbpedia:Denmark	GAZ:00002635	NCIT:C25464	Denmark	dbpedia:Europe
-dbpedia:Estonia	GAZ:00002959	NCIT:C25464	Estonia	dbpedia:Europe
-dbpedia:Ethiopia	GAZ:00000567	NCIT:C25464	Ethiopia	dbpedia:Eastern_Africa
-dbpedia:Finland	GAZ:00002937	NCIT:C25464	Finland	dbpedia:Europe
-dbpedia:France	GAZ:00002940	NCIT:C25464	France	dbpedia:Europe
-dbpedia:Germany	GAZ:00002646	NCIT:C25464	Germany	dbpedia:Europe
-dbpedia:Ghana	GAZ:00000908	NCIT:C25464	Ghana	dbpedia:Western_Africa
-dbpedia:Greece	GAZ:00002945	NCIT:C25464	Greece	dbpedia:Europe
-dbpedia:Iceland	GAZ:00000843	NCIT:C25464	Iceland	dbpedia:Europe
-dbpedia:India	GAZ:00002839	NCIT:C25464	India	dbpedia:South_Asia
-dbpedia:Italy	GAZ:00002650	NCIT:C25464	Italy	dbpedia:Europe
-dbpedia:Japan	GAZ:00002747	NCIT:C25464	Japan	dbpedia:Eastern_Asia
-dbpedia:Kenya	GAZ:00001101	NCIT:C25464	Kenya	dbpedia:Eastern_Africa
-dbpedia:Mexico	GAZ:00002852	NCIT:C25464	Mexico	dbpedia:Northern_America
-dbpedia:Netherlands	GAZ:00001549	NCIT:C25464	Netherlands	dbpedia:Europe
-dbpedia:Norway	GAZ:00002699	NCIT:C25464	Norway	dbpedia:Europe
-dbpedia:Pakistan	GAZ:00005246	NCIT:C25464	Pakistan	dbpedia:South_Asia
-dbpedia:Peru	GAZ:00002932	NCIT:C25464	Peru	dbpedia:SouthAmerica
-dbpedia:Poland	GAZ:00002939	NCIT:C25464	Poland	dbpedia:Europe
-dbpedia:Singapore	GAZ:00003923	NCIT:C25464	Singapore	dbpedia:South-Eastern_Asia
-dbpedia:South_Africa	GAZ:00000553	NCIT:C25464	South Africa	dbpedia:Southern_Africa
-dbpedia:Spain	GAZ:00000591	NCIT:C25464	Spain	dbpedia:Europe
-dbpedia:Sweden	GAZ:00002729	NCIT:C25464	Sweden	dbpedia:Europe
-dbpedia:Taiwan	GAZ:00005341	NCIT:C25464	Taiwan	dbpedia:Eastern_Asia
-dbpedia:United_Kingdom	GAZ:00002637	NCIT:C25464	United Kingdom	dbpedia:Europe
-dbpedia:United_States	GAZ:00002459	NCIT:C25464	United States	dbpedia:Northern_America
-dbpedia:Africa	GAZ:00000457	NCIT:C16632	Africa	
-dbpedia:Asia	GAZ:00000465	NCIT:C16632	Asia	
-dbpedia:Europe	GAZ:00000464	NCIT:C16632	Europe	
-dbpedia:Northern_America	GAZ:00000458	NCIT:C16632	Northern America	
-dbpedia:Oceania	GAZ:00000468	NCIT:C16632	Oceania	
-dbpedia:Central_America	GAZ:00002891	NCIT:C16632	Central America	dbpedia:Northern_America
-dbpedia:Eastern_Africa	GAZ:00000556	NCIT:C16632	Eastern Africa	dbpedia:Africa
-dbpedia:Eastern_Asia	GAZ:00002471	NCIT:C16632	Eastern Asia	dbpedia:Asia
-dbpedia:Melanesia	GAZ:00005860	NCIT:C16632	Melanesia	dbpedia:Oceania
-dbpedia:Micronesia	GAZ:00005862	NCIT:C16632	Micronesia	dbpedia:Oceania
-dbpedia:Northern_Africa	GAZ:00000555	NCIT:C16632	Northern Africa	dbpedia:Africa
-dbpedia:Polynesia	GAZ:00005861	NCIT:C16632	Polynesia	dbpedia:Oceania
-dbpedia:SouthAmerica	GAZ:00000459	NCIT:C16632	South America	
-dbpedia:South_Asia	GAZ:00002472	NCIT:C16632	South Asia	dbpedia:Asia
-dbpedia:South-Eastern_Asia	GAZ:00000559	NCIT:C16632	South-Eastern Asia	dbpedia:Asia
-dbpedia:Southern_Africa	GAZ:00000553	NCIT:C16632	Southern Africa	dbpedia:Africa
-dbpedia:Western_Africa	GAZ:00000554	NCIT:C16632	Western Africa	dbpedia:Africa
-dbpedia:Central_Africa	GAZ:00000588	NCIT:C16632	Central Africa	dbpedia:Africa
+ID	database_cross_reference	parent_class	label
+ID	A oio:hasDbXref	SC %	A rdfs:label
+dbpedia:Australia	GAZ:00000463	NCIT:C25464	Australia
+dbpedia:Austria	GAZ:00002942	NCIT:C25464	Austria
+dbpedia:Bangladesh	GAZ:00003750	NCIT:C25464	Bangladesh
+dbpedia:Belgium	GAZ:00002938	NCIT:C25464	Belgium
+dbpedia:Brazil	GAZ:00002828	NCIT:C25464	Brazil
+dbpedia:Burkina_Faso	GAZ:00000905	NCIT:C25464	Burkina Faso
+dbpedia:Canada	GAZ:00002560	NCIT:C25464	Canada
+dbpedia:China	GAZ:00002845	NCIT:C25464	China
+dbpedia:Costa_Rica	GAZ:00002901	NCIT:C25464	Costa Rica
+dbpedia:Croatia	GAZ:00002719	NCIT:C25464	Croatia
+dbpedia:Denmark	GAZ:00002635	NCIT:C25464	Denmark
+dbpedia:Estonia	GAZ:00002959	NCIT:C25464	Estonia
+dbpedia:Ethiopia	GAZ:00000567	NCIT:C25464	Ethiopia
+dbpedia:Finland	GAZ:00002937	NCIT:C25464	Finland
+dbpedia:France	GAZ:00002940	NCIT:C25464	France
+dbpedia:Germany	GAZ:00002646	NCIT:C25464	Germany
+dbpedia:Ghana	GAZ:00000908	NCIT:C25464	Ghana
+dbpedia:Greece	GAZ:00002945	NCIT:C25464	Greece
+dbpedia:Iceland	GAZ:00000843	NCIT:C25464	Iceland
+dbpedia:India	GAZ:00002839	NCIT:C25464	India
+dbpedia:Italy	GAZ:00002650	NCIT:C25464	Italy
+dbpedia:Japan	GAZ:00002747	NCIT:C25464	Japan
+dbpedia:Kenya	GAZ:00001101	NCIT:C25464	Kenya
+dbpedia:Mexico	GAZ:00002852	NCIT:C25464	Mexico
+dbpedia:Netherlands	GAZ:00001549	NCIT:C25464	Netherlands
+dbpedia:Norway	GAZ:00002699	NCIT:C25464	Norway
+dbpedia:Pakistan	GAZ:00005246	NCIT:C25464	Pakistan
+dbpedia:Peru	GAZ:00002932	NCIT:C25464	Peru
+dbpedia:Poland	GAZ:00002939	NCIT:C25464	Poland
+dbpedia:Singapore	GAZ:00003923	NCIT:C25464	Singapore
+dbpedia:South_Africa	GAZ:00000553	NCIT:C25464	South Africa
+dbpedia:Spain	GAZ:00000591	NCIT:C25464	Spain
+dbpedia:Sweden	GAZ:00002729	NCIT:C25464	Sweden
+dbpedia:Taiwan	GAZ:00005341	NCIT:C25464	Taiwan
+dbpedia:United_Kingdom	GAZ:00002637	NCIT:C25464	United Kingdom
+dbpedia:United_States	GAZ:00002459	NCIT:C25464	United States

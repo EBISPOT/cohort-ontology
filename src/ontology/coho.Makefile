@@ -5,7 +5,9 @@
 
 # Override component template rules to add the COHO prefix mapping,
 # which ROBOT needs to resolve COHO:XXXXXXX CURIEs in the CSV templates.
-COHO_PREFIX = --prefix "COHO: http://www.ebi.ac.uk/coho/COHO_"
+COHO_PREFIX = --prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" \
+	--prefix "dbpedia: http://dbpedia.org/resource/" \
+	--prefix "oio: http://www.geneontology.org/formats/oboInOwl\#"
 
 ifeq ($(COMP),true)
 
