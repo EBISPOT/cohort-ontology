@@ -19,8 +19,10 @@ bin/
 /coho.json
 /coho.db
 /coho-base.*
+!/coho-base.owl
 /coho-basic.*
 /coho-full.*
+!/coho-full.owl
 /coho-simple.*
 /coho-simple-non-classified.*
 /mappings/
