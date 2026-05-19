@@ -353,11 +353,11 @@ SubClassOf(coho:COHO_0000005 ObjectSomeValuesFrom(coho:has_data_collection_locat
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000006 "AWI-Gen")
 AnnotationAssertion(rdfs:label coho:COHO_0000006 "Africa Wits-INDEPTH partnership for Genomics studies"@en)
 SubClassOf(coho:COHO_0000006 coho:COHO_0000001)
-SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/South_Africa>))
+SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Burkina_Faso>))
+SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Ethiopia>))
 SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Ghana>))
 SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Kenya>))
-SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Ethiopia>))
-SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Burkina_Faso>))
+SubClassOf(coho:COHO_0000006 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/South_Africa>))
 
 # Class: coho:COHO_0000007 (Arthritis Research UK Osteoarthritis Genetics)
 
@@ -713,8 +713,8 @@ SubClassOf(coho:COHO_0000057 ObjectSomeValuesFrom(coho:has_data_collection_locat
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000058 "NELSON")
 AnnotationAssertion(rdfs:label coho:COHO_0000058 "Dutch and Belgian Lung Cancer Screening Trial"@en)
 SubClassOf(coho:COHO_0000058 coho:TEMP_temporary_unclassified)
-SubClassOf(coho:COHO_0000058 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 SubClassOf(coho:COHO_0000058 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Belgium>))
+SubClassOf(coho:COHO_0000058 ObjectSomeValuesFrom(coho:has_data_collection_location <http://dbpedia.org/resource/Netherlands>))
 
 # Class: coho:COHO_0000059 (Dutch Microbiome Project)
 
@@ -1716,5 +1716,5 @@ SubClassOf(coho:COHO_0000205 coho:COHO_0000000)
 AnnotationAssertion(rdfs:label coho:TEMP_temporary_unclassified "temporary unclassified"@en)
 
 
-SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:BFO_0000050) coho:has_data_collection_location)
+SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:RO_0001025) coho:has_data_collection_location)
 )
