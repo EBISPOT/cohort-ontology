@@ -1,0 +1,3538 @@
+format-version: 1.2
+data-version: http://www.ebi.ac.uk/coho/releases/2026-05-19/coho.owl
+subsetdef: coho1:EGA_subset ""
+subsetdef: coho1:GWAS_subset ""
+subsetdef: coho1:MetaboLight_subset ""
+subsetdef: coho1:PRIDE_subset ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+subsetdef: NCIT:C132298 ""
+subsetdef: NCIT:C132308 ""
+subsetdef: NCIT:C183061 ""
+subsetdef: NCIT:C188693 ""
+subsetdef: NCIT:C201253 ""
+subsetdef: NCIT:C207412 ""
+subsetdef: NCIT:C54447 ""
+subsetdef: NCIT:C61410 ""
+subsetdef: ro-eco ""
+subsetdef: RO:0002259 ""
+synonymtypedef: OMO:0003000 "abbreviation"
+synonymtypedef: OMO:0003001 "ambiguous synonym"
+synonymtypedef: OMO:0003002 "dubious synonym"
+synonymtypedef: OMO:0003003 "layperson synonym"
+synonymtypedef: OMO:0003004 "plural form"
+synonymtypedef: OMO:0003005 "UK spelling synonym"
+synonymtypedef: OMO:0003006 "misspelling"
+synonymtypedef: OMO:0003007 "misnomer"
+synonymtypedef: OMO:0003008 "previous name"
+synonymtypedef: OMO:0003009 "legal name"
+synonymtypedef: OMO:0003010 "International Nonproprietary Name"
+synonymtypedef: OMO:0003011 "latin term"
+synonymtypedef: OMO:0003012 "acronym"
+idspace: coho http://www.ebi.ac.uk/coho/ 
+idspace: coho1 http://www.ebi.ac.uk/coho# 
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
+ontology: http://www.ebi.ac.uk/coho.owl
+property_value: dcterms:description "None" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/unspecified
+property_value: dcterms:title "Cohort Ontology" xsd:string
+property_value: owl:versionInfo "2026-05-19" xsd:string
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+disjoint_from: BFO:0000003 ! occurrent
+relationship: BFO:0000050 BFO:0000002 {all_only="true"} ! part of continuant
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+relationship: BFO:0000050 BFO:0000003 {all_only="true"} ! part of occurrent
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
+is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
+relationship: BFO:0000050 BFO:0000004 {all_only="true"} ! part of independent continuant
+
+[Term]
+id: BFO:0000006
+name: spatial region
+is_a: BFO:0000141 ! immaterial entity
+
+[Term]
+id: BFO:0000015
+name: process
+def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000016
+name: disposition
+is_a: BFO:0000017 ! realizable entity
+disjoint_from: BFO:0000023 ! role
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+is_a: BFO:0000020 ! specifically dependent continuant
+disjoint_from: BFO:0000019 ! quality
+relationship: BFO:0000050 BFO:0000017 {all_only="true"} ! part of realizable entity
+
+[Term]
+id: BFO:0000019
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+relationship: BFO:0000050 BFO:0000019 {all_only="true"} ! part of quality
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
+is_a: BFO:0000002 ! continuant
+relationship: BFO:0000050 BFO:0000020 {all_only="true"} ! part of specifically dependent continuant
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000034
+name: function
+is_a: BFO:0000016 ! disposition
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+disjoint_from: BFO:0000141 ! immaterial entity
+
+[Term]
+id: BFO:0000141
+name: immaterial entity
+is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: Burkina:Faso
+name: Burkina Faso
+xref: GAZ:00000905
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Western:Africa ! located in Western Africa
+
+[Term]
+id: Central:Africa
+name: Central Africa
+xref: GAZ:00000588
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Africa ! located in Africa
+
+[Term]
+id: Central:America
+name: Central America
+xref: GAZ:00002891
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 Northern:America ! located in Northern America
+
+[Term]
+id: Costa:Rica
+name: Costa Rica
+xref: GAZ:00002901
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Central:America ! located in Central America
+
+[Term]
+id: Eastern:Africa
+name: Eastern Africa
+xref: GAZ:00000556
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Africa ! located in Africa
+
+[Term]
+id: Eastern:Asia
+name: Eastern Asia
+xref: GAZ:00002471
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Asia ! located in Asia
+
+[Term]
+id: GO:0003674
+name: molecular_function
+def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs." [GOC:pdt]
+is_a: BFO:0000015 ! process
+
+[Term]
+id: GO:0008150
+name: biological_process
+def: "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." [GOC:pdt]
+synonym: "single organism process" RELATED []
+synonym: "single-organism process" RELATED []
+xref: Wikipedia:Biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: GO:0016301
+name: kinase activity
+def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [ISBN:0198506732]
+xref: Reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
+xref: Reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
+is_a: GO:0003674 ! molecular_function
+
+[Term]
+id: IAO:0000027
+name: data entity
+is_a: IAO:0000030 ! information content entity
+property_value: IAO:0000111 "data entity" xsd:string
+
+[Term]
+id: IAO:0000030
+name: information content entity
+property_value: IAO:0000111 "information content entity" xsd:string
+
+[Term]
+id: IAO:0000078
+name: curation status specification
+def: "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value." []
+is_a: IAO:0000102 ! data about an ontology part
+property_value: IAO:0000111 "curation status specification" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)" xsd:string
+property_value: IAO:0000117 "PERSON:Bill Bug" xsd:string
+property_value: IAO:0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>" xsd:string
+property_value: IAO:0000119 "OBI_0000266" xsd:string
+
+[Term]
+id: IAO:0000102
+name: data about an ontology part
+def: "Data about an ontology part is a data item about a part of an ontology, for example a term" []
+is_a: IAO:0000027 ! data entity
+property_value: IAO:0000111 "data about an ontology part" xsd:string
+property_value: IAO:0000117 "Person:Alan Ruttenberg" xsd:string
+
+[Term]
+id: IAO:0000225
+name: obsolescence reason specification
+def: "The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value." []
+is_a: IAO:0000102 ! data about an ontology part
+property_value: IAO:0000111 "obsolescence reason specification" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "The creation of this class has been inspired in part by Werner Ceusters' paper, Applying evolutionary terminology auditing to the Gene Ontology." xsd:string
+property_value: IAO:0000117 "PERSON: Alan Ruttenberg" xsd:string
+property_value: IAO:0000117 "PERSON: Melanie Courtot" xsd:string
+
+[Term]
+id: IAO:0000409
+name: denotator type
+def: "A denotator type indicates how a term should be interpreted from an ontological perspective." []
+is_a: IAO:0000102 ! data about an ontology part
+property_value: IAO:0000111 "denotator type" xsd:string
+property_value: IAO:0000112 "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities." xsd:string
+property_value: IAO:0000117 "Alan Ruttenberg" xsd:string
+property_value: IAO:0000119 "Barry Smith, Werner Ceusters" xsd:string
+
+[Term]
+id: IAO:8000000
+name: ontology module
+is_a: IAO:0000102 ! data about an ontology part
+property_value: IAO:0000111 "ontology module" xsd:string
+property_value: IAO:0000116 "I have placed this under 'data about an ontology part', but this can be discussed. I think this is OK if 'part' is interpreted reflexively, as an ontology module is the whole ontology rather than part of it." xsd:string
+property_value: IAO:0000118 "ontology file" xsd:string
+property_value: IAO:0000232 "This class and it's subclasses are applied to OWL ontologies. Using an rdf:type triple will result in problems with OWL-DL. I propose that dcterms:type is instead used to connect an ontology URI with a class from this hierarchy. The class hierarchy is not disjoint, so multiple assertions can be made about a single ontology." xsd:string
+
+[Term]
+id: IAO:8000001
+name: base ontology module
+def: "An ontology module that comprises only of asserted axioms local to the ontology, excludes import directives, and excludes axioms or declarations from external ontologies." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "base ontology module" xsd:string
+property_value: seeAlso https://github.com/INCATools/ontology-starter-kit/issues/50
+
+[Term]
+id: IAO:8000002
+name: editors ontology module
+def: "An ontology module that is intended to be directly edited, typically managed in source control, and typically not intended for direct consumption by end-users." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "editors ontology module" xsd:string
+property_value: IAO:0000118 "source ontology module" xsd:string
+
+[Term]
+id: IAO:8000003
+name: main release ontology module
+def: "An ontology module that is intended to be the primary release product and the one consumed by the majority of tools." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "main release ontology module" xsd:string
+property_value: IAO:0000116 "TODO: Add logical axioms that state that a main release ontology module is derived from (directly or indirectly) an editors module" xsd:string
+
+[Term]
+id: IAO:8000004
+name: bridge ontology module
+def: "An ontology module that consists entirely of axioms that connect or bridge two distinct ontology modules. For example, the Uberon-to-ZFA bridge module." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "bridge ontology module" xsd:string
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/inter-anatomy-ontology-bridge-ontologies
+
+[Term]
+id: IAO:8000005
+name: import ontology module
+def: "A subset ontology module that is intended to be imported from another ontology." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "import ontology module" xsd:string
+property_value: IAO:0000116 "TODO: add axioms that indicate this is the output of a module extraction process." xsd:string
+property_value: IAO:0000118 "import file" xsd:string
+property_value: seeAlso http://robot.obolibrary.org/extract
+
+[Term]
+id: IAO:8000006
+name: subset ontology module
+def: "An ontology module that is extracted from a main ontology module and includes only a subset of entities or axioms." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "subset ontology module" xsd:string
+property_value: IAO:0000118 "ontology slim" xsd:string
+property_value: IAO:0000118 "subset ontology" xsd:string
+property_value: seeAlso http://robot.obolibrary.org/filter
+property_value: seeAlso http://www.geneontology.org/page/go-slim-and-subset-guide
+
+[Term]
+id: IAO:8000007
+name: curation subset ontology module
+def: "A subset ontology that is intended as a whitelist for curators using the ontology. Such a subset will exclude classes that curators should not use for curation." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "curation subset ontology module" xsd:string
+
+[Term]
+id: IAO:8000008
+name: analysis subset ontology module
+def: "An ontology module that is intended for usage in analysis or discovery applications." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "analysis ontology module" xsd:string
+
+[Term]
+id: IAO:8000009
+name: single layer subset ontology module
+def: "A subset ontology that is largely comprised of a single layer or strata in an ontology class hierarchy. The purpose is typically for rolling up for visualization. The classes in the layer need not be disjoint." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "single layer ontology module" xsd:string
+property_value: IAO:0000118 "ribbon subset" xsd:string
+
+[Term]
+id: IAO:8000010
+name: exclusion subset ontology module
+def: "A subset of an ontology that is intended to be excluded for some purpose. For example, a blacklist of classes." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "exclusion subset ontology module" xsd:string
+property_value: IAO:0000118 "antislim" xsd:string
+
+[Term]
+id: IAO:8000011
+name: external import ontology module
+def: "An imported ontology module that is derived from an external ontology. Derivation methods include the OWLAPI SLME approach." []
+is_a: IAO:8000005 ! import ontology module
+property_value: IAO:0000111 "external import ontology module" xsd:string
+property_value: IAO:0000118 "external import" xsd:string
+
+[Term]
+id: IAO:8000012
+name: species subset ontology module
+def: "A subset ontology that is crafted to either include or exclude a taxonomic grouping of species." []
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "species subset ontology module" xsd:string
+property_value: IAO:0000118 "taxon subset" xsd:string
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
+
+[Term]
+id: IAO:8000013
+name: reasoned ontology module
+def: "An ontology module that contains axioms generated by a reasoner. The generated axioms are typically direct SubClassOf axioms, but other possibilities are available." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "reasoned ontology module" xsd:string
+property_value: seeAlso http://robot.obolibrary.org/reason
+
+[Term]
+id: IAO:8000014
+name: generated ontology module
+def: "An ontology module that is automatically generated, for example via a SPARQL query or via template and a CSV." []
+is_a: IAO:8000000 ! ontology module
+property_value: IAO:0000111 "generated ontology module" xsd:string
+property_value: IAO:0000116 "TODO: Add axioms (using PROV-O?) that indicate this is the output-of some reasoning process" xsd:string
+
+[Term]
+id: IAO:8000015
+name: template generated ontology module
+def: "An ontology module that is automatically generated from a template specification and fillers for slots in that template." []
+is_a: IAO:8000014 ! generated ontology module
+property_value: IAO:0000111 "template generated ontology module" xsd:string
+property_value: seeAlso http://robot.obolibrary.org/template
+property_value: seeAlso https://doi.org/10.1186/s13326-017-0126-0
+property_value: seeAlso https://github.com/dosumis/dead_simple_owl_design_patterns/
+
+[Term]
+id: IAO:8000016
+name: taxonomic bridge ontology module
+is_a: IAO:8000004 ! bridge ontology module
+property_value: IAO:0000111 "taxonomic bridge ontology module" xsd:string
+
+[Term]
+id: IAO:8000017
+name: ontology module subsetted by expressivity
+is_a: IAO:8000006 ! subset ontology module
+property_value: IAO:0000111 "ontology module subsetted by expressivity" xsd:string
+
+[Term]
+id: IAO:8000018
+name: obo basic subset ontology module
+def: "A subset ontology that is designed for basic applications to continue to make certain simplifying assumptions; many of these simplifying assumptions were based on the initial version of the Gene Ontology, and have become enshrined in many popular and useful tools such as term enrichment tools.\n\nExamples of such assumptions include: traversing the ontology graph ignoring relationship types using a naive algorithm will not lead to cycles (i.e. the ontology is a DAG); every referenced term is declared in the ontology (i.e. there are no dangling clauses).\n\nAn ontology is OBO Basic if and only if it has the following characteristics:\nDAG\nUnidirectional\nNo Dangling Clauses\nFully Asserted\nFully Labeled\nNo equivalence axioms\nSingly labeled edges\nNo qualifier lists\nNo disjointness axioms\nNo owl-axioms header\nNo imports" []
+is_a: IAO:8000017 ! ontology module subsetted by expressivity
+property_value: IAO:0000111 "obo basic subset ontology module" xsd:string
+property_value: seeAlso 6.2
+
+[Term]
+id: IAO:8000019
+name: ontology module subsetted by OWL profile
+is_a: IAO:8000017 ! ontology module subsetted by expressivity
+property_value: IAO:0000111 "ontology module subsetted by OWL profile" xsd:string
+
+[Term]
+id: IAO:8000020
+name: EL++ ontology module
+is_a: IAO:8000019 ! ontology module subsetted by OWL profile
+property_value: IAO:0000111 "EL++ ontology module" xsd:string
+
+[Term]
+id: NCIT:C16632
+name: Geographic Area
+subset: NCIT:C132298
+subset: NCIT:C132308
+subset: NCIT:C61410
+is_a: NCIT:C20181 ! Conceptual Entity
+
+[Term]
+id: NCIT:C20181
+name: Conceptual Entity
+
+[Term]
+id: NCIT:C25464
+name: Country
+subset: NCIT:C132298
+subset: NCIT:C132308
+subset: NCIT:C183061
+subset: NCIT:C188693
+subset: NCIT:C201253
+subset: NCIT:C207412
+subset: NCIT:C54447
+subset: NCIT:C61410
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: Northern:Africa
+name: Northern Africa
+xref: GAZ:00000555
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Africa ! located in Africa
+
+[Term]
+id: Northern:America
+name: Northern America
+xref: GAZ:00000458
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: South-Eastern:Asia
+name: South-Eastern Asia
+xref: GAZ:00000559
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Asia ! located in Asia
+
+[Term]
+id: South:Africa
+name: South Africa
+xref: GAZ:00000553
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Southern:Africa ! located in Southern Africa
+
+[Term]
+id: South:Asia
+name: South Asia
+xref: GAZ:00002472
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Asia ! located in Asia
+
+[Term]
+id: Southern:Africa
+name: Southern Africa
+xref: GAZ:00000553
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Africa ! located in Africa
+
+[Term]
+id: United:Kingdom
+name: United Kingdom
+xref: GAZ:00002637
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: United:States
+name: United States
+xref: GAZ:00002459
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Northern:America ! located in Northern America
+
+[Term]
+id: Western:Africa
+name: Western Africa
+xref: GAZ:00000554
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Africa ! located in Africa
+
+[Term]
+id: coho:COHO_0000000
+name: cohort
+def: "A group of individuals grouped together based on a shared characteristic or property of interest." []
+xref: EFO:0004445
+xref: NCIT:C61512
+
+[Term]
+id: coho:COHO_0000001
+name: cohort aggregation
+def: "A study, project or consortium that compares multiple cohorts." []
+relationship: coho:hasCohort coho:COHO_0000000 {minCardinality="2"} ! cohort
+relationship: coho:hasCohort coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000002
+name: 1000 Genomes
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "1000G" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000003
+name: AddNeuroMed Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "AddNeuroMed" RELATED OMO:0003000 []
+synonym: "ANM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Finland ! Finland
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Greece ! Greece
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Poland ! Poland
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000004
+name: Adenoma Prevention with Celecoxib trail
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Adenoma Prevention with Celecoxib" RELATED OMO:0003000 []
+synonym: "APC" RELATED OMO:0003000 []
+synonym: "APC Trail" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000005
+name: Advanced Study of Aortic Pathology
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ASAP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000006
+name: Africa Wits-INDEPTH partnership for Genomics studies
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "AWI-Gen" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location Burkina:Faso ! Burkina Faso
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Ethiopia ! Ethiopia
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Ghana ! Ghana
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Kenya ! Kenya
+relationship: coho:has_data_collection_location South:Africa ! South Africa
+
+[Term]
+id: coho:COHO_0000007
+name: Arthritis Research UK Osteoarthritis Genetics
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "arcOGEN" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000008
+name: Asian Cancer Project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ACP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Japan ! Japan
+
+[Term]
+id: coho:COHO_0000009
+name: Aspirin for Asymptomatic Atherosclerosis Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "AAA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000010
+name: AtheroExpress
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "AEGS1" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000011
+name: Atherosclerosis Risk in Communities Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ARIC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000012
+name: Atopic Dermatitis Research Network
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ADRN" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000013
+name: Australia Cancer Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ACS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000014
+name: Australian Ovarian Cancer Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "AOCS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000015
+name: Australian Twin Registry
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ATR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000016
+name: Avon Longitudinal Study of Parents and Children
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "ALSPAC" RELATED OMO:0003000 []
+synonym: "AMC-PAS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000017
+name: Berlin_Frankfurt_Munster trials
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "BFM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000018
+name: Bladder Cancer Prognosis Programme
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "BCPP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000019
+name: Brazilian Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Brazil" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Brazil ! Brazil
+
+[Term]
+id: coho:COHO_0000020
+name: Breast Cancer Association Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "BCAC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000021
+name: Bruneck study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "BRUNECK" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000022
+name: Cancer and Leukemia Group B
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CALGB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000023
+name: Cancer Genome Atlas
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+subset: coho1:PRIDE_subset
+synonym: "TCGA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000024
+name: Cancer Prevention Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CPS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000025
+name: Cancer Prostate in Sweden
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "CAPS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000026
+name: Candesartan in Heart failure Assessment of Reduction in Mortality and morbidit
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CHARM" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+
+[Term]
+id: coho:COHO_0000027
+name: Cardio-metabolic Genome Epidemiology Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CAGE" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+
+[Term]
+id: coho:COHO_0000028
+name: Cardiogenics Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CARDIOGENICS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+
+[Term]
+id: coho:COHO_0000029
+name: CARDIoGRAMplusC4D
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000030
+name: Carolina Head and Neck Cancer Epidemiology
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CHANCE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000031
+name: CARTaGENE cohort (CHU Sainte-Justine, Quebec, Canada)
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CARTaGENE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Canada ! Canada
+
+[Term]
+id: coho:COHO_0000032
+name: Center for Autism Research and Treatment
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CART" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000033
+name: Center on Antisocial Drug Dependence
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CADD" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000034
+name: Centre dEtude du Polymorphisme Humain
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CEPH" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+
+[Term]
+id: coho:COHO_0000035
+name: Centre National de G_notypage
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CNG" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+
+[Term]
+id: coho:COHO_0000036
+name: Chicago Asthma Genetics
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+subset: coho1:PRIDE_subset
+synonym: "CAG" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000037
+name: Children, Allergy, Milieu, Stockholm, Epidemiology
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "BAMSE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000038
+name: Cholesterol and Atherosclerosis Pharmacogenetics
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "CAP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000039
+name: Cilento study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Cilento" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000040
+name: COIN
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000041
+name: COIN-B
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000042
+name: Colorectal Cancer Study of Austria
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CORSA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Austria ! Austria
+
+[Term]
+id: coho:COHO_0000043
+name: Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CLEAR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000044
+name: Consortium of Minority Population Genome-Wide Association Studies of Stroke
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "COMPASS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000045
+name: Cooperative Health Research in the Region of Augsburg
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "KORA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000046
+name: Copenhagen Hospital Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "CHB" RELATED OMO:0003000 []
+synonym: "Copenhagen BB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Denmark ! Denmark
+
+[Term]
+id: coho:COHO_0000047
+name: CROATIA-Korcula Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CROATIA-KORCULA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Croatia ! Croatia
+
+[Term]
+id: coho:COHO_0000048
+name: Danish Glostrup Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Denmark ! Denmark
+
+[Term]
+id: coho:COHO_0000049
+name: Diabetes Genetics in Pakistan
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DGP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Pakistan ! Pakistan
+
+[Term]
+id: coho:COHO_0000050
+name: Diabetes in Mexico Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DMS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Mexico ! Mexico
+
+[Term]
+id: coho:COHO_0000051
+name: Diabetes Prevention Program
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DPP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000052
+name: Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DREAM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000053
+name: Diabetes Research on Patient Stratification
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DIRECT" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+
+[Term]
+id: coho:COHO_0000054
+name: Dortmund Health Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DHS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000055
+name: Duke Cognition Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DCC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000056
+name: DUNDEE
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000057
+name: Durban Diabetes Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DDS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location South:Africa ! South Africa
+
+[Term]
+id: coho:COHO_0000058
+name: Dutch and Belgian Lung Cancer Screening Trial
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NELSON" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Belgium ! Belgium
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000059
+name: Dutch Microbiome Project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DMP" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000060
+name: Edinburgh Stroke Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ESS" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000061
+name: ENGAGE AF-TIMI 48
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ENGAGE" RELATED OMO:0003000 []
+synonym: "ENGAGE_AF-TIMI_48" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+
+[Term]
+id: coho:COHO_0000062
+name: EPIGEN
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Brazil ! Brazil
+
+[Term]
+id: coho:COHO_0000063
+name: Erasmus Rucphen Family Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ERF" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000064
+name: Estonian Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "EB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Estonia ! Estonia
+
+[Term]
+id: coho:COHO_0000065
+name: European Prospective Investigation into Cancer
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "EPIC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000066
+name: European Prospective Investigation of Cancer-Norfolk
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "EPIC-Norfolk" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000067
+name: EuroTARGET project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "EuroTARGET" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000068
+name: Extremely Low Gestational Age Newborns
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ELGAN" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000069
+name: Fatty Acid Sensor Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "FAS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Denmark ! Denmark
+
+[Term]
+id: coho:COHO_0000070
+name: Finnish Twin Cohort Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "FTC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Finland ! Finland
+
+[Term]
+id: coho:COHO_0000071
+name: FINRISK
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Finland ! Finland
+
+[Term]
+id: coho:COHO_0000072
+name: Flemish Gut Flora Project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "FGFP" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Belgium ! Belgium
+
+[Term]
+id: coho:COHO_0000073
+name: Gabriel Advanced Survey
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GAS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000074
+name: GCAT. Genomes For Life.
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GCAT" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Spain ! Spain
+
+[Term]
+id: coho:COHO_0000075
+name: GENESIS
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+
+[Term]
+id: coho:COHO_0000076
+name: Genetic Analysis of Multiple Sclerosis
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GAMS" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000077
+name: Genetic Consortium for Anorexia Nervosa
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GCAN" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000078
+name: Genetic Epidemiology of Asthma in Costa Rica
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CRA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location Costa:Rica ! Costa Rica
+
+[Term]
+id: coho:COHO_0000079
+name: Genetic Overlap between Metabolic and Psychiatric traits
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GOMAP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000080
+name: Genetic Prostate cancer risk stratification for targeted screening
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PROFILE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000081
+name: Genetic Research in Isolated
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GRIso" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000082
+name: Genetics of diabetes Audit and Research
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GoDARTS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000083
+name: Genetics of Healthy Aging
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GEHA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000084
+name: GenomeAsia 100K project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GenomeAsia100K" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000085
+name: German Multiple Myeloma Study Group
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GMMG" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000086
+name: Ghana Prostate Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GPS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Ghana ! Ghana
+
+[Term]
+id: coho:COHO_0000087
+name: Glaucoma Inheritance Study in Tasmania
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "GIST" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000088
+name: Greece Hellenic Isolated Cohorts
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HELIC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Greece ! Greece
+
+[Term]
+id: coho:COHO_0000089
+name: Health and Retirement Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HRS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000090
+name: Health2000 Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Health2000" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Finland ! Finland
+
+[Term]
+id: coho:COHO_0000091
+name: Heart Protection Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HPS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000092
+name: Hoorn Diabetes Care System
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "DCS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000093
+name: Hospital Discharge Register Sweden
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HDR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000094
+name: Human Genetics Initiative
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HGI" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000095
+name: Hunter Community Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HCS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000096
+name: Icelandic Cancer Registry
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ICR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Iceland ! Iceland
+
+[Term]
+id: coho:COHO_0000097
+name: Identification of Men with a genetic predisposition to ProstAte Cancer
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "IMPACT" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000098
+name: IIBDGC genotyped CD study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "IIBDGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000099
+name: Indiana Sisters Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "ISS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000100
+name: INfancia y Medio Ambiente Project
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "INMA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Spain ! Spain
+
+[Term]
+id: coho:COHO_0000101
+name: International Cancer Genome Consortium-Chronic Lymphocytic Leukemia
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ICGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000102
+name: International Headache Genetics Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "IHGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000103
+name: International Multiple Sclerosis Genetics Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "IMSGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000104
+name: International Schizophrenia Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ISC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000105
+name: Italian Network on Genetic Isolates Studies
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "INGI" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000106
+name: Leeds Melanoma Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "LMC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000107
+name: Leiden Longevity Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+subset: coho1:PRIDE_subset
+synonym: "LLS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000108
+name: LifeLines
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000109
+name: Living Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Living-Biobank" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000110
+name: Los Angeles component of The Womens Contraceptive and Reproductive Experiences Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "CARE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000111
+name: Lothian Birth Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "LBC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000112
+name: Lund Stroke Register
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "LSR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000113
+name: Marseille Thrombosis Association Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Marseille Thrombosis Association" RELATED OMO:0003000 []
+synonym: "MARTHA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/France ! France
+
+[Term]
+id: coho:COHO_0000114
+name: Mexican Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MXBB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Mexico ! Mexico
+
+[Term]
+id: coho:COHO_0000115
+name: MIRAGE
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000116
+name: Molecular Genetics of Schizophrenia Collaboration
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MGS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000117
+name: MOnica Risk, Genetics, Archiving and Monograph
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MORGAM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000118
+name: Monitoring of Trends and Determinants in Cardiovascular Disease
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MONICA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000119
+name: Multi-Ethnic Study of Atherosclerosis
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MESA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000120
+name: Multicenter Family Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MFS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000121
+name: Multiethnic Cohort Study of Diet and Health
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MEC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000122
+name: Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MEGA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000123
+name: National Health Service Blood and Transplant
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NHSBT" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000124
+name: National Study of Colorectal Cancer Genetics
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NSCCG" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000125
+name: Netherlands Twin Registry
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NTR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000126
+name: New England-based Case-Control Study of Ovarian Cancer
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NECC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000127
+name: NIDDK
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000128
+name: Nijmegen Biomedical Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NBS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000129
+name: Northern Ireland Cohort for Longitudinal Study of Ageing
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NICOLA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000130
+name: Northern Sweden Population Health Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NSPHS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000131
+name: Norwegian Mother and Child Cohort study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MOBA" RELATED OMO:0003000 []
+synonym: "MoBa" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Norway ! Norway
+
+[Term]
+id: coho:COHO_0000132
+name: Orkney Complex Disease Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ORCADES" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000133
+name: Outcome Reduction With Initial Glargine Intervention Trial
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ORIGIN" RELATED OMO:0003000 []
+synonym: "Outcome Reduction With Initial Glargine Intervention" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000134
+name: Ovarian Cancer Association Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "OCAC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000135
+name: Ovarian Cancer Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "OCS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000136
+name: Oxford Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "OBB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000137
+name: PanCareLIFE
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PCL" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000138
+name: Parkinson Environment and Gene
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PEG" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000139
+name: People of the British Isles
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PoBI" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000140
+name: Physical Activity and Nutrition in Children Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PANIC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Australia ! Australia
+
+[Term]
+id: coho:COHO_0000141
+name: Population-based Colonoscopy study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PopCol" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000142
+name: Precocious Coronary Artery Disease Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PROCARDIS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/India ! India
+
+[Term]
+id: coho:COHO_0000143
+name: Pressioni Arteriose Monitorate E Loro Associazionie
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PAMELA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000144
+name: Prospective Investigation of the Vasculature in Uppsala Seniors
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "PIVUS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000145
+name: Psoriasis Association Genetics Extension
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "PAGE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000146
+name: Psychiatric GWAS Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "PGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000147
+name: Research on Adolescent Development and Relationships
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Radar" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000148
+name: Rotterdam Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "RS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000149
+name: Saguenay-Lac-Saint-Jean asthma study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SLSJ" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Canada ! Canada
+
+[Term]
+id: coho:COHO_0000150
+name: Sahlgrenska Academy Study on Ischemic Stroke
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SAHLSIS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000151
+name: SardiNIA Study of Aging
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SardiNIA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000152
+name: Scania Diabetes Registry
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SDR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000153
+name: Shanghai Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Shanghai" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/China ! China
+
+[Term]
+id: coho:COHO_0000154
+name: Short Course Oncology Treatment trial
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SCOT" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000155
+name: Simons Simplex Collection
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SSC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000156
+name: Singapore Chinese Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SCH" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Singapore ! Singapore
+
+[Term]
+id: coho:COHO_0000157
+name: SORCE
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000158
+name: Spit for Science
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Spit" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000159
+name: Sweden Bipolar Disorder Cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SWEBIC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000160
+name: Swedish Twin Registry
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "STR" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000161
+name: Taiwan Type 2 Diabetes Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "TDS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Taiwan ! Taiwan
+
+[Term]
+id: coho:COHO_0000162
+name: TEENs of Attica: Genes and Environment
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "TEENAGE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Greece ! Greece
+
+[Term]
+id: coho:COHO_0000163
+name: The English Longitudinal Study of Ageing
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "ELSA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000164
+name: The Fenland Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "Fenland" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000165
+name: The Helmholtz-Gemeinschaft Deutscher Forschungszentren
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HGF" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000166
+name: The MANOLIS cohort
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "MANOLIS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Greece ! Greece
+
+[Term]
+id: coho:COHO_0000167
+name: The Netherlands AAA GWAS dataset
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "Netherlands" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000168
+name: The Norwegian Biobank for Myeloma
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "NBM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Norway ! Norway
+
+[Term]
+id: coho:COHO_0000169
+name: The Pakistan Risk Of Myocardial Infarction Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "PROMIS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Pakistan ! Pakistan
+
+[Term]
+id: coho:COHO_0000170
+name: The Secondary Manifestations of ARTerial disease study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "SMART" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Netherlands ! Netherlands
+
+[Term]
+id: coho:COHO_0000171
+name: The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "HSIEA" RELATED OMO:0003000 []
+synonym: "The Hellenic study of Interactions between SNPs & Eating in Atherosclerosis" RELATED OMO:0003000 []
+synonym: "THISEAS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Greece ! Greece
+
+[Term]
+id: coho:COHO_0000172
+name: Treating to New Targets
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "TNT" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000173
+name: Twins Early Development Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "TEDS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000174
+name: Type 1 Diabetes Genetics Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "T1DGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000175
+name: UK Adult Twin Register
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "TwinsUK" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000176
+name: UK Biobank
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+subset: coho1:PRIDE_subset
+synonym: "UKB" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000177
+name: UK Brain Expression Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "UKBEC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000178
+name: UK Childhood Cancer Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "UKCCS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000179
+name: UK Household Longitudinal Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "UKHLS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000180
+name: UK Inflammatory Bowel Disease Genetics Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "UKIBD Genetics Consortium" RELATED OMO:0003000 []
+synonym: "UKIBDGC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000181
+name: Viking Health Study
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "VIKING" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000182
+name: Wellcome Trust Case Control Consortium
+subset: coho1:EGA_subset
+subset: coho1:GWAS_subset
+synonym: "WTCCC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000183
+name: Basquecolon cohort
+subset: coho1:EGA_subset
+subset: coho1:MetaboLight_subset
+synonym: "BCC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Spain ! Spain
+
+[Term]
+id: coho:COHO_0000184
+name: INTERVAL study
+subset: coho1:EGA_subset
+subset: coho1:MetaboLight_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000185
+name: CONVERGE
+subset: coho1:EGA_subset
+subset: coho1:PRIDE_subset
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/China ! China
+
+[Term]
+id: coho:COHO_0000186
+name: Gene-Environmental Interaction and phenotype study
+subset: coho1:EGA_subset
+subset: coho1:PRIDE_subset
+synonym: "GENIE" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000187
+name: China Atherosclerosis Study
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "CAS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/China ! China
+
+[Term]
+id: coho:COHO_0000188
+name: Diabetes Prediction and Prevention
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "DIPP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Finland ! Finland
+
+[Term]
+id: coho:COHO_0000189
+name: Functional genomic diagnostic tools for coronary artery disease
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "FGENTCARD" RELATED OMO:0003000 []
+is_a: coho:TEMP_temporary_unclassified ! temporary unclassified
+
+[Term]
+id: coho:COHO_0000190
+name: German Chronic Kidney Disease Study
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "GCKD" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000191
+name: German Longevity Study
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "GLS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000192
+name: Global Registry of Acute Coronary Events
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "GRACE_Genetics" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000193
+name: TwinGene Study
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "TwinGene" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+relationship: coho:isSubCohortOf coho:COHO_0000193 ! TwinGene Study
+
+[Term]
+id: coho:COHO_0000194
+name: Uppsala Longitudinal Study of Adult Men
+subset: coho1:GWAS_subset
+subset: coho1:MetaboLight_subset
+synonym: "ULSAM" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Sweden ! Sweden
+
+[Term]
+id: coho:COHO_0000195
+name: Baltimore Longitudinal Study of Ageing
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "BLSA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000196
+name: Motor Neuron Disease Biobank study
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "MNDA" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000197
+name: Diabetic Cohort
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "DC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:COHO_0000198
+name: Ely Study
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "Ely" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location United:Kingdom ! United Kingdom
+
+[Term]
+id: coho:COHO_0000199
+name: Genetic Asthma Susceptibility to Indoor Pollution in Peru
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "GASP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Peru ! Peru
+
+[Term]
+id: coho:COHO_0000200
+name: Parkinson's Progression Markers Initiative
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "PPMI" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+relationship: coho:has_data_collection_location United:States ! United States
+
+[Term]
+id: coho:COHO_0000201
+name: Psychosis Endophenotype Consortium
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "PEC" RELATED OMO:0003000 []
+is_a: coho:COHO_0000001 ! cohort aggregation
+
+[Term]
+id: coho:COHO_0000202
+name: Study of Health in Pomerania
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "SHIP" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Germany ! Germany
+
+[Term]
+id: coho:COHO_0000203
+name: The Cooperative Health Research in South Tyrol
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "CHRIS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Italy ! Italy
+
+[Term]
+id: coho:COHO_0000204
+name: The Health Effects of Arsenic Longitudinal Study
+subset: coho1:GWAS_subset
+subset: coho1:PRIDE_subset
+synonym: "HEALS" RELATED OMO:0003000 []
+is_a: coho:COHO_0000000 ! cohort
+relationship: coho:has_data_collection_location http://dbpedia.org/resource/Bangladesh ! Bangladesh
+
+[Term]
+id: coho:COHO_0000205
+name: TwinGene Registry
+is_a: coho:COHO_0000000 ! cohort
+
+[Term]
+id: coho:TEMP_temporary_unclassified
+name: temporary unclassified
+
+[Term]
+id: http://dbpedia.org/resource/Africa
+name: Africa
+xref: GAZ:00000457
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Asia
+name: Asia
+xref: GAZ:00000465
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Australia
+name: Australia
+xref: GAZ:00000463
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Oceania ! located in Oceania
+
+[Term]
+id: http://dbpedia.org/resource/Austria
+name: Austria
+xref: GAZ:00002942
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Bangladesh
+name: Bangladesh
+xref: GAZ:00003750
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 South:Asia ! located in South Asia
+
+[Term]
+id: http://dbpedia.org/resource/Belgium
+name: Belgium
+xref: GAZ:00002938
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Brazil
+name: Brazil
+xref: GAZ:00002828
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica ! located in South America
+
+[Term]
+id: http://dbpedia.org/resource/Canada
+name: Canada
+xref: GAZ:00002560
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Northern:America ! located in Northern America
+
+[Term]
+id: http://dbpedia.org/resource/China
+name: China
+xref: GAZ:00002845
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Eastern:Asia ! located in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Croatia
+name: Croatia
+xref: GAZ:00002719
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Denmark
+name: Denmark
+xref: GAZ:00002635
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Estonia
+name: Estonia
+xref: GAZ:00002959
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Ethiopia
+name: Ethiopia
+xref: GAZ:00000567
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Eastern:Africa ! located in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Europe
+name: Europe
+xref: GAZ:00000464
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Finland
+name: Finland
+xref: GAZ:00002937
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/France
+name: France
+xref: GAZ:00002940
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Germany
+name: Germany
+xref: GAZ:00002646
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Ghana
+name: Ghana
+xref: GAZ:00000908
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Western:Africa ! located in Western Africa
+
+[Term]
+id: http://dbpedia.org/resource/Greece
+name: Greece
+xref: GAZ:00002945
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Iceland
+name: Iceland
+xref: GAZ:00000843
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/India
+name: India
+xref: GAZ:00002839
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 South:Asia ! located in South Asia
+
+[Term]
+id: http://dbpedia.org/resource/Italy
+name: Italy
+xref: GAZ:00002650
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Japan
+name: Japan
+xref: GAZ:00002747
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Eastern:Asia ! located in Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/Kenya
+name: Kenya
+xref: GAZ:00001101
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Eastern:Africa ! located in Eastern Africa
+
+[Term]
+id: http://dbpedia.org/resource/Latin_America_and_the_Caribbean
+name: Latin America and the Caribbean
+xref: GAZ:00000459
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Melanesia
+name: Melanesia
+xref: GAZ:00005860
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Oceania ! located in Oceania
+
+[Term]
+id: http://dbpedia.org/resource/Mexico
+name: Mexico
+xref: GAZ:00002852
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Northern:America ! located in Northern America
+
+[Term]
+id: http://dbpedia.org/resource/Micronesia
+name: Micronesia
+xref: GAZ:00005862
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Oceania ! located in Oceania
+
+[Term]
+id: http://dbpedia.org/resource/Netherlands
+name: Netherlands
+xref: GAZ:00001549
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Norway
+name: Norway
+xref: GAZ:00002699
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Oceania
+name: Oceania
+xref: GAZ:00000468
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Pakistan
+name: Pakistan
+xref: GAZ:00005246
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 South:Asia ! located in South Asia
+
+[Term]
+id: http://dbpedia.org/resource/Peru
+name: Peru
+xref: GAZ:00002932
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/SouthAmerica ! located in South America
+
+[Term]
+id: http://dbpedia.org/resource/Poland
+name: Poland
+xref: GAZ:00002939
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Polynesia
+name: Polynesia
+xref: GAZ:00005861
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C16632 ! Geographic Area
+relationship: RO:0001025 http://dbpedia.org/resource/Oceania ! located in Oceania
+
+[Term]
+id: http://dbpedia.org/resource/Singapore
+name: Singapore
+xref: GAZ:00003923
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 South-Eastern:Asia ! located in South-Eastern Asia
+
+[Term]
+id: http://dbpedia.org/resource/SouthAmerica
+name: South America
+xref: GAZ:00000459
+is_a: NCIT:C16632 ! Geographic Area
+
+[Term]
+id: http://dbpedia.org/resource/Spain
+name: Spain
+xref: GAZ:00000591
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Sweden
+name: Sweden
+xref: GAZ:00002729
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 http://dbpedia.org/resource/Europe ! located in Europe
+
+[Term]
+id: http://dbpedia.org/resource/Taiwan
+name: Taiwan
+xref: GAZ:00005341
+is_a: BFO:0000004 ! independent continuant
+is_a: NCIT:C25464 ! Country
+relationship: RO:0001025 Eastern:Asia ! located in Eastern Asia
+
+[Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: BFO:0000051 ! has part
+
+[Typedef]
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: BFO:0000062
+name: preceded by
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000062
+is_transitive: true
+is_a: RO:0002086 ! ends after
+inverse_of: BFO:0000063 ! precedes
+
+[Typedef]
+id: BFO:0000063
+name: precedes
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000063
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0000052
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+is_functional: true
+is_a: RO:0002314 ! characteristic of part of
+inverse_of: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000053
+name: has characteristic
+def: "Inverse of characteristic_of" []
+range: BFO:0000020 ! specifically dependent continuant
+is_inverse_functional: true
+
+[Typedef]
+id: RO:0000056
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+inverse_of: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0000057
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+holds_over_chain: BFO:0000051 RO:0000057
+
+[Typedef]
+id: RO:0000079
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+domain: BFO:0000034 ! function
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000085 ! has function
+
+[Typedef]
+id: RO:0000080
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000086 ! has quality
+
+[Typedef]
+id: RO:0000081
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000087 ! has role
+
+[Typedef]
+id: RO:0000085
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000034 ! function
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000086
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+range: BFO:0000019 ! quality
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000087
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000091
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000016 ! disposition
+is_a: RO:0000053 ! has characteristic
+inverse_of: RO:0000092 ! disposition of
+
+[Typedef]
+id: RO:0000092
+name: disposition of
+def: "inverse of has disposition" []
+subset: RO:0002259
+is_a: RO:0000052 ! characteristic of
+
+[Typedef]
+id: RO:0001015
+name: location of
+def: "a relation between two independent continuants, the location and the target, in which the target is entirely within the location" []
+is_transitive: true
+inverse_of: RO:0001025 ! located in
+
+[Typedef]
+id: RO:0001025
+name: located in
+def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+is_transitive: true
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002013
+name: has regulatory component activity
+def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002014
+name: has negative regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002015
+name: has positive regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002017
+name: has component activity
+is_a: RO:0002018 ! has component process
+
+[Typedef]
+id: RO:0002018
+name: has component process
+def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_a: RO:0002180 ! has component
+
+[Typedef]
+id: RO:0002022
+name: directly regulated by
+is_a: RO:0002334 ! regulated by
+inverse_of: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002023
+name: directly negatively regulated by
+def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002630 ! directly negatively regulates
+
+[Typedef]
+id: RO:0002024
+name: directly positively regulated by
+def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002025
+name: has effector activity
+def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [https://orcid.org/0000-0002-7073-9172]
+is_functional: true
+is_a: RO:0002017 ! has component activity
+
+[Typedef]
+id: RO:0002086
+name: ends after
+subset: ro-eco
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002087
+name: immediately preceded by
+is_a: BFO:0000062 ! preceded by
+inverse_of: RO:0002090 ! immediately precedes
+
+[Typedef]
+id: RO:0002090
+name: immediately precedes
+subset: ro-eco
+is_a: BFO:0000063 ! precedes
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: BFO:0000051 RO:0002131
+is_symmetric: true
+is_a: RO:0002323 ! mereotopologically related to
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002180
+name: has component
+def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+subset: ro-eco
+is_a: BFO:0000051 ! has part
+
+[Typedef]
+id: RO:0002211
+name: regulates
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+holds_over_chain: RO:0002578 RO:0002578
+is_transitive: true
+is_a: RO:0002411 ! causally upstream of
+inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
+
+[Typedef]
+id: RO:0002212
+name: negatively regulates
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002211 ! regulates
+is_a: RO:0002305 ! causally upstream of, negative effect
+inverse_of: RO:0002335 ! negatively regulated by
+
+[Typedef]
+id: RO:0002213
+name: positively regulates
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+holds_over_chain: RO:0002212 RO:0002212
+is_transitive: true
+is_a: RO:0002211 ! regulates
+is_a: RO:0002304 ! causally upstream of, positive effect
+inverse_of: RO:0002336 ! positively regulated by
+
+[Typedef]
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+subset: ro-eco
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000015 ! process
+is_a: RO:0002216 ! capable of part of
+
+[Typedef]
+id: RO:0002216
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002222
+name: temporally related to
+subset: ro-eco
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0002233
+name: has input
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+domain: BFO:0000015 ! process
+is_a: RO:0000057 ! has participant
+inverse_of: RO:0002352 ! input of
+
+[Typedef]
+id: RO:0002263
+name: acts upstream of
+def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+holds_over_chain: RO:0002327 RO:0002411
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0002264
+name: acts upstream of or within
+def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+synonym: "affects" RELATED []
+holds_over_chain: RO:0002327 RO:0002418
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002304
+name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004047 ! causally upstream of or within, positive effect
+
+[Typedef]
+id: RO:0002305
+name: causally upstream of, negative effect
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004046 ! causally upstream of or within, negative effect
+
+[Typedef]
+id: RO:0002314
+name: characteristic of part of
+def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
+is_a: RO:0002502 ! depends on
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+
+[Typedef]
+id: RO:0002327
+name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+is_a: RO:0002215 ! capable of
+inverse_of: RO:0002333 ! enabled by
+transitive_over: BFO:0000051 ! has part
+transitive_over: RO:0002017 ! has component activity
+
+[Typedef]
+id: RO:0002328
+name: functionally related to
+def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
+
+[Typedef]
+id: RO:0002329
+name: part of structure that is capable of
+def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002331
+name: involved in
+def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
+holds_over_chain: RO:0002327 BFO:0000050
+is_a: RO:0000056 ! participates in
+is_a: RO:0002431 ! involved in or involved in regulation of
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002333
+name: enabled by
+def: "inverse of enables" []
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0000057 ! has participant
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002334
+name: regulated by
+def: "inverse of regulates" []
+subset: RO:0002259
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002335
+name: negatively regulated by
+def: "inverse of negatively regulates" []
+subset: RO:0002259
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002336
+name: positively regulated by
+def: "inverse of positively regulates" []
+subset: RO:0002259
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002352
+name: input of
+def: "inverse of has input" []
+subset: ro-eco
+subset: RO:0002259
+is_a: RO:0000056 ! participates in
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002379
+name: spatially coextensive with
+def: "x spatially_coextensive_with y if and inly if x and y have the same location" []
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
+id: RO:0002404
+name: causally downstream of
+def: "inverse of upstream of" []
+is_a: BFO:0000062 ! preceded by
+is_a: RO:0002427 ! causally downstream of or within
+inverse_of: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002405
+name: immediately causally downstream of
+is_a: RO:0002087 ! immediately preceded by
+is_a: RO:0002404 ! causally downstream of
+inverse_of: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002407
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+holds_over_chain: RO:0002409 RO:0002409
+holds_over_chain: RO:0002629 RO:0002407
+holds_over_chain: RO:0002629 RO:0002629
+is_transitive: true
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002629 ! directly positively regulates
+
+[Typedef]
+id: RO:0002409
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+holds_over_chain: RO:0002630 RO:0002409
+holds_over_chain: RO:0002630 RO:0002630
+is_transitive: true
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002630 ! directly negatively regulates
+
+[Typedef]
+id: RO:0002410
+name: causally related to
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." [https://en.wikipedia.org/wiki/Causality]
+
+[Typedef]
+id: RO:0002411
+name: causally upstream of
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_transitive: true
+is_a: BFO:0000063 ! precedes
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002412
+name: immediately causally upstream of
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
+is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
+synonym: "affects" RELATED []
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+inverse_of: RO:0002427 ! causally downstream of or within
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+def: "inverse of causally upstream of or within" []
+subset: RO:0002259
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+
+[Typedef]
+id: RO:0002428
+name: involved in regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
+holds_over_chain: RO:0002327 RO:0002211
+holds_over_chain: RO:0002331 RO:0002211
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0002431 ! involved in or involved in regulation of
+
+[Typedef]
+id: RO:0002429
+name: involved in positive regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
+holds_over_chain: RO:0002327 RO:0002213
+holds_over_chain: RO:0002331 RO:0002213
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002430
+name: involved in negative regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
+holds_over_chain: RO:0002327 RO:0002212
+holds_over_chain: RO:0002331 RO:0002212
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002431
+name: involved in or involved in regulation of
+def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
+is_a: RO:0002264 ! acts upstream of or within
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002434
+name: interacts with
+def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
+subset: ro-eco
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_symmetric: true
+
+[Typedef]
+id: RO:0002436
+name: molecularly interacts with
+def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
+is_symmetric: true
+is_a: RO:0002434 ! interacts with
+
+[Typedef]
+id: RO:0002447
+name: phosphorylates
+is_a: RO:0002436 ! molecularly interacts with
+
+[Typedef]
+id: RO:0002448
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002436 ! molecularly interacts with
+is_a: RO:0011002 ! regulates activity of
+
+[Typedef]
+id: RO:0002449
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002450
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002464
+name: helper property (not for use in curation)
+
+[Typedef]
+id: RO:0002481
+name: is kinase activity
+is_a: RO:0002564 ! molecular interaction relation helper property
+
+[Typedef]
+id: RO:0002500
+name: causal agent in process
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+is_a: RO:0002595 ! causal relation between material entity and a process
+inverse_of: RO:0002608 ! process has causal agent
+
+[Typedef]
+id: RO:0002501
+name: causal relation between processes
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002502
+name: depends on
+
+[Typedef]
+id: RO:0002506
+name: causal relation between entities
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002559
+name: causally influenced by
+is_a: RO:0002506 ! causal relation between entities
+inverse_of: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0002563
+name: interaction relation helper property
+is_a: RO:0002464 ! helper property (not for use in curation)
+
+[Typedef]
+id: RO:0002564
+name: molecular interaction relation helper property
+is_a: RO:0002563 ! interaction relation helper property
+
+[Typedef]
+id: RO:0002566
+name: causally influences
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002506 ! causal relation between entities
+
+[Typedef]
+id: RO:0002578
+name: directly regulates
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002211 ! regulates
+is_a: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002584
+name: has part structure that is capable of
+def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
+holds_over_chain: BFO:0000051 RO:0002215
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002595
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002596
+name: capable of regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
+holds_over_chain: RO:0002215 RO:0002211
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002597
+name: capable of negatively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p." []
+holds_over_chain: RO:0002215 RO:0002212
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002598
+name: capable of positively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p." []
+holds_over_chain: RO:0002215 RO:0002213
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002608
+name: process has causal agent
+def: "Inverse of 'causal agent in process'" []
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002629
+name: directly positively regulates
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002630
+name: directly negatively regulates
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0004031
+name: enables subfunction
+def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
+holds_over_chain: RO:0002327 BFO:0000051
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0004032
+name: acts upstream of or within, positive effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+holds_over_chain: RO:0002327 RO:0004047
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004033
+name: acts upstream of or within, negative effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+holds_over_chain: RO:0002327 RO:0004046
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0004034
+name: acts upstream of, positive effect
+def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+holds_over_chain: RO:0002327 RO:0002304
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004032 ! acts upstream of or within, positive effect
+
+[Typedef]
+id: RO:0004035
+name: acts upstream of, negative effect
+def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+holds_over_chain: RO:0002327 RO:0002305
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004033 ! acts upstream of or within, negative effect
+
+[Typedef]
+id: RO:0004046
+name: causally upstream of or within, negative effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0004047
+name: causally upstream of or within, positive effect
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0011002
+name: regulates activity of
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0012011
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0012012
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0012011 ! indirectly causally upstream of
+
+[Typedef]
+id: RO:0017001
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+holds_over_chain: RO:0002215 RO:0002233
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+domain: BFO:0000015 ! process
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: coho:hasCohort
+name: hasCohort
+domain: coho:COHO_0000001 ! cohort aggregation
+range: coho:COHO_0000000 ! cohort
+
+[Typedef]
+id: coho:hasSubCohort
+name: hasSubCohort
+domain: coho:COHO_0000000 ! cohort
+range: coho:COHO_0000000 ! cohort
+inverse_of: coho:isSubCohortOf ! isSubCohortOf
+
+[Typedef]
+id: coho:has_data_collection_location
+name: has_data_collection_location
+range: NCIT:C16632 ! Geographic Area
+is_transitive: true
+transitive_over: RO:0001025 ! located in
+
+[Typedef]
+id: coho:isSubCohortOf
+name: isSubCohortOf
+domain: coho:COHO_0000000 ! cohort
+range: coho:COHO_0000000 ! cohort
+
