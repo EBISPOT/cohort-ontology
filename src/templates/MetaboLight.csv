@@ -1,25 +1,25 @@
-ID,subset,label
-ID,AI oboInOwl:inSubset,
-COHO:0000023,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cancer Genome Atlas
-COHO:0000025,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cancer Prostate in Sweden
-COHO:0000036,http://www.ebi.ac.uk/coho#MetaboLight_subset,Chicago Asthma Genetics
-COHO:0000038,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cholesterol and Atherosclerosis Pharmacogenetics
-COHO:0000046,http://www.ebi.ac.uk/coho#MetaboLight_subset,Copenhagen Hospital Biobank
-COHO:0000066,http://www.ebi.ac.uk/coho#MetaboLight_subset,European Prospective Investigation of Cancer-Norfolk
-COHO:0000099,http://www.ebi.ac.uk/coho#MetaboLight_subset,Indiana Sisters Study
-COHO:0000107,http://www.ebi.ac.uk/coho#MetaboLight_subset,Leiden Longevity Study
-COHO:0000144,http://www.ebi.ac.uk/coho#MetaboLight_subset,Prospective Investigation of the Vasculature in Uppsala Seniors
-COHO:0000160,http://www.ebi.ac.uk/coho#MetaboLight_subset,Swedish Twin Registry
-COHO:0000164,http://www.ebi.ac.uk/coho#MetaboLight_subset,The Fenland Study
-COHO:0000169,http://www.ebi.ac.uk/coho#MetaboLight_subset,The Pakistan Risk Of Myocardial Infarction Study
-COHO:0000176,http://www.ebi.ac.uk/coho#MetaboLight_subset,UK Biobank
-COHO:0000183,http://www.ebi.ac.uk/coho#MetaboLight_subset,Basquecolon cohort
-COHO:0000184,http://www.ebi.ac.uk/coho#MetaboLight_subset,INTERVAL study
-COHO:0000187,http://www.ebi.ac.uk/coho#MetaboLight_subset,China Atherosclerosis Study
-COHO:0000188,http://www.ebi.ac.uk/coho#MetaboLight_subset,Diabetes Prediction and Prevention
-COHO:0000189,http://www.ebi.ac.uk/coho#MetaboLight_subset,Functional genomic diagnostic tools for coronary artery disease
-COHO:0000190,http://www.ebi.ac.uk/coho#MetaboLight_subset,German Chronic Kidney Disease Study
-COHO:0000191,http://www.ebi.ac.uk/coho#MetaboLight_subset,German Longevity Study
-COHO:0000192,http://www.ebi.ac.uk/coho#MetaboLight_subset,Global Registry of Acute Coronary Events
-COHO:0000193,http://www.ebi.ac.uk/coho#MetaboLight_subset,TwinGene Study
-COHO:0000194,http://www.ebi.ac.uk/coho#MetaboLight_subset,Uppsala Longitudinal Study of Adult Men
+ID,TYPE,subset,label
+ID,TYPE,AI oboInOwl:inSubset,
+COHO:0000023,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cancer Genome Atlas
+COHO:0000025,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cancer Prostate in Sweden
+COHO:0000036,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Chicago Asthma Genetics
+COHO:0000038,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Cholesterol and Atherosclerosis Pharmacogenetics
+COHO:0000046,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Copenhagen Hospital Biobank
+COHO:0000066,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,European Prospective Investigation of Cancer-Norfolk
+COHO:0000099,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Indiana Sisters Study
+COHO:0000107,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Leiden Longevity Study
+COHO:0000144,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Prospective Investigation of the Vasculature in Uppsala Seniors
+COHO:0000160,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Swedish Twin Registry
+COHO:0000164,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,The Fenland Study
+COHO:0000169,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,The Pakistan Risk Of Myocardial Infarction Study
+COHO:0000176,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,UK Biobank
+COHO:0000183,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Basquecolon cohort
+COHO:0000184,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,INTERVAL study
+COHO:0000187,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,China Atherosclerosis Study
+COHO:0000188,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Diabetes Prediction and Prevention
+COHO:0000189,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Functional genomic diagnostic tools for coronary artery disease
+COHO:0000190,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,German Chronic Kidney Disease Study
+COHO:0000191,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,German Longevity Study
+COHO:0000192,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Global Registry of Acute Coronary Events
+COHO:0000193,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,TwinGene Study
+COHO:0000194,owl:NamedIndividual,http://www.ebi.ac.uk/coho#MetaboLight_subset,Uppsala Longitudinal Study of Adult Men

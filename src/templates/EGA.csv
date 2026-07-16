@@ -1,187 +1,187 @@
-ID,subset,label
-ID,AI oboInOwl:inSubset,
-COHO:0000002,http://www.ebi.ac.uk/coho#EGA_subset,1000 Genomes
-COHO:0000003,http://www.ebi.ac.uk/coho#EGA_subset,AddNeuroMed Cohort
-COHO:0000004,http://www.ebi.ac.uk/coho#EGA_subset,Adenoma Prevention with Celecoxib trail
-COHO:0000005,http://www.ebi.ac.uk/coho#EGA_subset,Advanced Study of Aortic Pathology
-COHO:0000006,http://www.ebi.ac.uk/coho#EGA_subset,Africa Wits-INDEPTH partnership for Genomics studies
-COHO:0000007,http://www.ebi.ac.uk/coho#EGA_subset,Arthritis Research UK Osteoarthritis Genetics
-COHO:0000008,http://www.ebi.ac.uk/coho#EGA_subset,Asian Cancer Project
-COHO:0000009,http://www.ebi.ac.uk/coho#EGA_subset,Aspirin for Asymptomatic Atherosclerosis Study
-COHO:0000010,http://www.ebi.ac.uk/coho#EGA_subset,AtheroExpress
-COHO:0000011,http://www.ebi.ac.uk/coho#EGA_subset,Atherosclerosis Risk in Communities Study
-COHO:0000012,http://www.ebi.ac.uk/coho#EGA_subset,Atopic Dermatitis Research Network
-COHO:0000013,http://www.ebi.ac.uk/coho#EGA_subset,Australia Cancer Study
-COHO:0000014,http://www.ebi.ac.uk/coho#EGA_subset,Australian Ovarian Cancer Study
-COHO:0000015,http://www.ebi.ac.uk/coho#EGA_subset,Australian Twin Registry
-COHO:0000016,http://www.ebi.ac.uk/coho#EGA_subset,Avon Longitudinal Study of Parents and Children
-COHO:0000017,http://www.ebi.ac.uk/coho#EGA_subset,Berlin_Frankfurt_Munster trials
-COHO:0000018,http://www.ebi.ac.uk/coho#EGA_subset,Bladder Cancer Prognosis Programme
-COHO:0000019,http://www.ebi.ac.uk/coho#EGA_subset,Brazilian Cohort
-COHO:0000020,http://www.ebi.ac.uk/coho#EGA_subset,Breast Cancer Association Consortium
-COHO:0000021,http://www.ebi.ac.uk/coho#EGA_subset,Bruneck study
-COHO:0000022,http://www.ebi.ac.uk/coho#EGA_subset,Cancer and Leukemia Group B
-COHO:0000023,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Genome Atlas
-COHO:0000024,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Prevention Study
-COHO:0000025,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Prostate in Sweden
-COHO:0000026,http://www.ebi.ac.uk/coho#EGA_subset,Candesartan in Heart failure Assessment of Reduction in Mortality and morbidit
-COHO:0000027,http://www.ebi.ac.uk/coho#EGA_subset,Cardio-metabolic Genome Epidemiology Study
-COHO:0000028,http://www.ebi.ac.uk/coho#EGA_subset,Cardiogenics Study
-COHO:0000029,http://www.ebi.ac.uk/coho#EGA_subset,CARDIoGRAMplusC4D
-COHO:0000030,http://www.ebi.ac.uk/coho#EGA_subset,Carolina Head and Neck Cancer Epidemiology
-COHO:0000031,http://www.ebi.ac.uk/coho#EGA_subset,"CARTaGENE cohort (CHU Sainte-Justine, Quebec, Canada)"
-COHO:0000032,http://www.ebi.ac.uk/coho#EGA_subset,Center for Autism Research and Treatment
-COHO:0000033,http://www.ebi.ac.uk/coho#EGA_subset,Center on Antisocial Drug Dependence
-COHO:0000034,http://www.ebi.ac.uk/coho#EGA_subset,Centre dEtude du Polymorphisme Humain
-COHO:0000035,http://www.ebi.ac.uk/coho#EGA_subset,Centre National de G_notypage
-COHO:0000036,http://www.ebi.ac.uk/coho#EGA_subset,Chicago Asthma Genetics
-COHO:0000037,http://www.ebi.ac.uk/coho#EGA_subset,"Children, Allergy, Milieu, Stockholm, Epidemiology"
-COHO:0000038,http://www.ebi.ac.uk/coho#EGA_subset,Cholesterol and Atherosclerosis Pharmacogenetics
-COHO:0000039,http://www.ebi.ac.uk/coho#EGA_subset,Cilento study
-COHO:0000040,http://www.ebi.ac.uk/coho#EGA_subset,COIN
-COHO:0000041,http://www.ebi.ac.uk/coho#EGA_subset,COIN-B
-COHO:0000042,http://www.ebi.ac.uk/coho#EGA_subset,Colorectal Cancer Study of Austria
-COHO:0000043,http://www.ebi.ac.uk/coho#EGA_subset,Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis
-COHO:0000044,http://www.ebi.ac.uk/coho#EGA_subset,Consortium of Minority Population Genome-Wide Association Studies of Stroke
-COHO:0000045,http://www.ebi.ac.uk/coho#EGA_subset,Cooperative Health Research in the Region of Augsburg
-COHO:0000046,http://www.ebi.ac.uk/coho#EGA_subset,Copenhagen Hospital Biobank
-COHO:0000047,http://www.ebi.ac.uk/coho#EGA_subset,CROATIA-Korcula Study
-COHO:0000048,http://www.ebi.ac.uk/coho#EGA_subset,Danish Glostrup Cohort
-COHO:0000049,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Genetics in Pakistan
-COHO:0000050,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes in Mexico Study
-COHO:0000051,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Prevention Program
-COHO:0000052,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication
-COHO:0000053,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Research on Patient Stratification
-COHO:0000054,http://www.ebi.ac.uk/coho#EGA_subset,Dortmund Health Study
-COHO:0000055,http://www.ebi.ac.uk/coho#EGA_subset,Duke Cognition Cohort
-COHO:0000056,http://www.ebi.ac.uk/coho#EGA_subset,DUNDEE
-COHO:0000057,http://www.ebi.ac.uk/coho#EGA_subset,Durban Diabetes Study
-COHO:0000058,http://www.ebi.ac.uk/coho#EGA_subset,Dutch and Belgian Lung Cancer Screening Trial
-COHO:0000059,http://www.ebi.ac.uk/coho#EGA_subset,Dutch Microbiome Project
-COHO:0000060,http://www.ebi.ac.uk/coho#EGA_subset,Edinburgh Stroke Study
-COHO:0000061,http://www.ebi.ac.uk/coho#EGA_subset,ENGAGE AF-TIMI 48
-COHO:0000062,http://www.ebi.ac.uk/coho#EGA_subset,EPIGEN
-COHO:0000063,http://www.ebi.ac.uk/coho#EGA_subset,Erasmus Rucphen Family Study
-COHO:0000064,http://www.ebi.ac.uk/coho#EGA_subset,Estonian Biobank
-COHO:0000065,http://www.ebi.ac.uk/coho#EGA_subset,European Prospective Investigation into Cancer
-COHO:0000066,http://www.ebi.ac.uk/coho#EGA_subset,European Prospective Investigation of Cancer-Norfolk
-COHO:0000067,http://www.ebi.ac.uk/coho#EGA_subset,EuroTARGET project
-COHO:0000068,http://www.ebi.ac.uk/coho#EGA_subset,Extremely Low Gestational Age Newborns
-COHO:0000069,http://www.ebi.ac.uk/coho#EGA_subset,Fatty Acid Sensor Study
-COHO:0000070,http://www.ebi.ac.uk/coho#EGA_subset,Finnish Twin Cohort Study
-COHO:0000071,http://www.ebi.ac.uk/coho#EGA_subset,FINRISK
-COHO:0000072,http://www.ebi.ac.uk/coho#EGA_subset,Flemish Gut Flora Project
-COHO:0000073,http://www.ebi.ac.uk/coho#EGA_subset,Gabriel Advanced Survey
-COHO:0000074,http://www.ebi.ac.uk/coho#EGA_subset,GCAT. Genomes For Life.
-COHO:0000075,http://www.ebi.ac.uk/coho#EGA_subset,GENESIS
-COHO:0000076,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Analysis of Multiple Sclerosis
-COHO:0000077,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Consortium for Anorexia Nervosa
-COHO:0000078,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Epidemiology of Asthma in Costa Rica
-COHO:0000079,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Overlap between Metabolic and Psychiatric traits
-COHO:0000080,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Prostate cancer risk stratification for targeted screening
-COHO:0000081,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Research in Isolated
-COHO:0000082,http://www.ebi.ac.uk/coho#EGA_subset,Genetics of diabetes Audit and Research
-COHO:0000083,http://www.ebi.ac.uk/coho#EGA_subset,Genetics of Healthy Aging
-COHO:0000084,http://www.ebi.ac.uk/coho#EGA_subset,GenomeAsia 100K project
-COHO:0000085,http://www.ebi.ac.uk/coho#EGA_subset,German Multiple Myeloma Study Group
-COHO:0000086,http://www.ebi.ac.uk/coho#EGA_subset,Ghana Prostate Study
-COHO:0000087,http://www.ebi.ac.uk/coho#EGA_subset,Glaucoma Inheritance Study in Tasmania
-COHO:0000088,http://www.ebi.ac.uk/coho#EGA_subset,Greece Hellenic Isolated Cohorts
-COHO:0000089,http://www.ebi.ac.uk/coho#EGA_subset,Health and Retirement Study
-COHO:0000090,http://www.ebi.ac.uk/coho#EGA_subset,Health2000 Study
-COHO:0000091,http://www.ebi.ac.uk/coho#EGA_subset,Heart Protection Study
-COHO:0000092,http://www.ebi.ac.uk/coho#EGA_subset,Hoorn Diabetes Care System
-COHO:0000093,http://www.ebi.ac.uk/coho#EGA_subset,Hospital Discharge Register Sweden
-COHO:0000094,http://www.ebi.ac.uk/coho#EGA_subset,Human Genetics Initiative
-COHO:0000095,http://www.ebi.ac.uk/coho#EGA_subset,Hunter Community Study
-COHO:0000096,http://www.ebi.ac.uk/coho#EGA_subset,Icelandic Cancer Registry
-COHO:0000097,http://www.ebi.ac.uk/coho#EGA_subset,Identification of Men with a genetic predisposition to ProstAte Cancer
-COHO:0000098,http://www.ebi.ac.uk/coho#EGA_subset,IIBDGC genotyped CD study
-COHO:0000099,http://www.ebi.ac.uk/coho#EGA_subset,Indiana Sisters Study
-COHO:0000100,http://www.ebi.ac.uk/coho#EGA_subset,INfancia y Medio Ambiente Project
-COHO:0000101,http://www.ebi.ac.uk/coho#EGA_subset,International Cancer Genome Consortium-Chronic Lymphocytic Leukemia
-COHO:0000102,http://www.ebi.ac.uk/coho#EGA_subset,International Headache Genetics Consortium
-COHO:0000103,http://www.ebi.ac.uk/coho#EGA_subset,International Multiple Sclerosis Genetics Consortium
-COHO:0000104,http://www.ebi.ac.uk/coho#EGA_subset,International Schizophrenia Consortium
-COHO:0000105,http://www.ebi.ac.uk/coho#EGA_subset,Italian Network on Genetic Isolates Studies
-COHO:0000106,http://www.ebi.ac.uk/coho#EGA_subset,Leeds Melanoma Cohort
-COHO:0000107,http://www.ebi.ac.uk/coho#EGA_subset,Leiden Longevity Study
-COHO:0000108,http://www.ebi.ac.uk/coho#EGA_subset,LifeLines
-COHO:0000109,http://www.ebi.ac.uk/coho#EGA_subset,Living Biobank
-COHO:0000110,http://www.ebi.ac.uk/coho#EGA_subset,Los Angeles component of The Womens Contraceptive and Reproductive Experiences Study
-COHO:0000111,http://www.ebi.ac.uk/coho#EGA_subset,Lothian Birth Cohort
-COHO:0000112,http://www.ebi.ac.uk/coho#EGA_subset,Lund Stroke Register
-COHO:0000113,http://www.ebi.ac.uk/coho#EGA_subset,Marseille Thrombosis Association Study
-COHO:0000114,http://www.ebi.ac.uk/coho#EGA_subset,Mexican Biobank
-COHO:0000115,http://www.ebi.ac.uk/coho#EGA_subset,MIRAGE
-COHO:0000116,http://www.ebi.ac.uk/coho#EGA_subset,Molecular Genetics of Schizophrenia Collaboration
-COHO:0000117,http://www.ebi.ac.uk/coho#EGA_subset,"MOnica Risk, Genetics, Archiving and Monograph"
-COHO:0000118,http://www.ebi.ac.uk/coho#EGA_subset,Monitoring of Trends and Determinants in Cardiovascular Disease
-COHO:0000119,http://www.ebi.ac.uk/coho#EGA_subset,Multi-Ethnic Study of Atherosclerosis
-COHO:0000120,http://www.ebi.ac.uk/coho#EGA_subset,Multicenter Family Study
-COHO:0000121,http://www.ebi.ac.uk/coho#EGA_subset,Multiethnic Cohort Study of Diet and Health
-COHO:0000122,http://www.ebi.ac.uk/coho#EGA_subset,Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis
-COHO:0000123,http://www.ebi.ac.uk/coho#EGA_subset,National Health Service Blood and Transplant
-COHO:0000124,http://www.ebi.ac.uk/coho#EGA_subset,National Study of Colorectal Cancer Genetics
-COHO:0000125,http://www.ebi.ac.uk/coho#EGA_subset,Netherlands Twin Registry
-COHO:0000126,http://www.ebi.ac.uk/coho#EGA_subset,New England-based Case-Control Study of Ovarian Cancer
-COHO:0000127,http://www.ebi.ac.uk/coho#EGA_subset,NIDDK
-COHO:0000128,http://www.ebi.ac.uk/coho#EGA_subset,Nijmegen Biomedical Study
-COHO:0000129,http://www.ebi.ac.uk/coho#EGA_subset,Northern Ireland Cohort for Longitudinal Study of Ageing
-COHO:0000130,http://www.ebi.ac.uk/coho#EGA_subset,Northern Sweden Population Health Study
-COHO:0000131,http://www.ebi.ac.uk/coho#EGA_subset,Norwegian Mother and Child Cohort study
-COHO:0000132,http://www.ebi.ac.uk/coho#EGA_subset,Orkney Complex Disease Study
-COHO:0000133,http://www.ebi.ac.uk/coho#EGA_subset,Outcome Reduction With Initial Glargine Intervention Trial
-COHO:0000134,http://www.ebi.ac.uk/coho#EGA_subset,Ovarian Cancer Association Consortium
-COHO:0000135,http://www.ebi.ac.uk/coho#EGA_subset,Ovarian Cancer Study
-COHO:0000136,http://www.ebi.ac.uk/coho#EGA_subset,Oxford Biobank
-COHO:0000137,http://www.ebi.ac.uk/coho#EGA_subset,PanCareLIFE
-COHO:0000138,http://www.ebi.ac.uk/coho#EGA_subset,Parkinson Environment and Gene
-COHO:0000139,http://www.ebi.ac.uk/coho#EGA_subset,People of the British Isles
-COHO:0000140,http://www.ebi.ac.uk/coho#EGA_subset,Physical Activity and Nutrition in Children Study
-COHO:0000141,http://www.ebi.ac.uk/coho#EGA_subset,Population-based Colonoscopy study
-COHO:0000142,http://www.ebi.ac.uk/coho#EGA_subset,Precocious Coronary Artery Disease Study
-COHO:0000143,http://www.ebi.ac.uk/coho#EGA_subset,Pressioni Arteriose Monitorate E Loro Associazionie
-COHO:0000144,http://www.ebi.ac.uk/coho#EGA_subset,Prospective Investigation of the Vasculature in Uppsala Seniors
-COHO:0000145,http://www.ebi.ac.uk/coho#EGA_subset,Psoriasis Association Genetics Extension
-COHO:0000146,http://www.ebi.ac.uk/coho#EGA_subset,Psychiatric GWAS Consortium
-COHO:0000147,http://www.ebi.ac.uk/coho#EGA_subset,Research on Adolescent Development and Relationships
-COHO:0000148,http://www.ebi.ac.uk/coho#EGA_subset,Rotterdam Study
-COHO:0000149,http://www.ebi.ac.uk/coho#EGA_subset,Saguenay-Lac-Saint-Jean asthma study
-COHO:0000150,http://www.ebi.ac.uk/coho#EGA_subset,Sahlgrenska Academy Study on Ischemic Stroke
-COHO:0000151,http://www.ebi.ac.uk/coho#EGA_subset,SardiNIA Study of Aging
-COHO:0000152,http://www.ebi.ac.uk/coho#EGA_subset,Scania Diabetes Registry
-COHO:0000153,http://www.ebi.ac.uk/coho#EGA_subset,Shanghai Study
-COHO:0000154,http://www.ebi.ac.uk/coho#EGA_subset,Short Course Oncology Treatment trial
-COHO:0000155,http://www.ebi.ac.uk/coho#EGA_subset,Simons Simplex Collection
-COHO:0000156,http://www.ebi.ac.uk/coho#EGA_subset,Singapore Chinese Study
-COHO:0000157,http://www.ebi.ac.uk/coho#EGA_subset,SORCE
-COHO:0000158,http://www.ebi.ac.uk/coho#EGA_subset,Spit for Science
-COHO:0000159,http://www.ebi.ac.uk/coho#EGA_subset,Sweden Bipolar Disorder Cohort
-COHO:0000160,http://www.ebi.ac.uk/coho#EGA_subset,Swedish Twin Registry
-COHO:0000161,http://www.ebi.ac.uk/coho#EGA_subset,Taiwan Type 2 Diabetes Study
-COHO:0000162,http://www.ebi.ac.uk/coho#EGA_subset,TEENs of Attica: Genes and Environment
-COHO:0000163,http://www.ebi.ac.uk/coho#EGA_subset,The English Longitudinal Study of Ageing
-COHO:0000164,http://www.ebi.ac.uk/coho#EGA_subset,The Fenland Study
-COHO:0000165,http://www.ebi.ac.uk/coho#EGA_subset,The Helmholtz-Gemeinschaft Deutscher Forschungszentren
-COHO:0000166,http://www.ebi.ac.uk/coho#EGA_subset,The MANOLIS cohort
-COHO:0000167,http://www.ebi.ac.uk/coho#EGA_subset,The Netherlands AAA GWAS dataset
-COHO:0000168,http://www.ebi.ac.uk/coho#EGA_subset,The Norwegian Biobank for Myeloma
-COHO:0000169,http://www.ebi.ac.uk/coho#EGA_subset,The Pakistan Risk Of Myocardial Infarction Study
-COHO:0000170,http://www.ebi.ac.uk/coho#EGA_subset,The Secondary Manifestations of ARTerial disease study
-COHO:0000171,http://www.ebi.ac.uk/coho#EGA_subset,The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility
-COHO:0000172,http://www.ebi.ac.uk/coho#EGA_subset,Treating to New Targets
-COHO:0000173,http://www.ebi.ac.uk/coho#EGA_subset,Twins Early Development Study
-COHO:0000174,http://www.ebi.ac.uk/coho#EGA_subset,Type 1 Diabetes Genetics Consortium
-COHO:0000175,http://www.ebi.ac.uk/coho#EGA_subset,UK Adult Twin Register
-COHO:0000176,http://www.ebi.ac.uk/coho#EGA_subset,UK Biobank
-COHO:0000177,http://www.ebi.ac.uk/coho#EGA_subset,UK Brain Expression Consortium
-COHO:0000178,http://www.ebi.ac.uk/coho#EGA_subset,UK Childhood Cancer Study
-COHO:0000179,http://www.ebi.ac.uk/coho#EGA_subset,UK Household Longitudinal Study
-COHO:0000180,http://www.ebi.ac.uk/coho#EGA_subset,UK Inflammatory Bowel Disease Genetics Consortium
-COHO:0000181,http://www.ebi.ac.uk/coho#EGA_subset,Viking Health Study
-COHO:0000182,http://www.ebi.ac.uk/coho#EGA_subset,Wellcome Trust Case Control Consortium
-COHO:0000183,http://www.ebi.ac.uk/coho#EGA_subset,Basquecolon cohort
-COHO:0000184,http://www.ebi.ac.uk/coho#EGA_subset,INTERVAL study
-COHO:0000185,http://www.ebi.ac.uk/coho#EGA_subset,CONVERGE
-COHO:0000186,http://www.ebi.ac.uk/coho#EGA_subset,Gene-Environmental Interaction and phenotype study
+ID,TYPE,subset,label
+ID,TYPE,AI oboInOwl:inSubset,
+COHO:0000002,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,1000 Genomes
+COHO:0000003,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,AddNeuroMed Cohort
+COHO:0000004,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Adenoma Prevention with Celecoxib trail
+COHO:0000005,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Advanced Study of Aortic Pathology
+COHO:0000006,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Africa Wits-INDEPTH partnership for Genomics studies
+COHO:0000007,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Arthritis Research UK Osteoarthritis Genetics
+COHO:0000008,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Asian Cancer Project
+COHO:0000009,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Aspirin for Asymptomatic Atherosclerosis Study
+COHO:0000010,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,AtheroExpress
+COHO:0000011,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Atherosclerosis Risk in Communities Study
+COHO:0000012,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Atopic Dermatitis Research Network
+COHO:0000013,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Australia Cancer Study
+COHO:0000014,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Australian Ovarian Cancer Study
+COHO:0000015,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Australian Twin Registry
+COHO:0000016,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Avon Longitudinal Study of Parents and Children
+COHO:0000017,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Berlin_Frankfurt_Munster trials
+COHO:0000018,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Bladder Cancer Prognosis Programme
+COHO:0000019,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Brazilian Cohort
+COHO:0000020,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Breast Cancer Association Consortium
+COHO:0000021,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Bruneck study
+COHO:0000022,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cancer and Leukemia Group B
+COHO:0000023,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Genome Atlas
+COHO:0000024,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Prevention Study
+COHO:0000025,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cancer Prostate in Sweden
+COHO:0000026,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Candesartan in Heart failure Assessment of Reduction in Mortality and morbidit
+COHO:0000027,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cardio-metabolic Genome Epidemiology Study
+COHO:0000028,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cardiogenics Study
+COHO:0000029,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,CARDIoGRAMplusC4D
+COHO:0000030,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Carolina Head and Neck Cancer Epidemiology
+COHO:0000031,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,"CARTaGENE cohort (CHU Sainte-Justine, Quebec, Canada)"
+COHO:0000032,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Center for Autism Research and Treatment
+COHO:0000033,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Center on Antisocial Drug Dependence
+COHO:0000034,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Centre dEtude du Polymorphisme Humain
+COHO:0000035,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Centre National de G_notypage
+COHO:0000036,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Chicago Asthma Genetics
+COHO:0000037,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,"Children, Allergy, Milieu, Stockholm, Epidemiology"
+COHO:0000038,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cholesterol and Atherosclerosis Pharmacogenetics
+COHO:0000039,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cilento study
+COHO:0000040,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,COIN
+COHO:0000041,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,COIN-B
+COHO:0000042,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Colorectal Cancer Study of Austria
+COHO:0000043,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis
+COHO:0000044,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Consortium of Minority Population Genome-Wide Association Studies of Stroke
+COHO:0000045,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Cooperative Health Research in the Region of Augsburg
+COHO:0000046,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Copenhagen Hospital Biobank
+COHO:0000047,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,CROATIA-Korcula Study
+COHO:0000048,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Danish Glostrup Cohort
+COHO:0000049,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Genetics in Pakistan
+COHO:0000050,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes in Mexico Study
+COHO:0000051,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Prevention Program
+COHO:0000052,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Reduction Assessment with Ramipril and Rosiglitazone Medication
+COHO:0000053,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Diabetes Research on Patient Stratification
+COHO:0000054,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Dortmund Health Study
+COHO:0000055,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Duke Cognition Cohort
+COHO:0000056,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,DUNDEE
+COHO:0000057,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Durban Diabetes Study
+COHO:0000058,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Dutch and Belgian Lung Cancer Screening Trial
+COHO:0000059,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Dutch Microbiome Project
+COHO:0000060,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Edinburgh Stroke Study
+COHO:0000061,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,ENGAGE AF-TIMI 48
+COHO:0000062,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,EPIGEN
+COHO:0000063,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Erasmus Rucphen Family Study
+COHO:0000064,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Estonian Biobank
+COHO:0000065,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,European Prospective Investigation into Cancer
+COHO:0000066,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,European Prospective Investigation of Cancer-Norfolk
+COHO:0000067,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,EuroTARGET project
+COHO:0000068,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Extremely Low Gestational Age Newborns
+COHO:0000069,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Fatty Acid Sensor Study
+COHO:0000070,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Finnish Twin Cohort Study
+COHO:0000071,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,FINRISK
+COHO:0000072,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Flemish Gut Flora Project
+COHO:0000073,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Gabriel Advanced Survey
+COHO:0000074,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,GCAT. Genomes For Life.
+COHO:0000075,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,GENESIS
+COHO:0000076,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Analysis of Multiple Sclerosis
+COHO:0000077,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Consortium for Anorexia Nervosa
+COHO:0000078,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Epidemiology of Asthma in Costa Rica
+COHO:0000079,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Overlap between Metabolic and Psychiatric traits
+COHO:0000080,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Prostate cancer risk stratification for targeted screening
+COHO:0000081,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetic Research in Isolated
+COHO:0000082,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetics of diabetes Audit and Research
+COHO:0000083,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Genetics of Healthy Aging
+COHO:0000084,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,GenomeAsia 100K project
+COHO:0000085,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,German Multiple Myeloma Study Group
+COHO:0000086,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Ghana Prostate Study
+COHO:0000087,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Glaucoma Inheritance Study in Tasmania
+COHO:0000088,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Greece Hellenic Isolated Cohorts
+COHO:0000089,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Health and Retirement Study
+COHO:0000090,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Health2000 Study
+COHO:0000091,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Heart Protection Study
+COHO:0000092,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Hoorn Diabetes Care System
+COHO:0000093,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Hospital Discharge Register Sweden
+COHO:0000094,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Human Genetics Initiative
+COHO:0000095,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Hunter Community Study
+COHO:0000096,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Icelandic Cancer Registry
+COHO:0000097,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Identification of Men with a genetic predisposition to ProstAte Cancer
+COHO:0000098,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,IIBDGC genotyped CD study
+COHO:0000099,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Indiana Sisters Study
+COHO:0000100,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,INfancia y Medio Ambiente Project
+COHO:0000101,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,International Cancer Genome Consortium-Chronic Lymphocytic Leukemia
+COHO:0000102,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,International Headache Genetics Consortium
+COHO:0000103,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,International Multiple Sclerosis Genetics Consortium
+COHO:0000104,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,International Schizophrenia Consortium
+COHO:0000105,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Italian Network on Genetic Isolates Studies
+COHO:0000106,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Leeds Melanoma Cohort
+COHO:0000107,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Leiden Longevity Study
+COHO:0000108,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,LifeLines
+COHO:0000109,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Living Biobank
+COHO:0000110,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Los Angeles component of The Womens Contraceptive and Reproductive Experiences Study
+COHO:0000111,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Lothian Birth Cohort
+COHO:0000112,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Lund Stroke Register
+COHO:0000113,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Marseille Thrombosis Association Study
+COHO:0000114,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Mexican Biobank
+COHO:0000115,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,MIRAGE
+COHO:0000116,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Molecular Genetics of Schizophrenia Collaboration
+COHO:0000117,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,"MOnica Risk, Genetics, Archiving and Monograph"
+COHO:0000118,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Monitoring of Trends and Determinants in Cardiovascular Disease
+COHO:0000119,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Multi-Ethnic Study of Atherosclerosis
+COHO:0000120,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Multicenter Family Study
+COHO:0000121,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Multiethnic Cohort Study of Diet and Health
+COHO:0000122,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis
+COHO:0000123,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,National Health Service Blood and Transplant
+COHO:0000124,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,National Study of Colorectal Cancer Genetics
+COHO:0000125,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Netherlands Twin Registry
+COHO:0000126,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,New England-based Case-Control Study of Ovarian Cancer
+COHO:0000127,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,NIDDK
+COHO:0000128,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Nijmegen Biomedical Study
+COHO:0000129,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Northern Ireland Cohort for Longitudinal Study of Ageing
+COHO:0000130,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Northern Sweden Population Health Study
+COHO:0000131,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Norwegian Mother and Child Cohort study
+COHO:0000132,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Orkney Complex Disease Study
+COHO:0000133,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Outcome Reduction With Initial Glargine Intervention Trial
+COHO:0000134,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Ovarian Cancer Association Consortium
+COHO:0000135,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Ovarian Cancer Study
+COHO:0000136,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Oxford Biobank
+COHO:0000137,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,PanCareLIFE
+COHO:0000138,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Parkinson Environment and Gene
+COHO:0000139,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,People of the British Isles
+COHO:0000140,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Physical Activity and Nutrition in Children Study
+COHO:0000141,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Population-based Colonoscopy study
+COHO:0000142,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Precocious Coronary Artery Disease Study
+COHO:0000143,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Pressioni Arteriose Monitorate E Loro Associazionie
+COHO:0000144,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Prospective Investigation of the Vasculature in Uppsala Seniors
+COHO:0000145,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Psoriasis Association Genetics Extension
+COHO:0000146,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Psychiatric GWAS Consortium
+COHO:0000147,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Research on Adolescent Development and Relationships
+COHO:0000148,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Rotterdam Study
+COHO:0000149,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Saguenay-Lac-Saint-Jean asthma study
+COHO:0000150,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Sahlgrenska Academy Study on Ischemic Stroke
+COHO:0000151,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,SardiNIA Study of Aging
+COHO:0000152,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Scania Diabetes Registry
+COHO:0000153,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Shanghai Study
+COHO:0000154,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Short Course Oncology Treatment trial
+COHO:0000155,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Simons Simplex Collection
+COHO:0000156,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Singapore Chinese Study
+COHO:0000157,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,SORCE
+COHO:0000158,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Spit for Science
+COHO:0000159,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Sweden Bipolar Disorder Cohort
+COHO:0000160,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Swedish Twin Registry
+COHO:0000161,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Taiwan Type 2 Diabetes Study
+COHO:0000162,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,TEENs of Attica: Genes and Environment
+COHO:0000163,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The English Longitudinal Study of Ageing
+COHO:0000164,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Fenland Study
+COHO:0000165,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Helmholtz-Gemeinschaft Deutscher Forschungszentren
+COHO:0000166,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The MANOLIS cohort
+COHO:0000167,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Netherlands AAA GWAS dataset
+COHO:0000168,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Norwegian Biobank for Myeloma
+COHO:0000169,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Pakistan Risk Of Myocardial Infarction Study
+COHO:0000170,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Secondary Manifestations of ARTerial disease study
+COHO:0000171,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility
+COHO:0000172,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Treating to New Targets
+COHO:0000173,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Twins Early Development Study
+COHO:0000174,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Type 1 Diabetes Genetics Consortium
+COHO:0000175,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Adult Twin Register
+COHO:0000176,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Biobank
+COHO:0000177,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Brain Expression Consortium
+COHO:0000178,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Childhood Cancer Study
+COHO:0000179,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Household Longitudinal Study
+COHO:0000180,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,UK Inflammatory Bowel Disease Genetics Consortium
+COHO:0000181,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Viking Health Study
+COHO:0000182,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Wellcome Trust Case Control Consortium
+COHO:0000183,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Basquecolon cohort
+COHO:0000184,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,INTERVAL study
+COHO:0000185,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,CONVERGE
+COHO:0000186,owl:NamedIndividual,http://www.ebi.ac.uk/coho#EGA_subset,Gene-Environmental Interaction and phenotype study

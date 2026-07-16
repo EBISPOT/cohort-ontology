@@ -41,8 +41,10 @@ $(COMPONENTSDIR)/gaz_xrefs.owl: $(TEMPLATEDIR)/gaz_xrefs.tsv $(TMPDIR)/stamp-com
 		$(COHO_PREFIX) \
 		--template $(TEMPLATEDIR)/gaz_xrefs.tsv \
 		$(ANNOTATE_CONVERT_FILE)
-	@# ROBOT emits RO:0001025 as data property syntax in this template; normalize to object property for OWL 2 DL.
+	@# ROBOT may emit RO:0001025 as data property syntax in this template; normalize to object property for OWL 2 DL.
+	@# Covers both the legacy class-expression form (DataSomeValuesFrom) and the individual assertion form (DataPropertyAssertion).
 	sed -i.bak 's#DataSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025>#ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025>#g' $(COMPONENTSDIR)/gaz_xrefs.owl
+	sed -i.bak 's#DataPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025>#ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025>#g' $(COMPONENTSDIR)/gaz_xrefs.owl
 	sed -i.bak 's#Declaration(DataProperty(<http://purl.obolibrary.org/obo/RO_0001025>))#Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))#g' $(COMPONENTSDIR)/gaz_xrefs.owl
 	rm -f $(COMPONENTSDIR)/gaz_xrefs.owl.bak
 
