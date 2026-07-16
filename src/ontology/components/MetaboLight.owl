@@ -10,29 +10,29 @@ Ontology(<http://www.ebi.ac.uk/coho/components/MetaboLight.owl>
 <http://www.ebi.ac.uk/coho/releases/2026-04-23/components/MetaboLight.owl>
 Annotation(owl:versionInfo "2026-04-23")
 
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000023>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000025>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000036>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000038>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000046>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000066>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000099>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000107>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000144>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000160>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000164>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000169>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000176>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000183>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000184>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000187>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000188>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000189>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000190>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000191>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000192>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000193>))
-Declaration(Class(<http://www.ebi.ac.uk/coho/COHO_0000194>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000023>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000025>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000036>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000038>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000046>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000066>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000099>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000107>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000144>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000160>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000164>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000169>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000176>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000183>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000184>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000187>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000188>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000189>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000190>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000191>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000192>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000193>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000194>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
 
 
@@ -40,95 +40,95 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 #   Classes
 ############################
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000023> (<http://www.ebi.ac.uk/coho/COHO_0000023>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000023> (<http://www.ebi.ac.uk/coho/COHO_0000023>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000023> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000025> (<http://www.ebi.ac.uk/coho/COHO_0000025>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000025> (<http://www.ebi.ac.uk/coho/COHO_0000025>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000025> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000036> (<http://www.ebi.ac.uk/coho/COHO_0000036>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000036> (<http://www.ebi.ac.uk/coho/COHO_0000036>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000036> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000038> (<http://www.ebi.ac.uk/coho/COHO_0000038>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000038> (<http://www.ebi.ac.uk/coho/COHO_0000038>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000038> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000046> (<http://www.ebi.ac.uk/coho/COHO_0000046>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000046> (<http://www.ebi.ac.uk/coho/COHO_0000046>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000046> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000066> (<http://www.ebi.ac.uk/coho/COHO_0000066>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000066> (<http://www.ebi.ac.uk/coho/COHO_0000066>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000066> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000099> (<http://www.ebi.ac.uk/coho/COHO_0000099>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000099> (<http://www.ebi.ac.uk/coho/COHO_0000099>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000099> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000107> (<http://www.ebi.ac.uk/coho/COHO_0000107>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000107> (<http://www.ebi.ac.uk/coho/COHO_0000107>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000107> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000144> (<http://www.ebi.ac.uk/coho/COHO_0000144>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000144> (<http://www.ebi.ac.uk/coho/COHO_0000144>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000144> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000160> (<http://www.ebi.ac.uk/coho/COHO_0000160>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000160> (<http://www.ebi.ac.uk/coho/COHO_0000160>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000160> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000164> (<http://www.ebi.ac.uk/coho/COHO_0000164>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000164> (<http://www.ebi.ac.uk/coho/COHO_0000164>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000164> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000169> (<http://www.ebi.ac.uk/coho/COHO_0000169>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000169> (<http://www.ebi.ac.uk/coho/COHO_0000169>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000169> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000176> (<http://www.ebi.ac.uk/coho/COHO_0000176>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000176> (<http://www.ebi.ac.uk/coho/COHO_0000176>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000176> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000183> (<http://www.ebi.ac.uk/coho/COHO_0000183>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000183> (<http://www.ebi.ac.uk/coho/COHO_0000183>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000183> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000184> (<http://www.ebi.ac.uk/coho/COHO_0000184>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000184> (<http://www.ebi.ac.uk/coho/COHO_0000184>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000184> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000187> (<http://www.ebi.ac.uk/coho/COHO_0000187>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000187> (<http://www.ebi.ac.uk/coho/COHO_0000187>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000187> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000188> (<http://www.ebi.ac.uk/coho/COHO_0000188>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000188> (<http://www.ebi.ac.uk/coho/COHO_0000188>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000188> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000189> (<http://www.ebi.ac.uk/coho/COHO_0000189>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000189> (<http://www.ebi.ac.uk/coho/COHO_0000189>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000189> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000190> (<http://www.ebi.ac.uk/coho/COHO_0000190>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000190> (<http://www.ebi.ac.uk/coho/COHO_0000190>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000190> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000191> (<http://www.ebi.ac.uk/coho/COHO_0000191>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000191> (<http://www.ebi.ac.uk/coho/COHO_0000191>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000191> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000192> (<http://www.ebi.ac.uk/coho/COHO_0000192>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000192> (<http://www.ebi.ac.uk/coho/COHO_0000192>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000193> (<http://www.ebi.ac.uk/coho/COHO_0000193>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000193> (<http://www.ebi.ac.uk/coho/COHO_0000193>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000193> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 
-# Class: <http://www.ebi.ac.uk/coho/COHO_0000194> (<http://www.ebi.ac.uk/coho/COHO_0000194>)
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000194> (<http://www.ebi.ac.uk/coho/COHO_0000194>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000194> <http://www.ebi.ac.uk/coho#MetaboLight_subset>)
 

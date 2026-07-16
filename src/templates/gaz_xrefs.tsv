@@ -1,5 +1,5 @@
 ID	database_cross_reference	parent_class	label	located_in_area
-ID	A oio:hasDbXref	SC %	A rdfs:label	SC RO:0001025 some %
+ID	A oio:hasDbXref	TYPE	A rdfs:label	I RO:0001025
 dbpedia:Australia	GAZ:00000463	NCIT:C25464	Australia	dbpedia:Oceania
 dbpedia:Austria	GAZ:00002942	NCIT:C25464	Austria	dbpedia:Europe
 dbpedia:Bangladesh	GAZ:00003750	NCIT:C25464	Bangladesh	dbpedia:South_Asia
