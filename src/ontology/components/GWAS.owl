@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/GWAS.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-04-23/components/GWAS.owl>
-Annotation(owl:versionInfo "2026-04-23")
+<http://www.ebi.ac.uk/coho/releases/2026-08-26/components/GWAS.owl>
+Annotation(owl:versionInfo "2026-08-26")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -213,7 +213,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inS
 
 
 ############################
-#   Classes
+#   Named Individuals
 ############################
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000002> (<http://www.ebi.ac.uk/coho/COHO_0000002>)
