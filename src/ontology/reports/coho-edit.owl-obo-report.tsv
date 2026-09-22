@@ -2,7 +2,6 @@ Level	Rule Name	Subject	Property	Value
 WARN	missing_definition	http://www.ebi.ac.uk/coho/TEMP_temporary_unclassified	IAO:0000115	
 WARN	missing_definition	http://www.ebi.ac.uk/coho/hasCohort	IAO:0000115	
 WARN	missing_definition	http://www.ebi.ac.uk/coho/hasSubCohort	IAO:0000115	
-WARN	missing_definition	http://www.ebi.ac.uk/coho/has_data_collection_location	IAO:0000115	
 WARN	missing_definition	http://www.ebi.ac.uk/coho/isSubCohortOf	IAO:0000115	
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/COHO_0000000	rdfs:subClassOf	
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/TEMP_temporary_unclassified	rdfs:subClassOf	
