@@ -1,0 +1,28 @@
+ID	TYPE	label	member cohort	evidence	source
+ID	TYPE		I coho:hasCohort	>A rdfs:comment	>A oio:hasDbXref
+COHO:0000020	owl:NamedIndividual	Breast Cancer Association Consortium	COHO:0000024	Cancer Prevention Study II	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5601244/unicode
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000028	Cardiogenics	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000064	EGCUT	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000066	EPIC	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000082	GoDARTS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000091	HPS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000142	PROCARDIS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000144	PIVUS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000160	STR	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000169	PROMIS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000171	THISEAS	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000189	FGENTCARD	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000194	ULSAM	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
+COHO:0000044	owl:NamedIndividual	Consortium of Minority Population Genome-Wide Association Studies of Stroke	COHO:0000011	Atherosclerosis Risk in Communities	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4740911/unicode
+COHO:0000088	owl:NamedIndividual	Greece Hellenic Isolated Cohorts	COHO:0000166	The two cohorts included in this analysis, MANOLIS and Pomak, are part of the Hellenic Isolated Cohorts	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8640022/unicode
+COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000016	Avon Longitudinal Study of Parents and Children	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
+COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000064	Estonian Genome Center, University of Tartu	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
+COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000125	Netherlands Twin Register	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
+COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000160	Swedish Twin Registry	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
+COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000175	Twins UK	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
+COHO:0000103	owl:NamedIndividual	International Multiple Sclerosis Genetics Consortium	COHO:0000073	Gabriel Advanced Survey	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3182531/supplementaryFiles
+COHO:0000103	owl:NamedIndividual	International Multiple Sclerosis Genetics Consortium	COHO:0000142	PROCARDIS	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3182531/supplementaryFiles
+COHO:0000117	owl:NamedIndividual	MOnica Risk, Genetics, Archiving and Monograph	COHO:0000143	ITA-PAM 21 01 1990-93	https://www.thl.fi/publications/morgam/cohorts/tables/base_summary.htm
+COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000013	Australian Cancer Study – Ovarian Cancer	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
+COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000014	Australian Ovarian Cancer Study	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
+COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000126	New England-based Case-Control Study	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
