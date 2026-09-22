@@ -88,3 +88,7 @@ robot_report:
   - label-with-iri
   - multiple-replaced_by
   - dc-properties
+  - cohort-aggregation-members
+  - missing-usage-example
+  - missing-definition
+  - overlapping-synonyms

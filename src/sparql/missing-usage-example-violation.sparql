@@ -1,0 +1,19 @@
+# Every active COHO individual needs an example, including aggregations and
+# temporarily unclassified records. Examples are imported from example_studies.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?label
+WHERE {
+  ?term a owl:NamedIndividual .
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+  FILTER NOT EXISTS {
+    ?term obo:IAO_0000112 ?example .
+    FILTER((isLiteral(?example) || isIRI(?example)) && REGEX(STR(?example), "\\S"))
+  }
+}
+ORDER BY ?term

@@ -1,0 +1,46 @@
+# A shared synonym requires a non-empty editor note on BOTH active COHO terms.
+# Compare across synonym types, ignoring case and normalising whitespace.
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term1 ?label1 ?term2 ?label2 ?synonym
+WHERE {
+  VALUES ?property1 {
+    oboInOwl:hasExactSynonym
+    oboInOwl:hasRelatedSynonym
+    oboInOwl:hasBroadSynonym
+    oboInOwl:hasNarrowSynonym
+  }
+  VALUES ?property2 {
+    oboInOwl:hasExactSynonym
+    oboInOwl:hasRelatedSynonym
+    oboInOwl:hasBroadSynonym
+    oboInOwl:hasNarrowSynonym
+  }
+  ?term1 ?property1 ?value1 .
+  ?term2 ?property2 ?value2 .
+  FILTER(isIRI(?term1) && isIRI(?term2) && STR(?term1) < STR(?term2))
+  FILTER(
+    (STRSTARTS(STR(?term1), "http://www.ebi.ac.uk/coho/") ||
+     STRSTARTS(STR(?term1), "http://www.ebi.ac.uk/coho#")) &&
+    (STRSTARTS(STR(?term2), "http://www.ebi.ac.uk/coho/") ||
+     STRSTARTS(STR(?term2), "http://www.ebi.ac.uk/coho#"))
+  )
+  FILTER NOT EXISTS { ?term1 owl:deprecated true }
+  FILTER NOT EXISTS { ?term2 owl:deprecated true }
+  FILTER(isLiteral(?value1) && isLiteral(?value2))
+  BIND(LCASE(REPLACE(REPLACE(STR(?value1), "\\s+", " "), "^ +| +$", "")) AS ?synonym)
+  BIND(LCASE(REPLACE(REPLACE(STR(?value2), "\\s+", " "), "^ +| +$", "")) AS ?synonym2)
+  FILTER(?synonym != "" && ?synonym = ?synonym2)
+  OPTIONAL { ?term1 rdfs:label ?label1 }
+  OPTIONAL { ?term2 rdfs:label ?label2 }
+  FILTER NOT EXISTS {
+    ?term1 obo:IAO_0000116 ?note1 .
+    ?term2 obo:IAO_0000116 ?note2 .
+    FILTER(isLiteral(?note1) && REGEX(STR(?note1), "\\S"))
+    FILTER(isLiteral(?note2) && REGEX(STR(?note2), "\\S"))
+  }
+}
+ORDER BY ?term1 ?term2 ?synonym
