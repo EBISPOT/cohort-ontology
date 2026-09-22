@@ -23,7 +23,6 @@ mv om-macos-arm64 ~/.local/bin/om
 - `release_artefacts`, `primary_release`, `export_formats` — which release files are made, and in which formats.
 - `import_group` — the ontologies COHO imports terms from (see [Imports management](UpdateImports.md)).
 - `components` — the parts of COHO generated from ROBOT templates (see [Components management](components.md)).
-- `subset_group` — the subsets released alongside the ontology.
 - `robot_report` — the quality control checks (see [Quality control](QualityControl.md)).
 
 The options have the names and meanings they have in an ODK configuration, so the [ODK configuration reference](https://github.com/INCATools/ontology-development-kit/blob/master/docs/project-schema.md) applies to them.
