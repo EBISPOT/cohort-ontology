@@ -1,4 +1,4 @@
-min_owlmake_version: 0.3.1
+min_owlmake_version: 0.3.2
 emulate_odk_version: 1.6.1
 id: coho
 title: Cohort Ontology
@@ -14,6 +14,12 @@ release_artefacts:
 - full
 - simple
 primary_release: full
+reasoner: hermit
+release_property_assertions:
+- coho:hasSubCohort
+- coho:isSubCohortOf
+- coho:hasCohort
+- coho:has_data_collection_location
 export_formats:
 - owl
 - obo
