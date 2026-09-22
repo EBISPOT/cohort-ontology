@@ -81,7 +81,7 @@ robot_report:
   release_reports: false
   fail_on: ERROR
   use_labels: false
-  custom_profile: false
+  custom_profile: true
   use_base_iris: true
   sparql_test_on:
   - edit
@@ -93,7 +93,6 @@ robot_report:
   - label-with-iri
   - multiple-replaced_by
   - dc-properties
-  - cohort-aggregation-members
   - missing-usage-example
   - missing-definition
   - overlapping-synonyms

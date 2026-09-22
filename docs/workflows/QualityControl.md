@@ -36,3 +36,5 @@ We can define custom checks using [SPARQL](https://www.w3.org/TR/rdf-sparql-quer
     ```
 
 The check is part of `om make test` from then on.
+
+A check that should be reported but not fail the build goes instead into `src/ontology/profile.txt`, the QC report's rule set (`custom_profile: true` in `owlmake.yaml`): a line `WARN	file:../sparql/your-check-report.sparql`, with the query returning `?entity ?property ?value`. The aggregation-membership check runs this way.

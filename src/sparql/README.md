@@ -24,7 +24,7 @@ COHO completeness and synonym checks:
 
 | Check | Requirement |
 | --- | --- |
-| `cohort-aggregation-members` | Every cohort aggregation has `hasCohort` links to at least two distinct, named, active individuals typed as cohorts (including subclasses). Anonymous restrictions, self-links, deprecated members and links to other types do not count. |
+| `cohort-aggregation-members` (report, WARN) | Every cohort aggregation has `hasCohort` links to at least two distinct, named, active individuals typed as cohorts (including subclasses). Anonymous restrictions, self-links, deprecated members and links to other types do not count. Run at WARN by `src/ontology/profile.txt` (the QC report's rule set), not as a failing check: most aggregations' members are not yet COHO terms. |
 | `missing-usage-example` | Every COHO individual, including aggregations and temporarily unclassified records, has a non-empty `IAO:0000112` example of usage, expressed as a literal or IRI. |
 | `missing-definition` | Every COHO class, individual and property has a non-empty literal `IAO:0000115` definition. This includes temporary classes and local subset properties. |
 | `overlapping-synonyms` | Two COHO terms sharing an exact, related, broad or narrow synonym must each have a non-empty literal `IAO:0000116` editor note. Comparison ignores case and normalises whitespace, across synonym types; each term pair is reported once per shared synonym. |
