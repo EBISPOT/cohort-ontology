@@ -871,7 +871,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000055)
 # Individual: coho:COHO_0000056 (DUNDEE)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000056 "DUNDEE"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000056)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000056)
 
 # Individual: coho:COHO_0000057 (Durban Diabetes Study)
 

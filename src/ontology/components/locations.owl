@@ -650,7 +650,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000056> (<http://www.ebi.ac.uk/coho/COHO_0000056>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000056> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001004410") Annotation(rdfs:comment "Scottish HGSOC samples were collected via local Bioresource facilities at Edinburgh, Glasgow, Dundee and Aberdeen") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000056> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000057> (<http://www.ebi.ac.uk/coho/COHO_0000057>)
 
