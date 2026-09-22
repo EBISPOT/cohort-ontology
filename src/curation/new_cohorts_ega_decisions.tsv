@@ -1,0 +1,317 @@
+acronym	name	origin	decision	ID	label	note
+1958 Birth Cohort	1958 Birth Cohort	ready-to-add list	minted	COHO:0000207	1958 British Birth Cohort	EGA review 2026-09-22: T1DGC GWAS using the 1958 British Birth Cohort as controls; the cohort is also the shared control collection of the WTCCC studies (EGAS00000000001 onwards) and of EGAS00000000115 and EGAS00001002336
+AGR Project	African Genome Resource Project	ready-to-add list	minted	COHO:0000213	African Genome Resource	EGA review 2026-09-22: the resource's own EGA study; EGAS00001002465 holds its transcriptome component
+ALTTO clinical trial	The Adjuvant Lapatinib And/Or Trastuzumab Treatment Optimisation study	ready-to-add list	minted	COHO:0000211	Adjuvant Lapatinib and/or Trastuzumab Treatment Optimisation trial	EGA review 2026-09-22 (corrected by the reviewer from TCGA)
+APCDR	African Patnership for Chronic Disease Research	ready-to-add list	minted	COHO:0000215	African Partnership for Chronic Disease Research	EGA review 2026-09-22: the partnership's African Genome Resource study; its member studies are the AGVP, Uganda GPC, GDAP and Durban studies
+African 1000G	African 1000G	ready-to-add list	existing	COHO:0000002	1000 Genomes	the African populations of the 1000 Genomes Project
+AGVP	African Genome Variation Project	ready-to-add list	minted	COHO:0000214	African Genome Variation Project	EGA review 2026-09-22: the project's dense array genotyping study; the WGS components are EGAS00001000286, EGAS00001000363 and EGAS00001000960
+BALLETT	Belgian Approach of Local Laboratory Extensive Tumor Testing	ready-to-add list	minted	COHO:0000223	Belgian Approach of Local Laboratory Extensive Tumor Testing	EGA review 2026-09-22
+CARE	Canadian Airways Research Group	ready-to-add list	minted	COHO:0000229	Canadian Airways Research Group	EGA review 2026-09-22; the acronym CARE is shared with COHO:0000110 and disambiguated by editor notes on both
+CENet Cohort	CENet Cohort	ready-to-add list	minted	COHO:0000233	CENet Cohort	EGA review 2026-09-22
+CORSA trial	SARS-CoV-2 Vaccine Response in Cancer	ready-to-add list	minted	COHO:0000329	SARS-CoV-2 Vaccine Response in Cancer trial	EGA review 2026-09-22 (corrected by the reviewer); the acronym CORSA is shared with COHO:0000042 Colorectal Cancer Study of Austria, a different study, and disambiguated by editor notes on both
+COVID19 HGI	COVID19 Host Genetic Initiative	ready-to-add list	minted	COHO:0000238	COVID-19 Host Genetics Initiative	EGA review 2026-09-22: the initiative's harmonised individual-level data release; the acronym HGI is shared with COHO:0000094 Human Genetics Initiative and disambiguated by editor notes on both
+Cambridge Biorepository for Translational Medicine (CBTM)	CBTM	ready-to-add list	minted	COHO:0000228	Cambridge Biorepository for Translational Medicine	EGA review 2026-09-22
+Cardiogenics re-sequencing study	Cardiogenics re-sequencing study	ready-to-add list	existing	COHO:0000028	Cardiogenics Study	a study of the Cardiogenics collection, not a cohort of its own
+CeDNN	Celiac Disease The Netherlands	ready-to-add list	minted	COHO:0000232	CeDNN	EGA review 2026-09-22 (corrected by the reviewer; the study also draws on the Lifelines Dutch Microbiome Project)
+CAD	Coronary Artery Disease cohort	ready-to-add list	minted	COHO:0000358	WTCCC case-control study for Coronary Artery Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+DKTK MASTER	Molecularly Aided Stratification for Tumor Eradication Program	ready-to-add list	minted	COHO:0000242	DKTK MASTER	EGA review 2026-09-22 (corrected by the reviewer)
+Donor InSight III study	Donor InSight III study	ready-to-add list	minted	COHO:0000243	Donor InSight III study	EGA review 2026-09-22
+EMC-DC-IL10R study	EMC-DC-IL10R study	ready-to-add list	minted	COHO:0000246	EMC-DC-IL10R study	EGA review 2026-09-22
+EPIGEN-Brazil Initiative	EPIGEN-Brazil Initiative	ready-to-add list	existing	COHO:0000062	EPIGEN	synonym added
+EMaB	Entebbe Mother and Baby (EMaB) study	ready-to-add list	minted	COHO:0000248	Entebbe Mother and Baby study	EGA review 2026-09-22 (corrected by the reviewer)
+Estonian Microbiome Cohort	Estonian Microbiome Cohort	ready-to-add list	minted	COHO:0000251	Estonian Microbiome Cohort	EGA review 2026-09-22 (added by the reviewer)
+EuroEPINOMICS	EuroEPINOMICS	ready-to-add list	minted	COHO:0000253	EuroEPINOMICS	EGA review 2026-09-22: exome sequencing of paroxysmal neurological disorder cases collected by the consortium's members
+GENCODE Consortium	GENCODE Consortium	ready-to-add list	not added			a genome annotation consortium; the study sequenced HapMap and clinical samples with its exome design
+LGDB	Genome Database of Latvian Population	ready-to-add list	minted	COHO:0000256	Genome Database of Latvian Population	EGA review 2026-09-22 (corrected by the reviewer)
+GDAP	Genome Diversity in Africa Project	ready-to-add list	minted	COHO:0000257	Genome Diversity in Africa Project	EGA review 2026-09-22
+MalariaGEN	Genomic Epidemiology of Malaria Project	ready-to-add list	minted	COHO:0000294	Malaria Genomic Epidemiology Network	EGA review 2026-09-22 (corrected by the reviewer): one of the network's low-coverage sequencing studies of African populations (EGAS00001000629 to EGAS00001000640)
+German Cancer Consortium	German Cancer Consortium	ready-to-add list	minted	COHO:0000260	German Cancer Consortium	EGA review 2026-09-22 (corrected by the reviewer): the consortium's MASTER programme study
+German MI cohort	German Myocardial Infarction cohort	ready-to-add list	minted	COHO:0000261	German MI cohort	EGA review 2026-09-22: the Cardiogenics re-sequencing study, which used the cohort's early-onset patients
+HAPIEE	Health, Alcohol and Psychosocial factors In Eastern Europe study	ready-to-add list	minted	COHO:0000265	Health, Alcohol and Psychosocial factors In Eastern Europe study	EGA review 2026-09-22 (corrected by the reviewer)
+HELIUS cohort study	Healthy Life in an Urban Setting Cohort	ready-to-add list	minted	COHO:0000266	Healthy Life in an Urban Setting	EGA review 2026-09-22 (corrected by the reviewer)
+HGDP-CEPH	Human Genetic Diversity Cell Line Panel	ready-to-add list	minted	COHO:0000284	International HapMap Project	EGA review 2026-09-22: whole-genome sequencing of the HapMap Maasai collection; other studies use HapMap only as a reference panel
+HT	Hypertension cohort (HT)	ready-to-add list	minted	COHO:0000359	WTCCC case-control study for Hypertension	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+ICGA	International Cancer Genomes Atlas	ready-to-add list	minted	COHO:0000282	International Cancer Genome Consortium	EGA review 2026-09-22: one of the consortium's project studies; the acronym moves here from COHO:0000101, the consortium's chronic lymphocytic leukaemia project
+ICGC CAGEKID	IGC Cancer Genomics of the Kidney	ready-to-add list	minted	COHO:0000231	Cancer Genomics of the Kidney	EGA review 2026-09-22
+ICGC India Project	ICGC India Project	ready-to-add list	minted	COHO:0000269	ICGC India Project	EGA review 2026-09-22: the project's first-year study; EGAS00001001028 is its second year
+ICGC MMML-Seq Consortium	ICGC Malignant Lymphoma Master Study (MMML) Consortium	ready-to-add list	minted	COHO:0000271	ICGC MMML-Seq	EGA review 2026-09-22; later studies of the project are EGAS00001001394 and EGAS00001002198
+ICGC CLL	ICGC The Chronic Lymphocytic Leukemia (CLL) Genome Project	ready-to-add list	existing	COHO:0000101	International Cancer Genome Consortium-Chronic Lymphocytic Leukemia	synonyms added; the bare acronym ICGC moves to the new consortium term
+ICGC GCS	ICGC Gynecological Carcinosarcoma	ready-to-add list	minted	COHO:0000268	ICGC Gynecological Carcinosarcoma project	EGA review 2026-09-22
+ICGC India	ICGC India	ready-to-add list	minted	COHO:0000269	ICGC India Project	EGA review 2026-09-22: the project's first-year study; EGAS00001001028 is its second year
+ICGC Oesophageal Adenocarcinoma project	ICGC Oesophageal Adenocarcinoma project	ready-to-add list	minted	COHO:0000272	ICGC Oesophageal Adenocarcinoma project	EGA review 2026-09-22: the project's tumour samples; EGAS00001000724, EGAS00001000726 and EGAS00001000727 hold its other sample sets
+ICGC PedBrain	ICGC PedBrain Tumour Project	ready-to-add list	minted	COHO:0000274	ICGC PedBrain Tumor Project	EGA review 2026-09-22; further studies of the project are EGAS00001000561, EGAS00001000565 and EGAS00001001139
+ICGC Prostate Group	ICGC Prostate Group	ready-to-add list	minted	COHO:0000275	ICGC Prostate Cancer UK project	EGA review 2026-09-22
+ICGC LICA-CN	ICGC Liver Cancer in China	ready-to-add list	minted	COHO:0000270	ICGC Liver Cancer China project	EGA review 2026-09-22 (verified as ICGC)
+ICGC GACA-CN project.	ICGC Gastric Cancer from China Project	ready-to-add list	minted	COHO:0000267	ICGC Gastric Cancer China project	EGA review 2026-09-22 (verified as ICGC)
+ICGC Pancreatic Cancer Project	ICGC Pancreatic Cancer Project	ready-to-add list	minted	COHO:0000273	ICGC Pancreatic Cancer project	EGA review 2026-09-22 (verified as ICGC)
+ICR MOPOPGEN UK exome control series	ICR MOPOPGEN UK exome control series	ready-to-add list	minted	COHO:0000276	ICR MOPOPGEN UK exome control series	EGA review 2026-09-22
+IMPACT 2	Initiative for Molecular Profiling and Advanced Cancer Therapy 2 (IMPACT 2) Study	ready-to-add list	minted	COHO:0000281	Initiative for Molecular Profiling and Advanced Cancer Therapy 2	EGA review 2026-09-22
+InterPregGen	InterPregGen	ready-to-add list	minted	COHO:0000285	InterPregGen	EGA review 2026-09-22: the consortium's maternal GWAS meta-analysis; EGAS00001000417, EGAS00001000416 and EGAS00001001048 are its other components
+Liverpool Preterm Birth Biomarker Study	Liverpool Preterm Birth Biomarker Study	ready-to-add list	minted	COHO:0000289	Liverpool Preterm Birth Biomarker Study	EGA review 2026-09-22 (corrected by the reviewer)
+MESOMICS Project	multi-omic characterization of Malignant Pleural Mesothelioma (MPM)	ready-to-add list	minted	COHO:0000299	MESOMICS	EGA review 2026-09-22 (corrected by the reviewer)
+MRCE family panel	MRCE family panel	ready-to-add list	minted	COHO:0000305	MRCE family panel	EGA review 2026-09-22 (corrected by the reviewer)
+Maastricht IBS studies	Maastricht IBS studies	ready-to-add list	minted	COHO:0000293	Maastricht IBS studies	EGA review 2026-09-22 (corrected by the reviewer)
+MyBrCa	Malaysian hospital-based cohort (MyBrCa)	ready-to-add list	minted	COHO:0000295	Malaysian Breast Cancer cohort	EGA review 2026-09-22 (added by the reviewer)
+MeDALL	Mechanisms of the Development of ALLergy	ready-to-add list	minted	COHO:0000297	Mechanisms of the Development of Allergy	EGA review 2026-09-22 (added by the reviewer): the project's epigenetics study combining four birth cohorts
+Methylation of Ewing sarcoma tumors Study	Methylation of Ewing sarcoma tumors Study	ready-to-add list	not added			a single ICGC-related sequencing study of Ewing sarcoma tumours without a cohort name
+MolPAGE	Molecular Phenotyping to Accelerate Genomic Epidemiology	ready-to-add list	minted	COHO:0000303	Molecular Phenotyping to Accelerate Genomic Epidemiology	EGA review 2026-09-22 (corrected by the reviewer)
+MuTHER	Multiple Tissue Human Expression Resource Cohort	ready-to-add list	minted	COHO:0000307	Multiple Tissue Human Expression Resource	EGA review 2026-09-22 (added by the reviewer); EGAS00001000097 holds chromatin profiling of the same resource
+NEW (65 Asian Prostate Cancer Patients)	NEW (65 Asian Prostate Cancer Patients)	ready-to-add list	not added			an unnamed sample of 65 patients; the reviewer marked it NEW without a name
+NIHR BioResource Common Disease Patients 2016	NIHR BioResource Common Disease Patients 2016	ready-to-add list	minted	COHO:0000312	NIHR BioResource	EGA review 2026-09-22 (corrected by the reviewer): the 2016 common disease patients dataset of 13,489 blood donors
+Nala GSI GSAv3 PGx Study	Nala GSI GSAv3 PGx Study	ready-to-add list	minted	COHO:0000308	Nala GSI GSAv3 PGx Study	EGA review 2026-09-22 (corrected by the reviewer)
+NeoALTTO	NeoALTTO	ready-to-add list	minted	COHO:0000311	NeoALTTO	EGA review 2026-09-22 (added by the reviewer): immune repertoire study of the NeoALTTO and CALGB 40601 trials
+ORGANOIDS	ORGANOIDS	ready-to-add list	not added			a reviewer tag for organoid biobank studies, not a cohort
+PCAWG	Pancancer Analysis of Whole Genomes	ready-to-add list	minted	COHO:0000313	Pan-Cancer Analysis of Whole Genomes	EGA review 2026-09-22 (corrected by the reviewer); EGAS00001001707 and EGAS00001001722 are further records of the same project
+Pca Cohort	Prostate Cancer Cohort	ready-to-add list	not added			the same unnamed prostate cancer sample
+InterPregGen	Preeclampsia InterPregGen Consortium	ready-to-add list	minted	COHO:0000285	InterPregGen	EGA review 2026-09-22: the consortium's maternal GWAS meta-analysis; EGAS00001000417, EGAS00001000416 and EGAS00001001048 are its other components
+Princess Margaret Cancer Centre human acute myeloid leukemia patient cohort	Princess Margaret Cancer Centre human acute myeloid leukemia patient cohort	ready-to-add list	minted	COHO:0000325	Princess Margaret Cancer Centre acute myeloid leukemia patient cohort	EGA review 2026-09-22 (corrected by the reviewer)
+RODAM	RODAM study	ready-to-add list	minted	COHO:0000327	Research on Obesity and Diabetes among African Migrants	EGA review 2026-09-22 (corrected by the reviewer)
+SCOT trial	how long to give chemotherapy after surgery for bowel cancer (SCOT) trial	ready-to-add list	existing	COHO:0000154	Short Course Oncology Treatment trial	SCOT is already a synonym
+SG10K_Pilot	SG10K Pilot	ready-to-add list	minted	COHO:0000332	SG10K Pilot	EGA review 2026-09-22 (corrected by the reviewer)
+STREP GENE	Genetics and Severe Streptococcal Infections	ready-to-add list	minted	COHO:0000334	STREP GENE	EGA review 2026-09-22 (corrected by the reviewer)
+STILTS	Study Into Lean and Thin Subjects	ready-to-add list	minted	COHO:0000336	Study Into Lean and Thin Subjects	EGA review 2026-09-22 (added by the reviewer); EGAS00001000923 is the study's earlier genotyping proposal
+SweGen	SweGen	ready-to-add list	minted	COHO:0000337	SweGen	EGA review 2026-09-22 (added by the reviewer)
+T2D-GENES	Type 2 Diabetes Genetic Exploration by Next-generation sequencing in multi-Ethnic Samples	ready-to-add list	minted	COHO:0000344	Type 2 Diabetes Genetic Exploration by Next-generation sequencing in multi-Ethnic Samples	EGA review 2026-09-22 (corrected by the reviewer); the GoDARTS component is EGAS00001002937
+Hipo_K08K	THE PHASE II GMMG-BIRMA TRIAL	ready-to-add list	minted	COHO:0000262	GMMG-BIRMA trial	EGA review 2026-09-22 (corrected by the reviewer); the reviewer's HIPO project code Hipo_K08K is not a name
+The Low coverage Kuusamo whole genome sequencing study	The Low coverage Kuusamo whole genome sequencing study	ready-to-add list	minted	COHO:0000290	Low coverage Kuusamo whole genome sequencing study	EGA review 2026-09-22; the EGA study is marked deprecated but is the only record of the sample
+MGRB	The Medical Genome Reference BioBank	ready-to-add list	minted	COHO:0000298	Medical Genome Reference Bank	EGA review 2026-09-22 (corrected by the reviewer)
+NMDs	The Rare Neuromuscular Disorders cohort	ready-to-add list	minted	COHO:0000349	UK10K Rare Neuromuscular Disorders cohort	EGA review 2026-09-22 (added by the reviewer); EGAS00001000321 holds the cohort's whole-genome sequences
+The Singapore Living Biobank	The Singapore Living Biobank	ready-to-add list	existing	COHO:0000109	Living Biobank	synonym added
+TrypanoGEN project	TrypanoGEN project	ready-to-add list	minted	COHO:0000342	TrypanoGEN	EGA review 2026-09-22 (corrected by the reviewer)
+T2D Cohort	Type 2 Diabetes Cohort (T2D)	ready-to-add list	minted	COHO:0000365	WTCCC case-control study for Type 2 Diabetes	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+UBKEC consortium	UK Brain Expression Consortium	ready-to-add list	existing	COHO:0000177	UK Brain Expression Consortium	a misspelling of UKBEC; its EGA study EGAS00001001478 is given as a curated example
+UK BHF CAD/MI cohort	UK BHF CAD/MI cohort	ready-to-add list	minted	COHO:0000346	UK BHF CAD/MI cohort	EGA review 2026-09-22: the Cardiogenics re-sequencing study, which used the cohort's early-onset patients; the reviewer's parent UK BioBank confuses it with the UKBS controls of the same study
+UK Blood Service Control Group	UK Blood Service Control Group	ready-to-add list	minted	COHO:0000347	UK Blood Service Control Group	EGA review 2026-09-22 (added by the reviewer); the group is also the shared control set of the WTCCC studies from EGAS00000000001 and of EGAS00001000050
+UK10K	UK10K	ready-to-add list	minted	COHO:0000348	UK10K	EGA review 2026-09-22 (added by the reviewer): the project's ALSPAC cohort study; the project spans EGAS00001000090 to EGAS00001000321
+asthma familial cohort	asthma familial cohort	ready-to-add list	existing	COHO:0000149	Saguenay-Lac-Saint-Jean asthma study	synonym added
+lungNENomics	lungNENomics	ready-to-add list	minted	COHO:0000292	lungNENomics	EGA review 2026-09-22 (corrected by the reviewer)
+WTCCC case-control study for BD	WTCCC case-control study for Bipolar Disorder	ready-to-add list	minted	COHO:0000356	WTCCC case-control study for Bipolar Disorder	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Coronary Artery Disease	WTCCC case-control study for Coronary Artery Disease	ready-to-add list	minted	COHO:0000358	WTCCC case-control study for Coronary Artery Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for IBD	WTCCC case-control study for Inflammatory Bowel Disease	ready-to-add list	minted	COHO:0000360	WTCCC case-control study for Inflammatory Bowel Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC for RA	WTCCC case-control study for Rheumatoid Arthritis	ready-to-add list	minted	COHO:0000362	WTCCC case-control study for Rheumatoid Arthritis	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Hypertension	WTCCC case-control study for Hypertension	ready-to-add list	minted	COHO:0000359	WTCCC case-control study for Hypertension	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Type 1 Diabetes	WTCCC case-control study for Type 1 Diabetes	ready-to-add list	minted	COHO:0000364	WTCCC case-control study for Type 1 Diabetes	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Rheumatoid Arthritis	WTCCC case-control study for Rheumatoid Arthritis	ready-to-add list	minted	COHO:0000362	WTCCC case-control study for Rheumatoid Arthritis	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Type 2 Diabetes	WTCCC case-control study for Type 2 Diabetes	ready-to-add list	minted	COHO:0000365	WTCCC case-control study for Type 2 Diabetes	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Ankylosing Spondylitis	WTCCC case-control study for Ankylosing Spondylitis	ready-to-add list	minted	COHO:0000354	WTCCC case-control study for Ankylosing Spondylitis	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Autoimmune Thyroid Disease	WTCCC case-control study for Autoimmune Thyroid Disease	ready-to-add list	minted	COHO:0000355	WTCCC case-control study for Autoimmune Thyroid Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Multiple Sclerosis	WTCCC case-control study for Multiple Sclerosis	ready-to-add list	minted	COHO:0000361	WTCCC case-control study for Multiple Sclerosis	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Breast cancer	WTCCC case-control study for Breast cancer	ready-to-add list	minted	COHO:0000357	WTCCC case-control study for Breast cancer	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Tuberculosis	WTCCC case-control study for Tuberculosis	ready-to-add list	minted	COHO:0000363	WTCCC case-control study for Tuberculosis	EGA review 2026-09-22 (verified as WTCCC)
+BAMSE (Swedish abbreviation for Children, Allergy, Milieu, Stockholm, Epidemiology)	BAMSE (Swedish abbreviation for Children, Allergy, Milieu, Stockholm, Epidemiology)	ready-to-add list	existing	COHO:0000037	Children, Allergy, Milieu, Stockholm, Epidemiology	BAMSE is already a synonym
+UPTIDER	breast cancer post-mortem tissue donation program	ready-to-add list	minted	COHO:0000351	UPTIDER	EGA review found no cohort in this study; the name comes from James McLaughlin's ready-to-add list of 2026-09-22 and the study text names the programme
+ELGH	East Lonodon Genes and Health	ready-to-add list	minted	COHO:0000244	East London Genes and Health	EGA review 2026-09-22 (verified as Born in Bradford; the study is the ELGH genotyping project)
+MI	Milieu Intérieur cohort	ready-to-add list	minted	COHO:0000301	Milieu Intérieur	EGA search 2026-09-22 for the ready-to-add list's name; the acronym MI is added as the project's short form
+MyBrCa	Malaysian Breast Cancer research cohort and genomics project	ready-to-add list	minted	COHO:0000295	Malaysian Breast Cancer cohort	EGA review 2026-09-22 (added by the reviewer)
+The PROMPT project	The PROMPT project	ready-to-add list	not added			not identifiable; no EGA study of that name was found
+UK Heamtological Malignancy Research Network	UK Heamtological Malignancy Research Network	ready-to-add list	minted	COHO:0000264	Haematological Malignancy Research Network	EGA search 2026-09-22 for the ready-to-add list's name; EGAS00001004649 is the network's Burkitt lymphoma study
+COH TNBC Cohort	City of Hope National Medical Center Triple negative breast cancer cohort	ready-to-add list	minted	COHO:0000235	City of Hope triple negative breast cancer cohort	EGA review 2026-09-22 (verified as COH); EGAS00001006002 holds the cohort's transcriptomes
+TARGET	Therapeutically Applicable Research to Generate Effective Treatments	ready-to-add list	minted	COHO:0000339	Therapeutically Applicable Research to Generate Effective Treatments	the ready-to-add list's name; the initiative's data are at dbGaP (phs000218, mirrored in EGA) and the EGA study EGAS00001006276 compares its childhood AML cohort with it
+Australian childhood AML cohort	Australian childhood AML cohort	ready-to-add list	minted	COHO:0000220	Australian childhood AML cohort	EGA search 2026-09-22 for the ready-to-add list's name
+ACCE	African Collaborative Centre for Microbiome and Geomics Research	ready-to-add list	minted	COHO:0000212	African Collaborative Center for Microbiome and Genomics Research	the ready-to-add list's names ACCE; the H3Africa centre's data are at dbGaP (phs001945, mirrored in EGA), so its cohort paper is the example
+GENIE	Genomics Evidence Neoplasia Information Exchange, Foundation Medicine (FM)	ready-to-add list	minted	COHO:0000209	AACR Project GENIE	EGA review 2026-09-22 matched the study's GENIE to COHO:0000186, a Korean health-examination cohort; the study uses the AACR registry, so the ready-to-add list separates them. The acronym is shared with COHO:0000186 and disambiguated by editor notes on both
+Hipo_K09R	Hipo_K09R	ready-to-add list	not added			a HIPO project code, not a cohort name; the study EGAS00001006533 describes a neuroblastoma cohort by that code only
+lungNENomics project	lungNENomics project	ready-to-add list	minted	COHO:0000292	lungNENomics	EGA review 2026-09-22 (corrected by the reviewer)
+Recodid	Recodid	ready-to-add list	not added			ReCoDID is a data-harmonisation project of the EUCAN programme, not a cohort
+SCHEMA	Schizophreia Exome Sequencing Meta-analysis consortium	ready-to-add list	minted	COHO:0000330	Schizophrenia Exome Sequencing Meta-analysis consortium	the ready-to-add list's name; no EGA study of the consortium itself was found, so the consortium's exome meta-analysis paper is the example
+TARGET cohort	TARGET cohort	ready-to-add list	minted	COHO:0000339	Therapeutically Applicable Research to Generate Effective Treatments	the ready-to-add list's name; the initiative's data are at dbGaP (phs000218, mirrored in EGA) and the EGA study EGAS00001006276 compares its childhood AML cohort with it
+POPs2	The Pregnancy Outcome Prediction Study	ready-to-add list	minted	COHO:0000321	Pregnancy Outcome Prediction study	EGA search 2026-09-22 for the ready-to-add list's name
+TRACERx	TRAcking Cancer Evolution through therapy	ready-to-add list	minted	COHO:0000340	TRACERx	EGA search 2026-09-22 for the ready-to-add list's name: the first 100 TRACERx tumours; further studies are EGAS00001000809, EGAS00001002415, EGAS00001003458, EGAS00001006494 and EGAS00001006523
+TransplantLines	TransplantLines	ready-to-add list	minted	COHO:0000341	TransplantLines	EGA search 2026-09-22 for the ready-to-add list's name
+UW Cohort	UW Cohort	ready-to-add list	minted	COHO:0000350	University of Washington ovarian carcinoma cohort	EGA search 2026-09-22 for the ready-to-add list's name; the companion of the City of Hope cohort
+Vietnam Rotavirus Vaccine Perturbation Study	Vietnam Rotavirus Vaccine Perturbation Study	ready-to-add list	not added			no EGA study of that name was found on 2026-09-22
+WCDT	West Coast Dream Team Cohort	ready-to-add list	minted	COHO:0000353	West Coast Prostate Cancer Dream Team	EGA search 2026-09-22 for the ready-to-add list's name; further studies are EGAS00001006604 and EGAS00001006698
+European BestAgeing miRNA Study	European BestAgeing Study	ready-to-add list	minted	COHO:0000254	European BestAgeing Study	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study text names the study
+DIAMONDS	Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis cohort	ready-to-add list	minted	COHO:0000241	Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis	EGA search 2026-09-22 for the ready-to-add list's name
+200-HIV Cohort Study		ready-to-add list	not added			no EGA study of the Human Functional Genomics Project's 200HIV cohort was found on 2026-09-22
+300BCG Cohort		ready-to-add list	minted	COHO:0000208	300BCG	EGA search 2026-09-22 for the ready-to-add list's name
+AC-ANGIOPREDICT Phase II trial		ready-to-add list	minted	COHO:0000210	AC-ANGIOPREDICT Phase II trial	EGA search 2026-09-22 for the ready-to-add list's name; EGAS00001002724 and EGAS00001002617 are the earlier ANGIOPREDICT studies
+African Collaborative Centre for Microbiome and Geomics Research		ready-to-add list	minted	COHO:0000212	African Collaborative Center for Microbiome and Genomics Research	the ready-to-add list's names ACCE; the H3Africa centre's data are at dbGaP (phs001945, mirrored in EGA), so its cohort paper is the example
+AHA Uganda Study		ready-to-add list	not added			not identifiable; no EGA or literature record of that name was found. If it means the APCDR Uganda studies, those are the Uganda General Population Cohort
+ALL06 Cohort		ready-to-add list	minted	COHO:0000216	ALLG ALL06	EGA search 2026-09-22 for the ready-to-add list's name
+AlpeDPD Study Cohort		ready-to-add list	minted	COHO:0000217	Alpe-DPD study	EGA search 2026-09-22 for the ready-to-add list's name
+ALSPAC		ready-to-add list	existing	COHO:0000016	Avon Longitudinal Study of Parents and Children	already a synonym
+ALTTO Clnical Trail		ready-to-add list	minted	COHO:0000211	Adjuvant Lapatinib and/or Trastuzumab Treatment Optimisation trial	EGA review 2026-09-22 (corrected by the reviewer from TCGA)
+Atlas of Blood Cancer Genomes Project		ready-to-add list	minted	COHO:0000219	Atlas of Blood Cancer Genomes	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study is the project's blastic plasmacytoid dendritic cell neoplasm cohort
+Australian childhood AML cohort	Australian Cohort	ready-to-add list	minted	COHO:0000220	Australian childhood AML cohort	EGA search 2026-09-22 for the ready-to-add list's name
+BCp-ALL patients		ready-to-add list	not added			a disease group, not a cohort name; the study EGAS00001007383 names none
+BEAT AML Cohort		ready-to-add list	minted	COHO:0000222	Beat AML	the ready-to-add list's name; the programme's data are at dbGaP (phs001657, mirrored in EGA), so its functional genomic landscape paper is the example
+Bellini Trail		ready-to-add list	minted	COHO:0000224	BELLINI trial	EGA search 2026-09-22 for the ready-to-add list's name
+Blood First Assay Screening Trail		ready-to-add list	minted	COHO:0000225	Blood First Assay Screening Trial	EGA search 2026-09-22 for the ready-to-add list's name
+Canadian Prostate Cancer Genome Network Project		ready-to-add list	minted	COHO:0000230	Canadian Prostate Cancer Genome Network	EGA search 2026-09-22 for the ready-to-add list's name
+CHILD cohort Study		ready-to-add list	minted	COHO:0000234	CHILD Cohort Study	EGA search 2026-09-22 for the ready-to-add list's name
+City of Hope National Medical Center Triple negative breast cancer cohort	COH TNBC Cohort	ready-to-add list	minted	COHO:0000235	City of Hope triple negative breast cancer cohort	EGA review 2026-09-22 (verified as COH); EGAS00001006002 holds the cohort's transcriptomes
+CLUSTER Consortium		ready-to-add list	minted	COHO:0000236	CLUSTER consortium	EGA search 2026-09-22 for the ready-to-add list's name: the consortium's RNA sequencing study of the methotrexate-treated cohort
+CLUSTER consortium - Childhood arthritis and its associated uveitis: stratification through endotypes and mechanism to deliver benefit)		ready-to-add list	minted	COHO:0000236	CLUSTER consortium	EGA search 2026-09-22 for the ready-to-add list's name: the consortium's RNA sequencing study of the methotrexate-treated cohort
+CLUSTER RNAseq Study		ready-to-add list	minted	COHO:0000236	CLUSTER consortium	EGA search 2026-09-22 for the ready-to-add list's name: the consortium's RNA sequencing study of the methotrexate-treated cohort
+COH cohort		ready-to-add list	minted	COHO:0000235	City of Hope triple negative breast cancer cohort	EGA review 2026-09-22 (verified as COH); EGAS00001006002 holds the cohort's transcriptomes
+CRCbiome Study (substudy of Bowel Cancer Screening in Norway)		ready-to-add list	minted	COHO:0000239	CRCbiome	EGA search 2026-09-22 for the ready-to-add list's name
+DermAtlas		ready-to-add list	minted	COHO:0000240	DERMATLAS	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study is the project's squamous and basal cell carcinoma methylation set
+Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis cohort		ready-to-add list	minted	COHO:0000241	Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis	EGA search 2026-09-22 for the ready-to-add list's name
+DIAMONDS - Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis cohort		ready-to-add list	minted	COHO:0000241	Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis	EGA search 2026-09-22 for the ready-to-add list's name
+East London Genes and Health	ELGH	ready-to-add list	minted	COHO:0000244	East London Genes and Health	EGA review 2026-09-22 (verified as Born in Bradford; the study is the ELGH genotyping project)
+Emirati Genome Program		ready-to-add list	minted	COHO:0000247	Emirati Genome Program	EGA search 2026-09-22 for the ready-to-add list's name
+EORTC-SPECTA RP1759 Study		ready-to-add list	minted	COHO:0000249	EORTC-SPECTA RP1759	EGA search 2026-09-22 for the ready-to-add list's name
+ESTAMPA Cohort		ready-to-add list	minted	COHO:0000250	ESTAMPA	EGA review 2026-09-22; EGAS00001007731 is the cohort's targeted study
+EstMB Cohort	Estonian Microbiome Cohort	ready-to-add list	minted	COHO:0000251	Estonian Microbiome Cohort	EGA review 2026-09-22 (added by the reviewer)
+Estonian Biobank	Estonian Biobank	ready-to-add list	existing	COHO:0000064	Estonian Biobank	already the label
+European BestAgeing Study	European BestAgeing Study	ready-to-add list	minted	COHO:0000254	European BestAgeing Study	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study text names the study
+EuroTARGET mRCC patient cohort		ready-to-add list	existing	COHO:0000067	EuroTARGET project	the EuroTARGET project; its EGA study EGAS50000000798 already matched
+Flemish gut Flora Project		ready-to-add list	existing	COHO:0000072	Flemish Gut Flora Project	already the label
+GAinS	Genomics Advances in Sepsis (GAinS) Study	ready-to-add list	minted	COHO:0000259	Genomic Advances in Sepsis	EGA search 2026-09-22 for the ready-to-add list's name; EGAS00001003772 holds the study's RNA sequencing
+GENIE	Genomics Evidence Neoplasia Information Exchange (GENIE), Foundation Medicine (FM)	ready-to-add list	minted	COHO:0000209	AACR Project GENIE	EGA review 2026-09-22 matched the study's GENIE to COHO:0000186, a Korean health-examination cohort; the study uses the AACR registry, so the ready-to-add list separates them. The acronym is shared with COHO:0000186 and disambiguated by editor notes on both
+Health Cohort (British Bangaldeshi and Pakistani individauls)	Health Cohort	ready-to-add list	minted	COHO:0000244	East London Genes and Health	EGA review 2026-09-22 (verified as Born in Bradford; the study is the ELGH genotyping project)
+High-Grade B-Cell Lymphoma: Atlas of Blood Cancer Genomes		ready-to-add list	minted	COHO:0000219	Atlas of Blood Cancer Genomes	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study is the project's blastic plasmacytoid dendritic cell neoplasm cohort
+HIP-HNC (head and neck cancer), TCGA-HNSC (head and neck cancer)		ready-to-add list	not added			HIPO project codes and a TCGA subset
+Hipo_K09R		ready-to-add list	not added			a HIPO project code, not a cohort name; the study EGAS00001006533 describes a neuroblastoma cohort by that code only
+IMI-RHAPSODY Data		ready-to-add list	minted	COHO:0000277	IMI-RHAPSODY	EGA search 2026-09-22 for the ready-to-add list's name
+IMMUcan		ready-to-add list	minted	COHO:0000278	IMMUcan	EGA review 2026-09-22: the consortium's SCCHN1 cohort; its other cohorts are EGAS50000001505, EGAS50000001558 and EGAS50000001587
+IMMUcan SCCHN1 cohort.	IMMUcan SCCHN1 cohort.	ready-to-add list	minted	COHO:0000279	IMMUcan SCCHN1 cohort	EGA review 2026-09-22
+ImmunAID study	ImmunAID study	ready-to-add list	minted	COHO:0000280	ImmunAID	EGA search 2026-09-22 for the ready-to-add list's name
+INSIGHT-HF BMF/MDS cohort		ready-to-add list	not added			not identifiable; no EGA or literature record of that name was found
+IGPP	international Genetics of PArkinsons Dsiease Progression Consortium (IGPP)	ready-to-add list	minted	COHO:0000283	International Genetics of Parkinson Disease Progression Consortium	EGA search 2026-09-22 for the ready-to-add list's name
+Lifelines-DEEP		ready-to-add list	minted	COHO:0000287	LifeLines-DEEP	EGA review 2026-09-22 (corrected by the reviewer)
+Lifelines-NEXT		ready-to-add list	minted	COHO:0000288	Lifelines-NEXT	EGA review 2026-09-22 (verified as LifeLines); EGAS00001005969 is the pilot and EGAS00001007592 the newborn cohort
+LUCAS	Lung Cancer Diagonstic Study (LUCAS)	ready-to-add list	minted	COHO:0000291	Lung Cancer Diagnostic Study	EGA search 2026-09-22 for the ready-to-add list's name
+lungNENomics project		ready-to-add list	minted	COHO:0000292	lungNENomics	EGA review 2026-09-22 (corrected by the reviewer)
+METABRIC Cohort		ready-to-add list	minted	COHO:0000304	Molecular Taxonomy of Breast Cancer International Consortium	EGA search 2026-09-22 for the ready-to-add list's name; EGAS00001004327 holds the cohort's methylation data
+Milan Cohort		ready-to-add list	minted	COHO:0000300	Milan cohort	EGA search 2026-09-22 for the ready-to-add list's name
+Milieu Intérieur cohort		ready-to-add list	minted	COHO:0000301	Milieu Intérieur	EGA search 2026-09-22 for the ready-to-add list's name; the acronym MI is added as the project's short form
+MITO16A/MaNGO-OV2		ready-to-add list	minted	COHO:0000302	MITO16A/MaNGO-OV2 trial	EGA search 2026-09-22 for the ready-to-add list's name
+MulitMuTHER Study	MulitMuTHER Study	ready-to-add list	minted	COHO:0000306	MultiMuTHER	EGA search 2026-09-22 for the reviewer's name MulitMuTHER Study
+NCI China Cohort		ready-to-add list	minted	COHO:0000309	NCI China cohort	EGA review 2026-09-22 (corrected by the reviewer): one of the cohort's NanoSeq studies (EGAS00001007722 to EGAS00001007727)
+NCI Taiwan Cohort		ready-to-add list	minted	COHO:0000310	NCI Taiwan cohort	EGA review 2026-09-22; EGAS00001007729 is the cohort's exome study
+not named in study description or paper		ready-to-add list	not added			a reviewer's note
+Pan-Cancer Analysis of Whiole Genomes Study (PCAWG)		ready-to-add list	minted	COHO:0000313	Pan-Cancer Analysis of Whole Genomes	EGA review 2026-09-22 (corrected by the reviewer); EGAS00001001707 and EGAS00001001722 are further records of the same project
+PAOLA-1 Study		ready-to-add list	not added			no EGA study of the PAOLA-1 ovarian cancer trial was found on 2026-09-22
+PARADIGM prospective cohort study		ready-to-add list	not added			the study EGAS00001004818 describes 54 colorectal cancer patients without naming PARADIGM; no EGA study of that name was found
+PEACE research autopsy study		ready-to-add list	minted	COHO:0000319	Posthumous Evaluation of Advanced Cancer Environment	EGA search 2026-09-22 for the ready-to-add list's name: the programme's melanoma study; EGAS00001008217 is its lung study
+PELICAN45 Cohort	PELICAN45 Cohort	ready-to-add list	minted	COHO:0000315	PELICAN	EGA search 2026-09-22 for the ready-to-add list's name PELICAN45 Cohort
+PETAL trail	PETAL trail	ready-to-add list	minted	COHO:0000316	PETAL trial	EGA search 2026-09-22 for the ready-to-add list's name
+phase 2 PANDA Trail		ready-to-add list	minted	COHO:0000314	PANDA trial	EGA search 2026-09-22 for the ready-to-add list's name
+Pheonix Clinical Trail		ready-to-add list	minted	COHO:0000317	PHOENIX trial	EGA search 2026-09-22 for the ready-to-add list's name, through the Janssen R&D Phoenix Trial Committee's datasets
+PIAMA Birth Cohort		ready-to-add list	minted	COHO:0000324	Prevention and Incidence of Asthma and Mite Allergy	EGA review 2026-09-22; the cohort is also part of the MeDALL epigenetics study EGAS00001002169
+Polish Glioma Cohort		ready-to-add list	minted	COHO:0000318	Polish glioma cohort	EGA search 2026-09-22 for the ready-to-add list's name
+PopCol (stockholm, Sweden)		ready-to-add list	existing	COHO:0000141	Population-based Colonoscopy study	PopCol already exists
+PrevANZ trail		ready-to-add list	minted	COHO:0000323	PrevANZ trial	EGA search 2026-09-22 for the ready-to-add list's name
+PROFILE	PROFILE (PRedicting Outcommes For Crohn's disease using a moLecular biomarker)	ready-to-add list	minted	COHO:0000320	PRedicting Outcomes For Crohn's disease using a moLecular biomarker	EGA review 2026-09-22 matched the study's PROFILE to COHO:0000080, a prostate cancer study; the study's PROFILE is the Crohn's disease trial, so the ready-to-add list separates them. The acronym is shared with COHO:0000080 and disambiguated by editor notes on both
+Radar Cohort		ready-to-add list	minted	COHO:0000326	Radar cohort	EGA review 2026-09-22 matched the study's Radar to COHO:0000147, a Dutch adolescent study; the study's Radar cohort is the families of radar technicians, so the ready-to-add list separates them
+Recodid		ready-to-add list	not added			ReCoDID is a data-harmonisation project of the EUCAN programme, not a cohort
+Relapse CHL Study (study name)		ready-to-add list	not added			a study title; the study EGAS00001008222 names no cohort
+ROBUST Clinical Trail		ready-to-add list	minted	COHO:0000328	ROBUST trial	EGA search 2026-09-22 for the ready-to-add list's name
+RODAM Study		ready-to-add list	minted	COHO:0000327	Research on Obesity and Diabetes among African Migrants	EGA review 2026-09-22 (corrected by the reviewer)
+Schizophreia Exome Sequencing Meta-analysis consortium		ready-to-add list	minted	COHO:0000330	Schizophrenia Exome Sequencing Meta-analysis consortium	the ready-to-add list's name; no EGA study of the consortium itself was found, so the consortium's exome meta-analysis paper is the example
+SCHEMA	Schizophreia Exome Sequencing Meta-analysis consortium (SCHEMA)	ready-to-add list	minted	COHO:0000330	Schizophrenia Exome Sequencing Meta-analysis consortium	the ready-to-add list's name; no EGA study of the consortium itself was found, so the consortium's exome meta-analysis paper is the example
+STRAT-PARK initative		ready-to-add list	minted	COHO:0000333	STRAT-PARK	EGA search 2026-09-22 for the ready-to-add list's name
+Stroke Investigative Research and Education Network (SIREN)		ready-to-add list	minted	COHO:0000335	Stroke Investigative Research and Education Network	EGA search 2026-09-22 for the ready-to-add list's name
+Sys4MS Cohort		ready-to-add list	minted	COHO:0000338	Sys4MS cohort	EGA search 2026-09-22 for the ready-to-add list's name
+T Lymphoblastic Leukemia/Lymphoma: Atlas of Blood Cancer Genomes		ready-to-add list	minted	COHO:0000219	Atlas of Blood Cancer Genomes	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study is the project's blastic plasmacytoid dendritic cell neoplasm cohort
+TARGET cohort		ready-to-add list	minted	COHO:0000339	Therapeutically Applicable Research to Generate Effective Treatments	the ready-to-add list's name; the initiative's data are at dbGaP (phs000218, mirrored in EGA) and the EGA study EGAS00001006276 compares its childhood AML cohort with it
+The Cancer Genome Atlas (TCGA) Data Portal (but this was taken from the paper)		ready-to-add list	existing	COHO:0000023	Cancer Genome Atlas	TCGA itself
+ECCO-GEN	The Egyptian Collaborative Cardiac Genomics Project (ECCO-GEN)	ready-to-add list	minted	COHO:0000245	Egyptian Collaborative Cardiac Genomics Project	EGA search 2026-09-22 for the ready-to-add list's name
+The European BestAgeing miRNA study		ready-to-add list	minted	COHO:0000254	European BestAgeing Study	EGA review found no cohort in this study; the name comes from the ready-to-add list of 2026-09-22 and the study text names the study
+The Pregnancy Outcome Prediction Study		ready-to-add list	minted	COHO:0000321	Pregnancy Outcome Prediction study	EGA search 2026-09-22 for the ready-to-add list's name
+POPs2	The Pregnancy Outcome Prediction Study (POPs2)	ready-to-add list	minted	COHO:0000321	Pregnancy Outcome Prediction study	EGA search 2026-09-22 for the ready-to-add list's name
+The PROMPT project	The PROMPT project	ready-to-add list	not added			not identifiable; no EGA study of that name was found
+Therapeutically Applicable Research to Generate Effective Treatments		ready-to-add list	minted	COHO:0000339	Therapeutically Applicable Research to Generate Effective Treatments	the ready-to-add list's name; the initiative's data are at dbGaP (phs000218, mirrored in EGA) and the EGA study EGAS00001006276 compares its childhood AML cohort with it
+TheTumour PRofiler Study	TARGET	ready-to-add list	minted	COHO:0000343	Tumor Profiler	EGA search 2026-09-22 for the ready-to-add list's name: the study's acute myeloid leukaemia cohort; EGAS50000000885 is its ovarian cohort
+TRACERx	TRAcking Cancer Evolution through therapy	ready-to-add list	minted	COHO:0000340	TRACERx	EGA search 2026-09-22 for the ready-to-add list's name: the first 100 TRACERx tumours; further studies are EGAS00001000809, EGAS00001002415, EGAS00001003458, EGAS00001006494 and EGAS00001006523
+TransplantLines		ready-to-add list	minted	COHO:0000341	TransplantLines	EGA search 2026-09-22 for the ready-to-add list's name
+UK Heamtological Malignancy Research Network		ready-to-add list	minted	COHO:0000264	Haematological Malignancy Research Network	EGA search 2026-09-22 for the ready-to-add list's name; EGAS00001004649 is the network's Burkitt lymphoma study
+UPTIDER	UPTIDER - monocentric post-mortem tissue donation program	ready-to-add list	minted	COHO:0000351	UPTIDER	EGA review found no cohort in this study; the name comes from James McLaughlin's ready-to-add list of 2026-09-22 and the study text names the programme
+UW Cohort		ready-to-add list	minted	COHO:0000350	University of Washington ovarian carcinoma cohort	EGA search 2026-09-22 for the ready-to-add list's name; the companion of the City of Hope cohort
+Vietnam Rotavirus Vaccine Perturbation Study		ready-to-add list	not added			no EGA study of that name was found on 2026-09-22
+WCDT	West Coast Dream Team Cohort	ready-to-add list	minted	COHO:0000353	West Coast Prostate Cancer Dream Team	EGA search 2026-09-22 for the ready-to-add list's name; further studies are EGAS00001006604 and EGAS00001006698
+100,000 Genomes Project		EGA review, verified match	minted	COHO:0000206	100,000 Genomes Project	EGA review 2026-09-22: the project's rare disease pilot; further Genomics England studies are EGAS00001004307, EGAS00001008122, EGAS00001008126 and EGAS50000000298
+1958 British Birth Cohort (58BC)		EGA review, verified match	minted	COHO:0000207	1958 British Birth Cohort	EGA review 2026-09-22: T1DGC GWAS using the 1958 British Birth Cohort as controls; the cohort is also the shared control collection of the WTCCC studies (EGAS00000000001 onwards) and of EGAS00000000115 and EGAS00001002336
+African Genome Variation project		EGA review, verified match	minted	COHO:0000214	African Genome Variation Project	EGA review 2026-09-22: the project's dense array genotyping study; the WGS components are EGAS00001000286, EGAS00001000363 and EGAS00001000960
+African Genome Variation Project (AGVP)		EGA review, verified match	minted	COHO:0000214	African Genome Variation Project	EGA review 2026-09-22: the project's dense array genotyping study; the WGS components are EGAS00001000286, EGAS00001000363 and EGAS00001000960
+AMC Cohort		EGA review, verified match	not added			24 colorectal cancer samples from Asan Medical Center, unnamed beyond the institution
+AMC-PAS		EGA review, verified match	minted	COHO:0000322	Premature Atherosclerosis Study pedigrees	EGA review 2026-09-22
+APCDR AGVP		EGA review, verified match	minted	COHO:0000214	African Genome Variation Project	EGA review 2026-09-22: the project's dense array genotyping study; the WGS components are EGAS00001000286, EGAS00001000363 and EGAS00001000960
+APCDR Diabetes Case Control Study		EGA review, verified match	minted	COHO:0000218	APCDR Diabetes Case Control Study	EGA review 2026-09-22
+APCDR Durban Diabetes Study (DDS)		EGA review, verified match	existing	COHO:0000057	Durban Diabetes Study	synonym added
+APCDR Uganda		EGA review, verified match	minted	COHO:0000345	Uganda General Population Cohort	EGA review 2026-09-22: the cohort's genome-wide genotyping study; EGAS00001000545 and EGAS00001000770 hold its sequence data
+ASAP Collaborative Research Network		EGA review, verified match	not added			Aligning Science Across Parkinson's, a funder's research network, not a cohort
+BALLETT (Belgian Approach of Local Laboratory Extensive Tumor Testing)		EGA review, verified match	minted	COHO:0000223	Belgian Approach of Local Laboratory Extensive Tumor Testing	EGA review 2026-09-22
+BEACON eczema drug trial		EGA review, verified match	minted	COHO:0000221	BEACON eczema drug trial	EGA review 2026-09-22: the trial's Human Cell Atlas atopic dermatitis studies (EGAS00001007667, EGAS00001007668, EGAS00001007669, EGAS00001007976)
+Born in Bradford		EGA review, verified match	minted	COHO:0000226	Born in Bradford	EGA review 2026-09-22: the autozygosity pilot on the cohort; also exome sequenced as one of the UK birth cohorts (EGAS00001006978, EGAS00001007588)
+British Birth Cohort		EGA review, verified match	minted	COHO:0000207	1958 British Birth Cohort	EGA review 2026-09-22: T1DGC GWAS using the 1958 British Birth Cohort as controls; the cohort is also the shared control collection of the WTCCC studies (EGAS00000000001 onwards) and of EGAS00000000115 and EGAS00001002336
+CALGB 40601		EGA review, verified match	minted	COHO:0000227	CALGB 40601	EGA review 2026-09-22
+CARDIOGRAM		EGA review, verified match	existing	COHO:0000029	CARDIoGRAMplusC4D	CARDIoGRAM is the earlier phase of CARDIoGRAMplusC4D
+CARE - Canadian Airways Research Group		EGA review, verified match	minted	COHO:0000229	Canadian Airways Research Group	EGA review 2026-09-22; the acronym CARE is shared with COHO:0000110 and disambiguated by editor notes on both
+COH		EGA review, verified match	minted	COHO:0000235	City of Hope triple negative breast cancer cohort	EGA review 2026-09-22 (verified as COH); EGAS00001006002 holds the cohort's transcriptomes
+COMPARE Study		EGA review, verified match	minted	COHO:0000237	COMPARE study	EGA review 2026-09-22
+Coronary Artery Disease (CAD) cohort		EGA review, verified match	minted	COHO:0000358	WTCCC case-control study for Coronary Artery Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+Covid19 - Human Genetics Initiative		EGA review, verified match	minted	COHO:0000238	COVID-19 Host Genetics Initiative	EGA review 2026-09-22: the initiative's harmonised individual-level data release; the acronym HGI is shared with COHO:0000094 Human Genetics Initiative and disambiguated by editor notes on both
+COVID19 Host Genetic Initiative		EGA review, verified match	minted	COHO:0000238	COVID-19 Host Genetics Initiative	EGA review 2026-09-22: the initiative's harmonised individual-level data release; the acronym HGI is shared with COHO:0000094 Human Genetics Initiative and disambiguated by editor notes on both
+CRC TCGA		EGA review, verified match	existing	COHO:0000023	Cancer Genome Atlas	a TCGA tumour-type subset; TCGA's members are handled with the aggregation members
+EDEN		EGA review, verified match	minted	COHO:0000252	Etude des Déterminants pré et postnatals précoces du développement et de la santé de l'Enfant	EGA review 2026-09-22: the MeDALL epigenetics study, which includes the cohort
+Entebbe Mother and Baby (EMaB) study		EGA review, verified match	minted	COHO:0000248	Entebbe Mother and Baby study	EGA review 2026-09-22 (corrected by the reviewer)
+Estonian Microbiome cohort		EGA review, verified match	minted	COHO:0000251	Estonian Microbiome Cohort	EGA review 2026-09-22 (added by the reviewer)
+EXCEED		EGA review, verified match	minted	COHO:0000255	Extended Cohort for E-health, Environment and DNA	EGA review 2026-09-22
+FINRISK -The Low coverage Kuusamo whole genome sequencing study		EGA review, verified match	minted	COHO:0000290	Low coverage Kuusamo whole genome sequencing study	EGA review 2026-09-22; the EGA study is marked deprecated but is the only record of the sample
+Genome Database of Latvian Population		EGA review, verified match	minted	COHO:0000256	Genome Database of Latvian Population	EGA review 2026-09-22 (corrected by the reviewer)
+Genome Diversity in Africa Project		EGA review, verified match	minted	COHO:0000257	Genome Diversity in Africa Project	EGA review 2026-09-22
+Genomic Epidemiology of Malaria Project		EGA review, verified match	minted	COHO:0000294	Malaria Genomic Epidemiology Network	EGA review 2026-09-22 (corrected by the reviewer): one of the network's low-coverage sequencing studies of African populations (EGAS00001000629 to EGAS00001000640)
+Genomics England		EGA review, verified match	minted	COHO:0000206	100,000 Genomes Project	EGA review 2026-09-22: the project's rare disease pilot; further Genomics England studies are EGAS00001004307, EGAS00001008122, EGAS00001008126 and EGAS50000000298
+GHS		EGA review, verified match	minted	COHO:0000263	Gutenberg Health Study	EGA review 2026-09-22: a factor XI GWAS meta-analysis to which the study contributed
+GR@ACE		EGA review, verified match	minted	COHO:0000258	Genome Research at Fundació ACE	EGA review 2026-09-22; the acronym differs from GRACE, the synonym of COHO:0000192
+HAPIEE (Health, Alcohol and Psychosocial factors In Eastern Europe) study		EGA review, verified match	minted	COHO:0000265	Health, Alcohol and Psychosocial factors In Eastern Europe study	EGA review 2026-09-22 (corrected by the reviewer)
+HapMap		EGA review, verified match	minted	COHO:0000284	International HapMap Project	EGA review 2026-09-22: whole-genome sequencing of the HapMap Maasai collection; other studies use HapMap only as a reference panel
+HIPO-HNSC		EGA review, verified match	not added			a HIPO project code
+Hypertension cohort (HT)		EGA review, verified match	minted	COHO:0000359	WTCCC case-control study for Hypertension	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+IARC		EGA review, verified match	not added			the International Agency for Research on Cancer, an institution; the reviewer noted it is not a cohort
+Icelandic		EGA review, verified match	minted	COHO:0000285	InterPregGen	EGA review 2026-09-22: the consortium's maternal GWAS meta-analysis; EGAS00001000417, EGAS00001000416 and EGAS00001001048 are its other components
+ICGA, Cancer Genome Atlas, Pancancer Analysis of Whole Genomes (PCAWG)		EGA review, verified match	minted	COHO:0000313	Pan-Cancer Analysis of Whole Genomes	EGA review 2026-09-22 (corrected by the reviewer); EGAS00001001707 and EGAS00001001722 are further records of the same project
+ICGC - CAGEKID: Cancer Genomics of the Kidney		EGA review, verified match	minted	COHO:0000231	Cancer Genomics of the Kidney	EGA review 2026-09-22
+ICGC - India Project		EGA review, verified match	minted	COHO:0000269	ICGC India Project	EGA review 2026-09-22: the project's first-year study; EGAS00001001028 is its second year
+ICGC - MMML-Seq Consortium		EGA review, verified match	minted	COHO:0000271	ICGC MMML-Seq	EGA review 2026-09-22; later studies of the project are EGAS00001001394 and EGAS00001002198
+ICGC - The Chronic Lymphocytic Leukemia (CLL) Genome Project		EGA review, verified match	existing	COHO:0000101	International Cancer Genome Consortium-Chronic Lymphocytic Leukemia	synonyms added; the bare acronym ICGC moves to the new consortium term
+ICGC GACA-CN		EGA review, verified match	minted	COHO:0000267	ICGC Gastric Cancer China project	EGA review 2026-09-22 (verified as ICGC)
+ICGC MMML-Seq		EGA review, verified match	minted	COHO:0000271	ICGC MMML-Seq	EGA review 2026-09-22; later studies of the project are EGAS00001001394 and EGAS00001002198
+ICGC MMML-Seq consortium		EGA review, verified match	minted	COHO:0000271	ICGC MMML-Seq	EGA review 2026-09-22; later studies of the project are EGAS00001001394 and EGAS00001002198
+ICGC Oesophageal Adenocarcinoma - tumour samples		EGA review, verified match	minted	COHO:0000272	ICGC Oesophageal Adenocarcinoma project	EGA review 2026-09-22: the project's tumour samples; EGAS00001000724, EGAS00001000726 and EGAS00001000727 hold its other sample sets
+ICGC Pancreatic Cancer study		EGA review, verified match	minted	COHO:0000273	ICGC Pancreatic Cancer project	EGA review 2026-09-22 (verified as ICGC)
+INGI - Italian Network of Genetic Isolates		EGA review, verified match	existing	COHO:0000105	Italian Network on Genetic Isolates Studies	INGI is already a synonym
+Initiative for Molecular Profiling and Advanced Cancer Therapy 2 (IMPACT 2) Study		EGA review, verified match	minted	COHO:0000281	Initiative for Molecular Profiling and Advanced Cancer Therapy 2	EGA review 2026-09-22
+Korean Genome Project		EGA review, verified match	minted	COHO:0000286	Korean Genome Project	EGA review 2026-09-22
+LifeLines DEEP		EGA review, verified match	minted	COHO:0000287	LifeLines-DEEP	EGA review 2026-09-22 (corrected by the reviewer)
+Lifelines Dutch Microbiome Project		EGA review, verified match	existing	COHO:0000059	Dutch Microbiome Project	synonym added
+LifelinesDEEP		EGA review, verified match	minted	COHO:0000287	LifeLines-DEEP	EGA review 2026-09-22 (corrected by the reviewer)
+Lothian Birth Cohorts		EGA review, verified match	existing	COHO:0000111	Lothian Birth Cohort	synonym added
+Malaysian hospital-based cohort (MyBrCa)		EGA review, verified match	minted	COHO:0000295	Malaysian Breast Cancer cohort	EGA review 2026-09-22 (added by the reviewer)
+MDACC		EGA review, verified match	not added			MD Anderson Cancer Center, an institution; the reviewer tagged four of its lung cancer studies
+MDC		EGA review, verified match	minted	COHO:0000296	Malmö Diet and Cancer Study	EGA review 2026-09-22: a Swedish ischaemic stroke case-control study drawing on the cohort
+MeDALL (Mechanisms of the Development of ALLergy)		EGA review, verified match	minted	COHO:0000297	Mechanisms of the Development of Allergy	EGA review 2026-09-22 (added by the reviewer): the project's epigenetics study combining four birth cohorts
+NCI China		EGA review, verified match	minted	COHO:0000309	NCI China cohort	EGA review 2026-09-22 (corrected by the reviewer): one of the cohort's NanoSeq studies (EGAS00001007722 to EGAS00001007727)
+NeuroImmune Project		EGA review, verified match	not added			an iPS-cell sequencing project, not a cohort
+NICR		EGA review, verified match	not added			the Northern Institute for Cancer Research, an institution recruiting to the UKCCS study
+PIAMA		EGA review, verified match	minted	COHO:0000324	Prevention and Incidence of Asthma and Mite Allergy	EGA review 2026-09-22; the cohort is also part of the MeDALL epigenetics study EGAS00001002169
+SCOOP		EGA review, verified match	minted	COHO:0000331	Severe Childhood Onset Obesity Project	EGA review 2026-09-22; also sequenced within UK10K (EGAS00001000124) and compared with STILTS (EGAS00001002624)
+SCOOP Cohort		EGA review, verified match	minted	COHO:0000331	Severe Childhood Onset Obesity Project	EGA review 2026-09-22; also sequenced within UK10K (EGAS00001000124) and compared with STILTS (EGAS00001002624)
+SG10K Pilot		EGA review, verified match	minted	COHO:0000332	SG10K Pilot	EGA review 2026-09-22 (corrected by the reviewer)
+SIGMA		EGA review, verified match	not added			the SIGMA T2D consortium; the reviewer ruled only GoDARTS correct for EGAS00001002937
+SLSJ astham familial cohort		EGA review, verified match	existing	COHO:0000149	Saguenay-Lac-Saint-Jean asthma study	synonym added, spelt correctly
+STREP GENE: Genetics and Severe Streptococcal Infections		EGA review, verified match	minted	COHO:0000334	STREP GENE	EGA review 2026-09-22 (corrected by the reviewer)
+STRUCTURE		EGA review, verified match	not added			population structure software, matched in error
+Study Into Lean and Thin Subjects (STILTS)		EGA review, verified match	minted	COHO:0000336	Study Into Lean and Thin Subjects	EGA review 2026-09-22 (added by the reviewer); EGAS00001000923 is the study's earlier genotyping proposal
+Swedish Twin Registry - SweGen (subproject).		EGA review, verified match	minted	COHO:0000337	SweGen	EGA review 2026-09-22 (added by the reviewer)
+T2D-GENES (Type 2 Diabetes Genetic Exploration by Next-generation sequencing in multi-Ethnic Samples)		EGA review, verified match	minted	COHO:0000344	Type 2 Diabetes Genetic Exploration by Next-generation sequencing in multi-Ethnic Samples	EGA review 2026-09-22 (corrected by the reviewer); the GoDARTS component is EGAS00001002937
+TCGA database		EGA review, verified match	existing	COHO:0000023	Cancer Genome Atlas	TCGA itself
+TCGA PANCAN		EGA review, verified match	existing	COHO:0000023	Cancer Genome Atlas	TCGA's pan-cancer set
+TCGA-HNSC		EGA review, verified match	existing	COHO:0000023	Cancer Genome Atlas	a TCGA tumour-type subset
+The Medical Genome Reference BioBank		EGA review, verified match	minted	COHO:0000298	Medical Genome Reference Bank	EGA review 2026-09-22 (corrected by the reviewer)
+THE PHASE II GMMG-BIRMA TRIAL (Hipo_K08K)		EGA review, verified match	minted	COHO:0000262	GMMG-BIRMA trial	EGA review 2026-09-22 (corrected by the reviewer); the reviewer's HIPO project code Hipo_K08K is not a name
+The Rare Neuromuscular Disorders cohort		EGA review, verified match	minted	COHO:0000349	UK10K Rare Neuromuscular Disorders cohort	EGA review 2026-09-22 (added by the reviewer); EGAS00001000321 holds the cohort's whole-genome sequences
+The UK Household Longitudinal Study		EGA review, verified match	existing	COHO:0000179	UK Household Longitudinal Study	already the label, with the article
+Tumour Gene Project		EGA review, verified match	not added			a generic study title without a cohort
+Type 2 Diabetes Cohort (T2D)		EGA review, verified match	minted	COHO:0000365	WTCCC case-control study for Type 2 Diabetes	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+UKBS		EGA review, verified match	minted	COHO:0000347	UK Blood Service Control Group	EGA review 2026-09-22 (added by the reviewer); the group is also the shared control set of the WTCCC studies from EGAS00000000001 and of EGAS00001000050
+VIVO Biobank		EGA review, verified match	minted	COHO:0000352	VIVO Biobank	EGA review 2026-09-22: one of the biobank's rhabdomyosarcoma sequencing studies (EGAS00001008017, EGAS00001008019, EGAS00001008156, EGAS00001008387)
+WTCCC case-control study for Bipolar Disorder		EGA review, verified match	minted	COHO:0000356	WTCCC case-control study for Bipolar Disorder	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Coronary Artery Disease, WTCCC for Hypertension, T2D		EGA review, verified match	not added			a combined case set of three WTCCC collections (EGAS00000000005); each collection is minted separately
+WTCCC case-control study for Inflammatory Bowel Disease		EGA review, verified match	minted	COHO:0000360	WTCCC case-control study for Inflammatory Bowel Disease	EGA review 2026-09-22 (verified as WTCCC): the collection's own genome-wide case-control study
+WTCCC case-control study for Inflammatory Bowel Disease, WTCCC case-control study for T1D, WTCCC case-control study for Rheumatoid Arthritis		EGA review, verified match	not added			a combined case set of three WTCCC collections (EGAS00000000008); each collection is minted separately
+WTCCC case-control study for T1D, WTCCC case-control study for Rheumatoid Arthritis		EGA review, verified match	not added			a combined case set of two WTCCC collections (EGAS00000000013); each collection is minted separately
+WWTC		EGA review, verified match	minted	COHO:0000285	InterPregGen	EGA review 2026-09-22: the consortium's maternal GWAS meta-analysis; EGAS00001000417, EGAS00001000416 and EGAS00001001048 are its other components

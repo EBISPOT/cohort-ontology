@@ -16,16 +16,23 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000013>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000014>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000016>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000020>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000022>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000024>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000028>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000029>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000044>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000057>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000064>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000066>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000071>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000073>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000082>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000085>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000088>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000091>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000100>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000101>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000102>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000103>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000117>))
@@ -40,8 +47,54 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000166>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000169>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000171>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000175>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000182>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000189>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000194>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000207>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000214>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000215>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000218>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000227>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000231>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000242>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000252>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000257>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000260>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000262>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000265>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000267>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000268>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000269>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000270>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000271>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000272>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000273>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000274>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000275>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000278>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000279>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000282>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000290>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000297>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000324>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000331>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000344>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000345>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000347>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000348>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000349>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000354>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000355>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000356>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000357>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000358>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000359>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000360>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000361>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000362>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000363>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000364>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000365>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -53,6 +106,10 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000020> (<http://www.ebi.ac.uk/coho/COHO_0000020>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5601244/unicode") Annotation(rdfs:comment "Cancer Prevention Study II") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000020> <http://www.ebi.ac.uk/coho/COHO_0000024>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000022> (<http://www.ebi.ac.uk/coho/COHO_0000022>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001007563") Annotation(rdfs:comment "two phase III trials, namely NeoALTTO and CALGB 40601") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000022> <http://www.ebi.ac.uk/coho/COHO_0000227>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000029> (<http://www.ebi.ac.uk/coho/COHO_0000029>)
 
@@ -72,6 +129,14 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000044> (<http://www.ebi.ac.uk/coho/COHO_0000044>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4740911/unicode") Annotation(rdfs:comment "Atherosclerosis Risk in Communities") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000044> <http://www.ebi.ac.uk/coho/COHO_0000011>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000071> (<http://www.ebi.ac.uk/coho/COHO_0000071>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000143") Annotation(rdfs:comment "will produce whole genome sequencing with 1x coverage on a subset of the Finrisk 2012 sample collection") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000071> <http://www.ebi.ac.uk/coho/COHO_0000290>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000085> (<http://www.ebi.ac.uk/coho/COHO_0000085>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001005973") Annotation(rdfs:comment "ENCORAFENIB COMBINED WITH BINIMETINIB FOR BRAFV600E-MUTATED RELAPSED/REFRACTORY MULTIPLE MYELOMA: THE PHASE II GMMG-BIRMA TRIAL (Hipo_K08K)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000085> <http://www.ebi.ac.uk/coho/COHO_0000262>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000088> (<http://www.ebi.ac.uk/coho/COHO_0000088>)
 
@@ -93,12 +158,78 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000117> (<http://www.ebi.ac.uk/coho/COHO_0000117>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.thl.fi/publications/morgam/cohorts/tables/base_summary.htm") Annotation(rdfs:comment "ITA-PAM 21 01 1990-93") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000117> <http://www.ebi.ac.uk/coho/COHO_0000143>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.thl.fi/publications/morgam/cohorts/tables/base_summary.htm") Annotation(rdfs:comment "RUS-NOH 24 02 2002-05") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000117> <http://www.ebi.ac.uk/coho/COHO_0000265>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000134> (<http://www.ebi.ac.uk/coho/COHO_0000134>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode") Annotation(rdfs:comment "Australian Cancer Study – Ovarian Cancer") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000134> <http://www.ebi.ac.uk/coho/COHO_0000013>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode") Annotation(rdfs:comment "Australian Ovarian Cancer Study") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000134> <http://www.ebi.ac.uk/coho/COHO_0000014>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode") Annotation(rdfs:comment "New England-based Case-Control Study") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000134> <http://www.ebi.ac.uk/coho/COHO_0000126>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000182> (<http://www.ebi.ac.uk/coho/COHO_0000182>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "1958 British Birth Cohort (58C)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000207>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "UK Blood Services (UKBS) controls") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000347>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "ankylosing spondylitis") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000354>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "autoimmune thyroid disease") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000355>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "bipolar disorder") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000356>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "breast cancer") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000357>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "coronary artery disease") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000358>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "hypertension") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000359>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "Crohn’s disease") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000360>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "multiple sclerosis") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000361>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "rheumatoid arthritis") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000362>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "tuberculosis") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000363>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "type 1 diabetes") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000364>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode") Annotation(rdfs:comment "type 2 diabetes") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000182> <http://www.ebi.ac.uk/coho/COHO_0000365>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000215> (<http://www.ebi.ac.uk/coho/COHO_0000215>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002583") Annotation(rdfs:comment "APCDR Durban Diabetes Study (DDS)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000215> <http://www.ebi.ac.uk/coho/COHO_0000057>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000959") Annotation(rdfs:comment "APCDR AGV Project: The African Genome Variation Project(dense array genotyping data)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000215> <http://www.ebi.ac.uk/coho/COHO_0000214>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002584") Annotation(rdfs:comment "APCDR Diabetes Case Control Study") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000215> <http://www.ebi.ac.uk/coho/COHO_0000218>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000929") Annotation(rdfs:comment "APCDR GDAP: Genome Diversity in Africa Study (set of 9 samples at high depth)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000215> <http://www.ebi.ac.uk/coho/COHO_0000257>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001001558") Annotation(rdfs:comment "APCDR Uganda GWAS: Genome-wide sequence variation and susceptibility loci for cardiometabolic traits in a sub-Saharan African population (UGWAS component)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000215> <http://www.ebi.ac.uk/coho/COHO_0000345>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000260> (<http://www.ebi.ac.uk/coho/COHO_0000260>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001005836") Annotation(rdfs:comment "a prospective observational study by the German Cancer Consortium, DKTK MASTER") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000260> <http://www.ebi.ac.uk/coho/COHO_0000242>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000278> (<http://www.ebi.ac.uk/coho/COHO_0000278>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS50000001533") Annotation(rdfs:comment "IMMUcan SCCHN1 cohort") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000278> <http://www.ebi.ac.uk/coho/COHO_0000279>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000282> (<http://www.ebi.ac.uk/coho/COHO_0000282>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00000000092") Annotation(rdfs:comment "The CLL Genome Project, as a contributing member of the International Cancer Genome Consortium (ICGC)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000101>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000083") Annotation(rdfs:comment "CAGEKID is a part of the International Cancer Genome Consortium, ICGC.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000231>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002313") Annotation(rdfs:comment "There are 340 cases belongs to ICGC GACA-CN project.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000267>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002271") Annotation(rdfs:comment "The aim of ICGC GCS program is to genomically characterize C and S components of 20 tumors") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000268>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000249") Annotation(rdfs:comment "As a part of the ICGC, India has undertaken genomic studies on gingivobuccal cancer of the oral cavity") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000269>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002218") Annotation(rdfs:comment "88 matched HCC tumour/normal pairs WGS belongs to ICGC LICA-CN project") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000270>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000394") Annotation(rdfs:comment "In the framework of the German ICGC MMML-Seq") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000271>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000725") Annotation(rdfs:comment "ICGC Oesophageal adenocarcinoma - tumour samples") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000272>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002311") Annotation(rdfs:comment "ICGC Pancreatic Cancer study") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000273>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000381") Annotation(rdfs:comment "This study, conducted by the International Cancer Genome Consortium PedBrain Tumor Project (ICGC PedBrain, http://www.pedbraintumor.org/)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000274>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000262") Annotation(rdfs:comment "International Cancer Genome Consortium Prostate Cancer UK consortium (CRUK-ICGC Prostate Group)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000282> <http://www.ebi.ac.uk/coho/COHO_0000275>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000297> (<http://www.ebi.ac.uk/coho/COHO_0000297>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002169") Annotation(rdfs:comment "Children’s Allergy Environment Stockholm Epidemiology study(BAMSE)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000297> <http://www.ebi.ac.uk/coho/COHO_0000037>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002169") Annotation(rdfs:comment "MeDALL epigenetics study includes illumina 450k methylation measurements from 4 cohorts: Infancia y Medio Ambiente (INMA)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000297> <http://www.ebi.ac.uk/coho/COHO_0000100>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002169") Annotation(rdfs:comment "Etudes des Déterminants pré et postnatals précoces du développement et de la santé de l’ENfant (EDEN)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000297> <http://www.ebi.ac.uk/coho/COHO_0000252>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002169") Annotation(rdfs:comment "Prevention and Incidence of Asthma and Mite Allergy (PIAMA)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000297> <http://www.ebi.ac.uk/coho/COHO_0000324>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000344> (<http://www.ebi.ac.uk/coho/COHO_0000344>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002937") Annotation(rdfs:comment "GoDARTS T2D-GENES Exome Sequencing Study is a subset of the ~52,000 Type 2 diabetes exome sequencing project.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000344> <http://www.ebi.ac.uk/coho/COHO_0000082>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000348> (<http://www.ebi.ac.uk/coho/COHO_0000348>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000090") Annotation(rdfs:comment "obtaining the genome-wide sequence of 4000 samples from the TwinsUK and ALSPAC cohorts") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000348> <http://www.ebi.ac.uk/coho/COHO_0000016>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000090") Annotation(rdfs:comment "obtaining the genome-wide sequence of 4000 samples from the TwinsUK and ALSPAC cohorts") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000348> <http://www.ebi.ac.uk/coho/COHO_0000175>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000124") Annotation(rdfs:comment "UK10K_OBESITY_SCOOP") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000348> <http://www.ebi.ac.uk/coho/COHO_0000331>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000101") Annotation(rdfs:comment "UK10K_RARE_NEUROMUSCULAR") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000348> <http://www.ebi.ac.uk/coho/COHO_0000349>)
 
 
 )

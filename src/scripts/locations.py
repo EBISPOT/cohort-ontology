@@ -49,9 +49,16 @@ def read(path):
 def main():
     with open(GAZ, encoding="utf-8") as f:
         known = {r[0].split(":", 1)[1] for r in list(csv.reader(f, delimiter="\t"))[2:]}
+    edit = EDIT.read_text(encoding="utf-8")
     deprecated = {
         cid.replace("_", ":", 1)
-        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", EDIT.read_text(encoding="utf-8"))
+        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", edit)
+    }
+    individuals = set(re.findall(r"Declaration\(NamedIndividual\(coho:(COHO_\d+)\)", edit))
+    labels = {
+        cid.replace("_", ":", 1): label
+        for cid, label in re.findall(r'AnnotationAssertion\(rdfs:label coho:(COHO_\d+) "((?:[^"\\]|\\.)*)"', edit)
+        if cid in individuals
     }
     rows = {}
     for r in read(REVIEW):
@@ -75,7 +82,6 @@ def main():
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "data collection location", "evidence", "source"])
         w.writerow(["ID", "TYPE", "", "I coho:has_data_collection_location SPLIT=|", ">A rdfs:comment", ">A oio:hasDbXref"])
-        labels = {r["ID"]: r["label"] for r in read(REVIEW)}
         n = 0
         for cid in sorted(rows):
             countries, quote, url = rows[cid]
@@ -84,7 +90,9 @@ def main():
             value = "|".join(f"dbpedia:{c}" for c in countries.split("|"))
             w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), value, quote, url])
             n += 1
-    print(f"{n} cohorts located, {sum(1 for c, q, u in rows.values() if c and u)} with evidence")
+    unlocated = sorted(cid for cid in labels if cid not in deprecated and not rows.get(cid, ("", "", ""))[0])
+    print(f"{n} cohorts located, {sum(1 for c, q, u in rows.values() if c and u)} with evidence; "
+          f"{len(unlocated)} unlocated: {', '.join(f'{c} {labels[c]}' for c in unlocated) or 'none'}")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ ID	TYPE	label	data collection location	evidence	source
 ID	TYPE		I coho:has_data_collection_location SPLIT=|	>A rdfs:comment	>A oio:hasDbXref
 COHO:0000002	owl:NamedIndividual	1000 Genomes	dbpedia:Africa|dbpedia:Eastern_Asia|dbpedia:Europe|dbpedia:South_Asia|dbpedia:Northern_America|dbpedia:Latin_America_and_the_Caribbean	individuals were sampled from 26 populations in Africa (AFR), East Asia (EAS), Europe (EUR), South Asia (SAS), and the Americas (AMR)	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4750478/fullTextXML
 COHO:0000003	owl:NamedIndividual	AddNeuroMed Cohort	dbpedia:Finland|dbpedia:France|dbpedia:Greece|dbpedia:Italy|dbpedia:Poland|dbpedia:United_Kingdom	To do so, individuals are followed up and diagnosed as CN/MCI/AD longitudinally at 3- to 12-month intervals at centers across 6 European countries—Finland, Italy, Greece, Poland, France, and the UK	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6804515/fullTextXML
-COHO:0000004	owl:NamedIndividual	Adenoma Prevention with Celecoxib trail	dbpedia:United_States|dbpedia:Australia|dbpedia:Canada|dbpedia:United_Kingdom	72 in the United States, 8 in Australia, 10 in Canada, and 1 in Great Britain.	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2976587/unicode
+COHO:0000004	owl:NamedIndividual	Adenoma Prevention with Celecoxib trial	dbpedia:United_States|dbpedia:Australia|dbpedia:Canada|dbpedia:United_Kingdom	72 in the United States, 8 in Australia, 10 in Canada, and 1 in Great Britain.	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2976587/unicode
 COHO:0000005	owl:NamedIndividual	Advanced Study of Aortic Pathology	dbpedia:Sweden	patients undergoing aortic valve surgery and/or surgery for aortic aneurysm at the Karolinska University Hospital, Stockholm, Sweden	https://research.chalmers.se/publication/514203/file/514203_Fulltext.pdf
 COHO:0000006	owl:NamedIndividual	Africa Wits-INDEPTH partnership for Genomics studies	dbpedia:Burkina_Faso|dbpedia:Ghana|dbpedia:Kenya|dbpedia:South_Africa	It has over 12,000 participants from four sub-Saharan African countries, Burkina Faso, Ghana, Kenya and South Africa	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8844072/fullTextXML
 COHO:0000007	owl:NamedIndividual	Arthritis Research UK Osteoarthritis Genetics	dbpedia:United_Kingdom	Arthritis Research UK Osteoarthritis Genetics (arcOGEN) is a collection of 7410 unrelated, UK-based individuals of European ancestry with knee and/or hip osteoarthritis from the arcOGEN Consortium	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8459317/fullTextXML
@@ -15,7 +15,7 @@ COHO:0000013	owl:NamedIndividual	Australia Cancer Study	dbpedia:Australia	recrui
 COHO:0000014	owl:NamedIndividual	Australian Ovarian Cancer Study	dbpedia:Australia	AOCS gratefully acknowledges the cooperation of the participating institutions in Australia	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10711013/fullTextXML
 COHO:0000015	owl:NamedIndividual	Australian Twin Registry	dbpedia:Australia	The Australian Twin Registry (ATR) is a national volunteer resource of twin pairs and higher-order multiples willing to consider participating in health, medical, and scientific research	https://europepmc.org/abstract/MED/23200298
 COHO:0000016	owl:NamedIndividual	Avon Longitudinal Study of Parents and Children	dbpedia:United_Kingdom	Avon Longitudinal Study of Parents and Children (ALSPAC)recruited 14,775 babies of predominantly White ethnicity in the Avon county of south-west England	https://metadata.ega-archive.org/studies/EGAS00001005273
-COHO:0000017	owl:NamedIndividual	Berlin_Frankfurt_Munster trials	dbpedia:Germany|dbpedia:Austria|dbpedia:Switzerland	Patients were treated in up to 82 centers in Germany, Austria, and Switzerland.	https://pubmed.ncbi.nlm.nih.gov/23700060/
+COHO:0000017	owl:NamedIndividual	Berlin-Frankfurt-Münster trials	dbpedia:Germany|dbpedia:Austria|dbpedia:Switzerland	Patients were treated in up to 82 centers in Germany, Austria, and Switzerland.	https://pubmed.ncbi.nlm.nih.gov/23700060/
 COHO:0000018	owl:NamedIndividual	Bladder Cancer Prognosis Programme	dbpedia:United_Kingdom	Patients were recruited consecutively from 2005 to 2010 from ten hospitals in the West Midlands (UK)	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9164468/fullTextXML
 COHO:0000019	owl:NamedIndividual	Brazilian Cohort	dbpedia:Brazil	sequencing the exomes of 45 babies from the State of Rio Grande do Nord in Brazil.	https://metadata.ega-archive.org/studies/EGAS00001004112
 COHO:0000021	owl:NamedIndividual	Bruneck study	dbpedia:Italy	Here, we study 304 fecal samples collected from the elderly subjects in Italy.	https://metadata.ega-archive.org/studies/EGAS00001004453
@@ -67,7 +67,7 @@ COHO:0000070	owl:NamedIndividual	Finnish Twin Cohort Study	dbpedia:Finland	both 
 COHO:0000071	owl:NamedIndividual	FINRISK	dbpedia:Finland	The FINRISK studies were cross‐sectional population surveys carried out in Finland in a systematic and standardized fashion every 5 years since 1972	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8183175/fullTextXML
 COHO:0000072	owl:NamedIndividual	Flemish Gut Flora Project	dbpedia:Belgium	we studied well-phenotyped individuals from the Flemish Gut Flora Project (FGFP, N=1,106, Belgium)	https://metadata.ega-archive.org/studies/EGAS00001001689
 COHO:0000073	owl:NamedIndividual	Gabriel Advanced Survey	dbpedia:Germany	A third phase was carried out in a further stratified sample only in Bavaria, southern Germany	https://europepmc.org/abstract/MED/21819425
-COHO:0000074	owl:NamedIndividual	GCAT. Genomes For Life.	dbpedia:Spain	designed to recruit the general population of the north-east region of Spain, Catalonia	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5875652/fullTextXML
+COHO:0000074	owl:NamedIndividual	GCAT Genomes for Life	dbpedia:Spain	designed to recruit the general population of the north-east region of Spain, Catalonia	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5875652/fullTextXML
 COHO:0000075	owl:NamedIndividual	GENESIS	dbpedia:France	GENESIS (GENE SISters) is a French national study designed to identify new breast cancer susceptibility genes	https://pmc.ncbi.nlm.nih.gov/articles/PMC4583250/
 COHO:0000076	owl:NamedIndividual	Genetic Analysis of Multiple Sclerosis	dbpedia:United_Kingdom|dbpedia:Australia|dbpedia:Austria|dbpedia:Belgium|dbpedia:Denmark|dbpedia:Finland|dbpedia:France|dbpedia:Germany|dbpedia:Republic_of_Ireland|dbpedia:Italy|dbpedia:New_Zealand|dbpedia:Norway|dbpedia:Poland|dbpedia:Spain|dbpedia:Sweden|dbpedia:Switzerland|dbpedia:United_States	a cross-sectional population-based survey conducted in rural areas of Austria, Germany, and Switzerland	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3182531/supplementaryFiles
 COHO:0000078	owl:NamedIndividual	Genetic Epidemiology of Asthma in Costa Rica	dbpedia:Costa_Rica	children aged 6–14 years with mild to moderate asthma from 140 schools across the Central Valley of Costa Rica	https://pmc.ncbi.nlm.nih.gov/articles/PMC11178010/
@@ -185,3 +185,128 @@ COHO:0000201	owl:NamedIndividual	Psychosis Endophenotype Consortium	dbpedia:Aust
 COHO:0000202	owl:NamedIndividual	Study of Health in Pomerania	dbpedia:Germany	A sample of 7008 women and men aged 20 to 79 years in a north-east region of Germany	https://europepmc.org/abstract/MED/11565448
 COHO:0000203	owl:NamedIndividual	The Cooperative Health Research in South Tyrol	dbpedia:Italy	baseline assessment was carried out in Vinschgau/Val Venosta (Bozen/Bolzano, Italy) between 2011 and 2018	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8615508/fullTextXML
 COHO:0000204	owl:NamedIndividual	The Health Effects of Arsenic Longitudinal Study	dbpedia:Bangladesh	a cohort of adults in Araihazar, Bangladesh, a rural area east of the capital city, Dhaka.	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3285587/fullTextXML
+COHO:0000206	owl:NamedIndividual	100,000 Genomes Project	dbpedia:United_Kingdom	Using WGS of UK Biobank1, we showed that rarealleles can explain	https://ega-archive.org/studies/EGAS00001004364
+COHO:0000207	owl:NamedIndividual	1958 British Birth Cohort	dbpedia:United_Kingdom	using the 1958 British Birth Cohort as controls	https://ega-archive.org/studies/EGAS00000000038
+COHO:0000208	owl:NamedIndividual	300BCG	dbpedia:Netherlands		
+COHO:0000212	owl:NamedIndividual	African Collaborative Center for Microbiome and Genomics Research	dbpedia:Nigeria		
+COHO:0000213	owl:NamedIndividual	African Genome Resource	dbpedia:Africa	Whole genome DNAseq data at 4x-8x depth from approximately 3,000 Africans of 14 distinct ethnicities	https://ega-archive.org/studies/EGAS00001001917
+COHO:0000214	owl:NamedIndividual	African Genome Variation Project	dbpedia:Uganda|dbpedia:South_Africa|dbpedia:Ethiopia	As part of the AGVP we sequenced 3 African populations; Baganda from Uganda (4x), Zulu from South Africa (4x), Gumuz, Wolayta, Oromo, Somali and Amhara from Ethiopia (8x).	https://ega-archive.org/studies/EGAS00001000960
+COHO:0000216	owl:NamedIndividual	ALLG ALL06	dbpedia:Australia|dbpedia:New_Zealand		
+COHO:0000217	owl:NamedIndividual	Alpe-DPD study	dbpedia:Netherlands		
+COHO:0000218	owl:NamedIndividual	APCDR Diabetes Case Control Study	dbpedia:South_Africa		
+COHO:0000220	owl:NamedIndividual	Australian childhood AML cohort	dbpedia:Australia	Overall, 21% of the Australian cohort and 25% of the TARGET cohort presented germline variants	https://ega-archive.org/studies/EGAS00001006276
+COHO:0000222	owl:NamedIndividual	Beat AML	dbpedia:United_States		
+COHO:0000223	owl:NamedIndividual	Belgian Approach of Local Laboratory Extensive Tumor Testing	dbpedia:Belgium	"The project, called ""BALLETT"" (Belgian Approach of Local Laboratory Extensive Tumor Testing)"	https://ega-archive.org/studies/EGAS50000000478
+COHO:0000224	owl:NamedIndividual	BELLINI trial	dbpedia:Netherlands		
+COHO:0000226	owl:NamedIndividual	Born in Bradford	dbpedia:United_Kingdom	Born in Bradford (BiB) is similarly focused on a particular local area, the city of Bradford in the north of England, and recruited 13,858 babies between 2007 and 2011	https://ega-archive.org/studies/EGAS00001005273
+COHO:0000227	owl:NamedIndividual	CALGB 40601	dbpedia:United_States		
+COHO:0000228	owl:NamedIndividual	Cambridge Biorepository for Translational Medicine	dbpedia:United_Kingdom	donor samples provided by the Cambridge Biorepository for Translational Medicine (CBTM)	https://ega-archive.org/studies/EGAS00001008228
+COHO:0000229	owl:NamedIndividual	Canadian Airways Research Group	dbpedia:Canada		
+COHO:0000230	owl:NamedIndividual	Canadian Prostate Cancer Genome Network	dbpedia:Canada		
+COHO:0000232	owl:NamedIndividual	CeDNN	dbpedia:Netherlands	we analysed faecal gut microbiota from two Dutch cohorts, CeDNN (128 treated CeD patients (tCeD), 106 controls)	https://ega-archive.org/studies/EGAS50000000959
+COHO:0000233	owl:NamedIndividual	CENet Cohort	dbpedia:Canada	collected in CHUM Research Center in Montreal	https://ega-archive.org/studies/EGAS00001007507
+COHO:0000234	owl:NamedIndividual	CHILD Cohort Study	dbpedia:Canada		
+COHO:0000235	owl:NamedIndividual	City of Hope triple negative breast cancer cohort	dbpedia:United_States		
+COHO:0000236	owl:NamedIndividual	CLUSTER consortium	dbpedia:United_Kingdom		
+COHO:0000237	owl:NamedIndividual	COMPARE study	dbpedia:United_Kingdom	The COMPARE study enrolled 29,066 British blood between donors between February 2016 and March 2017	https://ega-archive.org/studies/EGAS00001003748
+COHO:0000239	owl:NamedIndividual	CRCbiome	dbpedia:Norway	a prospective biomarker study (CRCbiome), nested within a large randomized CRC screening trial in Norway	https://ega-archive.org/studies/EGAS50000000170
+COHO:0000241	owl:NamedIndividual	Diagnosis and Management of Febrile Illness using RNA Personalised Molecular Signature Diagnosis	dbpedia:United_Kingdom|dbpedia:Europe	Children presenting with MIS-C to participating hospitals in the United Kingdom and the European Union between April 2020-April 2021 were prospectively recruited.	https://ega-archive.org/studies/EGAS00001007409
+COHO:0000242	owl:NamedIndividual	DKTK MASTER	dbpedia:Germany	a prospective observational study by the German Cancer Consortium, DKTK MASTER	https://ega-archive.org/studies/EGAS00001005836
+COHO:0000243	owl:NamedIndividual	Donor InSight III study	dbpedia:Netherlands	The Donor InSight III study, undertaken by Sanquin research, recruited 3,046 Dutch blood donors between 2015 and 2016.	https://ega-archive.org/studies/EGAS00001003777
+COHO:0000244	owl:NamedIndividual	East London Genes and Health	dbpedia:United_Kingdom	East London Genes and Health (ELGH) is a cohort of healthy British South Asians	https://ega-archive.org/studies/EGAS00001001888
+COHO:0000245	owl:NamedIndividual	Egyptian Collaborative Cardiac Genomics Project	dbpedia:Egypt	Here, we present the first 391 Egyptian healthy volunteers (EHVols) recruited to establish a pilot phenotyped control cohort.	https://ega-archive.org/studies/EGAS00001004434
+COHO:0000246	owl:NamedIndividual	EMC-DC-IL10R study	dbpedia:Netherlands		
+COHO:0000247	owl:NamedIndividual	Emirati Genome Program	dbpedia:United_Arab_Emirates	a cohort of 43,608 Emirati genomes sequenced as part of the Emirati Genome Program (EGP)	https://ega-archive.org/studies/EGAS50000001071
+COHO:0000248	owl:NamedIndividual	Entebbe Mother and Baby study	dbpedia:Uganda	the Entebbe Mother and Baby (EMaB) study, an ongoing birth cohort in southern Uganda	https://ega-archive.org/studies/EGAS00001003283
+COHO:0000249	owl:NamedIndividual	EORTC-SPECTA RP1759	dbpedia:Europe	The initial pilot study, activated in February 2019 across Europe	https://ega-archive.org/studies/EGAS50000000985
+COHO:0000250	owl:NamedIndividual	ESTAMPA	dbpedia:Latin_America_and_the_Caribbean	the ESTAMPA cohort, a multicentre study based in Latin America	https://ega-archive.org/studies/EGAS00001007730
+COHO:0000251	owl:NamedIndividual	Estonian Microbiome Cohort	dbpedia:Estonia	As part of the Estonian Biobank, we established the Estonian Microbiome Cohort which includes stool, oral and plasma samples from 2,509 participants	https://ega-archive.org/studies/EGAS50000001181
+COHO:0000252	owl:NamedIndividual	Etude des Déterminants pré et postnatals précoces du développement et de la santé de l'Enfant	dbpedia:France		
+COHO:0000254	owl:NamedIndividual	European BestAgeing Study	dbpedia:Europe	in a large, multicenter European cohort	https://ega-archive.org/studies/EGAS00001008346
+COHO:0000255	owl:NamedIndividual	Extended Cohort for E-health, Environment and DNA	dbpedia:United_Kingdom	Recruitment has taken place in Leicester, Leicestershire and Rutland since 2013	https://ega-archive.org/studies/EGAS00001003499
+COHO:0000256	owl:NamedIndividual	Genome Database of Latvian Population	dbpedia:Latvia	sequence 502 individuals from the Genome Database of Latvian Population as representatives of the Latvian population	https://ega-archive.org/studies/EGAS00001007406
+COHO:0000257	owl:NamedIndividual	Genome Diversity in Africa Project	dbpedia:Africa	we plan to carry out high depth whole genome sequencing of up to 2000 individuals across Africa	https://ega-archive.org/studies/EGAS00001000929
+COHO:0000258	owl:NamedIndividual	Genome Research at Fundació ACE	dbpedia:Spain	4,120 AD cases were diagnosed at Fundació ACE Memory Clinic (Barcelona, Spain)	https://ega-archive.org/studies/EGAS00001003424
+COHO:0000259	owl:NamedIndividual	Genomic Advances in Sepsis	dbpedia:United_Kingdom	recruited from 35 hospitals across the UK from 2005-2018	https://ega-archive.org/studies/EGAS00001007786
+COHO:0000260	owl:NamedIndividual	German Cancer Consortium	dbpedia:Germany	a prospective observational study by the German Cancer Consortium, DKTK MASTER	https://ega-archive.org/studies/EGAS00001005836
+COHO:0000261	owl:NamedIndividual	German MI cohort	dbpedia:Germany		
+COHO:0000262	owl:NamedIndividual	GMMG-BIRMA trial	dbpedia:Germany		
+COHO:0000263	owl:NamedIndividual	Gutenberg Health Study	dbpedia:Germany		
+COHO:0000264	owl:NamedIndividual	Haematological Malignancy Research Network	dbpedia:United_Kingdom	The UK’s Haematological Malignancy Research Network (www.HMRN.org) was established in 2004	https://ega-archive.org/studies/EGAS00001005953
+COHO:0000265	owl:NamedIndividual	Health, Alcohol and Psychosocial factors In Eastern Europe study	dbpedia:Russia	HAPIEE Cohort (Siberian branch)	https://ega-archive.org/studies/EGAS00001006390
+COHO:0000266	owl:NamedIndividual	Healthy Life in an Urban Setting	dbpedia:Netherlands	This is a multi-ethnic population-based cohort study in Amsterdam, the Netherlands with in total over 25,000 participants.	https://ega-archive.org/studies/EGAS50000000795
+COHO:0000267	owl:NamedIndividual	ICGC Gastric Cancer China project	dbpedia:China		
+COHO:0000269	owl:NamedIndividual	ICGC India Project	dbpedia:India	As a part of the ICGC, India has undertaken genomic studies on gingivobuccal cancer of the oral cavity, which is the most prevalent form of cancer among men in India.	https://ega-archive.org/studies/EGAS00001000249
+COHO:0000270	owl:NamedIndividual	ICGC Liver Cancer China project	dbpedia:China		
+COHO:0000271	owl:NamedIndividual	ICGC MMML-Seq	dbpedia:Germany	In the framework of the German ICGC MMML-Seq	https://ega-archive.org/studies/EGAS00001000394
+COHO:0000272	owl:NamedIndividual	ICGC Oesophageal Adenocarcinoma project	dbpedia:United_Kingdom	a UK-wide network of hospitals involved in a research collaboration called the OCCAMS	https://ega-archive.org/studies/EGAS00001000725
+COHO:0000275	owl:NamedIndividual	ICGC Prostate Cancer UK project	dbpedia:United_Kingdom	International Cancer Genome Consortium Prostate Cancer UK consortium (CRUK-ICGC Prostate Group)	https://ega-archive.org/studies/EGAS00001000262
+COHO:0000276	owl:NamedIndividual	ICR MOPOPGEN UK exome control series	dbpedia:United_Kingdom	ICR MOPOPGEN UK exome control series	https://ega-archive.org/studies/EGAS00001001667
+COHO:0000280	owl:NamedIndividual	ImmunAID	dbpedia:Europe	The study integrates immunological, and molecular data from patients across several European cohorts.	https://ega-archive.org/studies/EGAS50000001393
+COHO:0000281	owl:NamedIndividual	Initiative for Molecular Profiling and Advanced Cancer Therapy 2	dbpedia:United_States		
+COHO:0000286	owl:NamedIndividual	Korean Genome Project	dbpedia:South_Korea	4,157 whole-genome sequences (Korea4K) coupled with 107 health check-up parameters as the largest genomic resource of the Korean Genome Project	https://ega-archive.org/studies/EGAS00001007580
+COHO:0000287	owl:NamedIndividual	LifeLines-DEEP	dbpedia:Netherlands	The LifeLines-DEEP cohort is a sub-cohort of the LifeLines cohort (167,729 participants)	https://ega-archive.org/studies/EGAS00001001704
+COHO:0000288	owl:NamedIndividual	Lifelines-NEXT	dbpedia:Netherlands	The cohort includes approximately 1,500 newborns and their mothers from the 3 provinces of the Northern Netherlands.	https://ega-archive.org/studies/EGAS50000000133
+COHO:0000289	owl:NamedIndividual	Liverpool Preterm Birth Biomarker Study	dbpedia:United_Kingdom	recruited at the Liverpool Women’s Hospital at 16 and 20 weeks of gestation	https://ega-archive.org/studies/EGAS00001005076
+COHO:0000290	owl:NamedIndividual	Low coverage Kuusamo whole genome sequencing study	dbpedia:Finland	The sampels in this study have all been collected in Kuusamo.	https://ega-archive.org/studies/EGAS00001000143
+COHO:0000291	owl:NamedIndividual	Lung Cancer Diagnostic Study	dbpedia:Denmark		
+COHO:0000293	owl:NamedIndividual	Maastricht IBS studies	dbpedia:Netherlands	Metagenomic sequencing of the human gut in Maastricht IBS studies, cases and controls.	https://ega-archive.org/studies/EGAS00001001924
+COHO:0000295	owl:NamedIndividual	Malaysian Breast Cancer cohort	dbpedia:Malaysia	94 TNBC samples from a Malaysian hospital-based cohort (MyBrCa)	https://ega-archive.org/studies/EGAS00001006518
+COHO:0000296	owl:NamedIndividual	Malmö Diet and Cancer Study	dbpedia:Sweden	the Malmö Diet and Cancer (MDC) study	https://ega-archive.org/studies/EGAS00001000936
+COHO:0000298	owl:NamedIndividual	Medical Genome Reference Bank	dbpedia:Australia	recruited from two Australian community based cohorts	https://ega-archive.org/studies/EGAS00001003511
+COHO:0000299	owl:NamedIndividual	MESOMICS	dbpedia:France	the MESOMICS project, the French project of molecular characterization of malignant pleural mesothelioma	https://ega-archive.org/studies/EGAS00001004812
+COHO:0000300	owl:NamedIndividual	Milan cohort	dbpedia:Italy	Subtype specific studies of breast cancer progression. Milan cohort.	https://ega-archive.org/studies/EGAS00001004390
+COHO:0000301	owl:NamedIndividual	Milieu Intérieur	dbpedia:France	The Milieu Intérieur project is a population-based study coordinated by the Institut Pasteur, Paris.	https://ega-archive.org/studies/EGAS00001003419
+COHO:0000302	owl:NamedIndividual	MITO16A/MaNGO-OV2 trial	dbpedia:Italy		
+COHO:0000304	owl:NamedIndividual	Molecular Taxonomy of Breast Cancer International Consortium	dbpedia:United_Kingdom|dbpedia:Canada		
+COHO:0000306	owl:NamedIndividual	MultiMuTHER	dbpedia:United_Kingdom		
+COHO:0000307	owl:NamedIndividual	Multiple Tissue Human Expression Resource	dbpedia:United_Kingdom		
+COHO:0000309	owl:NamedIndividual	NCI China cohort	dbpedia:China		
+COHO:0000310	owl:NamedIndividual	NCI Taiwan cohort	dbpedia:Taiwan		
+COHO:0000312	owl:NamedIndividual	NIHR BioResource	dbpedia:United_Kingdom	Genomic data includes 845487 snps collected using the UK BioBank V1 Affymetrix array.	https://ega-archive.org/studies/EGAS00001004870
+COHO:0000314	owl:NamedIndividual	PANDA trial	dbpedia:Netherlands		
+COHO:0000315	owl:NamedIndividual	PELICAN	dbpedia:United_States		
+COHO:0000316	owl:NamedIndividual	PETAL trial	dbpedia:Germany		
+COHO:0000318	owl:NamedIndividual	Polish glioma cohort	dbpedia:Poland	In four patients from the Polish glioma cohort	https://ega-archive.org/studies/EGAS00001004556
+COHO:0000319	owl:NamedIndividual	Posthumous Evaluation of Advanced Cancer Environment	dbpedia:United_Kingdom		
+COHO:0000320	owl:NamedIndividual	PRedicting Outcomes For Crohn's disease using a moLecular biomarker	dbpedia:United_Kingdom	Crossreplicate microbiome associations and predictive algorithms in an independent UK-based cohort (IBD-RESPONSE)	https://ega-archive.org/studies/EGAS00001007958
+COHO:0000321	owl:NamedIndividual	Pregnancy Outcome Prediction study	dbpedia:United_Kingdom	a prospective cohort study of nulliparous women attending the Rosie Hospital (Cambridge, UK)	https://ega-archive.org/studies/EGAS00001002205
+COHO:0000322	owl:NamedIndividual	Premature Atherosclerosis Study pedigrees	dbpedia:Netherlands		
+COHO:0000323	owl:NamedIndividual	PrevANZ trial	dbpedia:Australia|dbpedia:New_Zealand		
+COHO:0000324	owl:NamedIndividual	Prevention and Incidence of Asthma and Mite Allergy	dbpedia:Netherlands		
+COHO:0000325	owl:NamedIndividual	Princess Margaret Cancer Centre acute myeloid leukemia patient cohort	dbpedia:Canada	Leukemia Tissue Bank at Princess Margaret Cancer Centre/ University Health Network	https://ega-archive.org/studies/EGAS00001004792
+COHO:0000327	owl:NamedIndividual	Research on Obesity and Diabetes among African Migrants	dbpedia:Ghana|dbpedia:Netherlands	Fecal samples from RODAM participants in rural, urban Ghana and Amsterdam, the Netherlands	https://ega-archive.org/studies/EGAS50000000805
+COHO:0000329	owl:NamedIndividual	SARS-CoV-2 Vaccine Response in Cancer trial	dbpedia:Italy	All participants were vaccinated under the Italian national campaign	https://ega-archive.org/studies/EGAS50000001205
+COHO:0000331	owl:NamedIndividual	Severe Childhood Onset Obesity Project	dbpedia:United_Kingdom	The SCOOP cohort (PMID: 23563609) is a UK Caucasian subset of the Genetics of ObesityStudy (GOOS)	https://ega-archive.org/studies/EGAS00001000922
+COHO:0000332	owl:NamedIndividual	SG10K Pilot	dbpedia:Singapore	By whole-genome sequencing of 4,810 Singapore Chinese, Malays, and Indians	https://ega-archive.org/studies/EGAS00001003875
+COHO:0000333	owl:NamedIndividual	STRAT-PARK	dbpedia:Norway		
+COHO:0000334	owl:NamedIndividual	STREP GENE	dbpedia:United_Kingdom	This study investigated host genetic susceptibility to invasive group A streptococcal disease in the UK.	https://ega-archive.org/studies/EGAS00001003421
+COHO:0000335	owl:NamedIndividual	Stroke Investigative Research and Education Network	dbpedia:Ghana|dbpedia:Nigeria		
+COHO:0000336	owl:NamedIndividual	Study Into Lean and Thin Subjects	dbpedia:United_Kingdom	have been recruited through primary care with the involvement of UKPrimary Care Research Networks (PCRNs)	https://ega-archive.org/studies/EGAS00001000923
+COHO:0000337	owl:NamedIndividual	SweGen	dbpedia:Sweden	The SweGen project represents a comprehensive map of genetic variation in the Swedish population.	https://ega-archive.org/studies/EGAS50000000906
+COHO:0000339	owl:NamedIndividual	Therapeutically Applicable Research to Generate Effective Treatments	dbpedia:United_States		
+COHO:0000340	owl:NamedIndividual	TRACERx	dbpedia:United_Kingdom		
+COHO:0000341	owl:NamedIndividual	TransplantLines	dbpedia:Netherlands		
+COHO:0000342	owl:NamedIndividual	TrypanoGEN	dbpedia:Uganda|dbpedia:Democratic_Republic_of_the_Congo|dbpedia:Ivory_Coast|dbpedia:Guinea|dbpedia:Cameroon|dbpedia:Zambia	Nilo-Saharan speakers from North-West Uganda and Niger-Congo speakers from South-East Uganda, DRC, Ivory Coast, Guinea, Cameroon and Zambia	https://ega-archive.org/studies/EGAS00001002602
+COHO:0000343	owl:NamedIndividual	Tumor Profiler	dbpedia:Switzerland		
+COHO:0000345	owl:NamedIndividual	Uganda General Population Cohort	dbpedia:Uganda	a population-based study of 6,400 individuals from a geographically defined rural community in South-West Uganda	https://ega-archive.org/studies/EGAS00001000545
+COHO:0000346	owl:NamedIndividual	UK BHF CAD/MI cohort	dbpedia:United_Kingdom		
+COHO:0000347	owl:NamedIndividual	UK Blood Service Control Group	dbpedia:United_Kingdom	Controls used were data from the Wellcome Trust Case Control Consortium 2 (WTCCC2) 1958 birth cohort and the UK Blood Service Control Group	https://ega-archive.org/studies/EGAS00001002336
+COHO:0000348	owl:NamedIndividual	UK10K	dbpedia:United_Kingdom		
+COHO:0000349	owl:NamedIndividual	UK10K Rare Neuromuscular Disorders cohort	dbpedia:United_Kingdom		
+COHO:0000350	owl:NamedIndividual	University of Washington ovarian carcinoma cohort	dbpedia:United_States		
+COHO:0000351	owl:NamedIndividual	UPTIDER	dbpedia:Belgium		
+COHO:0000352	owl:NamedIndividual	VIVO Biobank	dbpedia:United_Kingdom		
+COHO:0000353	owl:NamedIndividual	West Coast Prostate Cancer Dream Team	dbpedia:United_States		
+COHO:0000354	owl:NamedIndividual	WTCCC case-control study for Ankylosing Spondylitis	dbpedia:United_Kingdom	using the 1958 British Birth Cohort collection as controls	https://ega-archive.org/studies/EGAS00000000018
+COHO:0000355	owl:NamedIndividual	WTCCC case-control study for Autoimmune Thyroid Disease	dbpedia:United_Kingdom	using the 1958 British Birth Cohort collection as controls	https://ega-archive.org/studies/EGAS00000000020
+COHO:0000356	owl:NamedIndividual	WTCCC case-control study for Bipolar Disorder	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000001
+COHO:0000357	owl:NamedIndividual	WTCCC case-control study for Breast cancer	dbpedia:United_Kingdom	using the 1958 British Birth Cohort collection as controls	https://ega-archive.org/studies/EGAS00000000024
+COHO:0000358	owl:NamedIndividual	WTCCC case-control study for Coronary Artery Disease	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000003
+COHO:0000359	owl:NamedIndividual	WTCCC case-control study for Hypertension	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000009
+COHO:0000360	owl:NamedIndividual	WTCCC case-control study for Inflammatory Bowel Disease	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000006
+COHO:0000361	owl:NamedIndividual	WTCCC case-control study for Multiple Sclerosis	dbpedia:United_Kingdom	using the 1958 British Birth Cohort collection as controls	https://ega-archive.org/studies/EGAS00000000022
+COHO:0000362	owl:NamedIndividual	WTCCC case-control study for Rheumatoid Arthritis	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000011
+COHO:0000363	owl:NamedIndividual	WTCCC case-control study for Tuberculosis	dbpedia:Africa	using the African samples as controls	https://ega-archive.org/studies/EGAS00000000027
+COHO:0000364	owl:NamedIndividual	WTCCC case-control study for Type 1 Diabetes	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000014
+COHO:0000365	owl:NamedIndividual	WTCCC case-control study for Type 2 Diabetes	dbpedia:United_Kingdom	using the 1958 British Birth Cohort and the UK National Blood Service collections as controls	https://ega-archive.org/studies/EGAS00000000016

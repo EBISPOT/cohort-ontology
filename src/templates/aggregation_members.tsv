@@ -1,6 +1,7 @@
 ID	TYPE	label	member cohort	evidence	source
 ID	TYPE		I coho:hasCohort	>A rdfs:comment	>A oio:hasDbXref
 COHO:0000020	owl:NamedIndividual	Breast Cancer Association Consortium	COHO:0000024	Cancer Prevention Study II	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5601244/unicode
+COHO:0000022	owl:NamedIndividual	Cancer and Leukemia Group B	COHO:0000227	two phase III trials, namely NeoALTTO and CALGB 40601	https://ega-archive.org/studies/EGAS00001007563
 COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000028	Cardiogenics	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
 COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000064	EGCUT	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
 COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000066	EPIC	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
@@ -14,6 +15,8 @@ COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000171	THISEAS	https://
 COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000189	FGENTCARD	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
 COHO:0000029	owl:NamedIndividual	CARDIoGRAMplusC4D	COHO:0000194	ULSAM	https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2480/MediaObjects/41588_2013_BFng2480_MOESM9_ESM.pdf
 COHO:0000044	owl:NamedIndividual	Consortium of Minority Population Genome-Wide Association Studies of Stroke	COHO:0000011	Atherosclerosis Risk in Communities	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4740911/unicode
+COHO:0000071	owl:NamedIndividual	FINRISK	COHO:0000290	will produce whole genome sequencing with 1x coverage on a subset of the Finrisk 2012 sample collection	https://ega-archive.org/studies/EGAS00001000143
+COHO:0000085	owl:NamedIndividual	German Multiple Myeloma Study Group	COHO:0000262	ENCORAFENIB COMBINED WITH BINIMETINIB FOR BRAFV600E-MUTATED RELAPSED/REFRACTORY MULTIPLE MYELOMA: THE PHASE II GMMG-BIRMA TRIAL (Hipo_K08K)	https://ega-archive.org/studies/EGAS00001005973
 COHO:0000088	owl:NamedIndividual	Greece Hellenic Isolated Cohorts	COHO:0000166	The two cohorts included in this analysis, MANOLIS and Pomak, are part of the Hellenic Isolated Cohorts	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8640022/unicode
 COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000016	Avon Longitudinal Study of Parents and Children	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
 COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO:0000064	Estonian Genome Center, University of Tartu	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5331903/unicode
@@ -23,6 +26,48 @@ COHO:0000102	owl:NamedIndividual	International Headache Genetics Consortium	COHO
 COHO:0000103	owl:NamedIndividual	International Multiple Sclerosis Genetics Consortium	COHO:0000073	Gabriel Advanced Survey	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3182531/supplementaryFiles
 COHO:0000103	owl:NamedIndividual	International Multiple Sclerosis Genetics Consortium	COHO:0000142	PROCARDIS	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3182531/supplementaryFiles
 COHO:0000117	owl:NamedIndividual	MOnica Risk, Genetics, Archiving and Monograph	COHO:0000143	ITA-PAM 21 01 1990-93	https://www.thl.fi/publications/morgam/cohorts/tables/base_summary.htm
+COHO:0000117	owl:NamedIndividual	MOnica Risk, Genetics, Archiving and Monograph	COHO:0000265	RUS-NOH 24 02 2002-05	https://www.thl.fi/publications/morgam/cohorts/tables/base_summary.htm
 COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000013	Australian Cancer Study – Ovarian Cancer	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
 COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000014	Australian Ovarian Cancer Study	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
 COHO:0000134	owl:NamedIndividual	Ovarian Cancer Association Consortium	COHO:0000126	New England-based Case-Control Study	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000207	1958 British Birth Cohort (58C)	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000347	UK Blood Services (UKBS) controls	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000354	ankylosing spondylitis	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000355	autoimmune thyroid disease	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000356	bipolar disorder	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000357	breast cancer	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000358	coronary artery disease	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000359	hypertension	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000360	Crohn’s disease	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000361	multiple sclerosis	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000362	rheumatoid arthritis	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000363	tuberculosis	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000364	type 1 diabetes	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000182	owl:NamedIndividual	Wellcome Trust Case Control Consortium	COHO:0000365	type 2 diabetes	https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2719288/unicode
+COHO:0000215	owl:NamedIndividual		COHO:0000057	APCDR Durban Diabetes Study (DDS)	https://ega-archive.org/studies/EGAS00001002583
+COHO:0000215	owl:NamedIndividual		COHO:0000214	APCDR AGV Project: The African Genome Variation Project(dense array genotyping data)	https://ega-archive.org/studies/EGAS00001000959
+COHO:0000215	owl:NamedIndividual		COHO:0000218	APCDR Diabetes Case Control Study	https://ega-archive.org/studies/EGAS00001002584
+COHO:0000215	owl:NamedIndividual		COHO:0000257	APCDR GDAP: Genome Diversity in Africa Study (set of 9 samples at high depth)	https://ega-archive.org/studies/EGAS00001000929
+COHO:0000215	owl:NamedIndividual		COHO:0000345	APCDR Uganda GWAS: Genome-wide sequence variation and susceptibility loci for cardiometabolic traits in a sub-Saharan African population (UGWAS component)	https://ega-archive.org/studies/EGAS00001001558
+COHO:0000260	owl:NamedIndividual		COHO:0000242	a prospective observational study by the German Cancer Consortium, DKTK MASTER	https://ega-archive.org/studies/EGAS00001005836
+COHO:0000278	owl:NamedIndividual		COHO:0000279	IMMUcan SCCHN1 cohort	https://ega-archive.org/studies/EGAS50000001533
+COHO:0000282	owl:NamedIndividual		COHO:0000101	The CLL Genome Project, as a contributing member of the International Cancer Genome Consortium (ICGC)	https://ega-archive.org/studies/EGAS00000000092
+COHO:0000282	owl:NamedIndividual		COHO:0000231	CAGEKID is a part of the International Cancer Genome Consortium, ICGC.	https://ega-archive.org/studies/EGAS00001000083
+COHO:0000282	owl:NamedIndividual		COHO:0000267	There are 340 cases belongs to ICGC GACA-CN project.	https://ega-archive.org/studies/EGAS00001002313
+COHO:0000282	owl:NamedIndividual		COHO:0000268	The aim of ICGC GCS program is to genomically characterize C and S components of 20 tumors	https://ega-archive.org/studies/EGAS00001002271
+COHO:0000282	owl:NamedIndividual		COHO:0000269	As a part of the ICGC, India has undertaken genomic studies on gingivobuccal cancer of the oral cavity	https://ega-archive.org/studies/EGAS00001000249
+COHO:0000282	owl:NamedIndividual		COHO:0000270	88 matched HCC tumour/normal pairs WGS belongs to ICGC LICA-CN project	https://ega-archive.org/studies/EGAS00001002218
+COHO:0000282	owl:NamedIndividual		COHO:0000271	In the framework of the German ICGC MMML-Seq	https://ega-archive.org/studies/EGAS00001000394
+COHO:0000282	owl:NamedIndividual		COHO:0000272	ICGC Oesophageal adenocarcinoma - tumour samples	https://ega-archive.org/studies/EGAS00001000725
+COHO:0000282	owl:NamedIndividual		COHO:0000273	ICGC Pancreatic Cancer study	https://ega-archive.org/studies/EGAS00001002311
+COHO:0000282	owl:NamedIndividual		COHO:0000274	This study, conducted by the International Cancer Genome Consortium PedBrain Tumor Project (ICGC PedBrain, http://www.pedbraintumor.org/)	https://ega-archive.org/studies/EGAS00001000381
+COHO:0000282	owl:NamedIndividual		COHO:0000275	International Cancer Genome Consortium Prostate Cancer UK consortium (CRUK-ICGC Prostate Group)	https://ega-archive.org/studies/EGAS00001000262
+COHO:0000297	owl:NamedIndividual		COHO:0000037	Children’s Allergy Environment Stockholm Epidemiology study(BAMSE)	https://ega-archive.org/studies/EGAS00001002169
+COHO:0000297	owl:NamedIndividual		COHO:0000100	MeDALL epigenetics study includes illumina 450k methylation measurements from 4 cohorts: Infancia y Medio Ambiente (INMA)	https://ega-archive.org/studies/EGAS00001002169
+COHO:0000297	owl:NamedIndividual		COHO:0000252	Etudes des Déterminants pré et postnatals précoces du développement et de la santé de l’ENfant (EDEN)	https://ega-archive.org/studies/EGAS00001002169
+COHO:0000297	owl:NamedIndividual		COHO:0000324	Prevention and Incidence of Asthma and Mite Allergy (PIAMA)	https://ega-archive.org/studies/EGAS00001002169
+COHO:0000344	owl:NamedIndividual		COHO:0000082	GoDARTS T2D-GENES Exome Sequencing Study is a subset of the ~52,000 Type 2 diabetes exome sequencing project.	https://ega-archive.org/studies/EGAS00001002937
+COHO:0000348	owl:NamedIndividual		COHO:0000016	obtaining the genome-wide sequence of 4000 samples from the TwinsUK and ALSPAC cohorts	https://ega-archive.org/studies/EGAS00001000090
+COHO:0000348	owl:NamedIndividual		COHO:0000175	obtaining the genome-wide sequence of 4000 samples from the TwinsUK and ALSPAC cohorts	https://ega-archive.org/studies/EGAS00001000090
+COHO:0000348	owl:NamedIndividual		COHO:0000331	UK10K_OBESITY_SCOOP	https://ega-archive.org/studies/EGAS00001000124
+COHO:0000348	owl:NamedIndividual		COHO:0000349	UK10K_RARE_NEUROMUSCULAR	https://ega-archive.org/studies/EGAS00001000101

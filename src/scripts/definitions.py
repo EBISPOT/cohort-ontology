@@ -17,7 +17,8 @@ Sources, in src/curation:
                             These definitions were written by the checking model
                             alone, and carry only its contributor annotation.
 
-Deprecated individuals are skipped.
+Every individual in coho-edit.owl that is not deprecated is expected to have a
+definition; those without are printed.
 
 Usage: src/scripts/definitions.py
 """
@@ -45,19 +46,27 @@ def read(path):
 
 
 def main():
+    edit = EDIT.read_text(encoding="utf-8")
     deprecated = {
         cid.replace("_", ":", 1)
-        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", EDIT.read_text(encoding="utf-8"))
+        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", edit)
+    }
+    individuals = set(re.findall(r"Declaration\(NamedIndividual\(coho:(COHO_\d+)\)", edit))
+    labels = {
+        cid.replace("_", ":", 1): label
+        for cid, label in re.findall(r'AnnotationAssertion\(rdfs:label coho:(COHO_\d+) "((?:[^"\\]|\\.)*)"', edit)
+        if cid in individuals
+        if cid.replace("_", ":", 1) not in deprecated
     }
     rows = {}
-    labels = {}
     for r in read(EVIDENCE):
         if r["ID"] in deprecated:
             continue
-        labels[r["ID"]] = r["label"]
         if r["definition"].strip():
             rows[r["ID"]] = (r["definition"].strip(), r["source PMID"] or r["source URL"], DRAFTED_BY, CHECKED_BY)
     for r in read(CURATED):
+        if r["ID"] in deprecated:
+            continue
         if r["definition"].strip():
             rows[r["ID"]] = (r["definition"].strip(), r["source"], WRITTEN_BY, "")
         else:
