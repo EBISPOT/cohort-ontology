@@ -16,6 +16,7 @@ Import(<http://www.ebi.ac.uk/coho/components/EGA.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/GWAS.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/MetaboLight.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/PRIDE.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/definitions.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/example_studies.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/locations.owl>)
@@ -402,9 +403,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000007)
 
 # Individual: coho:COHO_0000008 (Asian Cancer Project)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000008 "The acronym ACP also denotes an Old Order Amish cohort in the GWAS Catalog (e.g. GCST90281184); those studies are not this cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000008 "ACP")
 AnnotationAssertion(rdfs:label coho:COHO_0000008 "Asian Cancer Project"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000008 "The acronym ACP also denotes an Old Order Amish cohort in the GWAS Catalog (e.g. GCST90281184); those studies are not this cohort."@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000008)
 
 # Individual: coho:COHO_0000009 (Aspirin for Asymptomatic Atherosclerosis Study)
@@ -506,9 +507,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000024)
 
 # Individual: coho:COHO_0000025 (Cancer Prostate in Sweden)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000025 "The acronym CaPS also denotes the Caerphilly Prospective Study (Wales); GWAS Catalog studies tagged CaPS may be either."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000025 "CAPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000025 "Cancer Prostate in Sweden"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000025 "The acronym CaPS also denotes the Caerphilly Prospective Study (Wales); GWAS Catalog studies tagged CaPS may be either."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000025)
 
 # Individual: coho:COHO_0000026 (Candesartan in Heart failure Assessment of Reduction in Mortality and morbidity)
@@ -679,16 +680,16 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000053)
 
 # Individual: coho:COHO_0000054 (Dortmund Health Study)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000054 "The acronym DHS also denotes the deCODE Health Study (Iceland) and the Diabetes Heart Study (USA); GWAS Catalog studies tagged DHS are usually not this cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000054 "DHS")
 AnnotationAssertion(rdfs:label coho:COHO_0000054 "Dortmund Health Study"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000054 "The acronym DHS also denotes the deCODE Health Study (Iceland) and the Diabetes Heart Study (USA); GWAS Catalog studies tagged DHS are usually not this cohort."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000054)
 
 # Individual: coho:COHO_0000055 (Duke Cognition Cohort)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000055 "The acronym DCC also denotes the Durban Case Control study (South Africa); diabetes studies tagged DCC are that cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000055 "DCC")
 AnnotationAssertion(rdfs:label coho:COHO_0000055 "Duke Cognition Cohort"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000055 "The acronym DCC also denotes the Durban Case Control study (South Africa); diabetes studies tagged DCC are that cohort."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000055)
 
 # Individual: coho:COHO_0000056 (DUNDEE)
@@ -805,8 +806,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000074)
 
 # Individual: coho:COHO_0000075 (GENESIS)
 
-AnnotationAssertion(rdfs:label coho:COHO_0000075 "GENESIS"@en)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000075 "GENESIS also names the UK GENESIS/DNA Lacunar stroke study; this term is the French GENE SISters breast cancer study."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0000075 "GENESIS"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000075)
 
 # Individual: coho:COHO_0000076 (Genetic Analysis of Multiple Sclerosis)
@@ -919,9 +920,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000093)
 
 # Individual: coho:COHO_0000094 (Human Genetics Initiative)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000094 "The acronym HGI also denotes the COVID-19 Host Genetics Initiative; this term is the NIMH Human Genetics Initiative repository."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000094 "HGI")
 AnnotationAssertion(rdfs:label coho:COHO_0000094 "Human Genetics Initiative"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000094 "The acronym HGI also denotes the COVID-19 Host Genetics Initiative; this term is the NIMH Human Genetics Initiative repository."@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000094)
 
 # Individual: coho:COHO_0000095 (Hunter Community Study)
@@ -932,9 +933,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000095)
 
 # Individual: coho:COHO_0000096 (Icelandic Cancer Registry)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000096 "ICR in study text may mean immune checkpoint receptors, not this registry."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000096 "ICR")
 AnnotationAssertion(rdfs:label coho:COHO_0000096 "Icelandic Cancer Registry"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000096 "ICR in study text may mean immune checkpoint receptors, not this registry."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000096)
 
 # Individual: coho:COHO_0000097 (Identification of Men with a genetic predisposition to ProstAte Cancer)
@@ -1047,8 +1048,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000114)
 
 # Individual: coho:COHO_0000115 (MIRAGE)
 
-AnnotationAssertion(rdfs:label coho:COHO_0000115 "MIRAGE"@en)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000115 "MIRAGE also names a microRNA ageing score (mirAge) used in Rotterdam Study data; this term is the Multi-Institutional Research on Alzheimer Genetic Epidemiology study."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0000115 "MIRAGE"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000115)
 
 # Individual: coho:COHO_0000116 (Molecular Genetics of Schizophrenia Collaboration)
@@ -1077,9 +1078,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000119)
 
 # Individual: coho:COHO_0000120 (Multicenter Family Study)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000120 "The acronym MFS also denotes the Maudsley Family Study (UK)."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000120 "MFS")
 AnnotationAssertion(rdfs:label coho:COHO_0000120 "Multicenter Family Study"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000120 "The acronym MFS also denotes the Maudsley Family Study (UK)."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000120)
 
 # Individual: coho:COHO_0000121 (Multiethnic Cohort Study of Diet and Health)
@@ -1217,9 +1218,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000142)
 
 # Individual: coho:COHO_0000143 (Pressioni Arteriose Monitorate E Loro Associazionie)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000143 "PAMELA also names a HER2-positive breast cancer trial in the EGA; this term is the Italian blood pressure cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000143 "PAMELA")
 AnnotationAssertion(rdfs:label coho:COHO_0000143 "Pressioni Arteriose Monitorate E Loro Associazionie"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000143 "PAMELA also names a HER2-positive breast cancer trial in the EGA; this term is the Italian blood pressure cohort."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000143)
 
 # Individual: coho:COHO_0000144 (Prospective Investigation of the Vasculature in Uppsala Seniors)
@@ -1230,9 +1231,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000144)
 
 # Individual: coho:COHO_0000145 (Psoriasis Association Genetics Extension)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000145 "The acronym PAGE also denotes the Population Architecture using Genomics and Epidemiology consortium; GWAS Catalog studies tagged PAGE are usually that consortium."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000145 "PAGE")
 AnnotationAssertion(rdfs:label coho:COHO_0000145 "Psoriasis Association Genetics Extension"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000145 "The acronym PAGE also denotes the Population Architecture using Genomics and Epidemiology consortium; GWAS Catalog studies tagged PAGE are usually that consortium."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000145)
 
 # Individual: coho:COHO_0000146 (Psychiatric GWAS Consortium)
@@ -1243,9 +1244,9 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000146)
 
 # Individual: coho:COHO_0000147 (Research on Adolescent Development and Relationships)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000147 "RADAR also names a study of radiation-exposed technicians in the EGA; this term is the Dutch adolescent development study."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000147 "Radar")
 AnnotationAssertion(rdfs:label coho:COHO_0000147 "Research on Adolescent Development and Relationships"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000147 "RADAR also names a study of radiation-exposed technicians in the EGA; this term is the Dutch adolescent development study."@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000147)
 
 # Individual: coho:COHO_0000148 (Rotterdam Study)
@@ -1309,9 +1310,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000157)
 
 # Individual: coho:COHO_0000158 (Spit for Science)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000158 "Spit for Science also names a Canadian children's cohort in the EGA; this term is the Virginia Commonwealth University student cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000158 "Spit")
 AnnotationAssertion(rdfs:label coho:COHO_0000158 "Spit for Science"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000158 "Spit for Science also names a Canadian children's cohort in the EGA; this term is the Virginia Commonwealth University student cohort."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000158)
 
 # Individual: coho:COHO_0000159 (Sweden Bipolar Disorder Cohort)
@@ -1396,9 +1397,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000171)
 
 # Individual: coho:COHO_0000172 (Treating to New Targets)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000172 "TNT also names a breast cancer trial in the EGA; this term is the Treating to New Targets statin trial."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000172 "TNT")
 AnnotationAssertion(rdfs:label coho:COHO_0000172 "Treating to New Targets"@en)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000172 "TNT also names a breast cancer trial in the EGA; this term is the Treating to New Targets statin trial."@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000172)
 
 # Individual: coho:COHO_0000173 (Twins Early Development Study)
@@ -1475,8 +1476,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000184)
 
 # Individual: coho:COHO_0000185 (CONVERGE)
 
-AnnotationAssertion(rdfs:label coho:COHO_0000185 "CONVERGE"@en)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000185 "CONVERGE matches the verb in unrelated study titles; this term is the China, Oxford and VCU Experimental Research on Genetic Epidemiology consortium (Han Chinese women with major depression)."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0000185 "CONVERGE"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000185)
 
 # Individual: coho:COHO_0000186 (Gene-Environmental Interaction and phenotype study)

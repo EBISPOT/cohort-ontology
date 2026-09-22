@@ -1,0 +1,1033 @@
+Prefix(:=<http://www.ebi.ac.uk/coho/components/definitions.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.ebi.ac.uk/coho/components/definitions.owl>
+<http://www.ebi.ac.uk/coho/releases/2026-09-22/components/definitions.owl>
+Annotation(owl:versionInfo "2026-09-22")
+
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000004>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000005>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000006>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000007>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000008>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000009>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000010>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000011>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000012>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000013>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000014>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000015>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000016>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000017>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000018>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000019>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000020>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000021>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000022>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000023>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000024>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000025>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000026>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000027>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000028>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000029>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000030>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000031>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000032>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000033>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000034>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000035>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000036>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000037>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000038>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000039>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000040>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000041>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000042>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000043>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000044>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000045>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000046>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000047>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000048>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000049>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000050>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000051>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000052>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000053>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000054>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000055>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000056>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000057>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000058>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000059>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000060>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000061>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000062>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000063>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000064>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000065>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000066>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000067>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000068>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000069>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000070>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000071>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000072>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000073>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000074>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000075>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000076>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000077>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000078>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000079>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000080>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000081>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000082>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000083>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000084>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000085>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000086>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000087>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000088>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000089>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000090>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000091>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000092>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000093>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000094>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000095>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000096>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000097>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000098>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000099>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000100>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000101>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000102>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000103>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000104>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000105>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000106>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000107>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000108>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000109>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000110>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000111>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000112>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000113>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000114>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000115>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000116>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000117>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000118>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000119>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000120>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000121>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000122>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000123>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000124>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000125>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000126>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000127>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000128>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000129>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000130>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000131>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000132>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000133>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000134>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000136>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000137>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000138>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000139>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000140>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000141>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000142>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000143>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000144>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000145>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000146>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000147>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000148>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000149>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000150>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000151>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000152>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000153>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000154>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000155>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000156>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000157>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000158>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000159>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000160>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000161>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000162>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000163>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000164>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000165>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000166>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000167>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000168>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000169>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000170>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000171>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000172>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000173>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000174>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000175>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000176>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000177>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000178>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000179>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000180>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000181>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000182>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000183>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000184>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000185>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000186>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000187>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000188>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000189>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000190>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000191>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000192>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000193>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000194>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000195>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000196>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000197>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000198>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000199>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000200>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000201>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000202>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000203>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000204>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000002> (<http://www.ebi.ac.uk/coho/COHO_0000002>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26432245") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000002> "A cohort of individuals from 26 populations whose genomes are sequenced and genotyped by the 1000 Genomes Project to catalogue human genetic variation and provide a reference for studies of common disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000003> (<http://www.ebi.ac.uk/coho/COHO_0000003>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31650008") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000003> "A cohort of people with Alzheimer disease, mild cognitive impairment and healthy cognition, established in 2006 at centres in Finland, Italy, Greece, Poland, France and the United Kingdom to investigate longitudinal brain changes using magnetic resonance imaging.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000004> (<http://www.ebi.ac.uk/coho/COHO_0000004>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19336730") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000004> "A randomised trial cohort of adults at high risk of recurrent colorectal adenomas, recruited at centres in the United States, Australia, Canada and Great Britain, comparing celecoxib with placebo for prevention of colorectal adenomas and assessment of treatment safety.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000005> (<http://www.ebi.ac.uk/coho/COHO_0000005>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:38508639") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000005> "A cohort of adults undergoing elective surgery for aortic valve or ascending aortic disease at Karolinska University Hospital in Stockholm, Sweden, recruited consecutively from 2007 for observational investigation of aortic pathology.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000006> (<http://www.ebi.ac.uk/coho/COHO_0000006>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:39899987") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000006> "A cohort of adults in rural and urban Burkina Faso, Ghana, Kenya and South Africa, established in 2012 and followed longitudinally to investigate genomic, environmental and behavioural influences on body composition and cardiometabolic disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000007> (<http://www.ebi.ac.uk/coho/COHO_0000007>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22763110") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000007> "A case-control collection of people of European ancestry with severe osteoarthritis and unrelated controls from the United Kingdom, assembled for genome-wide investigation of genetic susceptibility to osteoarthritis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000008> (<http://www.ebi.ac.uk/coho/COHO_0000008>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24943594") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000008> "A case-control collection of Asian women with breast cancer and controls in Thailand contributing to investigation of genetic susceptibility to breast cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000009> (<http://www.ebi.ac.uk/coho/COHO_0000009>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20197530") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000009> "A randomised trial cohort of men and women aged 50–75 years in central Scotland without clinical cardiovascular disease but with a low ankle brachial index, comparing daily aspirin with placebo during 1998–2008 for prevention of cardiovascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000010> (<http://www.ebi.ac.uk/coho/COHO_0000010>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://research.umcutrecht.nl/athero-express/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000010> "A biobank of patients undergoing vascular surgery at University Medical Center Utrecht and formerly Antonius Hospital Nieuwegein, with vascular tissue, molecular measurements and at least three years of follow-up to investigate atherosclerotic plaques and subsequent cardiovascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000011> (<http://www.ebi.ac.uk/coho/COHO_0000011>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:2646917") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000011> "A cohort of adults aged 45–64 years from Forsyth County, Jackson, Minneapolis suburbs and Washington County in the United States, followed prospectively to investigate atherosclerosis, cardiovascular risk factors and clinical cardiovascular disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000012> (<http://www.ebi.ac.uk/coho/COHO_0000012>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nationaljewish.org/research-science/clinical-translational-research/atopic-dermatitis-research-network-adrn/overview") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000012> "A consortium of academic medical centres conducting clinical investigations in people with atopic dermatitis to understand skin immunity and susceptibility to bacterial and viral infections and to develop approaches to prevent infectious complications.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000013> (<http://www.ebi.ac.uk/coho/COHO_0000013>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18086758") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000013> "A case-control collection of women with epithelial ovarian cancer and population controls in Australia, with cases recruited through the New South Wales and Victorian cancer registries alongside the Australian Ovarian Cancer Study to investigate ovarian-cancer risk.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000014> (<http://www.ebi.ac.uk/coho/COHO_0000014>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18086758") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000014> "A case-control collection of Australian women aged 18–79 years with newly diagnosed epithelial ovarian cancer and population controls, recruited during 2002–2006 to investigate ovarian-cancer susceptibility.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000015> (<http://www.ebi.ac.uk/coho/COHO_0000015>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23200298") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000015> "A registry of volunteer twin pairs and higher-order multiples in Australia, enrolling members since the late 1970s to support health, medical and scientific research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000016> (<http://www.ebi.ac.uk/coho/COHO_0000016>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22507743") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000016> "A birth cohort of children and their families recruited through pregnancies in the Bristol area of the United Kingdom during 1990–1992, with later recruitment of eligible children, followed prospectively to investigate genetic and environmental influences on health and development across the life course.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000017> (<http://www.ebi.ac.uk/coho/COHO_0000017>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20010625") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000017> "A project combining successive Berlin–Frankfurt–Münster treatment trials in children and adolescents with acute lymphoblastic leukaemia at centres in Germany, Austria and Switzerland to evaluate risk-adapted treatment, survival and toxicity.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000018> (<http://www.ebi.ac.uk/coho/COHO_0000018>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19751260") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000018> "A cohort of patients with newly diagnosed bladder cancer in the West Midlands, United Kingdom, recruited from December 2005 and followed prospectively to investigate lifestyle factors, molecular predictors, recurrence, progression and quality of life.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000019> (<http://www.ebi.ac.uk/coho/COHO_0000019>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33087711") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000019> "A cohort of 45 babies from Rio Grande do Norte, Brazil, whose exomes provide population-specific reference variants for genetic investigation and diagnosis of rare diseases.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000020> (<http://www.ebi.ac.uk/coho/COHO_0000020>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21191117") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000020> "A consortium of breast-cancer studies that pools participant-level tumour characteristics and epidemiological data to investigate breast-cancer risk factors and differences in the causes of tumour subtypes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000021> (<http://www.ebi.ac.uk/coho/COHO_0000021>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://epicenter.i-med.ac.at/research/studies/proof-athero/bruneck/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000021> "A cohort of residents of Bruneck, Italy, sampled by age and sex in 1990 and followed through repeated examinations to investigate atherosclerosis, cardiovascular disease and other age-related disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000022> (<http://www.ebi.ac.uk/coho/COHO_0000022>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16740784") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000022> "A consortium of institutional cancer trial cohorts, established in 1956 as the Acute Leukemia Group B, that coordinates trials of treatments for adult solid tumours and haematological malignancies to improve patient outcomes and investigate malignant disease biology.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000023> (<http://www.ebi.ac.uk/coho/COHO_0000023>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.cancer.gov/ccg/research/genome-sequencing") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000023> "A project combining genomic characterisation of 33 cancer types through collaboration between the United States National Cancer Institute and National Human Genome Research Institute to map cancer-associated molecular changes and support prevention, diagnosis and treatment.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000024> (<http://www.ebi.ac.uk/coho/COHO_0000024>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.cancer.org/research/population-science/pop-sci/prevention-studies/cps-2.html") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000024> "A cohort of adult men and women across all United States states, the District of Columbia and Puerto Rico, enrolled by the American Cancer Society in 1982 and followed prospectively for mortality in relation to lifestyle, medical history and other exposures.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000025> (<http://www.ebi.ac.uk/coho/COHO_0000025>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15087412") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000025> "A case-control collection of men with newly diagnosed prostate cancer and controls matched by age and residence in Sweden, used to investigate inherited susceptibility to prostate cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000026> (<http://www.ebi.ac.uk/coho/COHO_0000026>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10496201") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000026> "A project combining three parallel placebo-controlled trials of candesartan in people with symptomatic heart failure, with reduced or preserved left ventricular function, across 26 countries, to evaluate mortality and hospitalisation; recruitment begins in March 1999.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000027> (<http://www.ebi.ac.uk/coho/COHO_0000027>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22158537") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000027> "A case-control collection of people with type 2 diabetes and controls from Japan contributing genome-wide association and replication data to investigations of type 2 diabetes susceptibility through the Cardiometabolic Genome Epidemiology Network.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000028> (<http://www.ebi.ac.uk/coho/COHO_0000028>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22325189") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000028> "A case-control collection of patients with myocardial infarction and unaffected controls recruited in Cambridge, Leicester, Lübeck, Regensburg and Paris for investigation of coronary-disease genetics, including gene expression in monocytes and macrophages.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000029> (<http://www.ebi.ac.uk/coho/COHO_0000029>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:38060277") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000029> "A consortium of coronary-disease genetic studies combining European, South Asian and East Asian case-control data to identify susceptibility variants for coronary artery disease and myocardial infarction. CARDIoGRAMplusC4D joins the Coronary Artery Disease Genome-wide Replication and Meta-analysis and Coronary Artery Disease Genetics consortia.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000030> (<http://www.ebi.ac.uk/coho/COHO_0000030>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20049634") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000030> "A case-control collection of people with newly diagnosed squamous-cell head and neck cancer and controls matched by age, race and sex, recruited during 2002–2006 in 46 North Carolina counties to investigate cancer risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000031> (<http://www.ebi.ac.uk/coho/COHO_0000031>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23071140") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000031> "A biobank of men and women aged 40–69 years sampled from four metropolitan areas in Quebec, with prospective health information and biological specimens for investigating genetic and environmental determinants of chronic disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000032> (<http://www.ebi.ac.uk/coho/COHO_0000032>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://teams.semel.ucla.edu/autism/mission") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000032> "A research and clinical centre at the University of California, Los Angeles, that investigates autism, provides patient care and trains researchers and clinicians working with autistic children and adults and their families.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000033> (<http://www.ebi.ac.uk/coho/COHO_0000033>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.colorado.edu/ibg/about-ibg/institute-behavioral-genetics-50-years-excellence-1967-2017") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000033> "A Colorado research centre founded in 1997 that investigates genetic contributions to adolescent externalising behaviours, including drug abuse and conduct disorder.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000034> (<http://www.ebi.ac.uk/coho/COHO_0000034>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.fjd-ceph.org/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000034> "A research foundation, the Centre d’Etude du Polymorphisme Humain, that investigates human genetic variation, particularly in complex diseases, to improve understanding, diagnosis and personalised medicine.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000035> (<http://www.ebi.ac.uk/coho/COHO_0000035>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ec.europa.eu/health/ph_threats/non_com/docs/ev_pre2005_frep_en.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000035> "A nonprofit genomics research organisation established in 1998 by the French Ministry of Research and New Technologies at Genopole in Évry, near Paris, taking over the genomic activities of Généthon.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000036> (<http://www.ebi.ac.uk/coho/COHO_0000036>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21798578") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000036> "A cohort of adults and children aged at least six years with clinically confirmed asthma, recruited through asthma clinics at the University of Chicago Medical Center for genetic investigation of asthma.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000037> (<http://www.ebi.ac.uk/coho/COHO_0000037>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12688617") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000037> "A birth cohort of children enrolled at three to four months of age between 1994 and 1996 for prospective investigation of environmental, genetic and socioeconomic determinants of childhood asthma, allergic disease and their prognosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000038> (<http://www.ebi.ac.uk/coho/COHO_0000038>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16516587") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000038> "A cohort of African-American and White men and women completing six weeks of open-label simvastatin treatment to investigate genetic, demographic and clinical determinants of lipid-lowering response.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000039> (<http://www.ebi.ac.uk/coho/COHO_0000039>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30858532") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000039> "A cohort of residents of the genetically isolated villages Campora, Gioi and Cardile in Cilento, southern Italy, providing genealogical and genomic data to investigate human genetic variation and the inherited determinants of complex traits and disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000040> (<http://www.ebi.ac.uk/coho/COHO_0000040>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26889974") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000040> "A randomised trial cohort of patients with advanced colorectal cancer in the Continuous or Intermittent (COIN) trial, comparing uninterrupted oxaliplatin and fluoropyrimidine chemotherapy with planned treatment breaks to assess survival and treatment burden.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000041> (<http://www.ebi.ac.uk/coho/COHO_0000041>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24703531") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000041> "A randomised trial cohort of patients with advanced colorectal cancer and no previous chemotherapy for metastases, recruited at 30 UK hospitals and one in Cyprus to compare intermittent chemotherapy combined with either intermittent or continuous cetuximab.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000042> (<http://www.ebi.ac.uk/coho/COHO_0000042>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22495810") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000042> "A case-control collection of Austrian participants with colorectal cancer or colorectal polyps and colonoscopy-confirmed polyp-free controls, assembled to investigate genetic susceptibility to colorectal neoplasia.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000043> (<http://www.ebi.ac.uk/coho/COHO_0000043>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20461784") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000043> "A project combining longitudinal and cross-sectional registry cohorts of African Americans with rheumatoid arthritis recruited through United States clinical centres to investigate genetic, clinical and environmental determinants of disease severity.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000044> (<http://www.ebi.ac.uk/coho/COHO_0000044>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26089329") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000044> "A consortium of stroke cohorts from minority populations, including African Americans, that combines genome-wide association results to identify genetic susceptibility to stroke.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000045> (<http://www.ebi.ac.uk/coho/COHO_0000045>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16032513") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000045> "A project combining population surveys, follow-up cohorts and an acute myocardial infarction registry in the Augsburg region, established in 1996 to extend MONICA and support epidemiological, genetic, health-economic and health-care research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000046> (<http://www.ebi.ac.uk/coho/COHO_0000046>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33169150") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000046> "A biobank of patients receiving hospital care in the Capital Region of Denmark, established at Rigshospitalet in Copenhagen in February 2009 and subsequently expanded to other hospitals, retaining leftover clinical blood samples to enable research on health and disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000047> (<http://www.ebi.ac.uk/coho/COHO_0000047>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001008043") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000047> "A cohort of adult volunteers recruited on Korčula island, Croatia, from 2007 to 2014 for family-based, cross-sectional investigation of genetic variants associated with common diseases, including cardiovascular disease, diabetes, glaucoma and stroke.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000048> (<http://www.ebi.ac.uk/coho/COHO_0000048>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12871360") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000048> "A cohort of men and women in the Danish Glostrup population examined at age 60 to investigate inflammatory, haemostatic and genetic correlates of atherosclerosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000049> (<http://www.ebi.ac.uk/coho/COHO_0000049>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21949744") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000049> "A case-control collection of people of Punjabi ancestry, predominantly originating from Mirpur, Pakistan, with type 2 diabetes or normal glucose regulation, assembled to investigate genetic susceptibility to diabetes and related glycaemic traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000050> (<http://www.ebi.ac.uk/coho/COHO_0000050>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24390345") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000050> "A cohort of people with type 2 diabetes and controls in Mexico City, Mexico, with a prospective design and genetic data used to investigate susceptibility to type 2 diabetes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000051> (<http://www.ebi.ac.uk/coho/COHO_0000051>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10189543") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000051> "A randomised trial cohort of people with impaired glucose tolerance and elevated fasting glucose recruited at 27 United States centres to compare lifestyle intervention, metformin and placebo for delaying or preventing type 2 diabetes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000052> (<http://www.ebi.ac.uk/coho/COHO_0000052>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15322749") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000052> "A randomised trial cohort of people with impaired fasting glucose or impaired glucose tolerance from 21 countries, assigned in a factorial design to ramipril, rosiglitazone or corresponding placebos to evaluate prevention of diabetes and effects on atherosclerosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000053> (<http://www.ebi.ac.uk/coho/COHO_0000053>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24695864") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000053> "A project combining prospective European cohorts of people with prediabetes and newly diagnosed type 2 diabetes to discover biomarkers of glycaemic deterioration, treatment response and diabetes subtypes through repeated metabolic and molecular assessment.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000054> (<http://www.ebi.ac.uk/coho/COHO_0000054>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22736161") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000054> "A cohort of residents of Dortmund recruited during 2003–2004 and followed through questionnaires to investigate the frequency and consequences of headache and other chronic conditions, including their relationships with social factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000055> (<http://www.ebi.ac.uk/coho/COHO_0000055>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28093568") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000055> "A cohort of adults in the United States with cognitive and genetic measurements contributing to research on genetic influences on general cognitive function.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000056> (<http://www.ebi.ac.uk/coho/COHO_0000056>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.dundeecity.gov.uk/dundeecity/uploaded_publications/publication_109.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000056> "A city on Scotland's east coast at the mouth of the River Tay.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000057> (<http://www.ebi.ac.uk/coho/COHO_0000057>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29276614") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000057> "A cohort of urban Black residents of eThekwini Municipality, South Africa, assessed in a population-based cross-sectional survey combining questionnaires, clinical measurements, biomarkers and genetic data to investigate chronic diseases and their risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000058> (<http://www.ebi.ac.uk/coho/COHO_0000058>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17131307") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000058> "A randomised trial cohort of current and former smokers selected from the Dutch and Belgian general population to compare low-dose computed-tomography screening with no screening for reduction of lung-cancer mortality.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000059> (<http://www.ebi.ac.uk/coho/COHO_0000059>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001005027") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000059> "A cohort of Dutch Lifelines participants providing faecal samples for metagenomic characterisation of gut microbial composition, function, virulence and antibiotic resistance in relation to health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000060> (<http://www.ebi.ac.uk/coho/COHO_0000060>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19901973") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000060> "A cohort of patients with recent stroke recruited at Western General Hospital in Edinburgh, United Kingdom, from April 2002 to May 2005 and followed prospectively to investigate inflammatory markers, disability and mortality after stroke.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000061> (<http://www.ebi.ac.uk/coho/COHO_0000061>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20934556") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000061> "A randomised trial cohort of people with atrial fibrillation in the multinational Effective Anticoagulation with Factor Xa Next Generation in Atrial Fibrillation–Thrombolysis in Myocardial Infarction 48 (ENGAGE AF-TIMI 48) trial, comparing edoxaban with warfarin for prevention of stroke and systemic embolism, with recruitment beginning in November 2008.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000062> (<http://www.ebi.ac.uk/coho/COHO_0000062>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26124090") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000062> "A project combining population-based genomic data from northeastern, southeastern and southern Brazil to investigate ancestry, admixture, kinship, inbreeding and deleterious genetic variation, known as the EPIGEN Brazil Initiative.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000063> (<http://www.ebi.ac.uk/coho/COHO_0000063>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://dss.niagads.org/cohorts/erasmus-rucphen-family-erf/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000063> "A cohort of descendants of 22 founder families and their spouses in southwest Netherlands, examined from 2002 to 2005 as part of the Genetic Research in Isolated Populations programme to identify genetic risk factors for complex disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000064> (<http://www.ebi.ac.uk/coho/COHO_0000064>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24518929") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000064> "A biobank of volunteer adults aged at least 18 years resident throughout Estonia, linking blood samples, health examinations and questionnaires with national registries to support population-based genetic and health research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000065> (<http://www.ebi.ac.uk/coho/COHO_0000065>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12639222") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000065> "A cohort of men and women, mostly aged 35–70 years, recruited during 1992–2000 at 23 centres in ten European countries and followed prospectively to investigate relationships between nutrition, lifestyle, cancer and other diseases.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000066> (<http://www.ebi.ac.uk/coho/COHO_0000066>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.epic-norfolk.org.uk/about-epic-norfolk/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000066> "A cohort of men and women aged 39–79 recruited in Norwich and surrounding Norfolk communities in 1993–1997, followed through questionnaires and examinations to investigate diet, lifestyle and health as part of the European Prospective Investigation of Cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000067> (<http://www.ebi.ac.uk/coho/COHO_0000067>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28385611") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000067> "A project combining prospectively recruited patients with metastatic renal cell cancer from 62 European centres and patients from previous studies to identify host and tumour biomarkers that predict response and toxicity during targeted therapy.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000068> (<http://www.ebi.ac.uk/coho/COHO_0000068>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19765918") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000068> "A birth cohort of infants born before 28 weeks of gestation at 14 sites, followed to investigate exposures associated with brain injury and subsequent neurological and developmental outcomes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000069> (<http://www.ebi.ac.uk/coho/COHO_0000069>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30624603") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000069> "A cohort of participants receiving fish-oil supplementation for six weeks, with triglyceride measurements and genotyping used to investigate inherited variation in the metabolic response to omega-3 fatty acids.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000070> (<http://www.ebi.ac.uk/coho/COHO_0000070>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23298696") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000070> "A project combining longitudinal Finnish twin cohorts established in the 1970s and 1990s, including the older twin cohort, FinnTwin12 and FinnTwin16, with repeated phenotyping and molecular measurements for investigation of health and disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000071> (<http://www.ebi.ac.uk/coho/COHO_0000071>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29165699") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000071> "A project combining independently sampled Finnish adult population cohorts recruited through five-yearly health surveys during 1972–2012 and followed through national registers to monitor risk factors, health behaviours and non-communicable disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000072> (<http://www.ebi.ac.uk/coho/COHO_0000072>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34957435") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000072> "A cohort of volunteers from Flanders, Belgium, with health and lifestyle questionnaires, biological samples and genetic data assembled to investigate relationships between the gut microbiome, health and lifestyle.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000073> (<http://www.ebi.ac.uk/coho/COHO_0000073>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21345099") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000073> "A cohort of children living on farms and reference children examined cross-sectionally for asthma, atopy and household microbial exposures in the GABRIEL Advanced Study.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000074> (<http://www.ebi.ac.uk/coho/COHO_0000074>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29593016") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000074> "A cohort of adults aged 40–65 years in Catalonia, Spain, followed prospectively in Genomes for Life (GCAT) to assess epidemiological, genomic and epigenomic contributions to chronic disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000075> (<http://www.ebi.ac.uk/coho/COHO_0000075>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26758370") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000075> "A case-control collection of French women with breast cancer and an affected sister, without a detected BRCA1 or BRCA2 mutation, together with unaffected sisters and unrelated controls. GENESIS (GENE SISters) investigates inherited breast-cancer susceptibility alongside environmental factors and tumour characteristics.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000076> (<http://www.ebi.ac.uk/coho/COHO_0000076>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00000000101") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000076> "A case-control collection of people with multiple sclerosis from multiple countries and controls from Sweden, the United Kingdom and published studies, assembled to identify genetic variants associated with multiple-sclerosis susceptibility.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000077> (<http://www.ebi.ac.uk/coho/COHO_0000077>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001000913") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000077> "A consortium of anorexia-nervosa sample collections assembled internationally for genome-wide and exome-array analyses of genetic susceptibility to anorexia nervosa in collaboration with the Wellcome Trust Case Control Consortium 3.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000078> (<http://www.ebi.ac.uk/coho/COHO_0000078>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000988.v6.p1") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000078> "A cohort of families in Costa Rica, including extended pedigrees and parent–child trios with asthma probands, assembled to identify common and rare genetic determinants of asthma and related phenotypes through sequencing and family-based analyses.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000079> (<http://www.ebi.ac.uk/coho/COHO_0000079>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30470734") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000079> "A case-control collection of people in Greece with schizophrenia, type 2 diabetes or both, analysed alongside population controls from Greek cohorts to investigate shared genetic susceptibility to the two disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000080> (<http://www.ebi.ac.uk/coho/COHO_0000080>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27151655") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000080> "A cohort of men aged 40–69 with a family history of prostate cancer, recruited through London clinics, a UK prostate cancer study and public advertisements to evaluate genetic risk assessment and prostate biopsy for targeted prostate cancer screening.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000081> (<http://www.ebi.ac.uk/coho/COHO_0000081>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.epib.nl/research/geneticepi/research.html") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000081> "A project combining family-based and population-based investigations of a genetically isolated population in southwest Netherlands, initiated in 1995 as Genetic Research in Isolated Populations to identify genetic factors in neuropsychiatric, cardiovascular and metabolic disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000082> (<http://www.ebi.ac.uk/coho/COHO_0000082>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29025058") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000082> "A cohort of people with type 2 diabetes and non-diabetic controls in Tayside, Scotland, recruiting from 1998 and linking biological samples to longitudinal health records to investigate genetic and environmental determinants of diabetes onset, progression and treatment response.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000083> (<http://www.ebi.ac.uk/coho/COHO_0000083>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21871552") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000083> "A cohort of siblings aged at least 90 years and younger controls aged 50–75 years, recruited during 2004–2008 in 11 European countries to investigate genetic determinants of healthy ageing and longevity.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000084> (<http://www.ebi.ac.uk/coho/COHO_0000084>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31802016") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000084> "A cohort of people from diverse Asian population groups whose genomes are sequenced by the GenomeAsia 100K Project to catalogue genetic variation, population structure, disease associations and founder effects and to support genetic analyses.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000085> (<http://www.ebi.ac.uk/coho/COHO_0000085>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://gmmg.info/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000085> "A consortium of multiple-myeloma clinical trial cohorts coordinated through centres across Germany to evaluate treatment strategies for patients at different disease stages.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000086> (<http://www.ebi.ac.uk/coho/COHO_0000086>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32350862") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000086> "A case-control collection of men in Accra, Ghana, recruited from population screening and Korle-Bu Teaching Hospital between 2004 and 2012 to investigate prostate-cancer risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000087> (<http://www.ebi.ac.uk/coho/COHO_0000087>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18173405") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000087> "A cohort of people with glaucoma and their relatives in Tasmania, Australia, recruited through affected probands identified in 1994–1996 and assessed with pedigrees and eye examinations to investigate familial primary open-angle glaucoma.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000088> (<http://www.ebi.ac.uk/coho/COHO_0000088>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34857772") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000088> "A project combining the MANOLIS cohort from mountainous villages in Crete and the Pomak cohort from mountainous northern Greece to investigate genetic determinants of complex traits in founder populations.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000089> (<http://www.ebi.ac.uk/coho/COHO_0000089>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24671021") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000089> "A cohort of adults aged over 50 years and their households in the United States, surveyed every two years from 1992 to investigate changes in health, cognition, economic circumstances, work, retirement and family relationships during ageing.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000090> (<http://www.ebi.ac.uk/coho/COHO_0000090>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.sisuproject.fi/cohorts/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000090> "A cohort of adults in mainland Finland sampled for health interviews and examinations in 2000–2001, primarily at age 30 or older, to characterise public-health problems, their determinants and treatment, and functional and work capacity.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000091> (<http://www.ebi.ac.uk/coho/COHO_0000091>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10329064") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000091> "A randomised trial cohort of adults aged 40–80 at increased risk of coronary death, recruited in 1994–1997 to evaluate simvastatin and antioxidant vitamins, each against placebo, for prevention of mortality and major vascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000092> (<http://www.ebi.ac.uk/coho/COHO_0000092>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28588112") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000092> "A cohort of people with type 2 diabetes receiving primary care in West-Friesland, the Netherlands, enrolling from 1998 and assessed annually to investigate the course of diabetes, its complications and treatment.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000093> (<http://www.ebi.ac.uk/coho/COHO_0000093>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21658213") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000093> "A registry of people discharged from inpatient care in Sweden, initiated in 1964 and nationwide since 1987, recording somatic and psychiatric diagnoses for longitudinal population research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000094> (<http://www.ebi.ac.uk/coho/COHO_0000094>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/2016/may/namhc-minutes-of-the-245th-meeting") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000094> "A project combining clinical data and biological materials from psychiatric genetic studies in a shared National Institute of Mental Health repository, organised into disorder-related collections to support research on mental illness.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000095> (<http://www.ebi.ac.uk/coho/COHO_0000095>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://researchdata.edu.au/health-ageing-hunter-nsw-australia/11563") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000095> "A cohort of men and women aged 55–85 residing in Newcastle, New South Wales, Australia, followed longitudinally with questionnaires, clinical assessments, biological samples and linked health records to investigate health and ageing.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000096> (<http://www.ebi.ac.uk/coho/COHO_0000096>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22974093") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000096> "A registry of people diagnosed with cancer in Iceland, established in 1954 to record nationwide cancer diagnoses and support cancer research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000097> (<http://www.ebi.ac.uk/coho/COHO_0000097>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20840664") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000097> "A cohort of men aged 40–69 years from families with BRCA1 or BRCA2 mutations, including mutation carriers and age-matched non-carriers, undergoing annual prostate-specific antigen testing in an international investigation of targeted prostate-cancer screening.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000098> (<http://www.ebi.ac.uk/coho/COHO_0000098>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28506689") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000098> "A cohort of genotyped patients with Crohn's disease collected through the International Inflammatory Bowel Disease Genetics Consortium at sites in Europe, North America and Australia to investigate genetic susceptibility and gene–environment interactions.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000099> (<http://www.ebi.ac.uk/coho/COHO_0000099>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23074152") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000099> "A cohort of premenopausal women of European-American ancestry, with an extended European-American and African-American sample, providing bone-density and genetic measurements for investigation of inherited variation in skeletal traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000100> (<http://www.ebi.ac.uk/coho/COHO_0000100>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.proyectoinma.org/en/inma-project/study-design/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000100> "A project combining cohorts of pregnant women and their children from seven Spanish areas to investigate environmental exposures and child health through coordinated assessments, questionnaires and biological sampling.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000101> (<http://www.ebi.ac.uk/coho/COHO_0000101>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00000000092") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000101> "A cohort of patients with chronic lymphocytic leukaemia whose tumour genomes are analysed within the International Cancer Genome Consortium to identify alterations involved in disease development and progression and potential diagnostic and therapeutic targets.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000102> (<http://www.ebi.ac.uk/coho/COHO_0000102>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27322543") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000102> "A consortium of headache clinic and population-based cohorts that combines genome-wide association data from migraine cases and controls of European ancestry to identify genetic susceptibility loci for migraine.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000103> (<http://www.ebi.ac.uk/coho/COHO_0000103>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21833088") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000103> "A consortium of research groups that combines multiple sclerosis case collections from people of European descent across 15 countries with control datasets to investigate genetic susceptibility to multiple sclerosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000104> (<http://www.ebi.ac.uk/coho/COHO_0000104>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19571811") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000104> "A consortium of schizophrenia case-control collections that combines genome-wide genetic data, including European-ancestry samples, to investigate inherited susceptibility to schizophrenia and shared genetic risk with bipolar disorder.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000105> (<http://www.ebi.ac.uk/coho/COHO_0000105>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31784700") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000105> "A consortium of genetically isolated population cohorts from Val Borbera, Friuli Venezia Giulia and Carlantino in Italy, combining genomic and phenotypic data to investigate genetic variation and complex traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000106> (<http://www.ebi.ac.uk/coho/COHO_0000106>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31425707") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000106> "A cohort of patients aged 18–75 with newly diagnosed stage I–IIIA primary melanoma, recruited in England from 2000 to 2012 and followed to investigate factors associated with tumour thickness and melanoma survival.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000107> (<http://www.ebi.ac.uk/coho/COHO_0000107>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16251894") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000107> "A cohort of families containing at least two long-lived siblings, with men aged at least 89 years and women at least 91 years, and information on their relatives and spouses, assembled to identify inherited determinants of exceptional longevity.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000108> (<http://www.ebi.ac.uk/coho/COHO_0000108>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25502107") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000108> "A cohort of residents of the northern Netherlands and their families, recruited during 2006–2013 across three generations, with repeated examinations, questionnaires and stored biological samples to investigate environmental, phenotypic and genomic influences on chronic disease and healthy ageing.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000109> (<http://www.ebi.ac.uk/coho/COHO_0000109>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ega-archive.org/studies/EGAS00001002619") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000109> "A biobank of healthy Chinese and Malay participants from Singapore's Multi-Ethnic Cohort and Singapore Health 2012 collections, assembled for phenotype recall investigations of carriers of genetic variants with substantial effects.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000110> (<http://www.ebi.ac.uk/coho/COHO_0000110>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18628424") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000110> "A case-control collection of White and African-American women aged 35–64 in Los Angeles, United States, with invasive breast cancer or no previous breast cancer, contributing to the Women's Contraceptive and Reproductive Experiences investigation of breast cancer risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000111> (<http://www.ebi.ac.uk/coho/COHO_0000111>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22253310") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000111> "A birth cohort of people born in 1921 who completed intelligence testing at age 11 and enter longitudinal assessments based at the University of Edinburgh at a mean age of 79, supporting investigation of lifetime cognitive change and ageing.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000112> (<http://www.ebi.ac.uk/coho/COHO_0000112>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17156265") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000112> "A registry of people with a first-ever stroke in the Lund-Orup district, identified through prospective and retrospective surveillance to describe stroke ascertainment, hospitalisation and patient outcomes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000113> (<http://www.ebi.ac.uk/coho/COHO_0000113>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21980494") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000113> "A cohort of unrelated patients with documented venous thrombosis recruited at La Timone Hospital in Marseille, France, in 1994–2005, excluding recognised major thrombophilias, for investigation of genetic susceptibility to venous thrombosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000114> (<http://www.ebi.ac.uk/coho/COHO_0000114>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37821706") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000114> "A biobank of individuals from rural and urban localities across all 32 Mexican states, linking genome-wide genotypes to disease and complex-trait information to investigate population history and genetic and environmental contributions to health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000115> (<http://www.ebi.ac.uk/coho/COHO_0000115>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22159054") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000115> "A cohort of families including siblings discordant for Alzheimer disease, with African-American and white family samples, assembled for genetic investigation through the Multi-Institutional Research on Alzheimer Genetic Epidemiology (MIRAGE) programme.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000116> (<http://www.ebi.ac.uk/coho/COHO_0000116>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19571809") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000116> "A consortium of schizophrenia case-control collections from three National Institute of Mental Health repository studies, including people of European and African-American ancestry, combining genetic data to identify schizophrenia-susceptibility variants.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000117> (<http://www.ebi.ac.uk/coho/COHO_0000117>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19520994") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000117> "A project combining prospective population cohorts from European countries to examine cardiovascular risk factors and their associations with subsequent stroke and other cardiovascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000118> (<http://www.ebi.ac.uk/coho/COHO_0000118>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:2807705") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000118> "A project combining standardised cardiovascular surveillance in populations aged 35–64 years across 26 countries in Europe, North America and the Western Pacific to relate changes in mortality and morbidity to risk factors and medical care.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000119> (<http://www.ebi.ac.uk/coho/COHO_0000119>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12397006") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000119> "A cohort of men and women aged 45–84 years from six United States centres, including White, African-American, Hispanic and Chinese-ancestry participants, established in 2000 to investigate the prevalence, determinants and progression of subclinical cardiovascular disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000120> (<http://www.ebi.ac.uk/coho/COHO_0000120>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22885689") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000120> "A project combining seven collections of families with multiple members affected by schizophrenia or schizoaffective disorder, including European-ancestry and admixed families from research sites in Europe, Australia and the United States, to investigate common and rare genetic contributions to schizophrenia.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000121> (<http://www.ebi.ac.uk/coho/COHO_0000121>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10695593") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000121> "A cohort of adults aged 45–75 years from multiple ethnic groups in Hawaii and California, principally Los Angeles County, recruited during 1993–1996 and followed prospectively to investigate diet and other determinants of cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000122> (<http://www.ebi.ac.uk/coho/COHO_0000122>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19679614") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000122> "A case-control collection of patients younger than 70 with a first deep-vein thrombosis or pulmonary embolism, recruited through six Dutch anticoagulation clinics in 1999–2004, with partner and population controls, for investigation of environmental and genetic thrombosis risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000123> (<http://www.ebi.ac.uk/coho/COHO_0000123>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nhsbt.nhs.uk/who-we-are/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000123> "A special health authority that provides blood donation services in England and organ transplantation services across the United Kingdom, managing donated blood, organs, tissues and stem cells and conducting research on treatments and processes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000124> (<http://www.ebi.ac.uk/coho/COHO_0000124>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17895893") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000124> "A case-control collection of people with colorectal cancer and spouse or partner controls, established in 2003 across United Kingdom centres to identify inherited variants that confer susceptibility to colorectal cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000125> (<http://www.ebi.ac.uk/coho/COHO_0000125>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.amsterdamumc.org/en/about/organization/nederlands-tweelingen-register-netherlands-twin-register-ntr") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000125> "A registry of twins and their relatives with longitudinal phenotypic and genetic data, established to investigate inherited and environmental contributions to variation in health, fertility, development, growth and behaviour.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000126> (<http://www.ebi.ac.uk/coho/COHO_0000126>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33634849") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000126> "A case-control collection of women aged 18–80 with epithelial ovarian cancer and population controls from eastern Massachusetts and New Hampshire, recruited in four phases from 1984 to 2008 to investigate ovarian-cancer risk factors.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000127> (<http://www.ebi.ac.uk/coho/COHO_0000127>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.niddk.nih.gov/about-niddk/faqs") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000127> "A United States government research institute, the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), that forms part of the National Institutes of Health and conducts and supports biomedical research and disseminates health information.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000128> (<http://www.ebi.ac.uk/coho/COHO_0000128>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28082374") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000128> "A cohort of adults from Nijmegen, the Netherlands, established in 2000 with population sampling from 2002 to investigate genetic variation, lifestyle and environmental exposures in relation to disease and population traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000129> (<http://www.ebi.ac.uk/coho/COHO_0000129>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37011634") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000129> "A cohort of adults aged 50 years and older living in private accommodation in Northern Ireland, recruited in 2013–2016 and followed through surveys and health assessments to investigate ageing, health and social circumstances.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000130> (<http://www.ebi.ac.uk/coho/COHO_0000130>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23986895") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000130> "A cohort of residents of Karesuando, Soppero and the Vittangi area in Norrbotten, northern Sweden, surveyed in 2006 and 2009 to characterise population health, including environmental and inherited determinants of allergic sensitisation.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000131> (<http://www.ebi.ac.uk/coho/COHO_0000131>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27063603") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000131> "A birth cohort of children and their parents in Norway, recruited through pregnancies with births during 1999–2009, combining repeated family questionnaires, biological samples and health-register linkages for longitudinal research.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000132> (<http://www.ebi.ac.uk/coho/COHO_0000132>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://viking.ed.ac.uk/our-data-and-samples/cohorts") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000132> "A cohort of people aged 16–100 with Orcadian grandparents, recruited in Orkney, northern Scotland, in 2005–2011 for family-based investigation of genetic influences on cardiovascular and other complex-disease risks.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000133> (<http://www.ebi.ac.uk/coho/COHO_0000133>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18082485") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000133> "A randomised trial cohort of adults aged at least 50 with cardiovascular disease and dysglycaemia in 40 countries, enrolled during the two years ending December 2005 to compare insulin glargine with standard glycaemic care and omega-3 fatty acids with placebo for cardiovascular prevention.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000134> (<http://www.ebi.ac.uk/coho/COHO_0000134>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://sph.umich.edu/mocog/about.html") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000134> "A consortium of ovarian cancer studies established in 2005 that combines participant data to investigate genetic and epidemiological risk factors for ovarian cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000136> (<http://www.ebi.ac.uk/coho/COHO_0000136>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29040543") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000136> "A biobank of healthy men and women aged 30–50 years from Oxfordshire, United Kingdom, recruiting from 1999 and permitting recall by genotype or phenotype to investigate mechanisms of type 2 diabetes and cardiovascular disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000137> (<http://www.ebi.ac.uk/coho/COHO_0000137>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30273888") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000137> "A consortium of European childhood and adolescent cancer-survivor cohorts that combines cohort, case-control, genetic and intervention research to investigate treatment-related fertility impairment, hearing loss and health-related quality of life.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000138> (<http://www.ebi.ac.uk/coho/COHO_0000138>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40094665") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000138> "A case-control collection of people with early-stage Parkinson disease and population controls in central California, recruited in 2000–2007 and 2010–2017 to investigate environmental and genetic determinants of Parkinson disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000139> (<http://www.ebi.ac.uk/coho/COHO_0000139>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21829225") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000139> "A cohort of people from rural areas of the United Kingdom, principally with all four grandparents originating from the same local area, providing genetic controls and information on fine-scale population structure.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000140> (<http://www.ebi.ac.uk/coho/COHO_0000140>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.panicstudy.fi/front-page/about-the-panic-study/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000140> "A cohort of children aged 7–9 at baseline in Kuopio, Finland, enrolled in 2007–2009 for long-term follow-up comparing a physical-activity and dietary intervention with a control group through repeated health assessments.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000141> (<http://www.ebi.ac.uk/coho/COHO_0000141>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34957435") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000141> "A cohort of Swedish-born people in Stockholm, Sweden, with bowel-symptom questionnaires, gastroenterological assessments and biological specimens assembled to investigate bowel function and gastrointestinal health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000142> (<http://www.ebi.ac.uk/coho/COHO_0000142>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29713486") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000142> "A case-control collection of people with coronary heart disease and an affected sibling, together with population controls, recruited in the United Kingdom, Italy, Sweden and Germany in 2004–2008 to investigate determinants of coronary disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000143> (<http://www.ebi.ac.uk/coho/COHO_0000143>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15809377") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000143> "A cohort of adults aged 25–74 years sampled from the general population of Monza, Italy, with office, home and ambulatory blood-pressure measurements and prospective mortality follow-up to evaluate cardiovascular risk prediction.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000144> (<http://www.ebi.ac.uk/coho/COHO_0000144>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34523676") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000144> "A cohort of people aged 70 sampled from the community register of Uppsala, Sweden, to investigate whether measurements of vascular structure and function predict subsequent cardiovascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000145> (<http://www.ebi.ac.uk/coho/COHO_0000145>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23143594") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000145> "A case-control collection of people of European ancestry with psoriasis and unaffected controls recruited at participating institutions for genetic analysis using the Immunochip.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000146> (<http://www.ebi.ac.uk/coho/COHO_0000146>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20955924") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000146> "A consortium of genome-wide association studies that combines data on attention deficit hyperactivity disorder, autism, bipolar disorder, major depressive disorder and schizophrenia through meta-analysis to investigate genetic susceptibility to psychiatric disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000147> (<http://www.ebi.ac.uk/coho/COHO_0000147>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40153111") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000147> "A project combining the RADAR-Young and RADAR-Old adolescent cohorts in the Netherlands, followed through repeated questionnaires to investigate development and relationships with parents, friends and romantic partners.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000148> (<http://www.ebi.ac.uk/coho/COHO_0000148>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32367290") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000148> "A cohort of middle-aged and older residents of Rotterdam, the Netherlands, established in 1990 and followed prospectively to investigate the causes, early development and natural history of chronic diseases and possible targets for intervention.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000149> (<http://www.ebi.ac.uk/coho/COHO_0000149>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24646526") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000149> "A cohort of families recruited through members with asthma in the founder population of Saguenay–Lac-Saint-Jean, Quebec, Canada, with respiratory, allergy and genetic measurements to investigate inherited determinants of asthma and related traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000150> (<http://www.ebi.ac.uk/coho/COHO_0000150>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36418382") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000150> "A case-control collection of patients aged 18–69 with acute ischaemic stroke recruited in Gothenburg, Sweden, in 1998–2003 and matched population controls, with longitudinal patient follow-up to investigate stroke risk factors and outcomes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000151> (<http://www.ebi.ac.uk/coho/COHO_0000151>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://sardinia.nia.nih.gov/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000151> "A cohort of residents aged 14–102 at baseline from four towns in the Ogliastra region of Sardinia, Italy, established in 2001 for longitudinal investigation of genetic influences on ageing, cardiovascular risk factors, personality and other age-related traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000152> (<http://www.ebi.ac.uk/coho/COHO_0000152>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://researchdata.se/en/catalogue/dataset/ext0074-1") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000152> "A registry of patients with diabetes recruited through hospitals in Scania, Sweden, from 1996, with clinical follow-up and biological samples to classify diabetes subgroups and investigate genetic and biomarker predictors of complications.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000153> (<http://www.ebi.ac.uk/coho/COHO_0000153>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001000853") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000153> "A cohort of patients with gallbladder carcinoma at Xinhua Hospital affiliated with Shanghai Jiao Tong University whose paired tumour and normal samples undergo sequencing to investigate somatic mutations and their clinical associations.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000154> (<http://www.ebi.ac.uk/coho/COHO_0000154>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29611518") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000154> "A randomised trial cohort of adults with high-risk stage II or stage III colorectal cancer, recruited at 244 centres during 2008–2013 to compare three versus six months of adjuvant oxaliplatin-containing chemotherapy using disease-free survival as the primary outcome.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000155> (<http://www.ebi.ac.uk/coho/COHO_0000155>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.sfari.org/funded-project/the-simons-simplex-collection/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000155> "A cohort of families recruited through 12 North American clinical sites, each with one child aged 4–18 with an autism spectrum disorder and unaffected biological parents, often including unaffected siblings, assembled to investigate rare and de novo genetic contributions to autism.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000156> (<http://www.ebi.ac.uk/coho/COHO_0000156>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22879968") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000156> "A case-control collection of Singapore Chinese people aged at least 50 years with colorectal cancer and age- and sex-matched healthy controls, assembled to investigate genetic susceptibility to colorectal cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000157> (<http://www.ebi.ac.uk/coho/COHO_0000157>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://innovative-ctu.ucl.ac.uk/studies/all-studies/s/sorce/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000157> "A randomised trial cohort of patients with resected renal cell carcinoma at intermediate or high relapse risk, enrolled in the United Kingdom and six other countries in 2007–2013 to compare postoperative sorafenib with placebo for prevention of cancer recurrence.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000158> (<http://www.ebi.ac.uk/coho/COHO_0000158>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24639683") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000158> "A cohort of university students followed longitudinally through surveys and DNA collection at Virginia Commonwealth University to investigate genetic and environmental contributions to alcohol use, other substance use and mental health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000159> (<http://www.ebi.ac.uk/coho/COHO_0000159>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28072414") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000159> "A case-control collection of people with bipolar disorder identified through Swedish national registers and Stockholm clinical services, with unaffected controls, assembled to investigate genetic determinants of bipolar disorder and its clinical subtypes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000160> (<http://www.ebi.ac.uk/coho/COHO_0000160>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12270000") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000160> "A registry of twins in Sweden, established in the late 1950s to investigate smoking and alcohol in relation to cancer and cardiovascular disease while accounting for genetic susceptibility, and subsequently expanded to study common complex diseases.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000161> (<http://www.ebi.ac.uk/coho/COHO_0000161>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20174558") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000161> "A case-control collection of Han Chinese people residing in Taiwan, including patients with type 2 diabetes and population controls, assembled for genome-wide identification of diabetes-susceptibility variants.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000162> (<http://www.ebi.ac.uk/coho/COHO_0000162>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001000996") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000162> "A cohort of healthy adolescents aged 13–15 attending public secondary schools in the Athens area of Attica, Greece, sampled for cross-sectional collection of anthropometric, medical, dietary and genetic data.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000163> (<http://www.ebi.ac.uk/coho/COHO_0000163>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23143611") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000163> "A cohort of men and women aged 50 years or older living in England, established in 2002 and assessed every two years to investigate economic, social, psychological, cognitive and biological aspects of ageing.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000164> (<http://www.ebi.ac.uk/coho/COHO_0000164>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://studies.epi.ims.cam.ac.uk/files/fenland-study/fenland2_pis-executive-function-v3-120219.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000164> "A cohort of people from Cambridgeshire followed to investigate how genetic and lifestyle factors interact in the development of diabetes, obesity and related metabolic disorders.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000165> (<http://www.ebi.ac.uk/coho/COHO_0000165>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.helmholtz.de/en/about-us/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000165> "A German research organisation comprising research centres that develop technologies and conduct research addressing societal challenges, including disease, climate change and quantum technologies.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000166> (<http://www.ebi.ac.uk/coho/COHO_0000166>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28548082") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000166> "A cohort of people with at least one parent from the Mylopotamos area of Crete, Greece, recruited in Anogia and surrounding villages for the Minoan Isolates (MANOLIS) collection, which links genetic data with clinical, biochemical and lifestyle measurements to investigate medically relevant complex traits.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000167> (<http://www.ebi.ac.uk/coho/COHO_0000167>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27899403") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000167> "A case-control collection of people with abdominal aortic aneurysm and controls in the Netherlands, assembled for genome-wide investigation of genetic susceptibility to abdominal aortic aneurysm.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000168> (<http://www.ebi.ac.uk/coho/COHO_0000168>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27363682") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000168> "A biobank of patients with multiple myeloma in Trondheim, Norway, providing biological material for genetic investigations of susceptibility to multiple myeloma.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000169> (<http://www.ebi.ac.uk/coho/COHO_0000169>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19404752") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000169> "A case-control collection of adults aged 30–80 in Pakistan with a first confirmed acute myocardial infarction and matched controls, assembled to investigate genetic, lifestyle and biochemical determinants of coronary heart disease in South Asia.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000170> (<http://www.ebi.ac.uk/coho/COHO_0000170>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10608355") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000170> "A cohort of adults aged 18–80 newly referred with atherosclerotic vascular disease or major atherosclerosis risk factors, recruited from September 1996 for prospective investigation of concomitant arterial disease and predictors of future cardiovascular events.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000171> (<http://www.ebi.ac.uk/coho/COHO_0000171>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:38929788") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000171> "A case-control collection of Greek individuals with angiographically confirmed coronary artery disease and individuals without coronary artery disease, used to investigate genetic susceptibility and evaluate polygenic risk prediction.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000172> (<http://www.ebi.ac.uk/coho/COHO_0000172>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15755765") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000172> "A randomised trial cohort of patients with clinically evident stable coronary heart disease assigned to daily atorvastatin at 10 or 80 mg to compare cardiovascular outcomes under different intensities of lipid lowering.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000173> (<http://www.ebi.ac.uk/coho/COHO_0000173>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31544730") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000173> "A birth cohort of twins born in England and Wales in 1994–1996, recruited through national birth records and followed from infancy to investigate genetic and environmental influences on cognitive, emotional and behavioural development.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000174> (<http://www.ebi.ac.uk/coho/COHO_0000174>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20603248") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000174> "A consortium of international type 1 diabetes family and case-control collections, organised through Asia-Pacific, European, North American and United Kingdom networks to identify genetic determinants of diabetes susceptibility and provide shared biological samples and data.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000175> (<http://www.ebi.ac.uk/coho/COHO_0000175>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22253318") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000175> "A registry of volunteer adult twins from across the United Kingdom, established in 1992, with repeated clinical assessments, questionnaires and molecular data to investigate genetic and environmental contributions to ageing and complex disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000176> (<http://www.ebi.ac.uk/coho/COHO_0000176>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25826379") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000176> "A cohort of adults aged 40–69 recruited across the United Kingdom in 2006–2010, with biological samples, extensive phenotyping and prospective health follow-up, established to investigate genetic and nongenetic determinants of diseases of middle and older age.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000177> (<http://www.ebi.ac.uk/coho/COHO_0000177>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ukbec.wordpress.com/materials-methods/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000177> "A consortium of brain-tissue collections from neuropathologically normal donors in Edinburgh, United Kingdom, and the United States, combining genotypes and expression measurements across brain regions to investigate genetic regulation of brain gene expression.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000178> (<http://www.ebi.ac.uk/coho/COHO_0000178>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10737392") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000178> "A case-control collection of children with cancer and controls matched by sex, age and residence throughout England, Scotland and Wales during 1991–1998, assembled to investigate causes of childhood cancer using interviews, records, exposure measurements and biological samples.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000179> (<http://www.ebi.ac.uk/coho/COHO_0000179>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.understandingsociety.ac.uk/wp-content/uploads/working-papers/2023-06.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000179> "A cohort of household members across all four United Kingdom nations, interviewed annually in Understanding Society to investigate changes in education, employment, income, health, family life, behaviour and social circumstances.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000180> (<http://www.ebi.ac.uk/coho/COHO_0000180>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.crohnsandcolitis.org.uk/our-work/research-and-evidence/our-past-research-projects/using-genetics-to-discover-what-causes-ibd-and-why-people-react-in-different-ways-to-drugs") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000180> "A consortium of inflammatory-bowel-disease patient collections across the United Kingdom combining genetic and clinical data to investigate susceptibility to Crohn's disease and ulcerative colitis and variation in treatment response.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000181> (<http://www.ebi.ac.uk/coho/COHO_0000181>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://metadata.ega-archive.org/studies/EGAS00001003872") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000181> "A cohort of people from the population isolate of Shetland, assembled to identify common and rare genetic variants influencing cardiovascular and other complex-disease risks.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000182> (<http://www.ebi.ac.uk/coho/COHO_0000182>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17554300") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000182> "A consortium of disease-specific case collections and shared controls, coordinated by United Kingdom research groups to identify genetic variants associated with common diseases and evaluate methods for genome-wide association analysis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000183> (<http://www.ebi.ac.uk/coho/COHO_0000183>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37783704") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000183> "A case-control collection of self-identified non-Hispanic White participants with colorectal cancer and comparison participants, contributing the Basque-colon validation sample for evaluation of polygenic prediction of colorectal cancer risk.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000184> (<http://www.ebi.ac.uk/coho/COHO_0000184>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25230735") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000184> "A randomised trial cohort of male and female whole-blood donors recruited during 2012–2014 at NHS Blood and Transplant centres in England to compare donation intervals and assess whether more frequent donation preserves donor health while increasing blood supply.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000185> (<http://www.ebi.ac.uk/coho/COHO_0000185>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26176920") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000185> "A case-control collection of Han Chinese women with recurrent major depression and controls recruited in China to investigate depression genetics through the China, Oxford and Virginia Commonwealth University Experimental Research on Genetic Epidemiology (CONVERGE) consortium.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000186> (<http://www.ebi.ac.uk/coho/COHO_0000186>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35121771") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000186> "A cohort of Korean participants undergoing comprehensive health examinations at Seoul National University Hospital's Gangnam Center, with linked clinical and biobank data used to investigate genetic and environmental influences on phenotypes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000187> (<http://www.ebi.ac.uk/coho/COHO_0000187>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22751097") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000187> "A case-control collection of Han Chinese people with coronary artery disease and controls in China, assembled for genome-wide identification of coronary-disease susceptibility variants.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000188> (<http://www.ebi.ac.uk/coho/COHO_0000188>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19075291") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000188> "A birth cohort of Finnish children screened from 1994 for HLA-associated type 1 diabetes susceptibility, with genetically at-risk children followed prospectively to investigate islet autoimmunity and diabetes development.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000189> (<http://www.ebi.ac.uk/coho/COHO_0000189>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33766035") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000189> "A cohort of patients undergoing coronary angiography at two hospitals in Lebanon, recruited in 2007–2010 for cross-sectional investigation of genetic and clinical factors associated with coronary artery disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000190> (<http://www.ebi.ac.uk/coho/COHO_0000190>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21862458") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000190> "A cohort of people under nephrological care across Germany with reduced kidney function or overt proteinuria, followed prospectively with clinical and biological measurements to investigate chronic kidney disease progression, complications and prognostic biomarkers.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000191> (<http://www.ebi.ac.uk/coho/COHO_0000191>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36142858") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000191> "A case-control collection of German long-lived individuals aged at least 94 years and younger comparison participants, used to investigate genetic contributions to exceptional longevity and reduced susceptibility to age-related diseases.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000192> (<http://www.ebi.ac.uk/coho/COHO_0000192>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:11174331") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000192> "A registry of patients hospitalised with acute coronary syndromes at centres across multiple countries, followed prospectively during admission and after discharge to compare treatment practices, clinical characteristics and outcomes and improve care.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000193> (<http://www.ebi.ac.uk/coho/COHO_0000193>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35410261") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000193> "A cohort of twins from the Swedish Twin Registry undergoing health examinations and venous blood collection in 2004–2008, providing genetic and health data for investigations of ageing, metabolic health and mortality.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000194> (<http://www.ebi.ac.uk/coho/COHO_0000194>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25919442") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000194> "A cohort of men aged about 50 years in Uppsala, Sweden, examined during 1970–1974 and followed prospectively to investigate cardiovascular and lifestyle risk factors, survival and functional independence in old age.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000195> (<http://www.ebi.ac.uk/coho/COHO_0000195>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nia.nih.gov/research/labs/blsa/about") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000195> "A cohort of volunteers participating in the United States National Institute on Aging's longitudinal programme, established in 1958 to investigate individual variation in human ageing and distinguish ageing-related changes from disease processes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000196> (<http://www.ebi.ac.uk/coho/COHO_0000196>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20801717") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000196> "A biobank of adults diagnosed with amyotrophic lateral sclerosis at United Kingdom hospitals, collecting whole-blood DNA from 2004 for genetic research into motor neuron disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000197> (<http://www.ebi.ac.uk/coho/COHO_0000197>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32474429") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000197> "A cohort of adults with type 2 diabetes recruited from public polyclinics and hospital outpatient clinics in Singapore in 2004–2010, followed to investigate genetic, physiological and lifestyle determinants of diabetic complications.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000198> (<http://www.ebi.ac.uk/coho/COHO_0000198>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17257284") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000198> "A cohort of adults without diabetes aged 40–69 at baseline in Ely, England, followed from 1990 with clinical, anthropometric and biochemical assessments to investigate type 2 diabetes incidence and its relationship to impaired fasting glucose.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000199> (<http://www.ebi.ac.uk/coho/COHO_0000199>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33713768") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000199> "A case-control collection of children and adolescents aged 9–19 with asthma and without asthma, recruited in two communities of Lima, Peru, in 2011–2014 to investigate genetic and environmental determinants of asthma, immunoglobulin E and lung function.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000200> (<http://www.ebi.ac.uk/coho/COHO_0000200>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30564614") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000200> "A cohort of untreated patients with early Parkinson disease, healthy controls and people without imaging evidence of dopaminergic deficit, enrolled internationally at 24 sites for standardised longitudinal investigation of clinical, imaging, genetic and biospecimen markers of disease progression.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000201> (<http://www.ebi.ac.uk/coho/COHO_0000201>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23871474") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000201> "A consortium of psychosis case, unaffected-relative and control collections from Australia, Germany, the Netherlands, Spain and the United Kingdom that combines genetic data to investigate susceptibility across psychotic disorders, including schizophrenia and bipolar disorder.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000202> (<http://www.ebi.ac.uk/coho/COHO_0000202>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35348705") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000202> "A project combining the SHIP-START and SHIP-TREND population cohorts of adults aged 20–79 in West Pomerania, northeast Germany, recruited in 1997–2001 and 2008–2012 respectively, to investigate health, disease and their determinants through repeated examinations.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000203> (<http://www.ebi.ac.uk/coho/COHO_0000203>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26541195") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000203> "A cohort of adults from the middle and upper Vinschgau/Val Venosta in South Tyrol, with family participation, biological samples and repeated follow-up to investigate genetic and molecular determinants of age-related chronic conditions and their interaction with lifestyle and environment.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000204> (<http://www.ebi.ac.uk/coho/COHO_0000204>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20646756") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000204> "A cohort of adults aged 18–75 from Araihazar, Bangladesh, recruited in 2000–2002 and assessed biennially to investigate health effects of arsenic exposure through drinking water, including chronic disease and mortality.")
+
+
+)

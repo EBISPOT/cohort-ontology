@@ -62,6 +62,11 @@ components:
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
     templates:
     - locations.tsv
+  - filename: definitions.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "dcterms: http://purl.org/dc/terms/"'
+    templates:
+    - definitions.tsv
   - filename: example_studies.owl
     use_template: true
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "dcterms: http://purl.org/dc/terms/"'

@@ -1,0 +1,58 @@
+ID	label	current type	proposed type	reason
+COHO:0000006	Africa Wits-INDEPTH partnership for Genomics studies	cohort aggregation	cohort	The profile defines AWI-Gen as a longitudinal participant cohort spanning six sites.
+COHO:0000008	Asian Cancer Project	cohort aggregation	cohort	The cited table identifies one Thai case-control collection. ACP here is not the Old Order Amish cohort; recruitment dates and finer location are not supplied.
+COHO:0000012	Atopic Dermatitis Research Network	cohort	cohort aggregation	The label denotes the research network and its multiple clinical studies; the ADRN registry is one component.
+COHO:0000017	Berlin-Frankfurt-Münster trials	cohort	cohort aggregation	The plural label denotes a sequence of trials, rather than one trial cohort; the cited report covers 1981–2000.
+COHO:0000023	Cancer Genome Atlas	cohort	cohort aggregation	The label denotes the cross-cancer genomic programme rather than one tumour-type cohort.
+COHO:0000026	Candesartan in Heart failure Assessment of Reduction in Mortality and morbidity	temporary unclassified	cohort aggregation	The named CHARM programme combines three distinct trial cohorts.
+COHO:0000027	Cardio-metabolic Genome Epidemiology Study	temporary unclassified	cohort	The source identifies CAGE as a Japanese case-control contributor; recruitment dates and finer population details are not supplied in the retrieved passage.
+COHO:0000029	CARDIoGRAMplusC4D	cohort	cohort aggregation	
+COHO:0000032	Center for Autism Research and Treatment	cohort	not a cohort	The label denotes a university centre; people recruited through the centre are a separate participant collection.
+COHO:0000033	Center on Antisocial Drug Dependence	cohort	not a cohort	The label denotes the research centre; its family, twin and adoption samples are distinct participant collections.
+COHO:0000034	Centre dEtude du Polymorphisme Humain	cohort	not a cohort	The label denotes the Jean Dausset–CEPH foundation; CEPH reference families are a distinct collection and require their own cohort label.
+COHO:0000035	Centre National de Génotypage	cohort	not a cohort	The label denotes a genotyping research institution, not a participant collection; source is its description in a European Commission conference report.
+COHO:0000040	COIN	temporary unclassified	cohort	The cited analysis describes the continuous-versus-intermittent comparison; recruitment geography is not specified in the retrieved passage.
+COHO:0000041	COIN-B	temporary unclassified	cohort	The primary trial report uses COIN-B without an expanded name.
+COHO:0000043	Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis	cohort	cohort aggregation	The source distinguishes CLEAR I and CLEAR II as separate cohorts; the umbrella label encompasses both.
+COHO:0000044	Consortium of Minority Population Genome-Wide Association Studies of Stroke	cohort	cohort aggregation	
+COHO:0000045	Cooperative Health Research in the Region of Augsburg	cohort	cohort aggregation	KORA is described as a research platform containing multiple MONICA/KORA cohorts and a registry.
+COHO:0000053	Diabetes Research on Patient Stratification	temporary unclassified	cohort aggregation	DIRECT includes two distinct prospective cohorts within a wider biomarker consortium.
+COHO:0000056	DUNDEE	temporary unclassified	not a cohort	DUNDEE is a city label. The linked EGA description names Dundee as a sample-collection site for Scottish ovarian-cancer cases, not an independently identified cohort.
+COHO:0000058	Dutch and Belgian Lung Cancer Screening Trial	temporary unclassified	cohort	
+COHO:0000059	Dutch Microbiome Project	temporary unclassified	cohort	Source is the cohort data-deposition record.
+COHO:0000060	Edinburgh Stroke Study	temporary unclassified	cohort	
+COHO:0000061	ENGAGE AF-TIMI 48	temporary unclassified	cohort	
+COHO:0000062	EPIGEN	temporary unclassified	cohort aggregation	The source uses EPIGEN as a project name without giving a spelled-out expansion; cities are omitted because the retrieved abstract supplies regions only.
+COHO:0000063	Erasmus Rucphen Family Study	temporary unclassified	cohort	
+COHO:0000067	EuroTARGET project	cohort	cohort aggregation	The named project combines new recruitment with existing study collections.
+COHO:0000070	Finnish Twin Cohort Study	cohort	cohort aggregation	The overview treats the Finnish Twin Cohort Study as an umbrella for three separately recruited twin cohorts.
+COHO:0000071	FINRISK	cohort	cohort aggregation	The profile describes independent survey cohorts under the National FINRISK Study name; no acronym expansion is supplied.
+COHO:0000072	Flemish Gut Flora Project	temporary unclassified	cohort	
+COHO:0000074	GCAT Genomes for Life	temporary unclassified	cohort	
+COHO:0000075	GENESIS	temporary unclassified	cohort	
+COHO:0000076	Genetic Analysis of Multiple Sclerosis	temporary unclassified	cohort	Defined as the participant collection represented by the EGA record. Its linked location-template quote concerns asthma and cannot establish this collection's location.
+COHO:0000077	Genetic Consortium for Anorexia Nervosa	cohort	cohort aggregation	The deposition describes the consortium and assembled samples but not contributing recruitment countries.
+COHO:0000081	Genetic Research in Isolated	cohort	cohort aggregation	The label is truncated; the official programme name is Genetic Research in Isolated Populations. The source describes multiple disease investigations.
+COHO:0000085	German Multiple Myeloma Study Group	cohort	cohort aggregation	The official name is German-Speaking Myeloma Multicenter Group; the ontology label is a variant.
+COHO:0000088	Greece Hellenic Isolated Cohorts	cohort	cohort aggregation	The source explicitly identifies two constituent cohorts.
+COHO:0000100	INfancia y Medio Ambiente Project	cohort	cohort aggregation	The official design distinguishes seven contributing regional cohorts.
+COHO:0000101	International Cancer Genome Consortium-Chronic Lymphocytic Leukemia	cohort aggregation	cohort	The disease-specific EGA project describes a tumour collection; recruitment country is absent.
+COHO:0000116	Molecular Genetics of Schizophrenia Collaboration	cohort	cohort aggregation	The source describes three contributing case collections rather than one recruitment cohort.
+COHO:0000117	MOnica Risk, Genetics, Archiving and Monograph	cohort	cohort aggregation	The source describes pooled follow-up of multiple cohorts.
+COHO:0000118	Monitoring of Trends and Determinants in Cardiovascular Disease	cohort	cohort aggregation	WHO MONICA compares defined communities across multiple participating centres.
+COHO:0000120	Multicenter Family Study	cohort	cohort aggregation	The cited paper identifies the combined family resource through the reference supplied by the verified example study.
+COHO:0000123	National Health Service Blood and Transplant	cohort	not a cohort	The label denotes an NHS organisation; the example study uses its blood donors, who form a separate cohort.
+COHO:0000127	NIDDK	cohort	not a cohort	The acronym denotes a research institute; no particular participant collection is identified by the input record.
+COHO:0000134	Ovarian Cancer Association Consortium	cohort	cohort aggregation	Official collaborating consortium page; recruitment countries are not specified.
+COHO:0000137	PanCareLIFE	cohort	cohort aggregation	The design paper uses PanCareLIFE as a project name without an acronym expansion.
+COHO:0000165	The Helmholtz-Gemeinschaft Deutscher Forschungszentren	cohort	not a cohort	The label denotes the Helmholtz Association of German Research Centres; a lung-cancer dataset attributed to it is a different entity.
+COHO:0000174	Type 1 Diabetes Genetics Consortium	cohort	cohort aggregation	The consortium coordinates regional networks and distinct affected-sibling, trio and case-control collections.
+COHO:0000175	UK Adult Twin Register	cohort aggregation	cohort	TwinsUK is a participant registry with longitudinal follow-up.
+COHO:0000177	UK Brain Expression Consortium	cohort	cohort aggregation	The official methods combine material from two independent brain banks.
+COHO:0000189	Functional genomic diagnostic tools for coronary artery disease	temporary unclassified	cohort	Defined as the FGENTCARD participant collection described by the verified example, rather than the coordinating consortium.
+COHO:0000192	Global Registry of Acute Coronary Events	cohort aggregation	cohort	GRACE is a prospectively enrolled patient registry; multicountry participation does not by itself make it a cohort aggregation.
+COHO:0000194	Uppsala Longitudinal Study of Adult Men	cohort aggregation	cohort	The source describes a single longitudinal participant cohort.
+COHO:0000195	Baltimore Longitudinal Study of Ageing	cohort aggregation	cohort	The label denotes a longitudinal participant cohort.
+COHO:0000196	Motor Neuron Disease Biobank study	cohort aggregation	cohort	The verified example identifies the UK National DNA Bank for Motor Neuron Disease Research; it denotes a participant/sample collection.
+COHO:0000200	Parkinson's Progression Markers Initiative	cohort aggregation	cohort	Defined as the unified observational participant collection, including diagnostic comparison groups.
+COHO:0000202	Study of Health in Pomerania	cohort	cohort aggregation	The profile explicitly distinguishes the umbrella SHIP project from its original cohort, renamed SHIP-START.
