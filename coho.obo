@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.ebi.ac.uk/coho/releases/2026-08-26/coho.owl
+data-version: http://www.ebi.ac.uk/coho/releases/2026-09-22/coho.owl
 subsetdef: coho1:EGA_subset ""
 subsetdef: coho1:GWAS_subset ""
 subsetdef: coho1:MetaboLight_subset ""
@@ -43,7 +43,7 @@ ontology: http://www.ebi.ac.uk/coho.owl
 property_value: dcterms:description "None" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/unspecified
 property_value: dcterms:title "Cohort Ontology" xsd:string
-property_value: owl:versionInfo "2026-08-26" xsd:string
+property_value: owl:versionInfo "2026-09-22" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -417,6 +417,7 @@ relationship: coho:hasCohort coho:COHO_0000000 ! cohort
 [Term]
 id: coho:TEMP_temporary_unclassified
 name: temporary unclassified
+def: "A holding class for a cohort individual that has not yet been classified as a cohort or a cohort aggregation. Nothing should remain here." []
 
 [Typedef]
 id: BFO:0000050
@@ -1260,12 +1261,14 @@ is_a: RO:0019000 ! regulates characteristic
 [Typedef]
 id: coho:hasCohort
 name: hasCohort
+def: "A relation between a cohort aggregation and a cohort whose participants or data it combines or compares." []
 domain: coho:COHO_0000001 ! cohort aggregation
 range: coho:COHO_0000000 ! cohort
 
 [Typedef]
 id: coho:hasSubCohort
 name: hasSubCohort
+def: "A relation between a cohort and a cohort whose participants are drawn from it: a sub-study, a sub-sample or a component trial. The inverse of isSubCohortOf." []
 domain: coho:COHO_0000000 ! cohort
 range: coho:COHO_0000000 ! cohort
 inverse_of: coho:isSubCohortOf ! isSubCohortOf
@@ -1273,6 +1276,7 @@ inverse_of: coho:isSubCohortOf ! isSubCohortOf
 [Typedef]
 id: coho:has_data_collection_location
 name: has_data_collection_location
+def: "A relation between a cohort and a geographical area in which its participants were recruited. Where the data were analysed or are stored does not count." []
 range: NCIT:C16632 ! Geographic Area
 is_transitive: true
 transitive_over: RO:0001025 ! located in
@@ -1280,6 +1284,7 @@ transitive_over: RO:0001025 ! located in
 [Typedef]
 id: coho:isSubCohortOf
 name: isSubCohortOf
+def: "A relation between a cohort and the cohort its participants are drawn from, of which it is a sub-study, a sub-sample or a component trial." []
 domain: coho:COHO_0000000 ! cohort
 range: coho:COHO_0000000 ! cohort
 

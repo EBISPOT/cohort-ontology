@@ -20,6 +20,7 @@ mv om-macos-arm64 ~/.local/bin/om
 
 - `emulate_odk_version` — the standard build the file is written against. Everything the options below imply (release pipelines, import extraction, reports, QC checks) is that standard build, which is built into owlmake.
 - `id`, `title`, `uribase`, `github_org`, `repo` — the ontology's identity.
+- `namespaces` — the IRI prefixes of COHO's own terms (`http://www.ebi.ac.uk/coho/` and `http://www.ebi.ac.uk/coho#`). The base release keeps only axioms about these, and the QC report checks only these. Without it the standard build assumes `<uribase>/COHO`, which matches nothing here: the base release was empty until 2026-09-22.
 - `release_artefacts`, `primary_release`, `export_formats` — which release files are made, and in which formats.
 - `import_group` — the ontologies COHO imports terms from (see [Imports management](UpdateImports.md)).
 - `components` — the parts of COHO generated from ROBOT templates (see [Components management](components.md)).

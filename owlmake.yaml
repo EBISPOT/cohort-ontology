@@ -5,6 +5,9 @@ title: Cohort Ontology
 github_org: EBISPOT
 repo: cohort-ontology
 uribase: http://www.ebi.ac.uk
+namespaces:
+- http://www.ebi.ac.uk/coho/
+- http://www.ebi.ac.uk/coho#
 git_main_branch: main
 release_artefacts:
 - base
