@@ -401,7 +401,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000005)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000006 "AWI-Gen")
 AnnotationAssertion(rdfs:label coho:COHO_0000006 "Africa Wits-INDEPTH partnership for Genomics studies"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000006)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000006)
 
 # Individual: coho:COHO_0000007 (Arthritis Research UK Osteoarthritis Genetics)
 
@@ -414,7 +414,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000007)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000008 "The acronym ACP also denotes an Old Order Amish cohort in the GWAS Catalog (e.g. GCST90281184); those studies are not this cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000008 "ACP")
 AnnotationAssertion(rdfs:label coho:COHO_0000008 "Asian Cancer Project"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000008)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000008)
 
 # Individual: coho:COHO_0000009 (Aspirin for Asymptomatic Atherosclerosis Study)
 
@@ -438,7 +438,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000011)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000012 "ADRN")
 AnnotationAssertion(rdfs:label coho:COHO_0000012 "Atopic Dermatitis Research Network"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000012)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000012)
 
 # Individual: coho:COHO_0000013 (Australia Cancer Study)
 
@@ -469,7 +469,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000016)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000017 "BFM")
 AnnotationAssertion(rdfs:label coho:COHO_0000017 "Berlin-Frankfurt-Münster trials"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000017)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000017)
 
 # Individual: coho:COHO_0000018 (Bladder Cancer Prognosis Programme)
 
@@ -505,7 +505,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000022)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000023 "TCGA")
 AnnotationAssertion(rdfs:label coho:COHO_0000023 "Cancer Genome Atlas"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000023)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000023)
 
 # Individual: coho:COHO_0000024 (Cancer Prevention Study)
 
@@ -524,13 +524,13 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000025)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000026 "CHARM")
 AnnotationAssertion(rdfs:label coho:COHO_0000026 "Candesartan in Heart failure Assessment of Reduction in Mortality and morbidity"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000026)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000026)
 
 # Individual: coho:COHO_0000027 (Cardio-metabolic Genome Epidemiology Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000027 "CAGE")
 AnnotationAssertion(rdfs:label coho:COHO_0000027 "Cardio-metabolic Genome Epidemiology Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000027)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000027)
 
 # Individual: coho:COHO_0000028 (Cardiogenics Study)
 
@@ -541,7 +541,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000028)
 # Individual: coho:COHO_0000029 (CARDIoGRAMplusC4D)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000029 "CARDIoGRAMplusC4D"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000029)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000029)
 
 # Individual: coho:COHO_0000030 (Carolina Head and Neck Cancer Epidemiology)
 
@@ -606,12 +606,12 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000039)
 # Individual: coho:COHO_0000040 (COIN)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000040 "COIN"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000040)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000040)
 
 # Individual: coho:COHO_0000041 (COIN-B)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000041 "COIN-B"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000041)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000041)
 
 # Individual: coho:COHO_0000042 (Colorectal Cancer Study of Austria)
 
@@ -623,19 +623,19 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000042)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000043 "CLEAR")
 AnnotationAssertion(rdfs:label coho:COHO_0000043 "Consortium for the Longitudinal Evaluation of African Americans with Early Rheumatoid Arthritis"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000043)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000043)
 
 # Individual: coho:COHO_0000044 (Consortium of Minority Population Genome-Wide Association Studies of Stroke)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000044 "COMPASS")
 AnnotationAssertion(rdfs:label coho:COHO_0000044 "Consortium of Minority Population Genome-Wide Association Studies of Stroke"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000044)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000044)
 
 # Individual: coho:COHO_0000045 (Cooperative Health Research in the Region of Augsburg)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000045 "KORA")
 AnnotationAssertion(rdfs:label coho:COHO_0000045 "Cooperative Health Research in the Region of Augsburg"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000045)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000045)
 
 # Individual: coho:COHO_0000046 (Copenhagen Hospital Biobank)
 
@@ -684,7 +684,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000052)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000053 "DIRECT")
 AnnotationAssertion(rdfs:label coho:COHO_0000053 "Diabetes Research on Patient Stratification"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000053)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000053)
 
 # Individual: coho:COHO_0000054 (Dortmund Health Study)
 
@@ -715,37 +715,37 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000057)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000058 "NELSON")
 AnnotationAssertion(rdfs:label coho:COHO_0000058 "Dutch and Belgian Lung Cancer Screening Trial"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000058)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000058)
 
 # Individual: coho:COHO_0000059 (Dutch Microbiome Project)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000059 "DMP")
 AnnotationAssertion(rdfs:label coho:COHO_0000059 "Dutch Microbiome Project"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000059)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000059)
 
 # Individual: coho:COHO_0000060 (Edinburgh Stroke Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000060 "ESS")
 AnnotationAssertion(rdfs:label coho:COHO_0000060 "Edinburgh Stroke Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000060)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000060)
 
 # Individual: coho:COHO_0000061 (ENGAGE AF-TIMI 48)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000061 "ENGAGE")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000061 "ENGAGE_AF-TIMI_48")
 AnnotationAssertion(rdfs:label coho:COHO_0000061 "ENGAGE AF-TIMI 48"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000061)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000061)
 
 # Individual: coho:COHO_0000062 (EPIGEN)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000062 "EPIGEN"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000062)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000062)
 
 # Individual: coho:COHO_0000063 (Erasmus Rucphen Family Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000063 "ERF")
 AnnotationAssertion(rdfs:label coho:COHO_0000063 "Erasmus Rucphen Family Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000063)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000063)
 
 # Individual: coho:COHO_0000064 (Estonian Biobank)
 
@@ -769,7 +769,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000066)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000067 "EuroTARGET")
 AnnotationAssertion(rdfs:label coho:COHO_0000067 "EuroTARGET project"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000067)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000067)
 
 # Individual: coho:COHO_0000068 (Extremely Low Gestational Age Newborns)
 
@@ -787,18 +787,18 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000069)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000070 "FTC")
 AnnotationAssertion(rdfs:label coho:COHO_0000070 "Finnish Twin Cohort Study"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000070)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000070)
 
 # Individual: coho:COHO_0000071 (FINRISK)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000071 "FINRISK"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000071)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000071)
 
 # Individual: coho:COHO_0000072 (Flemish Gut Flora Project)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000072 "FGFP")
 AnnotationAssertion(rdfs:label coho:COHO_0000072 "Flemish Gut Flora Project"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000072)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000072)
 
 # Individual: coho:COHO_0000073 (Gabriel Advanced Survey)
 
@@ -810,25 +810,25 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000073)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000074 "GCAT")
 AnnotationAssertion(rdfs:label coho:COHO_0000074 "GCAT Genomes for Life"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000074)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000074)
 
 # Individual: coho:COHO_0000075 (GENESIS)
 
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000075 "GENESIS also names the UK GENESIS/DNA Lacunar stroke study; this term is the French GENE SISters breast cancer study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000075 "GENESIS"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000075)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000075)
 
 # Individual: coho:COHO_0000076 (Genetic Analysis of Multiple Sclerosis)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000076 "GAMS")
 AnnotationAssertion(rdfs:label coho:COHO_0000076 "Genetic Analysis of Multiple Sclerosis"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000076)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000076)
 
 # Individual: coho:COHO_0000077 (Genetic Consortium for Anorexia Nervosa)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000077 "GCAN")
 AnnotationAssertion(rdfs:label coho:COHO_0000077 "Genetic Consortium for Anorexia Nervosa"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000077)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000077)
 
 # Individual: coho:COHO_0000078 (Genetic Epidemiology of Asthma in Costa Rica)
 
@@ -852,7 +852,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000080)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000081 "GRIso")
 AnnotationAssertion(rdfs:label coho:COHO_0000081 "Genetic Research in Isolated"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000081)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000081)
 
 # Individual: coho:COHO_0000082 (Genetics of diabetes Audit and Research)
 
@@ -876,7 +876,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000084)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000085 "GMMG")
 AnnotationAssertion(rdfs:label coho:COHO_0000085 "German Multiple Myeloma Study Group"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000085)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000085)
 
 # Individual: coho:COHO_0000086 (Ghana Prostate Study)
 
@@ -894,7 +894,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000087)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000088 "HELIC")
 AnnotationAssertion(rdfs:label coho:COHO_0000088 "Greece Hellenic Isolated Cohorts"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000088)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000088)
 
 # Individual: coho:COHO_0000089 (Health and Retirement Study)
 
@@ -968,13 +968,13 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000099)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000100 "INMA")
 AnnotationAssertion(rdfs:label coho:COHO_0000100 "INfancia y Medio Ambiente Project"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000100)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000100)
 
 # Individual: coho:COHO_0000101 (International Cancer Genome Consortium-Chronic Lymphocytic Leukemia)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000101 "ICGC")
 AnnotationAssertion(rdfs:label coho:COHO_0000101 "International Cancer Genome Consortium-Chronic Lymphocytic Leukemia"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000101)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000101)
 
 # Individual: coho:COHO_0000102 (International Headache Genetics Consortium)
 
@@ -1064,19 +1064,19 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000115)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000116 "MGS")
 AnnotationAssertion(rdfs:label coho:COHO_0000116 "Molecular Genetics of Schizophrenia Collaboration"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000116)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000116)
 
 # Individual: coho:COHO_0000117 (MOnica Risk, Genetics, Archiving and Monograph)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000117 "MORGAM")
 AnnotationAssertion(rdfs:label coho:COHO_0000117 "MOnica Risk, Genetics, Archiving and Monograph"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000117)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000117)
 
 # Individual: coho:COHO_0000118 (Monitoring of Trends and Determinants in Cardiovascular Disease)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000118 "MONICA")
 AnnotationAssertion(rdfs:label coho:COHO_0000118 "Monitoring of Trends and Determinants in Cardiovascular Disease"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000118)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000118)
 
 # Individual: coho:COHO_0000119 (Multi-Ethnic Study of Atherosclerosis)
 
@@ -1089,7 +1089,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000119)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000120 "The acronym MFS also denotes the Maudsley Family Study (UK)."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000120 "MFS")
 AnnotationAssertion(rdfs:label coho:COHO_0000120 "Multicenter Family Study"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000120)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000120)
 
 # Individual: coho:COHO_0000121 (Multiethnic Cohort Study of Diet and Health)
 
@@ -1174,7 +1174,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000133)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000134 "OCAC")
 AnnotationAssertion(rdfs:label coho:COHO_0000134 "Ovarian Cancer Association Consortium"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000134)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000134)
 
 # Individual: coho:COHO_0000135 (Ovarian Cancer Study)
 
@@ -1192,7 +1192,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000136)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000137 "PCL")
 AnnotationAssertion(rdfs:label coho:COHO_0000137 "PanCareLIFE"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000137)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000137)
 
 # Individual: coho:COHO_0000138 (Parkinson Environment and Gene)
 
@@ -1420,13 +1420,13 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000173)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000174 "T1DGC")
 AnnotationAssertion(rdfs:label coho:COHO_0000174 "Type 1 Diabetes Genetics Consortium"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000174)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000174)
 
 # Individual: coho:COHO_0000175 (UK Adult Twin Register)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000175 "TwinsUK")
 AnnotationAssertion(rdfs:label coho:COHO_0000175 "UK Adult Twin Register"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000175)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000175)
 
 # Individual: coho:COHO_0000176 (UK Biobank)
 
@@ -1438,7 +1438,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000176)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000177 "UKBEC")
 AnnotationAssertion(rdfs:label coho:COHO_0000177 "UK Brain Expression Consortium"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000177)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000177)
 
 # Individual: coho:COHO_0000178 (UK Childhood Cancer Study)
 
@@ -1510,7 +1510,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000188)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000189 "FGENTCARD")
 AnnotationAssertion(rdfs:label coho:COHO_0000189 "Functional genomic diagnostic tools for coronary artery disease"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0000189)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000189)
 
 # Individual: coho:COHO_0000190 (German Chronic Kidney Disease Study)
 
@@ -1528,7 +1528,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000191)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000192 "GRACE_Genetics")
 AnnotationAssertion(rdfs:label coho:COHO_0000192 "Global Registry of Acute Coronary Events"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000192)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000192)
 
 # Individual: coho:COHO_0000193 (TwinGene Study)
 
@@ -1541,19 +1541,19 @@ ObjectPropertyAssertion(coho:isSubCohortOf coho:COHO_0000193 coho:COHO_0000160)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000194 "ULSAM")
 AnnotationAssertion(rdfs:label coho:COHO_0000194 "Uppsala Longitudinal Study of Adult Men"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000194)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000194)
 
 # Individual: coho:COHO_0000195 (Baltimore Longitudinal Study of Ageing)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000195 "BLSA")
 AnnotationAssertion(rdfs:label coho:COHO_0000195 "Baltimore Longitudinal Study of Ageing"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000195)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000195)
 
 # Individual: coho:COHO_0000196 (Motor Neuron Disease Biobank study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000196 "MNDA")
 AnnotationAssertion(rdfs:label coho:COHO_0000196 "Motor Neuron Disease Biobank study"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000196)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000196)
 
 # Individual: coho:COHO_0000197 (Diabetic Cohort)
 
@@ -1577,7 +1577,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000199)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000200 "PPMI")
 AnnotationAssertion(rdfs:label coho:COHO_0000200 "Parkinson's Progression Markers Initiative"@en)
-ClassAssertion(coho:COHO_0000001 coho:COHO_0000200)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0000200)
 
 # Individual: coho:COHO_0000201 (Psychosis Endophenotype Consortium)
 
@@ -1589,7 +1589,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000201)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000202 "SHIP")
 AnnotationAssertion(rdfs:label coho:COHO_0000202 "Study of Health in Pomerania"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000202)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0000202)
 
 # Individual: coho:COHO_0000203 (The Cooperative Health Research in South Tyrol)
 
