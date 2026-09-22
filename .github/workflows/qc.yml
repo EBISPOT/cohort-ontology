@@ -1,4 +1,4 @@
-# Basic ODK workflow
+# Basic owlmake workflow
 
 name: CI
 
@@ -19,15 +19,23 @@ jobs:
   ontology_qc:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.6.1
+    env:
+      OWLMAKE_VERSION: v0.3.1
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: Install owlmake
+        run: |
+          base=https://github.com/EBISPOT/owlmake/releases/download/$OWLMAKE_VERSION
+          curl -fsSL -O $base/om-linux-amd64 -O $base/om-linux-amd64.sha256
+          sha256sum -c om-linux-amd64.sha256
+          sudo install -m 755 om-linux-amd64 /usr/local/bin/om
+          rm om-linux-amd64 om-linux-amd64.sha256
+
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: main
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false PAT=false MIR=false
-
+        run: om make test IMP=false PAT=false MIR=false

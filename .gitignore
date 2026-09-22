@@ -1,6 +1,4 @@
-# ODK-managed rules, do not modify
-# If you need to add your own ignore rules, you may do so below
-# the "End ODK-managed rules" marker at the end of this file.
+# Build products and scratch files of the owlmake build
 .DS_Store
 semantic.cache
 bin/
@@ -56,8 +54,7 @@ src/ontology/tmp/*
 !src/ontology/tmp/.gitkeep
 !src/ontology/tmp/README.md
 
-src/ontology/run.sh.conf
-src/ontology/run.sh.env
+src/ontology/.owlmake-odk-tmp/
 
 src/ontology/imports/*_terms_combined.txt
 
@@ -66,6 +63,5 @@ src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
-# End of ODK-managed rules
 
 cohorts/

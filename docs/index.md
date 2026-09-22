@@ -4,4 +4,4 @@
 
 Welcome to the COHO documentation!
 
-You can find descriptions of the standard ontology engineering workflows [here](odk-workflows/index.md).
+You can find descriptions of the standard ontology engineering workflows [here](workflows/index.md).

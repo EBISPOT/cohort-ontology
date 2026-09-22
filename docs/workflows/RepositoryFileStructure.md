@@ -2,15 +2,17 @@
 
 The main kinds of files in the repository:
 
-1. Release files
-2. Imports
-3. [Components](#components)
+1. The build configuration, [`owlmake.yaml`](BuildConfiguration.md)
+2. The edit file, `src/ontology/coho-edit.owl`: the only ontology file edited by hand
+3. Release files
+4. Imports
+5. [Components](#components)
 
 ## Release files
-Release file are the file that are considered part of the official ontology release and to be used by the community. A detailed description of the release artefacts can be found [here](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md).
+Release file are the file that are considered part of the official ontology release and to be used by the community. They are at the top of the repository: `coho.owl` and `coho.obo` (the primary release, the same as `coho-full.owl`), `coho-full.owl` (the ontology with its imports, classified) and `coho-base.owl` (only the axioms that belong to COHO itself).
 
 ## Imports
-Imports are subsets of external ontologies that contain terms and axioms you would like to re-use in your ontology. These are considered "external", like dependencies in software development, and are not included in your "base" product, which is the [release artefact](https://github.com/INCATools/ontology-development-kit/blob/master/docs/ReleaseArtefacts.md) which contains only those axioms that you personally maintain.
+Imports are subsets of external ontologies that contain terms and axioms you would like to re-use in your ontology. These are considered "external", like dependencies in software development, and are not included in your "base" product, the release file which contains only those axioms that you personally maintain.
 
 These are the current imports in COHO
 
@@ -19,6 +21,9 @@ These are the current imports in COHO
 | ro | http://purl.obolibrary.org/obo/ro.owl | slme |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
 | NCIT | http://purl.obolibrary.org/obo/NCIT.owl | slme |
+
+See [Imports management](UpdateImports.md).
+
 ## Components
 Components, in contrast to imports, are considered full members of the ontology. This means that any axiom in a component is also included in the ontology base - which means it is considered _native_ to the ontology. While this sounds complicated, consider this: conceptually, no component should be part of more than one ontology. If that seems to be the case, we are most likely talking about an import. Components are often not needed for ontologies, but there are some use cases:
 
@@ -28,10 +33,12 @@ Components, in contrast to imports, are considered full members of the ontology.
 
 These are the components in COHO
 
-| Filename | URL |
-| -------- | --- |
-| gaz_xrefs.owl | None |
-| GWAS.owl | None |
-| MetaboLight.owl | None |
-| EGA.owl | None |
-| PRIDE.owl | None |
+| Filename | Built from |
+| -------- | ---------- |
+| gaz_xrefs.owl | `src/templates/gaz_xrefs.tsv` |
+| GWAS.owl | `src/templates/GWAS.csv` |
+| MetaboLight.owl | `src/templates/MetaboLight.csv` |
+| EGA.owl | `src/templates/EGA.csv` |
+| PRIDE.owl | `src/templates/PRIDE.csv` |
+
+See [Components management](components.md).

@@ -14,7 +14,7 @@ Workflow requirements:
 
 - git
 - github
-- docker
+- [owlmake](BuildConfiguration.md#installing-owlmake)
 - editing tool of choice, e.g. Protégé, your favourite text editor, etc
 
 #### 1. _Create issue_
@@ -81,13 +81,9 @@ Now it's time to run your quality control checks. This can either happen locally
 If you chose to run your test locally:
 
 ```
-sh run.sh make IMP=false test
+om make test IMP=false
 ```
-This will run the whole set of configured ODK tests on including your change. If you have a complex DOSDP pattern pipeline you may want to add `PAT=false` to skip the potentially lengthy process of rebuilding the patterns.
-
-```
-sh run.sh make IMP=false PAT=false test
-```
+This will run the whole set of configured [quality control checks](QualityControl.md) including your change. `IMP=false` reuses the committed import modules rather than rebuilding them.
 
 #### 6. Pull request
 
@@ -99,7 +95,7 @@ git commit -m "Added biological process term #12"
 git push -u origin issue23removeprocess
 ```
 
-Then you go to your project on GitHub, and create a new pull request from the branch, for example: https://github.com/INCATools/ontology-development-kit/pulls
+Then you go to your project on GitHub, and create a new pull request from the branch, for example: https://github.com/EBISPOT/cohort-ontology/pulls
 
 There is a lot of great advise on how to write pull requests, but at the very least you should:
 - mention the tickets affected: `see #23` to link to a related ticket, or `fixes #23` if, by merging this pull request, the ticket is fixed. Tickets in the latter case will be closed automatically by GitHub when the pull request is merged.
@@ -107,11 +103,7 @@ There is a lot of great advise on how to write pull requests, but at the very le
 - If the diff is large, provide instructions on how to review the pull request best (sometimes, there are many changed files, but only one important change).
 
 #### 7/5b. Continuous Integration Testing
-If you didn't run and local quality control checks (see [5a](#5a-local-testing)), you should have Continuous Integration (CI) set up, for example:
-- Travis
-- GitHub Actions
-
-More on how to set this up [here](ContinuousIntegration.md). Once the pull request is created, the CI will automatically trigger. If all is fine, it will show up green, otherwise red.
+If you didn't run and local quality control checks (see [5a](#5a-local-testing)), the Continuous Integration (CI) on GitHub Actions runs them for you, see [here](QualityControl.md#continuous-integration). Once the pull request is created, the CI will automatically trigger. If all is fine, it will show up green, otherwise red.
 
 #### 8. Community review
 Once all the automatic tests have passed, it is important to put a second set of eyes on the pull request. Ontologies are inherently social - as in that they represent some kind of community consensus on how a domain is organised conceptually. This seems high brow talk, but it is very important that as an ontology editor, you have your work validated by the community you are trying to serve (e.g. your colleagues, other contributors etc.). In our experience, it is hard to get more than one review on a pull request - two is great. You can set up GitHub branch protection to actually require a review before a pull request can be merged! We recommend this.

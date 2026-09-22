@@ -1,0 +1,81 @@
+min_owlmake_version: 0.3.1
+emulate_odk_version: 1.6.1
+id: coho
+title: Cohort Ontology
+github_org: EBISPOT
+repo: cohort-ontology
+uribase: http://www.ebi.ac.uk
+git_main_branch: main
+release_artefacts:
+- base
+- full
+- simple
+primary_release: full
+export_formats:
+- owl
+- obo
+- json
+import_group:
+  annotation_properties:
+  - rdfs:label
+  - IAO:0000115
+  - oboInOwl:is_metadata_tag
+  - OMO:0002000
+  - oboInOwl:SynonymTypeProperty
+  products:
+  - id: ro
+  - id: omo
+    module_type: mirror
+  - id: NCIT
+robot_java_args: -Xmx8G
+documentation:
+  documentation_system: mkdocs
+subset_group:
+  products:
+  - id: GWAS
+  - id: MetaboLight
+  - id: EGA
+  - id: PRIDE
+components:
+  products:
+  - filename: gaz_xrefs.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+    templates:
+    - gaz_xrefs.tsv
+  - filename: GWAS.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+    templates:
+    - GWAS.csv
+  - filename: MetaboLight.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+    templates:
+    - MetaboLight.csv
+  - filename: EGA.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+    templates:
+    - EGA.csv
+  - filename: PRIDE.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
+    templates:
+    - PRIDE.csv
+robot_report:
+  release_reports: false
+  fail_on: ERROR
+  use_labels: false
+  custom_profile: false
+  use_base_iris: true
+  sparql_test_on:
+  - edit
+  - coho-full.owl
+  custom_sparql_checks:
+  - synonym-as-label
+  - owldef-self-reference
+  - iri-range
+  - label-with-iri
+  - multiple-replaced_by
+  - dc-properties
