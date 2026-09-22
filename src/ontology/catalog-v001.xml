@@ -9,5 +9,6 @@
     <uri name="http://www.ebi.ac.uk/coho/components/MetaboLight.owl" uri="components/MetaboLight.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/EGA.owl" uri="components/EGA.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/example_studies.owl" uri="components/example_studies.owl" />
   </group>
 </catalog>

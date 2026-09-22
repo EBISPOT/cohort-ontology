@@ -63,6 +63,11 @@ components:
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#"'
     templates:
     - PRIDE.csv
+  - filename: example_studies.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "dcterms: http://purl.org/dc/terms/"'
+    templates:
+    - example_studies.tsv
 robot_report:
   release_reports: false
   fail_on: ERROR

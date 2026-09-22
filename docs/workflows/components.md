@@ -28,6 +28,24 @@ Never edit the files in `src/ontology/components`: they are rebuilt from the tem
 3. Run the [quality control checks](QualityControl.md): `om make test IMP=false`
 4. Commit the template and the rebuilt component together
 
+## Curation files
+
+`src/templates` holds only ROBOT templates. The evidence and curatorial decisions the generated templates are built from live in `src/curation`: an `_evidence.tsv` per topic (the reviewed evidence, one row per cohort) and a `_curated.tsv` (hand overrides, which win). Edit the curated files, never the generated templates.
+
+The source tables the reviews were made against are there too: `ega_studies.tsv` and `ega_study_cohorts.tsv` (EGA), `gwas_catalog_cohorts.tsv.gz` (GWAS Catalog), and `new_cohorts_ega.tsv` (cohort names that came up in the EGA review and are not yet in COHO, with any consortium or parent cohort noted; `new_cohorts_ega_check.tsv` is their match against the list COHO was seeded from). Refreshing a source means replacing its table and re-running the scripts.
+
+## Example studies
+
+Each cohort is linked to one study that used it, as an `example of usage` (IAO:0000112) annotation holding the study's accession (an EGA `EGAS…` or GWAS Catalog `GCST…`), with the study's publication as a `PMID:` xref on the annotation and a title as `dcterms:title` on it (the paper's, or the EGA study's own where it has no paper), which is what OLS shows beside the accession. Where a reviewer's evidence that the study used the cohort was verified against its source, the quote and the source URL are also on the annotation, as `rdfs:comment` and a second `oboInOwl:hasDbXref`. These come from the `example_studies.owl` component, whose template, `src/templates/example_studies.tsv`, is itself generated and should not be edited by hand:
+
+```
+src/scripts/example_studies.py
+```
+
+Paper titles are looked up in Europe PMC and kept in `src/curation/example_studies_titles.tsv`. It reads, from `src/curation`, the EGA studies a human reviewed for cohort mentions (`ega_studies.tsv`, with their verified matches in `ega_study_cohorts.tsv`) and the GWAS Catalog's studies with one cohort per line (`gwas_catalog_cohorts.tsv.gz`, a Catalog export of 2026-09). How a study is chosen is described at the top of the script.
+
+Cohorts the script finds no study for are printed, some with a candidate study that matched on an acronym alone and needs a curator to confirm it. To give a cohort an example by hand, or to overrule the script's choice, add a line to `src/curation/example_studies_curated.tsv` (tab-separated columns `ID`, `example study`, `PMID`, `note`) and run the script again. A line with a PMID and no accession gives the paper itself as the example. A line with both left empty rejects the script's choice without replacing it: acronyms are shared between cohorts (the GWAS Catalog's `ACP` on GCST90281184 is an Amish cohort, not the Asian Cancer Project), so a match on one is not always right. The current curated rows come from two reviews of every cohort on 2026-09-22, merged into `src/curation/example_studies_evidence.tsv` (one row per cohort: verdict, accession, PMID, evidence quote, source URL, whether the quote was verified, confidence, and the reviewer's remark); accessions, PMIDs and quotes were checked against Europe PMC, PMC, the GWAS Catalog and EGA before being accepted.
+
 ## Adding a component
 
 1. Create the template, `src/templates/your-component-name.tsv` (or `.csv`)
