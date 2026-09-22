@@ -17,9 +17,11 @@ Sources:
                                       A row here wins over the review; an empty
                                       countries field removes the cohort's locations.
 
-The review's "correct" list is applied for wrong and incomplete verdicts and the
-asserted list is kept for correct and unverified ones. Evidence is attached only
-where the quote was verified; otherwise the assertion stands without it.
+The review's "correct" list is applied for wrong, incomplete and unlocated
+verdicts (unlocated: COHO asserted nothing and the review found the countries,
+or found none and says why) and the asserted list is kept for correct and
+unverified ones. Evidence is attached only where the quote was verified;
+otherwise the assertion stands without it.
 Deprecated individuals are skipped.
 
 Usage: src/scripts/locations.py
@@ -55,7 +57,7 @@ def main():
     for r in read(REVIEW):
         if r["ID"] in deprecated:
             continue
-        if r["verdict"] in ("wrong", "incomplete"):
+        if r["verdict"] in ("wrong", "incomplete", "unlocated"):
             countries = r["correct"]
         else:
             countries = r["asserted"]

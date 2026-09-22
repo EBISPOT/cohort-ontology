@@ -11,6 +11,8 @@ Ontology(<http://www.ebi.ac.uk/coho/components/locations.owl>
 Annotation(owl:versionInfo "2026-09-22")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/has_data_collection_location>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Africa>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Asia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Australia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Austria>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Bangladesh>))
@@ -23,7 +25,9 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Costa_Rica>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Croatia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Cyprus>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Denmark>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Eastern_Asia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Estonia>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Europe>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Finland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/France>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Germany>))
@@ -32,22 +36,31 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Greece>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Iceland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Israel>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Italy>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Japan>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Kenya>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Lebanon>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Mexico>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Moldova>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Netherlands>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/New_Zealand>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Northern_America>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Norway>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Oceania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Pakistan>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Peru>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Poland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Portugal>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Republic_of_Ireland>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Romania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Russia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Singapore>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/SouthAmerica>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/South_Africa>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/South_Asia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/South_Korea>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Spain>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Sri_Lanka>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Sweden>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Switzerland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Taiwan>))
@@ -57,6 +70,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/United_Kingdom>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/United_States>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Venezuela>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Vietnam>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000004>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000005>))
@@ -79,6 +93,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000022>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000023>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000024>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000025>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000026>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000027>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000028>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000030>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000031>))
@@ -101,6 +117,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000048>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000049>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000050>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000051>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000053>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000054>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000055>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000056>))
@@ -111,19 +128,25 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000060>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000062>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000063>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000064>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000065>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000066>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000067>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000068>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000069>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000070>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000071>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000072>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000073>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000074>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000075>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000076>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000078>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000079>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000080>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000081>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000082>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000083>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000084>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000085>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000086>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000087>))
@@ -139,6 +162,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000096>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000097>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000099>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000100>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000101>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000105>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000106>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000107>))
@@ -150,6 +174,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000112>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000113>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000114>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000115>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000117>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000119>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000121>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000122>))
@@ -164,6 +189,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000130>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000131>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000132>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000136>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000137>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000138>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000139>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000140>))
@@ -179,8 +205,10 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000150>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000151>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000152>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000153>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000154>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000155>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000156>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000157>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000158>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000159>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000160>))
@@ -196,6 +224,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000169>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000170>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000171>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000173>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000174>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000175>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000176>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000177>))
@@ -207,17 +236,22 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000182>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000183>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000184>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000185>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000186>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000187>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000188>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000189>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000190>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000191>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000192>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000193>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000194>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000195>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000196>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000197>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000198>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000199>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000200>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000201>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000202>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000203>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000204>))
@@ -229,6 +263,15 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Named Individuals
 ############################
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000002> (<http://www.ebi.ac.uk/coho/COHO_0000002>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/Africa>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/Eastern_Asia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/Europe>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4750478/fullTextXML") Annotation(rdfs:comment "individuals were sampled from 26 populations in Africa (AFR), East Asia (EAS), Europe (EUR), South Asia (SAS), and the Americas (AMR)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/Northern_America>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000002> <http://dbpedia.org/resource/South_Asia>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000003> (<http://www.ebi.ac.uk/coho/COHO_0000003>)
 
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/Finland>)
@@ -236,7 +279,7 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/Greece>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/Italy>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/Poland>)
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6804515/fullTextXML") Annotation(rdfs:comment "To do so, individuals are followed up and diagnosed as CN/MCI/AD longitudinally at 3- to 12-month intervals at centers across 6 European countries—Finland, Italy, Greece, Poland, France, and the UK") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000003> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000004> (<http://www.ebi.ac.uk/coho/COHO_0000004>)
 
@@ -258,7 +301,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000007> (<http://www.ebi.ac.uk/coho/COHO_0000007>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000007> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8459317/fullTextXML") Annotation(rdfs:comment "Arthritis Research UK Osteoarthritis Genetics (arcOGEN) is a collection of 7410 unrelated, UK-based individuals of European ancestry with knee and/or hip osteoarthritis from the arcOGEN Consortium") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000007> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000008> (<http://www.ebi.ac.uk/coho/COHO_0000008>)
 
@@ -266,7 +309,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000009> (<http://www.ebi.ac.uk/coho/COHO_0000009>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000009> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/20197530") Annotation(rdfs:comment "involving 28,980 men and women aged 50 to 75 years living in central Scotland, free of clinical cardiovascular disease") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000009> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000010> (<http://www.ebi.ac.uk/coho/COHO_0000010>)
 
@@ -286,11 +329,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000014> (<http://www.ebi.ac.uk/coho/COHO_0000014>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000014> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10711013/fullTextXML") Annotation(rdfs:comment "AOCS gratefully acknowledges the cooperation of the participating institutions in Australia") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000014> <http://dbpedia.org/resource/Australia>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000015> (<http://www.ebi.ac.uk/coho/COHO_0000015>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000015> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/23200298") Annotation(rdfs:comment "The Australian Twin Registry (ATR) is a national volunteer resource of twin pairs and higher-order multiples willing to consider participating in health, medical, and scientific research") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000015> <http://dbpedia.org/resource/Australia>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000016> (<http://www.ebi.ac.uk/coho/COHO_0000016>)
 
@@ -341,6 +384,20 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000025> (<http://www.ebi.ac.uk/coho/COHO_0000025>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3364485/") Annotation(rdfs:comment "Cases with pathologically diagnosed PCa were recruited from regional cancer registries in Sweden") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000025> <http://dbpedia.org/resource/Sweden>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000026> (<http://www.ebi.ac.uk/coho/COHO_0000026>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/10496201") Annotation(rdfs:comment "CHARM is intended to randomize 6,500 patients with symptomatic heart failure from 26 countries in Europe, the United States, Canada, South Africa, and Australia") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000026> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000026> <http://dbpedia.org/resource/Canada>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000026> <http://dbpedia.org/resource/Europe>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000026> <http://dbpedia.org/resource/South_Africa>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000026> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000027> (<http://www.ebi.ac.uk/coho/COHO_0000027>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000027> <http://dbpedia.org/resource/Japan>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4673465/fullTextXML") Annotation(rdfs:comment "The Cardio-metabolic Genome Epidemiology (CAGE) Network is an ongoing collaborative effort to investigate genetic and environmental factors, and their interactions affecting cardiometabolic traits/disorders among Asian populations, including the Japanese, Vietnamese and Sri Lankan") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000027> <http://dbpedia.org/resource/Sri_Lanka>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000027> <http://dbpedia.org/resource/Vietnam>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000028> (<http://www.ebi.ac.uk/coho/COHO_0000028>)
 
@@ -415,7 +472,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000046> (<http://www.ebi.ac.uk/coho/COHO_0000046>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000046> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12624164/fullTextXML") Annotation(rdfs:comment "The Copenhagen Hospital Biobank (CHB) 23 was established in the Capital Region of Denmark") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000046> <http://dbpedia.org/resource/Denmark>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000047> (<http://www.ebi.ac.uk/coho/COHO_0000047>)
 
@@ -423,7 +480,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000048> (<http://www.ebi.ac.uk/coho/COHO_0000048>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000048> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/12871360") Annotation(rdfs:comment "We have evaluated 325 men and 370 women of 60 years, participating in the Danish Glostrup study") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000048> <http://dbpedia.org/resource/Denmark>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000049> (<http://www.ebi.ac.uk/coho/COHO_0000049>)
 
@@ -437,9 +494,17 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/diabetes-prevention-program-dpp") Annotation(rdfs:comment "The DPP was a randomized, controlled clinical trial conducted at 27 clinical centers around the United States from 1996 to 2001.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000051> <http://dbpedia.org/resource/United_States>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000053> (<http://www.ebi.ac.uk/coho/COHO_0000053>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000053> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000053> <http://dbpedia.org/resource/Finland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000053> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000053> <http://dbpedia.org/resource/Sweden>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4018481/fullTextXML") Annotation(rdfs:comment "Participants in Study 1 were recruited from existing prospective cohort studies in or around each of the following European cities: Malmö, Sweden (Malmö Diet and Cancer Study [ 12 ]); Amsterdam, The Netherlands (Hoorn Study [ 3 ]); Copenhagen, Denmark (Inter99 [ 10 ]); and Kuopio, Finland […] Participants in Study 2 of DIRECT are recruited from or nearby each of the following European cities: Malmö, Sweden; Amsterdam, the Netherlands; Copenhagen, Denmark; Exeter, UK; Newcastle, UK; Dundee, UK") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000053> <http://dbpedia.org/resource/United_Kingdom>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000054> (<http://www.ebi.ac.uk/coho/COHO_0000054>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000054> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7213856/fullTextXML") Annotation(rdfs:comment "We included cross-sectional data of five population-based longitudinal cohort studies from different areas of Germany: the Dortmund Health Study (DHS) conducted in the city of Dortmund") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000054> <http://dbpedia.org/resource/Germany>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000055> (<http://www.ebi.ac.uk/coho/COHO_0000055>)
 
@@ -464,11 +529,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000060> (<http://www.ebi.ac.uk/coho/COHO_0000060>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000060> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2730573/fullTextXML") Annotation(rdfs:comment "We prospectively recruited all consenting patients with recent stroke from the emergency department; medical, neurology, and occasionally other (e.g., surgical) wards; stroke unit; and neurovascular clinics of the Western General Hospital, Edinburgh, United Kingdom, between April 2002 and May 2005 into the Edinburgh Stroke Study") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000060> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000062> (<http://www.ebi.ac.uk/coho/COHO_0000062>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000062> <http://dbpedia.org/resource/Brazil>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/26124090") Annotation(rdfs:comment "three populations with different histories from the Northeast (African ancestry: 50%), Southeast, and South (both with European ancestry >70%) of Brazil") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000062> <http://dbpedia.org/resource/Brazil>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000063> (<http://www.ebi.ac.uk/coho/COHO_0000063>)
 
@@ -478,9 +543,31 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://genomics.ut.ee/en/content/estonian-biobank") Annotation(rdfs:comment "The Estonian Biobank has established a population-based biobank of Estonia") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000064> <http://dbpedia.org/resource/Estonia>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000065> (<http://www.ebi.ac.uk/coho/COHO_0000065>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/France>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Greece>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Italy>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Norway>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/Sweden>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13235047/fullTextXML") Annotation(rdfs:comment "From 1992 to 2000, EPIC recruited over 500,000 individuals aged 25–70 years across 23 centres in 10 European countries: Denmark, France, Germany, Greece, Italy, the Netherlands, Norway, Spain, Sweden, and the United Kingdom") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000065> <http://dbpedia.org/resource/United_Kingdom>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000066> (<http://www.ebi.ac.uk/coho/COHO_0000066>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://epic.iarc.fr/centres/uk/") Annotation(rdfs:comment "The EPIC-Norfolk cohort comprises 25 639 men and women resident in Norfolk, United Kingdom") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000066> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000067> (<http://www.ebi.ac.uk/coho/COHO_0000067>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/Iceland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/Romania>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9220885/fullTextXML") Annotation(rdfs:comment "Patients were recruited at participating centres in the Netherlands, the United Kingdom, Iceland, Germany, Romania and Spain") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000067> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000068> (<http://www.ebi.ac.uk/coho/COHO_0000068>)
 
@@ -496,11 +583,15 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000071> (<http://www.ebi.ac.uk/coho/COHO_0000071>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000071> <http://dbpedia.org/resource/Finland>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8183175/fullTextXML") Annotation(rdfs:comment "The FINRISK studies were cross‐sectional population surveys carried out in Finland in a systematic and standardized fashion every 5 years since 1972") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000071> <http://dbpedia.org/resource/Finland>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000072> (<http://www.ebi.ac.uk/coho/COHO_0000072>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://metadata.ega-archive.org/studies/EGAS00001001689") Annotation(rdfs:comment "we studied well-phenotyped individuals from the Flemish Gut Flora Project (FGFP, N=1,106, Belgium)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000072> <http://dbpedia.org/resource/Belgium>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000073> (<http://www.ebi.ac.uk/coho/COHO_0000073>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/21819425") Annotation(rdfs:comment "A third phase was carried out in a further stratified sample only in Bavaria, southern Germany") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000073> <http://dbpedia.org/resource/Germany>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000074> (<http://www.ebi.ac.uk/coho/COHO_0000074>)
 
@@ -534,9 +625,17 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC11178010/") Annotation(rdfs:comment "children aged 6–14 years with mild to moderate asthma from 140 schools across the Central Valley of Costa Rica") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000078> <http://dbpedia.org/resource/Costa_Rica>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000079> (<http://www.ebi.ac.uk/coho/COHO_0000079>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/30470734") Annotation(rdfs:comment "in a Greek sample collection (GOMAP) comprising three patient groups") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000079> <http://dbpedia.org/resource/Greece>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000080> (<http://www.ebi.ac.uk/coho/COHO_0000080>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4912360/fullTextXML") Annotation(rdfs:comment "through cancer genetics and uro-oncology clinics at a National Health Service cancer hospital in London") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000080> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000081> (<http://www.ebi.ac.uk/coho/COHO_0000081>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984098/fullTextXML") Annotation(rdfs:comment "subjects from the Erasmus Rucphen Family (ERF), which is a genetically isolated community in the South-West of the Netherlands, and studied as part of the Genetic Research in Isolated Populations (GRIP) program") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000081> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000082> (<http://www.ebi.ac.uk/coho/COHO_0000082>)
 
@@ -545,6 +644,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000083> (<http://www.ebi.ac.uk/coho/COHO_0000083>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3725963/unicode") Annotation(rdfs:comment "nonagenarian sibling pairs have been recruited in eleven countries among 15 study centers.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000083> <http://dbpedia.org/resource/Netherlands>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000084> (<http://www.ebi.ac.uk/coho/COHO_0000084>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/31802016") Annotation(rdfs:comment "a whole-genome sequencing reference dataset from 1,739 individuals of 219 population groups and 64 countries across Asia") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000084> <http://dbpedia.org/resource/Asia>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000085> (<http://www.ebi.ac.uk/coho/COHO_0000085>)
 
@@ -564,15 +667,15 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000089> (<http://www.ebi.ac.uk/coho/COHO_0000089>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000089> <http://dbpedia.org/resource/United_States>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/24671021") Annotation(rdfs:comment "The Health and Retirement Study (HRS) is a nationally representative longitudinal survey of more than 37 000 individuals over age 50 in 23 000 households in the USA") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000089> <http://dbpedia.org/resource/United_States>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000090> (<http://www.ebi.ac.uk/coho/COHO_0000090>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000090> <http://dbpedia.org/resource/Finland>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/34847907") Annotation(rdfs:comment "This study was based on the data of the national Health 2000 Survey (BRIF8901) in Finland") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000090> <http://dbpedia.org/resource/Finland>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000091> (<http://www.ebi.ac.uk/coho/COHO_0000091>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000091> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/12114036") Annotation(rdfs:comment "20,536 UK adults (aged 40-80 years) with coronary disease, other occlusive arterial disease, or diabetes were randomly allocated") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000091> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000092> (<http://www.ebi.ac.uk/coho/COHO_0000092>)
 
@@ -588,11 +691,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000095> (<http://www.ebi.ac.uk/coho/COHO_0000095>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000095> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4814826/fullTextXML") Annotation(rdfs:comment "Over 7,500 people were randomly selected from the compulsory electoral roll of Newcastle, Australia, and invited to participate in the Hunter Community Study (HCS)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000095> <http://dbpedia.org/resource/Australia>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000096> (<http://www.ebi.ac.uk/coho/COHO_0000096>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000096> <http://dbpedia.org/resource/Iceland>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/22974093") Annotation(rdfs:comment "The nationwide Icelandic Cancer Registry (ICR) was established in 1954") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000096> <http://dbpedia.org/resource/Iceland>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000097> (<http://www.ebi.ac.uk/coho/COHO_0000097>)
 
@@ -611,7 +714,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000100> (<http://www.ebi.ac.uk/coho/COHO_0000100>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000100> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6408457/fullTextXML") Annotation(rdfs:comment "Genotypic data for unaffected controls were obtained from 1061 individuals from the INfancia y Medio Ambiente (INMA) project (Valencia, Sabadell and Menorca, Spain") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000100> <http://dbpedia.org/resource/Spain>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000101> (<http://www.ebi.ac.uk/coho/COHO_0000101>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11641350/fullTextXML") Annotation(rdfs:comment "Aligned WGS reads from 52 Spanish CLL patients [ 38 , 39 ] were obtained from the International Cancer Genome Consortium") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000101> <http://dbpedia.org/resource/Spain>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000105> (<http://www.ebi.ac.uk/coho/COHO_0000105>)
 
@@ -623,7 +730,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000107> (<http://www.ebi.ac.uk/coho/COHO_0000107>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000107> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13548661/fullTextXML") Annotation(rdfs:comment "The LLS, initiated in 2002 in the Netherlands, is an ongoing cohort") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000107> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000108> (<http://www.ebi.ac.uk/coho/COHO_0000108>)
 
@@ -643,7 +750,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000112> (<http://www.ebi.ac.uk/coho/COHO_0000112>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000112> <http://dbpedia.org/resource/Sweden>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/24803595") Annotation(rdfs:comment "416 patients included in the Lund Stroke Register, Sweden, between March 1, 2001, and February 28, 2002") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000112> <http://dbpedia.org/resource/Sweden>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000113> (<http://www.ebi.ac.uk/coho/COHO_0000113>)
 
@@ -660,6 +767,10 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365264/") Annotation(rdfs:comment "enrolled AD cases and unaffected sibling controls at 17 clinical centers in the United States, Canada, Germany and Greece.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000115> <http://dbpedia.org/resource/Greece>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000115> <http://dbpedia.org/resource/United_States>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000117> (<http://www.ebi.ac.uk/coho/COHO_0000117>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/19520994") Annotation(rdfs:comment "Follow-up data were collected in 43 cohorts in 18 populations in 8 European countries") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000117> <http://dbpedia.org/resource/Europe>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000119> (<http://www.ebi.ac.uk/coho/COHO_0000119>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.nhlbi.nih.gov/science/multi-ethnic-study-atherosclerosis-mesa") Annotation(rdfs:comment "Patients were enrolled from six field centers across the United States over a two-year period.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000119> <http://dbpedia.org/resource/United_States>)
@@ -670,7 +781,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000122> (<http://www.ebi.ac.uk/coho/COHO_0000122>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000122> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2726929/fullTextXML") Annotation(rdfs:comment "Between March 1999 and September 2004, consecutive patients aged <70 years with a first episode of deep venous thrombosis (leg or arm) or pulmonary embolism were included from the files of six participating anticoagulation clinics in the Netherlands (Amersfoort, Amsterdam, The Hague, Leiden, Rotterdam, and Utrecht)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000122> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000123> (<http://www.ebi.ac.uk/coho/COHO_0000123>)
 
@@ -690,7 +801,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000127> (<http://www.ebi.ac.uk/coho/COHO_0000127>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000127> <http://dbpedia.org/resource/United_States>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10576603/fullTextXML") Annotation(rdfs:comment "The Gastroparesis Clinical Research Consortium (GpCRC) is a network of GI tertiary centers in the United States") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000127> <http://dbpedia.org/resource/United_States>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000128> (<http://www.ebi.ac.uk/coho/COHO_0000128>)
 
@@ -698,7 +809,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000129> (<http://www.ebi.ac.uk/coho/COHO_0000129>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000129> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10396407/fullTextXML") Annotation(rdfs:comment "The Northern Ireland Cohort for the Longitudinal Study of Ageing (NICOLA) is Northern Ireland’s largest health and social care cohort collecting longitudinal data from a representative sample of the over-50s population") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000129> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000130> (<http://www.ebi.ac.uk/coho/COHO_0000130>)
 
@@ -715,6 +826,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000136> (<http://www.ebi.ac.uk/coho/COHO_0000136>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC6618903/") Annotation(rdfs:comment "the Oxford BioBank study recruited 5,425 adults (aged 29‐55 years) from the general population of Oxfordshire, UK") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000136> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000137> (<http://www.ebi.ac.uk/coho/COHO_0000137>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/30273888") Annotation(rdfs:comment "PanCareLIFE is a pan-European consortium that addresses survivorship issues") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000137> <http://dbpedia.org/resource/Europe>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000138> (<http://www.ebi.ac.uk/coho/COHO_0000138>)
 
@@ -760,11 +875,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000148> (<http://www.ebi.ac.uk/coho/COHO_0000148>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000148> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/32367290") Annotation(rdfs:comment "The Rotterdam Study is an ongoing prospective cohort study that started in 1990 in the city of Rotterdam, The Netherlands") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000148> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000149> (<http://www.ebi.ac.uk/coho/COHO_0000149>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000149> <http://dbpedia.org/resource/Canada>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/24646526") Annotation(rdfs:comment "a familial collection was built in the Saguenay-Lac-Saint-Jean (SLSJ) region, which is localized in northeastern Quebec, Canada") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000149> <http://dbpedia.org/resource/Canada>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000150> (<http://www.ebi.ac.uk/coho/COHO_0000150>)
 
@@ -780,7 +895,16 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000153> (<http://www.ebi.ac.uk/coho/COHO_0000153>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000153> <http://dbpedia.org/resource/China>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000853") Annotation(rdfs:comment "Whole exome sequencing for gallbladder cancer in Xinhua Hospital Affiliated to Shanghai Jiao Tong University") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000153> <http://dbpedia.org/resource/China>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000154> (<http://www.ebi.ac.uk/coho/COHO_0000154>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5883334/fullTextXML") Annotation(rdfs:comment "Patients were recruited from 244 centres in six countries (the UK, Denmark, Spain, Sweden, Australia, and New Zealand)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/New_Zealand>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/Sweden>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000154> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000155> (<http://www.ebi.ac.uk/coho/COHO_0000155>)
 
@@ -789,7 +913,17 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000156> (<http://www.ebi.ac.uk/coho/COHO_0000156>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000156> <http://dbpedia.org/resource/Singapore>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3411754/fullTextXML") Annotation(rdfs:comment "We performed genome-wide genotyping on 2,000 age- and gender-matched case-control series of Singapore Chinese (SCH) patients") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000156> <http://dbpedia.org/resource/Singapore>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000157> (<http://www.ebi.ac.uk/coho/COHO_0000157>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/Belgium>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/Denmark>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/France>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://innovative-ctu.ucl.ac.uk/studies/all-studies/s/sorce/") Annotation(rdfs:comment "SORCE was active at 82 UK hospitals, and 48 hospitals internationally in Australia, Denmark, France, Belgium, The Netherlands and Spain") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000157> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000158> (<http://www.ebi.ac.uk/coho/COHO_0000158>)
 
@@ -829,7 +963,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000167> (<http://www.ebi.ac.uk/coho/COHO_0000167>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000167> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5253231/fullTextXML") Annotation(rdfs:comment "The individual GWAS data sets from Iceland and the Netherlands were adjusted for genomic inflation") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000167> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000168> (<http://www.ebi.ac.uk/coho/COHO_0000168>)
 
@@ -845,11 +979,19 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000171> (<http://www.ebi.ac.uk/coho/COHO_0000171>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000171> <http://dbpedia.org/resource/Greece>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/38929788") Annotation(rdfs:comment "The sample under study comprised 924 Greek individuals (390 cases with CAD and 534 controls) from the THISEAS study") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000171> <http://dbpedia.org/resource/Greece>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000173> (<http://www.ebi.ac.uk/coho/COHO_0000173>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC7056571/") Annotation(rdfs:comment "recruited over 16,000 twin pairs born between 1994 and 1996 in England and Wales through national birth records") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000173> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000174> (<http://www.ebi.ac.uk/coho/COHO_0000174>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000174> <http://dbpedia.org/resource/Asia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000174> <http://dbpedia.org/resource/Europe>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000174> <http://dbpedia.org/resource/Northern_America>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/20603248") Annotation(rdfs:comment "T1DGC was organized into four regional networks (Asia-Pacific, Europe, North America, and the United Kingdom)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000174> <http://dbpedia.org/resource/Oceania>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000174> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000175> (<http://www.ebi.ac.uk/coho/COHO_0000175>)
 
@@ -857,7 +999,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000176> (<http://www.ebi.ac.uk/coho/COHO_0000176>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000176> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4380465/fullTextXML") Annotation(rdfs:comment "The 500,000 participants were assessed between 2006 and 2010 in 22 assessment centres throughout the UK") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000176> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000177> (<http://www.ebi.ac.uk/coho/COHO_0000177>)
 
@@ -886,7 +1028,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000183> (<http://www.ebi.ac.uk/coho/COHO_0000183>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000183> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10545678/supplementaryFiles") Annotation(rdfs:comment "Basque-colon cohort included 873 participants with colon cancer, biobanked between 20092019. Participants were diagnosed and/or treated according to usual clinical practice in the Donostia University Hospital, San Sebastian, Spain") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000183> <http://dbpedia.org/resource/Spain>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000184> (<http://www.ebi.ac.uk/coho/COHO_0000184>)
 
@@ -896,6 +1038,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4522619/fullTextXML") Annotation(rdfs:comment "from 58 provincial mental health centres and psychiatric departments of general medical hospitals in 45 cities and 23 provinces of China") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000185> <http://dbpedia.org/resource/China>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000186> (<http://www.ebi.ac.uk/coho/COHO_0000186>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8817039/fullTextXML") Annotation(rdfs:comment "we used data from the Gene-Environment of Interaction and phenotype (GENIE) cohort, and the Health and Prevention Enhancement (H-PEACE) cohort, at the Seoul National University Hospital Healthcare System Gangnam Center, where comprehensive health check-ups and screening are done in Korean populations") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000186> <http://dbpedia.org/resource/South_Korea>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000187> (<http://www.ebi.ac.uk/coho/COHO_0000187>)
 
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000187> <http://dbpedia.org/resource/China>)
@@ -904,6 +1050,10 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2605239/fullTextXML") Annotation(rdfs:comment "In 1994, an ongoing birth cohort study (Type 1 Diabetes prediction and prevention study [DIPP]) was launched in Finland") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000188> <http://dbpedia.org/resource/Finland>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000189> (<http://www.ebi.ac.uk/coho/COHO_0000189>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7993530/fullTextXML") Annotation(rdfs:comment "Patients were recruited at two major hospitals in Lebanon, between May 2007 and June 2010 as part of a multi-center cross-sectional study for the FGENTCARD Consortium") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000189> <http://dbpedia.org/resource/Lebanon>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000190> (<http://www.ebi.ac.uk/coho/COHO_0000190>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.gckd.de/studienhintergrund/") Annotation(rdfs:comment "Mehr als 5000 Patienten wurden deutschlandweit zwischen 2010 und 2012 rekrutiert.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000190> <http://dbpedia.org/resource/Germany>)
@@ -911,6 +1061,14 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000191> (<http://www.ebi.ac.uk/coho/COHO_0000191>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC9504529/") Annotation(rdfs:comment "recruited as part of the FoCus cohort [41] and as blood donors at the University Hospital Schleswig-Holstein in Kiel and Lübeck, Germany") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000191> <http://dbpedia.org/resource/Germany>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000192> (<http://www.ebi.ac.uk/coho/COHO_0000192>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://dbpedia.org/resource/Europe>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/11174331") Annotation(rdfs:comment "A total of 18 cluster sites in 14 countries in North America, South America, Europe, Australia, and New Zealand are currently collaborating in GRACE") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://dbpedia.org/resource/New_Zealand>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://dbpedia.org/resource/Northern_America>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000192> <http://dbpedia.org/resource/SouthAmerica>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000193> (<http://www.ebi.ac.uk/coho/COHO_0000193>)
 
@@ -926,7 +1084,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000196> (<http://www.ebi.ac.uk/coho/COHO_0000196>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000196> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/20801717") Annotation(rdfs:comment "We collected samples from patients with sporadic ALS from 20 UK hospitals") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000196> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000197> (<http://www.ebi.ac.uk/coho/COHO_0000197>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/32474429") Annotation(rdfs:comment "A total of 14 033 adult participants with type 2 diabetes were recruited from multiple public sector polyclinics and hospital outpatient clinics in Singapore") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000197> <http://dbpedia.org/resource/Singapore>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000198> (<http://www.ebi.ac.uk/coho/COHO_0000198>)
 
@@ -950,9 +1112,17 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000200> <http://dbpedia.org/resource/United_Kingdom>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000200> <http://dbpedia.org/resource/United_States>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000201> (<http://www.ebi.ac.uk/coho/COHO_0000201>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000201> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000201> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000201> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000201> <http://dbpedia.org/resource/Spain>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3923972/fullTextXML") Annotation(rdfs:comment "These samples were collected through seven centers across Australia and Europe (Germany, Holland, Spain, and United Kingdom)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000201> <http://dbpedia.org/resource/United_Kingdom>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000202> (<http://www.ebi.ac.uk/coho/COHO_0000202>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000202> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/abstract/MED/11565448") Annotation(rdfs:comment "A sample of 7008 women and men aged 20 to 79 years in a north-east region of Germany") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000202> <http://dbpedia.org/resource/Germany>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000203> (<http://www.ebi.ac.uk/coho/COHO_0000203>)
 
