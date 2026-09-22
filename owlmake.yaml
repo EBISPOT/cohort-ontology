@@ -9,6 +9,7 @@ namespaces:
 - http://www.ebi.ac.uk/coho/
 - http://www.ebi.ac.uk/coho#
 git_main_branch: main
+create_obo_metadata: false
 release_artefacts:
 - base
 - full

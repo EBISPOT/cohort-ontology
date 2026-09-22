@@ -9,6 +9,8 @@ Prefix(coho:=<http://www.ebi.ac.uk/coho/>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(doap:=<http://usefulinc.com/ns/doap#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/coho.owl>
@@ -24,9 +26,13 @@ Import(<http://www.ebi.ac.uk/coho/components/locations.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/NCIT_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/omo_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/ro_import.owl>)
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dce:rights "Copyright 2026 EMBL - European Bioinformatics Institute
+Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.")
+Annotation(dcterms:description "A lightweight ontology for the consistent identification and description of human cohorts across EMBL-EBI resources. Each cohort is represented as a named individual with a stable identifier and minimal metadata: a definition, synonyms, the locations where its data were collected, its relations to sub-cohorts and cohort aggregations, and example studies from EMBL-EBI resources such as the GWAS Catalog, EGA, MetaboLights and PRIDE. This enables linkage, discovery and integration of cohort-related data while supporting both named and implicitly defined cohorts.")
+Annotation(dcterms:license <http://www.apache.org/licenses/LICENSE-2.0>)
 Annotation(dcterms:title "Cohort Ontology")
+Annotation(doap:bug-database <https://github.com/EBISPOT/cohort-ontology/issues>)
+Annotation(foaf:homepage <https://github.com/EBISPOT/cohort-ontology>)
 
 Declaration(Class(coho:COHO_0000000))
 Declaration(Class(coho:COHO_0000001))
