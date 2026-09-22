@@ -285,21 +285,25 @@ Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
 
 # Annotation Property: <http://www.ebi.ac.uk/coho#EGA_subset> (EGA_subset)
 
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#EGA_subset> "The cohorts that studies in the European Genome-phenome Archive (EGA) draw on."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#EGA_subset> "EGA_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#EGA_subset> oboInOwl:SubsetProperty)
 
 # Annotation Property: <http://www.ebi.ac.uk/coho#GWAS_subset> (GWAS_subset)
 
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#GWAS_subset> "The cohorts that studies in the GWAS Catalog draw on."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#GWAS_subset> "GWAS_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#GWAS_subset> oboInOwl:SubsetProperty)
 
 # Annotation Property: <http://www.ebi.ac.uk/coho#MetaboLight_subset> (MetaboLight_subset)
 
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#MetaboLight_subset> "The cohorts that studies in MetaboLights draw on."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#MetaboLight_subset> "MetaboLight_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#MetaboLight_subset> oboInOwl:SubsetProperty)
 
 # Annotation Property: <http://www.ebi.ac.uk/coho#PRIDE_subset> (PRIDE_subset)
 
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#PRIDE_subset> "The cohorts that datasets in the PRIDE proteomics archive draw on."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#PRIDE_subset> "PRIDE_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#PRIDE_subset> oboInOwl:SubsetProperty)
 
@@ -310,12 +314,14 @@ SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#PRIDE_subset> oboInOwl:Subset
 
 # Object Property: coho:hasCohort (hasCohort)
 
+AnnotationAssertion(obo:IAO_0000115 coho:hasCohort "A relation between a cohort aggregation and a cohort whose participants or data it combines or compares."@en)
 AnnotationAssertion(rdfs:label coho:hasCohort "hasCohort"@en)
 ObjectPropertyDomain(coho:hasCohort coho:COHO_0000001)
 ObjectPropertyRange(coho:hasCohort coho:COHO_0000000)
 
 # Object Property: coho:hasSubCohort (hasSubCohort)
 
+AnnotationAssertion(obo:IAO_0000115 coho:hasSubCohort "A relation between a cohort and a cohort whose participants are drawn from it: a sub-study, a sub-sample or a component trial. The inverse of isSubCohortOf."@en)
 AnnotationAssertion(rdfs:label coho:hasSubCohort "hasSubCohort"@en)
 InverseObjectProperties(coho:hasSubCohort coho:isSubCohortOf)
 ObjectPropertyDomain(coho:hasSubCohort coho:COHO_0000000)
@@ -330,6 +336,7 @@ ObjectPropertyRange(coho:has_data_collection_location obo:NCIT_C16632)
 
 # Object Property: coho:isSubCohortOf (isSubCohortOf)
 
+AnnotationAssertion(obo:IAO_0000115 coho:isSubCohortOf "A relation between a cohort and the cohort its participants are drawn from, of which it is a sub-study, a sub-sample or a component trial."@en)
 AnnotationAssertion(rdfs:label coho:isSubCohortOf "isSubCohortOf"@en)
 ObjectPropertyDomain(coho:isSubCohortOf coho:COHO_0000000)
 ObjectPropertyRange(coho:isSubCohortOf coho:COHO_0000000)
@@ -355,6 +362,7 @@ SubClassOf(coho:COHO_0000001 ObjectMinCardinality(2 coho:hasCohort coho:COHO_000
 
 # Class: coho:TEMP_temporary_unclassified (temporary unclassified)
 
+AnnotationAssertion(obo:IAO_0000115 coho:TEMP_temporary_unclassified "A holding class for a cohort individual that has not yet been classified as a cohort or a cohort aggregation. Nothing should remain here."@en)
 AnnotationAssertion(rdfs:label coho:TEMP_temporary_unclassified "temporary unclassified"@en)
 
 
