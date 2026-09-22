@@ -43,7 +43,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000031>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000032>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000033>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000034>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000035>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000036>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000038>))
@@ -352,10 +351,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000034> (<http://www.ebi.ac.uk/coho/COHO_0000034>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.fjd-ceph.org/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000034> "A research foundation, the Centre d’Etude du Polymorphisme Humain, that investigates human genetic variation, particularly in complex diseases, to improve understanding, diagnosis and personalised medicine.")
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000035> (<http://www.ebi.ac.uk/coho/COHO_0000035>)
-
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ec.europa.eu/health/ph_threats/non_com/docs/ev_pre2005_frep_en.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000035> "A nonprofit genomics research organisation established in 1998 by the French Ministry of Research and New Technologies at Genopole in Évry, near Paris, taking over the genomic activities of Généthon.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000036> (<http://www.ebi.ac.uk/coho/COHO_0000036>)
 
@@ -723,7 +718,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000127> (<http://www.ebi.ac.uk/coho/COHO_0000127>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.niddk.nih.gov/about-niddk/faqs") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000127> "A United States government research institute, the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), that forms part of the National Institutes of Health and conducts and supports biomedical research and disseminates health information.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37688361") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000127> "A cohort of patients with gastroparesis recruited through the Gastroparesis Clinical Research Consortium (GpCRC), a network of gastrointestinal tertiary centres in the United States sponsored by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), whose registry provided the gastroparesis cases of the GWAS Catalog study tagged NIDDK.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000128> (<http://www.ebi.ac.uk/coho/COHO_0000128>)
 

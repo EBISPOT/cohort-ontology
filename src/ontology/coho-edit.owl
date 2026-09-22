@@ -573,11 +573,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000034 "Centre dEtude du Polymorphisme Humain"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000034)
 
-# Individual: coho:COHO_0000035 (Centre National de Génotypage)
+# Individual: coho:COHO_0000035 (obsolete Centre National de Génotypage)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000035 "CNG")
-AnnotationAssertion(rdfs:label coho:COHO_0000035 "Centre National de Génotypage"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000035)
+AnnotationAssertion(rdfs:comment coho:COHO_0000035 "Obsoleted 2026-09-22. The Centre National de Génotypage is a French genotyping and sequencing centre, not a participant cohort. Its only hit in an EBI database is a text match of the acronym CNG to EGA study EGAS00001001825 (Institut Curie - CNG neuroblastoma whole-genome sequencing), which the human EGA review marked incorrect, and the GWAS Catalog has no CNG cohort tag. No cohort was identified for the term to be replaced by."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0000035 "obsolete Centre National de Génotypage"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0000035 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0000036 (Chicago Asthma Genetics)
 
@@ -1129,6 +1130,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000126)
 
 # Individual: coho:COHO_0000127 (NIDDK)
 
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000127 "NIDDK is the National Institute of Diabetes and Digestive and Kidney Diseases, a funding institute. The GWAS Catalog uses the cohort tag NIDDK for the NIDDK-sponsored Gastroparesis Clinical Research Consortium sample (GCST90295922), which is what this term denotes; studies that name NIDDK only as a funder (e.g. EGAS00001002937) are not this cohort."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000127 "NIDDK"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000127)
 
@@ -1176,11 +1178,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000134 "Ovarian Cancer Association Consortium"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000134)
 
-# Individual: coho:COHO_0000135 (Ovarian Cancer Study)
+# Individual: coho:COHO_0000135 (obsolete Ovarian Cancer Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000135 "OCS")
-AnnotationAssertion(rdfs:label coho:COHO_0000135 "Ovarian Cancer Study"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000135)
+AnnotationAssertion(rdfs:comment coho:COHO_0000135 "Obsoleted 2026-09-22. No study of this name could be identified. Its only hit in an EBI database is a text match of the acronym OCS to EGA study EGAS00001006555 (ovarian carcinosarcoma genomics), where OCS abbreviates ovarian carcinosarcoma; the human EGA review marked the match incorrect, and the GWAS Catalog has no OCS cohort tag. No cohort was identified for the term to be replaced by."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0000135 "obsolete Ovarian Cancer Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0000135 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0000136 (Oxford Biobank)
 
@@ -1534,6 +1537,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000192)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000193 "TwinGene")
 AnnotationAssertion(rdfs:label coho:COHO_0000193 "TwinGene Study"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000193 "TwinGene Registry")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000193)
 ObjectPropertyAssertion(coho:isSubCohortOf coho:COHO_0000193 coho:COHO_0000160)
 
@@ -1603,10 +1607,13 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000204 "The Health Effects of Arsenic Longitudinal Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000204)
 
-# Individual: coho:COHO_0000205 (TwinGene Registry)
+# Individual: coho:COHO_0000205 (obsolete TwinGene Registry)
 
-AnnotationAssertion(rdfs:label coho:COHO_0000205 "TwinGene Registry"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000205)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0000205 coho:COHO_0000193)
+AnnotationAssertion(rdfs:comment coho:COHO_0000205 "Obsoleted 2026-09-22. The term was added by hand on 2026-04-30 alongside an isSubCohortOf axiom on COHO:0000193 TwinGene Study, as the registry that study draws on; no source list or EBI database names a TwinGene Registry (the GWAS Catalog tags are TwinGene and TWINGENE, both COHO:0000193), and TwinGene is a sub-study of the Swedish Twin Registry, COHO:0000160. Replaced by COHO:0000193, which it duplicates by name; consider COHO:0000160 for the registry."@en)
+AnnotationAssertion(oboInOwl:consider coho:COHO_0000205 coho:COHO_0000160)
+AnnotationAssertion(rdfs:label coho:COHO_0000205 "obsolete TwinGene Registry"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0000205 "true"^^xsd:boolean)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:RO_0001025) coho:has_data_collection_location)

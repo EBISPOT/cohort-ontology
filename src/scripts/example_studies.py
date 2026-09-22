@@ -120,6 +120,7 @@ def evidence():
 def cohorts():
     txt = EDIT.read_text(encoding="utf-8")
     individuals = set(re.findall(r"Declaration\(NamedIndividual\(coho:(COHO_\d+)\)", txt))
+    individuals -= set(re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", txt))
     labels, names = {}, defaultdict(set)
     for prop, cid, value in re.findall(
         r'AnnotationAssertion\((?:Annotation\([^)]*\) )?(rdfs:label|oboInOwl:has\w+Synonym) coho:(COHO_\d+) "((?:[^"\\]|\\.)*)"',

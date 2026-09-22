@@ -24,17 +24,20 @@ Sources, in src/curation:
 
 Members that do not yet exist in COHO are not asserted; they are listed for the
 pass that mints new cohorts, after which re-running this script links them.
+Deprecated individuals are skipped, as aggregation or member.
 
 Usage: src/scripts/aggregation_members.py
 """
 
 import csv
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EVIDENCE = ROOT / "src/curation/aggregation_members_evidence.tsv"
 CURATED = ROOT / "src/curation/aggregation_members_curated.tsv"
 TEMPLATE = ROOT / "src/templates/aggregation_members.tsv"
+EDIT = ROOT / "src/ontology/coho-edit.owl"
 
 
 def read(path):
@@ -45,12 +48,16 @@ def read(path):
 
 
 def main():
+    deprecated = {
+        cid.replace("_", ":", 1)
+        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", EDIT.read_text(encoding="utf-8"))
+    }
     links = {}  # (aggregation, member) -> (quote, url)
     labels = {}
     pending = {}
     for r in read(EVIDENCE):
         labels[r["aggregation_id"]] = r["aggregation_label"]
-        if r["include"] != "yes" or not r["member_name"]:
+        if r["include"] != "yes" or not r["member_name"] or r["aggregation_id"] in deprecated or r["member_id"] in deprecated:
             continue
         if r["member_id"].startswith("COHO:"):
             quote, url = (r["quote"], r["source_url"]) if r["quote verified"] == "yes" else ("", "")
@@ -59,6 +66,8 @@ def main():
             pending.setdefault(r["aggregation_id"], []).append(r["member_name"])
     for r in read(CURATED):
         key = (r["aggregation_id"], r["member_id"])
+        if r["aggregation_id"] in deprecated or r["member_id"] in deprecated:
+            continue
         if r["note"].lower().startswith("remove"):
             links.pop(key, None)
         else:

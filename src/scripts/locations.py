@@ -20,11 +20,13 @@ Sources:
 The review's "correct" list is applied for wrong and incomplete verdicts and the
 asserted list is kept for correct and unverified ones. Evidence is attached only
 where the quote was verified; otherwise the assertion stands without it.
+Deprecated individuals are skipped.
 
 Usage: src/scripts/locations.py
 """
 
 import csv
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -32,6 +34,7 @@ REVIEW = ROOT / "src/curation/location_evidence.tsv"
 CURATED = ROOT / "src/curation/location_curated.tsv"
 TEMPLATE = ROOT / "src/templates/locations.tsv"
 GAZ = ROOT / "src/templates/gaz_xrefs.tsv"
+EDIT = ROOT / "src/ontology/coho-edit.owl"
 
 
 def read(path):
@@ -44,8 +47,14 @@ def read(path):
 def main():
     with open(GAZ, encoding="utf-8") as f:
         known = {r[0].split(":", 1)[1] for r in list(csv.reader(f, delimiter="\t"))[2:]}
+    deprecated = {
+        cid.replace("_", ":", 1)
+        for cid in re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", EDIT.read_text(encoding="utf-8"))
+    }
     rows = {}
     for r in read(REVIEW):
+        if r["ID"] in deprecated:
+            continue
         if r["verdict"] in ("wrong", "incomplete"):
             countries = r["correct"]
         else:
@@ -53,7 +62,8 @@ def main():
         quote, url = (r["quote"], r["URL"]) if r["quote verified"] == "yes" else ("", "")
         rows[r["ID"]] = (countries, quote, url)
     for r in read(CURATED):
-        rows[r["ID"]] = (r["countries"], r["quote"], r["URL"])
+        if r["ID"] not in deprecated:
+            rows[r["ID"]] = (r["countries"], r["quote"], r["URL"])
 
     unknown = {c for countries, _, _ in rows.values() for c in countries.split("|") if c and c not in known}
     if unknown:

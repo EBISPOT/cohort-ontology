@@ -85,7 +85,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000031>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000032>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000033>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000034>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000035>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000036>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000038>))
@@ -370,10 +369,6 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000034> <http://dbpedia.org/resource/France>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000034> <http://dbpedia.org/resource/United_States>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000268.v1.p1") Annotation(rdfs:comment "The CEPH collection includes families collected by R. White (Utah), J. Dausset (French), J. Gusella (Venezuelan), and J. Egeland (Amish).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000034> <http://dbpedia.org/resource/Venezuela>)
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000035> (<http://www.ebi.ac.uk/coho/COHO_0000035>)
-
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000035> <http://dbpedia.org/resource/France>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000036> (<http://www.ebi.ac.uk/coho/COHO_0000036>)
 
