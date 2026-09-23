@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-22/components/gaz_xrefs.owl>
-Annotation(owl:versionInfo "2026-09-22")
+<http://www.ebi.ac.uk/coho/releases/2026-09-23/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2026-09-23")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
@@ -70,6 +70,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Peru>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Poland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Polynesia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Portugal>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Qatar>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Republic_of_Ireland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Romania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Russia>))
@@ -496,6 +497,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Portugal> "Portugal")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Portugal>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Portugal> <http://dbpedia.org/resource/Europe>)
+
+# Individual: <http://dbpedia.org/resource/Qatar> (Qatar)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Qatar> "GAZ:00005286")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Qatar> "Qatar")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Qatar>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Qatar> <http://dbpedia.org/resource/Asia>)
 
 # Individual: <http://dbpedia.org/resource/Republic_of_Ireland> (Republic of Ireland)
 

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/GWAS.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-22/components/GWAS.owl>
-Annotation(owl:versionInfo "2026-09-22")
+<http://www.ebi.ac.uk/coho/releases/2026-09-23/components/GWAS.owl>
+Annotation(owl:versionInfo "2026-09-23")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -207,6 +207,108 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000201>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000202>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000203>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000204>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000366>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000367>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000368>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000369>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000370>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000371>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000372>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000373>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000374>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000375>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000376>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000377>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000378>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000379>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000380>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000381>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000382>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000383>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000384>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000385>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000386>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000387>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000388>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000389>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000390>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000391>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000392>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000393>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000394>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000395>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000396>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000397>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000398>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000399>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000400>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000401>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000402>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000403>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000404>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000405>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000406>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000407>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000408>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000409>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000410>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000411>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000412>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000413>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000414>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000415>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000416>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000417>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000418>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000419>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000420>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000421>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000422>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000423>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000424>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000425>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000426>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000427>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000428>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000429>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000430>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000431>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000432>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000433>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000434>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000435>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000436>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000437>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000438>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000439>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000440>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000441>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000442>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000443>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000444>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000445>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000446>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000447>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000448>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000449>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000450>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000451>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000452>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000453>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000454>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000455>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000456>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000457>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000458>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000459>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000464>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000465>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000466>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000467>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000468>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000469>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000472>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000473>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
 
 
@@ -1001,6 +1103,414 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000204> (<http://www.ebi.ac.uk/coho/COHO_0000204>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000204> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000366> (<http://www.ebi.ac.uk/coho/COHO_0000366>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000366> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000367> (<http://www.ebi.ac.uk/coho/COHO_0000367>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000367> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000368> (<http://www.ebi.ac.uk/coho/COHO_0000368>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000368> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000369> (<http://www.ebi.ac.uk/coho/COHO_0000369>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000369> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000370> (<http://www.ebi.ac.uk/coho/COHO_0000370>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000370> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000371> (<http://www.ebi.ac.uk/coho/COHO_0000371>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000371> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000372> (<http://www.ebi.ac.uk/coho/COHO_0000372>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000372> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000373> (<http://www.ebi.ac.uk/coho/COHO_0000373>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000373> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000374> (<http://www.ebi.ac.uk/coho/COHO_0000374>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000374> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000375> (<http://www.ebi.ac.uk/coho/COHO_0000375>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000375> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000376> (<http://www.ebi.ac.uk/coho/COHO_0000376>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000376> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000377> (<http://www.ebi.ac.uk/coho/COHO_0000377>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000377> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000378> (<http://www.ebi.ac.uk/coho/COHO_0000378>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000378> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000379> (<http://www.ebi.ac.uk/coho/COHO_0000379>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000379> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000380> (<http://www.ebi.ac.uk/coho/COHO_0000380>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000380> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000381> (<http://www.ebi.ac.uk/coho/COHO_0000381>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000381> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000382> (<http://www.ebi.ac.uk/coho/COHO_0000382>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000382> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000383> (<http://www.ebi.ac.uk/coho/COHO_0000383>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000383> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000384> (<http://www.ebi.ac.uk/coho/COHO_0000384>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000384> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000385> (<http://www.ebi.ac.uk/coho/COHO_0000385>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000385> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000386> (<http://www.ebi.ac.uk/coho/COHO_0000386>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000386> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000387> (<http://www.ebi.ac.uk/coho/COHO_0000387>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000387> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000388> (<http://www.ebi.ac.uk/coho/COHO_0000388>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000388> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000389> (<http://www.ebi.ac.uk/coho/COHO_0000389>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000389> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000390> (<http://www.ebi.ac.uk/coho/COHO_0000390>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000390> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000391> (<http://www.ebi.ac.uk/coho/COHO_0000391>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000391> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000392> (<http://www.ebi.ac.uk/coho/COHO_0000392>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000392> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000393> (<http://www.ebi.ac.uk/coho/COHO_0000393>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000393> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000394> (<http://www.ebi.ac.uk/coho/COHO_0000394>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000394> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000395> (<http://www.ebi.ac.uk/coho/COHO_0000395>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000395> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000396> (<http://www.ebi.ac.uk/coho/COHO_0000396>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000396> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000397> (<http://www.ebi.ac.uk/coho/COHO_0000397>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000397> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000398> (<http://www.ebi.ac.uk/coho/COHO_0000398>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000398> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000399> (<http://www.ebi.ac.uk/coho/COHO_0000399>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000399> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000400> (<http://www.ebi.ac.uk/coho/COHO_0000400>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000400> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000401> (<http://www.ebi.ac.uk/coho/COHO_0000401>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000401> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000402> (<http://www.ebi.ac.uk/coho/COHO_0000402>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000402> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000403> (<http://www.ebi.ac.uk/coho/COHO_0000403>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000403> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000404> (<http://www.ebi.ac.uk/coho/COHO_0000404>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000404> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000405> (<http://www.ebi.ac.uk/coho/COHO_0000405>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000405> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000406> (<http://www.ebi.ac.uk/coho/COHO_0000406>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000406> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000407> (<http://www.ebi.ac.uk/coho/COHO_0000407>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000407> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000408> (<http://www.ebi.ac.uk/coho/COHO_0000408>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000408> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000409> (<http://www.ebi.ac.uk/coho/COHO_0000409>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000409> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000410> (<http://www.ebi.ac.uk/coho/COHO_0000410>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000410> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000411> (<http://www.ebi.ac.uk/coho/COHO_0000411>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000411> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000412> (<http://www.ebi.ac.uk/coho/COHO_0000412>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000412> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000413> (<http://www.ebi.ac.uk/coho/COHO_0000413>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000413> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000414> (<http://www.ebi.ac.uk/coho/COHO_0000414>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000414> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000415> (<http://www.ebi.ac.uk/coho/COHO_0000415>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000415> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000416> (<http://www.ebi.ac.uk/coho/COHO_0000416>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000416> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000417> (<http://www.ebi.ac.uk/coho/COHO_0000417>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000417> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000418> (<http://www.ebi.ac.uk/coho/COHO_0000418>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000418> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000419> (<http://www.ebi.ac.uk/coho/COHO_0000419>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000419> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000420> (<http://www.ebi.ac.uk/coho/COHO_0000420>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000420> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000421> (<http://www.ebi.ac.uk/coho/COHO_0000421>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000421> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000422> (<http://www.ebi.ac.uk/coho/COHO_0000422>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000422> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000423> (<http://www.ebi.ac.uk/coho/COHO_0000423>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000423> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000424> (<http://www.ebi.ac.uk/coho/COHO_0000424>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000424> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000425> (<http://www.ebi.ac.uk/coho/COHO_0000425>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000425> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000426> (<http://www.ebi.ac.uk/coho/COHO_0000426>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000426> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000427> (<http://www.ebi.ac.uk/coho/COHO_0000427>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000427> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000428> (<http://www.ebi.ac.uk/coho/COHO_0000428>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000428> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000429> (<http://www.ebi.ac.uk/coho/COHO_0000429>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000429> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000430> (<http://www.ebi.ac.uk/coho/COHO_0000430>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000430> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000431> (<http://www.ebi.ac.uk/coho/COHO_0000431>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000431> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000432> (<http://www.ebi.ac.uk/coho/COHO_0000432>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000432> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000433> (<http://www.ebi.ac.uk/coho/COHO_0000433>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000433> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000434> (<http://www.ebi.ac.uk/coho/COHO_0000434>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000434> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000435> (<http://www.ebi.ac.uk/coho/COHO_0000435>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000435> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000436> (<http://www.ebi.ac.uk/coho/COHO_0000436>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000436> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000437> (<http://www.ebi.ac.uk/coho/COHO_0000437>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000437> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000438> (<http://www.ebi.ac.uk/coho/COHO_0000438>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000438> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000439> (<http://www.ebi.ac.uk/coho/COHO_0000439>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000439> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000440> (<http://www.ebi.ac.uk/coho/COHO_0000440>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000440> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000441> (<http://www.ebi.ac.uk/coho/COHO_0000441>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000441> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000442> (<http://www.ebi.ac.uk/coho/COHO_0000442>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000442> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000443> (<http://www.ebi.ac.uk/coho/COHO_0000443>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000443> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000444> (<http://www.ebi.ac.uk/coho/COHO_0000444>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000444> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000445> (<http://www.ebi.ac.uk/coho/COHO_0000445>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000445> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000446> (<http://www.ebi.ac.uk/coho/COHO_0000446>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000446> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000447> (<http://www.ebi.ac.uk/coho/COHO_0000447>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000447> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000448> (<http://www.ebi.ac.uk/coho/COHO_0000448>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000448> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000449> (<http://www.ebi.ac.uk/coho/COHO_0000449>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000449> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000450> (<http://www.ebi.ac.uk/coho/COHO_0000450>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000450> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000451> (<http://www.ebi.ac.uk/coho/COHO_0000451>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000451> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000452> (<http://www.ebi.ac.uk/coho/COHO_0000452>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000452> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000453> (<http://www.ebi.ac.uk/coho/COHO_0000453>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000453> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000454> (<http://www.ebi.ac.uk/coho/COHO_0000454>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000454> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000455> (<http://www.ebi.ac.uk/coho/COHO_0000455>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000455> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000456> (<http://www.ebi.ac.uk/coho/COHO_0000456>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000456> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000457> (<http://www.ebi.ac.uk/coho/COHO_0000457>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000457> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000458> (<http://www.ebi.ac.uk/coho/COHO_0000458>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000458> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000459> (<http://www.ebi.ac.uk/coho/COHO_0000459>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000459> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000464> (<http://www.ebi.ac.uk/coho/COHO_0000464>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000464> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000465> (<http://www.ebi.ac.uk/coho/COHO_0000465>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000465> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000466> (<http://www.ebi.ac.uk/coho/COHO_0000466>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000466> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000467> (<http://www.ebi.ac.uk/coho/COHO_0000467>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000467> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000468> (<http://www.ebi.ac.uk/coho/COHO_0000468>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000468> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000469> (<http://www.ebi.ac.uk/coho/COHO_0000469>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000469> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000472> (<http://www.ebi.ac.uk/coho/COHO_0000472>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000472> <http://www.ebi.ac.uk/coho#GWAS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000473> (<http://www.ebi.ac.uk/coho/COHO_0000473>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000473> <http://www.ebi.ac.uk/coho#GWAS_subset>)
 
 
 )

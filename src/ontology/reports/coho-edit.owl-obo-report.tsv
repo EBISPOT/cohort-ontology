@@ -6,7 +6,6 @@ WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000022	ht
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000023	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000026	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000043	http://www.ebi.ac.uk/coho/hasCohort	0
-WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000044	http://www.ebi.ac.uk/coho/hasCohort	1
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000045	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000053	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000062	http://www.ebi.ac.uk/coho/hasCohort	0
@@ -16,7 +15,6 @@ WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000071	ht
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000077	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000081	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000085	http://www.ebi.ac.uk/coho/hasCohort	1
-WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000088	http://www.ebi.ac.uk/coho/hasCohort	1
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000094	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000100	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000104	http://www.ebi.ac.uk/coho/hasCohort	0
@@ -31,7 +29,7 @@ WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000174	ht
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000177	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000180	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000201	http://www.ebi.ac.uk/coho/hasCohort	0
-WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000202	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000202	http://www.ebi.ac.uk/coho/hasCohort	1
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000209	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000213	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000219	http://www.ebi.ac.uk/coho/hasCohort	0
@@ -49,5 +47,14 @@ WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000313	ht
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000330	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000339	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000344	http://www.ebi.ac.uk/coho/hasCohort	1
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000390	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000398	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000400	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000411	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000435	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000444	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000461	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000466	http://www.ebi.ac.uk/coho/hasCohort	0
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0000472	http://www.ebi.ac.uk/coho/hasCohort	1
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/COHO_0000000	rdfs:subClassOf	
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/TEMP_temporary_unclassified	rdfs:subClassOf	
