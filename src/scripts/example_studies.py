@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """
-Pick one example study per cohort and write it as a ROBOT template
-(src/templates/example_studies.tsv), which puts it on the cohort as
+Pick the example studies of each cohort and write them as a ROBOT template
+(src/templates/example_studies.tsv), which puts each on the cohort as
 IAO:0000112 "example of usage", with the study's PMID (the first, if it has
 several) as an xref on the axiom and a title as dcterms:title on the axiom: the
 paper's, from Europe PMC, or the EGA study's own where it has no paper.
+
+A cohort in a subset (EGA, GWAS, MetaboLight, PRIDE) needs an example from that
+subset's resource: an EGA study (EGAS...), a GWAS Catalog study (GCST...), a
+MetaboLights study (MTBLS...) or a PRIDE project (PXD...). The
+subset-example-violation check in src/sparql enforces this, so a cohort in two
+subsets has two examples. Otherwise a cohort has one example.
 
 Sources, in src/curation:
   ega_studies.tsv               the EGA studies a human reviewed for cohort mentions
@@ -27,11 +33,17 @@ naming the fewest cohorts (it says most about this one), then one with a PMID,
 then the lowest accession.
 
 Cohorts left without an example are printed, with the unsupported EGA match as a
-candidate where there is one. Examples a curator has settled go in
-src/curation/example_studies_curated.tsv (ID, example study, PMID, note), which
-takes precedence over everything here. A line with a PMID but no accession gives
-the paper as the example; a line with neither means the cohort is to have none,
-which is how a wrong choice made here is rejected.
+candidate where there is one, and so are the subset members that lack an example
+from their subset's resource, with the studies the tables here suggest. Examples
+a curator has settled go in src/curation/example_studies_curated.tsv (ID, example
+study, PMID, note, quote, URL, title), which takes precedence over everything here: a
+cohort with curated lines gets exactly those examples and no automatic one, so a
+cohort that needs a second example has both written there. A line with a PMID
+but no accession gives the paper as the example; a line with neither means the
+cohort is to have none, which is how a wrong choice made here is rejected. The
+quote and URL, where given, are the evidence that the study used the cohort;
+the title, where given, is used when the study has no paper (a MetaboLights study
+or PRIDE project without a PMID, say).
 
 Paper titles are kept in src/curation/example_studies_titles.tsv, so only PMIDs
 not yet in it are looked up.
@@ -76,6 +88,14 @@ def norm(s):
 
 def accession_key(acc):
     return int(re.sub(r"\D", "", acc) or 0)
+
+
+RESOURCES = {"EGA": r"EGAS\d+", "GWAS": r"GCST\d+", "MetaboLight": r"MTBLS\d+", "PRIDE": r"PXD\d+"}
+
+
+def resource(acc):
+    """The subset whose resource an example study comes from, or '' for a paper."""
+    return next((s for s, pat in RESOURCES.items() if re.fullmatch(pat, acc or "")), "")
 
 
 def rows(path):
@@ -178,27 +198,31 @@ def main():
     ega, ega_weak = candidates(ega_matches, ega_pmids, ega_supported)
     gwas, _ = candidates(gwas_matches, gwas_pmid)
 
-    curated = {}
+    curated = defaultdict(list)  # cohort -> [(accession, pmid, quote, URL, title)], one line per example
     if CURATED.exists():
         with open(CURATED, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
-                curated[r["ID"].replace(":", "_")] = (r["example study"].strip(), (r["PMID"] or "").strip())
+                curated[r["ID"].replace(":", "_")].append(
+                    (r["example study"].strip(), (r["PMID"] or "").strip().removeprefix("PMID:"),
+                     (r.get("quote") or "").strip(), (r.get("URL") or "").strip(), (r.get("title") or "").strip())
+                )
 
-    chosen = {}  # cohort -> (accession, pmid, source)
+    chosen = defaultdict(list)  # cohort -> [(accession, pmid, source, quote, URL, title)]
     for cid in sorted(labels):
         if cid in curated:
-            acc, pmid = curated[cid]
-            if acc or pmid:
-                chosen[cid] = (acc, pmid.removeprefix("PMID:"), "curated")
+            for acc, pmid, quote, url, title in curated[cid]:
+                if acc or pmid:
+                    chosen[cid].append((acc, pmid, "curated", quote, url, title))
             continue
         for source, cands, pmids in (("EGA", ega, ega_pmids), ("GWAS Catalog", gwas, gwas_pmid)):
             if cands.get(cid):
                 acc = min(cands[cid])[-1]
-                chosen[cid] = (acc, (pmids.get(acc) or [""])[0], source)
+                chosen[cid].append((acc, (pmids.get(acc) or [""])[0], source, "", "", ""))
                 break
 
-    titles = paper_titles(pmid for _, pmid, _ in chosen.values() if pmid)
-    untitled = sorted({pmid for _, pmid, _ in chosen.values() if pmid and pmid not in titles})
+    examples = [e for es in chosen.values() for e in es]
+    titles = paper_titles(pmid for _, pmid, *_ in examples if pmid)
+    untitled = sorted({pmid for _, pmid, *_ in examples if pmid and pmid not in titles})
     if untitled:
         print("no title found for PMID " + ", ".join(untitled), file=sys.stderr)
 
@@ -208,13 +232,13 @@ def main():
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "example study", "PMID", "title", "evidence", "evidence source", "source"])
         w.writerow(["ID", "TYPE", "", "A IAO:0000112", ">A oboInOwl:hasDbXref", ">A dcterms:title", ">A rdfs:comment", ">A oboInOwl:hasDbXref", ""])
-        for cid, (acc, pmid, source) in chosen.items():
-            title = titles.get(pmid) or ega_title.get(acc, "")
+        for cid, es in chosen.items():
             curie = cid.replace("_", ":")
-            quote, url = "", ""
-            if curie in ev and ev[curie][2] == acc and ev[curie][3] == (f"PMID:{pmid}" if pmid else ""):
-                quote, url = ev[curie][:2]  # evidence is for this very study, not an earlier choice
-            w.writerow([curie, "owl:NamedIndividual", labels[cid], acc or f"PMID:{pmid}", f"PMID:{pmid}" if pmid else "", title, quote, url, source])
+            for acc, pmid, source, quote, url, given_title in es:
+                title = titles.get(pmid) or given_title or ega_title.get(acc, "")
+                if not (quote and url) and curie in ev and ev[curie][2] == acc and ev[curie][3] == (f"PMID:{pmid}" if pmid else ""):
+                    quote, url = ev[curie][:2]  # evidence is for this very study, not an earlier choice
+                w.writerow([curie, "owl:NamedIndividual", labels[cid], acc or f"PMID:{pmid}", f"PMID:{pmid}" if pmid else "", title, quote, url, source])
 
     subsets = defaultdict(list)
     for s in SUBSETS:
@@ -228,6 +252,15 @@ def main():
         cand = min(ega_weak[cid])[-1] if ega_weak.get(cid) else ""
         note = f"  candidate {cand} ({ega_title.get(cand, '')[:60]})" if cand else ""
         print(f"  {cid.replace('_', ':')} {labels[cid]} [{'|'.join(subsets[cid])}]{note}")
+
+    # subset members without an example from their subset's resource
+    suggest = {"EGA": lambda c: [r[-1] for r in sorted(ega.get(c, []) + ega_weak.get(c, []))], "GWAS": lambda c: [r[-1] for r in sorted(gwas.get(c, []))]}
+    gaps = [(s, c) for c in sorted(labels) for s in subsets[c] if s not in {resource(e[0]) for e in chosen.get(c, [])}]
+    print(f"{len(gaps)} subset memberships without an example from the subset's resource:")
+    for s, cid in gaps:
+        cands = list(dict.fromkeys(suggest[s](cid)))[:3] if s in suggest else []
+        note = f"  candidates {', '.join(cands)}" if cands else ""
+        print(f"  {s} {cid.replace('_', ':')} {labels[cid]}{note}")
 
 
 if __name__ == "__main__":

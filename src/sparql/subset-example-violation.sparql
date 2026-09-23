@@ -1,0 +1,29 @@
+# A cohort in a subset needs an example study from that subset's resource:
+# an EGA study (EGAS...), a GWAS Catalog study (GCST...), a MetaboLights study
+# (MTBLS...) or a PRIDE project (PXD...). The examples come from the
+# example_studies component; a cohort in two subsets has two examples.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX cohosubset: <http://www.ebi.ac.uk/coho#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?label ?subset
+WHERE {
+  VALUES (?subset ?pattern) {
+    (cohosubset:EGA_subset "^EGAS[0-9]+$")
+    (cohosubset:GWAS_subset "^GCST[0-9]+$")
+    (cohosubset:MetaboLight_subset "^MTBLS[0-9]+$")
+    (cohosubset:PRIDE_subset "^PXD[0-9]+$")
+  }
+  ?term oboInOwl:inSubset ?subset .
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+  FILTER NOT EXISTS {
+    ?term obo:IAO_0000112 ?example .
+    FILTER(REGEX(STR(?example), ?pattern))
+  }
+}
+ORDER BY ?term ?subset

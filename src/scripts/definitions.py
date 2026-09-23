@@ -78,7 +78,7 @@ def main():
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by"])
-        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119", ">A dcterms:contributor", ">A dcterms:contributor"])
+        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119 SPLIT=|", ">A dcterms:contributor", ">A dcterms:contributor"])
         for cid in sorted(rows):
             definition, source, drafted, checked = rows[cid]
             w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), definition, source, drafted, checked])
