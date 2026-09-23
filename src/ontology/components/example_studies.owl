@@ -534,7 +534,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000525>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000526>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000527>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000528>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000529>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000530>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000531>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000532>))
@@ -3102,7 +3101,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Common genetic 
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000499> (<http://www.ebi.ac.uk/coho/COHO_0000499>)
 
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "GWAS meta-analysis of cerebrospinal fluid Alzheimer's biomarkers reveals loci regulating lipids, brain volume and autophagy.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42014397") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13402690/fullTextXML") Annotation(rdfs:comment "the Minority Aging Research Study (MARS, R01 AG22018, R01 AG42210)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000499> "GCST90726396")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sex-specific genetic architecture of late-life memory performance.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37984853") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC10917043/unicode") Annotation(rdfs:comment "Religious Orders Study (ROS)/Rush Memory and Aging Project (MAP)/Minority Aging Research Study (MARS)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000499> "GCST90448418")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000500> (<http://www.ebi.ac.uk/coho/COHO_0000500>)
 
@@ -3114,7 +3113,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A comprehensive
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000502> (<http://www.ebi.ac.uk/coho/COHO_0000502>)
 
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A functional genomics approach in Tanzanian population identifies distinct genetic regulators of cytokine production compared to European population.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35167808") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13071459/fullTextXML") Annotation(rdfs:comment "Using genome-wide single-nucleotide polymorphisms (SNPs) and cytokine production data from the Netherlands (500FG) and Tanzania (300TZFG) cohorts,39,40,41 we performed sex-stratified cytokine quantitative trait loci (cQTL) mapping, colocalization, and pathway enrichment analyses.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000502> "GCST90308605")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A functional genomics approach in Tanzanian population identifies distinct genetic regulators of cytokine production compared to European population.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35167808") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/articles/PMC8948159?pdf=render") Annotation(rdfs:comment "Data from the 300 Tanzania functional genomics (FG) (300TZFG) were used in this study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000502> "GCST90308605")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000503> (<http://www.ebi.ac.uk/coho/COHO_0000503>)
 
@@ -3219,10 +3218,6 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sex differences
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000528> (<http://www.ebi.ac.uk/coho/COHO_0000528>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Deciphering osteoarthritis genetics across 826,690 individuals from 9 populations.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34450027") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8459317/fullTextXML") Annotation(rdfs:comment "The ARGO study, was set up to investigate the genetic architecture of hip and knee OA in a Greek population.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000528> "GCST90034520")
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000529> (<http://www.ebi.ac.uk/coho/COHO_0000529>)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification of Genetic Markers Linked to The Activity of Indoleamine 2,3-Dioxygenase and Kidney Function.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37110199") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10144659/fullTextXML") Annotation(rdfs:comment "This study evaluated the association between IDO activity and CKD using the Korea Association REsource (KARE) cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000529> "GCST90277417")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000530> (<http://www.ebi.ac.uk/coho/COHO_0000530>)
 
@@ -3521,7 +3516,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000603> (<http://www.ebi.ac.uk/coho/COHO_0000603>)
 
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association analysis of venous thromboembolism identifies new risk loci and genetic overlap with arterial vascular disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31676865") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC6858581/") Annotation(rdfs:comment "Data used in this analysis included genetic data from WHI-HT participants derived from three separate GWAS sub-studies: 1) the WHI Genomics and Randomized Trials Network study (WHI-GARNET, 457 incident VTE events among 4,233 participants), (2) the WHI Memory Study (WHIMS, 180 incident VTE events among 5,637 participants), and (3) the WHI Long Life Study (WHI-LLS, 53 incident VTE events among 1,105 participants).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000603> "GCST009097")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide gene-sleep interaction study identifies novel lipid loci in 732,564 participants.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41325697") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/instance/12757440/bin/NIHMS2129447-supplement-Supplementary_Tables.xlsx") Annotation(rdfs:comment "Women's Health Initiative (WHI memory study)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000603> "GCST90837567")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Validation of fracture-derived polygenic scores with FRAX for fracture risk prediction in postmenopausal women.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42509442") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13408118/fullTextXML") Annotation(rdfs:comment "Model development and internal validation were conducted using participants from the Genomics and Randomized Trials Network (WHI-GARNET), the WHI Memory Study (WHI-MS), and the SNP Health Association Resource (WHI-SHARe).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000603> "PMID:42509442")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000604> (<http://www.ebi.ac.uk/coho/COHO_0000604>)

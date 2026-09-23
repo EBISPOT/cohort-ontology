@@ -22,6 +22,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Bangladesh>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Barbados>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Belgium>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Brazil>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Bulgaria>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Burkina_Faso>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Cameroon>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Canada>))
@@ -92,6 +93,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Republic_of_Ireland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Romania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Russia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Saudi_Arabia>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Serbia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Singapore>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Slovakia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/South-Eastern_Asia>))
@@ -187,6 +189,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Brazil> "Brazil")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Brazil>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Brazil> <http://dbpedia.org/resource/SouthAmerica>)
+
+# Individual: <http://dbpedia.org/resource/Bulgaria> (Bulgaria)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Bulgaria> "GAZ:00002950")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Bulgaria> "Bulgaria")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Bulgaria>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Bulgaria> <http://dbpedia.org/resource/Europe>)
 
 # Individual: <http://dbpedia.org/resource/Burkina_Faso> (Burkina Faso)
 
@@ -673,6 +682,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Saudi_Arabia> "Saudi Arabia")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Saudi_Arabia>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Saudi_Arabia> <http://dbpedia.org/resource/Asia>)
+
+# Individual: <http://dbpedia.org/resource/Serbia> (Serbia)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Serbia> "GAZ:00002957")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Serbia> "Serbia")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Serbia>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Serbia> <http://dbpedia.org/resource/Europe>)
 
 # Individual: <http://dbpedia.org/resource/Singapore> (Singapore)
 
