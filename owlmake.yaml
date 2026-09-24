@@ -1,5 +1,4 @@
 min_owlmake_version: 0.3.2
-emulate_odk_version: 1.6.1
 id: coho
 title: Cohort Ontology
 github_org: EBISPOT
@@ -123,7 +122,25 @@ targets:
     command: python3 ../scripts/cohort_map.py
     requires:
     - python3
+- target: src/ontology/tmp/coho-cohorts.nt
+  input: src/ontology/coho-edit.owl
+  needs:
+  - src/ontology/coho-edit.owl
+  - all_components
+  steps:
+  - op: merge
+- target: coho-cohorts.csv
+  needs:
+  - src/ontology/tmp/coho-cohorts.nt
+  - src/templates/definitions.tsv
+  - src/scripts/cohort_table.py
+  steps:
+  - op: shell
+    command: python3 ../scripts/cohort_table.py
+    requires:
+    - python3
 - target: prepare_release
   extends: true
   needs:
   - docs/images/cohort-map.svg
+  - coho-cohorts.csv

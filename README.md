@@ -4,6 +4,10 @@ A lightweight ontology for consistent identification and description of human co
 
 ![Map of where COHO's cohorts recruited, with each country shaded by its number of cohorts](docs/images/cohort-map.svg)
 
+### The cohorts as a table
+
+[coho-cohorts.csv](coho-cohorts.csv) lists every cohort, cohort aggregation and uncurated placeholder with its names, definition, subsets, example studies, data collection locations, sub-cohorts and aggregations, and the sources of each, one row per term. Each release rewrites it.
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/coho-edit.owl](src/ontology/coho-edit.owl)
@@ -16,6 +20,4 @@ COHO is built with [owlmake](https://github.com/EBISPOT/owlmake) from [owlmake.y
 
 Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/cohort-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
-## Acknowledgements
 
-This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit), and is built with [owlmake](https://github.com/EBISPOT/owlmake).

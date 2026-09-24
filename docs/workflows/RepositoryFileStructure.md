@@ -9,7 +9,7 @@ The main kinds of files in the repository:
 5. [Components](#components)
 
 ## Release files
-Release file are the file that are considered part of the official ontology release and to be used by the community. They are at the top of the repository: `coho.owl` and `coho.obo` (the primary release, the same as `coho-full.owl`), `coho-full.owl` (the ontology with its imports, classified) and `coho-base.owl` (only the axioms that belong to COHO itself).
+Release file are the file that are considered part of the official ontology release and to be used by the community. They are at the top of the repository: `coho.owl` and `coho.obo` (the primary release, the same as `coho-full.owl`), `coho-full.owl` (the ontology with its imports, classified) and `coho-base.owl` (only the axioms that belong to COHO itself). `coho-cohorts.csv` is the same cohorts as a table, one row per term (`src/scripts/cohort_table.py`).
 
 ## Imports
 Imports are subsets of external ontologies that contain terms and axioms you would like to re-use in your ontology. These are considered "external", like dependencies in software development, and are not included in your "base" product, the release file which contains only those axioms that you personally maintain.

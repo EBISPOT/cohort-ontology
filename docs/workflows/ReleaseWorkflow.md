@@ -26,7 +26,7 @@ To actually run the release, you:
 3. If everything went well, the output ends with `published 12 release file(s)` and `done.`
 
 This will create all the specified release targets (OBO, OWL, JSON, and the variants, coho-full and coho-base) and copy them into your release directory (the top level of your repo).
-It also redraws the map in the README of where the cohorts recruited, `docs/images/cohort-map.svg`, from the release's data collection locations (`src/scripts/cohort_map.py`), so commit it with the release files.
+It also redraws the map in the README of where the cohorts recruited, `docs/images/cohort-map.svg`, from the release's data collection locations (`src/scripts/cohort_map.py`), and rewrites `coho-cohorts.csv`, the table of the cohorts and their metadata, from the edit file and its components (`src/scripts/cohort_table.py`). Commit both with the release files.
 
 ## Review the release
 
@@ -48,6 +48,7 @@ Once your [CI checks](QualityControl.md#continuous-integration) have passed, and
 1. Go to your releases page on GitHub by navigating to your repository, and then clicking on releases (usually on the right, for example: https://github.com/EBISPOT/cohort-ontology/releases). Then click "Draft new release"
 1. As the tag version you **need to choose the date on which your ontologies were build.** You can find this, for example, by looking at the `coho.obo` file and check the `data-version:` property. The date needs to be prefixed with a `v`, so, for example `v2020-02-06`.
 1. You can write whatever you want in the release title, but we typically write the date again. The description underneath should contain a concise list of changes or term additions.
+1. Attach the release files, `coho-cohorts.csv` among them.
 1. Click "Publish release". Done.
 
 ## Debugging typical ontology release problems
