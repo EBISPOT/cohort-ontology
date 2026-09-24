@@ -1,7 +1,6 @@
 ID,TYPE,subset,label
 ID,TYPE,AI oboInOwl:inSubset,
 COHO:0001627,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Connecticut Ovary Study
-COHO:0001633,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Cancer Research UK - Cambridge Research Institute
 COHO:0001634,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,CSGA
 COHO:0001635,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Center for Translational Molecular Medicine
 COHO:0001636,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,California Teachers Study
@@ -27,7 +26,6 @@ COHO:0001663,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Dana-Farbe
 COHO:0001669,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Deutsches Krebsforschungszentrum (German Cancer Research Center)
 COHO:0001670,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Danish Longevity Study
 COHO:0001671,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,DNA Lacunar 2
-COHO:0001672,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Department of Neurology, Medical University of Vienna"
 COHO:0001674,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Dutch heterozygous familial hypercholesterolemia screening program
 COHO:0001675,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,European American and Poland Extreme Height panels
 COHO:0001677,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Edinburgh artery study
@@ -190,7 +188,6 @@ COHO:0001842,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,U.S.A. Hum
 COHO:0001843,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Harvard Biomarkers Study
 COHO:0001844,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hispanic Colorectal Cancer Study
 COHO:0001845,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hwasun Cancer Epidemiology Study-Colon and Rectum Cancer
-COHO:0001846,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hospital Clinico San Carlos
 COHO:0001847,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,High Density SNP Association Analysis of Melanoma
 COHO:0001848,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Health2 Study
 COHO:0001849,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Helsinki Breast Cancer Study
@@ -203,7 +200,6 @@ COHO:0001855,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hertfordsh
 COHO:0001856,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Health, Risk Factors, Training and Genetics Family Study"
 COHO:0001857,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Heart Failure: a Controlled Trial Investigating Outcomes of Exercise Training
 COHO:0001858,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Health Habits and Opinions study
-COHO:0001859,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hussman Institute of Human Genomics
 COHO:0001860,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hispanic/Latino Anthropometry Consortium
 COHO:0001861,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hannover-Jena Endometrial Cancer Study
 COHO:0001862,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hannover-Jena Ovarian Cancer Study
@@ -225,7 +221,6 @@ COHO:0001877,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hannover-U
 COHO:0001878,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hebrew university geneomic resource AJ schizophrenia case-control sample
 COHO:0001879,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Molecular Genetic Studies of Breast and Ovarian Cancer in Hungary
 COHO:0001880,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hannover-Ufa Ovarian Cancer Study
-COHO:0001881,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hospital Universitari Vall dHebron
 COHO:0001882,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hypergenes - European Network for Genetic-Epidemological Studies
 COHO:0001884,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Integrating Biology & the Bedside
 COHO:0001885,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Atrioventricular Block Sample
@@ -244,7 +239,6 @@ COHO:0001897,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Internatio
 COHO:0001898,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Consortium on the Genetics of Heroin Dependence - Research on Alcohol and Tobacco Related Phenotypes
 COHO:0001899,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International COPD Genetics Network
 COHO:0001900,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Study to Investigate the Genetics on In Situ Carcinoma of the Ductal
-COHO:0001901,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Institut Català d'Oncologia
 COHO:0001902,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Collaborative Study on Hypertension in Blacks
 COHO:0001903,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hospital Clinic-IDIBAPS Acute/Recent HIV-1 Infection Cohort
 COHO:0001904,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic ECG study sample
@@ -255,12 +249,10 @@ COHO:0001908,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Interactio
 COHO:0001909,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Hereditary Cancer Centre
 COHO:0001910,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Intern Health Study
 COHO:0001911,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Kidney Stone Disease Registry at LUH
-COHO:0001912,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Infanta Leonor University Hospital (Madrid, Spain)"
 COHO:0001913,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Iwate Tohoku Medical Megabank
 COHO:0001914,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,IMPROVE
 COHO:0001915,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Multiple Sclerosis Genetics Consortium UK
 COHO:0001916,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Multiple Sclerosis Genetics Consortium US
-COHO:0001917,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,French National Cancer Institute
 COHO:0001918,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Indiana cohort
 COHO:0001919,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Indian Diabetes Consortium
 COHO:0001920,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Industrial Cohorts Research Group
@@ -274,7 +266,6 @@ COHO:0001927,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Interphone
 COHO:0001928,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Instituto Oncologico Veneto Hereditary Breast and Ovarian Cancer Study
 COHO:0001929,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Iowa-Mayo SPORE Molecular Epidemiology Resource
 COHO:0001930,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Identifying Prostate Cancer Genes
-COHO:0001931,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Charles R Bronfman Institute for Personalized Medicine - IPM / BioBank Genome Wide Association Study of Cardiovascular, Renal and Metabolic Phenotypes"
 COHO:0001932,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Portuguese Oncology Institute-Porto Breast Cancer Study
 COHO:0001933,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,IPO-Porto Prostate Cancer study
 COHO:0001934,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Pacemaker Population Sample
@@ -286,7 +277,6 @@ COHO:0001939,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stanford I
 COHO:0001940,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Multicenter Italian study on gene-environment interactions in lymphoma etiology: translational aspects
 COHO:0001941,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Jamaican Adolescent Asthma Study
 COHO:0001942,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Japanese Centenarian Study
-COHO:0001943,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratorys British case collection
 COHO:0001944,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Japanese Genetic Consortium for Alzheimer Disease
 COHO:0001946,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Johns Hopkins Sibling and Family Heart Study
 COHO:0001947,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Johns Hopkins University School of Medicine Atrial Fibrillation Genetics Study
@@ -299,7 +289,6 @@ COHO:0001953,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Kanagawa C
 COHO:0001954,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Karelia Allergy Study
 COHO:0001955,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"French West Indies Prostate cancer Study (from Karukera, the original Caribbean name of Guadeloupe)"
 COHO:0001956,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Kawasaki Aging and Wellbeing Project
-COHO:0001957,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,National Institute of Health launched the Korea Biobank Array project
 COHO:0001958,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Korean Brain Aging Study for the Early Diagnosis and Prediction of AD
 COHO:0001959,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Kuopio Breast Cancer Project
 COHO:0001960,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Kathleen Cuningham Foundation Consortium for research into Familial Breast Cancer/Australian Ovarian Cancer Study
@@ -357,7 +346,6 @@ COHO:0002016,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,LOOP study
 COHO:0002017,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Leukaemia Research CLL-4 trial
 COHO:0002019,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Lovelace Smokers Cohort
 COHO:0002020,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Lung Cancer in the Young study
-COHO:0002021,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Landspitali University Hospital, Reykjavik"
 COHO:0002023,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Lutherstadt Wittenberg study
 COHO:0002024,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Lutherstadt Wittenberg Bladder Cancer Study
 COHO:0002025,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Macedonian Breast Cancer Study
@@ -365,7 +353,6 @@ COHO:0002026,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Ohio S
 COHO:0002027,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,GWA Meta-Analysis on Fat Distribution
 COHO:0002028,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mexican-American families EBNA-1 GWAS
 COHO:0002029,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Multicenter Asthma Genetics in Childhood Study
-COHO:0002030,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mid-America Heart Institute
 COHO:0002031,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Danish Malignant Ovarian Tumor Study
 COHO:0002032,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Malignant Ovarian Cancer Study
 COHO:0002033,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Sydney Memory and Ageing Study
@@ -403,7 +390,6 @@ COHO:0002066,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mexican Hy
 COHO:0002068,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,MIDSPAN Family Study
 COHO:0002069,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Myocardial Infarction Genetics Consortium
 COHO:0002070,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Microarray In Node-Negative and 1 to 3 Positive Lymph Node Disease May Avoid Chemotherapy Study
-COHO:0002071,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Malawi-Liverpool Wellcome Clinical Research Programme, Blantyre"
 COHO:0002072,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Michigan, Mayo, Age-Related Eye Disease Study, Pennsylvania"
 COHO:0002073,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mayo Clinic Ovarian Cancer Study
 COHO:0002074,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Modena Cohort
@@ -430,7 +416,6 @@ COHO:0002096,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mid-South 
 COHO:0002097,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Montreal Gene-Environment Breast Cancer Study
 COHO:0002098,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Minnesota Twin Family Registry
 COHO:0002099,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Munich Myocardial Infarction Registry
-COHO:0002100,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Medical University of Vienna
 COHO:0002101,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,MXB
 COHO:0002102,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Myopia Genomics Study
 COHO:0002103,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Malaysia Ovarian Cancer Genetic Study
@@ -476,11 +461,9 @@ COHO:0002143,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Singapore 
 COHO:0002144,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Nurses Health Study, Adenoma Set"
 COHO:0002145,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NHS-egems
 COHO:0002146,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NHS-Hu
-COHO:0002147,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,National Institute on Aging
 COHO:0002148,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Norfolk Island Cohort
 COHO:0002149,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,National Israeli Cancer Control Center
 COHO:0002150,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Israel Lung Cancer Study
-COHO:0002151,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Northern Institute for Cancer Research
 COHO:0002152,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nigerian cohort
 COHO:0002153,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Norfolk Island Health Study
 COHO:0002155,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NIMH Intramural Research Program
@@ -489,15 +472,12 @@ COHO:0002157,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Disorders 
 COHO:0002158,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NIOSH_AGCC
 COHO:0002159,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shenzhen Maternal and Neonatal NIPT PLUS cohort
 COHO:0002160,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,New Jersey Ovarian Cancer Study
-COHO:0002161,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Colorado Health Center/National Jewish Research Center and Arkansas Childrens Hospital
 COHO:0002162,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nanjing Study
 COHO:0002163,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Project Mine (Netherlands NL4 controls)
 COHO:0002164,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nijmegen Lung and Bladder Cancer
 COHO:0002165,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nijmegen Lung Cancer Study
 COHO:0002166,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Norwegian Mother, Father and Child Cohort Study"
 COHO:0002167,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nashville Men's Health Study
-COHO:0002168,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Navrongo Memorial Institute
-COHO:0002169,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,N.N. Petrov Institute of Oncology
 COHO:0002170,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nijmegen Ovarian Cancer Study
 COHO:0002171,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ehime University site
 COHO:0002172,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NordicDB
@@ -514,7 +494,6 @@ COHO:0002182,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nambour Sk
 COHO:0002183,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,National Study of Endometrial Cancer Genetics
 COHO:0002184,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Network for the Study of Ovarian Dysfunction
 COHO:0002185,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nottingham Sib Pair Asthma study
-COHO:0002186,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,North Shore University Health System
 COHO:0002187,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,NSW non-Hodgkin lymphoma study
 COHO:0002188,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nijmegen Thyroid Cancer Cohort
 COHO:0002189,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Northeastern Taiwan Community Medicine Research Cohort
@@ -527,11 +506,9 @@ COHO:0002195,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Oulu Breas
 COHO:0002196,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ohio Colorectal Cancer Prevention Initiative
 COHO:0002197,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ontario Cancer Genetics Network
 COHO:0002198,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ovarian Cancer Study
-COHO:0002199,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Oncology Department of Zaragoza Hospital
 COHO:0002200,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ontario Registry for Studies of Familial Colorectal Cancer
 COHO:0002201,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ogliastra Genetic Park
 COHO:0002202,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ottawa Heart Genomics Study
-COHO:0002203,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ohio State University
 COHO:0002204,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ottawa Heart Study
 COHO:0002205,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Ocular Hypertension Treatment Study
 COHO:0002206,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Osaka-Midosuji Rotary Club
@@ -553,12 +530,10 @@ COHO:0002224,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Oxford End
 COHO:0002225,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Progression to Insulin Deficiency: South West England Cohort
 COHO:0002226,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pacific Study
 COHO:0002227,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Multicenter Japanese paroxysmal atrial fibrillation case-control cohort
-COHO:0002228,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Princess Alexandra Hospital
 COHO:0002229,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PANDoRA consortium
 COHO:0002230,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PANKRAS-II
 COHO:0002231,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pharmacogenomics and Risk of Cardiovascular Disease Study
 COHO:0002232,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Parkinsons, Genes and Environment"
-COHO:0002233,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Groupe hospitalier Pitieåä- Salpe_trie`re Paris
 COHO:0002234,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Parkwest
 COHO:0002235,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Predictive Values of Blood Pressure and Arterial Stiffness in Institutionalized Very Aged Population (PARTAGE) Study
 COHO:0002236,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prostate Active Surveillance Study
@@ -579,7 +554,6 @@ COHO:0002250,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PGPD
 COHO:0002251,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pharmacogenetics of Acute Coronary Syndrome
 COHO:0002252,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PHArmacogenetic study of Statin in the Elderly at risk
 COHO:0002253,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Mass General Brigham - Host Vulnerability to COVID-19
-COHO:0002254,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pirkanmaa Hospital District
 COHO:0002255,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Philadelphia cohort
 COHO:0002256,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pisa Breast Cancer Study
 COHO:0002257,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Portuguese Island Collection
@@ -597,7 +571,6 @@ COHO:0002268,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Primary Op
 COHO:0002270,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Nijmegen Polygene Study & Nijmegen Biomedical Study
 COHO:0002271,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer Study
 COHO:0002272,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PostCep Study
-COHO:0002273,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prince of Wales Hospital Diabetes Registry
 COHO:0002274,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Prostate Project Foundation - Postgraduate Medical School, Surrey"
 COHO:0002275,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prostate Cancer Genetics in Galacia
 COHO:0002276,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Systemic Autoimmune Diseases: Inception Cohort (PRECISESADSI)
@@ -620,7 +593,6 @@ COHO:0002292,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prostate C
 COHO:0002293,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PRevention of OVArian cancer in Quebec
 COHO:0002294,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,PROVE IT–TIMI 22
 COHO:0002295,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pharma SNP Consortium
-COHO:0002296,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Program in Sleep at Emory University
 COHO:0002297,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Perlegen Sciences Genotyped Discovery Samples
 COHO:0002298,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Pumwani Sex Workers Cohort
 COHO:0002299,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Prospective Urban and Rural Epidemiology
@@ -644,7 +616,6 @@ COHO:0002316,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Resour
 COHO:0002317,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Risk Evaluation of Viral Load Elevation and Associated Liver Disease/Cancer-Hepatitis B Virus study
 COHO:0002318,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Risk Factors for Prostate Cancer Study
 COHO:0002319,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,RuiJin T2D Study
-COHO:0002320,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Royal Marsden Hospital Study
 COHO:0002321,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Royal Marsden Hospital Breast Cancer Cases
 COHO:0002322,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Royal Marsden Hospital Ovarian Cancer Study
 COHO:0002323,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Royal Marsden Hospital Trust/Institute of Cancer Research Family History and DNA Registry
@@ -657,7 +628,6 @@ COHO:0002329,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Rotterdam 
 COHO:0002330,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Roswell Park Cancer Institute
 COHO:0002331,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Rugao Longevity and Ageing Study
 COHO:0002332,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Rural cohort
-COHO:0002333,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Rush University Medical Centre- Memory and Aging Project
 COHO:0002334,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Russian Multi-Cancer-Case-Control Study
 COHO:0002335,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,San Antonio Center of Biomarkers of Risk for Prostate Cancer
 COHO:0002336,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,San Antonio Family Diabetes/Gallbladder Study
@@ -683,7 +653,6 @@ COHO:0002355,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,South Caro
 COHO:0002356,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai Diabetes Genetic Study
 COHO:0002357,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Study of Digestive Health
 COHO:0002358,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai DIabetes Inpatient Database
-COHO:0002359,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Service de Neurologie Mazarin, Groupe Hospitalier Pitié-Salpêtrière Paris"
 COHO:0002360,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stockholm Diabetes Prevention Program
 COHO:0002361,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Study of the Effectiveness of Additional Reductions in Cholesterol and Homocysteine
 COHO:0002362,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK SEARCH Ovarian Cancer Study
@@ -700,14 +669,11 @@ COHO:0002373,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai G
 COHO:0002374,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,SNP Health Associated Resource
 COHO:0002375,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stockholm Heart Epidemiology Program
 COHO:0002376,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Sleep Heart Health Study
-COHO:0002377,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Sheba Medical Centre
 COHO:0002378,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Singapore Indian Chinese Cohort
 COHO:0002379,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai Institute of Hypertension GWAS
 COHO:0002380,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Sikh GWAS
 COHO:0002381,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Silk Road
 COHO:0002382,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Sisters Study
-COHO:0002383,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,St. Jude Childrens Research Hospital
-COHO:0002384,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai Jiao Tong University
 COHO:0002385,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Shanghai Jiao Tong University Diabetes Study
 COHO:0002386,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,St_dtisches Klinikum Karlsruhe Deutsches Krebsforschungszentrum Study
 COHO:0002387,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,South Korea Multi-Center Lung Cancer Study
@@ -726,9 +692,7 @@ COHO:0002399,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Stabil
 COHO:0002400,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Southern Ontario Ovarian Cancer Study
 COHO:0002401,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Swedish Obese Subjects Study
 COHO:0002402,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Serum Proteomic analysis for biomarkers of Aggressive prostate disease in the Guernsey population
-COHO:0002403,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"The Spanish study (University Hospital of Bellvitge, Hospital of Leon)"
 COHO:0002404,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Determining the Molecular Pathways and Genetic Predisposition of the Acute Inflammatory Process Caused by SARS-CoV-2
-COHO:0002405,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Northwestern Universitys Prostate Cancer Specialized Program of Research Excellence
 COHO:0002406,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Secondary Prevention of Small Subcortical Strokes
 COHO:0002407,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stroke Registry
 COHO:0002408,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Scottish Randomised Trial in Ovarian Cancer
@@ -737,7 +701,6 @@ COHO:0002410,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genomic ep
 COHO:0002411,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Strabismus, Amblyopia and Refractive Error Study"
 COHO:0002412,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Singapore Translational and Clinical Research in Psychosis
 COHO:0002413,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Stockholm Study
-COHO:0002414,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stollery Children’s Hospital Coeliac Clinic
 COHO:0002415,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Special Turku Coronary Risk Factor Intervention Project
 COHO:0002416,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Simultaneous Study of Gemcitabine-Docetaxel Combination adjuvant treatment
 COHO:0002417,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Simultaneous Study of Docetaxel Based Anthracycline Free Adjuvant Treatment Evaluation
@@ -774,7 +737,6 @@ COHO:0002447,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Tennessee 
 COHO:0002448,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Environmental Determinants of Diabetes in the Young (TEDDY) study
 COHO:0002449,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Epidemiology and Natural History of Asthma: Outcomes and Treatment Regimens (TENOR) study
 COHO:0002450,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Twins Eye Study in Tasmania
-COHO:0002451,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Texas-GWA study
 COHO:0002452,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Twin families EBNA-1 genome-wide association study
 COHO:0002453,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Gothenburg Study
 COHO:0002454,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Taiwan Genome Wide Association Study
@@ -791,14 +753,11 @@ COHO:0002464,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Toronto Ov
 COHO:0002465,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,TOMSK
 COHO:0002466,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Tonhoku Medical Megabank Organisations
 COHO:0002467,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Thematically Organized Psychoses Research Study
-COHO:0002468,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"University Health Network, Toronto, Canada"
 COHO:0002469,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Telethon Parkinsons Bank
-COHO:0002470,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Trinity College Dublin
 COHO:0002471,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Tampere Sudden Death Study
 COHO:0002472,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Tennessee Valley Healthcare System
 COHO:0002473,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Tampere Vascular Study
 COHO:0002474,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Taiwanese Breast Cancer Study
-COHO:0002475,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Bergen Norway Study
 COHO:0002476,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Utah Cervical Artery Dissection Collection
 COHO:0002477,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Utrecht Cannabis Cohort
 COHO:0002478,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease
@@ -808,7 +767,6 @@ COHO:0002481,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UCL-LASER
 COHO:0002482,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UCL-PRION
 COHO:0002483,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of California San Francisco Atrial Fibrillation Study
 COHO:0002484,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UCSD
-COHO:0002485,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Universita di Pisa
 COHO:0002486,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UFA
 COHO:0002487,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Florida Diabetes Institute
 COHO:0002488,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,RGC-UGhent cohort
@@ -820,7 +778,6 @@ COHO:0002493,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Asian D
 COHO:0002494,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Breast Cancer Now Male Breast Cancer Study
 COHO:0002495,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK BiLEVE Cohort Information
 COHO:0002496,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Barretts Oesophagus Gene Study
-COHO:0002497,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Universitäts Klinikum Bonn
 COHO:0002498,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,United Kingdom Colorectal Adenoma Prevention
 COHO:0002499,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK-CLL
 COHO:0002500,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Colorectal control
@@ -841,14 +798,9 @@ COHO:0002514,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Small A
 COHO:0002515,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UK Testicular Cancer Collaboration
 COHO:0002516,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort
 COHO:0002517,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Familial Prostate Cancer Study, University Hopsital of Ulm, Germany"
-COHO:0002518,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Munich
-COHO:0002519,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University Medical Center Utrecht
-COHO:0002520,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Minnesota study
 COHO:0002521,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,UM/VU/MSSM
 COHO:0002522,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of North Carolina CanCORS study
-COHO:0002523,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Noth Carolina Rectal Cancer Study
 COHO:0002524,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"Utrecht, The Netherlands ImmunoChip Study Samples"
-COHO:0002525,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Florida
 COHO:0002526,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Uppsala Abdominal Aortic Aneurysm Cohort Study
 COHO:0002527,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,RGC-URWCI cohort
 COHO:0002528,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,US military HIV Natural History Study
@@ -862,7 +814,6 @@ COHO:0002535,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"UWA, LEI 
 COHO:0002536,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,University of Wisconsin-Transdisciplinary Tobacco Use Research Cente
 COHO:0002537,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Val Gardena
 COHO:0002538,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Vantaa85+
-COHO:0002539,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Van Andel Research Institute
 COHO:0002540,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Viborg Country AAA screening program
 COHO:0002541,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Virginia Cervical Artery Dissection
 COHO:0002542,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Vejle Diabetes Biobank
@@ -871,7 +822,6 @@ COHO:0002544,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Verlauf de
 COHO:0002545,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Victorian Familial Cancer Trials Group
 COHO:0002546,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Verona Heart Study
 COHO:0002547,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,VICTOR
-COHO:0002548,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Valencia Institute of Oncology
 COHO:0002549,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,VIP study
 COHO:0002550,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Variation in Recovery: Role of Gender on Outcomes of Young AMI Patients
 COHO:0002551,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Vobarno Study
@@ -880,8 +830,6 @@ COHO:0002553,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Warren 2 C
 COHO:0002554,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Antioxidant Cardiovascular Study
 COHO:0002555,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Western Australian HIV Cohort Study
 COHO:0002556,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Circle of Health Study
-COHO:0002557,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Cancer Program at the Samuel Oschin Comprehensive Cancer Institute
-COHO:0002558,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Cancer Research Institute - Cedars-Sinai Medical Center
 COHO:0002559,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wuhan Diabetes Study
 COHO:0002560,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Westlake Precision Birth Cohort
 COHO:0002561,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wellcome Genetics study
@@ -896,7 +844,6 @@ COHO:0002569,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Hea
 COHO:0002570,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wheezing Illnesses Study Leidsche Rijn
 COHO:0002571,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Whitehall Study
 COHO:0002572,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wuhan Zhuhai cohort
-COHO:0002573,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Westmead Institute for Cancer Research
 COHO:0002574,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Womens Insights and Shared Experiences study
 COHO:0002575,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Weiss Laboratory Autism Collection
 COHO:0002576,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wuhan Lung Cancer Study
@@ -905,7 +852,6 @@ COHO:0002578,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Warsaw Ova
 COHO:0002579,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,West of Scotland Coronary Prevention Study
 COHO:0002580,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Warfarin Pharmacogenomics Cohort
 COHO:0002581,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Westphalian Stroke Register
-COHO:0002582,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,The Washington State University Lung Cancer Study
 COHO:0002583,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,WT2-United Kingdom
 COHO:0002584,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Washington University Genetics Study
 COHO:0002585,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Wuxi Non-Communicable Diseases cohort
@@ -916,3 +862,13 @@ COHO:0002590,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Yunnan Lun
 COHO:0002591,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Academia Sinica Multicentered Young-Onset Hypertension Genetic Study
 COHO:0002592,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Zaragoza Bladder Cancer Study
 COHO:0002593,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Zhejiang Colorectal Cancer set
+COHO:0000424,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,BioMe Biobank
+COHO:0001013,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genetic Resource Investigating Diabetes
+COHO:0000411,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Korean Genome and Epidemiology Study
+COHO:0001536,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Human genetic determinants of severe malaria in Malawi
+COHO:0001188,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hong Kong Diabetes Register
+COHO:0000810,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Rush Memory and Aging Project
+COHO:0000585,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Colorectal Cancer Genetics & Genomics
+COHO:0000874,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,MD Anderson Cancer Center lung cancer study
+COHO:0000720,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Phenomics and Genomics Sample
+COHO:0000597,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,North Carolina Colon Cancer Study
