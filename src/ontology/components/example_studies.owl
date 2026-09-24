@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/example_studies.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-24/components/example_studies.owl>
-Annotation(owl:versionInfo "2026-09-24")
+<http://www.ebi.ac.uk/coho/releases/2026-09-25/components/example_studies.owl>
+Annotation(owl:versionInfo "2026-09-25")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -1725,6 +1725,81 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002577>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002584>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002594>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002595>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002596>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002597>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002598>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002599>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002600>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002601>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002602>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002603>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002604>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002605>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002606>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002607>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002608>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002609>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002610>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002611>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002612>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002613>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002614>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002615>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002616>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002617>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002618>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002619>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002620>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002621>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002622>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002623>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002624>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002625>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002626>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002627>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002628>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002629>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002630>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002631>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002632>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002633>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002634>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002635>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002636>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002637>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002638>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002639>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002640>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002641>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002642>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002643>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002644>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002645>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002646>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002647>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002648>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002649>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002650>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002651>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002652>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002653>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002654>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002655>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002656>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002657>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002658>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002659>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002660>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002661>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002662>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002663>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002664>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002665>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002666>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002667>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002668>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002669>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002670>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
@@ -8764,6 +8839,306 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sex differences
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002595> (<http://www.ebi.ac.uk/coho/COHO_0002595>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide Association Study of Cannabis Dependence Severity, Novel Risk Variants, and Shared Genetic Risks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27028160") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27028160+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "This genome-wide association study for DSM-IV CAD criterion count was performed in 3 independent substance dependence cohorts (the Yale-Penn Study, Study of Addiction: Genetics and Environment [SAGE], and International Consortium on the Genetics of Heroin Dependence [ICGHD]).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002595> "PMID:27028160")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002596> (<http://www.ebi.ac.uk/coho/COHO_0002596>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Long-term exposure to particulate air pollution and black carbon in relation to natural and cause-specific mortality: a multicohort study in Sweden.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34497075") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8438896/fullTextXML") Annotation(rdfs:comment "Recruiting individuals from Stockholm County the Cardiovascular Effects of Air pollution and Noise Study (CEANS) cohort was included.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002596> "PMID:34497075")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002597> (<http://www.ebi.ac.uk/coho/COHO_0002597>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Assessing household lifestyle exposures from consumer purchases, the My Purchases cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38062070") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10703931/fullTextXML") Annotation(rdfs:comment "The My Purchases cohort has had ongoing recruitment since June 2021.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002597> "PMID:38062070")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002598> (<http://www.ebi.ac.uk/coho/COHO_0002598>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Long-term sickness absence in a working population: development and validation of a risk prediction model in a large Dutch prospective cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32414410") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7227258/fullTextXML") Annotation(rdfs:comment "Data from 11,221 working persons included in the prospective Study on Transitions in Employment, Ability and Motivation (STREAM) conducted in the Netherlands were used to develop a multivariable risk prediction model for LTSA lasting ≥28 accumulated working days in the coming year.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002598> "PMID:32414410")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002599> (<http://www.ebi.ac.uk/coho/COHO_0002599>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "HPV-KITE: sequence analysis software for rapid HPV genotype detection.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40205852") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11982018/fullTextXML") Annotation(rdfs:comment "the TCGA dataset and the Swedish cervical screening cohort") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002599> "PMID:40205852")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002600> (<http://www.ebi.ac.uk/coho/COHO_0002600>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal exposure to undernutrition is associated with a specific lipid profile predicting future brain aging.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39349457") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11442854/fullTextXML") Annotation(rdfs:comment "801 plasma samples of members of the Dutch famine birth cohort were assessed for lipidomics and leptin at age 58.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002600> "PMID:39349457")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002601> (<http://www.ebi.ac.uk/coho/COHO_0002601>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Influence of early-life parental severe life events on the risk of type 1 diabetes in children: the DiPiS study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29752553") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6060880/fullTextXML") Annotation(rdfs:comment "influence the risk of developing type 1 diabetes (T1D) using data from the prospective Diabetes Prediction in Skåne (DiPiS) study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002601> "PMID:29752553")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002602> (<http://www.ebi.ac.uk/coho/COHO_0002602>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations between screen viewing at 2 and 3.5 years and drawing ability at 3.5 years among children from the French nationwide Elfe birth cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38172606") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38172606%20AND%20SRC:MED&resultType=core&format=json") Annotation(rdfs:comment "Associations between screen viewing at 2 and 3.5 years and drawing ability at 3.5 years among children from the French nationwide Elfe birth cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002602> "PMID:38172606")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002603> (<http://www.ebi.ac.uk/coho/COHO_0002603>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cord Blood Appetite Hormones and Early-Life Growth and Childhood Adiposity in the ENVIRONAGE Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41196593") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12593129/fullTextXML") Annotation(rdfs:comment "This prospective birth cohort study was conducted within the Environmental Influence on Early Aging (ENVIRONAGE) birth cohort, with follow-up data collected at 4 to 6 years of age.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002603> "PMID:41196593")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002604> (<http://www.ebi.ac.uk/coho/COHO_0002604>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "HPV-KITE: sequence analysis software for rapid HPV genotype detection.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40205852") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11982018/fullTextXML") Annotation(rdfs:comment "from the Finnish HPV vaccination cohort") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002604> "PMID:40205852")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002605> (<http://www.ebi.ac.uk/coho/COHO_0002605>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Maternal occupational exposures during early stages of pregnancy and adverse birth outcomes in the NINFEA birth-cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39808632") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11731713/fullTextXML") Annotation(rdfs:comment "The study included 3938 nulliparous women from the Italian NINFEA mother-child cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002605> "PMID:39808632")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002606> (<http://www.ebi.ac.uk/coho/COHO_0002606>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal metal mixtures and child blood pressure in the Rhea mother-child cohort in Greece.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33407552") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7789252/fullTextXML") Annotation(rdfs:comment "The current study included 176 mother-child pairs from the Rhea Study in Heraklion, Greece") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002606> "PMID:33407552")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002607> (<http://www.ebi.ac.uk/coho/COHO_0002607>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The cardiovascular risk profile of middle-aged women with polycystic ovary syndrome.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31638273") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7003818/fullTextXML") Annotation(rdfs:comment "We selected 200 women included in the third cohort of the Rotterdam Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002607> "PMID:31638273")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002608> (<http://www.ebi.ac.uk/coho/COHO_0002608>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pre- and early post-natal exposure to phthalates and DINCH in a new type of mother-child cohort relying on within-subject pools of repeated urine samples.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34435564") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8444084/fullTextXML") Annotation(rdfs:comment "Women of the French SEPAGES mother-child cohort were asked to collect three urine samples per day over seven consecutive days, twice during their pregnancy") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002608> "PMID:34435564")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002609> (<http://www.ebi.ac.uk/coho/COHO_0002609>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "CMPF does not associate with impaired glucose metabolism in individuals with features of metabolic syndrome.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25874636") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4398480/fullTextXML") Annotation(rdfs:comment "In this Sysdimet study, 106 men and women were randomized into three groups") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002609> "PMID:25874636")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002610> (<http://www.ebi.ac.uk/coho/COHO_0002610>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sexually Transmitted Infections and Risk of Epithelial Ovarian Cancer: Results From the Finnish Maternity Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37196097") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10681868/fullTextXML") Annotation(rdfs:comment "We measured antibodies (Abs) to CT, MG, HSV-2, and HPV-16/18 in serum samples in a nested case-control study in the Finnish Maternity Cohort (N = 484 cases 1:1 matched to controls).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002610> "PMID:37196097")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002611> (<http://www.ebi.ac.uk/coho/COHO_0002611>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Television viewing time among statin users and non-users. The Polish Norwegian Study (PONS).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28626626") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5466582/fullTextXML") Annotation(rdfs:comment "This analysis is based on the cross-sectional, baseline data of the PONS study, from which we excluded participants with incomplete information on relevant covariates (n = 418, 0.3%).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002611> "PMID:28626626")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002612> (<http://www.ebi.ac.uk/coho/COHO_0002612>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Paternal and maternal history of myocardial infarction and cardiovascular diseases incidence in a Dutch cohort of middle-aged persons.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22194890") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3241680/fullTextXML") Annotation(rdfs:comment "In the Monitoring Project on Chronic Disease Risk Factors (MORGEN-project), baseline cardiovascular risk factor data were collected in 1993–1997 in 22 769 men and women aged 20–65 years [23], [24].") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002612> "PMID:22194890")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002613> (<http://www.ebi.ac.uk/coho/COHO_0002613>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pregnancy-specific Reference Intervals for TSH and FT4: Novel Insights From Preconception-gestation Longitudinal Data.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41762673") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13368358/fullTextXML") Annotation(rdfs:comment "This study was embedded within Generation R Next, a population-based prospective cohort from preconception through postpartum in Rotterdam.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002613> "PMID:41762673")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002614> (<http://www.ebi.ac.uk/coho/COHO_0002614>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prognostic Factors for Adulthood Psychosis in Adolescent Psychiatry Services: A Longitudinal Total Birth Cohort Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42241480") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13235725/fullTextXML") Annotation(rdfs:comment "We conducted a longitudinal, register-based total birth cohort study using data from the Nordic Children and Adolescents Born Preterm (NORDCAP) study, governed by the Finnish Institute for Health and Welfare.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002614> "PMID:42241480")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002615> (<http://www.ebi.ac.uk/coho/COHO_0002615>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Human exposome assessment platform.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34909561") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8663864/fullTextXML") Annotation(rdfs:comment "Some of the pregnant women in the HPV vaccination Cohort (~100 pregnant women) will be followed using an innovative wearable exposure sensors system for the monitoring of multiple exposures and health measurements, to investigate how the exposome influences the health of the mother and the baby.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002615> "PMID:34909561")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002616> (<http://www.ebi.ac.uk/coho/COHO_0002616>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association of Dietary Patterns with Metabolic Syndrome: Results from the Kardiovize Brno 2030 Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30011827") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6073665/fullTextXML") Annotation(rdfs:comment "To explore the complex association of biological, environmental and behavioral risk factors with cardiovascular diseases (CVD), we recently designed the Kardiovize Brno 2030 study, which recruited a randomly-selected sample of residents in an urban population of Brno, Czech Republic [17].") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002616> "PMID:30011827")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002617> (<http://www.ebi.ac.uk/coho/COHO_0002617>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The relationship between resistance exercise and cardiometabolic health: a cross-sectional analysis of the 1970 British cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42528938") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13415302/fullTextXML") Annotation(rdfs:comment "This research was conducted using data from the 1970 British Cohort Study (BCS70).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002617> "PMID:42528938")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002618> (<http://www.ebi.ac.uk/coho/COHO_0002618>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic air pollution-induced subclinical airway inflammation and polygenic susceptibility.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36151579") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9508765/fullTextXML") Annotation(rdfs:comment "We used data from 296 women (69–79 years) enrolled in the population-based SALIA cohort (Study on the influence of Air pollution on Lung function, Inflammation and Aging).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002618> "PMID:36151579")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002619> (<http://www.ebi.ac.uk/coho/COHO_0002619>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Exposure to fine particulate matter in adults is associated with immune cell gene expression related to inflammation, the electron transport chain, and cell cycle regulation.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40510537") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12159804/fullTextXML") Annotation(rdfs:comment "This study is a part of the LongITools project and includes cross-sectional data from the Rotterdam Study, a population-based cohort study, and NoMa, a randomized controlled trial.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002619> "PMID:40510537")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002620> (<http://www.ebi.ac.uk/coho/COHO_0002620>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Serum ferritin levels in a sample of older participants in the Greek HYDRIA survey: associations with sociodemographic and lifestyle parameters including dietary iron intake and Mediterranean diet score.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41664457") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13423517/fullTextXML") Annotation(rdfs:comment "As part of the HYDRIA 2013–2014 National Health and Nutrition study, a cross-sectional survey of a nationally representative sample of adults in Greece, serum ferritin levels (SFL) were measured in participants aged ≥ 55 years, and dietary intake was assessed using two non-consecutive 24-h dietary recalls per participant.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002620> "PMID:41664457")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002621> (<http://www.ebi.ac.uk/coho/COHO_0002621>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Postprandial glucose metabolism and SCFA after consuming wholegrain rye bread and wheat bread enriched with bioprocessed rye bran in individuals with mild gastrointestinal symptoms.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25370913") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4230797/fullTextXML") Annotation(rdfs:comment "This study was carried out as a part of the FIBREFECTS (Grain fiber modification for gut mediated health effects) funded mainly by TEKES – The Finnish Funding Agency for Technology and Innovation – and to a smaller extent by Oy Karl Fazer Ab, Vaasan Oy, and Ravintoraisio Oy.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002621> "PMID:25370913")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002622> (<http://www.ebi.ac.uk/coho/COHO_0002622>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Unintentional injuries and potential determinants of falls in young children: Results from the Piccolipiù Italian birth cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36191030") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9529104/fullTextXML") Annotation(rdfs:comment "Piccolipiù is the name of a birth cohort of 3,358 children enrolled in six maternity wards located in five Italian cities (Florence, Rome, Trieste, Turin, and Viareggio) between October 2011 and March 2015 [26].") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002622> "PMID:36191030")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002623> (<http://www.ebi.ac.uk/coho/COHO_0002623>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association between whole-grain consumption, tryptophan metabolism and psychological distress: a secondary analysis of a randomised controlled trial.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38826077") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11473202/fullTextXML") Annotation(rdfs:comment "The study was registered in isrctn.org with the identifier 67529475.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002623> "PMID:38826077")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002624> (<http://www.ebi.ac.uk/coho/COHO_0002624>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prevalence and profiles of adverse childhood experiences: a French nationwide study using the CONSTANCES cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42006753") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42006753%20AND%20SRC:MED&format=json&resultType=core") Annotation(rdfs:comment "A cross-sectional observational study was conducted using retrospective data from the CONSTANCES cohort, a large population-based cohort study in France, including adults aged 18 to 69 years at enrolment.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002624> "PMID:42006753")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002625> (<http://www.ebi.ac.uk/coho/COHO_0002625>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal and postnatal exposure to acetaminophen in relation to autism spectrum and attention-deficit and hyperactivity symptoms in childhood: Meta-analysis in six European population-based cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34046850") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8542535/fullTextXML") Annotation(rdfs:comment "We included six European population-based birth cohorts: Avon Longitudinal Study of Parents and Children (ALSPAC), DNBC, Gene and Environment: Prospective Study on Infancy in Italy (GASPII), the Generation R Study, INMA (including four subcohorts), and the Mother–Child Cohort in Crete (RHEA) (Methods S1).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002625> "PMID:34046850")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002626> (<http://www.ebi.ac.uk/coho/COHO_0002626>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations between neighbourhood greenness and asthma in preschool children in Kaunas, Lithuania: a case-control study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27067890") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4838715/fullTextXML") Annotation(rdfs:comment "In 2012–2013, we invited the KANC cohort of 3294 mothers and their 4−6-year-old children to participate in this study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002626> "PMID:27067890")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002627> (<http://www.ebi.ac.uk/coho/COHO_0002627>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association between muscle strength and depression in a cohort of young adults.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38820320") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11142448/fullTextXML") Annotation(rdfs:comment "This observational population-based study originates from the Central European Longitudinal Studies of Parents and Children: Young Adults (CELSPAC: YA).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002627> "PMID:38820320")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002628> (<http://www.ebi.ac.uk/coho/COHO_0002628>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Adverse childhood experiences and adolescent externalizing and internalizing problems in the ELSPAC-CZ cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41444967") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12849584/fullTextXML") Annotation(rdfs:comment "Data were obtained from the Czech arm of the European Longitudinal Study of Pregnancy and Childhood (ELSPAC-CZ), a multi-site population-based birth cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002628> "PMID:41444967")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002629> (<http://www.ebi.ac.uk/coho/COHO_0002629>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Urinary biomarkers of prenatal atrazine exposure and adverse birth outcomes in the PELAGIE birth cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21367690") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3222984/fullTextXML") Annotation(rdfs:comment "The PELAGIE cohort included 3,421 pregnant women from Brittany from 2002 through February 2006.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002629> "PMID:21367690")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002630> (<http://www.ebi.ac.uk/coho/COHO_0002630>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Trajectories of appetitive traits and dietary patterns from childhood to adolescence: findings from the Generation XXI birth cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41874644") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13013234/fullTextXML") Annotation(rdfs:comment "We included 5040 participants from the Generation XXI cohort (Porto, Portugal).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002630> "PMID:41874644")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002631> (<http://www.ebi.ac.uk/coho/COHO_0002631>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The association between hypoalbuminemia and risk of death due to cancer and vascular disease in individuals aged 65 years and older: findings from the prospective Moli-sani cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39010980") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11247150/fullTextXML") Annotation(rdfs:comment "Serum albumin levels were measured in the population-based, prospective cohort of the Moli-sani study, established between 2005 and 2010.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002631> "PMID:39010980")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002632> (<http://www.ebi.ac.uk/coho/COHO_0002632>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Fecal tryptophan metabolite profiling in newborns in relation to microbiota and antibiotic treatment.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39500766") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11538234/fullTextXML") Annotation(rdfs:comment "Infants’ meconium and stool samples were collected between day 1 and day 4 from birth from 134 neonates (20 delivered via caesarean section and 114 delivered vaginally) at the University Hospital Brno within the CELSPAC: TNG cohort study (Central European Longitudinal Study of Parents and Children: The Next Generation).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002632> "PMID:39500766")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002633> (<http://www.ebi.ac.uk/coho/COHO_0002633>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Designing a children's health exposomics study protocol: The CHILDREN_FIRST multi-country prospective cohort using multi-omics and personalized prevention approaches.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42044183") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13119864/fullTextXML") Annotation(rdfs:comment "In Cyprus, participant recruitment took place between October 2023 and January 2024 and data collection for the baseline assessment was conducted from January 2024 to June 2024.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002633> "PMID:42044183")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002634> (<http://www.ebi.ac.uk/coho/COHO_0002634>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Device-measured physical activity and sedentary time in a national sample of Luxembourg residents: the ORISCAV-LUX 2 study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36581944") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9798598/fullTextXML") Annotation(rdfs:comment "Data were from the ORISCAV-LUX 2 study, a national cross-sectional survey of cardiovascular risk factors in the Luxembourgish adult population") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002634> "PMID:36581944")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002635> (<http://www.ebi.ac.uk/coho/COHO_0002635>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Maternal Chrono-Nutrition and Placental DNA Methylation: The BiSC Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42051041") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42051041+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Data came from 389 pregnant women in the Barcelona Life Study Cohort (BiSC).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002635> "PMID:42051041")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002636> (<http://www.ebi.ac.uk/coho/COHO_0002636>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Progression of metabolic syndrome and associated cardiometabolic risk factors from prepuberty to puberty in children: The PUBMEP study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36601007") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9806164/fullTextXML") Annotation(rdfs:comment "Hence, the PUBMEP study aimed to evaluate the prevalence of MetS and the progression of cardiometabolic risk factors related to it from prepuberty to puberty in a cohort of Spanish children.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002636> "PMID:36601007")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002637> (<http://www.ebi.ac.uk/coho/COHO_0002637>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Urinary pesticide biomarkers from adolescence to young adulthood in an agricultural setting in Ecuador: Study of secondary exposure to pesticides among children, adolescents, and adults (ESPINA) 2016 and 2022 examination data.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40777557") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12329275/fullTextXML") Annotation(rdfs:comment "This article presents urinary pesticide metabolite concentrations for 665 participants in the “Study of Secondary Exposure to Pesticides among Children, Adolescents, and Adults” (ESPINA)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002637> "PMID:40777557")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002638> (<http://www.ebi.ac.uk/coho/COHO_0002638>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Differences in mortality between temporary and permanent workers: results from the Rome Longitudinal Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35641005") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9157355/fullTextXML") Annotation(rdfs:comment "We used the Rome Longitudinal Study, the administrative cohort of residents in Rome who filled in the 2001 population census.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002638> "PMID:35641005")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002639> (<http://www.ebi.ac.uk/coho/COHO_0002639>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Observational Surveillance Approach to Detect Novel Work-Related Diseases and Hazards: An Application to a Belgian Occupational Health and Safety Database.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30199412") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30199412+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We investigated work and health's associations in a specific sector: the agricultural sector and for a specific and frequent health complaint: sore throat; using PRECUBE dataset of the Belgian Occupational Health and Safety, containing 381.615 occupational health observations.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002639> "PMID:30199412")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002640> (<http://www.ebi.ac.uk/coho/COHO_0002640>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Lack of an association between left-handedness and APOE polymorphism in a large sample of adults: results of the Czech HAPIEE study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23113606") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23113606+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Lack of an association between left-handedness and APOE polymorphism in a large sample of adults: results of the Czech HAPIEE study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002640> "PMID:23113606")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002641> (<http://www.ebi.ac.uk/coho/COHO_0002641>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Early-life immunological and microbial differences between East African and North European children.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41775864") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41775864+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "children from rural Africa (participants from the iLINS-DYAD-M study conducted in Malawi)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002641> "PMID:41775864")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002642> (<http://www.ebi.ac.uk/coho/COHO_0002642>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Maternal arsenic exposure and gestational diabetes and glucose intolerance in the New Hampshire birth cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27825389") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27825389+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We investigated the association between As exposure and risk of glucose intolerance and GDM among 1151 women enrolled in the New Hampshire Birth Cohort Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002642> "PMID:27825389")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002643> (<http://www.ebi.ac.uk/coho/COHO_0002643>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The association of Alzheimer's disease-related SNPs with mild cognitive impairment susceptibility in the Chinese population.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41606232") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12910095/fullTextXML") Annotation(rdfs:comment "The population-based cross-sectional community study, which was carried out in conjunction with the elderly medical examination program, recruited 2287 adults (including males and females, aged 60 years and older) from Dapuqiao Street, Huangpu District, Shanghai, China, from March 2019 to November 2019.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002643> "PMID:41606232")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002644> (<http://www.ebi.ac.uk/coho/COHO_0002644>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A frailty instrument for primary care: findings from the Survey of Health, Ageing and Retirement in Europe (SHARE).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20731877") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2939541/fullTextXML") Annotation(rdfs:comment "A Frailty Instrument for primary care: findings from the Survey of Health, Ageing and Retirement in Europe (SHARE)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002644> "PMID:20731877")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002645> (<http://www.ebi.ac.uk/coho/COHO_0002645>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association of blood-based neurodegenerative biomarkers with cognitive functioning and dementia in India (LASI-DAD) and the United States (HRS).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40838581") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12497661/fullTextXML") Annotation(rdfs:comment "LASI-DAD is a representative subsample of LASI that has a focus on cognitive aging and dementia among persons aged 60 and over in India, with an oversampling of those at a higher risk of cognitive impairment.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002645> "PMID:40838581")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002646> (<http://www.ebi.ac.uk/coho/COHO_0002646>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal tobacco exposure and ADHD symptoms at pre-school age: the Hokkaido Study on Environment and Children's Health.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31812162") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6898952/fullTextXML") Annotation(rdfs:comment "This study was a follow-up study of a prospective birth cohort study, the Hokkaido Study on Environment and Children’s Health.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002646> "PMID:31812162")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002647> (<http://www.ebi.ac.uk/coho/COHO_0002647>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Greenness and allergies: evidence of differential associations in two areas in Germany.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24862831") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4112441/fullTextXML") Annotation(rdfs:comment "Longitudinal associations were assessed per study area (GINI/LISA South and GINI/LISA North) using generalised estimation equations adjusted for host and environmental covariates.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002647> "PMID:24862831")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002648> (<http://www.ebi.ac.uk/coho/COHO_0002648>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Red blood cell omega-3 fatty acids and attention scores in healthy adolescents.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35960396") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10576734/fullTextXML") Annotation(rdfs:comment "This is a cross-sectional study using baseline data from the Walnuts Smart Snack Dietary Intervention Trial, a randomized controlled trial aimed to evaluate whether dietary supplementation with four walnuts per day (30 kernel grams) for 6 months improved brain neuropsychological and socio-emotional development compared to a control group (abstention from walnuts) in healthy teenagers (11–16 years old)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002648> "PMID:35960396")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002649> (<http://www.ebi.ac.uk/coho/COHO_0002649>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Dietary Patterns and Their Association with Body Composition and Cardiometabolic Markers in Children and Adolescents: Genobox Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33171599") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7695147/fullTextXML") Annotation(rdfs:comment "A total of 793 children from those recruited in the GENOBOX clinic cohort participated in this study after applying the inclusion and exclusion criteria.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002649> "PMID:33171599")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002650> (<http://www.ebi.ac.uk/coho/COHO_0002650>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal Exposure to Metals and Neurodevelopment in Infants at Six Months: Rio Birth Cohort Study of Environmental Exposure and Childhood Development (PIPA Project).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35409976") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8998578/fullTextXML") Annotation(rdfs:comment "The PIPA Project is a prospective birth cohort study based in Rio de Janeiro, Brazil, whose pilot study was carried out between October 2017 and August 2018.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002650> "PMID:35409976")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002651> (<http://www.ebi.ac.uk/coho/COHO_0002651>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Inhibitory control mediates the association between perinatal PM2.5 exposure and childhood obesity in children in the PROGRESS cohort, Mexico City.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42225914") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13522492/fullTextXML") Annotation(rdfs:comment "The Programming Research in Obesity, Growth, Environment, and Social Stressors (PROGRESS) study recruited pregnant women who received prenatal care through the Mexican Social Security System (Instituto Mexicano del Seguro Social, IMSS) between July 2007 and February 2010.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002651> "PMID:42225914")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002652> (<http://www.ebi.ac.uk/coho/COHO_0002652>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prenatal Mancozeb Exposure, Excess Manganese, and Neurodevelopment at 1 Year of Age in the Infants' Environmental Health (ISA) Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29847083") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6072008/fullTextXML") Annotation(rdfs:comment "We measured urinary ETU, hair Mn, and blood Mn concentrations in samples collected 1–3 times during pregnancy from mothers enrolled in the Infants’ Environmental Health (ISA) study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002652> "PMID:29847083")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002653> (<http://www.ebi.ac.uk/coho/COHO_0002653>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Social vulnerability shapes deep clinical phenotypes and brain health in aging and dementia across Latin America.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42251497") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13242611/fullTextXML") Annotation(rdfs:comment "The large, diverse, and well‐characterized ReDLat cohort, drawn from six Latin American countries, increases the generalizability of results across varied cultural and clinical contexts.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002653> "PMID:42251497")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002654> (<http://www.ebi.ac.uk/coho/COHO_0002654>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Occurrence of pesticide residues in indoor dust of farmworker households across Europe and Argentina.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37838044") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37838044+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "In the present study, part of the Horizon 2020 funded SPRINT project, the presence of 198 pesticide residues was assessed in 128 indoor dust samples from both conventional and organic farmworker households across Europe, and in Argentina.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002654> "PMID:37838044")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002655> (<http://www.ebi.ac.uk/coho/COHO_0002655>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sex disparities in gallstone disease: insights from the MAUCO prospective population-based cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39343441") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11440185/fullTextXML") Annotation(rdfs:comment "8948 MAUCO participants (aged 38–74 years) underwent abdominal ultrasound at baseline (2015–2019); 4385 received follow-up ultrasound at years 2 or 4.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002655> "PMID:39343441")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002656> (<http://www.ebi.ac.uk/coho/COHO_0002656>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Frailty in older adults and their association with social determinants of Health. The SABE Colombia Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31607766") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31607766+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "The SABE (Health, Wellbeing, and Aging) Colombia project is a cross-sectional study, carried out in 2014-2015, involving 24,553 men and women aged 60 years and older who live in the community in Colombia.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002656> "PMID:31607766")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002657> (<http://www.ebi.ac.uk/coho/COHO_0002657>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Intake of Animal Protein and Dietary Sources in the Colombian Population: Results of the National Nutrition Survey (ENSIN-2015).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35070447") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8776471/fullTextXML") Annotation(rdfs:comment "This study was based on data gathered from the 2015 National Nutrition Survey (ENSIN in Spanish).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002657> "PMID:35070447")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002658> (<http://www.ebi.ac.uk/coho/COHO_0002658>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Visceral adipose tissue and incident cardiovascular disease among individuals without diabetes: an analysis of 15 prospective cohorts from 7 countries in Latin America.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42724639") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42724639+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Here, we evaluated the association between estimated VAT (eVAT) and incident CVD among individuals without diabetes and estimated its population-attributable fraction (PAF) using data from the Cohorts Consortium of Latin America and the Caribbean (CC-LAC).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002658> "PMID:42724639")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002659> (<http://www.ebi.ac.uk/coho/COHO_0002659>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Risk factors for soil-transmitted helminth infections during the first 3 years of life in the tropics; findings from a birth cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24587469") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24587469+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "To investigate risk factors for infection in early childhood, we analysed data prospectively collected in the ECUAVIDA birth cohort in Ecuador.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002659> "PMID:24587469")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002660> (<http://www.ebi.ac.uk/coho/COHO_0002660>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Mutational spectrum of breast cancer by shallow whole-genome sequencing of cfDNA and tumor gene panel analysis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39264897") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11392417/fullTextXML") Annotation(rdfs:comment "We included 38 patients diagnosed with BC and treated at the National Cancer Institute between 2007 and 2017, who consented to donate their samples to the Terry Fox National Tumor Bank in Bogota, Colombia") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002660> "PMID:39264897")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002661> (<http://www.ebi.ac.uk/coho/COHO_0002661>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Public Health Insurance, Non-Farm Labor Supply, and Farmers' Income: Evidence from New Rural Cooperative Medical Scheme.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31816882") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31816882+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Our dataset comprised of 8273 people, aged 45 or above, from the China Health and Retirement Longitudinal Study (CHARLS) conducted in 2011 and 2013.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002661> "PMID:31816882")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002662> (<http://www.ebi.ac.uk/coho/COHO_0002662>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "\"I Put a Lot of Emphasis on Work Because I Want to Keep My Job\": A Population-Based Interview Study of Long Covid and Employment Changes in England.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41159539") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41159539+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We conducted a qualitative analysis of data from the Real-time Assessment of Community Transmission (REACT) Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002662> "PMID:41159539")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002663> (<http://www.ebi.ac.uk/coho/COHO_0002663>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Glyphosate and AMPA in Human Urine of HBM4EU Aligned Studies: Part A Children.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36006149") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9415901/fullTextXML") Annotation(rdfs:comment "The urinary data on Gly and AMPA were obtained from Germany (GerES V-sub; 2015–2017), Cyprus (ORGANIKO; 2017), Slovenia (SLO CRP; 2018), France (ESTEBAN; 2014–2016) and Belgium (3XG; 2019–2020).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002663> "PMID:36006149")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002664> (<http://www.ebi.ac.uk/coho/COHO_0002664>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Socio-economic differences among low-birthweight infants in Hungary. Results of the Cohort '18 -Growing Up in Hungary birth cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37656714") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37656714+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Source of data is the first and second wave of the Cohort '18 -Growing Up in Hungary longitudinal birth cohort study (n = 8185).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002664> "PMID:37656714")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002665> (<http://www.ebi.ac.uk/coho/COHO_0002665>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations between home gardening and obstructive sleep apnoea: role of behavioural factors in the COMmunity-based Behaviour and Attitude Study in Tuvalu (COMBAT).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40814824") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40814824+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "ConclusionsIn the COMBAT study, home gardening was associated with lower OSA probability among subgroups with specific lifestyle factors.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002665> "PMID:40814824")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002666> (<http://www.ebi.ac.uk/coho/COHO_0002666>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations between neighborhood violence during pregnancy and birth outcomes: evidence from São Paulo's Western Region Birth Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33952246") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33952246+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Using geocoded birth records from the ongoing Western Region Birth Cohort (Região Oeste Coorte - ROC-Cohort) of infants born between 2012 and 2014 and geocoded crime reports, we assessed the associations between exposure to violent crimes during pregnancy within a 1-km radius of the mother's residence and low birth weight, preterm delivery, and being born small-for-gestational-age.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002666> "PMID:33952246")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002667> (<http://www.ebi.ac.uk/coho/COHO_0002667>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A Longitudinal Analysis Comparing the Mental Health of Children By Level of Young Carer Status.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39679959") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39679959+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "The study utilized the Longitudinal Study of Young People in England: Next Steps (LSYPE), a cohort study of over 12,500 children aged 13 in 2004.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002667> "PMID:39679959")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002668> (<http://www.ebi.ac.uk/coho/COHO_0002668>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Characterization of the external exposome and its contribution to the clinical respiratory and early biological effects in children: The PROMESA cohort study protocol.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36662732") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36662732+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Characterization of the external exposome and its contribution to the clinical respiratory and early biological effects in children: The PROMESA cohort study protocol.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002668> "PMID:36662732")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002669> (<http://www.ebi.ac.uk/coho/COHO_0002669>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic aflatoxin exposure during pregnancy is associated with lower fetal growth trajectories: a prospective cohort from the Butajira Nutrition, Mental Health, and Pregnancy (BUNMAP) Study in rural Ethiopia.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36178051") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36178051+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Chronic aflatoxin exposure during pregnancy is associated with lower fetal growth trajectories: a prospective cohort from the Butajira Nutrition, Mental Health, and Pregnancy (BUNMAP) Study in rural Ethiopia.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002669> "PMID:36178051")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002670> (<http://www.ebi.ac.uk/coho/COHO_0002670>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A randomized controlled trial testing the efficacy of a Nurse Home Visiting Program for Pregnant Adolescents.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34257407") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34257407+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Eighty adolescent mothers were included and randomized to receive either Primeiros Laços (intervention group, n = 40) or healthcare as usual (control group, n = 40).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002670> "PMID:34257407")
 
 
 )

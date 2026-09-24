@@ -139,9 +139,16 @@ def main():
     ap.add_argument("--provenance", required=True)
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--review", default=str(REVIEW), help="the review to mint from (default: the GWAS and PGS Catalog review); "
+                    "a review of another catalogue names its ids in a `catalogue id` column, which stands in for `PGS id`")
     a = ap.parse_args()
+    review_path = Path(a.review)
 
-    rows = list(csv.DictReader(open(REVIEW, newline="", encoding="utf-8"), delimiter="\t", quoting=csv.QUOTE_NONE))
+    rows = list(csv.DictReader(open(review_path, newline="", encoding="utf-8"), delimiter="\t", quoting=csv.QUOTE_NONE))
+    for x in rows:
+        if "PGS id" not in x and "catalogue id" in x:
+            x["PGS id"] = x["catalogue id"]
+        x.setdefault("GWAS tags", "")
     for i, x in enumerate(rows, 1):
         x["_n"] = i
     todo = [x for x in rows if x["_n"] >= a.from_row]
@@ -396,7 +403,7 @@ def main():
                 am.append([*key, x["parent quote"], x["parent URL"], f"membership stated in the source; added {a.date} when the cohorts were minted from {prov}"])
 
     # --- review: COHO IDs of minted and same-as rows, and clashes
-    L = open(REVIEW, newline="", encoding="utf-8").read().split("\n")
+    L = open(review_path, newline="", encoding="utf-8").read().split("\n")
     head = L[0].split("\t")
     ci, cc = head.index("COHO ID"), head.index("clashes with")
     nid = 0
@@ -426,7 +433,7 @@ def main():
         if rs:
             t = path.read_text(encoding="utf-8")
             path.write_text(t + ("" if t.endswith("\n") else "\n") + rows_to_text(rs, delim), encoding="utf-8")
-    open(REVIEW, "w", newline="", encoding="utf-8").write("\n".join(L))
+    open(review_path, "w", newline="", encoding="utf-8").write("\n".join(L))
 
 
 if __name__ == "__main__":

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/aggregation_members.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-24/components/aggregation_members.owl>
-Annotation(owl:versionInfo "2026-09-24")
+<http://www.ebi.ac.uk/coho/releases/2026-09-25/components/aggregation_members.owl>
+Annotation(owl:versionInfo "2026-09-25")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/hasCohort>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000005>))
@@ -247,6 +247,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000610>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000611>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000618>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000619>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000623>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000628>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000629>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000631>))
@@ -594,6 +595,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002439>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002563>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002594>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002595>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002658>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -1530,6 +1532,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000277.v2.p1") Annotation(rdfs:comment "This collaboration of Australian and American investigators aims to identify genes associated with liability for heroin dependence. The project uses a case-control design in which cases met lifetime DSM-IV criteria for heroin dependence. Controls included assessed individuals who did not meet DSM-IV heroin dependence criteria and unassessed general population controls. Cases and controls were obtained from the several large investigations including: The Comorbidity and Trauma Study, Heroin Dependence in Western Australia, the OZ-ALC Study, a Twin Study of Mole Development in Adolescence, and ongoing genetic studies of substance dependence conducted by investigators at Yale and collaborating institutions.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002595> <http://www.ebi.ac.uk/coho/COHO_0000841>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000277.v2.p1") Annotation(rdfs:comment "This collaboration of Australian and American investigators aims to identify genes associated with liability for heroin dependence. The project uses a case-control design in which cases met lifetime DSM-IV criteria for heroin dependence. Controls included assessed individuals who did not meet DSM-IV heroin dependence criteria and unassessed general population controls. Cases and controls were obtained from the several large investigations including: The Comorbidity and Trauma Study, Heroin Dependence in Western Australia, the OZ-ALC Study, a Twin Study of Mole Development in Adolescence, and ongoing genetic studies of substance dependence conducted by investigators at Yale and collaborating institutions.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002595> <http://www.ebi.ac.uk/coho/COHO_0001573>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002658> (<http://www.ebi.ac.uk/coho/COHO_0002658>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/article/PMC/PMC7746413") Annotation(rdfs:comment "The aforementioned 7 cohorts that have not been pooled because cardiovascular outcomes are not yet available include: CRONICAS Cohort Study (Peru), 27 Mexican Health & Aging Study (Mexico), 28 Puerto Rican Elderly Health Conditions (Puerto Rico), 29 Costa Rican Longevity and Healthy Aging Study (CRELES) 1945–1955 Retirement Cohort (Costa Rica), 30 Influence of Biopsychosocial Factors on the Survival of the Elderly in Northeast Brazil—A Prospective Study (Brazil), 31 Baependi Heart Study (Brazil) 32 and MONICA-VITÓRIA study (Brazil).") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002658> <http://www.ebi.ac.uk/coho/COHO_0000623>)
 
 
 )
