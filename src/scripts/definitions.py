@@ -12,10 +12,13 @@ Sources, in src/curation:
   definitions_evidence.tsv  one row per cohort: the drafted definition, its source,
                             the supporting quote and whether the quote was found in
                             the source (a review of 2026-09-22)
-  definitions_curated.tsv   overrides: ID, definition, source, note. A row here wins;
-                            an empty definition means the cohort is to have none.
-                            These definitions were written by the checking model
-                            alone, and carry only its contributor annotation.
+  definitions_curated.tsv   overrides: ID, definition, source, note, drafted by. A
+                            row here wins; an empty definition means the cohort is
+                            to have none. The optional "drafted by" column names the
+                            model or person that wrote the definition; where it is
+                            empty, the definition was written by the checking model
+                            alone. A curated definition carries only its drafter's
+                            contributor annotation: nobody has checked it.
 
 Every individual in coho-edit.owl that is not deprecated is expected to have a
 definition; those without are printed.
@@ -68,14 +71,14 @@ def main():
         if r["ID"] in deprecated:
             continue
         if r["definition"].strip():
-            rows[r["ID"]] = (r["definition"].strip(), r["source"], WRITTEN_BY, "")
+            rows[r["ID"]] = (r["definition"].strip(), r["source"], (r.get("drafted by") or "").strip() or WRITTEN_BY, "")
         else:
             rows.pop(r["ID"], None)
 
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by"])
-        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119", ">A dcterms:contributor", ">A dcterms:contributor"])
+        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119 SPLIT=|", ">A dcterms:contributor", ">A dcterms:contributor"])
         for cid in sorted(rows):
             definition, source, drafted, checked = rows[cid]
             w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), definition, source, drafted, checked])

@@ -27,14 +27,16 @@ We can define custom checks using [SPARQL](https://www.w3.org/TR/rdf-sparql-quer
 ### Steps to add a constraint violation check:
 
 1. Add the SPARQL query in `src/sparql`. The name of the file should end with `-violation.sparql`. Please give a name that helps to understand which violation the query wants to check.
-2. Add the name of the new file (without the `-violation.sparql` part) to the `custom_sparql_checks` list under `robot_report` in `owlmake.yaml`:
+2. Add the name of the new file (without the `-violation.sparql` part) to the `custom_sparql_checks` list under `report` in `owlmake.yaml`:
 
     ``` yaml
-    robot_report:
+    report:
       custom_sparql_checks:
       - name-of-the-file-check
     ```
 
 The check is part of `om make test` from then on.
+
+COHO's own checks include `subset-example`: a cohort in the EGA, GWAS, MetaboLights or PRIDE subset must have an example study (`IAO:0000112`) from that resource, an `EGAS`, `GCST`, `MTBLS` or `PXD` accession respectively.
 
 A check that should be reported but not fail the build goes instead into `src/ontology/profile.txt`, the QC report's rule set (`custom_profile: true` in `owlmake.yaml`): a line `WARN	file:../sparql/your-check-report.sparql`, with the query returning `?entity ?property ?value`. The aggregation-membership check runs this way.

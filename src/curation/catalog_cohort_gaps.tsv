@@ -1,0 +1,2459 @@
+tier	gwas studies	PGS id	name	other names	GWAS tags	source	note
+A	25123	Knight_ADRC	Knight Alzheimer Disease Research Center		Knight-ADRC; Knight_ADRC	PGS + GWAS	
+A	25123	Knight-ADRC	Charles F. and Joanne Knight Alzheimer's Disease Research Center		Knight-ADRC; Knight_ADRC	PGS + GWAS	
+A	13746	ADNI	Alzheimers Disease Neuroimaging Initiative		ADNI	PGS + GWAS	
+A	12791	DIAN	The Dominantly Inherited Alzheimer Network		DIAN	PGS + GWAS	
+A	12786	Barcelona-1	Barcelona-1, MútuaTerrassa University Hospital		Barcelona-1	PGS + GWAS	
+A	11958	Other	Unknown or unspecified cohort		OTHER; Other; other	PGS + GWAS	
+A	11432	STARNET	Stockholm-Tartu Atherosclerosis Reverse Networks Engineering Task		STARNET	PGS + GWAS	
+A	9508	NR	Not Reported		NR	PGS + GWAS	
+A	8080	MVP	Million Veteran Program		MVP	PGS + GWAS	
+A	7045	CHIMGEN	Chinese Imaging Genetics		CHIMGEN	PGS + GWAS	
+A	6790	AASK	African American Study of Kidney disease and hypertension		AASK	PGS + GWAS	
+A	5547		UKBB		UKBB	GWAS only	
+A	5546	AmDem	Amsterdam Dementia Cohort		AmDem	PGS + GWAS	
+A	5330	PAND	Protein Aggregation and Neurotransmitter Deficits		PAND	PGS + GWAS	
+A	5330	PIB	PIB		PIB	PGS + GWAS	
+A	5082	BBJ	BioBank Japan Project		BBJ	PGS + GWAS	
+A	5068	INTERVAL	INTERVAL		INTERVAL	PGS + GWAS	
+A	4917	AGES	Aging Gene-Environment Susceptibility - Reykjavik Study		AGES	PGS + GWAS	
+A	4649	Stanford_ADRC	Stanford Alzheimer's Disease Research Center		Stanford_ADRC	PGS + GWAS	
+A	4461	CLSA	Canadian Longitudinal Study on Aging		CLSA	PGS + GWAS	
+A	3953	JHS	Jackson Heart Study		JHS	PGS + GWAS	
+A	2941	UKB-PPP	UK Biobank Pharma Plasma Proteome		UKB-PPP	PGS + GWAS	
+A	2319	MGBB	Mass General Brigham Biobank		MGBB	PGS + GWAS	
+A	2166	CHS	Cardiovascular Health Study		CHS	PGS + GWAS	
+A	2151	FHS	Framingham Heart Study		FHS	PGS + GWAS	
+A	2094	Rhineland	The Rhineland Study		Rhineland	PGS + GWAS	
+A	2081	EPICPotsdam	European Investigation into Cancer and Nutrition, Potsdam study		EPIC-Potsdam	PGS + GWAS	
+A	2081	EPIC-Potsdam	European Prospective Investigation of Cancer-Potsdam		EPIC-Potsdam	PGS + GWAS	
+A	2031	SOL	Study of Latinos		SOL	PGS + GWAS	
+A	1959	HCHS	Hispanic Community Health Study		HCHS	PGS + GWAS	
+A	1895	BHS	Busselton Health Study		BHS	PGS + GWAS	
+A	1603	SIMPLER	Swedish Infrastructure for Medical Population-Based Life-Course and Environmental Research		SIMPLER	PGS + GWAS	
+A	1585	SCAPIS	Swedish CArdioPulmonary bioImage Study		SCAPIS	PGS + GWAS	
+A	1573	MOS	Malmö Offspring Study		MOS	PGS + GWAS	
+A	1432	METSIM	Metabolic Syndrome In Men		METSIM	PGS + GWAS	
+A	1305	QGP	Qatar Genome Project	from QBB	QGP	PGS + GWAS	
+A	1298	HUNT	Nord-Trøndelag Health Study		HUNT	PGS + GWAS	
+A	1262	SPARK	Simons Foundation Powering Autism Research		SPARK	PGS + GWAS	
+A	1213	CRIC	Chronic Renal Insufficiency Study Study		CRIC	PGS + GWAS	
+A	1157	SCALLOP	Systematic and Combined Analysis of Olink Proteins		SCALLOP	PGS + GWAS	
+A	1148	CMUH	China Medical University Hospital		CMUH	PGS + GWAS	
+A	1085	ROSMAP	Religious Orders Study and Rush Memory and Aging Project		ROSMAP	PGS + GWAS	
+A	1015	MAYO	The Mayo Clinic study	MAYO clinic biobank	MAYO	PGS + GWAS	
+A	987	GH	Group Health		G&H	PGS + GWAS	
+A	826		HOLBAEK		HOLBAEK	GWAS only	
+A	736	FinnGen	FinnGen Biobank		FINNGEN; FinnGen; Finngen	PGS + GWAS	
+A	730	BRRD	NIHR BioResourse for Rare Diseases		BRRD	PGS + GWAS	
+A	620	AIBL	The Australian Imaging, Biomarkers and Lifestyle Study		AIBL	PGS + GWAS	
+A	602	POPGEN	The Population Genetic Cohort		POPGEN; PopGen	PGS + GWAS	
+A	553	DN	Singapore Study of Diabetic Nephropathy		DN	PGS + GWAS	
+A	553	SMART2D	Singapore Study of Macro-angiopathy and Micro-vascular Reactivity in Type 2 Diabetes		SMART2D	PGS + GWAS	
+A	515	WHI	Womens Health Initiative		WHI	PGS + GWAS	
+A	481	SHIP-TREND	Study of Health in Pomerania Trend		SHIP-TREND; SHIP-Trend	PGS + GWAS	
+A	480	KoGES	Korean Genome Epidemiology Study		KOGES; KoGES	PGS + GWAS	
+A	469	NEO	The Netherlands Epidemiology of Obesity Study		NEO	PGS + GWAS	
+A	443	WRAP	Wisconsin Registry for Alzheimer's Prevention		WRAP	PGS + GWAS	
+A	440	WADRC	The Wisconsin Alzheimer's Disease Research Center		WADRC	PGS + GWAS	
+A	433	FOCUS	Food Chain Plus Cohort		FOCUS	PGS + GWAS	
+A	407	AMISH	The older order AMISH population studies		AMISH; Amish	PGS + GWAS	
+A	392	BioVU	BioVU, the Vanderbilt DNA Databank project		BIOVU; BioVU; BioVu	PGS + GWAS	
+A	384	SABRE	Southall and Brent Revisited		SABRE	PGS + GWAS	
+A	377	GALAXY	Gut-and-Liver Axis in Alcoholic Liver Fibrosis		GALAXY	PGS + GWAS	
+A	374	YFS	Cardiovascular Risk in Young Finns Study		YFS	PGS + GWAS	
+A	372	SOCCS	Scottish Colorectal Cancer Study		SOCCS	PGS + GWAS	
+A	329	CKB	China Kadoorie Biobank		CKB; China Kadoorie Biobank	PGS + GWAS	
+A	291	AllofUs	All of Us Research Program | National Institutes of Health (NIH)		AllOfUs; AllofUs	PGS + GWAS	
+A	289	BioMe	BioMe® BioBank Program (Institute for Personalized Medicine at the Icahn School of Medicine at Mount Sinai)	BioMe Biobank (BMBB), MT. SINAI BioMe Biobank Platform (IMP), Charles R Bronfman Institute for Personalized Medicine - IPM / BioBank Genome Wide Association Study of Cardiovascular, Renal and Metabolic Phenotypes (IPM), Charles R Bronfman Institute for Personalized Medicine - IPM / BioBank Genome Wide Association Study of Cardiovascular, Renal and Metabolic Phenotypes I (IPM I), Charles R Bronfman Institute for Personalized Medicine - IPM / BioBank Genome Wide Association Study of Cardiovascular, Renal and Metabolic Phenotypes II (IPM II), IPM_EA_Affy, IPM_EA_Illu, Mount Sinai BioMe BioBank (Mount Sinai)	BIOME; BioME; BioMe	PGS + GWAS	
+A	283	CARDIA	Coronary Artery Risk Development in Young Adults		CARDIA	PGS + GWAS	
+A	278	HELIOS	Health for Life in Singapore		HELIOS	PGS + GWAS	
+A	271	EGCUT	Estonian Genome Center of the University of Tartu		EGCUT	PGS + GWAS	
+A	261	CFS	Cleveland Family Study		CFS	PGS + GWAS	
+A	260	deCODE	deCODE Genetics		DECODE; DeCODE; deCODE; deCode	PGS + GWAS	
+A	255	PainOMICS	PainOmicc Retrospective Study		Painomics	PGS + GWAS	
+A	255		HELIC-Pomak		HELIC-Pomak	GWAS only (candidate COHO:0000088 Greece Hellenic Isolated Cohorts)	
+A	255		HELIC-MANOLIS		HELIC-MANOLIS	GWAS only (candidate COHO:0000088 Greece Hellenic Isolated Cohorts; COHO:0000166 The MANOLIS cohort)	
+A	248	GERA	Genetic Epidemiology Research in Adult Health and Aging		GERA	PGS + GWAS	
+A	245	Multiple	Multiple cohorts (see publication)		Multiple; multiple	PGS + GWAS	
+A	234	CEDAR	Correlated Expression & Disease Association Research		CEDAR	PGS + GWAS	
+A	232	TDCOB	The Danish Childhood Obesity Biobank	The Holbaek Study	TDCOB	PGS + GWAS	
+A	223	GS:SFHS	Generation Scotland: Scottish Family Health Study	Generation Scotland	GS:SFHS	PGS + GWAS	
+A	220	QIMR	Queensland Institute of Medical Research		QIMR	PGS + GWAS	
+A	204	GENOA	Genetic Epidemiology Network of Arteriopathy		GENOA	PGS + GWAS	
+A	186	NFBC	Northern Finnish Birth Cohort Study		NFBC	PGS + GWAS	
+A	182	TWB	Taiwan Biobank		TWB	PGS + GWAS	
+A	180	GeneRISK	GeneRISK		GeneRISK	PGS + GWAS	
+A	167	HANDLS	Healthy Aging in Neighborhoods of Diversity across the Life Span Study		HANDLS	PGS + GWAS	
+A	162	MSCCR	Mount Sinai Crohn's and Colitis Registry		MSCCR	PGS + GWAS	
+A	148	NESDA	Netherlands Study of Depression and Anxiety		NESDA	PGS + GWAS	
+A	147	HABC	Health, aging and body composition study		HABC	PGS + GWAS	
+A	146	MGI	Michigan Genomics Initiative		MGI	PGS + GWAS	
+A	141		IMPACT_KPNC		IMPACT_KPNC	GWAS only (candidate COHO:0000097 Identification of Men with a genetic predisposition to ProstAte Cancer)	
+A	139	CHARGE	CHARGE		CHARGE	PGS + GWAS	
+A	138	HBCS	Helsinki Birth Cohort Study		HBCS	PGS + GWAS	
+A	133	Generation_R	Generation R Study Group	Generation R	Generation_R	PGS + GWAS	
+A	132	500FG	500FG		500FG	PGS + GWAS	
+A	132	MyCode	MyCode Community Health Initiative (Geisinger Health System): includes DiscovEHR participants	Geisinger Health System USA DiscovEHR participants (DiscovEHR), Geisinger Health System (GeHS)	MyCode	PGS + GWAS	
+A	131	23andMe	23andMe		23ANDME; 23andMe	PGS + GWAS	
+A	131	LIFE-Adult	LIFE-Adult		LIFE-Adult	PGS + GWAS	
+A	131	RBC-Omics	Red Blood Cell Omics Study		RBC-Omics	PGS + GWAS	
+A	130	COROGENE	COROGENE: International Studies of Infarct Survival		COROGENE	PGS + GWAS	
+A	123	GENMETS	GenMets sub cohort for the Health 2000 Study		GenMets	PGS + GWAS	
+A	117	QMDiab	Qatar Metabolomics Study on Diabetes		QMDiab	PGS + GWAS	
+A	115	GeneSTAR	Genetic STudy of Aspirin Responsiveness		GENESTAR; GeneSTAR; GeneStar	PGS + GWAS	
+A	114	NHS	Nurses Health Study		NHS	PGS + GWAS	
+A	112	PMB	Penn Medicine Biobank		PMB	PGS + GWAS	
+A	106	EIRA	Epidemiological Investigation of Rheumatoid Arthritis		EIRA	PGS + GWAS	
+A	106	LURIC	Ludwigshafen Risk and Cardiovascular Health		LURIC	PGS + GWAS	
+B	99	AADM	Africa America Diabetes Mellitus		AADM	PGS + GWAS	
+B	96	DBDS	Danish Blood Donor Study		DBDS	PGS + GWAS	
+B	95	HUFS	Howard University Family Study		HUFS	PGS + GWAS	
+B	91	STABILITY	The Stabilization of Atherosclerotic Plaque by Initiation of Darapladib Therapy Trial		STABILITY	PGS + GWAS	
+B	91	STANLEY	STANLEY		STANLEY	PGS + GWAS	
+B	91	Swedish BioFinder	Biomarkers For Identifying Neurodegenerative Disorders Early and Reliably		Swedish BioFinder	PGS + GWAS	
+B	91	VIS	Vis Study		VIS	PGS + GWAS	
+B	81	NACC	National Alzheimer’s Coordinating Center		NACC	PGS + GWAS	
+B	81	SP2	Singapore Prospective Study Program		SP2	PGS + GWAS	
+B	79	CCPM	Colorado Center for Personalized Medicine Biobank		CCPM	PGS + GWAS	
+B	78	ACT	Adult Changes in Thought		ACT	PGS + GWAS	
+B	76	HYPERGEN	Hypertension Genetic Epidemiology Network		HYPERGEN; HyperGEN; HyperGen	PGS + GWAS	
+B	75		Taiwan		Taiwan	GWAS only (candidate COHO:0000161 Taiwan Type 2 Diabetes Study; COHO:0000310 NCI Taiwan cohort)	
+B	73	PLCO	Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial		PLCO	PGS + GWAS	
+B	72	KCPS	Korean Cancer Prevention Study		KCPS	PGS + GWAS	
+B	71	LIFE-HEART	Leipzig Research Center for Civilization Diseases - Heart Study		LIFE-HEART; LIFE-Heart	PGS + GWAS	
+B	70	BHP	Bandim Health Project		BHP	PGS + GWAS	
+B	69	UPENN	University of Pennsylvania		UPENN	PGS + GWAS	
+B	65	CHOP	Childrens Hospital of Philadelphia		CHOP	PGS + GWAS	
+B	65	DTR	Danish Twin Registry		DTR	PGS + GWAS	
+B	64	eMERGE	Medical Records and Genomics study		EMERGE; eMERGE	PGS + GWAS	
+B	64	SORBS	Sorbs population		SORBS	PGS + GWAS	
+B	63	DRS_EXTRA	Dose-Responses to Exercise Training	DRS EXTRA	DRS_EXTRA	PGS + GWAS	
+B	63	GOLDN	Genetics of Lipid Lowering Drugs and Diet Network study		GOLDN	PGS + GWAS	
+B	61	SWAN	Study of Women’s Health Across the Nation		SWAN	PGS + GWAS	
+B	60	FinnDiane	Finnish Diabetic Nephropathy		FinnDiane	PGS + GWAS	
+B	60	IMAGEN	IMAGEN		IMAGEN	PGS + GWAS	
+B	60	MARS	Munich Antidepressant Response Signature		MARS	PGS + GWAS	
+B	60	OATS	Older Australian Twins Study		OATS	PGS + GWAS	
+B	60	PHB	Partners HealthCare Biobank		PHB	PGS + GWAS	
+B	60		LymeProspect		LymeProspect	GWAS only	
+B	59	300TZFG	300 Tanzania functional genomics (FG) study		300TZFG	PGS + GWAS	
+B	59	UCLA	UCLA ATLAS Community Health Initiative		UCLA	PGS + GWAS	
+B	58	IRASFS	IRASFS		IRAS FS; IRASFS	PGS + GWAS	
+B	57	WHI-GARNET	Womens Health Initiative Genome-wide Association Research Network into Effects of Treatment		WHI-GARNET	PGS + GWAS	
+B	56	ALS	ALS Study		ALS	PGS + GWAS	
+B	56	BDC	Barbara Davis Center		BDC	PGS + GWAS	
+B	56	BIG	Brain Imaging Genetics		BIG	PGS + GWAS	
+B	56	BrainSCALE	BrainSCALE		BrainSCALE	PGS + GWAS	
+B	56	NCNG	Norwegian Cognitive NeuroGenetics Study		NCNG	PGS + GWAS	
+B	56	NeuroIMAGE	NeuroIMAGE		NeuroIMAGE	PGS + GWAS	
+B	56	NUIG-TCD	BIG replication and Trinity College Dublin/ National University of Ireland, Galway		NUIG-TCD	PGS + GWAS	
+B	55	Inter99	Inter99 Study		INTER99; Inter99	PGS + GWAS	
+B	55	iPSYCH	iPSYCH		IPSYCH; iPSYCH	PGS + GWAS	
+B	55	LLFS	Long Life Family Study		LLFS; Long Life Family Study	PGS + GWAS	
+B	54	BHS_b	Bogalusa Heart Study		BHS_b	PGS + GWAS	
+B	54	COPDGene	Chronic Obstructive Pulmonary Disease Gene Study		COPDGene	PGS + GWAS	
+B	54	GAPP	The genetic and phenotypic determinants of blood pressure and other cardiovascular risk factors (Liechtenstein)		GAPP	PGS + GWAS	
+B	54	WGHS	Womens Genome Health Study		WGHS	PGS + GWAS	
+B	50	CCHC	Cameron County Hispanic Cohort		CCHC	PGS + GWAS	
+B	49	ADGC	Alzheimer Disease Genetic Consortium		ADGC	PGS + GWAS	
+B	49	CANDELA	Consortium for the Analysis of the Diversity and Evolution of Latin America		CANDELA	PGS + GWAS	
+B	49	MCPS	Mexico City Prospective Study		MCPS	PGS + GWAS	
+B	48	Airwave	Airwave Health Monitoring Study		AIRWAVE; Airwave	PGS + GWAS	
+B	48	CoLaus	Cohorte Lausannoise		COLAUS; CoLaus	PGS + GWAS	
+B	47	MCCS	Melbourne Collaborative Cohort Study		MCCS	PGS + GWAS	
+B	45	TRAILS	Tracking Adolescents Individual Lives Survey		TRAILS	PGS + GWAS	
+B	44	ADDITION-PRO	ADDITION-PRO		ADDITION-PRO	PGS + GWAS	
+B	44	FINCAVAS	Finnish Cardiovascular Study		FINCAVAS	PGS + GWAS	
+B	44	HPFS	Health Professional Follow-up Study		HPFS	PGS + GWAS	
+B	43	ARGO	Arthroplasty and the Genetics of Osteoarthritis		ARGO	PGS + GWAS	
+B	43	KARE	Korean Association Resource Project		KARE	PGS + GWAS	
+B	42	QBB	Qatar Biobank	Qatar Genome Program (QGP)	QBB	PGS + GWAS	
+B	42	Ansan	Ansan Study		Ansan	PGS + GWAS	
+B	42	Ansung	Ansung Study		Ansung	PGS + GWAS	
+B	42	Nagahama Study	Nagahama Prospective Genome Cohort for the Comprehensive Human Bioscience	Nagahama_Study	Nagahama Study; Nagahama_Study	PGS + GWAS	
+B	42	Nagahama_Study	Nagahama Prospective Genome Cohort for the Comprehensive Human Bioscience	Nagahama Study	Nagahama Study; Nagahama_Study	PGS + GWAS	
+B	42	TUM	Technical University of Munich		TUM	PGS + GWAS	
+B	42		BMBB		BMBB	GWAS only	
+B	41	CKDGen	Chronic Kidney Disease Genetics (CKDGen) Consortium		CKDGen	PGS + GWAS	
+B	40	ToMMo	Tohoku Medical Megabank		ToMMo; Tohoku Medical Megabank	PGS + GWAS	
+B	39	FHCRC	Fred Hutchinson Cancer Research Center, Seattle US		FHCRC	PGS + GWAS	
+B	39	MAGIC	Meta-Analyses of Glucose and Insulin-related Traits Consortium		MAGIC	PGS + GWAS	
+B	39	RAINE	Western Australian Pregnancy Cohort Study		RAINE; Raine	PGS + GWAS	
+B	38	PROSPER	Prospective Study of Pravastatin in the Elderly at Risk		PROSPER	PGS + GWAS	
+B	37	GenSalt	Genetic Epidemiology Network of Salt-Sensitivity Study		GENSALT; GENSalt; GenSALT; GenSalt	PGS + GWAS	
+B	37	MGB	MGB		MGB	PGS + GWAS	
+B	36	KP	Kaiser Permanente		KP	PGS + GWAS	
+B	35	CPSII	Cancer Prevention Study II (including the Nutrition cohort)		CPSII	PGS + GWAS	
+B	35		AoU		AoU	GWAS only	
+B	35		Estonia		Estonia	GWAS only	
+B	34	MCTFR	Minnesota Center for Twin and Family Research		MCTFR	PGS + GWAS	
+B	34	RISC	Relationship between Insulin Sensitivity and Cardiovascular disease		RISC	PGS + GWAS	
+B	34		RSI		RSI	GWAS only	
+B	33	ABCD	Adolescent Brain Cognitive Development		ABCD	PGS + GWAS	
+B	33	SUGAR-MGH	The Study to Understand the Genetics of the Acute Response to Metformin and Glipizide in Humans		SUGAR-MGH	PGS + GWAS	
+B	32	CCFR	Colon Cancer Family Registry		CCFR	PGS + GWAS	
+B	32	DIACORE	DIAbetes COhoRtE		DIACORE	PGS + GWAS	
+B	32	Karolinska	Karolinska Institutet		Karolinska	PGS + GWAS	
+B	31	MrOS	Osteoporotic Fractures in Men Study		MrOS	PGS + GWAS	
+B	31	PREVEND	Prevention of Renal and Vascular Endstage Disease study		PREVEND	PGS + GWAS	
+B	30	EADB	The European Alzheimer’s Disease DNA Biobank dataset		EADB	PGS + GWAS	
+B	30	INTERSTROKE	INTERSTROKE		INTERSTROKE	PGS + GWAS	
+B	30	SWHS	Shanghai Womens Health Study		SWHS	PGS + GWAS	
+B	30		MHIphase2		MHIphase2	GWAS only	
+B	30		SHIPNATREND		SHIPNATREND	GWAS only (candidate COHO:0000202 Study of Health in Pomerania)	
+B	30		MHIphase1		MHIphase1	GWAS only	
+B	29	DACHS	Darmkrebs: Chancen der Verhütung durch Screening		DACHS	PGS + GWAS	
+B	28	BRIGHT	British Genetics of Hypertension study		BRIGHT	PGS + GWAS	
+B	28	GIANT	Genetic Investigation of ANthropometric Traits (GIANT) consortium		GIANT	PGS + GWAS	
+B	28	HealthABC	Health, Aging and Body Composition Study	Health ABC	Health ABC; HealthABC	PGS + GWAS	
+B	28	HKDDDPC	Hong Kong Degenerative Disc Disease Population Cohort		HKDDDPC	PGS + GWAS	
+B	28	ILCCO	International Lung Cancer Consortium (Lung cancer OncoArray project)		ILCCO	PGS + GWAS	
+B	27	ADC	Alzheimer Disease Center		ADC	PGS + GWAS	
+B	27	ADSP	Alzheimer's Disease Sequencing Project		ADSP	PGS + GWAS	
+B	27	CLHNS	Cebu Longitudinal Health and Nutrition Survey		CLHNS	PGS + GWAS	
+B	27	HerediGene	HerediGene study		HerediGene	PGS + GWAS	
+B	27	HVH	Heart and Vascular Health Study		HVH	PGS + GWAS	
+B	27	IHCS	Intermountain Heart Collaborative Study	Intermountain Healthcare	IHCS	PGS + GWAS	
+B	27	JOCO	Johnston County Osteoarthritis Project		JOCO	PGS + GWAS	
+B	27	LOLIPOP	London Life Sciences Population Study		LOLIPOP	PGS + GWAS	
+B	26	ASTAGR	Asian Skin Traits and Genetic Research		ASTAGR	PGS + GWAS	
+B	26	DALS	Diet, Activity, and Lifestyle Study		DALS	PGS + GWAS	
+B	26	InCHIANTI	The Invecchiare in Chianti		INCHIANTI; InCHIANTI	PGS + GWAS	
+B	26	J-MICC	The Japan Multi-institutional Collaborative Cohort Study		J-MICC	PGS + GWAS	
+B	26	NBCS	Nijmegen Bladder Cancer Study		NBCS	PGS + GWAS	
+B	26	QSKIN	QSkin Sun and Health Study	QSKIN Genetics	QSKIN; QSkin; Qskin	PGS + GWAS	
+B	26	RIKEN	RIKEN		RIKEN	PGS + GWAS	
+B	26	SMC	Swedish Mammography Cohort		SMC	PGS + GWAS	
+B	26	SMHS	Shanghai Mens Health Study		SMHS	PGS + GWAS	
+B	26	VITAL	VITamins And Lifestyle Cohort Study		VITAL	PGS + GWAS	
+B	26	WASHS	Western Australia Sleep Health Study		WASHS	PGS + GWAS	
+B	25	EMIF	European Medical Information Framework	EMIF-AD 90+, EMIF-AD PreclinAD	EMIF	PGS + GWAS	
+B	25	FamHS	Family Heart Study		FAMHS; FamHS	PGS + GWAS	
+B	25	HAPO	Hyperglycemia and Adverse Pregnancy Outcomes study		HAPO	PGS + GWAS	
+B	25	OOA	Old Order Amish	Genetics of Cardiometabolic Health in the Amish Study; Old Order Amish (OOA) community of Lancaster, Pennsylvania part of NHLBI Trans-Omics for Precision Medicine (TOPMed)	OOA	PGS + GWAS	
+B	24	CATHGEN	CATHeterization GENetics		CATHGEN	PGS + GWAS	
+B	24	CRCGEN	Colorectal Cancer Genetics & Genomics		CRCGEN	PGS + GWAS	
+B	24	INGI-Carlantino	Italian Network on Genetic Isolates-Carlantino		INGI-Carlantino	PGS + GWAS	
+B	24	InterAct	InterAct		InterAct	PGS + GWAS	
+B	24	Leipzig_Adults	Leipzig Adults	Leipzig Adults	Leipzig Adults; Leipzig_Adults	PGS + GWAS	
+B	24	SAPALDIA	Swiss Study on Air Pollution and Lung Diseases in Adults		SAPALDIA	PGS + GWAS	
+B	24		Bunkyo		Bunkyo	GWAS only	
+B	24		Shimane-CoHRE		Shimane-CoHRE	GWAS only	
+B	23	FAMHES	Guangxi Fangchenggang Area Male Health and Examination Survey		FAMHES	PGS + GWAS	
+B	23	INGI-FVG	Italian Network on Genetic Isolates-Friuli-Venezia Giulia		INGI-FVG	PGS + GWAS	
+B	23	OAI	Osteoarthritis Initiative		OAI	PGS + GWAS	
+B	23	SWOG	Southwest Oncology Group		SWOG	PGS + GWAS	
+B	22	LCCS	Leeds Colorectal Cancer Study		LCCS	PGS + GWAS	
+B	22	NCCCS	North Carolina Colon Cancer Studies		NCCCS	PGS + GWAS	
+B	21	ATBC	Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study		ATBC	PGS + GWAS	
+B	21	GOCS_Chilean	Growth and Obesity Chilean Cohort Study		GOCS_Chilean	PGS + GWAS	
+B	21	HEXA	Health Examinee Shared Control Study		HEXA	PGS + GWAS	
+B	21	NFCCR	Newfoundland Familial Colon Cancer Registry		NFCCR	PGS + GWAS	
+B	21	Toshiba	Toshiba cohort		Toshiba	PGS + GWAS	
+B	21	WHI-MS	Womens Health Initiative Memory Study		WHI-MS	PGS + GWAS	
+B	21	WHI-SHARe	Womens Health Initiative SNP Health Association Resource		WHI-SHARe	PGS + GWAS	
+B	20	IoW	Isle of Wight	IOW	IoW	PGS + GWAS	
+B	20	Starr	Starr County		STARR COUNTY; Starr	PGS + GWAS	
+C	19	EFSOCH	Exeter Family Study of Childhood Health		EFSOCH	PGS + GWAS	
+C	19	GLGC	Global Lipid Genetics Consortium		GLGC	PGS + GWAS	
+C	19	Harvard	Harvard		Harvard	PGS + GWAS	
+C	19	LATVIANBIOBANK	Latvian Biobank		LATVIANBIOBANK	PGS + GWAS	
+C	19	MECC	Molecular Epidemiology of Colorectal Cancer Study		MECC	PGS + GWAS	
+C	19	NHS2	Nurses Health Study II		NHS2	PGS + GWAS	
+C	19	NIAAA	National Institute on Alcohol Abuse and Alcoholism		NIAAA	PGS + GWAS	
+C	19	SCCS	NBHS/Southern Community Cohort		SCCS	PGS + GWAS	
+C	19	TPMI	Taiwan Precision Medicine Initiative		TPMI	PGS + GWAS	
+C	18	Baependi	Baependi Heart Study	BHS	BAEPENDI; Baependi	PGS + GWAS	
+C	18	BIGCS	Born in Guangzhou Cohort Study		BIGCS	PGS + GWAS	
+C	18	GARP	Genetics OsteoArthritis and Progression		GARP	PGS + GWAS	
+C	18	PHS	Physicians Health Study		PHS	PGS + GWAS	
+C	18	TSS	Trinity Student Study		TSS	PGS + GWAS	
+C	18	Yale-Penn	Genetics of Substance Dependence Yale Penn		Yale-Penn	PGS + GWAS	
+C	17	CAVAS	Cardiovascular Disease Association Study		CAVAS	PGS + GWAS	
+C	17	CHNS	China Health and Nutrition Survey		CHNS	PGS + GWAS	
+C	16	300-OB	300_Obese cohort		300-OB	PGS + GWAS	
+C	16	A4	Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease		A4	PGS + GWAS	
+C	16	ACE	Autism Centre of Excellence		ACE	PGS + GWAS	
+C	16	CATSS	Child and Adolescent Twin Study in Sweden		CATSS	PGS + GWAS	
+C	16	CLUEII	Give Us a Clue to Cancer and Heart Disease Study II		CLUEII	PGS + GWAS	
+C	16	GRAPHIC	Genetic Regulation of Arterial Pressure in Humans in the Community		GRAPHIC	PGS + GWAS	
+C	16	HCHS-SOL	Hispanic Community Health Study / Study of Latinos	HCHS, SOL	HCHS-SOL; HCHS/SOL; HCHS_SOL	PGS + GWAS	
+C	16	HCHS/SOL	Hispanic Community Health Study / Study of Latinos		HCHS-SOL; HCHS/SOL; HCHS_SOL	PGS + GWAS	
+C	16	MYHAT	The Monongahela-Youghiogheny Healthy Aging Team		MYHAT	PGS + GWAS	
+C	16	Vanderbilt	Vanderbilt Genome-Wide Association Studies		Vanderbilt	PGS + GWAS	
+C	16		CEU		CEU	GWAS only	
+C	16		YRI		YRI	GWAS only	
+C	15	COPSAC	Copenhagen Study on Asthma in Childhood		COPSAC	PGS + GWAS	
+C	15	DemGene	DemGene Project		DemGene	PGS + GWAS	
+C	15	DIAGRAM	European descent in the Diabetes Genetics Replication And Meta-analysis		DIAGRAM	PGS + GWAS	
+C	15	DISCOVeRY-BMT	Determining the Influence of Susceptibility Conveying Variants Related to One-Year Mortality after BMT		DISCOVeRY-BMT	PGS + GWAS	
+C	15	EADI	EADI		EADI	PGS + GWAS	
+C	15	EPICURE	EPICURE Consortium		EPICURE	PGS + GWAS	
+C	15	GenEPA	GenEPA		GenEPA	PGS + GWAS	
+C	15	GERAD	GERAD		GERAD	PGS + GWAS	
+C	15	GFG	Genes for Good		GFG	PGS + GWAS	
+C	15	ILM	Imperial-Liverpool-Melbourne Collaboration		ILM	PGS + GWAS	
+C	15	SAFS	San Antonio Family Study		SAFS	PGS + GWAS	
+C	15	SATSA	Swedish Adoption/Twin Study of Aging		SATSA	PGS + GWAS	
+C	15	SiGN	The National Institute of Neurological Disorders and Stroke (NINDS) Stroke Genetics Network (SiGN)		SIGN; SiGN	PGS + GWAS	
+C	15	SPIROMICS	Subpopulations and intermediate outcome measures in COPD study		SPIROMICS	PGS + GWAS	
+C	15		VHSMC		VHSMC	GWAS only	
+C	14	CADISP	Cervical Artery Dissection and Ischemic Stroke Patients		CADISP	PGS + GWAS	
+C	14	Columbia	Columbia University Medical Center		Columbia	PGS + GWAS	
+C	14	CSMC	Cedars-Sinai Medical Centre		CSMC	PGS + GWAS	
+C	14	Gen3G	Genetics of Glucose regulation in Gestation and Growth		Gen3G	PGS + GWAS	
+C	14	MAAS	Manchester Asthma and Allergy Study		MAAS	PGS + GWAS	
+C	14	PATH	Population Assessment of Tobacco and Health		PATH	PGS + GWAS	
+C	14	PUUMA	Peking University _ University of Michigan Study of Atherosclerosis		PUUMA	PGS + GWAS	
+C	14	SCHS	Singapore Chinese Health Study		SCHS	PGS + GWAS	
+C	14	SISTER	The Sister Study		SISTER	PGS + GWAS	
+C	14	Urolife	UroLife Study		UroLife	PGS + GWAS	
+C	13	CAPOC	Chinese Antipsychotics Pharmacogenomics Consortium		CAPOC	PGS + GWAS	
+C	13	CROATIA-SPLIT	CROATIA-Split Study		CROATIA-SPLIT	PGS + GWAS	
+C	13	CROATIA-VIS	Vis Island Study (Croatia)		CROATIA-VIS	PGS + GWAS	
+C	13	EGEA	Epidemiological study of Genetics and Environment of Asthma		EGEA	PGS + GWAS	
+C	13	ESTHER	Epidemiological investigations on chances of preventing, recognizing early and optimally treating chronic diseases in an elderly population / Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung, Verlauf der diagnotischen Abklärung bei Krebspatienten	Epidemiological investigations of the chances of preventing, recognizing early and optimally treating chronic diseases in an elderly population (ESTHER_ELDERLY), Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung, Verlauf der diagnotischen Abklärung bei Krebspatienten (ESTHER-VERDI)	ESTHER	PGS + GWAS	
+C	13	GH70	Gothenburg H70 Birth Cohort Studies and Clinical AD		GH70	PGS + GWAS	
+C	13	NC-BCFR	Northern California Breast Cancer Family Registry		NC-BCFR	PGS + GWAS	
+C	13	NIA-LOAD	National Institute on Aging - Late Onset Alzheimers Disease		NIA-LOAD	PGS + GWAS	
+C	13	NOMAS	Northern Manhattan Study		NOMAS	PGS + GWAS	
+C	13	POFC	Pittsburgh Orofacial Cleft		POFC	PGS + GWAS	
+C	13	WASHU	University of Washington		WASHU	PGS + GWAS	
+C	12	AGDS	Australian Genetics of Depression Study		AGDS	PGS + GWAS	
+C	12	ARIES	Accessible Resource for Integrated Epigenomic Studies		ARIES	PGS + GWAS	
+C	12	Bellygenes	the Bellygenes initiative		Bellygenes	PGS + GWAS	
+C	12	CERA	Cohort for Efficiencies in Research Administration		CERA	PGS + GWAS	
+C	12	CIBMTR-NMDP	Center for International Blood and Marrow Transplant Research - National Marrow Donor Program Research Sample Repository		CIBMTR-NMDP	PGS + GWAS	
+C	12	DIGPD	Drug Interaction with Genes in Parkinson's disease		DIGPD	PGS + GWAS	
+C	12	Duke_GKD	Duke Genetics of Kidney Disease		Duke_GKD	PGS + GWAS	
+C	12	EUGENDA	EUGENDA		EUGENDA	PGS + GWAS	
+C	12	FAMILY	Family Atherosclerosis Monitoring In earLY life study		FAMILY	PGS + GWAS	
+C	12	FUSION	Finland-United States Investigation of Non-Insulin-Dependent Diabetes Mellitus Genetics		FUSION	PGS + GWAS	
+C	12	GEM_Ginkgo	Ginkgo Evaluation of Memory (GEM) study		GEM_Ginkgo	PGS + GWAS	
+C	12	GUB	Genito-Urinary BioBank	gub1, gub2	GUB	PGS + GWAS	
+C	12	HISAYAMA	The Hisayama study		HISAYAMA	PGS + GWAS	
+C	12	IGAP	International Genomics of Alzheimer's Project		IGAP	PGS + GWAS	
+C	12	LEI	Lions Eye Institute		LEI	PGS + GWAS	
+C	12	MACAD	Mexican American Study of Coronary Artery Disease		MACAD	PGS + GWAS	
+C	12	METASTROKE	METASTROKE		METASTROKE	PGS + GWAS	
+C	12	MoVIES	Monongahela Valley Independent Elders Survey		MoVIES	PGS + GWAS	
+C	12	PREDO	The Prediction and Prevention of Preeclampsia and Intrauterine Growth Restriction study		PREDO	PGS + GWAS	
+C	12	RACE	Risk Assessment of Cerebrovascular Events Study, Pakistan		RACE	PGS + GWAS	
+C	12	REGARDS	Reasons for Geographic and Racial Differences in Stroke		REGARDS	PGS + GWAS	
+C	12	SELECT	Selenium and Vitamin E Cancer Prevention Trial		SELECT	PGS + GWAS	
+C	12	SIFAP	Stroke In Young Fabry Patients		SIFAP	PGS + GWAS	
+C	12	SpiroMeta	SpiroMeta consortium		SpiroMeta	PGS + GWAS	
+C	12	Toronto	Toronto		Toronto	PGS + GWAS	
+C	12	UBonn	Ubon-sepsis cohort		Ubonn	PGS + GWAS	
+C	12	WLS	The Wisconsin Longitudinal Study		WLS	PGS + GWAS	
+C	12		GTP		GTP	GWAS only	
+C	12		FinnTwin		FinnTwin	GWAS only	
+C	12		Croatia		Croatia	GWAS only (candidate COHO:0000047 CROATIA-Korcula Study)	
+C	12		LBC36		LBC36	GWAS only	
+C	12		NAAC		NAAC	GWAS only	
+C	12		LBC21		LBC21	GWAS only	
+C	11	Add Health	National Longitudinal Study of Adolescent to Adult Health	AddHealth	Add Health; AddHealth	PGS + GWAS	
+C	11	BCBL	Brain and Language cohort		BCBL	PGS + GWAS	
+C	11	BOTS	Botnia Study		BOTS	PGS + GWAS	
+C	11	CLDRC	Colorado Learning Disabilities Research Centre		CLDRC	PGS + GWAS	
+C	11	DIAGEN	Diabetes Genetics		DIAGEN	PGS + GWAS	
+C	11	ECLIPSE	Evaluation of COPD Longitudinally to Identify Predictive Surrogate End-points		ECLIPSE	PGS + GWAS	
+C	11	ELVS	The Early Language in Victoria Study		ELVS	PGS + GWAS	
+C	11	GECCO	Genetics and Epidemiology of Colorectal Cancer Consortium		GECCO	PGS + GWAS	
+C	11	GINIplus	The German Infant Study on the Influence of Nutrition Intervention plus Air pollution and Genetics on Allergy Development		GINIplus	PGS + GWAS	
+C	11	GOOD	Gothenburg Osteoporosis and Obesity Determinants study		GOOD	PGS + GWAS	
+C	11	GOYA	Genetics of Overweight Young Adults		GOYA	PGS + GWAS	
+C	11	ICBP	International Consortium for Blood Pressure Genome-wide Association Studies		ICBP	PGS + GWAS	
+C	11	Iowa	Iowa		Iowa	PGS + GWAS	
+C	11	K-ROAD	Korea-Registries to Overcome and Accelerate Dementia research project		K-ROAD	PGS + GWAS	
+C	11	MayoGC	Mayo Genome Consortia		MayoGC	PGS + GWAS	
+C	11	MEDIM	Migration and Ethnicity on Diabetes in Malmö		MEDIM	PGS + GWAS	
+C	11	MIRIAD	Material and Information Resources for Inflammatory and Digestive Diseases Biobank		MIRIAD	PGS + GWAS	
+C	11	NCI	National Cancer Institute		NCI	PGS + GWAS	
+C	11	NIDDK_IBDGC	National Institute for Diabetes and Digestive and Kidney Diseases IBD Genetics Consortium		NIDDK_IBDGC	PGS + GWAS	
+C	11	OHSU	Oregon Health Science University		OHSU	PGS + GWAS	
+C	11	PAGES	Population-based Autism Genetics and Environment Study		PAGES	PGS + GWAS	
+C	11	REDS	Recipient Epidemiology and Donor evaluation Study		REDS	PGS + GWAS	
+C	11	RISK	Risk Stratification and Identification of Immunogenetic and Microbial Markers of Rapid Disease Progression in Children with Crohn's Disease		RISK	PGS + GWAS	
+C	11	TARCC	The Texas Alzheimer’s Research and Care Consortium		TARCC	PGS + GWAS	
+C	11		York		York	GWAS only	
+C	11		SHARE-IBD		SHARE-IBD	GWAS only	
+C	10	Changfeng	Shanghai Changfeng Study		Changfeng	PGS + GWAS	
+C	10	COGEND	Collaborative Genetic Study of Nicotine Dependence		COGEND	PGS + GWAS	
+C	10	EPIDG	Epidemiology of Diabetes and Gestational Diabetes cohort		EPIDG	PGS + GWAS	
+C	10	FIND	The Family Investigation of Nephropathy and Diabetes		FIND	PGS + GWAS	
+C	10	genomicc	GenOMICC (Genetics Of Mortality in Critical Care)		GenOMICC; genomicc	PGS + GWAS	
+C	10	iCOGS	iCOGS		iCOGS	PGS + GWAS	
+C	10	KCCS	Kentucky Case-Control Study		KCCS	PGS + GWAS	
+C	10	LALES	Los Angeles Latino Eye Study		Los Angeles Latino Eye Study	PGS + GWAS	
+C	10	MHS	Mexican Hypertriglyceride Study		MHS	PGS + GWAS	
+C	10	SFBCS	San Francisco Bay Area Breast Cancer Study		SFBCS	PGS + GWAS	
+C	10	SIGMA	Slim Initiative in Genomic Medicine for the Americas		SIGMA	PGS + GWAS	
+C	10	STARR COUNTY	Starr County Health Studies		STARR COUNTY	PGS + GWAS	
+C	10	T2D SIGMA Studies	SIGMA Type 2 Diabetes Consortium		T2D SIGMA Studies	PGS + GWAS	
+C	10	UHU	University Hospital, Uppsala		UHU	PGS + GWAS	
+C	10		Mexico City 2		Mexico City 2	GWAS only	
+C	10		Mexico City 1		Mexico City 1	GWAS only	
+C	10		1982 Pelotas (Brazil) Birth Cohort Study		1982 Pelotas (Brazil) Birth Cohort Study	GWAS only (candidate COHO:0000019 Brazilian Cohort)	
+C	9	AHS	Agricultural Health Study		AHS	PGS + GWAS	
+C	9	AncestryDNA	AncestryDNA		AncestryDNA	PGS + GWAS	
+C	9	ANDIS	All New Diabetics In Scania		ANDIS	PGS + GWAS	
+C	9	BATS	Brisbane Adolescent Twins Study		BATS	PGS + GWAS	
+C	9	BLTS	Brisbane Longitudinal Twin Study		BLTS	PGS + GWAS	
+C	9	Bonn	Department of Psychiatry, University of Bonn		Bonn	PGS + GWAS	
+C	9	CARDIoGRAM	Coronary ARtery DIsease Genome-wide Replication And Meta-analysis		CARDIoGRAM	PGS + GWAS	
+C	9	CNICS	Centers for AIDS Research (CFAR) Network of Integrated Clinical Systems		CNICS	PGS + GWAS	
+C	9	DCCT	Diabetes Control and Complication Trial		DCCT	PGS + GWAS	
+C	9	DNBC	Danish National Birth Cohort		DNBC	PGS + GWAS	
+C	9	EAGLE	Environment and Genetics in Lung Cancer Etiology Study		EAGLE	PGS + GWAS	
+C	9	EDIC	Epidemiology of Diabetes Interventions and Complications		EDIC	PGS + GWAS	
+C	9	ELLIPSE	Prostate		ELLIPSE	PGS + GWAS	
+C	9	Finland	Finland		FINLAND; Finland	PGS + GWAS	
+C	9	GENCOVID	GEN-COVID, reCOVID		GENCOVID	PGS + GWAS	
+C	9	Hawaiian_Colo2&3	Hawaiian Colorectal Cancer Studies 2&3	Hawaiian Colo2&3	Hawaiian_Colo2&3	PGS + GWAS	
+C	9	HNR	Heinz Nixdorf Recall Study		HNR	PGS + GWAS	
+C	9	INHALE	INHALE		INHALE	PGS + GWAS	
+C	9	MDC-CC	Malmo Diet and Cancer Study - Cardiovascular Cohort		MDC-CC	PGS + GWAS	
+C	9	MiaLAtinX	MiaLAtinX Consortium		MiaLAtinX	PGS + GWAS	
+C	9	MSH	Mount Sinai Hospital		MSH	PGS + GWAS	
+C	9	NFBC1986	Northern Finland Birth Cohort 1986		NFBC1986	PGS + GWAS	
+C	9	RHS	Ragama Health Study		RHS	PGS + GWAS	
+C	9	SCES	Singapore Chinese Eyes Study		SCES	PGS + GWAS	
+C	9	SINDI	Singapore Indian Eye Study		SINDI	PGS + GWAS	
+C	9	SNUH	Seoul National University Hospital		SNUH	PGS + GWAS	
+C	9	TaiChi	TaiChi consortium		TAICHI; TaiChi	PGS + GWAS	
+C	9	USC	University of Southern California		USC	PGS + GWAS	
+C	9		UK Dyslexia		UK Dyslexia	GWAS only	
+C	8	AAPC	African Ancestry Prostate Cancer Consortium		AAPC	PGS + GWAS	
+C	8	BPPP	Botnia Prevalence, Prediction and Prevention of Diabetes study		BPPP	PGS + GWAS	
+C	8	CleftCollective	The Cleft Collective		CleftCollective	PGS + GWAS	
+C	8	COG	Childrens Oncology Group 9906 study		COG	PGS + GWAS	
+C	8	COGA	The Collaborative Study on the Genetics of Alcoholism		COGA	PGS + GWAS	
+C	8	CORECT	The Colorectal Transdisciplinary Study		CORECT	PGS + GWAS	
+C	8	DAHANCA	Danish Head and Neck cancer Study Group		DAHANCA	PGS + GWAS	
+C	8	discovEHR	discovEHR collaboration cohort from MyCode Community Health Initiative of the Geisinger Health System		DiscovEHR; discovEHR	PGS + GWAS	
+C	8	EIMS	Epidemiological Investigation of Multiple Sclerosis		EIMS	PGS + GWAS	
+C	8	EUGENE2	European network on Functional Genomics of Type 2 Diabetes		EUGENE2	PGS + GWAS	
+C	8	GENADA	Genotype Phenotype Associations in Alzheimers Disease		GENADA; GenADA	PGS + GWAS	
+C	8	GMC	Geisinger Medical Center		GMC	PGS + GWAS	
+C	8	HERPACC	Hospital-based Epidemiologic Research Program at Aichi Cancer Center		HERPACC	PGS + GWAS	
+C	8	JPHC	Japan Public Health Center Study		JPHC	PGS + GWAS	
+C	8	MEGASTROKE	MEGASTROKE		MEGASTROKE	PGS + GWAS	
+C	8	MEMENTO	MEMENTO		MEMENTO	PGS + GWAS	
+C	8	MIAMISR	Miami Stroke Registry and Biorepository		MIAMISR	PGS + GWAS	
+C	8	MPP	Malmö Preventive Project		MPP	PGS + GWAS	
+C	8	NCI_Lung	NCI Lung Cancer in African Americans GWAS Consortium		NCI_Lung	PGS + GWAS	
+C	8	NeuroDys	NeuroDys Cohort		NeuroDys	PGS + GWAS	
+C	8	NHAPC	Nutrition and Health of Aging Population in China		NHAPC	PGS + GWAS	
+C	8	Nugene	NUgene (Northwestern University)		NUGENE; Nugene	PGS + GWAS	
+C	8	RADIOGEN	RADIOGEN cohort		RADIOGEN	PGS + GWAS	
+C	8	ROS	Religious Orders Study		ROS	PGS + GWAS	
+C	8	SAGE	Study of Addiction: Genetics and Environment		SAGE	PGS + GWAS	
+C	8	SBCS	Shanghai Breast Cancer Study		SBCS	PGS + GWAS	
+C	8	SIMES	Singapore Malay Eye Study		SIMES; SiMES	PGS + GWAS	
+C	8	SpBCS	Spanish Bladder Cancer Study		SpBCS	PGS + GWAS	
+C	8	SZ-MONN-NIPT	Shenzhen Maternal and Neonatal NIPT cohort		SZ-MONN-NIPT	PGS + GWAS	
+C	8	TGEN	Translational Genomics Research Institute		TGEN	PGS + GWAS	
+C	8	TRICL	Transdisciplinary Research In Cancer of the Lung (TRICL) Research Team		TRICL	PGS + GWAS	
+C	8	UKMillennium	UK Millennium Cohort Study	MCS	UKMillennium	PGS + GWAS	
+C	8	UMCG	University Medical Center Groningen		UMCG	PGS + GWAS	
+C	8	UPITT	Cancer Family Registry, University of Pittsburg		UPITT	PGS + GWAS	
+C	8	VMAP	Vanderbilt Memory and Aging Project		VMAP	PGS + GWAS	
+C	8	walk_PHaSST	Treatment of Pulmonary Hypertension and Sickle Cell Disease with Sildenafil Therapy		walk_PHaSST	PGS + GWAS	
+C	8	WESDR	Wisconsin Epidemiologic Study of Diabetic Retinopathy		WESDR	PGS + GWAS	
+C	8	WHICAP	Washington Heights-Inwood Columbia Aging Project		WHICAP	PGS + GWAS	
+C	8		ASN		ASN	GWAS only	
+C	8		MAP		MAP	GWAS only	
+C	8		Nagahama		Nagahama	GWAS only	
+C	8		SSGAC		SSGAC	GWAS only	
+C	7	3C	Three City Study		3C	PGS + GWAS	
+C	7	ASTERISK	Association Study Evaluating Risk for Sporadic Colorectal Cancer		ASTERISK	PGS + GWAS	
+C	7	ASTON	The Aston Cohort		ASTON	PGS + GWAS	
+C	7	BBCS_b	Brescia Bladder Cancer Study		BBCS_b	PGS + GWAS	
+C	7	BES	Beijing Eye Study		BES	PGS + GWAS	
+C	7	BIOCARD	Biomarkers for Older Controls at Risk for Dementia		BIOCARD	PGS + GWAS	
+C	7	CeRePP	French Prostate Cancer Case-Control Study		CeRePP	PGS + GWAS	
+C	7	COPSAC2010	Copenhagen Prospective Studies on Asthma in Childhood 2010		COPSAC2010	PGS + GWAS	
+C	7	COSM	Cohort of Swedish Men		COSM	PGS + GWAS	
+C	7	CRCCS	Czech Republic Colorectal Cancer Study		CRCCS	PGS + GWAS	
+C	7	EDITH	Etude des D_terminants/Interaction de la THrombose veineuse		EDITH	PGS + GWAS	
+C	7	ERICA-SA	Evolving Risk Factors for Cancer in African populations study		ERICA-SA	PGS + GWAS	
+C	7	FrBCS	French Bladder Cancer Study		FrBCS	PGS + GWAS	
+C	7	FTCS	Familial Testicular Cancer Study		FTCS	PGS + GWAS	
+C	7	GEFOS	Genetic Factors for Osteoporosis Consortium		GEFOS	PGS + GWAS	
+C	7	HELIX	Human Early Life Exposome		HELIX; Helix	PGS + GWAS	
+C	7	INVENT	International Network Against Venous Thrombosis Consortium		INVENT	PGS + GWAS	
+C	7	LABCS	Los Angeles Bladder Cancer Study		LABCS	PGS + GWAS	
+C	7	LISA	Lifestyle Immune System Allergy study		LISA	PGS + GWAS	
+C	7	Mayo_VTE	Mayo Venous Thromboembolism Study	Mayo VTE	Mayo_VTE	PGS + GWAS	
+C	7	MCC-Spain	Multi-case Control Study, Spain		MCC-Spain	PGS + GWAS	
+C	7	MICROS	Micro-isolates in South Tyrol Study		MICROS	PGS + GWAS	
+C	7	MrOS-SWE	Osteoporotic Fractures in Men Study SWE		MrOS-SWE	PGS + GWAS	
+C	7	NEBCS	New England Bladder Cancer Study		NEBCS	PGS + GWAS	
+C	7	NINDS	National Institute of Neurological Disease and Stroke		NINDS	PGS + GWAS	
+C	7	NPDPSC	National Prion Disease Pathology Surveillance Center		NPDPSC	PGS + GWAS	
+C	7	OMG_SCD	Outcome Modifying Genes in Sickle Cell Disease		OMG_SCD	PGS + GWAS	
+C	7	OPDC	Oxford Parkinson's Disease Centre Discovery Cohort		OPDC	PGS + GWAS	
+C	7	OZ-ALC-NAG	Australian Alcohol and Nicotine Studies		OZALC-NAG	PGS + GWAS	
+C	7	PDBP	Parkinson's Disease Biomarkers Program		PDBP	PGS + GWAS	
+C	7	PGR	Pakistan Genomic Resource		PGR	PGS + GWAS	
+C	7	PNAT2	Pharmacogenetics of Nicotine Addiction Treatment (PNAT)-2 clinical trial		PNAT2	PGS + GWAS	
+C	7	RETROVE	Riesgo de Enfermedad TROmboembólica VEnosa		RETROVE	PGS + GWAS	
+C	7	REVERSE-I	Recurrent Venous Thromboembolism Risk Stratification Evaluation		REVERSE-I	PGS + GWAS	
+C	7	SFS	STANISLAS Family Study		SFS	PGS + GWAS	
+C	7	SHS	Strong Heart Study		SHS	PGS + GWAS	
+C	7	SLESS	SLESS		SLESS	PGS + GWAS	
+C	7	SLIC	SLI Consortium Cohort		SLIC	PGS + GWAS	
+C	7	STEED	The US Servicemen's Testicular Tumor Environmental and Endocrine Determinants Study		STEED	PGS + GWAS	
+C	7	Tromso	The Tromso Study		Tromso	PGS + GWAS	
+C	7	TXBCS	Texas Bladder Cancer Study		TXBCS	PGS + GWAS	
+C	6	ABCC	Asia Breast Cancer Consortium		ABCC	PGS + GWAS	
+C	6	AFGen	AFGen Consortium		AFGen	PGS + GWAS	
+C	6	ASPREE	The ASPirin in Reducing Events in the Elderly trial		ASPREE	PGS + GWAS	
+C	6	ASPS	Austrian Stroke Prevention Study		ASPS	PGS + GWAS	
+C	6	B-PROOF	B-vitamins for the prevention of osteoporotic fractures		B-PROOF; BPROOF	PGS + GWAS	
+C	6	CanPath	Canadian Partnership for Tomorrow's Health		CanPath	PGS + GWAS	
+C	6	CLUE	Give Us a Clue to Cancer and Heart Disease Study		CLUE	PGS + GWAS	
+C	6	DeCOI	German COVID-19 Omics Initiative		DeCOI	PGS + GWAS	
+C	6	EU-RLS GENE	EU-RLS GENE		EU-RLS-GENE	PGS + GWAS	
+C	6	Fiola	Familial Influences On Literacy Abilities		Fiola	PGS + GWAS	
+C	6	FLCCA	the Female Lung Cancer Consortium in Asia		FLCCA	PGS + GWAS	
+C	6	GlobalGout	GlobalGout Genetics Consortium		GlobalGout	PGS + GWAS	
+C	6	GUSTO	Growing Up in Singapore Towards healthy Outcomes (GUSTO) mother-offspring cohort		GUSTO	PGS + GWAS	
+C	6	HAS	Hawaiian Adenoma Study		HAS	PGS + GWAS	
+C	6	HFPGR	Henry Ford Heart Failure Pharmacogenomic Registry		HFPGR	PGS + GWAS	
+C	6	HS ProCARE	Hidradenitis Suppurativa Program for Research and Care Excellence		HS ProCARE	PGS + GWAS	
+C	6	IARC	International Agency for Research on Cancer Study		IARC	PGS + GWAS	
+C	6	IDEFICS	Identification and prevention of Dietary- and lifestyle-induced health EFfects In Children and infantS		IDEFICS	PGS + GWAS	
+C	6	IRAS	The Insulin Resistance Atherosclerosis Study	the insulin resistance atherosclerosis study family study (irasfs)	IRAS	PGS + GWAS	
+C	6	Marshfield	Marshfield Clinic		Marshfield	PGS + GWAS	
+C	6	MDACC	MD Anderson Cancer Center		MDACC	PGS + GWAS	
+C	6	NCGG	National Center for Geriatrics and Gerontology		NCGG	PGS + GWAS	
+C	6	nuMoM2b	Nulliparous Pregnancy Outcomes Study: Monitoring Mothers-to-Be		nuMoM2b	PGS + GWAS	
+C	6	PITT_ADRC	Pittsburgh Alzheimer Disease Research Center		PITT_ADRC	PGS + GWAS	
+C	6	PNC	Philadelphia Neurodevelopmental Cohort		PNC	PGS + GWAS	
+C	6	ProHealth	ProHealth Study		ProHealth	PGS + GWAS	
+C	6	RGC	Radiogenomics Consortium		RGC	PGS + GWAS	
+C	6	SEARCH	Study of Epidemiology and Risk Factors in Cancer Heredity		SEARCH	PGS + GWAS	
+C	6	SRQRB	Swedish Rheumatology Quality Register Biobank		SRQRB	PGS + GWAS	
+C	6	Sweden	Sweden		Sweden	PGS + GWAS	
+C	6	TSHA	The Toledo Study for Healthy Aging Study		TSHA	PGS + GWAS	
+C	6	TWT2D	Taiwan Type 2 Diabetes Consortium		TWT2D	PGS + GWAS	
+C	6	UCSF	University of California, San Francisco		UCSF	PGS + GWAS	
+C	6		UKBB White British		UKBB White British	GWAS only	
+C	6		BASE-II		BASE-II	GWAS only	
+C	6		RSII		RSII	GWAS only	
+C	6		ROSMAP 1		ROSMAP 1	GWAS only	
+C	6		MrOS Malmo		MrOS Malmo	GWAS only	
+C	6		Tohoku Medical Megabank Project		Tohoku Medical Megabank Project	GWAS only (candidate COHO:0000122 Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis)	
+C	6		LASA II		LASA II	GWAS only	
+C	6		LASA I		LASA I	GWAS only	
+C	6		FinnGeDi		FinnGeDi	GWAS only	
+C	6		MrOS Gothenburg		MrOS Gothenburg	GWAS only	
+C	6		ROSMAP 2		ROSMAP 2	GWAS only	
+C	5	AAAGC	African Ancestry Anthropometry Genetics		AAAGC	PGS + GWAS	
+C	5	AMP PD	Accelerating Medicines Partnership–Parkinson’s Disease		AMP PD	PGS + GWAS	
+C	5	Apulia	Salus in Apulia study		Apulia	PGS + GWAS	
+C	5	BAS	Beijing Atherosclerosis Study		BAS	PGS + GWAS	
+C	5	BIONIC	Biobanks Netherlands Internet Collaboration		BIONIC	PGS + GWAS	
+C	5	BMDCS	Bone Mineral Density in Childhood Study		BMDCS	PGS + GWAS	
+C	5	CBCS	Carolina Breast Cancer Study		CBCS	PGS + GWAS	
+C	5	CBR	Cambridge BioResource		CBR	PGS + GWAS	
+C	5	CIMBA	Consortium of Investigators of Modifiers of BRCA1/2		CIMBA	PGS + GWAS	
+C	5	CNIO	Spanish National Cancer Centre		CNIO	PGS + GWAS	
+C	5	CRC	Cardiometabolic Risk in Chinese		CRC	PGS + GWAS	
+C	5	CREAM	Consortium for Refractive Error and Myopia		CREAM	PGS + GWAS	
+C	5	Doetinchem	Doetinchem Cohort Study		Doetinchem	PGS + GWAS	
+C	5	GALA_II	Genes- Environments & Admixture in Latino Americans study		GALA II; GALA_II	PGS + GWAS	
+C	5	Gecko Drenthe	The Groningen Expert Center for Kids with Obesity Drenthe study		GECKO Drenthe	PGS + GWAS	
+C	5	GEnMS	Genes and Environment in Multiple Sclerosis		GEnMS	PGS + GWAS	
+C	5	GSH	Georgia Stress and Heart study		GSH	PGS + GWAS	
+C	5	HAALSI	Health and Aging in Africa: A Longitudinal Study of an INDEPTH Community in South Africa		HAALSI	PGS + GWAS	
+C	5	Health2006	Health2006 Study		Health2006	PGS + GWAS	
+C	5	HeiDE	Heidelberger Langzeitstudie zu Risikofaktoren und Diagnose chronischer Erkrankungen		HeiDE	PGS + GWAS	
+C	5	HERMES	HERMES Consortium		HERMES	PGS + GWAS	
+C	5	IGGC	International Glaucoma Genetics Consortium		IGGC	PGS + GWAS	
+C	5	IHIVCS	International HIV Controllers Study		IHIVCS	PGS + GWAS	
+C	5	IMSE	Immunomodulation and Multiple Sclerosis Epidemiology study		IMSE	PGS + GWAS	
+C	5	IPDGC	International Parkinson Disease Genomics Consortium		IPDGC	PGS + GWAS	
+C	5	JPDSC	Japan PGx Data Science Consortium		JPDSC	PGS + GWAS	
+C	5	JUPITER	Justification for the Use of Statins in Primary Prevention: An Intervention Trial Evaluating Rosuvastatin		JUPITER; Jupiter	PGS + GWAS	
+C	5	KOALA	KOALA Birth Cohort Study		KOALA	PGS + GWAS	
+C	5	LISAplus	Lifestyle-Immune System-Allergy Plus Environment and Genetics Study	Influence of Life-style factors on Development of the Immune System and Allergies in East and West Germany plus Air Pollution and Genetics on Allergy Development	LISAplus	PGS + GWAS	
+C	5	MCBCS	Mayo Clinic Breast Cancer Study		MCBCS	PGS + GWAS	
+C	5	Michigan	University of Michigan study		Michigan	PGS + GWAS	
+C	5	MMHS	MMHS		MMHS	PGS + GWAS	
+C	5	NARAC	North American Rheumatoid Arthritis Consortium		NARAC	PGS + GWAS	
+C	5	NBK	National Biobank of Korea		NBK	PGS + GWAS	
+C	5	NSHDS	Northern Swedish Health and Disease Study Cohort		NSHDS	PGS + GWAS	
+C	5	OFBCR	Ontario Familial Breast Cancer Registry		OFBCR	PGS + GWAS	
+C	5	PADIS-PE	Prolonged Anticoagulation During eighteen months vs placebo after Initial Six-month treatment for a first episode of idiopathic Pulmonary Embolism		PADIS-PE	PGS + GWAS	
+C	5	Partners	Partners study		Partners	PGS + GWAS	
+C	5	PBCS	Polish Breast Cancer Study		PBCS	PGS + GWAS	
+C	5	PROCAS	Breast Screening Programme (NHSBSP) in Greater Manchester		PROCAS	PGS + GWAS	
+C	5	QTR_Qingdao	Qingdao Twin Registry	QTR	QTR_Qingdao	PGS + GWAS	
+C	5	ReproGen	Reproductive Genetics Consortium		ReproGen	PGS + GWAS	
+C	5	SASBAC	Singapore and Sweden Breast Cancer Study		SASBAC	PGS + GWAS	
+C	5	SDCS	Singapore Diabetes Cohort Study		SDCS	PGS + GWAS	
+C	5	SLRI	Samuel Lunenfeld Research Institute		SLRI	PGS + GWAS	
+C	5	SNUBH	Seoul National University Bundang Hospital		SNUBH	PGS + GWAS	
+C	5	TMM	Tohoku Medical Megabank Community-based Cohort Study		TMM	PGS + GWAS	
+C	5	TRAILSCC	Tracking Adolescents Individual Lives Survey (TRAILS) Clinical Cohort		TRAILSCC	PGS + GWAS	
+C	5	TUDR	Taiwan USA Diabetes Retinopathy		TUDR	PGS + GWAS	
+C	5	UKBGS	UK Breakthrough Generations Study		UKBGS	PGS + GWAS	
+C	5		GR@CE		GR@CE	GWAS only	
+C	5		DiaGene		DiaGene	GWAS only	
+D	4	AABC	African American Breast Cancer Cohort		AABC	PGS + GWAS	
+D	4	AA-DHS	African American-Diabetes Heart Study		AA-DHS	PGS + GWAS	
+D	4	AASC	Anti-Aging Study Cohort		AASC	PGS + GWAS	
+D	4	ADNI-DOD	ADNI Department of Defense studies	ADNIDOD	ADNI-DOD	PGS + GWAS	
+D	4	ANGI	Anorexia Nervosa Genetics Initiative		ANGI	PGS + GWAS	
+D	4	Ashford	Ashford		Ashford	PGS + GWAS	
+D	4	BetaGene	Observational study of obesity, insulin resistance and beta cell dysfunction in Mexican-Americans		BetaGene	PGS + GWAS	
+D	4	Bio-SHiFT	Serial Biomarker Measurements and New Echocardiographic Techniques in chronic Heart Failure Patients Result in Tailored Prediction of Prognosis		Bio-SHiFT	PGS + GWAS	
+D	4	BoSCO	Bonn Study of COVID19 genetics		BoSCO	PGS + GWAS	
+D	4	BQC19	Biobanque Quebec COVID19		BQC19	PGS + GWAS	
+D	4	CAMP	Childhood Asthma Management Program		CAMP	PGS + GWAS	
+D	4	CCHMC	Better Outcomes for Children (Cincinnati Children’s Hospital Medical Center)		CCHMC	PGS + GWAS	
+D	4	CNTR	Chinese National Twin Registry		CNTR	PGS + GWAS	
+D	4	COGENT	Continental Origins and Genetic Epidemiology Network		COGENT	PGS + GWAS	
+D	4	COHRA	Center for Oral Health Research in Appalachia		COHRA	PGS + GWAS	
+D	4	DGI	Diabetes Genetics Initiative of Broad Institute of Harvard and MIT, Lund University, and Novartis Institutes of BioMedical Research		DGI	PGS + GWAS	
+D	4	DIAMANTE	DIAbetes Meta-ANalysis Trans-Ethnic association studies		DIAMANTE	PGS + GWAS	
+D	4	DRIVE	Discovery, Biology and Risk of Inherited Variants in Breast Cancer Consortium		DRIVE	PGS + GWAS	
+D	4	EPIC_CAD	EPIC CAD	EPIC CAD	EPIC_CAD	PGS + GWAS	
+D	4	FISSIC	Fangshan Family-Based Ischemic Stroke Study in China		FISSIC	PGS + GWAS	
+D	4	FTLD-TDP WGS	FTLD-TDP WGS International consortium	Whole genome sequencing consortium on Frontotemporal dementia with underlying TDP-43 pathology	FTLD-TDP WGS	PGS + GWAS	
+D	4	FVG	Friuli-Venezia Giulia		FVG	PGS + GWAS	
+D	4	GACRS	Genetics of Asthma in Costa Rica Study		GACRS	PGS + GWAS	
+D	4	GELCC	GELCC familial lung cancer samples		GELCC	PGS + GWAS	
+D	4	GenHAT	Genetics of Hypertension Associated Treatment		GenHAT	PGS + GWAS	
+D	4	GenKOLS	Genetics of Chronic Obstructive Lung Disease		GenKOLS	PGS + GWAS	
+D	4	GLAD	Genetic Links to Anxiety and Depression		GLAD	PGS + GWAS	
+D	4	GLIDE	Gene-Lifestyle Interactions in Dental Endpoints		GLIDE	PGS + GWAS	
+D	4	GoSHARE	Genetics of the Scottish Health Research Register		GoSHARE	PGS + GWAS	
+D	4	GRaD	Genes, Reading and Dyslexia		GRaD	PGS + GWAS	
+D	4	GRID	Genetic Resource Investigating Diabetes		GRID	PGS + GWAS	
+D	4	HABS	Harvard Aging Brain Study		HABS	PGS + GWAS	
+D	4	HCMR	Hypertrophic Cardiomyopathy registry		HCMR	PGS + GWAS	
+D	4	HKOS	Hong Kong Osteoporosis Study		HKOS	PGS + GWAS	
+D	4	HTN	Hypertension-Insulin Resistance Family Study		HTN	PGS + GWAS	
+D	4	IAMDGC	International AMD genomics consortium		IAMDGC	PGS + GWAS	
+D	4	ICH	ICH		ICH	PGS + GWAS	
+D	4	ICR_b	Institute of Cancer Research		ICR_b	PGS + GWAS	
+D	4	IMS	Indian Migration Study		IMS	PGS + GWAS	
+D	4	IORRA	Institute of Rheumatology Rheumatoid Arthritis		IORRA	PGS + GWAS	
+D	4	ISGC	International Suicide Genomics Consortium		ISGC	PGS + GWAS	
+D	4	MAGNet	Myocardial Applied Genomics Network study		MAGnet	PGS + GWAS	
+D	4	MGH_AF	Massachusetts General Hospital Atrial Fibrillation Study		MGH_AF	PGS + GWAS	
+D	4	MGH-AF	Massachusetts General Hospital Atrial Fibrillation Study		MGH_AF	PGS + GWAS	
+D	4	NIMH	National Institute of Mental Health		NIMH	PGS + GWAS	
+D	4	NSGHI	North Shore University Health systems Genomic Health Initiative		NSGHI	PGS + GWAS	
+D	4	NSHD	MRC National Survey of Health and Development		NSHD	PGS + GWAS	
+D	4	ODSCS	Oxford Down Syndrome Cohort Study		ODSCS	PGS + GWAS	
+D	4	POST	Pharmacogenetics of Opioid Substitution Treatment Response		POST	PGS + GWAS	
+D	4	PRACTICAL	Prostate Cancer Association Group to Investigate Cancer-Associated Alterations		PRACTICAL	PGS + GWAS	
+D	4	PROCAM	The Prospective Cardiovascular Münster Study		PROCAM	PGS + GWAS	
+D	4	PsyCourse	PsyCourse Study		PsyCourse	PGS + GWAS	
+D	4	QIMR-BGE	QIMR Berghofer Genetic Epidemiology Cohort		QIMR-BGE	PGS + GWAS	
+D	4	Q-MEGA	Queensland study of Melanoma: Environment and Genetic Associations		Q-MEGA	PGS + GWAS	
+D	4	RBH-CRB	Royal Brompton & Harefield Hospitals NHS Trust Cardiovascular Research Biobank	RBHHCRB	RBH-CRB	PGS + GWAS	
+D	4	ROOT	Genome-Wide Association Study of Breast Cancer in the African Diaspora		ROOT	PGS + GWAS	
+D	4	Rush	Rush University Medical Center		Rush	PGS + GWAS	
+D	4	SAPPHIRE	The Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-Ethnicity		SAPPHIRE	PGS + GWAS	
+D	4	SEATON	Aberdeen Study of Eczema and Asthma to Observe the Effects of Nutrition		SEATON	PGS + GWAS	
+D	4	START	SouTh Asian BiRth CohorT		START	PGS + GWAS	
+D	4	TESRA	Treatment of Emphysema with a Gamma-Selective Retinoid Agonist		TESRA	PGS + GWAS	
+D	4	TRIPOD	TRoglitazone In the Prevention Of Diabetes		TRIPOD	PGS + GWAS	
+D	4	TRIUMPH	TRanslational Initiative on Unique and novel strategies for Management of Patients with Heart failure		TRIUMPH	PGS + GWAS	
+D	4	UKDHP	UK Digital Heart Project		UKDHP	PGS + GWAS	
+D	4	Umea	Umea		Umea	PGS + GWAS	
+D	4	VISP	Vitamin Intervention for Stroke Prevention		VISP	PGS + GWAS	
+D	4	WAABCS	Women of African Ancestry Breast Cancer Study		WAABCS	PGS + GWAS	
+D	4	WFSM	Wake Forest University School of Medicine Study		WFSM	PGS + GWAS	
+D	4		TARCC2		TARCC2	GWAS only	
+D	4		MexGenCOVID Initiative		MexGenCOVID Initiative	GWAS only	
+D	4		GOLD		GOLD	GWAS only	
+D	4		JapanTaskForce		JapanTaskForce	GWAS only	
+D	4		NIDDM		NIDDM	GWAS only	
+D	4		DEGESCO		DEGESCO	GWAS only	
+D	4		Ioannina		Ioannina	GWAS only	
+D	4		Mount Sinai		Mount Sinai	GWAS only	
+D	3	SEARCH-DY	SEARCH for Diabetes in Youth	search	SEARCH-DY	PGS + GWAS	
+D	3	ABCFS	Australian Breast Cancer Family Study		ABCFS	PGS + GWAS	
+D	3	ACCC	Asia Colorectal Cancer Consortium		ACCC	PGS + GWAS	
+D	3	ACTG	AIDS Clinical Trials Group		ACTG	PGS + GWAS	
+D	3	ADAMS	A Genetic Association study in Diverse Ancestries of Multiple Sclerosis		ADAMS	PGS + GWAS	
+D	3	ADVANCE	Atherosclerotic Disease, Vascular function, and Genetic Epidemiology		ADVANCE	PGS + GWAS	
+D	3	ALIENOR	Antioxydants, Lipides Essentiels, Nutrition et maladies OculaiRes		ALIENOR	PGS + GWAS	
+D	3	APDGC	Autopsy-Confirmed PD GWAS Consortium		APDGC	PGS + GWAS	
+D	3	ARCAGE	ARCAGE		ARCAGE	PGS + GWAS	
+D	3	ASGC	Australian Stroke Genetics Collaborative		ASGC	PGS + GWAS	
+D	3	BASICMAR	BASe de datos de ICtus del hospital del MAR		BASICMAR	PGS + GWAS	
+D	3	BBCC	Bavarian Breast Cancer Cases and Controls		BBCC	PGS + GWAS	
+D	3	BCEES	Breast Cancer Employment and Environment Study		BCEES	PGS + GWAS	
+D	3	BCQ19	Biobanque Québécoise de la Covid-19		BCQ19	PGS + GWAS	
+D	3	BiDirect	The BiDirect study		BiDirect	PGS + GWAS	
+D	3	BMES	Blue Mountain Eye Study		BMES	PGS + GWAS	
+D	3	Bonn-OMNI	Bonn-OMNI		Bonn-OMNI	PGS + GWAS	
+D	3	BRAINS	Bio-Repository of DNA in Stroke		BRAINS	PGS + GWAS	
+D	3	BREOGAN	Breast Oncology Galicia Network		BREOGAN	PGS + GWAS	
+D	3	CAGE-KING	CAGE-KING_Quad		CAGE-KING	PGS + GWAS	
+D	3	CCAF	Cleveland Clinic AF Study		CCAF	PGS + GWAS	
+D	3	CCRLP	California Cancer Records Linkage Project		CCRLP	PGS + GWAS	
+D	3	CGI	Japan Coronavirus Taskforce		CGI	PGS + GWAS	
+D	3	CLOZUK	The CLOZUK cohort		CLOZUK	PGS + GWAS	
+D	3	Colo2&3	Hawaii Colorectal Cancer studies 2&3		Colo2&3	PGS + GWAS	
+D	3	COL_Twin	Colorado Longitidinal Twin Study		COL_Twin	PGS + GWAS	
+D	3	CSDC	Combined Small Datasets Collection		CSDC	PGS + GWAS	
+D	3	CU-COVID-19	Columbia University COVID19 Biobank		CU-COVID-19	PGS + GWAS	
+D	3	D2D2007	FIN-D2D study		D2D2007	PGS + GWAS	
+D	3	DBB	The Diet-Body-Brain cohort		DBB	PGS + GWAS	
+D	3	DILGOM	Lifestyle and Genetic determinants of Obesity and Metabolic syndrome study		DILGOM	PGS + GWAS	
+D	3	DPS	DPS		DPS	PGS + GWAS	
+D	3	Duke FEATURE	Duke study of Functional Endpoints for Age-related Macular Degeneration		Duke_FEATURE	PGS + GWAS	
+D	3	E2C2	E2C2		E2C2	PGS + GWAS	
+D	3	EDIS	Epidemiology of Dementia in Singapore		EDIS	PGS + GWAS	
+D	3	EGG	Early Growth Genetics Consortium		EGG	PGS + GWAS	
+D	3	EOVT	Early-Onset Venous Thrombosis		EOVT	PGS + GWAS	
+D	3	FHRISK	Family History Clinic in Manchester		FHRISK	PGS + GWAS	
+D	3	GASC	German Aortic Stenosis Cohort		GASC	PGS + GWAS	
+D	3	GCNKSS	Greater Cincinnati/Northern Kentucky Stroke Study		GCNKSS	PGS + GWAS	
+D	3	Genotek	Genotek COVID-19 study		Genotek	PGS + GWAS	
+D	3	GINI	German Infant Study on the influence of Nutrition Intervention		GINI	PGS + GWAS	
+D	3	GOCS	German Ovarian Cancer Study		GOCS	PGS + GWAS	
+D	3	GoKinD	Genetics of Kidneys in Diabetes Study		GoKinD	PGS + GWAS	
+D	3	GRAZ	GRAZ		GRAZ	PGS + GWAS	
+D	3	HN5000	United Kingdom case-series		HN5000	PGS + GWAS	
+D	3	IARCCES	International Agency for Research on Cancer Central Europe Study		IARCCES	PGS + GWAS	
+D	3	IBG	Institute for Behavioral Genetics		IBG	PGS + GWAS	
+D	3	ICGH	International Collaboration for the Genomics of HIV		ICGH	PGS + GWAS	
+D	3	IEGC	International Endometriosis Genetics Consortium		IEGC	PGS + GWAS	
+D	3	Illumina_iControlDB	Illumina iControlDB	Illumina iControlDB	Illumina_iControlDB	PGS + GWAS	
+D	3	INGI-Val_Borbera	Italian Network on Genetic Isolates-Val Borbera	INGI-Val Borbera	INGI-Val Borbera; INGI-Val_Borbera	PGS + GWAS	
+D	3	ISGS	Ischemic Stroke Genetics Study		ISGS	PGS + GWAS	
+D	3	KARMA	Karolinska Mammography Project for Risk Prediction of Breast Cancer – Cohort Study		KARMA	PGS + GWAS	
+D	3	kConFab	Kathleen Cuningham Foundation Consortium for Research into Familial Breast Cancer		kConFab	PGS + GWAS	
+D	3	KRAKOW	Krakow stroke genetics study		KRAKOW	PGS + GWAS	
+D	3	LSGS	Leuven Stroke Genetics Study		LSGS	PGS + GWAS	
+D	3	MADCaP	Men of African Descent and Carcinoma of the Prostate		MADCaP	PGS + GWAS	
+D	3	Maywood	Maywood Cohort		Maywood	PGS + GWAS	
+D	3	MBCFS	Breast Cancer Family Study		MBCFS	PGS + GWAS	
+D	3	MCGILL	McGill University		MCGILL; McGill	PGS + GWAS	
+D	3	MCISS	Middlesex County Ischemic Stroke Study		MCISS	PGS + GWAS	
+D	3	MCS	Memory Clinic in Singapore study		MCS	PGS + GWAS	
+D	3	MGH-GASROS	Genes Affecting Stroke Risk and Outcome Study		MGH-GASROS	PGS + GWAS	
+D	3	MIA	Melanoma Institute Australia		MIA	PGS + GWAS	
+D	3	Montrachet	Montrachet Study Cohort		Montrachet	PGS + GWAS	
+D	3	MrOS-USA	Osteoporotic Fractures in Men Study USA		MrOS-USA	PGS + GWAS	
+D	3	MUNICH	MUNICH stroke study		MUNICH	PGS + GWAS	
+D	3	MurciaTR	Murcia Twin Registry	MTR	MurciaTR	PGS + GWAS	
+D	3	NEXGENS	Norwegian, Exeter and King's College Consortium for Genetics of Neuropsychiatric Symptoms in Dementia		NEXGENS	PGS + GWAS	
+D	3	NGRC	NeuroGenetics Research Consortium		NGRC	PGS + GWAS	
+D	3	Nigeria	Genetics of Hypertension in Blacks		Nigeria	PGS + GWAS	
+D	3	NJMU GSA Project	Nanjing Medical University Global Screening Array project		NJMU GSA Project	PGS + GWAS	
+D	3	OD	Oxford Discovery		OD	PGS + GWAS	
+D	3	OXVASC	Oxford Vascular Study		OXVASC	PGS + GWAS	
+D	3	OZALC	Alcohol Research using Australian twins and their families		OZALC	PGS + GWAS	
+D	3	PDCGC	Parkinson’s Disease Cognitive Genetics Consortium		PDCGC	PGS + GWAS	
+D	3	PERF	Prospective Epidemiological Risk Factor study		PERF	PGS + GWAS	
+D	3	POCS	Poland Ovarian Cancer Study		POCS	PGS + GWAS	
+D	3	RPGEH	Research Program on Genes, Environment and Health		RPGEH	PGS + GWAS	
+D	3	SALTY	Screening Across the Lifespan Twin survey, Younger cohort		SALTY	PGS + GWAS	
+D	3	SARP	Severe Asthma Research Program		SARP	PGS + GWAS	
+D	3	SCCRIP	Sickle Cell Clinical Research and Intervention Program		SCCRIP	PGS + GWAS	
+D	3	SDS	Shanghai Diabetes Study		SDS	PGS + GWAS	
+D	3	SGP	Sickle Cell Genome Project		SGP	PGS + GWAS	
+D	3	SGSSL	St GeorgeÌs Stroke Study, London, UK		SGSSL	PGS + GWAS	
+D	3	SIBS	Sisters in Breast Screening		SIBS	PGS + GWAS	
+D	3	SJLIFE	St Jude Lifetime Cohort Study		SJLIFE	PGS + GWAS	
+D	3	SLRCCSG	Swedish Low-Risk Colorectal Cancer Study Group		SLRCCSG	PGS + GWAS	
+D	3	SMS_AD	Screening Markers for Colorectal Cancer Study (advanced adenomas)	SMS AD	SMS_AD	PGS + GWAS	
+D	3	SWISS	Siblings with Ischemic Stroke Study		SWISS	PGS + GWAS	
+D	3	SYS	Saguenay Youth Study		SYS	PGS + GWAS	
+D	3	TGEN2	Translational Genomics Research Institute series 2		TGEN2	PGS + GWAS	
+D	3	ThyroidOmics	The ThyroidOmics Consortium		ThyroidOmics	PGS + GWAS	
+D	3	TODAY	Treatment Options for Type 2 Diabetes in Adolescents and Youth		TODAY	PGS + GWAS	
+D	3	TP	Tracking Parkinson's		TP	PGS + GWAS	
+D	3	UAB	University of Alabama at Birmingham		UAB	PGS + GWAS	
+D	3	UKS	Universitatsklinikum Saarlandes		UKS	PGS + GWAS	
+D	3	VIVA	Viborg Vascular		VIVA; Viva	PGS + GWAS	
+D	3	WBCR	The West Bank Cancer Registry		WBCR	PGS + GWAS	
+D	3	WUSTL	Washington University St. Louis Study		WUSTL	PGS + GWAS	
+D	3		Multiethnic Genome-wide Scan of Prostate Cancer		Multiethnic Genome-wide Scan of Prostate Cancer	GWAS only	
+D	3		SIGNET-REGARDS		SIGNET-REGARDS	GWAS only	
+D	3		EBI MERGE		EBI MERGE	GWAS only	
+D	3		CALGB 80303		CALGB 80303	GWAS only (candidate COHO:0000022 Cancer and Leukemia Group B)	
+D	3		CALGB 90401		CALGB 90401	GWAS only (candidate COHO:0000022 Cancer and Leukemia Group B)	
+D	3		Colonomics		Colonomics	GWAS only	
+D	3		Kentucky		Kentucky	GWAS only	
+D	3		Intermountain		Intermountain	GWAS only	
+D	3		CALGB 40503		CALGB 40503	GWAS only (candidate COHO:0000022 Cancer and Leukemia Group B)	
+D	2	23mofang	23mofang Personal Genome Services		23mofang	PGS + GWAS	
+D	2	3DFN	3D Facial Norms cohort		3DFN	PGS + GWAS	
+D	2	4D-SZ	4D-SZ cohort		4D-SZ	PGS + GWAS	
+D	2	AIDHS	Asian Indian Diabetic Heart Study		AIDHS	PGS + GWAS	
+D	2	AREDS	Age-Related Eye Disease Study		AREDS	PGS + GWAS	
+D	2	ARK	African Research Kidney Disease study		ARK	PGS + GWAS	
+D	2	Army STARRS	The Army Study to Assess Risk and Resilience in Servicemembers		Army STARRS	PGS + GWAS	
+D	2	BACS	Berkeley Aging Cohort Study		BACS	PGS + GWAS	
+D	2	BAGS	Barbados Asthma Genetics Study		BAGS	PGS + GWAS	
+D	2	BDA	British Diabetes Association		BDA	PGS + GWAS	
+D	2	BDAPUSC	Brain Development and Air Pollution Ultrafine Particles in School Children		BDAPUSC	PGS + GWAS	
+D	2	BioResource	NIHR Cambridge BioResource		NIHR Cambridge BioResource	PGS + GWAS	
+D	2	BPC3	The National Cancer Institute Breast and Prostate Cancer Cohort Consortium		BPC3	PGS + GWAS	
+D	2	BRI	Benaroya Research Institute, Seattle, Washington		BRI	PGS + GWAS	
+D	2	BSTOP	Biomarkers of Systemic Treatment Outcomes in Psoriasis study		BSTOP	PGS + GWAS	
+D	2	BWHS	Black Womens Health Study		BWHS	PGS + GWAS	
+D	2	CACTI	The Coronary Artery Calcification in Type 1 Diabetes		CACTI	PGS + GWAS	
+D	2	CASP	Collaborative Association Study of Psoriasis		CASP	PGS + GWAS	
+D	2	CA UG Study	California and Uganda Prostate Cancer Study		CA UG Study	PGS + GWAS	
+D	2	CBC	Cryptosporidiosis and Enteropathogens in Bangladesh Birth Cohort		CBC	PGS + GWAS	
+D	2	CCF	Cleveland Clinic Foundation		CCF	PGS + GWAS	
+D	2	CCSS	Childhood Cancer Survivor Study		CCSS	PGS + GWAS	
+D	2	CECILE	CECILE Breast Cancer Study		CECILE	PGS + GWAS	
+D	2	CENTER-TBI	Collaborative European NeuroTrauma Effectiveness Research		CENTER-TBI	PGS + GWAS	
+D	2	CFRD	Cystic Fibrosis-Related Diabetes Study		CFRD	PGS + GWAS	
+D	2	CF_TSS	Cystic Fibrosis Twin and Sibling Study		CF_TSS	PGS + GWAS	
+D	2	CHAP	Chicago Health and Aging Project		CHAP	PGS + GWAS	
+D	2	CHDS	Christchurch Health and Development Study		CHDS	PGS + GWAS	
+D	2	CHIP	Cardiovascular Health Improvement Project		CHIP	PGS + GWAS	
+D	2	CORIELL	Coriell Cell Repositories		CORIELL	PGS + GWAS	
+D	2	DMHDS	Dunedin Multidisciplinary Health and Development Study		DMHDS	PGS + GWAS	
+D	2	ECRHS	European Community Respiratory Health Survey		ECRHS	PGS + GWAS	
+D	2	EDRN	Early Detection Research Network		EDRN	PGS + GWAS	
+D	2	EMIL	EMIL		EMIL	PGS + GWAS	
+D	2	EPIC_Obs	Early Pseudomonas Infection Control Observational Study		EPIC_Obs	PGS + GWAS	
+D	2	E-Risk	Environmental Risk Longitudinal Twin Study		E-Risk	PGS + GWAS	
+D	2	GaPP2	Gabapentin for chronic pelvic pain in women		GaPP2	PGS + GWAS	
+D	2	GARBH-Ini	Interdisciplinary Group for Advanced Research on BirtH outcomes - DBT India Initiative		GARBH-Ini	PGS + GWAS	
+D	2	GAsP2	GenomeAsia Phase 2		GAsP2	PGS + GWAS	
+D	2	GBMI	Global Biobank Meta-analysis Initiative		GBMI	PGS + GWAS	
+D	2	GELA	Treatment program of DLBCL patients from the Groupe dEtude des Lymphomes de lAdulte		GELA	PGS + GWAS	
+D	2	GenerAAtions	Genetic and Environmental Risk Factors for Alzheimer's Disease Among African Americans		GenerAAtions	PGS + GWAS	
+D	2	GENICA	Gene Environment Interaction and Breast Cancer in Germany		GENICA	PGS + GWAS	
+D	2	Genizon	Genizon BioSciences		Genizon	PGS + GWAS	
+D	2	GenPOD	GenPOD		GenPOD	PGS + GWAS	
+D	2	GENUFAD	Genetic Studies in Nuclear Families with Atopic Dermatitis		GENUFAD	PGS + GWAS	
+D	2	GerMIFS	German Myocardial Infarction Family Study		GerMIFS	PGS + GWAS	
+D	2	GLACIER	Gene-Lifestyle interactions And Complex traits Involved in Elevated disease Risk Study		GLACIER	PGS + GWAS	
+D	2	G.MAS	German Multicenter Allergy Study		G.MAS	PGS + GWAS	
+D	2	GMS	Genetic Modifier Study		GMS	PGS + GWAS	
+D	2	GMS_CFLD	Genetic Modifier Study of Severe Cystic Fibrosis Liver Disease		GMS_CFLD	PGS + GWAS	
+D	2	GSK	GlaxoSmithKline		GSK	PGS + GWAS	
+D	2	GSMS	Great Smoky Mountains Study		GSMS	PGS + GWAS	
+D	2	HAPPIEST	Hasselt Appendicitis Immunology and Environmental Study		HAPPIEST	PGS + GWAS	
+D	2	HCES-Br	Hwasun Cancer Epidemiology Study-Breast		HCES-Br	PGS + GWAS	
+D	2	Health2008	Health2008		Health2008	PGS + GWAS	
+D	2	Health2010	Health2010		Health2010	PGS + GWAS	
+D	2	HKDR	Hong Kong Diabetes Register		HKDR	PGS + GWAS	
+D	2	HostSeq	HostSeq initiative		HostSeq	PGS + GWAS	
+D	2	HSG	Hvidoere Study Group on Childhood Diabetes		HSG	PGS + GWAS	
+D	2	HUNT2	North Trondelag Health Study		HUNT2	PGS + GWAS	
+D	2	HypnoLaus	HypnoLaus		HypnoLaus	PGS + GWAS	
+D	2	Icelandic	Icelandic cohort		Icelandic	PGS + GWAS	
+D	2	IDDMGEN	Tyypin 1 Diabetekseen Sairastuneita Perheenjäsenineen		IDDMGEN	PGS + GWAS	
+D	2	IGEDEPP	Interaction of Gene and Environment of Depression in PostPartum		IGEDEPP	PGS + GWAS	
+D	2	Immunochip	Immunochip		Immunochip	PGS + GWAS	
+D	2	Indianapolis	Indianapolis-Ibadan Dementia Project		Indianapolis	PGS + GWAS	
+D	2	INSchool	Impact of Neurodevelopmental disorders and School performance: genes and environment		INSchool	PGS + GWAS	
+D	2	JaCALS	Japanese Consortium for Amyotrophic Lateral Sclerosis research		JaCALS	PGS + GWAS	
+D	2	JAPC	JAPC		JAPC	PGS + GWAS	
+D	2	JPSC-AD	Japan Prospective Studies Collaboration for Aging and Dementia		JPSC-AD	PGS + GWAS	
+D	2	KIEL	Kiel PopGen biobank study		KIEL	PGS + GWAS	
+D	2	KRIEFS	Korean Research Project on the Integrated Exposure Assessment of Hazardous Substances for Food Safety		KRIEFS	PGS + GWAS	
+D	2	LAPC	LAPC		LAPC	PGS + GWAS	
+D	2	LEAP	Levodopa in Early Parkinson's Disease		LEAP	PGS + GWAS	
+D	2	LPS	Luxembourg Parkinson's study		LPS	PGS + GWAS	
+D	2	LTRC	Lung Tissue Research Consortium		LTRC	PGS + GWAS	
+D	2	MARIE	Mammary Carcinoma Risk Factor Investigation		MARIE	PGS + GWAS	
+D	2	MCSA	Mayo Clinic Study of Aging		MCSA	PGS + GWAS	
+D	2	MCW	Medical College of Wisconsin		MCW	PGS + GWAS	
+D	2	MedSTAR	MedSTAR cardiac catheterization study		MedSTAR	PGS + GWAS	
+D	2	MISS	Departments of Cancer Epidemiology and Oncology University Hospital Lund		MISS	PGS + GWAS	
+D	2	MSUTR	Michigan State University Twin Register		MSUTR	PGS + GWAS	
+D	2	MUSP	Mater University of Queensland Study of Pregnancy		MUSP	PGS + GWAS	
+D	2	MYOGEN	Myositis Genetics Consortium		MYOGEN	PGS + GWAS	
+D	2	NCBCS	North Carolina Bladder Cancer Study		NCBCS	PGS + GWAS	
+D	2	NCI-MD	NCI-Maryland prostate Cancer Case-Control Study		NCI-MD	PGS + GWAS	
+D	2	NFBC66	Northern Finland Birth Cohort 1966		NFBC66	PGS + GWAS	
+D	2	NIA-AD FBS	National Institute on Aging Alzheimer's disease Family Birth Study		NIA-AD FBS	PGS + GWAS	
+D	2	NIT	Linxian Nutrition Intervention Trial		NIT	PGS + GWAS	
+D	2	NORFACE	Neuro-Ophthalmology Research at Fundació ACE Cohort		NORFACE	PGS + GWAS	
+D	2	NYCP	New York Cancer Project		NYCP	PGS + GWAS	
+D	2	OBi	Okinawa Bioinformation Bank		OBi	PGS + GWAS	
+D	2	PanGenEU	PanGenEU case-control study		PanGenEU	PGS + GWAS	
+D	2	PANSCAN	PANSCAN		PANSCAN; PanScan	PGS + GWAS	
+D	2	PEGASUS_PCa	NCI Prostate Cancer Genome-Wide Association Study of Uncommon Susceptibility Loci Study		PEGASUS_Pca	PGS + GWAS	
+D	2	PennCATH	PennCATH		PennCATH	PGS + GWAS	
+D	2	PERADES	Polygenic and Environmental Risk for Alzheimer's Disease		PERADES	PGS + GWAS	
+D	2	PING	Pediatric Imaging, Neurocognition, and Genetics		PING	PGS + GWAS	
+D	2	pKARMA	Karolinska Mammography Project for Risk Prediction of Breast Cancer		pKARMA	PGS + GWAS	
+D	2	PreCEPT	Parkinson Research Examination of CEP-1347 Trial		PreCEPT	PGS + GWAS	
+D	2	PREFECT	Predictors For ECT		PREFECT	PGS + GWAS	
+D	2	PROVIDE	Performance of Rotavirus and Oral Polio Vaccines in Developing Countries		PROVIDE	PGS + GWAS	
+D	2	QTR	Queensland Twin and Family Registry		QTR	PGS + GWAS	
+D	2	REAAADI	The Research in African American Alzheimer Disease Initiative		REAAADI	PGS + GWAS	
+D	2	Roskilde	The Roskilde cohort of pregnant women		Roskilde	PGS + GWAS	
+D	2	RUNMC	Radboud University Nijmegen Medical Centre		RUNMC	PGS + GWAS	
+D	2	SAAR	ESTHER study (Saarland, Germany)		SAAR	PGS + GWAS	
+D	2	SBCGS	Shanghai Breast Cancer Genetic Study		SBCGS	PGS + GWAS	
+D	2	SCALE	Scandinavian Lymphoma Etiology Study		SCALE	PGS + GWAS	
+D	2	SCOURGE	Spanish Coalition to Unlock Research on Host Genetics on COVID-19		SCOURGE	PGS + GWAS	
+D	2	SDCC	Steno Diabetes Center		Steno Diabetes Center	PGS + GWAS	
+D	2	SDRNT1BIO	Scottish Diabetes Research Network Type 1 Bioresource		SDRNT1BIO	PGS + GWAS	
+D	2	SEBCS	Seoul Breast Cancer Study		SEBCS	PGS + GWAS	
+D	2	Shanxi	Shanxi UGI Cancer Genetics Project		Shanxi	PGS + GWAS	
+D	2	SHCS	Swiss HIV Cohort Study		SHCS	PGS + GWAS	
+D	2	SOF	Study of Osteoporotic Fractures		SOF	PGS + GWAS	
+D	2	STAGE	Screening Twin Adults: Genes and Environment		STAGE	PGS + GWAS	
+D	2	STAR*D	STAR*D		STAR*D	PGS + GWAS	
+D	2	T1DGEN	Tyypin 1 Diabeteksen Genetiikka		T1DGEN	PGS + GWAS	
+D	2	TCHAD	Swedisch Twin study of CHild and Adolescent Development		TCHAD	PGS + GWAS	
+D	2	TRACK-TBI	Transforming Research and Clinical Knowledge in TBI		TRACK-TBI	PGS + GWAS	
+D	2	TrialNet	Type 1 Diabetes TrialNet (www.trialnet.org)		TrialNet	PGS + GWAS	
+D	2	UC	University of Chicago		UC	PGS + GWAS	
+D	2	UCIBCS	UCI Breast Cancer Study		UCIBCS	PGS + GWAS	
+D	2	UCSF2	Molecular Epidemiology of non-Hodgkin lymphoma		UCSF2	PGS + GWAS	
+D	2	USC-HRT-CRC	Los Angeles County Cancer Surveillance Program		USC-HRT-CRC	PGS + GWAS	
+D	2	USRT	US Radiologic Technologist Study		USRT	PGS + GWAS	
+D	2	VAFAR	Vanderbilt AF Ablation Registry		VAFAR	PGS + GWAS	
+D	2	VETSA	The Vietnam Era Twin Study of Aging		VETSA	PGS + GWAS	
+D	2	VHIR-FMT-Barcelona	VHIR-FMT-Barcelona		VHIR-FMT-Barcelona	PGS + GWAS	
+D	2	VTSABD	GEDI Virginia Twin Study on Adolescent Behavioral Development		VTSABD	PGS + GWAS	
+D	2	VU_AF	Vanderbilt Genetic Basis of Atrial Fibrillation		VU_AF	PGS + GWAS	
+D	2	WeGene	WeGene Personal Genome Services		WeGene	PGS + GWAS	
+D	2	WSC	Wisconsin Sleep Cohort		WSC	PGS + GWAS	
+D	2	ZOE2.0	ZOE 2.0		ZOE2.0	PGS + GWAS	
+D	2		PASTURE		PASTURE	GWAS only	
+D	2		(Multiple cohorts)		(Multiple cohorts)	GWAS only	
+D	2		Project Viva		Project Viva	GWAS only	
+D	2		CanSCAD cases and MGI controls		CanSCAD cases and MGI controls	GWAS only	
+D	2		GERO		GERO	GWAS only	
+D	2		AGA-ALZAR-PRONADIAL		AGA-ALZAR-PRONADIAL	GWAS only	
+D	2		STORK		STORK	GWAS only	
+D	2		SALSA		SALSA	GWAS only	
+D	2		GRID-NI		GRID-NI	GWAS only	
+D	2		see cohorts in the educational attainment (excluding 23andMe) and cognitive performance GWAS by Lee et al. 2018 https://doi.org/10.1038/s41588-018-0147-3		see cohorts in the educational attainment (excluding 23andMe) and cognitive performance GWAS by Lee et al. 2018 https://doi.org/10.1038/s41588-018-0147-3	GWAS only	
+D	2		BC58		BC58	GWAS only	
+D	2		IrCovid		IrCovid	GWAS only	
+D	2		ABCD study		ABCD study	GWAS only	
+D	2		Young Hearts-NI		Young Hearts-NI	GWAS only	
+D	2		ALEXANDROS		ALEXANDROS	GWAS only	
+D	2		Janssen		Janssen	GWAS only	
+D	2		GGLAD		GGLAD	GWAS only	
+D	2		ICON7		ICON7	GWAS only	
+D	2		ENIGMA		ENIGMA	GWAS only	
+D	2		PRAI		PRAI	GWAS only	
+D	2		PMBB		PMBB	GWAS only	
+D	2		SweCovid-COMRI		SweCovid-COMRI	GWAS only	
+D	2		UnderstandingSociety		UnderstandingSociety	GWAS only	
+D	2		PAGEPI		PAGEPI	GWAS only (candidate COHO:0000145 Psoriasis Association Genetics Extension)	
+D	2		ASTARRS		ASTARRS	GWAS only	
+D	2		STORK-G		STORK-G	GWAS only	
+D	2		TiKoCo		TiKoCo	GWAS only	
+D	2		MSCIC		MSCIC	GWAS only	
+D	1	MARS-AA	the Minority Aging Research Study	MARS	MARS-AA	PGS + GWAS	
+D	1	PELOTAS	Pelotas (Brazil) Birth Cohort Study	1982 PELOTAS	PELOTAS	PGS + GWAS	
+D	1	4D	Die Deutsche Diabetes Dialyse Studie	DDDD	4D	PGS + GWAS	
+D	1	ACS_b	Amsterdam Cohort Studies on HIV infection and AIDS		ACS_b	PGS + GWAS	
+D	1	ADAGES	African Descent and Glaucoma Evaluation Study		ADAGES	PGS + GWAS	
+D	1	ADMIRAL	Admixture and Risk of Acute Leukemia		ADMIRAL	PGS + GWAS	
+D	1	AFOS	Amish Family Osteoporosis Study		AFOS	PGS + GWAS	
+D	1	AGEN	Asian Genetic Epidemiology Network		AGEN	PGS + GWAS	
+D	1	ALIVE	AIDS Linked to the IntraVenous Experience		ALIVE	PGS + GWAS	
+D	1	AMFS	Australian Melanoma Family Study		AMFS	PGS + GWAS	
+D	1	ANGST	Anxiety NeuroGenetics STudy		ANGST	PGS + GWAS	
+D	1	AOGC	Anglo-Australasian Osteoporosis Genetics Consortium		AOGC	PGS + GWAS	
+D	1	APRICOT	Anakinra for Pustular Psoriasis: Response in a Controlled Trial		APRICOT	PGS + GWAS	
+D	1	ARCADIA	Assessment of Renal and Cervical Artery DysplasIA		ARCADIA	PGS + GWAS	
+D	1	ASCOT	Anglo-Scandinavian Cardiac Outcomes Trial		ASCOT	PGS + GWAS	
+D	1	Ash-Jewish	The Ashkenazi Jewish Dataset		Ash-Jewish	PGS + GWAS	
+D	1	ASSESS-AKI	Assessment, Serial Evaluation, and Subsequent Sequelae of AKI Study		ASSESS-AKI	PGS + GWAS	
+D	1	AugUR	Age-related diseases: Understanding Genetic and non-genetic influences - a study at the University of Regensburg		AugUR	PGS + GWAS	
+D	1	BAMBUI	Bambui (Brazil) Cohort Study of Ageing		BAMBUI	PGS + GWAS	
+D	1	BASE	The Berlin Aging Study		BASE	PGS + GWAS	
+D	1	BASIC	The Biology, Affect, Stress, Imaging and Cognition Study		BASIC	PGS + GWAS	
+D	1	BBCS_c	Baltimore Breast Cancer Study		BBCS_c	PGS + GWAS	
+D	1	BDES	Beaver Dam Eye Study		BDES	PGS + GWAS	
+D	1	BGS	Breakthrough Generations Study		BGS	PGS + GWAS	
+D	1	BioImage	BioImage Study: A Clinical Study of Burden of Atherosclerotic Disease in an At-Risk Population		BioImage	PGS + GWAS	
+D	1	BNCS	Barbados National Cancer Study		BNCS	PGS + GWAS	
+D	1	BRASS	Brigham Rheumatoid Arthritis Sequential Study		BRASS	PGS + GWAS	
+D	1	Broad CVDi	Broad Institute's Cardiovascular Disease Initiative Study		Broad CVDi	PGS + GWAS	
+D	1	BSSH-GODD	British Society for Surgery of the Hand Genetics of Dupuytren's Disease study		BSSH-GODD	PGS + GWAS	
+D	1	CAMOS	Canadian Multicentre Osteoporosis Study		CAMOS	PGS + GWAS	
+D	1	CamPaIGN	Cambridgeshire Parkinson's Incidence from GP to Neurologist		CamPaIGN	PGS + GWAS	
+D	1	CANADA	CANADA		CANADA	PGS + GWAS	
+D	1	canSCAD	Canadian spontaneous coronary artery dissection study		canSCAD	PGS + GWAS	
+D	1	CCHS	Copenhagen City Heart Study		CCHS	PGS + GWAS	
+D	1	CCPS	Chicago Cancer Prone Study		CCPS	PGS + GWAS	
+D	1	C-data	Comprehensive Sickle Cell Centers Collaborative Data project		C-data	PGS + GWAS	
+D	1	CGC	Cardiovascular Genome Centre		CGC	PGS + GWAS	
+D	1	CGEMS	National Cancer Institute Cancer Genetic Markers of Susceptibility		CGEMS	PGS + GWAS	
+D	1	CGS	Canadian Cystic fibrosis Gene Modifier Study		CGS	PGS + GWAS	
+D	1	CHAVI	Center for HIV/AIDS Vaccine Immunology		CHAVI	PGS + GWAS	
+D	1	CKC	Chinese Keratoconus Cohort Study		CKC	PGS + GWAS	
+D	1	CKiD	Chronic Kidney Disease in Children		CKiD	PGS + GWAS	
+D	1	CMERC-HI	Cardiovascular and Metabolic Disease Etiology Research Center-High Risk		CMERC-HI	PGS + GWAS	
+D	1	CNP	UCLA Consortium for Neuropsychiatric Phenomics		CNP	PGS + GWAS	
+D	1	CODA	COPD in dusty areas		CODA	PGS + GWAS	
+D	1	COLT	Cohort in Lung Transplantation		COLT	PGS + GWAS	
+D	1	CSSCD	Cooperative Study of Sickle Cell Disease		CSSCD	PGS + GWAS	
+D	1	DaHS	Dallas Heart Study		DaHS	PGS + GWAS	
+D	1	DaTeCa	Danish Testicular Cancer cohort		DaTeCa	PGS + GWAS	
+D	1	DCHS	Drakenstein Child Health Study		DCHS	PGS + GWAS	
+D	1	Dental SCORE	Dental Strategies Concentrating on Risk Evaluation		Dental SCORE	PGS + GWAS	
+D	1	DGDG	Diabetes Gene Discovery Group		DGDG	PGS + GWAS	
+D	1	DIAMOND	Diabetes Multi-omic Investigation of Drug Response		DIAMOND	PGS + GWAS	
+D	1	DNHS	The Detroit Neighborhood Health Study		DNHS	PGS + GWAS	
+D	1	ECAC	Endometrial Cancer Association Consortium		ECAC	PGS + GWAS	
+D	1	ECHA	European Challenge for Healthy Aging		ECHA	PGS + GWAS	
+D	1	EDC	Pittsburgh Epidemiology of Diabetes Complications Study		EDC	PGS + GWAS	
+D	1	Edinburgh	University of Edinburgh		Edinburgh	PGS + GWAS	
+D	1	EGLE	Early Genetics and Lifecourse Epidemiology		EGLE	PGS + GWAS	
+D	1	ELSA-Brasil	Estudo Longitudinal de Saude do Adulto cohort		ELSA-Brasil	PGS + GWAS	
+D	1	EMBLEM	Epidemiology of Burkitt Lymphoma in East African Children and Minors		EMBLEM	PGS + GWAS	
+D	1	EMC	Erasmus Medical Center		EMC	PGS + GWAS	
+D	1	Essen-Heidelberg	Essen-Heidelberg		Essen-Heidelberg	PGS + GWAS	
+D	1	FARIVE	Etude des Facteurs de Risque de thrombose Veineuse		FARIVE	PGS + GWAS	
+D	1	FEIRI	FMD European/International Registry and Initiative		FEIRI	PGS + GWAS	
+D	1	FinDonor	FinDonor 10 000 study		FinDonor	PGS + GWAS	
+D	1	FinHealth	National FinHealth 2017 Study		FinHealth	PGS + GWAS	
+D	1	FinnTwin12	The Younger Finnish Twin Cohort		FinnTwin12	PGS + GWAS	
+D	1	FITSA	Finnish Twin Study on Aging		FITSA	PGS + GWAS	
+D	1	FOCI	Follow-up of Ovarian Cancer Genetic Association and Interaction Studies		FOCI	PGS + GWAS	
+D	1	FOR2107	The FOR2107 consortium		FOR2107	PGS + GWAS	
+D	1	FrGMC	French Cystic fibrosis Gene Modifier study		FrGMC	PGS + GWAS	
+D	1	GABC	Genes and Blood Clotting Study		GABC	PGS + GWAS	
+D	1	GABRIELA	GABRIEL (a multidisciplinary study to identify the genetic and environmental causes of asthma in the European Community) Advanced studies		GABRIELA	PGS + GWAS	
+D	1	GAPC	Genetic Analysis of Psoriasis Consortium		GAPC	PGS + GWAS	
+D	1	GBHS	Ghana Breast Health Study		GBHS	PGS + GWAS	
+D	1	GD	German Dupuytren study		GD	PGS + GWAS	
+D	1	GenomALC	Genetics of alcoholic liver cirrhosis consortium		GenomALC	PGS + GWAS	
+D	1	GenoMEL	GenoMEL		GenoMEL	PGS + GWAS	
+D	1	GEN-SEP	Genetics of Sepsis-induced ARDS Network		GEN-SEP	PGS + GWAS	
+D	1	GEOS	Genetics of Early Onset Stroke		GEOS	PGS + GWAS	
+D	1	GESGA	German Study of the Genetics of Alcoholism		GESGA	PGS + GWAS	
+D	1	GGP	Genes for Good Project		GGP; Genes for Good Project	PGS + GWAS	
+D	1	Ghana	Ghana		Ghana	PGS + GWAS	
+D	1	Ghana_Prostate	Ghana Prostate	Ghana Prostate	Ghana_Prostate	PGS + GWAS	
+D	1	GO	Genetics of Osteoarthritis Consortium		GO	PGS + GWAS	
+D	1	GO-CAT	Genetics of Childhood Cancer Treatment		GO-CAT	PGS + GWAS	
+D	1	GODDAF	Genetic Origin of Dupuytren Disease study		GODDAF	PGS + GWAS	
+D	1	GOI	Genetics of Impulsivity project		GOI	PGS + GWAS	
+D	1	GOLDR	Genetics of Latinos Diabetic Retinopathy		GOLDR	PGS + GWAS	
+D	1	GP2	Global Parkinson's Genetics Program		GP2	PGS + GWAS	
+D	1	GRAAD	Genomic Research on Asthma in the African Diaspora		GRAAD	PGS + GWAS	
+D	1	GRADS	Genomic Research in Alpha-1 Antitrypsin Deficiency and Sarcoidosis study		GRADS	PGS + GWAS	
+D	1	GRIV	Genomics of Resistance to Immunodeficiency Virus		GRIV	PGS + GWAS	
+D	1	GTES	Guangzhou Twin Eye Study		GTES	PGS + GWAS	
+D	1	Guangzhou	Asian Consortium, Colorectal Cancer Guangzhou		Guangzhou	PGS + GWAS	
+D	1	HGDS	Hemophilia Growth and Development Study		HGDS	PGS + GWAS	
+D	1	HHS	The Hordaland Health Study	HUSK	HHS	PGS + GWAS	
+D	1	HKCES	Hong Kong Children Eye Study		HKCES	PGS + GWAS	
+D	1	HKDB	Hong Kong Diabetes Biobank		HKDB	PGS + GWAS	
+D	1	HOPE_Zhejiang	Healthy Zhejiang One Million People Cohort	HOPE	HOPE_Zhejiang	PGS + GWAS	
+D	1	H-PEACE	the Health and Prevention Enhancement cohort		H-PEACE	PGS + GWAS	
+D	1	INCIPE	INCIPE (NE Italy CKD and Nephropathy Study)	Initiative on Nephropathy, of relevance to public health, which is Chronic, possibly in its Initial stages, and carries a Potential risk of major clinical Endpoints	INCIPE	PGS + GWAS	
+D	1	ISP	International Stuttering Project		ISP	PGS + GWAS	
+D	1	ITH	INTERHEART Study		ITH	PGS + GWAS	
+D	1	ITHGC	International Tuberculosis Host Genetics Consortium		ITHGC	PGS + GWAS	
+D	1	IUPUI	Indiana University-Purdue University Indianapolis		IUPUI	PGS + GWAS	
+D	1	IWPC	International Warfarin Pharmacogenetics Consortium		IWPC	PGS + GWAS	
+D	1	JHU	Johns Hopkins University		JHU	PGS + GWAS	
+D	1	KARBAC	Karolinska Breast Cancer Study		KARBAC	PGS + GWAS	
+D	1	Korea-NCC	Korean-National Cancer Center Study		Korea-NCC	PGS + GWAS	
+D	1	KPGP	Korean Psychiatric GWAS Project		KPGP	PGS + GWAS	
+D	1	LAMP	Low Concentration Atropine for Myopia Progression Study		LAMP	PGS + GWAS	
+D	1	Leipzig	Leipzig Childhood Obesity cohort		Leipzig	PGS + GWAS	
+D	1	LORD	Lung Oncology Research and Discovery		LORD	PGS + GWAS	
+D	1	MACS	Multicenter AIDS Cohort Study		MACS	PGS + GWAS	
+D	1	Man_LHC	Manchester Lung Health Check		Man_LHC	PGS + GWAS	
+D	1	MAYO_VDB	MAYO_VDB		MAYO-VDB; Mayo-VDB	PGS + GWAS	
+D	1	MAYO-VDB	Vascular Diseases Biorepository - Mayo Clinic		MAYO-VDB; Mayo-VDB	PGS + GWAS	
+D	1	MCH_montreal	Montreal Children's Hospital		Montreal Children's Hospital	PGS + GWAS	
+D	1	MCRCB	Manchester Cancer Research Centre Biobank		MCRCB	PGS + GWAS	
+D	1	MELARISK	MELARISK		MELARISK	PGS + GWAS	
+D	1	MHCS	Multicenter Hemophilia Cohort Studies		MHCS	PGS + GWAS	
+D	1	MRC	UK Medical Research Council		MRC	PGS + GWAS	
+D	1	MSKCC	Memorial Sloan Kettering Cancer Center		MSKCC	PGS + GWAS	
+D	1	MxGDAR	Mexican Genomic Database for Addiction Research	ENCODAT	MxGDAR	PGS + GWAS	
+D	1	NAG-Fin	Finnish Nicotine Addiction Genetics Project		NAG-FIN	PGS + GWAS	
+D	1	NBBS	National Blood Bank Service		NBBS	PGS + GWAS	
+D	1	NEI	National Eye Institute		NEI	PGS + GWAS	
+D	1	NESCOG	Netherlands Study of Cognition		NESCOG	PGS + GWAS	
+D	1	NFS-ORPS/Cambridge	UK Nephropathy Family Study and Oxford Regional Prospective Study		NFS-ORPS/Cambridge	PGS + GWAS	
+D	1	NigBCS	Nigerian Breast Cancer Study		NigBCS	PGS + GWAS	
+D	1	NJR	National Joint Registry		NJR	PGS + GWAS	
+D	1	NKI	Netherlands Cancer Institute		NKI	PGS + GWAS	
+D	1	NPF	National Psoriasis Foundation		NPF	PGS + GWAS	
+D	1	NSPT	National Survey of Physical Traits		NSPT	PGS + GWAS	
+D	1	NYG_ALS	The New York Genome Center's ALS Consortium		NYG_ALS	PGS + GWAS	
+D	1	NZ	NZ AAA Genetics Study		NZ	PGS + GWAS	
+D	1	PanC4	The Pancreatic Cancer Case-Control Consortium		PanC4	PGS + GWAS	
+D	1	Penn	Penn		Penn	PGS + GWAS	
+D	1	PGB	CReATe Consortium's Phenotype-Genotype-Biomarker study		PGB	PGS + GWAS	
+D	1	PLATO	PLATO trial		PLATO	PGS + GWAS	
+D	1	PLUM	Pustular Psoriasis, Elucidating Underlying Mechanisms		PLUM	PGS + GWAS	
+D	1	POAAGG	Primary Open-Angle African American Glaucoma Genetics Study		POAAGG	PGS + GWAS	
+D	1	Project_MinE_ALS	Project MinE ALS sequencing consortium		Project_MinE_ALS	PGS + GWAS	
+D	1	PUSH	Pulmonary Hypertension and the Hypoxic Response in Sickle Cell Disease		PUSH	PGS + GWAS	
+D	1	QFP	Quebec founder population		Quebec Founder Population	PGS + GWAS	
+D	1	QSBB	Queen Square Brain Bank		QSBB	PGS + GWAS	
+D	1	QUEBEC-CAVS	Calcific Aortic Valve Stenosis in Quebec		QUEBEC-CAVS	PGS + GWAS	
+D	1	REDS-III	NHLBI Recipient Epidemiology Donor Evaluation Study		REDS-III	PGS + GWAS	
+D	1	REHS	Raine Eye Health Study		REHS	PGS + GWAS	
+D	1	RVGBC	Racial Variability in Genotypic Determinants of Breast Cancer Risk Study		RVGBC	PGS + GWAS	
+D	1	Samoan	Samoan Adiposity Study		Samoan	PGS + GWAS	
+D	1	SANFORD	Sanford Health		SANFORD	PGS + GWAS	
+D	1	SCAALA	Social Changes, Asthma, and Allergy in Latin America cohort		SCAALA	PGS + GWAS	
+D	1	SepNet	German Sepsis Competence Network		SepNet	PGS + GWAS	
+D	1	SFCCC	San Francisco City Clinic Cohort		SFCCC	PGS + GWAS	
+D	1	SIGNET	Sea Islands Genetics Network		SIGNET	PGS + GWAS	
+D	1	SIT	Silent Cerebral Infarct Multi-Center Clinical Trial		SIT	PGS + GWAS	
+D	1	SKIPOGH	Swiss Kidney Project on Genes in Hypertension		SKIPOGH	PGS + GWAS	
+D	1	SLOVENIA	the SLOVENIA study		SLOVENIA	PGS + GWAS	
+D	1	SLS	Santiago Longitudinal Study		SLS	PGS + GWAS	
+D	1	SMWHS	Shanghai Mens and Shanghai Womens Health Studies		SMWHS	PGS + GWAS	
+D	1	SNMB	Swedish National Myeloma Biobank		SNMB	PGS + GWAS	
+D	1	SNUHDS	Seoul National University Hospital Diabetes Study		SNUHDS	PGS + GWAS	
+D	1	SOLYouth	SOL Youth	Study of Latino Youth Study	SOLYouth	PGS + GWAS	
+D	1	SPHFC	SPHFC		SPHFC	PGS + GWAS	
+D	1	S-PRESTO	Singapore Preconception Study of Long-Term Maternal and Child Outcomes		S-PRESTO	PGS + GWAS	
+D	1	SPSS	Swiss Pediatric Sepsis Study		SPSS	PGS + GWAS	
+D	1	StAR2	Study of ALS Reversals 2		StAR2	PGS + GWAS	
+D	1	Steno	Steno Diabetes Center Study		Steno	PGS + GWAS	
+D	1	STEP	Systematic Treatment Enhancement Program for Bipolar Disorder		STEP	PGS + GWAS	
+D	1	STRRIDE	Studies of a Targeted Risk Reduction Intervention through Defined Exercise		STRRIDE	PGS + GWAS	
+D	1	SUCCESSA	SUCCESS-A study		SUCCESSA	PGS + GWAS	
+D	1	SUPER-RCC-Nx	Seoul National University Prospectively Enrolled Registry for RCC-Nephrectomy		SUPER-RCC-Nx	PGS + GWAS	
+D	1	TABS	Triple A Barcelona Study		TABS	PGS + GWAS	
+D	1	TAGC	Trans-National Asthma Genetic Consortium		TAGC	PGS + GWAS	
+D	1	"The ""European NAFLD Registry"" Metacohort"	The European NAFLD Registry-Metacohort		"The ""European NAFLD Registry"" Metacohort"	PGS + GWAS	
+D	1	THRV	Taiwan Study of Hypertension using Rare Variants		THRV	PGS + GWAS	
+D	1	TMIG_BBAR	Brain Bank for Aging Research, Tokyo Metropolitan Institute for Geriatrics and Gerontology		TMIG_BBAR	PGS + GWAS	
+D	1	TOB	Tasmanian Ophthalmic Biobank		TOB	PGS + GWAS	
+D	1	TOPMed	Trans-Omics for Precision Medicine Program		TOPMed	PGS + GWAS	
+D	1	TRANSCRibE	TRanscriptomic ANalySis of left ventriCulaR gene Expression		TRANSCRibE	PGS + GWAS	
+D	1	Trondheim_PD	Trondheim Parkinson's disease study		Trondheim_PD	PGS + GWAS	
+D	1	TWSC	Taiwan Super Control Study		TWSC	PGS + GWAS	
+D	1	TZL	The Taizhou Longitudinal Study		TZL	PGS + GWAS	
+D	1	UFO	Umeå Fracture and Osteoporosis (UFO) study		UFO	PGS + GWAS	
+D	1	UKAGS	UK Aneurysm Growth Study		UKAGS	PGS + GWAS	
+D	1	UNC	University of North Carolina		UNC	PGS + GWAS	
+D	1	UoPMC	University of Pittsburgh Medical Center		UoPMC	PGS + GWAS	
+D	1	UPCH	Danish T2D case-control study		UPCH	PGS + GWAS	
+D	1	USNIHFAREE	US NIH CoFAR EoE cohort		USNIHFAREE	PGS + GWAS	
+D	1	Vanderbilt_OM	Vanderbilt Online Musicality Study		Vanderbilt_OM	PGS + GWAS	
+D	1	VFA	Viva La Familia		VFA	PGS + GWAS	
+D	1	WAMHS	Western Australian Melanoma Health Study		WAMHS	PGS + GWAS	
+D	1	War-PATH	Warfarin Anticoagulation in Patients in sub-Saharan Africa		War-PATH	PGS + GWAS	
+D	1	WECARE	Women's Environmental Cancer and Radiation Epidemiology Study		WECARE	PGS + GWAS	
+D	1	WEH	Wills Eye Hospital		WEH	PGS + GWAS	
+D	1	WOBASZ	WOBASZ study		WOBASZ	PGS + GWAS	
+D	1		HIS		HIS	GWAS only	
+D	1		US controls		US controls	GWAS only	
+D	1		German sCJD cases		German sCJD cases	GWAS only	
+D	1		Multiethnic samples from the UK		Multiethnic samples from the UK	GWAS only	
+D	1		US		US	GWAS only	
+D	1		UK		UK	GWAS only	
+D	1		UK sCJD cases		UK sCJD cases	GWAS only	
+D	1		Dutch controls		Dutch controls	GWAS only	
+D	1		US sCJD cases		US sCJD cases	GWAS only	
+D	1		GHS-II		GHS-II	GWAS only	
+D	1		Oxford Regional Prospective Study of Childhood Diabetes (ORPS)		Oxford Regional Prospective Study of Childhood Diabetes (ORPS)	GWAS only (candidate COHO:0000234 CHILD Cohort Study)	
+D	1		MD		MD	GWAS only	
+D	1		SUNLIGHT		SUNLIGHT	GWAS only	
+D	1		ICC		ICC	GWAS only	
+D	1		EPIC-Norfolk cohort		EPIC-Norfolk cohort	GWAS only (candidate COHO:0000065 European Prospective Investigation into Cancer; COHO:0000066 European Prospective Investigation of Cancer-Norfolk)	
+D	1		BLS		BLS	GWAS only	
+D	1		COHRA1		COHRA1	GWAS only	
+D	1		Japan		Japan	GWAS only	
+D	1		SHIP_Shikamachi		SHIP_Shikamachi	GWAS only (candidate COHO:0000202 Study of Health in Pomerania)	
+D	1		BRAVE_study		BRAVE_study	GWAS only	
+D	1		Sardinia case-control		Sardinia case-control	GWAS only (candidate COHO:0000151 SardiNIA Study of Aging)	
+D	1		MSH_CSA		MSH_CSA	GWAS only	
+D	1		British 1958 birth cohort		British 1958 birth cohort	GWAS only (candidate COHO:0000207 1958 British Birth Cohort)	
+D	1		National blood service		National blood service	GWAS only (candidate COHO:0000347 UK Blood Service Control Group)	
+D	1		DEFINE		DEFINE	GWAS only	
+D	1		WTCCC - Bipolar disease cases		WTCCC - Bipolar disease cases	GWAS only (candidate COHO:0000182 Wellcome Trust Case Control Consortium)	
+D	1		GAINT		GAINT	GWAS only	
+D	1		French controls		French controls	GWAS only	
+D	1		COHRA2		COHRA2	GWAS only	
+D	1		UK controls		UK controls	GWAS only	
+D	1		EPICURO		EPICURO	GWAS only (candidate COHO:0000065 European Prospective Investigation into Cancer)	
+D	1		Spanish controls		Spanish controls	GWAS only	
+D	1		GAIT2		GAIT2	GWAS only	
+D	1		BREATHE		BREATHE	GWAS only	
+D	1		DCCT-EDIC		DCCT-EDIC	GWAS only	
+D	1		EAC		EAC	GWAS only	
+D	1		Other sCJD cases		Other sCJD cases	GWAS only	
+D	1		HRBC		HRBC	GWAS only	
+D	1		German controls		German controls	GWAS only	
+D	1		Italian controls		Italian controls	GWAS only	
+D	1		SerGenCovid-19		SerGenCovid-19	GWAS only	
+D	1		TPD		TPD	GWAS only	
+D	1		EBB		EBB	GWAS only	
+D	1		CALGB 40502		CALGB 40502	GWAS only (candidate COHO:0000022 Cancer and Leukemia Group B)	
+D	1		ASKLEPIOS		ASKLEPIOS	GWAS only	
+D	1		CORNET		CORNET	GWAS only	
+D	1		PCL WP4b		PCL WP4b	GWAS only	
+D	1		GHS-I		GHS-I	GWAS only	
+E	0	AmBCD	Amsterdam Born Children and their Development	ABCD		PGS	
+E	0	Samsung	Samsung Medical Center	SMC		PGS	
+E	0	TRS	The Raine Study	Raine Study		PGS	
+E	0	Helix_Exome	Helix Exome+ COVID-19 Phenotypes	Helix		PGS	
+E	0	100-plus	100-plus Study of cognitively healthy centenarians			PGS	
+E	0	2SISTER	The Two Sister Study			PGS	
+E	0	A2A	The Women's Health Study: From Adolescence to Adulthood			PGS	
+E	0	AABCG	African Ancestry Breast Cancer Genetic consortium			PGS	
+E	0	AAGC	Australian Asthma Genetics Consortium			PGS	
+E	0	Aalborg	Aalborg University Hospital blood bank			PGS	
+E	0	Aarhus	Aarhus			PGS	
+E	0	AAS	African American Study			PGS	
+E	0	ABCS	Amsterdam Breast Cancer Study			PGS	
+E	0	ABCS-F	Amsterdam Breast Cancer Study - Familial			PGS	
+E	0	ABCTB	Australian Breast Cancer Tissue Bank			PGS	
+E	0	ABDC	Anonymous Blood Donor Cohort			PGS	
+E	0	ABIL	Australian Imaging, Biomarker & Lifestyle Flagship Study of Ageing			PGS	
+E	0	ABP	Adelaide Blood Pools			PGS	
+E	0	AC	Aneurysm Consortium AAA GWAS dataset			PGS	
+E	0	ACC	Autism CaseControl cohort			PGS	
+E	0	ACCORD	Action to Control Cardiovascular Risk in Diabetes			PGS	
+E	0	ACCT	Anglo Cardiff Collaborative Trial			PGS	
+E	0	ACG	Alcoholic Cirrhosis GWAS			PGS	
+E	0	ACPRC	Age and Cognitive Performance Research Cohort			PGS	
+E	0	ACS_c	American Cancer Society Prevention Study			PGS	
+E	0	ACSGH	Affective Center at St Goran Hospital, Stockholm			PGS	
+E	0	ACTS	ACTS			PGS	
+E	0	ACUCH	Amyloidosis Center at University Clinic Heidelberg			PGS	
+E	0	ADCC	Alzheimer’s Disease Cardiff Cohort			PGS	
+E	0	ADDITION	ADDITION study			PGS	
+E	0	ADELAHYDE	ADELAHYDE/Nancy/ERA-France			PGS	
+E	0	ADGE	Alcohol Dependence GWAS in European- and African Americans			PGS	
+E	0	ADHD	Attention-deficit Hyperactivity Disorder			PGS	
+E	0	ADVANCE_TRIAL	Action in Diabetes and Vascular disease: Preterax and Diamicron-MR Controlled Evaluation			PGS	
+E	0	AEB	Aneurysm Express Biobank Study			PGS	
+E	0	AFLMU	Atrial Fibrillation Biobank Ludwig Maximilian University Study			PGS	
+E	0	AFNET	German Competence Network for Atrial Fibrillation			PGS	
+E	0	AFTER_EU	AFTER (EURAGEDIC) European Rational Approach for the Genetics of Diabetic Complications	AFTER EU		PGS	
+E	0	AG	Ambry Genetics			PGS	
+E	0	AGENT2D	Asian Genetic Epidemiology Network Type 2 Diabetes Consortium			PGS	
+E	0	AGP	Autism Genome Project			PGS	
+E	0	AGRE	Autism Genetic Resource Exchange			PGS	
+E	0	AGS	San Francisco Bay Area Adult Glioma Study			PGS	
+E	0	Aichi	Aichi Study			PGS	
+E	0	Aichi_Con	Asian Consortium, Colorectal Cancer Aichi			PGS	
+E	0	AITD	AITD Autoimmune thyroid disease			PGS	
+E	0	AMBER	The African American Breast Cancer Epidemiology and Risk consortium			PGS	
+E	0	AMI	Acute Myocardial Infarction Gene Study/Dortmund Health Study			PGS	
+E	0	Amsterdam	University of Amsterdam			PGS	
+E	0	Amsterdam_UMC_COVID_study_group	Amsterdam UMC COVID study group			PGS	
+E	0	ANECS	Australian National Endometrial Cancer Study			PGS	
+E	0	Angio-Lueb	Luebeck Angiographic Study			PGS	
+E	0	ANZgene	The Australia and New Zealand Multiple Sclerosis Genetics Conortium			PGS	
+E	0	ANZRAG	Australian & New Zealand Registry of Advanced Glaucoma			PGS	
+E	0	AOTT	Alberta Ovarian Tumor Types study			PGS	
+E	0	APCB	Australian Prostate Cancer BioResource			PGS	
+E	0	APOSS	Aberdeen Prospective Osteoporosis Screening Study			PGS	
+E	0	ARCGSES	Alcohol Related Cancers and Genetic Susceptibility in Europe Study			PGS	
+E	0	ARCTIC	Assessment of Risk in Colorectal Tumors In Canada			PGS	
+E	0	ARISTOTLE	Apixaban for the Prevention of Stroke in Subjects With Atrial Fibrillation			PGS	
+E	0	AROS	Aarhus Osteoporosis Study			PGS	
+E	0	ARREST	AmsteRdam REsuscitation STudies			PGS	
+E	0	ART	Alzheimers Research Trust			PGS	
+E	0	ASHRAM	Arsenic Health Risk Assessment and Molecular Epidemiology			PGS	
+E	0	ASPIS	Athens Study of Psychosis Proneness and Incidence of Schizophrenia			PGS	
+E	0	ATES	Australian Twin Eye study			PGS	
+E	0	Atherogene	Atherogene Registry			PGS	
+E	0	AtheroRemo	AtheroRemo	AtheroRemo 1, AtheroRemo 2		PGS	
+E	0	AtheroRemo 1	AtheroRemo 1			PGS	
+E	0	AtheroRemo 2	AtheroRemo 2			PGS	
+E	0	ATM	Australia ATM			PGS	
+E	0	AUGOSA	Asthma UK Genetics of Severe Asthma			PGS	
+E	0	AUMC	Amsterdam UMC			PGS	
+E	0	AUMC_DCM	Amsterdam UMC dilated cardiomyopathy GWAS cohort			PGS	
+E	0	AusDiane	Austrian Diabetic Nephropathy Study			PGS	
+E	0	AUSTWIN	Australian Twin-Family Studies			PGS	
+E	0	BACCS	Bipolar Affective Case Control Study			PGS	
+E	0	BannerHealth	Banner Health study			PGS	
+E	0	BARCODE1	BARCODE1			PGS	
+E	0	BayerScheringPharma	BayerScheringPharma			PGS	
+E	0	BBC	Berlin Birth Cohort			PGS	
+E	0	BBCS	British Breast Cancer Study			PGS	
+E	0	BBM	Broad Bayer Munich			PGS	
+E	0	BBofA	Biobank of the Americas			PGS	
+E	0	BC	BC			PGS	
+E	0	BCCA	British Columbia Non-Hodgkin Lymphoma Study			PGS	
+E	0	BCCR	Breast Cancer Collaborative Registry			PGS	
+E	0	BCFH	The British Columbia Familial Hypercholesterolemia cohort			PGS	
+E	0	BCFR	Breast Cancer Family Registry			PGS	
+E	0	BCFR-AU	Breast Cancer Family Registry Australia			PGS	
+E	0	BCFR-CA	Breast Cancer Family Registry Canada			PGS	
+E	0	BCFR-NCA	Breast Cancer Family Registry California			PGS	
+E	0	BCFR-NY	New York Breast Cancer Family Registry			PGS	
+E	0	BCFR-ONT	Breast Cancer Familial Registry Ontario			PGS	
+E	0	BCFR-PA	Philadelphia Breast Cancer Family Registry			PGS	
+E	0	BCFR-UT	Utah site of the Breast Cancer Family Registry			PGS	
+E	0	BCFR-UTAH	Utah Breast Cancer Family Registry			PGS	
+E	0	BCG	Barry Caerphilly Growth Study			PGS	
+E	0	BCINIS	Breast Cancer In Northern Israel Study			PGS	
+E	0	BCST	Breast Cancer Study in Taiwan			PGS	
+E	0	BCX	Blood-Cell Consortium			PGS	
+E	0	BD	Belgian Donors			PGS	
+E	0	BDRN	Bipolar Disorder Research Network			PGS	
+E	0	BECS	Bavarian Endometrial Cancer Cases and Controls Study			PGS	
+E	0	BELFAS	Belfast Elderly Longitudinal Free-living Ageing Study			PGS	
+E	0	Belgium_AD	Flanders-Belgian study cohort			PGS	
+E	0	BEOCOPD	Boston Early-Onset COPD Study			PGS	
+E	0	BEST	Bangladesh Vitamin E and Selenium Trial			PGS	
+E	0	BEST_Florida	The Black Women: Etiology and Survival of Triple-Negative Breast Cancers (BEST) Study			PGS	
+E	0	BFBOCC	Baltic Familial Breast and Ovarian Cancer Consortium			PGS	
+E	0	BfDR	BfDR			PGS	
+E	0	BFS	Bipolar Family Study			PGS	
+E	0	BGWAS	Beijing genome-wide association studies			PGS	
+E	0	BHF-FHS	British Heart Foundation Family Heart Study			PGS	
+E	0	BIAS	Brazilian Immunogenetics of Asthma and Schistosomiasis			PGS	
+E	0	BICWALZS	Biobank Innovation for Chronic Cerebrovascular Disease With Alzheimer’s Disease Study			PGS	
+E	0	BIDMC	BIDMC			PGS	
+E	0	BIGGS	Breast Cancer In Galway Genetic Study			PGS	
+E	0	BiGS	Bipolar Genome Study			PGS	
+E	0	BIOPATH	Biological pathways of risk and resilience in Syrian refugee children			PGS	
+E	0	Bio-PD	Biological Determinants of Peritoneal Dialysis (Bio-PD) study			PGS	
+E	0	BIOSTAT-CHF	A systems BIOlogy Study to TAilored Treatment in Chronic Heart Failure			PGS	
+E	0	Blantyre	Blantyre-Wellcome Trust Project in Blantyre, Malawi			PGS	
+E	0	BLITZ	Begleitende Evaluierung innovativer Testverfahren zur Darmkrebsfrüherkennung			PGS	
+E	0	BLOODOMICS	Bloodomics project			PGS	
+E	0	BMBSA	BRCA-gene mutations and Breast Cancer in South African Women			PGS	
+E	0	BOCC	Bavarian Ovarian Cancer Cases and Controls			PGS	
+E	0	BOCS	Belgium Ovarian Cancer Study			PGS	
+E	0	BOMA	BOMA-Bipolar Study, University of Bonn and CIMH Mannheim			PGS	
+E	0	BRACOVID	Genetic determinants of COVID-19 complications in the Brazilian population			PGS	
+E	0	BRAGGSS	Biologics in Rheumatoid Arthritis Genetics and Genomics Study Syndicate			PGS	
+E	0	BRAVE	Bangladesh Risk of Acute Vascular Events Study			PGS	
+E	0	BRICOH	Beckman Research Institute of the City of Hope			PGS	
+E	0	BSBC	Belgian Case Control Study of Bladder Cancer			PGS	
+E	0	BSN	BSN			PGS	
+E	0	BSUCH	Breast Cancer Study of the University Clinic Heidelberg			PGS	
+E	0	BTDS	Beijing Type 2 Diabetes Studies			PGS	
+E	0	BTNS	Brisbane Twin Nevus Study			PGS	
+E	0	BusSante	Bus santé			PGS	
+E	0	BV	Biobanco Vasco			PGS	
+E	0	BWH	Brigham and Womens Hospital			PGS	
+E	0	CABRIO-C	Cantabria-Camargo			PGS	
+E	0	CABRIO-CC	Cantabria Osteoporosis Case-control			PGS	
+E	0	CADomics	Coronary Artery Disease and genomics			PGS	
+E	0	CaePS	Caerphilly Prospective Study			PGS	
+E	0	CAGE-Amagasaki	Cardio-metabolic Genome Epidemiology Study - Amagasaki			PGS	
+E	0	CAGE-Fukuoka	Kyushu University Fukuoka Cohort Study			PGS	
+E	0	CAGE-NCGM	National Center for Global health and Medicine hospital-based cohort study			PGS	
+E	0	CAHRES	Cancer Hormone Replacement Epidemiology in Sweden			PGS	
+E	0	CAIFOS	Calcium Intake Fracture Outcome Study			PGS	
+E	0	CALEX-FAM	Calex-family			PGS	
+E	0	CAMA	Cancer de Mama			PGS	
+E	0	CAMH	Center for Addiction and Mental Health			PGS	
+E	0	CAMSCH	Chinese Academy of Medical Sciences Cancer Hospital			PGS	
+E	0	CanBCS	Canadian Breast Cancer Study			PGS	
+E	0	CanSS	Canadian Screening Study			PGS	
+E	0	CaP_Genes	Prostate Cancer Genetics Study	CaP Genes		PGS	
+E	0	CAPPS	Canadian Childhood Cohorts: Canadian Asthma Primary Prevention Study			PGS	
+E	0	CAPS_b	Carotid Atherosclerosis Progression Study			PGS	
+E	0	CAPUA	The Cancer de Pulmon en Asturias study			PGS	
+E	0	CARDS	Collaborative Atorvastatin Diabetes Study			PGS	
+E	0	CARE_b	Cholesterol and Recurrent Events			PGS	
+E	0	CARE_c	Childhood Asthma Research and Education			PGS	
+E	0	CARET	Carotene and Retinol Efficacy Trial			PGS	
+E	0	CATIE	Clinical Antipsychotic Trials of Intervention Effectiveness			PGS	
+E	0	CATIE-US	Clinical Antipsychotic Trials of Intervention Effectiveness US			PGS	
+E	0	CATS	Comorbidity and Trauma Study			PGS	
+E	0	CAUG	California Uganda Study			PGS	
+E	0	CCCGS	Croatian Colorectal Cancer Genetic Study			PGS	
+E	0	CCCS	Cambridgeshire Case-Control Study			PGS	
+E	0	CCFR-II	Colon Cancer Family Registry Set II			PGS	
+E	0	CCGB	Cleveland Clinic GeneBank Study	CCGB_2		PGS	
+E	0	CCGB_2	Cleveland Clinic Gene Bank 2			PGS	
+E	0	CCGP	Crete Cancer Genetics Program			PGS	
+E	0	CCHS_b	China Cardiovascular Health Study			PGS	
+E	0	CCI	CCI			PGS	
+E	0	CCNMU	Cancer Center of Nanjing Medical University			PGS	
+E	0	CECS	Connecticut Endometrial Cancer Study			PGS	
+E	0	CEDAR_Penn	Center for Education and Drug Abuse Research			PGS	
+E	0	CEDIR	Besta Cerebrovascular Diseases Registry			PGS	
+E	0	CEERCC	CEERCC case-control study			PGS	
+E	0	CEFALO	Population based case-control study of brain tumors in children and adolescents aged 7–19 years conducted in Sweden, Denmark, Norway, and Switzerland			PGS	
+E	0	CG	Color Genomics			PGS	
+E	0	CGARe	Candidate Gene Association Resource			PGS	
+E	0	CGPS	Copenhagen General Population Study			PGS	
+E	0	CGR	Cancer Genomics Research Laboratory			PGS	
+E	0	Chicago	Chicago			PGS	
+E	0	ChinaMUCA-1998	China Multi-Center Collaborative Study of Cardiovascular Epidemiology			PGS	
+E	0	Chingford	Chingford study			PGS	
+E	0	CHIPGECS	Chinese Prostate Cancer Genetic and Environmental Correlation Study			PGS	
+E	0	ChooseWell 365	﻿ChooseWell 365 Study			PGS	
+E	0	CHS_b	Childrens Health Study			PGS	
+E	0	CIHDS	Copenhagen ischaemic Heart Disease Study			PGS	
+E	0	CIMIC	Community Intervention of Metabolic Syndrome in China and Chinese Family Health Study			PGS	
+E	0	CITA	Mayo Clinic Center for Individualized Treatment of Addiction			PGS	
+E	0	CLARITY	ChiLdhood Arthritis Risk factor Identification sTudY			PGS	
+E	0	CMHS	California Mens Health Study			PGS	
+E	0	CNG	Centre National de G_notypage			PGS	
+E	0	CNIO-BCS	Spanish National Cancer Centre Breast Cancer Study			PGS	
+E	0	CNMA	Nutrition, Metabolism and Atherosclerosis Clinic (CNMA) of Institut de recherches cliniques de Montréal			PGS	
+E	0	CNRFP	Centre National de Recherche et de Formation sur le Paludisme			PGS	
+E	0	CNULCS	Chonnam National University Lung Cancer Study			PGS	
+E	0	COBRE	COBRE for Oral Health Study			PGS	
+E	0	COGEN	The Copenhagen Cardiovascular Genetic study			PGS	
+E	0	COGES	Collaborative Oncology Gene-Environment Study			PGS	
+E	0	COGS	Colorectal Cancer Genetics Study			PGS	
+E	0	ColoCare	ColoCare Study			PGS	
+E	0	COLON	Colorectal Cancer: Longitudinal Observational study on Nutritional and lifestyle factors that influence colorectal tumor recurrence, survival and quality of life			PGS	
+E	0	COLUMBUS	Post-Columbian Study of Environmental and Heritable Causes of Breast Cancer			PGS	
+E	0	conFIRM	conFIRM			PGS	
+E	0	ConLiGen	Consortium on Lithium Genetics			PGS	
+E	0	CONOR	Cohort of Adults in Norway			PGS	
+E	0	CONSIT	CONSIT			PGS	
+E	0	CONSIT_TEAM	CONsorzio Studi ITaliani sui Tumori Ereditari Alla Mammella	CONSIT TEAM		PGS	
+E	0	COPACETIC	COPD Pathology: Adressing Critical gaps, Early Treatment & diagnosis and Innovative Concepts			PGS	
+E	0	CopBCS	Copenhagen Breast Cancer Study			PGS	
+E	0	CopenhagenLCS	Copenhagen Lung Cancer Study			PGS	
+E	0	Corea-COVID-19	Corea (Genetics of COVID-related Manifestation)			PGS	
+E	0	CoRGI	Colorectal Tumour Gene Identification study			PGS	
+E	0	COS	Connecticut Ovary Study			PGS	
+E	0	CPCS	Copenhagen Prostate Cancer Study			PGS	
+E	0	CPDR	Center for Prostate Disease Research			PGS	
+E	0	CPMCBHC	California Pacific Medical Center Research Breast Health Cohort			PGS	
+E	0	CPNDS	Canadian Pharmacogenomics Network for Drug Safety			PGS	
+E	0	CRISPS	Hong Kong Cardiovascular Risk Factor Prevalence Study			PGS	
+E	0	CRPDC	Clinical Research Platform based on Dementia Cohort			PGS	
+E	0	CRUK-CRI	Cancer Research UK - Cambridge Research Institute			PGS	
+E	0	CSGA	CSGA			PGS	
+E	0	CTMM	Center for Translational Molecular Medicine	Circulating Cells Cohort		PGS	
+E	0	CTS	California Teachers Study			PGS	
+E	0	CUHKDS	Chinese University of Hong Kong Diabetes Study			PGS	
+E	0	CURES	Chennai Urban Rural Epidemiology Study			PGS	
+E	0	CURES_China	China pUlmonary thromboembolism REgistry Study	CURES		PGS	
+E	0	CVPI-SCDr	CVPath Institute Sudden Cardiac Death registry			PGS	
+E	0	CWRU	Case Western Reserve University			PGS	
+E	0	Czech_Post	Czech Post			PGS	
+E	0	Czech_post-MONICA	Czech post-MONICA Study	Czech post-MONICA		PGS	
+E	0	DAG	Dutch Asthma GWAS study			PGS	
+E	0	DAIHSGC	Dutch AIH Study Group Consortium			PGS	
+E	0	Danfund	The Danish study of Functional Disorders			PGS	
+E	0	Danshi	Combined Danshi			PGS	
+E	0	DATATOP	Deprenyl and Tocopherol Antioxidative Therapy of Parkinsonism			PGS	
+E	0	DBCS	The Dortmund Bladder Cancer Study			PGS	
+E	0	dbGAP	National Institutes of Health Genotype and Phenotype database			PGS	
+E	0	DBS	Dutch Breda Study			PGS	
+E	0	DCH	Diet, Cancer and Health cohort			PGS	
+E	0	DC-IBD	IBD discovery case cohort			PGS	
+E	0	DCPC	Case-Control Study of Prostate Cancer among African Americans in Washington, DC			PGS	
+E	0	DeCC	Depression Case Control study			PGS	
+E	0	deCODE_CAD	deCODE CAD	deCODE CAD		PGS	
+E	0	DEGESGO	The Dementia Genetic Spanish Consortium			PGS	
+E	0	DeKAF Genomics	Deterioration of Kidney Allograft Function Genomics Cohort			PGS	
+E	0	DEMOKRITOS	Hellenic Cooperative Oncology Group			PGS	
+E	0	DeNoPa	De Novo Parkinson's cohort			PGS	
+E	0	DepGenesNetworks	DepGenesNetworks			PGS	
+E	0	DESIR	Epidemiological Study on the Insulin Resistance syndrome study			PGS	
+E	0	DFBBCS	Dutch Familial Bilateral Breast Cancer Study			PGS	
+E	0	DFCCS	Dutch Familial Colorectal Cancer Study			PGS	
+E	0	DFCI	Harvard Breast Cancer SPORE Blood Repository			PGS	
+E	0	DFCI-GCC	Dana-Farber Cancer Institute - Gastrointestinal Cancer Clinic			PGS	
+E	0	DFHCC	Dana-Farber Harvard Cancer Centre			PGS	
+E	0	DFTJ	Dongfeng-Tongji cohort study			PGS	
+E	0	DHIVCS	Danish HIV Cohort Study			PGS	
+E	0	DHSR	Danish Health Service Register			PGS	
+E	0	DIETCOMPLYF	DietCompLyf Breast Cancer Survival Study			PGS	
+E	0	DILIN	Drug-Induced Liver Injury Network			PGS	
+E	0	DKFZ	Deutsches Krebsforschungszentrum (German Cancer Research Center)			PGS	
+E	0	DLS	Danish Longevity Study			PGS	
+E	0	DNA_Lacunar	DNA Lacunar 2			PGS	
+E	0	DNMUV	Department of Neurology, Medical University of Vienna			PGS	
+E	0	DNPR	Danish National Patient Register			PGS	
+E	0	DNS	Duke Neurogenetics Study			PGS	
+E	0	DOES	Dubbo Osteoporosis Epidemiology Study			PGS	
+E	0	DoNBONN	Department of Neurosurgery, University of Bonn Medical Center			PGS	
+E	0	DOPS	Danish Osteoporosis Prevention Study			PGS	
+E	0	DOVE	Diseases of the Ovary and their Evaluation Study			PGS	
+E	0	DPCR	Danish Psychiatric Central Register			PGS	
+E	0	DPMS	Danish Pelvic Mass Study			PGS	
+E	0	DTWC	Dutch Twin Cohort			PGS	
+E	0	Duke	Duke Clinic			PGS	
+E	0	DUKE_2	Duke Cathgen Study			PGS	
+E	0	DUKW	Diabetes UK Warren repository			PGS	
+E	0	DuMS	Duke Memory study			PGS	
+E	0	Dutch	Dutch Renal Cell Cancer Study			PGS	
+E	0	Dutch HeFH	The Dutch heterozygous familial hypercholesterolemia screening program			PGS	
+E	0	EAPEH	European American and Poland Extreme Height panels			PGS	
+E	0	EAS	EAS			PGS	
+E	0	EAS-Edinburgh	Edinburgh artery study			PGS	
+E	0	EAST-AFNET4	EAST-AFNET4 trial			PGS	
+E	0	ECACC	European Collection of Cell Cultures			PGS	
+E	0	ECS	European Collaborative Study			PGS	
+E	0	ECTIM	Etude Cas-T_moin sur lInfarctus du Myocarde			PGS	
+E	0	EDOS	Edinburgh Osteoporosis Study			PGS	
+E	0	EEBCS	Eastern European Bladder Cancer Study			PGS	
+E	0	EESP	The Eastern Europe Study Population			PGS	
+E	0	EFIGA	Estudio Familiar de Influencia Genetica en Alzheimer			PGS	
+E	0	EGS	Emory Genebank Study			PGS	
+E	0	ELCCS	Epidemiology & Genetics Unit Lymphoma Case-Control study			PGS	
+E	0	Ely_case	Ely case_control study			PGS	
+E	0	EMAS	European Male Ageing Study			PGS	
+E	0	EMBRACE	Epidemiological study of BRCA1 and BRCA2 mutation carriers			PGS	
+E	0	ENGELA	Environmental and genetic risks factors study in adult lymphoma			PGS	
+E	0	EOPCS	Early Onset Prostate Cancer Study			PGS	
+E	0	EPHESUS	The Eplerenone Post-Acute Myocardial Infarction Heart Failure Efficacy and Survival Study			PGS	
+E	0	EPICAP	Epidemiology of Prostate Cancer			PGS	
+E	0	EPIC-Obesity	European Prospective Investigation into Cancer and Nutrition _ Obesity study cohort			PGS	
+E	0	EPICOLON	EPICOLON			PGS	
+E	0	EPIFUND	EPIFUND			PGS	
+E	0	Epi_Gen_AJ_SZ	Epidemiology genetic program AJ schizophrenia case-control samples			PGS	
+E	0	EpiHealth	Epidemiology for Health			PGS	
+E	0	EpiLymph	Epilymph case-control study in six European countries			PGS	
+E	0	EPI-NPC-2005	EPI-NPC-2005 study			PGS	
+E	0	EPIPARK	EPIPARK			PGS	
+E	0	EPOS	European Prospective Osteoporosis Study			PGS	
+E	0	EPOZ	Epidemiologisch Preventief Onderzoek Zoetermeer			PGS	
+E	0	eQTL	Expression Quantitative Trait Loci _ Lung			PGS	
+E	0	ERASE	Evaluation of Risk of ALL treatment-related Side-Effects			PGS	
+E	0	ERSPC	European Randomised Study of Screening for Prostate Cancer			PGS	
+E	0	ESAC	ESophageal Adeno-carcinoma			PGS	
+E	0	ESCALE	Etude Sur les Cancers et les Leucémies de l'Enfant			PGS	
+E	0	ESSEN	Essen Obesity Study			PGS	
+E	0	ESTHER_VERDI	Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten			PGS	
+E	0	ET2DS	Edinburgh Type 2 Diabetes Study			PGS	
+E	0	Eudragene	Eudragene			PGS	
+E	0	EURODIAB	EURODIAB			PGS	
+E	0	EUROSPAN	European Special Population Network consortium			PGS	
+E	0	EWUH-PCOS	Ewha Woman's University Hospital PCOS Study			PGS	
+E	0	EXTEND	Exeter 10,000 Study			PGS	
+E	0	EYHS	European Youth Heart Study			PGS	
+E	0	F5Leiden	F5Leiden Cohort			PGS	
+E	0	FBCS	Familial Breast Cancer Study			PGS	
+E	0	FBPP	The Family Blood Pressure Program			PGS	
+E	0	FCCC	Fox Chase Cancer Center			PGS	
+E	0	FCCPS	Finnish Colorectal Cancer Predisposition Study			PGS	
+E	0	FCCS	Fukuoka Colorectal Cancer Study			PGS	
+E	0	FDS	Fremantle Diabetes Study			PGS	
+E	0	FECD	Fuchs Endothelial Corneal Dystrophy Controls			PGS	
+E	0	Fels	Fels Longitudinal Study			PGS	
+E	0	FES	Framingham Eye Study			PGS	
+E	0	FGC	Finnish Genome Center			PGS	
+E	0	FIN-D2D	FIN-D2D			PGS	
+E	0	FinGesture	FinGesture			PGS	
+E	0	FinnTwin16	FinnTwin16			PGS	
+E	0	FinnTwinOld	The Older Finnish Twin Cohort			PGS	
+E	0	FINRISK97	FINRISK 1997			PGS	
+E	0	FinRSPC	Finnish Randomized Study of Screening for Prostate Cancer			PGS	
+E	0	FinSO	Finland SO replication			PGS	
+E	0	FIRE3	Phase 3 Randomized Clinical Trial (FOLFIRI + cetuximab, FOLFIRI + bevacizumab			PGS	
+E	0	FLCS	Fudan Lung Cancer Study			PGS	
+E	0	FLEMENGHO	Flemish Study on Environment, Genes and Health Outcomes			PGS	
+E	0	FLVS-II	Fleurbaix-Laventie Ville Sant_ II study			PGS	
+E	0	FMB	FondaMental Bipolar			PGS	
+E	0	FOS	Framingham Offspring Study			PGS	
+E	0	FOTS	Familial Ovarian Tumor Study			PGS	
+E	0	FOURIER	FOURIER			PGS	
+E	0	FPCC	CeRePP French Prostate Case-Control Study			PGS	
+E	0	FPGMX	Fundación Pública Galega de Medicina Xenómica			PGS	
+E	0	FRENCH	French Case-Control Study			PGS	
+E	0	FRISCII	FRISCII			PGS	
+E	0	FROC&GEOCS	Genetic Epidemiology of Ovarian Cancer			PGS	
+E	0	FSCD	FinnTwin, Family Study of Cocaine Dependence			PGS	
+E	0	FTC/NAG-FIN	Nicotine Addiction Genetics - Finland study			PGS	
+E	0	Fudan-Huashan	Fudan-Huashan Study			PGS	
+E	0	GAF	Genetics in Atrial Fibrillation			PGS	
+E	0	GAGRN	German Alzheimer disease Integrates Genome Research Network			PGS	
+E	0	GAIN	Genetic Association Information Network			PGS	
+E	0	GAIN.AST	Genetics of Asthma International Network			PGS	
+E	0	GAIN-BP	Bipolar Disorder Genetic Association Information Network			PGS	
+E	0	GAIN-MDD	Genetic Association Information Network-MDD Study			PGS	
+E	0	GALA	Genetics of Asthma in Latino Americans			PGS	
+E	0	GALEON	GALicia Estudio Oncológico de coloN			PGS	
+E	0	GAME-ON	The Genetic Associations and Mechanisms in Oncology			PGS	
+E	0	GARD	Gwangju Alzheimer's and Related Dementias			PGS	
+E	0	GASSC	Genetic Architecture of Smoking and Smoking Cessation			PGS	
+E	0	GBP	Australian Genetics of Bipolar Disorder study			PGS	
+E	0	GBTDS	Guizhou-Bijie Type 2 Diabetes Study			PGS	
+E	0	GCADC	Gothenburg Cervical Artery Dissection Collection			PGS	
+E	0	GCAP	NIMH Genes, Cognition and Psychosis Program			PGS	
+E	0	GCC	Greek Coronary Disease Cohort			PGS	
+E	0	GC-HBOC	German Consortium for Hereditary Breast & Ovarian Cancer			PGS	
+E	0	GCI	Genomics Collaborative Initiative			PGS	
+E	0	GDS	Guangdong Study			PGS	
+E	0	GECAP	Gene-Environment Interaction in Prostate Cancer Study			PGS	
+E	0	GEDI	Gene-Environment Development Initiative			PGS	
+E	0	GELAC	Genetic Epidemiological Study of Lung Adenocarcinoma			PGS	
+E	0	GELCAPS	Genetic Lung Cancer Predisposition Study			PGS	
+E	0	GEL-S	Genes and Environment in Lung Cancer, Singapore Study			PGS	
+E	0	GEM	Genetic Epidemiology of Migraine			PGS	
+E	0	GEMO	Genetic Modifiers of cancer risk in BRCA1/2 mutation carriers			PGS	
+E	0	GEMS	Genetic Epidemiology of Metabolic Syndrome study			PGS	
+E	0	GEN-03	Genomics of Kidney Transplantation Study			PGS	
+E	0	GENDAI	Gene and Diet Attica Investigation			PGS	
+E	0	GENEDIAB	Genetics of Diabetic Nephropathy			PGS	
+E	0	Gene_MSA_CH	Gene MSA Switzerland	Gene MSA CH		PGS	
+E	0	Gene_MSA_NL	Gene MSA NL	Gene MSA NL		PGS	
+E	0	Gene_MSA_US	Gene MSA US	Gene MSA US		PGS	
+E	0	GenePARE	Genetic Predictors of Adverse Radiotherapy Effects Study			PGS	
+E	0	Gene-PARE	Genetic Predictors of Adverse Radiotherapy Effects			PGS	
+E	0	GenePD	Genome-wide scan for Parkinsons diseaseÌ¨ Initiative			PGS	
+E	0	GeneSTAR_b	Johns Hopkins - Genetic STudy of Atherosclerosis Risk			PGS	
+E	0	Genetics_COVID19_Korea	Genetic influences on severity of COVID-19 illness in Korea			PGS	
+E	0	GENEVA	GENEVA Study			PGS	
+E	0	GENEVA-DCS	GENEVA Dental Caries Study			PGS	
+E	0	GenNet	GenNet			PGS	
+E	0	GenomEUtwin	GenomEUtwin study			PGS	
+E	0	GenoTPA	Genetic Study in Ischemic Stroke Patients treated with r-tPA			PGS	
+E	0	GENRA	Genetics Network Rheumatology Amsterdam			PGS	
+E	0	GenRED	Genetics of Recurrent Early-Onset Depression			PGS	
+E	0	GENRIC	Genomics Research in Cardiovascular Disease			PGS	
+E	0	GENYO	GENYO			PGS	
+E	0	Georgetown	Georgetown			PGS	
+E	0	GEP	Genetic Etiologies of Primary-Open angle Glaucoma Study			PGS	
+E	0	GEPARSIXTO	GEPARSIXTO Trial			PGS	
+E	0	German_BP	German BP sample			PGS	
+E	0	German_sib-pair	German sib-pair study			PGS	
+E	0	GESBC	Genetic Epidemiologic Study of Breast Cancer by Age 50			PGS	
+E	0	GESUS	Danish General Suburban Population Study			PGS	
+E	0	G-FaST	G-FaST			PGS	
+E	0	GGAF	Groningen Genetics of Atrial Fibrillation Study			PGS	
+E	0	GHRAS	Greek Health Randomized Aging Study			PGS	
+E	0	GHSG	German Hodgkin Study Group			PGS	
+E	0	GICC	Glioma International Case Control Consortium			PGS	
+E	0	GIFT	Genetics In Familial Thrombosis			PGS	
+E	0	GIG	Genomic Imaging Gottingen			PGS	
+E	0	GIMS	Genes in Myopia study			PGS	
+E	0	GISHEAL	Genetic and Immunological Studies of European and African HIV-1+ Long Term Non-Progressors			PGS	
+E	0	GISSI-P	Gruppo Italiano per lo Studio della Sopravvivenza nell'Infarto miocardico (GISSI) -Prevenzione trial			PGS	
+E	0	Glasgow	Glasgow			PGS	
+E	0	GLAUGEN	The Glaucoma Genes and Environment Study			PGS	
+E	0	GLC	German Lung Cancer Study			PGS	
+E	0	Gliogene	Gliogene: A Familial Brain Tumor Study			PGS	
+E	0	GliomaScan	GliomaScan			PGS	
+E	0	GMetS	GMetS (France)			PGS	
+E	0	GMOS	Gut Microbiota and Obesity Study			PGS	
+E	0	GNEHGI2020Q2	Genentech Human Genetics Initiative Cancer Immunology Cohort 2020 Q2			PGS	
+E	0	GNHS	Guangzhou Nutrition and Health Study			PGS	
+E	0	GOBS	Genetics of Brain Structure and Function			PGS	
+E	0	GOS	Geelong Osteoporosis Study			PGS	
+E	0	GRADE	Genetic Risk Assessment of Defibrillator Events			PGS	
+E	0	GRAND	Genetic characteristics of coRonary Artery disease in ChiNese young aDults			PGS	
+E	0	GRAS	Gottingen Research Association for Schizophrenia			PGS	
+E	0	GRCCDS	Genomic Research Cohorts for CCMB Diabetes Study			PGS	
+E	0	GRECO	Groningen Renal Hemodynamic Cohort Study Group			PGS	
+E	0	GRFOCR	Gilda Radner Familial Ovarian Cancer Registry			PGS	
+E	0	GRHCP	Gilda Radner Hereditary Cancer Program			PGS	
+E	0	GRMIC	Greek Recurrent Myocardial Infarction Cohort			PGS	
+E	0	GSICSS	Glasgow, Scotland ImmunoChip Study Samples			PGS	
+E	0	GSP	Brain Genomics Superstruct Project			PGS	
+E	0	GTB	Ghanaian TB study			PGS	
+E	0	GTJR	Greek TJR cases			PGS	
+E	0	GWAS_UK2	GWAS_UK2			PGS	
+E	0	GXE	Gene By Environment			PGS	
+E	0	H2T2DS	Health2 T2D Study			PGS	
+E	0	HABCS	Hannover Breast Cancer Study			PGS	
+E	0	HAD-B1-IIT	HangAmDan-B1-Investigator Initiated Trial study			PGS	
+E	0	HAECS	Hannover-Almaty Endometrial Cancer Study			PGS	
+E	0	HALST	Healthy Aging Longitudinal Study in Taiwan			PGS	
+E	0	HAPI	HAPI Heart Study			PGS	
+E	0	HARPS	Heart Attack Risk in Puget Sound			PGS	
+E	0	HBCP	Helsinki Breast Cancer Project			PGS	
+E	0	HBDI	U.S.A. Human Biological Data Interchange			PGS	
+E	0	HBS	Harvard Biomarkers Study			PGS	
+E	0	HCCS	Hispanic Colorectal Cancer Study			PGS	
+E	0	HCES-CRC	Hwasun Cancer Epidemiology Study-Colon and Rectum Cancer			PGS	
+E	0	HCSC	Hospital Clinico San Carlos			PGS	
+E	0	HDAAM	High Density SNP Association Analysis of Melanoma			PGS	
+E	0	Health2	Health2 Study			PGS	
+E	0	HEBCS	Helsinki Breast Cancer Study			PGS	
+E	0	HEBON	Hereditary Breast and Ovarian Study Netherlands			PGS	
+E	0	HECS	Hawaii Endometrial Cancer Study			PGS	
+E	0	HELENA	Healthy Lifestyle in Europe by Nutrition in Adolescence study			PGS	
+E	0	HELIAD	Hellenic Longitudinal Investigation of Aging and Diet			PGS	
+E	0	HeOCS	Helsinki Ovarian Cancer Study			PGS	
+E	0	HerCS	Hertfordshire Cohort Study			PGS	
+E	0	HERITAGE	Health, Risk Factors, Training and Genetics Family Study			PGS	
+E	0	HF-ACTION	Heart Failure: a Controlled Trial Investigating Outcomes of Exercise Training			PGS	
+E	0	HHO	Health Habits and Opinions study			PGS	
+E	0	HIHG	Hussman Institute of Human Genomics			PGS	
+E	0	HISLA	Hispanic/Latino Anthropometry Consortium			PGS	
+E	0	HJECS	Hannover-Jena Endometrial Cancer Study			PGS	
+E	0	HJOCS	Hannover-Jena Ovarian Cancer Study			PGS	
+E	0	HKBCS	Hong Kong Breast Cancer Study			PGS	
+E	0	HKS	Hong Kong Study			PGS	
+E	0	HLCS	Harvard Lung Cancer Study			PGS	
+E	0	HMBCS	Hannover-Minsk Breast Cancer Study			PGS	
+E	0	HMGU	HMGU			PGS	
+E	0	HMOCS	Hannover-Minsk Ovarian Cancer Study			PGS	
+E	0	HNP	Healthy Nevada Project			PGS	
+E	0	HOCS	Hawaii Ovarian Cancer Study			PGS	
+E	0	Hoorn	Hoorn study			PGS	
+E	0	Hoorn study	Hoorn study			PGS	
+E	0	HOPE	Hormones and Ovarian Cancer Prediction Study			PGS	
+E	0	HPFS3	Prospective cohort of men (USA)			PGS	
+E	0	HSDS	Helsinki Sudden Death Study/Tampere Coronary Study			PGS	
+E	0	HTDS	Hubei Type 2 Diabetes Studies			PGS	
+E	0	HTN-IR	The Hypertension-Insulin Resistance Family Study			PGS	
+E	0	HTO	Oxford Family Blood Pressure Study			PGS	
+E	0	HUBCS	Hannover-Ufa Breast Cancer Study			PGS	
+E	0	HUGR	Hebrew university geneomic resource AJ schizophrenia case-control sample			PGS	
+E	0	HUNBOCS	Molecular Genetic Studies of Breast and Ovarian Cancer in Hungary			PGS	
+E	0	HUOCS	Hannover-Ufa Ovarian Cancer Study			PGS	
+E	0	HUVH	Hospital Universitari Vall dHebron			PGS	
+E	0	HYPERGENES	Hypergenes - European Network for Genetic-Epidemological Studies			PGS	
+E	0	HZ	Hamburg-Zagreb			PGS	
+E	0	i2b2	Integrating Biology & the Bedside			PGS	
+E	0	IABS	Icelandic Atrioventricular Block Sample			PGS	
+E	0	IAFS	Icelandic Atrial Fibrillation Sample			PGS	
+E	0	IASPSAD	GFG, Irish Affected Sib Pair Study of Alcohol Dependence			PGS	
+E	0	IATVB	Italian Atherosclerosis Thrombosis and Vascular Biology			PGS	
+E	0	IBCCS	International BRCA1/2 carirer cohort study			PGS	
+E	0	IBCS	Iceland Bladder Cancer Study			PGS	
+E	0	IB-liver	Indiana Biobank Liver cohort			PGS	
+E	0	IBSEN	Inflammatory Bowel disease in South-Eastern Norway			PGS	
+E	0	iCaRe2	integrated Cancer Repository for Cancer Research			PGS	
+E	0	ICCBD	International Cohort Collection for Bipolar Disorder			PGS	
+E	0	ICFA	IrsiCaixa Foundation Acute/Recent HIV-1 Infection Cohort			PGS	
+E	0	ICGHD_ARC	International Consortium on the Genetics of Heroin Dependence - Alcohol Related Conditions			PGS	
+E	0	ICGHD_CIDR	International Consortium on the Genetics of Heroin Dependence - Center for Inherited Disease Research			PGS	
+E	0	ICGHD_RATRP	International Consortium on the Genetics of Heroin Dependence - Research on Alcohol and Tobacco Related Phenotypes			PGS	
+E	0	ICGN	International COPD Genetics Network			PGS	
+E	0	ICICLE	Study to Investigate the Genetics on In Situ Carcinoma of the Ductal			PGS	
+E	0	ICO	Institut Català d'Oncologia			PGS	
+E	0	ICR-GWAS	UK lung cancer GWAS from the Institute for Cancer Research			PGS	
+E	0	ICSHIB	International Collaborative Study on Hypertension in Blacks			PGS	
+E	0	IDIBAPS	Hospital Clinic-IDIBAPS Acute/Recent HIV-1 Infection Cohort			PGS	
+E	0	IECG	Icelandic ECG study sample			PGS	
+E	0	IFS	Irish Family Study			PGS	
+E	0	IFS_b	Icona Foundation Study			PGS	
+E	0	IGBFS	Indiana Genetics of Bone Fragility Study			PGS	
+E	0	IGD	The Icelandic Genealogical Database			PGS	
+E	0	IGE-PCV	Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire			PGS	
+E	0	IHCC	International Hereditary Cancer Centre			PGS	
+E	0	IHS	Intern Health Study			PGS	
+E	0	IKSDR	Icelandic Kidney Stone Disease Registry at LUH			PGS	
+E	0	ILUH	Infanta Leonor University Hospital (Madrid, Spain)			PGS	
+E	0	IMAGE	International Multi-Center ADHD Gene Project	image-i, image-ii		PGS	
+E	0	IMHS	Intermountain Heart Study			PGS	
+E	0	IMM	Iwate Tohoku Medical Megabank			PGS	
+E	0	IMPROVE	IMPROVE			PGS	
+E	0	IMSGC_UK	International Multiple Sclerosis Genetics Consortium UK	IMSGC UK		PGS	
+E	0	IMSGC_US	International Multiple Sclerosis Genetics Consortium US	IMSGC US		PGS	
+E	0	INCa	French National Cancer Institute			PGS	
+E	0	Indiana_cohort	Indiana cohort			PGS	
+E	0	INDICO	Indian Diabetes Consortium			PGS	
+E	0	INDUSTRIAL	Industrial Cohorts Research Group			PGS	
+E	0	INGI-Cilento	Italian Network on Genetic Isolates-Cliento			PGS	
+E	0	INHANCE	International Head and Neck Cancer Epidemiology Consortium			PGS	
+E	0	INHERIT	Interdisciplinary Health Research Internal Team Breast Cancer Susceptiblity			PGS	
+E	0	INSPIRED	India–Scotland Partnership for Precision Medicine in Diabetes			PGS	
+E	0	InterASIA	International Collaborative Study of Cardiovascular Disease in Asia			PGS	
+E	0	INTERGENE	INTERplay between GENEtic susceptibility and external factors			PGS	
+E	0	Interphone	Interphone			PGS	
+E	0	IOVHBOCS	Instituto Oncologico Veneto Hereditary Breast and Ovarian Cancer Study			PGS	
+E	0	Iowa-Mayo	Iowa-Mayo SPORE Molecular Epidemiology Resource			PGS	
+E	0	IPCG	Identifying Prostate Cancer Genes			PGS	
+E	0	IPM	Charles R Bronfman Institute for Personalized Medicine - IPM / BioBank Genome Wide Association Study of Cardiovascular, Renal and Metabolic Phenotypes			PGS	
+E	0	IPOBCS	Portuguese Oncology Institute-Porto Breast Cancer Study			PGS	
+E	0	IPO-Porto	IPO-Porto Prostate Cancer study			PGS	
+E	0	IPPS	Icelandic Pacemaker Population Sample			PGS	
+E	0	i-Share	Internet-based Students HeAlth Research Enterprise			PGS	
+E	0	ISIS	International Studies of Infarct Survival			PGS	
+E	0	I-SPY2	Investigation of Serial Studies to Predict Your Therapeutic Response with Imaging And molecular analysis 2			PGS	
+E	0	ISSS	Icelandic Sick Sinus Syndrome sample			PGS	
+E	0	IST	Stanford IST			PGS	
+E	0	ISTAART	Alzheimers Associations International Society to Advance Alzheimers Research and Treatment			PGS	
+E	0	Italian_GxE	Multicenter Italian study on gene-environment interactions in lymphoma etiology: translational aspects	Italian GxE		PGS	
+E	0	JAAS	Jamaican Adolescent Asthma Study			PGS	
+E	0	JCS	Japanese Centenarian Study			PGS	
+E	0	JDRF/WT	Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratorys British case collection			PGS	
+E	0	JGSCAD	Japanese Genetic Consortium for Alzheimer Disease			PGS	
+E	0	JHH	Johns Hopkins Hospital			PGS	
+E	0	JH-SFHS	Johns Hopkins Sibling and Family Heart Study			PGS	
+E	0	JHU-AF	Johns Hopkins University School of Medicine Atrial Fibrillation Genetics Study			PGS	
+E	0	JKS	Joslin Kidney Study			PGS	
+E	0	JLCS	Japanese Female Lung Cancer Collaborative Study			PGS	
+E	0	JLRC	Jerusalem LRC			PGS	
+E	0	JMGP	Japanese Millenium Genome Project			PGS	
+E	0	JMPKCMC	Joint Malaria Programme, Kilimanjaro Christian Medical Centre			PGS	
+E	0	JoCoOA	The Johnston County Osteoarthritis Project			PGS	
+E	0	Kanagawa	Kanagawa Cancer Center			PGS	
+E	0	KARELIA	Karelia Allergy Study			PGS	
+E	0	KARUPROSTATE	French West Indies Prostate cancer Study (from Karukera, the original Caribbean name of Guadeloupe)			PGS	
+E	0	KAWP	Kawasaki Aging and Wellbeing Project			PGS	
+E	0	KBA	National Institute of Health launched the Korea Biobank Array project			PGS	
+E	0	KBASE-V	Korean Brain Aging Study for the Early Diagnosis and Prediction of AD			PGS	
+E	0	KBCP	Kuopio Breast Cancer Project			PGS	
+E	0	KCONFAB/AOCS	Kathleen Cuningham Foundation Consortium for research into Familial Breast Cancer/Australian Ovarian Cancer Study			PGS	
+E	0	KCOS	Kansas-City Osteoporosis Study			PGS	
+E	0	KCPCS	King County Prostate Cancer Studies			PGS	
+E	0	KEMRI	KEMRI-Wellcome Research Programme, Kilifi			PGS	
+E	0	KFSH&RC	King Faisal Specialist Hospital and Research Center cohort			PGS	
+E	0	KING	KItaNagoya Genome			PGS	
+E	0	KIS3	Kick-it-at-Swope (KIS)-3			PGS	
+E	0	KLCRI	KLCRI			PGS	
+E	0	KMSRI	Korean Metabolic Syndrome Research Initiative			PGS	
+E	0	KNHI	Korean National Health Insurance			PGS	
+E	0	KNUST	Kwame Nkrumah University of Science and Technology			PGS	
+E	0	KoCAS	Korean Childhood			PGS	
+E	0	KODGP	Kuwait Obesity Diabetes Genetic Program			PGS	
+E	0	Ko-EVE	Korean Epithelial Ovarian Cancer Study			PGS	
+E	0	KOHBRA	Korean Hereditary Breast Cancer study			PGS	
+E	0	KORA F3	Cooperative Health Research in the Region of Augsburg F3			PGS	
+E	0	KORA F4	Cooperative Health Research in the Region of Augsburg F4			PGS	
+E	0	KorAMC	Korean Osteoporosis Study at Asan Medical Center			PGS	
+E	0	KORA S3	Cooperative Health Research in the Region of Augsburg S3			PGS	
+E	0	KORA S4	Cooperative Health Research in the Region of Augsburg S4			PGS	
+E	0	Korea-Seoul	Seoul Study			PGS	
+E	0	KSCS	Kangbuk Samsung Cohort Study			PGS	
+E	0	KSMU	KSMU			PGS	
+E	0	KUH	Karolinska University Hospital			PGS	
+E	0	KULEUVEN	Katholieke Universiteit Leuven			PGS	
+E	0	KUMC	University of Kansas Medical Centre			PGS	
+E	0	L85PLUS	Leiden 85-plus study			PGS	
+E	0	LAABC	Los Angeles County Asian-American Breast Cancer Case-Control Study			PGS	
+E	0	LAAPC	Los Angeles Study of Aggressive Prostate Cancer			PGS	
+E	0	LAC-CCOC	Los Angeles County Case-Control Studies of Ovarian Cancer			PGS	
+E	0	LASA	Longitudinal Aging Study Amsterdam			PGS	
+E	0	LatDiane	Latvian Diabetic Nephropathy Study			PGS	
+E	0	LBCS	Leeds Bladder Cancer Study			PGS	
+E	0	LC3	Lung Cancer Consortium			PGS	
+E	0	LCRI-DOD	LCRI-DOD			PGS	
+E	0	LCSC	Lung Cancer Study from Canada			PGS	
+E	0	LCSE	Lung Cancer Study from Estonia			PGS	
+E	0	LEAPS	Mayo-Perlegen Linked Efforts to Accelerate Parkinsons Solutions			PGS	
+E	0	Leeds	Leeds			PGS	
+E	0	LES	Leuven Endometrial Cancer Study			PGS	
+E	0	LHS	Lung Health Study			PGS	
+E	0	LHSC	London Health Sciences Center			PGS	
+E	0	LI	Long Island Breast Cancer Study Project			PGS	
+E	0	LIFE-Child	LIFE-Child			PGS	
+E	0	LifeGen	LifeGen consortium			PGS	
+E	0	LIKAR	Limburg Cancer Registry			PGS	
+E	0	LIPAD	Linz Peripheral Arterial Disease study			PGS	
+E	0	LitDiane	Lithuanian Diabetic Nephropathy Study			PGS	
+E	0	LITE	CHS Longitudinal Investigation of Thromboembolism Etiology Study			PGS	
+E	0	LiverBC	Liver Biopsy Cohort			PGS	
+E	0	LIWA	Lung Institute of Western Australia			PGS	
+E	0	LLP	Liverpool Lung Project			PGS	
+E	0	LMBC	Leuven Multidisciplinary Breast Centre			PGS	
+E	0	LOAD	Late Onset Alzheimers Disease Family Study			PGS	
+E	0	LOCCS	Leukotriene Modifier, or Corticosteroid Salmeterol study			PGS	
+E	0	LODO	Effectiveness of Low Dose Theophylline as an Add-on Treatment in Asthma trial			PGS	
+E	0	LOGOS	Learning on Genetics of Schizophrenia Spectrum			PGS	
+E	0	LonGenity	LonGenity study			PGS	
+E	0	Look AHEAD	Action for Health in Diabetes			PGS	
+E	0	LOOP	LOOP study			PGS	
+E	0	LRCCL-4	Leukaemia Research CLL-4 trial			PGS	
+E	0	LRI	Leicester Royal Infirmary			PGS	
+E	0	LSC	Lovelace Smokers Cohort			PGS	
+E	0	LUCY	Lung Cancer in the Young study			PGS	
+E	0	LUHR	Landspitali University Hospital, Reykjavik			PGS	
+E	0	LUMC	Leiden University Medical Center			PGS	
+E	0	LW	The Lutherstadt Wittenberg study			PGS	
+E	0	LWBCS	Lutherstadt Wittenberg Bladder Cancer Study			PGS	
+E	0	MABCS	Macedonian Breast Cancer Study			PGS	
+E	0	MACBRCA	The Ohio State University Comprehensive Cancer Centre			PGS	
+E	0	MAFD	GWA Meta-Analysis on Fat Distribution			PGS	
+E	0	MAFEGWAS	Mexican-American families EBNA-1 GWAS			PGS	
+E	0	MAGICS	Multicenter Asthma Genetics in Childhood Study			PGS	
+E	0	MAHI	Mid-America Heart Institute			PGS	
+E	0	MALOVA	Danish Malignant Ovarian Tumor Study			PGS	
+E	0	MaOCS	Malignant Ovarian Cancer Study			PGS	
+E	0	MAS	Sydney Memory and Ageing Study			PGS	
+E	0	MATR	Mid Atlantic Twin Registry			PGS	
+E	0	Mauritius	Mauritius study			PGS	
+E	0	MAYOLC	Mayo lung cancer GWAS			PGS	
+E	0	Mayo_PGRN	Mayo Pharmacogenetics Research Network Aromatase Inhibitor AI Study			PGS	
+E	0	MBCSG	Milan Breast Cancer Study Group			PGS	
+E	0	MC	Mexico City			PGS	
+E	0	MCADC	Muenster Cervical Artery Dissection Collection			PGS	
+E	0	MCAS	Mexico Childhood Asthma Study			PGS	
+E	0	MCIC	Mind Clinical Imaging Consortium			PGS	
+E	0	MCRC	Manchester Cancer Research Centre			PGS	
+E	0	MDA	Prostate Cancer Case-Control Studies at MD Anderson			PGS	
+E	0	MDACCLC	MD Anderson Cancer Center Lung Cancer Study			PGS	
+E	0	MDACCS	MD Anderson Cancer Center Study			PGS	
+E	0	MDALCCS	MD Anderson lymphoma case-control study			PGS	
+E	0	MDAOCS	MD Anderson Ovarian Cancer Study			PGS	
+E	0	MDARCCS	MD Anderson Renal Cell Cancer Study			PGS	
+E	0	MDD2000	MDD2000 Study			PGS	
+E	0	MDS	Minimum Data Set			PGS	
+E	0	MECS	Mayo Clinic Endometrial Cancer Study			PGS	
+E	0	MedGenome	MedGenome			PGS	
+E	0	MEDIA	MEta-analysis of type 2 DIabetes in African Americans consortium			PGS	
+E	0	MEEI	Massachussetts Eye and Ear Infirmary			PGS	
+E	0	MESCA	MESCA			PGS	
+E	0	MesyBePo	MesyBePo			PGS	
+E	0	METRO	Metformin Response cohort			PGS	
+E	0	METSB	METSB			PGS	
+E	0	MEX	Mexican ancestry in Los Angeles, California			PGS	
+E	0	MG-AA	Minority GWAS African American study			PGS	
+E	0	MG_GWAS	Myaesthenia Gravis GWAS			PGS	
+E	0	MGH-CMPC	MGH Cardiology and Metabolic Patient Cohort			PGS	
+E	0	MGH-CNC	MGH CNC			PGS	
+E	0	MGH-stroke	Massachusetts General Hospital Stroke Study			PGS	
+E	0	MG-JPN	Minority GWAS Japanese study			PGS	
+E	0	MGS_nonGAIN	Molecular Genetics of Schizophrenia - nonGAIN Sample			PGS	
+E	0	MHC	Mexican Hypertriglyceridemia cohort			PGS	
+E	0	MHI	Montreal Heart Institute Biobank			PGS	
+E	0	MIAMI-WFPCS	The University of Miami – Sylvester Comprehensive Cancer Center			PGS	
+E	0	MIDSPAN	MIDSPAN Family Study			PGS	
+E	0	MIGen	Myocardial Infarction Genetics Consortium			PGS	
+E	0	MILANO	Milano Besta Institute Stroke Study			PGS	
+E	0	MINDACT	Microarray In Node-Negative and 1 to 3 Positive Lymph Node Disease May Avoid Chemotherapy Study			PGS	
+E	0	MLWCRP	Malawi-Liverpool Wellcome Clinical Research Programme, Blantyre			PGS	
+E	0	MMAP	Michigan, Mayo, Age-Related Eye Disease Study, Pennsylvania			PGS	
+E	0	MOCS	Mayo Clinic Ovarian Cancer Study			PGS	
+E	0	Modena	Modena Cohort			PGS	
+E	0	MODSQUAD	Modifier Study of Quantitative Effects on Disease			PGS	
+E	0	MOF	Moffitt Cancer Center Ovarian Cancer Study			PGS	
+E	0	MOFFITT	The Moffitt Group			PGS	
+E	0	MOFFITT_PC	Moffitt Prostate Cancer Study			PGS	
+E	0	MOG	Mammography, Oestrogens and Growth factor study			PGS	
+E	0	MoMaTEC	Molecular Markers in Treatment of Endometrial Cancer			PGS	
+E	0	MONA-LISA	Monitoring National du risque Art_rie			PGS	
+E	0	MONBOS	Montreal/Boston Collection			PGS	
+E	0	MooDS	Systematic Investigation of the Molecular Causes of Major Mood Disorders and Schizophrenia			PGS	
+E	0	Moscow	Moscow			PGS	
+E	0	MPAACH	Mechanisms of Progression of Atopic Dermatitis to Asthma in Children			PGS	
+E	0	MPIP	Munich Morphometry Sample			PGS	
+E	0	MPP-AF	Malmö Preventive Project atrial fibrillation study			PGS	
+E	0	MPP-echo	Malmö Preventive Project echo study			PGS	
+E	0	MRCA-UKC	MRC Asthma and United Kingdom Control panel			PGS	
+E	0	MRCUTG	Medical Research Council Unit, The Gambia			PGS	
+E	0	MSHS-CGI	Mount Sinai Health System COVID-19 Genomics Initiative			PGS	
+E	0	MSKBCS	Memorial Sloan Kettering Bladder Cancer Study			PGS	
+E	0	MSKLCG	Memorial Sloan Kettering Lung Cancer GWAS			PGS	
+E	0	MsOS	Osteoporotic Fractures in Women Study			PGS	
+E	0	MSP	Mammography Screening Project in Vasterbotten			PGS	
+E	0	MSTF	Mid-South Tobacco Family			PGS	
+E	0	MTLGEBCS	Montreal Gene-Environment Breast Cancer Study			PGS	
+E	0	MTR	Minnesota Twin Family Registry			PGS	
+E	0	Munich_MI	Munich Myocardial Infarction Registry	Munich MI		PGS	
+E	0	MUV	Medical University of Vienna			PGS	
+E	0	MXB	MXB			PGS	
+E	0	MyGS	The Myopia Genomics Study			PGS	
+E	0	MyOvCa	Malaysia Ovarian Cancer Genetic Study			PGS	
+E	0	N85PLUS	Newcastle 85+ Study			PGS	
+E	0	NAFLD BioResource	NAFLD study			PGS	
+E	0	NAG	Nicotine Addiction Genetics			PGS	
+E	0	NagBCS	Nagano Breast Cancer Study			PGS	
+E	0	NAG/IRPG	Nicotine Addiction Genetics study / Interactive Research Project Grants			PGS	
+E	0	Nagoya	Nagoya Study			PGS	
+E	0	NAR	Norwegian Addison Registry			PGS	
+E	0	NAROD	NAROD			PGS	
+E	0	NAS	Normative Aging Study			PGS	
+E	0	NashBio	Nashville Biosciences			PGS	
+E	0	NatBHS	National Brain Hemorrhage Study			PGS	
+E	0	NBB	Netherlands Brain Bank			PGS	
+E	0	NBHS	Nashville Breast Health Study			PGS	
+E	0	NBLCS	Nanjing and Beijing Lung Cancer Studies			PGS	
+E	0	NBMDR	Norwegian Bone Marrow Donor Registry			PGS	
+E	0	NBTS	National Brain Tumour Study			PGS	
+E	0	NCADC	Nijmegen Cervical Artery Dissection Collection			PGS	
+E	0	NCBRCS	North Carolina Breast Cancer Study			PGS	
+E	0	NCCGP	North Cumbria Community Genetics Project			PGS	
+E	0	NCCS	Nagano Colorectal Cancer Study			PGS	
+E	0	NCI-GWAS	NCI Bladder Cancer			PGS	
+E	0	NCI-SEER	National Cancer Institute- Surveillance, Epidemiology, and End Results Interdisciplinary Case-Control Study of Non-Hodgkins Lymphoma			PGS	
+E	0	NCOCS	North Carolina Ovarian Cancer Study			PGS	
+E	0	NCPCS	North Carolina Prostate Cancer Study			PGS	
+E	0	NCRCC	National colorectal cancer cohort (China)			PGS	
+E	0	NDCCS	Norfolk Diabetes case_control study			PGS	
+E	0	NDHLS	Northern Dutch Hodgkin Lymphoma Study			PGS	
+E	0	NECS	Newcastle Endometrial Cancer Study			PGS	
+E	0	NEIGHBOR	National Eye Institute Glaucoma Human Genetics Collaboration			PGS	
+E	0	NEIGHBORHOOD	National Eye Institute Glaucoma Human Genetics Collaboration Heritable Overall Operational Database			PGS	
+E	0	NELCS	New England Lung Cancer Study			PGS	
+E	0	NEMESIS	Netherlands Mental Health Survey and Incidence Study			PGS	
+E	0	NetOCS	Netherlands Ovarian Cancer Study			PGS	
+E	0	NET-PD	Neuroprotection Exploratory Trials in Parkinson's disease			PGS	
+E	0	NETT	National Emphysema Treatment Trial			PGS	
+E	0	NeuBCS	The Neuss Bladder Cancer Study			PGS	
+E	0	NEURO2006	NEURO2006			PGS	
+E	0	NFOAS	Newfoundland Osteoarthritis Study			PGS	
+E	0	NHLBI_CARe	National Heart, Lung, and Blood Institute Candidate Gene Association Resource			PGS	
+E	0	NHMRC	Australian NHMRC program			PGS	
+E	0	NHS3	Nurses Health Study III			PGS	
+E	0	NHS98	Singapore National Health Survey			PGS	
+E	0	NHS_Ad	Nurses Health Study, Adenoma Set	NHS Ad		PGS	
+E	0	NHS-egems	NHS-egems			PGS	
+E	0	NHS-Hu	NHS-Hu			PGS	
+E	0	NIA	National Institute on Aging			PGS	
+E	0	NIC	Norfolk Island Cohort			PGS	
+E	0	NICCC	National Israeli Cancer Control Center			PGS	
+E	0	NICCC-LCA	Israel Lung Cancer Study			PGS	
+E	0	NICR	Northern Institute for Cancer Research			PGS	
+E	0	NIDDM-Athero	NIDDM-Atherosclerosis Study			PGS	
+E	0	Nigerian	Nigerian cohort			PGS	
+E	0	NIHS	Norfolk Island Health Study			PGS	
+E	0	Nijmegen	Nijmegen			PGS	
+E	0	NIMH-IRP	NIMH Intramural Research Program			PGS	
+E	0	NIMH/Pritzker	Pritzker Neuropsychiatric Disorders Research Consortium			PGS	
+E	0	NINCDS-ADRDA	Disorders and Stroke and the Alzheimers Disease and Related Disorders Association			PGS	
+E	0	NIOSH_AGCC	NIOSH_AGCC			PGS	
+E	0	NIPT PLUS	Shenzhen Maternal and Neonatal NIPT PLUS cohort			PGS	
+E	0	NJOCS	New Jersey Ovarian Cancer Study			PGS	
+E	0	NJRCACH	University of Colorado Health Center/National Jewish Research Center and Arkansas Childrens Hospital			PGS	
+E	0	NJ_Study	Nanjing Study	NJ Study		PGS	
+E	0	NL4	Project Mine (Netherlands NL4 controls)			PGS	
+E	0	NLBLC	Nijmegen Lung and Bladder Cancer			PGS	
+E	0	NLC	Nijmegen Lung Cancer Study			PGS	
+E	0	NMFCC	Norwegian Mother, Father and Child Cohort Study			PGS	
+E	0	NMHS	Nashville Men's Health Study			PGS	
+E	0	NMI	Navrongo Memorial Institute			PGS	
+E	0	NNPIO	N.N. Petrov Institute of Oncology			PGS	
+E	0	NOCS	Nijmegen Ovarian Cancer Study			PGS	
+E	0	Nomura	Ehime University site			PGS	
+E	0	NorBCS	Norwegian Breast Cancer Study			PGS	
+E	0	NordicDB	NordicDB			PGS	
+E	0	NORDIL	Nordic Diltiazem study			PGS	
+E	0	NorwayLCS	Norway Lung Cancer Study			PGS	
+E	0	NOSOS	North of Scotland Osteoporosis Study			PGS	
+E	0	Nottingham_Smokers	Nottingham Smokers			PGS	
+E	0	Novartis	Novartis secukinumab psoriasis trials			PGS	
+E	0	NPCGEE	NPC Genes, Environment, and EBV cohort			PGS	
+E	0	NPHS	NPHS			PGS	
+E	0	NRFPEDMOC	Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer			PGS	
+E	0	NRG_ONCOLOGY	NRG Oncology			PGS	
+E	0	NSCS	Nambour Skin Cancer Study			PGS	
+E	0	NSECG	National Study of Endometrial Cancer Genetics			PGS	
+E	0	NSOD	Network for the Study of Ovarian Dysfunction			PGS	
+E	0	NSPA	Nottingham Sib Pair Asthma study			PGS	
+E	0	NSUHS	North Shore University Health System			PGS	
+E	0	NSW	NSW non-Hodgkin lymphoma study			PGS	
+E	0	NTCC	Nijmegen Thyroid Cancer Cohort			PGS	
+E	0	NTCMRC	Northeastern Taiwan Community Medicine Research Cohort			PGS	
+E	0	NTUHDS	National Taiwan University Hospital Diabetes Study			PGS	
+E	0	NVH	Heart and Vascular Health			PGS	
+E	0	NxC	The Neocodex–Murcia study			PGS	
+E	0	NYU-WHS	NYU Women's Health Study			PGS	
+E	0	NZ-CAD	The New Zealand CAD Study			PGS	
+E	0	NZ-VAS	New Zealand Vascular Genetic Study AAA GWAS dataset			PGS	
+E	0	OACIS	Osaka Acute Coronary Insufficiency Study			PGS	
+E	0	OBCS	Oulu Breast Cancer Study			PGS	
+E	0	OCCPI	Ohio Colorectal Cancer Prevention Initiative			PGS	
+E	0	OCGN	Ontario Cancer Genetics Network			PGS	
+E	0	OCS	Ovarian Cancer Study			PGS	
+E	0	ODZH	Oncology Department of Zaragoza Hospital			PGS	
+E	0	OFCCR	Ontario Registry for Studies of Familial Colorectal Cancer			PGS	
+E	0	OGP	Ogliastra Genetic Park			PGS	
+E	0	OHGS	Ottawa Heart Genomics Study			PGS	
+E	0	Ohio_SU	Ohio State University	Ohio SU		PGS	
+E	0	OHS	Ottawa Heart Study			PGS	
+E	0	OHTS	Ocular Hypertension Treatment Study			PGS	
+E	0	O-MRC	Osaka-Midosuji Rotary Club			PGS	
+E	0	OncoArray_Prostate	OncoArray: Prostate Cancer			PGS	
+E	0	OOCR	Oregon Ovarian Cancer Registry			PGS	
+E	0	OOS	Omaha Osteoporosis Study			PGS	
+E	0	OPAL	Ovarian Cancer Prognosis and Lifestyle Study			PGS	
+E	0	OPPERA	Prospective Evaluation and Risk Assessment			PGS	
+E	0	ORC	IARC oral cancer			PGS	
+E	0	Oregon-SUDS	Oregon-Sudden Unexpected Death Study			PGS	
+E	0	ORIGO	Leiden University Medical Centre Breast Cancer Study			PGS	
+E	0	OSU	The Stefanie Spielman Breast Bank and the Columbus Area Control Sample Bank			PGS	
+E	0	OSUCCG	Ohio State University Comprehensive Cancer Centre			PGS	
+E	0	OSUMC	Ohio State University Medical Center			PGS	
+E	0	OTCC	Ohio Thyroid Cancer Cohort			PGS	
+E	0	OUH	Odense University Hospital			PGS	
+E	0	OUSS	Osteoporosis and Ultrasound Study			PGS	
+E	0	OVAL-BC	Ovarian Cancer in Alberta and British Columbia			PGS	
+E	0	OVCARE	OVCARE Gyneacologic Tissue Bank and Outcomes Unit			PGS	
+E	0	OxAAA	Oxford Abdominal Aortic Aneurysm Study			PGS	
+E	0	OXEGENE	Oxford Endometriosis Gene			PGS	
+E	0	P2ID	Progression to Insulin Deficiency: South West England Cohort			PGS	
+E	0	PACIFIC	Pacific Study			PGS	
+E	0	PAF_JPN	Multicenter Japanese paroxysmal atrial fibrillation case-control cohort			PGS	
+E	0	PAH	Princess Alexandra Hospital			PGS	
+E	0	PANDoRA	PANDoRA consortium			PGS	
+E	0	PANKRAS-II	PANKRAS-II	PANKRASII		PGS	
+E	0	PARC	Pharmacogenomics and Risk of Cardiovascular Disease Study			PGS	
+E	0	ParGE	Parkinsons, Genes and Environment			PGS	
+E	0	Paris	Groupe hospitalier Pitieåä- Salpe_trie`re Paris			PGS	
+E	0	ParkWest	Parkwest			PGS	
+E	0	PARTAGE	Predictive Values of Blood Pressure and Arterial Stiffness in Institutionalized Very Aged Population (PARTAGE) Study			PGS	
+E	0	PASS	Prostate Active Surveillance Study			PGS	
+E	0	Pathways	Pathways study			PGS	
+E	0	PCaP	North Carolina-Louisiana Prostate Cancer Project Consortium			PGS	
+E	0	PCBP	Prostate Cancer in a Black Population			PGS	
+E	0	PCCC	Pancreatic Cancer Cohort Consortium			PGS	
+E	0	PCMUS	Prostate Cancer study Medical University Sofia			PGS	
+E	0	PCPT	Prostate Cancer Prevention Trial	SWOG-PCPT		PGS	
+E	0	PDAY	Pathobiological Determinants of Atherosclerosis in Youth			PGS	
+E	0	PDG	Study of Parkinsons disease Genetics			PGS	
+E	0	PEAK25	PEAK Bone Mass 25 study			PGS	
+E	0	PECS	Polish Endometrial Cancer Study			PGS	
+E	0	PEGASUS	Prevention of Cardiovascular Events in Patients with Prior Heart Attack Using Ticagrelor Compared to Placebo on a Background of Aspirin			PGS	
+E	0	PEGASUS-TIMI_54	PEGASUS-TIMI 54	PEGASUS-TIMI 54		PGS	
+E	0	PEGEN-BC	Peru Genetics and Genomics of Breast Cancer Study			PGS	
+E	0	PGCA	Proyecto Genes Candidatos en Asma			PGS	
+E	0	PGPD	PGPD			PGS	
+E	0	PhACS	Pharmacogenetics of Acute Coronary Syndrome			PGS	
+E	0	PHASE	PHArmacogenetic study of Statin in the Elderly at risk			PGS	
+E	0	PHBB	Mass General Brigham - Host Vulnerability to COVID-19			PGS	
+E	0	PHD	Pirkanmaa Hospital District			PGS	
+E	0	Philadelphia	Philadelphia cohort			PGS	
+E	0	PiBCS	Pisa Breast Cancer Study			PGS	
+E	0	PIC	Portuguese Island Collection			PGS	
+E	0	PICNICS	Parkinsonism: Incidence, Cognition and Non-motor heterogeneity in Cambridgeshire			PGS	
+E	0	PICO	PICO			PGS	
+E	0	PISA	Prospective Imaging Study of Aging			PGS	
+E	0	PITT	Pittsburgh 3D Facial Norms			PGS	
+E	0	PLuSS	Pittsburgh Lung Screening Study			PGS	
+E	0	PMCC	Princess Margaret Cancer Centre			PGS	
+E	0	PMET	Pharmacogenomics of Metformin			PGS	
+E	0	PMH	Postmenopausal Hormone study			PGS	
+E	0	PMH-CCFR	Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry			PGS	
+E	0	PMHT	Princess Margaret Hospital in Toronto			PGS	
+E	0	PMS	Pelvic Mass Study			PGS	
+E	0	POAG	Primary Open Angle Glaucoma			PGS	
+E	0	Poland	Poland			PGS	
+E	0	POLYGENE	Nijmegen Polygene Study & Nijmegen Biomedical Study			PGS	
+E	0	POSH	Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer Study			PGS	
+E	0	PostCep	PostCep Study			PGS	
+E	0	PoWHDR	Prince of Wales Hospital Diabetes Registry			PGS	
+E	0	PPF-UNIS	Prostate Project Foundation - Postgraduate Medical School, Surrey			PGS	
+E	0	PRAGGA	Prostate Cancer Genetics in Galacia			PGS	
+E	0	PRECISESADS	Systemic Autoimmune Diseases: Inception Cohort (PRECISESADSI)			PGS	
+E	0	PREFACE	PREFACE Trial			PGS	
+E	0	PREMIER	Precision Medicine Platform for Mild Cognitive Impairment Based on Multi-omics, Imaging and Evidence-based Research & Business Development			PGS	
+E	0	PRINCE	Pravastatin Inflammation CRP Evaluation study			PGS	
+E	0	ProAFHeart	Prospective Atrial Fibrillation Athletic Heart Study			PGS	
+E	0	PROCAP	PROgression in Cancer of the Prostate			PGS	
+E	0	PROGEMUS	Prognostic Genetic factors in Multiple Sclerosis			PGS	
+E	0	PROGENI	Parkinsons Research: The Organized Genetics Initiative			PGS	
+E	0	PROGRESS	PSC Resource of Genetic Risk, Environment and Synergy Studies			PGS	
+E	0	PROGRESSA	Progression Risk of Glaucoma: Relevant SNPs With Significant Association			PGS	
+E	0	PROGReSS_PrCa	Prostate Cancer Group, Santiago, Spain			PGS	
+E	0	Pro@Heart	Prospective Athletic Heart study			PGS	
+E	0	Project_SuGAR	The Sea Islands Genetic African American Registry			PGS	
+E	0	ProMPT	Prostate cancer : Mechanisms of progression and Treatment (UK)			PGS	
+E	0	PROPARK	Profiling Parkinson's disease study			PGS	
+E	0	ProtecT	Prostate testing for cancer and Treatment study			PGS	
+E	0	PROtEuS	Prostate Cancer and Environment Study			PGS	
+E	0	PROVAQ	PRevention of OVArian cancer in Quebec			PGS	
+E	0	PROVEIT	PROVE IT–TIMI 22			PGS	
+E	0	PSC	Pharma SNP Consortium			PGS	
+E	0	PSEU	Program in Sleep at Emory University			PGS	
+E	0	PSGDS	Perlegen Sciences Genotyped Discovery Samples			PGS	
+E	0	PSWC	Pumwani Sex Workers Cohort			PGS	
+E	0	PURE	Prospective Urban and Rural Epidemiology			PGS	
+E	0	PURIFICAR	The Puerto Rico Familial Colorectal Cancer Registry			PGS	
+E	0	Q2L	Q2L			PGS	
+E	0	QFMP	Queensland Familial Melanoma Project			PGS	
+E	0	QFS	Quebec Family Study			PGS	
+E	0	QLCSP	Quebec Lung Cancer Screening Program			PGS	
+E	0	QLD	Queensland Study			PGS	
+E	0	QUASAR2	QUASAR2			PGS	
+E	0	RADIANT	RADIANT			PGS	
+E	0	RAI	Residence Assessment Instrument			PGS	
+E	0	RAPPER	Radiogenomics: Assessment of Polymorphisms for Predicting the effects of radiotherapy			PGS	
+E	0	RBCS	Rotterdam Breast Cancer Study			PGS	
+E	0	REFGENSEP	Multiple Sclerosis Genetics Study			PGS	
+E	0	REGICOR	Registre Gironi del COR			PGS	
+E	0	RENDOCAS	Registry of Endometrial Cancer in Sweden			PGS	
+E	0	REPRIEVE	Randomized Trial to Prevent Vascular Events in HIV			PGS	
+E	0	REQUITE	REQUITE cohort			PGS	
+E	0	RES	Reykjavik Eye Study			PGS	
+E	0	Resolucent	The Resource for the Study of Lung Cancer Epidemiology in North Trent			PGS	
+E	0	REVEAL-HBV	Risk Evaluation of Viral Load Elevation and Associated Liver Disease/Cancer-Hepatitis B Virus study			PGS	
+E	0	RFPCS	Risk Factors for Prostate Cancer Study			PGS	
+E	0	RJ_study	RuiJin T2D Study			PGS	
+E	0	RMH	Royal Marsden Hospital Study			PGS	
+E	0	RMH-BCC	Royal Marsden Hospital Breast Cancer Cases			PGS	
+E	0	RMH-OCS	Royal Marsden Hospital Ovarian Cancer Study			PGS	
+E	0	RMHT	Royal Marsden Hospital Trust/Institute of Cancer Research Family History and DNA Registry			PGS	
+E	0	RNSHTS	Royal North Shore Hospital Twins Study			PGS	
+E	0	ROAD	Research on Osteoarthritis Against Disability			PGS	
+E	0	Roche	Roche Study			PGS	
+E	0	ROCS	Rotterdam Ovarian Cancer Study			PGS	
+E	0	RomDiane	Romanian Diabetic Nephropathy Study			PGS	
+E	0	RotES	Rotterdam Eye Study			PGS	
+E	0	RPCI	Roswell Park Cancer Institute			PGS	
+E	0	RPEGH	Kaiser Permanente Research Program on Genes, Environment, and Health			PGS	
+E	0	RuLAS	The Rugao Longevity and Ageing Study			PGS	
+E	0	Rural	Rural cohort			PGS	
+E	0	RUSHMAP	Rush University Medical Centre- Memory and Aging Project			PGS	
+E	0	RUSS	Russian Multi-Cancer-Case-Control Study			PGS	
+E	0	SABOR	San Antonio Center of Biomarkers of Risk for Prostate Cancer			PGS	
+E	0	SAFDGS	San Antonio Family Diabetes/Gallbladder Study			PGS	
+E	0	SAFHS	The San Antonio Family Heart Study			PGS	
+E	0	SAGE.AST	Canadian Childhood Cohorts: Study of Asthma Genes and Environment			PGS	
+E	0	SAMS	Stanford Aging Memory Study			PGS	
+E	0	SANBCS	Santiago Bladder Cancer Study			PGS	
+E	0	SAPHIR	Salzburg Atherosclerosis Prevention Program in subjects at High Individual Risk			PGS	
+E	0	SAR	Swedish Addison Registry			PGS	
+E	0	Saudi	Saudi Newborn Cohort			PGS	
+E	0	SAVOR-TIMI_53	The Saxagliptin Assessment of Vascular Outcomes Recorded in Patients with Diabetes Mellitus	SAVOR-TIMI 53		PGS	
+E	0	SAZ	South African Zulu	Durban Diabetes Study (DDS) and the Durban Diabetes Case Control study (DCC)		PGS	
+E	0	SBCS_b	Sheffield Breast Cancer Study			PGS	
+E	0	SBCSS	Shanghai Breast Cancer Survival Study			PGS	
+E	0	SCADC	Spanish Cervical Artery Dissection Collection			PGS	
+E	0	SCARFSHEEP	SCARFSHEEP			PGS	
+E	0	SCCS2	Singapore Cardiovascular Cohort Study			PGS	
+E	0	SCIENCe	Subjective Cognitive Impairment Cohort			PGS	
+E	0	SCNCCS	Skin Cancer Nested Case-Control Study			PGS	
+E	0	SCOOP-UK	Severe Childhood Onset Obesity Project United Kingdom			PGS	
+E	0	SCORM	Singapore Cohort study Of the Risk factors for Myopia study			PGS	
+E	0	SCPCS	South Carolina Prostate Cancer Study			PGS	
+E	0	SDC	Singapore Diabetic Cohort Study			PGS	
+E	0	SDGS	Shanghai Diabetes Genetic Study			PGS	
+E	0	SDH	Study of Digestive Health			PGS	
+E	0	SDIID	Shanghai DIabetes Inpatient Database			PGS	
+E	0	SdNM	Service de Neurologie Mazarin, Groupe Hospitalier Pitié-Salpêtrière Paris			PGS	
+E	0	SDPP	Stockholm Diabetes Prevention Program			PGS	
+E	0	SEARCH_b	Study of the Effectiveness of Additional Reductions in Cholesterol and Homocysteine			PGS	
+E	0	SEARCH-OCS	UK SEARCH Ovarian Cancer Study			PGS	
+E	0	Seattle	Seattle			PGS	
+E	0	SeCRC	The Seoul CRC Study			PGS	
+E	0	SECS	Shanghai Endometrial Cancer Study			PGS	
+E	0	SEED	Singapore Epidemiology of Eye Disease			PGS	
+E	0	SEVERE	Severe Asthma Cohorts			PGS	
+E	0	SFCCR	Seattle Familial Colorectal Cancer Registry			PGS	
+E	0	SFPCS	San Francisco Prostate Cancer Study			PGS	
+E	0	SGBCC	Singapore Breast Cancer Cohort			PGS	
+E	0	SGBP	St G_ran Bipolar Project			PGS	
+E	0	SGI	Schizophrenia Genetics Initiative			PGS	
+E	0	SGPC	GPC Cohort / Sanger Institute			PGS	
+E	0	SGRD	Southern German Recurrent Depression			PGS	
+E	0	SGWAS	Shanghai Genome-Wide Association Studies			PGS	
+E	0	SHARe	SNP Health Associated Resource			PGS	
+E	0	SHEEP	Stockholm Heart Epidemiology Program			PGS	
+E	0	SHHS	Sleep Heart Health Study			PGS	
+E	0	SHMC	Sheba Medical Centre			PGS	
+E	0	SICC	Singapore Indian Chinese Cohort			PGS	
+E	0	SiDS	Sikh Diabetes Study			PGS	
+E	0	SIH	Shanghai Institute of Hypertension GWAS			PGS	
+E	0	Sikh	Sikh GWAS			PGS	
+E	0	Silk Road	Silk Road			PGS	
+E	0	SingaporeMEC	Singapore Multi-Ethnic Cohort			PGS	
+E	0	Sisters	Sisters Study			PGS	
+E	0	SJCRH	St. Jude Childrens Research Hospital			PGS	
+E	0	SJTU	Shanghai Jiao Tong University			PGS	
+E	0	SJTUDS	Shanghai Jiao Tong University Diabetes Study			PGS	
+E	0	SKKDKFZS	St_dtisches Klinikum Karlsruhe Deutsches Krebsforschungszentrum Study			PGS	
+E	0	SKLCS	South Korea Multi-Center Lung Cancer Study			PGS	
+E	0	SKOT	Småbørns Kost Og Trivsel			PGS	
+E	0	SLCS	Shenyang Lung Cancer Study			PGS	
+E	0	SLDS	Sri Lankan Diabetes Study			PGS	
+E	0	SLEIGH	The Systemic Lupus Erythematosus in Gullah Health study			PGS	
+E	0	SLO-PREVAL	SLO-PREVAL			PGS	
+E	0	SMILE	Study of Myocardial Infarction in LEiden			PGS	
+E	0	SNLG	Scotland and Newcastle Lymphoma Group			PGS	
+E	0	SNP_Prostate_Ghent	SNP Prostate Ghent (Belgium)			PGS	
+E	0	SO	Southern Ostrobothnia isolate GWAS			PGS	
+E	0	SOCS	Southampton Ovarian Cancer Study			PGS	
+E	0	SoIA	Study of Irish Amyotrophic			PGS	
+E	0	SOLID-TIMI_52	The Stabilization of pLaques usIng Darapladib-Thrombolysis in Myocardial Infarction	SOLID-TIMI 52		PGS	
+E	0	SON	Southern Ontario Ovarian Cancer Study			PGS	
+E	0	SOS	Swedish Obese Subjects Study			PGS	
+E	0	SPAG	Serum Proteomic analysis for biomarkers of Aggressive prostate disease in the Guernsey population			PGS	
+E	0	Spain	The Spanish study (University Hospital of Bellvitge, Hospital of Leon)			PGS	
+E	0	SPGRX	Determining the Molecular Pathways and Genetic Predisposition of the Acute Inflammatory Process Caused by SARS-CoV-2			PGS	
+E	0	SPORE	Northwestern Universitys Prostate Cancer Specialized Program of Research Excellence			PGS	
+E	0	SPS3	Secondary Prevention of Small Subcortical Strokes			PGS	
+E	0	SR	Stroke Registry			PGS	
+E	0	SRTOC	Scottish Randomised Trial in Ovarian Cancer			PGS	
+E	0	SSAGA	Semi-Structured Assessment for Genetics of Alcoholism			PGS	
+E	0	SSISS	South Stockholm Ischemic Stroke Study			PGS	
+E	0	Stanford	Genomic epidemiology of SARS-Cov-2 and host genetics in Coronavirus Disease 2019 (COVID-19)			PGS	
+E	0	STARS	Strabismus, Amblyopia and Refractive Error Study			PGS	
+E	0	STCRP	The Singapore Translational and Clinical Research in Psychosis			PGS	
+E	0	STHM	The Stockholm Study	STHM1, STHM2, Stockholm-1, Stockholm-2, STHLM, STHLM2		PGS	
+E	0	STOLLERY_CC	Stollery Children’s Hospital Coeliac Clinic			PGS	
+E	0	STRIP	Special Turku Coronary Risk Factor Intervention Project			PGS	
+E	0	STRUCTURE	STRUCTURE analysis			PGS	
+E	0	SUCCESSB	Simultaneous Study of Gemcitabine-Docetaxel Combination adjuvant treatment			PGS	
+E	0	SUCCESSC	Simultaneous Study of Docetaxel Based Anthracycline Free Adjuvant Treatment Evaluation			PGS	
+E	0	Suita	Suita Study			PGS	
+E	0	SUVIMAX	Supplementation en Vitamines et Mineraux Antioxydants			PGS	
+E	0	Suzhou	Suzhou Study			PGS	
+E	0	SVCRCGP	Shanghai-Vanderbilt Colorectal Cancer Genetic Project			PGS	
+E	0	SwBCS	Swedish Bladder Cancer Study			PGS	
+E	0	SWE	Sweden Western Region Ovarian Cancer Study			PGS	
+E	0	SWE-BRCA	Swedish Breast Cancer Study	SWEBCS		PGS	
+E	0	SweCovid	The genetic predisposition to severe COVID-19			PGS	
+E	0	Swiss_MGS	Swiss Memory Genetics Study			PGS	
+E	0	SWOG-SELECT	Selenium and Vitmain E Cancer Prevention Trial			PGS	
+E	0	SWS	Southampton Womens Survey			PGS	
+E	0	SZBCS	IHCC-Szczecin Breast Cancer Study			PGS	
+E	0	T1000	Tulsa 1000 study			PGS	
+E	0	T2D-GGI	Type 2 Diabetes Global Genomics Initiative			PGS	
+E	0	T-6M	Tromso-6 Migraine			PGS	
+E	0	TAC	Telomerase Activity Cohort			PGS	
+E	0	TACT	TAiwan Coronary and Transcatheter intervention			PGS	
+E	0	TampaLC	Tampa Lung Cancer Study			PGS	
+E	0	TAMPERE	Tampere University Hospital			PGS	
+E	0	TANGL	The Admixture and Neurodegeneration Genomic Landscape Study			PGS	
+E	0	TARGETC	TARGET-C colorectal cancer screening trial (China)			PGS	
+E	0	TASCOG	Tasmanian Study of Cognition and Gait			PGS	
+E	0	TASPRAC	University of Tasmania Prostate Cancer Study			PGS	
+E	0	TBCS	Torino Bladder Cancer Study			PGS	
+E	0	TBOCS	Tampa Bay Ovarian Cancer Study			PGS	
+E	0	TCAD	Taichung CAD study			PGS	
+E	0	TCAGEN	Taiwan Coronary Artery Disease GENetic study			PGS	
+E	0	TCCS	Toronto case-control study			PGS	
+E	0	TCGS	Tehran Cardiometabolic Genetic Study			PGS	
+E	0	TCOPDGS	Transcontinental COPD Genetics Study			PGS	
+E	0	TCPS	Tennessee Colorectal Polyp Study			PGS	
+E	0	TEDDY	The Environmental Determinants of Diabetes in the Young (TEDDY) study			PGS	
+E	0	TENOR	The Epidemiology and Natural History of Asthma: Outcomes and Treatment Regimens (TENOR) study			PGS	
+E	0	TEST	Twins Eye Study in Tasmania			PGS	
+E	0	Texas	Texas-GWA study			PGS	
+E	0	TFEGWAS	Twin families EBNA-1 genome-wide association study			PGS	
+E	0	TGS	The Gothenburg Study			PGS	
+E	0	TGWAS	Taiwan Genome Wide Association Study			PGS	
+E	0	THCCGB	Taiwan Han Chinese Cell and Genome Bank			PGS	
+E	0	Tianjin	Tianjin Study			PGS	
+E	0	TIME-CHF	Trial of Intensified Versus Standard Medical Therapy in Elderly Patients with Congestive Heart Failure			PGS	
+E	0	TLC	Total Lung Cancer Study			PGS	
+E	0	TLCS	Tianjin Lung Cancer Study			PGS	
+E	0	TLGS	Tehran lipid and glucose study			PGS	
+E	0	TLHS	Tasmanian Longitudinal Health Study			PGS	
+E	0	TMM BirThree	Tohoku Medical Megabank Project Birth and Three-Generation Cohort Study			PGS	
+E	0	TNBCC	Triple Negative Breast Cancer Consortium Study			PGS	
+E	0	TOAC	Tasmanian Older Adult Cohort			PGS	
+E	0	TOCS	Toronto Ovarian Cancer Study			PGS	
+E	0	TOMSK	TOMSK			PGS	
+E	0	Tonhoku	The Tonhoku Medical Megabank Organisations			PGS	
+E	0	TOP	Thematically Organized Psychoses Research Study			PGS	
+E	0	TOR	University Health Network, Toronto, Canada			PGS	
+E	0	TPB	Telethon Parkinsons Bank			PGS	
+E	0	Trinity	Trinity College Dublin			PGS	
+E	0	TSDS	Tampere Sudden Death Study			PGS	
+E	0	TVHS	Tennessee Valley Healthcare System			PGS	
+E	0	TVS	Tampere Vascular Study			PGS	
+E	0	TWBCS	Taiwanese Breast Cancer Study			PGS	
+E	0	UBNS	University of Bergen Norway Study			PGS	
+E	0	UCADC	Utah Cervical Artery Dissection Collection			PGS	
+E	0	UCC	Utrecht Cannabis Cohort			PGS	
+E	0	UCC-SMART	Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease			PGS	
+E	0	UCIOCS	UC Irvine Ovarian Cancer Study, California			PGS	
+E	0	UCLA_NL_BP	UCLA_NL_BP			PGS	
+E	0	UCL-LASER	UCL-LASER			PGS	
+E	0	UCL-PRION	UCL-PRION			PGS	
+E	0	UCS-AF	University of California San Francisco Atrial Fibrillation Study			PGS	
+E	0	UCSD	UCSD			PGS	
+E	0	UDP	Universita di Pisa			PGS	
+E	0	UFA	UFA			PGS	
+E	0	UFDI	University of Florida Diabetes Institute			PGS	
+E	0	UGhent	RGC-UGhent cohort			PGS	
+E	0	UGO	Umea Genetics of Obesity			PGS	
+E	0	UHP	Utrecht Health Project			PGS	
+E	0	UIDS	UNAM/INCMNSZ Diabetes Study			PGS	
+E	0	UK2_GCC	UK Type 2 Diabetes Genetics Consortium			PGS	
+E	0	UKADS	UK Asian Diabetes Study			PGS	
+E	0	UK-BCN-MBCS	UK Breast Cancer Now Male Breast Cancer Study			PGS	
+E	0	UKBiLEVE	UK BiLEVE Cohort Information			PGS	
+E	0	UKBOGS	UK Barretts Oesophagus Gene Study			PGS	
+E	0	UKBonn	Universitäts Klinikum Bonn			PGS	
+E	0	UKCAP	United Kingdom Colorectal Adenoma Prevention			PGS	
+E	0	UK-CLL	UK-CLL			PGS	
+E	0	UKCRC	UK Colorectal control			PGS	
+E	0	UKCTOCS	UK Collaborative Trial of Ovarian Cancer Screening			PGS	
+E	0	UKCVD	UKCVD			PGS	
+E	0	UKFBCS	UK Familial Breast Cancer Study			PGS	
+E	0	UKFOCR	UK Familial Ovarian Cancer Registry			PGS	
+E	0	UKGDC	United Kingdom Graves disease cohort			PGS	
+E	0	UKGPCS	UK Genetic Prostate Cancer Study			PGS	
+E	0	UKGRFOCR	UK and Gilda Radner Familial Ovarian Cancer Registries			PGS	
+E	0	UKHCEIBD	UK HumanCoreExome genotyped IBD study			PGS	
+E	0	UKHST	UK National Health Service Trusts			PGS	
+E	0	UKMND	UK National MND DNA			PGS	
+E	0	UKOPS	UK Ovarian Cancer Population Study			PGS	
+E	0	UKPDS	UK Prospective Diabetes Study			PGS	
+E	0	UKRAG	United Kingdom Rheumatoid Arthritis Genetics			PGS	
+E	0	UKSAT	UK Small Aneurysm Trial			PGS	
+E	0	UKTCC	UK Testicular Cancer Collaboration			PGS	
+E	0	ULM	Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort			PGS	
+E	0	ULM_FPCS	Familial Prostate Cancer Study, University Hopsital of Ulm, Germany			PGS	
+E	0	UM	University of Munich			PGS	
+E	0	UMC	University Medical Center Utrecht			PGS	
+E	0	UMN	University of Minnesota study			PGS	
+E	0	UMVUMSS	UMVUMSS			PGS	
+E	0	UM/VU/MSSM	UM/VU/MSSM			PGS	
+E	0	UNCCanCORS	University of North Carolina CanCORS study			PGS	
+E	0	UNC-Rectal	University of Noth Carolina Rectal Cancer Study			PGS	
+E	0	UNISS	Utrecht, The Netherlands ImmunoChip Study Samples			PGS	
+E	0	UOF	University of Florida			PGS	
+E	0	UppsalaAAA	Uppsala Abdominal Aortic Aneurysm Cohort Study			PGS	
+E	0	URWCI	RGC-URWCI cohort			PGS	
+E	0	US-HIV-NHS	US military HIV Natural History Study			PGS	
+E	0	USKC	National Cancer Institue U.S. Kidney Cancer Study			PGS	
+E	0	USPA	US PA GWAS dataset			PGS	
+E	0	UTAH	Utah Chronic Lymphocytic Leukemia Study			PGS	
+E	0	UTAH-SHEFFIELD	Utah/Sheffield Chronic Lymphocytic Leukemia Collaborative Study			PGS	
+E	0	UTAHSTUD	The Utah Study			PGS	
+E	0	UVRIGPC	UVRIGPC			PGS	
+E	0	UWALF	UWA, LEI & Flinders			PGS	
+E	0	UW-TTURC	University of Wisconsin-Transdisciplinary Tobacco Use Research Cente			PGS	
+E	0	Val_Gardena	Val Gardena	topmed_gardena		PGS	
+E	0	Vantaa85+	Vantaa85+			PGS	
+E	0	VARI	Van Andel Research Institute			PGS	
+E	0	VCAAA	Viborg Country AAA screening program			PGS	
+E	0	VCAD	Virginia Cervical Artery Dissection			PGS	
+E	0	VDB	Vejle Diabetes Biobank			PGS	
+E	0	Vejle	Vejle Biobank			PGS	
+E	0	VERDI	Verlauf der diagnotischen Abklärung bei Krebspatienten			PGS	
+E	0	VFCTG	Victorian Familial Cancer Trials Group			PGS	
+E	0	VHS	Verona Heart Study			PGS	
+E	0	VICTOR	VICTOR			PGS	
+E	0	VIO	Valencia Institute of Oncology			PGS	
+E	0	VIP	VIP study			PGS	
+E	0	VIRGO	Variation in Recovery: Role of Gender on Outcomes of Young AMI Patients			PGS	
+E	0	Vobarno	Vobarno Study			PGS	
+E	0	VVC	Vlagtwedde/Vlaardingen Cohort study			PGS	
+E	0	W2C	Warren 2 Consortium			PGS	
+E	0	WACS	Womens Antioxidant Cardiovascular Study			PGS	
+E	0	WAHCS	Western Australian HIV Cohort Study			PGS	
+E	0	WCHS	Womens Circle of Health Study			PGS	
+E	0	WCPSOCCI	Womens Cancer Program at the Samuel Oschin Comprehensive Cancer Institute			PGS	
+E	0	WCRI	Womens Cancer Research Institute - Cedars-Sinai Medical Center			PGS	
+E	0	WDS	Wuhan Diabetes Study			PGS	
+E	0	WeBirth	Westlake Precision Birth Cohort			PGS	
+E	0	WellGen	Wellcome Genetics study			PGS	
+E	0	Wessex	Wessex family study			PGS	
+E	0	WFBC	Wake Forest University Breast Cancer Study			PGS	
+E	0	WFPCS	Wake Forest Prostate Cancer Study			PGS	
+E	0	WHBJ	Wuhan-Beijing GWA study			PGS	
+E	0	WHI-CT	Womens Health Initiative - randomized clinical trial			PGS	
+E	0	WHI-GeCHIP	Womens Health Initiative GeCHIP			PGS	
+E	0	WHI-HT	Womens Health Initiative Hormone Therapy Trial			PGS	
+E	0	WHI-LLS	Womens Health Initiative Long Life Study			PGS	
+E	0	WHISTLER	Wheezing Illnesses Study Leidsche Rijn			PGS	
+E	0	Whitehall	Whitehall Study			PGS	
+E	0	WHS	Womens Health Study			PGS	
+E	0	WHZH	Wuhan Zhuhai cohort			PGS	
+E	0	WICR	Westmead Institute for Cancer Research			PGS	
+E	0	WISE	Womens Insights and Shared Experiences study			PGS	
+E	0	WLAC	Weiss Laboratory Autism Collection			PGS	
+E	0	WLCS	Wuhan Lung Cancer Study			PGS	
+E	0	WMUB-T	Wenzhou Medical University Biobank - Tibetans			PGS	
+E	0	WOCS	Warsaw Ovarian Cancer Study			PGS	
+E	0	WOSCOPS	West of Scotland Coronary Prevention Study			PGS	
+E	0	WPC	Warfarin Pharmacogenomics Cohort			PGS	
+E	0	WSR	Westphalian Stroke Register			PGS	
+E	0	WSULC	The Washington State University Lung Cancer Study			PGS	
+E	0	WT2	WT2-United Kingdom			PGS	
+E	0	WTCCC_CAD	Wellcome Trust Case Control Consortium CAD	WTCCC CAD		PGS	
+E	0	WUGS	Washington University Genetics Study			PGS	
+E	0	Wuxi NCDs	Wuxi Non-Communicable Diseases cohort			PGS	
+E	0	WWHS	Wisconsin Womens Health Study			PGS	
+E	0	YACDS	Yonsei Avellino Corneal Dystrophy Study			PGS	
+E	0	YAHD	Young Adult Hodgkins Disease Case_Control Study			PGS	
+E	0	Yale	Yale			PGS	
+E	0	YH	Northern Ireland Young Hearts Project	yh3, yh2000		PGS	
+E	0	YLCS	Yunnan Lung Cancer Study			PGS	
+E	0	YOHG	Academia Sinica Multicentered Young-Onset Hypertension Genetic Study			PGS	
+E	0	ZBCS	Zaragoza Bladder Cancer Study			PGS	
+E	0	ZJCRC	Zhejiang Colorectal Cancer set			PGS	
+A	0	DiabHS	The Diabetes Heart Study	DHS		PGS (acronym clash)	PGS id clashes with the synonym DHS of COHO:0000054 Dortmund Health Study
+A	0	GPC	Genetics of Personality Consortium			PGS (acronym clash)	PGS id clashes with the synonym GPC of COHO:0000345 Uganda General Population Cohort
+A	0	GRACE	Genetic Risk Assessment for Chinese Eaglet - T1D			PGS (acronym clash)	PGS id clashes with the synonym GR@ACE of COHO:0000258 Genome Research at Fundació ACE
+A	0	NBS_UK	National Blood Survey cohort	nbs		PGS (acronym clash)	PGS other name clashes with the synonym NBS of COHO:0000128 Nijmegen Biomedical Study
+A	0	LGDB	Latvia COVID-19 research platform			PGS (acronym clash)	PGS id equals the synonym LGDB of COHO:0000256 Genome Database of Latvian Population; decide whether it is the same cohort
+A	0	AMC-PAS	Osteoporosis Clinic of Asan Medical Center			PGS (acronym clash)	PGS id equals the synonym AMC-PAS of COHO:0000322 Premature Atherosclerosis Study pedigrees; decide which is right
