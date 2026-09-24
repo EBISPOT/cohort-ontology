@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.ebi.ac.uk/coho/releases/2026-09-22.2/coho.owl
+data-version: http://www.ebi.ac.uk/coho/releases/2026-09-24.1/coho.owl
 subsetdef: coho1:EGA_subset ""
 subsetdef: coho1:GWAS_subset ""
 subsetdef: coho1:MetaboLight_subset ""
@@ -48,7 +48,7 @@ property_value: dcterms:license http://www.apache.org/licenses/LICENSE-2.0
 property_value: dcterms:title "Cohort Ontology" xsd:string
 property_value: doap:bug-database https://github.com/EBISPOT/cohort-ontology/issues
 property_value: foaf:homepage https://github.com/EBISPOT/cohort-ontology
-property_value: owl:versionInfo "2026-09-22.2" xsd:string
+property_value: owl:versionInfo "2026-09-24.1" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -1266,9 +1266,8 @@ is_a: RO:0019000 ! regulates characteristic
 [Typedef]
 id: coho:hasCohort
 name: hasCohort
-def: "A relation between a cohort aggregation and a cohort whose participants or data it combines or compares." []
+def: "A relation between a cohort aggregation and a cohort, or another cohort aggregation, whose participants or data it combines or compares." []
 domain: coho:COHO_0000001 ! cohort aggregation
-range: coho:COHO_0000000 ! cohort
 
 [Typedef]
 id: coho:hasSubCohort
