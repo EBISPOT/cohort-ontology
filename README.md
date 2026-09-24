@@ -1,6 +1,3 @@
-![Build Status](https://github.com/EBISPOT/cohort-ontology/actions/workflows/qc.yml/badge.svg)
-[![Built with owlmake](https://img.shields.io/static/v1?label=Built%20with&message=owlmake&color=blue&style=flat)](https://github.com/EBISPOT/owlmake)
-[![Powered by the ROBOT](https://img.shields.io/static/v1?label=Powered%20by&message=ROBOT&color=green&style=flat)](http://robot.obolibrary.org/)
 # Cohort Ontology
 
 A lightweight ontology for consistent identification and description of human cohorts across EMBL-EBI resources. It defines a unique cohort identifier with minimal metadata, enabling linkage, discovery, and integration of cohort-related data while supporting both named and implicitly defined cohorts.
