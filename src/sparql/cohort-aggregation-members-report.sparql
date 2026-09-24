@@ -1,4 +1,5 @@
-# A cohort aggregation should name at least two distinct, active cohort members
+# A cohort aggregation should name at least two distinct, active members, cohorts
+# or other cohort aggregations,
 # through hasCohort; OWL's minimum-cardinality restriction alone does not require
 # named members. Reported at WARN by src/ontology/profile.txt: most aggregations'
 # members are not yet terms in COHO, and the warning lists which.
@@ -17,8 +18,9 @@ WHERE {
       FILTER NOT EXISTS { ?entity owl:deprecated true }
       OPTIONAL {
         ?entity coho:hasCohort ?cohort .
+        VALUES ?memberType { coho:COHO_0000000 coho:COHO_0000001 }
         ?cohort a owl:NamedIndividual ;
-                a/rdfs:subClassOf* coho:COHO_0000000 .
+                a/rdfs:subClassOf* ?memberType .
         FILTER(isIRI(?cohort) && ?cohort != ?entity)
         FILTER NOT EXISTS { ?cohort owl:deprecated true }
       }
