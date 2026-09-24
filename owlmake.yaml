@@ -111,3 +111,19 @@ report:
   - missing-definition
   - overlapping-synonyms
   - subset-example
+targets:
+- target: docs/images/cohort-map.svg
+  needs:
+  - src/templates/locations.tsv
+  - src/templates/gaz_xrefs.tsv
+  - src/map/countries-110m.json
+  - src/scripts/cohort_map.py
+  steps:
+  - op: shell
+    command: python3 ../scripts/cohort_map.py
+    requires:
+    - python3
+- target: prepare_release
+  extends: true
+  needs:
+  - docs/images/cohort-map.svg

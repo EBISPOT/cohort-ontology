@@ -5,6 +5,8 @@
 
 A lightweight ontology for consistent identification and description of human cohorts across EMBL-EBI resources. It defines a unique cohort identifier with minimal metadata, enabling linkage, discovery, and integration of cohort-related data while supporting both named and implicitly defined cohorts.
 
+![Map of where COHO's cohorts recruited, with each country shaded by its number of cohorts](docs/images/cohort-map.svg)
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/coho-edit.owl](src/ontology/coho-edit.owl)

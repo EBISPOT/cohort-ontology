@@ -26,6 +26,7 @@ To actually run the release, you:
 3. If everything went well, the output ends with `published 12 release file(s)` and `done.`
 
 This will create all the specified release targets (OBO, OWL, JSON, and the variants, coho-full and coho-base) and copy them into your release directory (the top level of your repo).
+It also redraws the map in the README of where the cohorts recruited, `docs/images/cohort-map.svg`, from the release's data collection locations (`src/scripts/cohort_map.py`), so commit it with the release files.
 
 ## Review the release
 
@@ -54,3 +55,7 @@ Once your [CI checks](QualityControl.md#continuous-integration) have passed, and
 ### A check fails
 
 The release runs the same [quality control checks](QualityControl.md) as the `test` target. When one fails, the output names the check and what it found. Fix the edit file or the template the message points at, and run the release again.
+
+### The map leaves a large country unshaded
+
+The map step prints the located countries it has no outline for. Only very small countries, such as Singapore, should be among them. A larger one means its name in the outlines (`src/map/countries-110m.json`) differs from its label in `src/templates/gaz_xrefs.tsv`: add the pair to `OUTLINE_NAMES` in `src/scripts/cohort_map.py` and run the release again.
