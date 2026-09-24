@@ -305,7 +305,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000296>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000297>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000298>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000299>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000300>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000301>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000302>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000303>))
@@ -1649,6 +1648,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001666>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001667>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001668>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001673>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001677>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001678>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001679>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001680>))
@@ -1656,6 +1656,14 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001698>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001718>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001719>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001726>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001809>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001899>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002016>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002054>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002234>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002549>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002594>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002595>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
@@ -2844,10 +2852,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000299> (<http://www.ebi.ac.uk/coho/COHO_0000299>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ega-archive.org/studies/EGAS00001004812") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000299> "A collection of malignant pleural mesothelioma samples from the French MESOMICS project, characterised by whole-genome sequencing, RNA sequencing and methylation arrays.")
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000300> (<http://www.ebi.ac.uk/coho/COHO_0000300>)
-
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ega-archive.org/studies/EGAS00001004390") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000300> "A cohort of breast cancer patients from Milan, Italy, whose ductal carcinoma in situ and invasive breast cancers were compared by subtype at the levels of gene expression, copy number and methylation.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000301> (<http://www.ebi.ac.uk/coho/COHO_0000301>)
 
@@ -8221,6 +8225,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21131975") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.723/MediaObjects/41588_2011_BFng723_MOESM3_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001673> "A case–control study of renal cell carcinoma in the region of Nijmegen, the Netherlands, run by Radboud University Nijmegen Medical Centre with the Comprehensive Cancer Centre East, whose cases of European descent form a hospital-based series (patients of the hospital's outpatient urology clinic who had given blood and lifestyle data from 1999 onwards for studies of gene–environment interactions in urological disease and were found through the cancer registry to have renal cell carcinoma) and a population-based series recruited in 2009 through the regional cancer registry (patients diagnosed in 1995–2008 before the age of 75). Its controls are participants of the population-based Nijmegen Biomedical Study.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001677> (<http://www.ebi.ac.uk/coho/COHO_0001677>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:1917239") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22885922") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25979724") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001677> "A study of peripheral arterial disease in the general population of Edinburgh, Scotland, based on an age-stratified sample of 1,592 men and women aged 55 to 74 selected from the age-sex registers of ten general practices in the city and assessed by questionnaire and ankle brachial pressure index, funded by the British Heart Foundation and genotyped for genetic studies such as the DIAGRAM consortium’s meta-analysis of type 2 diabetes and the UCLEB consortium’s Mendelian randomisation analyses.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001678> (<http://www.ebi.ac.uk/coho/COHO_0001678>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22286212") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24920014") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001678> "A European genome-wide association study of classical Hodgkin lymphoma that genotyped, at the Centre National de Génotypage in France, cases from five European Hodgkin lymphoma studies (the EPILYMPH Study, the Scotland and Newcastle Lymphoma Group, the Young Adult Hodgkin's Disease Case–Control Study, the Scandinavian Lymphoma Etiology Study and the Northern Dutch Hodgkin Lymphoma Study) and compared them with generic controls chosen by country from earlier genome-wide association studies of other cancers in populations of European ancestry, among them ARCAGE, the IARC Central Europe Study, the Pancreatic Cancer Cohort Consortium, the Nijmegen Biomedical Study and the Wellcome Trust Case–Control Consortium. It was the European discovery sample of the 2014 Hodgkin lymphoma GWAS meta-analysis with the University of Southern California and University of Chicago GWAS.")
@@ -8248,6 +8256,38 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001726> (<http://www.ebi.ac.uk/coho/COHO_0001726>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21738491") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36172703") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://clinicaltrials.gov/api/v2/studies/NCT02075866") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001726> "A prospective case-control study run from the University of Oulu that since 1998 has collected medical records and medicolegal autopsy data from consecutive victims of out-of-hospital sudden cardiac death in the Oulu University Hospital District, northern Finland, with survivors of an acute coronary event treated at Oulu University Hospital as controls, to study the characteristics and genetic background of sudden cardiac death.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001809> (<http://www.ebi.ac.uk/coho/COHO_0001809>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29531354") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001809> "A hospital-based collection of patients with ischaemic stroke attending the cerebrovascular service of the Western Infirmary, Glasgow, Scotland, recruited between 1990 and 2004 as part of an ongoing study of genetic and circulating biomarkers in stroke, all with brain imaging and extracranial carotid ultrasound, analysed against shared WTCCC controls from the 1958 Birth Cohort in the MEGASTROKE consortium’s genome-wide association study of stroke.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001899> (<http://www.ebi.ac.uk/coho/COHO_0001899>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19300482") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28170284") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34855941") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001899> "A family-based study of chronic obstructive pulmonary disease funded by GlaxoSmithKline, whose pedigrees of probands with COPD and their siblings, characterised by spirometry, serve as a replication and testing cohort in COPD genome-wide association studies and genetic risk-score meta-analyses (1,103 pedigrees in the 2017 meta-analysis of 16,707 subjects).")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002016> (<http://www.ebi.ac.uk/coho/COHO_0002016>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:42086565") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13300126/fullTextXML") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002016> "A Danish randomised clinical trial, Atrial Fibrillation Detected by Continuous ECG Monitoring Using Implantable Loop Recorder to Prevent Stroke in High-Risk Individuals, which randomised 6,004 individuals aged 70 years or older without atrial fibrillation but with risk factors for atrial fibrillation and stroke to screening with an implantable loop recorder, with anticoagulation upon detection of atrial fibrillation, or usual care; its participants’ genetic data are used to evaluate polygenic scores for atrial fibrillation.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002054> (<http://www.ebi.ac.uk/coho/COHO_0002054>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21907864") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:41849083") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002054> "A population-based prospective study of childhood asthma, also known as the Melbourne Asthma Study, initiated in 1964 by Howard Williams of the Royal Children’s Hospital, Melbourne, Australia, which recruited four asthma or wheeze groups and a control group of children aged 7 and has followed them into their seventh decade, providing the first prospective evidence linking childhood asthma to the development of COPD; its participants contributed to the Australian Asthma Genetics Consortium’s genome-wide association study.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002234> (<http://www.ebi.ac.uk/coho/COHO_0002234>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19020293") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19246476") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27911342") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33958783") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002234> "A population-based longitudinal study of the incidence, neurobiology and prognosis of Parkinson’s disease in Norway, which recruited incident, untreated patients with Parkinson’s disease and control participants and follows them with a standardised examination programme; its patients contribute to genetic studies of Parkinson’s disease progression.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002549> (<http://www.ebi.ac.uk/coho/COHO_0002549>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35396534") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:41419686") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002549> "An ongoing population-based cohort study initiated in 1985 in which all residents of Västerbotten County, Sweden, are invited to a health examination at ages 40, 50 and 60, with blood drawn for cryopreservation; one of the three sub-surveys of the Northern Sweden Health and Disease Study, used for nested case–control studies of cancer and cardiovascular disease and for evaluating polygenic risk scores.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002594> (<http://www.ebi.ac.uk/coho/COHO_0002594>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40619433") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://nurseshealthstudy.org/about-nhs") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://nurseshealthstudy.org/about-nhs/history") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002594> "An umbrella of three prospective cohorts of nurses: the original Nurses' Health Study established in 1976, Nurses' Health Study II, and Nurses' Health Study 3, which is still enrolling nurses and nursing students in the United States or Canada; together they count more than 275,000 participants and are among the largest prospective investigations into the risk factors for major chronic diseases in women.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002595> (<http://www.ebi.ac.uk/coho/COHO_0002595>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27028160") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000277.v2.p1") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002595> "A collaboration of Australian and American investigators to identify genes associated with liability for heroin dependence, using a case–control design in which cases met lifetime DSM-IV criteria for heroin dependence and controls were assessed individuals without heroin dependence or unassessed general population controls, with cases and controls drawn from several investigations including the Comorbidity and Trauma Study, Heroin Dependence in Western Australia, the OZ-ALC Study, a twin study of mole development in adolescence and genetic studies of substance dependence at Yale; its data, collected from 2004 to 2009, are held in dbGaP as phs000277.")
 
 
 )

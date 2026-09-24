@@ -367,7 +367,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000295>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000296>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000298>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000299>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000300>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000301>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000302>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000304>))
@@ -1621,6 +1620,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001666>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001667>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001668>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001673>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001677>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001678>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001679>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001680>))
@@ -1628,6 +1628,11 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001698>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001718>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001719>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001726>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001809>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002016>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002054>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002234>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002549>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -2794,10 +2799,6 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000299> (<http://www.ebi.ac.uk/coho/COHO_0000299>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001004812") Annotation(rdfs:comment "the MESOMICS project, the French project of molecular characterization of malignant pleural mesothelioma") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000299> <http://dbpedia.org/resource/France>)
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000300> (<http://www.ebi.ac.uk/coho/COHO_0000300>)
-
-ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001004390") Annotation(rdfs:comment "Subtype specific studies of breast cancer progression. Milan cohort.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000300> <http://dbpedia.org/resource/Italy>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000301> (<http://www.ebi.ac.uk/coho/COHO_0000301>)
 
@@ -8615,6 +8616,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001673> <http://dbpedia.org/resource/Netherlands>)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001677> (<http://www.ebi.ac.uk/coho/COHO_0001677>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1917239%20AND%20SRC:MED&resultType=core&format=json") Annotation(rdfs:comment "Edinburgh Artery Study: prevalence of asymptomatic and symptomatic peripheral arterial disease in the general population.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001677> <http://dbpedia.org/resource/United_Kingdom>)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001678> (<http://www.ebi.ac.uk/coho/COHO_0001678>)
 
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001678> <http://dbpedia.org/resource/Czech_Republic>)
@@ -8656,6 +8661,26 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001726> (<http://www.ebi.ac.uk/coho/COHO_0001726>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9748531/fullTextXML") Annotation(rdfs:comment "The study population is derived from The Finnish Genetic Study of Arrhythmic Events (Fingesture) which has gathered medical records and medicolegal autopsy data from 5869 consecutive SCD victims since 1998 from the Oulu University Hospital District (defined geographical area in northern Finland, population ≈600 000).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001726> <http://dbpedia.org/resource/Finland>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001809> (<http://www.ebi.ac.uk/coho/COHO_0001809>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0058-3/MediaObjects/41588_2018_58_MOESM1_ESM.pdf") Annotation(rdfs:comment "Cases with ischemic stroke attending the cerebrovascular service of the Western Infirmary, Glasgow, were recruited between 1990 and 2004 as part of an ongoing study of genetic and circulating biomarkers in stroke.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001809> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002016> (<http://www.ebi.ac.uk/coho/COHO_0002016>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC13350093/unicode") Annotation(rdfs:comment "We also assessed the Mult-t-EUR score in the LOOP study, a Danish clinical trial assessing implantable loop recorder (ILR) screening in older participants without AF but at elevated cardiovascular risk.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002016> <http://dbpedia.org/resource/Denmark>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002054> (<http://www.ebi.ac.uk/coho/COHO_0002054>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13331842/fullTextXML") Annotation(rdfs:comment "Introduction The study set-up The Melbourne Epidemiological Study of Childhood Asthma (MESCA) also known as the Melbourne Asthma Study, was initiated in 1964 by the late Howard Williams of the Royal Children’s Hospital, Melbourne, with the initial aim of determining the prevalence and describing the natural history of childhood asthma and wheezy bronchitis.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002054> <http://dbpedia.org/resource/Australia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002234> (<http://www.ebi.ac.uk/coho/COHO_0002234>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00847-6/MediaObjects/41588_2021_847_MOESM1_ESM.pdf") Annotation(rdfs:comment "ParkWest (Norway) Dementia was defined using operationalized level 1 MDS dementia criteria24 .") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002234> <http://dbpedia.org/resource/Norway>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002549> (<http://www.ebi.ac.uk/coho/COHO_0002549>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8993880/fullTextXML") Annotation(rdfs:comment "The VIP is an ongoing population-based cohort study initiated in 1985 in which all residents of Västerbotten County, Sweden, are invited to receive a health examination at ages 40, 50, and 60 with blood drawn for cryopreservation.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002549> <http://dbpedia.org/resource/Sweden>)
 
 
 )

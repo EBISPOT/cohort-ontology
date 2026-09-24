@@ -246,6 +246,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000608>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000610>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000611>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000618>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000619>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000628>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000629>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000631>))
@@ -312,6 +313,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000820>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000821>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000829>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000832>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000841>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000842>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000852>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000854>))
@@ -538,6 +540,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001562>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001564>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001567>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001571>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001573>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001576>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001578>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001580>))
@@ -566,6 +569,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001643>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001665>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001667>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001718>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002594>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002595>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -1455,6 +1460,16 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001620> (<http://www.ebi.ac.uk/coho/COHO_0001620>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://husk-en.w.uib.no/") Annotation(rdfs:comment "The Hordaland Health Studies are part of the national research collaboration CONOR (COhort of NORway)") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0001620> <http://www.ebi.ac.uk/coho/COHO_0001351>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002594> (<http://www.ebi.ac.uk/coho/COHO_0002594>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://nurseshealthstudy.org/about-nhs/history") Annotation(rdfs:comment "The Nurses' Health Study (NHS) and the Nurses' Health Study II (NHS II) are among the largest prospective investigations into the risk factors for major chronic diseases in women.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002594> <http://www.ebi.ac.uk/coho/COHO_0000456>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://nurseshealthstudy.org/about-nhs/history") Annotation(rdfs:comment "The Nurses' Health Study (NHS) and the Nurses' Health Study II (NHS II) are among the largest prospective investigations into the risk factors for major chronic diseases in women.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002594> <http://www.ebi.ac.uk/coho/COHO_0000619>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002595> (<http://www.ebi.ac.uk/coho/COHO_0002595>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000277.v2.p1") Annotation(rdfs:comment "This collaboration of Australian and American investigators aims to identify genes associated with liability for heroin dependence. The project uses a case-control design in which cases met lifetime DSM-IV criteria for heroin dependence. Controls included assessed individuals who did not meet DSM-IV heroin dependence criteria and unassessed general population controls. Cases and controls were obtained from the several large investigations including: The Comorbidity and Trauma Study, Heroin Dependence in Western Australia, the OZ-ALC Study, a Twin Study of Mole Development in Adolescence, and ongoing genetic studies of substance dependence conducted by investigators at Yale and collaborating institutions.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002595> <http://www.ebi.ac.uk/coho/COHO_0000841>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000277.v2.p1") Annotation(rdfs:comment "This collaboration of Australian and American investigators aims to identify genes associated with liability for heroin dependence. The project uses a case-control design in which cases met lifetime DSM-IV criteria for heroin dependence. Controls included assessed individuals who did not meet DSM-IV heroin dependence criteria and unassessed general population controls. Cases and controls were obtained from the several large investigations including: The Comorbidity and Trauma Study, Heroin Dependence in Western Australia, the OZ-ALC Study, a Twin Study of Mole Development in Adolescence, and ongoing genetic studies of substance dependence conducted by investigators at Yale and collaborating institutions.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002595> <http://www.ebi.ac.uk/coho/COHO_0001573>)
 
 
 )
