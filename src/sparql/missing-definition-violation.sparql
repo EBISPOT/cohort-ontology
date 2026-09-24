@@ -1,5 +1,6 @@
 # All active COHO classes, individuals and properties need a textual definition.
-# Imported vocabularies, anonymous expressions and ontology headers are excluded.
+# Imported vocabularies, anonymous expressions and ontology headers are excluded,
+# and so are placeholder terms whose curation status is uncurated (IAO:0000124).
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -19,6 +20,7 @@ WHERE {
     STRSTARTS(STR(?term), "http://www.ebi.ac.uk/coho#")
   ))
   FILTER NOT EXISTS { ?term owl:deprecated true }
+  FILTER NOT EXISTS { ?term obo:IAO_0000114 obo:IAO_0000124 }
   OPTIONAL { ?term rdfs:label ?label }
   FILTER NOT EXISTS {
     ?term obo:IAO_0000115 ?definition .

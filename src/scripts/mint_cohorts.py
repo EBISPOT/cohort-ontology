@@ -30,6 +30,14 @@ at or after --from-row the script
   - writes the new COHO IDs, and the terms each row's names clash with, back
     into the review.
 
+A "placeholder" row mints an uncurated term: the catalog's name as its label, its
+ids and other names as synonyms (with editor notes where a name is shared), the
+temporary unclassified holding class as its type, IAO:0000114 (has curation
+status) IAO:0000124 (uncurated), and membership of the PGS subset. It gets no
+definition, example, location or links; curating it later means filling those in
+and removing the status. A same-as row whose twin is a placeholder adds its names
+to the placeholder.
+
 Earlier rows are only read, to resolve references. Changes to terms minted
 earlier other than new names (a new definition, type or label) are not made here:
 record them in catalog_cohorts_review_existing_terms.tsv and make them by hand.
@@ -55,8 +63,12 @@ REVIEW = CUR / "catalog_cohorts_review.tsv"
 EDIT = ROOT / "src/ontology/coho-edit.owl"
 GAZ = ROOT / "src/templates/gaz_xrefs.tsv"
 GWAS_SUBSET = ROOT / "src/templates/GWAS.csv"
-COHORT, AGGREGATION = "COHO_0000000", "COHO_0000001"
+PGS_SUBSET = ROOT / "src/templates/PGS.csv"
+COHORT, AGGREGATION, UNCLASSIFIED = "COHO_0000000", "COHO_0000001", "TEMP_temporary_unclassified"
 MINT = ("mint cohort", "mint aggregation")
+PLACEHOLDER = "placeholder"
+NEWV = MINT + (PLACEHOLDER,)  # verdicts that make a new term
+UNCURATED = "AnnotationAssertion(obo:IAO_0000114 coho:{} obo:IAO_0000124)"
 
 LIT = r'"((?:[^"\\]|\\.)*)"'
 ACR = 'AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:{} "{}")'
@@ -106,7 +118,7 @@ def parse(text):
         term(m.group(1))["notes"].append(unesc(m.group(2)))
     for m in re.finditer(r'AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) "true"', text):
         term(m.group(1))["dep"] = True
-    for m in re.finditer(r"^ClassAssertion\(coho:(COHO_\d+) coho:(COHO_\d+)\)", text, re.M):
+    for m in re.finditer(r"^ClassAssertion\(coho:(COHO_\d+|TEMP_temporary_unclassified) coho:(COHO_\d+)\)", text, re.M):
         term(m.group(2))["types"].append(m.group(1))
     return terms
 
@@ -143,7 +155,7 @@ def main():
     top = max(int(c.split("_")[1]) for c in T)
     new = []
     for x in todo:
-        if x["verdict"] in MINT and not x["COHO ID"] and not x["same as"]:
+        if x["verdict"] in NEWV and not x["COHO ID"] and not x["same as"]:
             top += 1
             x["_id"] = "COHO:%07d" % top
             new.append(x)
@@ -162,7 +174,7 @@ def main():
             if local(ref) not in live:
                 problems.append(f"{ref} is not a live COHO term")
             return ref
-        pool = [y for y in rows if y is not exclude and y["verdict"] in MINT + ("existing",) and not y["same as"]]
+        pool = [y for y in rows if y is not exclude and y["verdict"] in NEWV + ("existing",) and not y["same as"]]
         c = ([y for y in pool if y["PGS id"] == ref] or [y for y in pool if y["label"] == ref]
              or [y for y in pool if ref in split(y["acronym synonyms"])])
         ids = {idof(y) for y in c}
@@ -176,7 +188,7 @@ def main():
     live_labels = {norm(T[c]["label"]): c for c in live}
     for x in new:
         n = x["_n"]
-        want = "cohort aggregation" if x["verdict"] == "mint aggregation" else "cohort"
+        want = {"mint aggregation": "cohort aggregation", PLACEHOLDER: "unclassified"}.get(x["verdict"], "cohort")
         if x["type"] != want:
             problems.append(f"row {n}: type {x['type']!r} does not agree with verdict {x['verdict']!r}")
         if not x["label"]:
@@ -185,6 +197,8 @@ def main():
             problems.append(f"row {n}: label {x['label']!r} is used by another row to mint")
         elif norm(x["label"]) in live_labels:
             problems.append(f"row {n}: label {x['label']!r} is already {curie(live_labels[norm(x['label'])])}")
+        if x["verdict"] == PLACEHOLDER:
+            continue
         if not (x["definition"] and x["definition source"] and x["drafted by"]):
             problems.append(f"row {n}: definition, its source and its drafter are all needed")
         if not (x["example study"] or x["example PMID"]):
@@ -225,7 +239,7 @@ def main():
             add(lst, x["label"], s, False)
         names[local(x["_id"])] = lst
     for x in todo:
-        if x["verdict"] not in MINT + ("existing",):
+        if x["verdict"] not in NEWV + ("existing",):
             continue
         if x["same as"]:
             tid = x.get("_target")
@@ -330,8 +344,11 @@ def main():
         b = [f"# Individual: coho:{c} ({x['label']})", ""]
         b += [synline(c, s, acr) for s, acr in names[c] if acr] + [synline(c, s, acr) for s, acr in names[c] if not acr]
         b += [NOTE.format(c, esc(n)) for n in notes.get(c, [])]
+        if x["verdict"] == PLACEHOLDER:
+            b.append(UNCURATED.format(c))
         b.append(f'AnnotationAssertion(rdfs:label coho:{c} "{esc(x["label"])}"@en)')
-        b.append(f"ClassAssertion(coho:{AGGREGATION if x['type'] == 'cohort aggregation' else COHORT} coho:{c})")
+        typ = {"cohort aggregation": AGGREGATION, "unclassified": UNCLASSIFIED}.get(x["type"], COHORT)
+        b.append(f"ClassAssertion(coho:{typ} coho:{c})")
         b += [SUB.format(esc(q), esc(u), c, p) for q, u, p in subs.get(c, [])]
         blocks.append("\n".join(b) + "\n")
     text2 = "\n".join(out)
@@ -343,12 +360,15 @@ def main():
 
     # --- curated files
     prov = a.provenance
-    ex, tit, de, lo, gw, am = [], [], [], [], [], []
+    ex, tit, de, lo, gw, am, pg = [], [], [], [], [], [], []
     titles = {r["PMID"] for r in csv.DictReader(open(CUR / "example_studies_titles.tsv", encoding="utf-8"), delimiter="\t")}
     subset = {l.split(",")[0] for l in open(GWAS_SUBSET, encoding="utf-8")}
     unquoted = []
     for x in new:
         i = x["_id"]
+        if x["verdict"] == PLACEHOLDER:
+            pg.append([i, "owl:NamedIndividual", "http://www.ebi.ac.uk/coho#PGS_subset", x["label"]])
+            continue
         note = f"minted {a.date} from {prov}"
         if not x["example quote"]:
             note += "; no quote: the paper could not be read (see the review's note)"
@@ -385,12 +405,12 @@ def main():
         v = x.get("_id") or (x.get("_target") if not x["COHO ID"] else None)
         if v:
             f[ci] = v; nid += 1
-        t = idof(x) if x["verdict"] in MINT + ("existing",) else None
+        t = idof(x) if x["verdict"] in NEWV + ("existing",) else None
         if t and local(t) in clashes:
             f[cc] = "|".join(clashes[local(t)])
         L[x["_n"]] = "\t".join(f)
 
-    print(f"new terms {len(new)} ({new[0]['_id']}–{new[-1]['_id']})" if new else "new terms 0")
+    print(f"new terms {len(new)} ({new[0]['_id']}–{new[-1]['_id']}), of which placeholders {len(pg)}" if new else "new terms 0")
     print(f"names added to existing terms {sum(len(v) for v in added.values())} on {len(added)} terms; "
           f"editor notes {sum(len(v) for v in notes.values())} new, {nrew} rewritten; "
           f"isSubCohortOf {sum(len(v) for v in subs.values())}; memberships {len(am)}")
@@ -402,7 +422,7 @@ def main():
     EDIT.write_text(text2, encoding="utf-8")
     for path, rs, delim in ((CUR / "example_studies_curated.tsv", ex, "\t"), (CUR / "example_studies_titles.tsv", tit, "\t"),
                             (CUR / "definitions_curated.tsv", de, "\t"), (CUR / "location_curated.tsv", lo, "\t"),
-                            (CUR / "aggregation_members_curated.tsv", am, "\t"), (GWAS_SUBSET, gw, ",")):
+                            (CUR / "aggregation_members_curated.tsv", am, "\t"), (GWAS_SUBSET, gw, ","), (PGS_SUBSET, pg, ",")):
         if rs:
             t = path.read_text(encoding="utf-8")
             path.write_text(t + ("" if t.endswith("\n") else "\n") + rows_to_text(rs, delim), encoding="utf-8")
