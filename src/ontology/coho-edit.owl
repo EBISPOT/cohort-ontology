@@ -35,6 +35,7 @@ Annotation(dcterms:description "A lightweight ontology for the consistent identi
 Annotation(dcterms:license <http://www.apache.org/licenses/LICENSE-2.0>)
 Annotation(dcterms:title "Cohort Ontology")
 Annotation(doap:bug-database <https://github.com/EBISPOT/cohort-ontology/issues>)
+Annotation(dcterms:hasFormat <https://raw.githubusercontent.com/EBISPOT/cohort-ontology/main/coho-cohorts.csv>)
 Annotation(foaf:depiction <https://raw.githubusercontent.com/EBISPOT/cohort-ontology/main/docs/images/cohort-map.svg>)
 Annotation(foaf:homepage <https://github.com/EBISPOT/cohort-ontology>)
 
