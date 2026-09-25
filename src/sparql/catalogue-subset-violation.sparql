@@ -1,0 +1,36 @@
+# A cohort is in a catalogue subset because the catalogue lists it, so the term
+# must carry the evidence of the listing. In the GEC subset (the Global Exposome
+# Cohort Catalogue) that is a cross-reference to the cohort's entry in the
+# catalogue, and every term with such a cross-reference is in the subset. In the
+# IHCC subset (the IHCC Cohort Atlas) it is membership of the International
+# Health Cohorts Consortium (COHO:0002701), whose directory the atlas is.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX cohosubset: <http://www.ebi.ac.uk/coho#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?label ?subset
+WHERE {
+  {
+    ?term oboInOwl:inSubset cohosubset:GEC_subset .
+    BIND(cohosubset:GEC_subset AS ?subset)
+    FILTER NOT EXISTS {
+      ?term oboInOwl:hasDbXref ?xref .
+      FILTER(STRSTARTS(STR(?xref), "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/"))
+    }
+  } UNION {
+    ?term oboInOwl:hasDbXref ?xref .
+    FILTER(STRSTARTS(STR(?xref), "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/"))
+    BIND(cohosubset:GEC_subset AS ?subset)
+    FILTER NOT EXISTS { ?term oboInOwl:inSubset cohosubset:GEC_subset }
+  } UNION {
+    ?term oboInOwl:inSubset cohosubset:IHCC_subset .
+    BIND(cohosubset:IHCC_subset AS ?subset)
+    FILTER NOT EXISTS { coho:COHO_0002701 coho:hasCohort ?term }
+  }
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+}
+ORDER BY ?term ?subset

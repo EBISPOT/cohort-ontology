@@ -15,7 +15,9 @@ Prefix(doap:=<http://usefulinc.com/ns/doap#>)
 
 Ontology(<http://purl.obolibrary.org/obo/coho.owl>
 Import(<http://www.ebi.ac.uk/coho/components/EGA.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/GEC.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/GWAS.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/IHCC.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/MetaboLight.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/PGS.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/PRIDE.owl>)
@@ -2783,6 +2785,8 @@ Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GWAS_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PGS_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#MetaboLight_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PRIDE_subset>))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GEC_subset>))
+Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#IHCC_subset>))
 Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
 ############################
 #   Annotation Properties
@@ -2817,6 +2821,18 @@ SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#MetaboLight_subset> oboInOwl:
 AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#PRIDE_subset> "The cohorts that datasets in the PRIDE proteomics archive draw on."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#PRIDE_subset> "PRIDE_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#PRIDE_subset> oboInOwl:SubsetProperty)
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#GEC_subset> (GEC_subset)
+
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#GEC_subset> "The cohorts listed in the Global Exposome Cohort Catalogue, the Global Exposome Cohorts network of the MOLGENIS catalogue."@en)
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#GEC_subset> "GEC_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#GEC_subset> oboInOwl:SubsetProperty)
+
+# Annotation Property: <http://www.ebi.ac.uk/coho#IHCC_subset> (IHCC_subset)
+
+AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#IHCC_subset> "The cohorts listed in the IHCC Cohort Atlas, the International Health Cohorts Consortium's directory of its member cohorts."@en)
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#IHCC_subset> "IHCC_subset")
+SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#IHCC_subset> oboInOwl:SubsetProperty)
 
 
 ############################
@@ -2914,6 +2930,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000006 "AWI-Gen, University of the Witwatersrand, Johannesburg")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000006 "Africa Wits-INDEPTH Partnership for Genomic Studies")
 AnnotationAssertion(rdfs:label coho:COHO_0000006 "Africa Wits-INDEPTH partnership for Genomics studies"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000006 <https://www.wits.ac.za/research/sbimb/research/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000006)
 
 # Individual: coho:COHO_0000007 (Arthritis Research UK Osteoarthritis Genetics)
@@ -2976,6 +2993,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000015)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000016 "ALSPAC")
 AnnotationAssertion(rdfs:label coho:COHO_0000016 "Avon Longitudinal Study of Parents and Children"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000016 <http://www.bristol.ac.uk/alspac/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000016 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/ALSPAC")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000016)
 
@@ -3169,6 +3187,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000045 "KORA - Cooperative Health Research in the Region Augsburg")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000045 "KORA - Kooperative Gesundheitsforschung in der Region Augsburg")
 AnnotationAssertion(rdfs:label coho:COHO_0000045 "Cooperative Health Research in the Region of Augsburg"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000045 <https://www.helmholtz-munich.de/en/epi/cohort/kora>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000045 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/KORA")
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000045)
 
@@ -3298,6 +3317,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000064 "EBB")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000064 "EST-Biobank")
 AnnotationAssertion(rdfs:label coho:COHO_0000064 "Estonian Biobank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000064 <https://genomics.ut.ee/en/content/estonian-biobank>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000064 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/EST-Biobank")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000064)
 
@@ -3308,6 +3328,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000065 "European Prospective Investigation into Cancer and Nutrition")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000065 "European Investigation of Cancer and Nutrition (EPIC)")
 AnnotationAssertion(rdfs:label coho:COHO_0000065 "European Prospective Investigation into Cancer"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000065 <http://epic.iarc.fr/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000065 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/EPIC-EUROPE")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000065)
 
@@ -3545,6 +3566,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000099)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000100 "INMA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000100 "INfancia y Medio Ambiente [Environment and Childhood] Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000100 "INfancia y Medio Ambiente Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000100 <https://www.proyectoinma.org>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000100 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/INMA")
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000100)
 
@@ -3685,6 +3707,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000121 "Multiethnic Cohort (MEC) Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000121 "Multiethnic Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000121 "Multiethnic Cohort Study of Diet and Health"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000121 <https://www.uhcancercenter.org/mec>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000121)
 
 # Individual: coho:COHO_0000122 (Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis)
@@ -3709,6 +3732,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000124)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000125 "NTR")
 AnnotationAssertion(rdfs:label coho:COHO_0000125 "Netherlands Twin Registry"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000125 <https://tweelingenregister.vu.nl/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000125)
 
 # Individual: coho:COHO_0000126 (New England-based Case-Control Study of Ovarian Cancer)
@@ -3751,6 +3775,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000131 "The Norwegian Mother, Father and Child Cohort Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000131 "Norwegian Mother and Child Cohort Study (MoBa)")
 AnnotationAssertion(rdfs:label coho:COHO_0000131 "Norwegian Mother and Child Cohort study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000131 <https://www.fhi.no/en/studies/moba/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000131 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/MoBa")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000131)
 
@@ -3809,6 +3834,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000139)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000140 "PANIC")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000140 "Physical Activity and Nutrition In Children")
 AnnotationAssertion(rdfs:label coho:COHO_0000140 "Physical Activity and Nutrition in Children Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000140 <https://www.panicstudy.fi/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000140 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/PANIC")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000140)
 
@@ -4042,6 +4068,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000176 "UK")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000176 "United Kingdom Biobank")
 AnnotationAssertion(rdfs:label coho:COHO_0000176 "UK Biobank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000176 <https://www.ukbiobank.ac.uk/>)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000176 <http://www.ukbiobank.ac.uk/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000176 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/UK%20Biobank")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000176)
 
@@ -4248,6 +4276,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000206 "Genomics Engla
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000206 "Genomics England 100,000 Genomes Project")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000206 "Genomics England / 100,000 Genomes Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000206 "100,000 Genomes Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000206 <https://www.genomicsengland.co.uk/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000206)
 
 # Individual: coho:COHO_0000207 (1958 British Birth Cohort)
@@ -4264,6 +4293,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000207 "1958 Birth coh
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000207 "British 1958 birth cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000207 "1958 British birth cohort (National Child Development Study (NCDS))")
 AnnotationAssertion(rdfs:label coho:COHO_0000207 "1958 British Birth Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000207 <https://cls.ucl.ac.uk/cls-studies/1958-national-child-development-study/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000207 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NCDS")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000207)
 
@@ -4387,6 +4417,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000225)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000226 "BiB")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000226 "BIB")
 AnnotationAssertion(rdfs:label coho:COHO_0000226 "Born in Bradford"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000226 <https://borninbradford.nhs.uk/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000226 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/BIB")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000226)
 
@@ -4513,6 +4544,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000244 "Genes & Health
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000244 "Genes and Health")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000244 "G&H")
 AnnotationAssertion(rdfs:label coho:COHO_0000244 "East London Genes and Health"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000244 <http://www.genesandhealth.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000244)
 
 # Individual: coho:COHO_0000245 (Egyptian Collaborative Cardiac Genomics Project)
@@ -4566,6 +4598,7 @@ ObjectPropertyAssertion(Annotation(rdfs:comment "As part of the Estonian Biobank
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000252 "EDEN")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000252 "Study on the pre and early postnatal determinants of child health and development")
 AnnotationAssertion(rdfs:label coho:COHO_0000252 "Etude des Déterminants pré et postnatals précoces du développement et de la santé de l'Enfant"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000252 <http://eden.vjf.inserm.fr/en/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000252 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/EDEN")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000252)
 
@@ -5064,6 +5097,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000324 "PIAMA birth cohort")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000324 "PULMOLINES - PIAMA")
 AnnotationAssertion(rdfs:label coho:COHO_0000324 "Prevention and Incidence of Asthma and Mite Allergy"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000324 <https://piama.iras.uu.nl>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000324 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/PIAMA")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000324)
 
@@ -5402,6 +5436,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000370)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000371 "MVP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000371 "VA Million Veteran Program")
 AnnotationAssertion(rdfs:label coho:COHO_0000371 "Million Veteran Program"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000371 <https://www.mvp.va.gov/webapp/mvp-web-participant/#/public>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000371)
 
 # Individual: coho:COHO_0000372 (Chinese Imaging Genetics study)
@@ -5453,6 +5488,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000377 "The acronym RIKEN also denotes RIKEN Study (COHO:0000575) and RIKEN cohort (COHO:0000576); this term is BioBank Japan."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000377 "Biobank Japan")
 AnnotationAssertion(rdfs:label coho:COHO_0000377 "BioBank Japan"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000377 <https://biobankjp.org/english/index.html>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000377)
 
 # Individual: coho:COHO_0000378 (Age, Gene/Environment Susceptibility-Reykjavik Study)
@@ -5572,6 +5608,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000389)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000390 "SIMPLER")
 AnnotationAssertion(rdfs:label coho:COHO_0000390 "Swedish Infrastructure for Medical Population-Based Life-Course and Environmental Research"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000390 <https://www.simpler4health.se/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000390)
 
 # Individual: coho:COHO_0000391 (Swedish CArdioPulmonary bioImage Study)
@@ -5736,6 +5773,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000409 "Womens Health Initiative")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000409 "WHI (Women's Health Initiative)")
 AnnotationAssertion(rdfs:label coho:COHO_0000409 "Women's Health Initiative"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000409 <https://www.whi.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000409)
 
 # Individual: coho:COHO_0000410 (Study of Health in Pomerania-TREND)
@@ -5760,6 +5798,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000411 "Korea Biobank 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000411 "Korean Biobank Array")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000411 "Korean Genome and Epidemiology Study (KoGES)")
 AnnotationAssertion(rdfs:label coho:COHO_0000411 "Korean Genome and Epidemiology Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000411 <http://www.cdc.go.kr/contents.es?mid=a50401010100>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000411)
 
 # Individual: coho:COHO_0000412 (Netherlands Epidemiology of Obesity Study)
@@ -5815,6 +5854,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000417 "Nashville Biosciences")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000417 "BioVU Vanderbilt")
 AnnotationAssertion(rdfs:label coho:COHO_0000417 "BioVU"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000417 <https://victr.vumc.org/biovu-description/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000417)
 
 # Individual: coho:COHO_0000418 (Southall and Brent Revisited)
@@ -5852,6 +5892,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000422 "KSCDC")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000422 "Kadoorie Study of Chronic Disease in China")
 AnnotationAssertion(rdfs:label coho:COHO_0000422 "China Kadoorie Biobank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000422 <http://www.ckbiobank.org/site/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000422)
 
 # Individual: coho:COHO_0000423 (All of Us Research Program)
@@ -5864,6 +5905,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000423 "NIH All of Us 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000423 "Precision Medicine Initiative Cohort Program")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000423 "All of Us / NIH")
 AnnotationAssertion(rdfs:label coho:COHO_0000423 "All of Us Research Program"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000423 <https://allofus.nih.gov/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000423)
 
 # Individual: coho:COHO_0000424 (BioMe Biobank)
@@ -5991,6 +6033,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000435)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000436 "TWB")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000436 "Taiwan")
 AnnotationAssertion(rdfs:label coho:COHO_0000436 "Taiwan Biobank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000436 <https://www.twbiobank.org.tw/new_web/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000436)
 
 # Individual: coho:COHO_0000437 (GeneRISK study)
@@ -6073,6 +6116,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000446 "Generation R S
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000446 "GenR")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000446 "The Generation R Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000446 "Generation R Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000446 <https://generationr.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000446 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/GenR")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000446)
 
@@ -6098,6 +6142,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000448 "MyCode Health 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000448 "Geisinger Medical Center")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000448 "Geisinger Cohort - MyCode Community Health Initiative")
 AnnotationAssertion(rdfs:label coho:COHO_0000448 "MyCode Community Health Initiative"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000448 <https://www.geisinger.org/mycode>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000448)
 
 # Individual: coho:COHO_0000449 (23andMe research cohort)
@@ -6107,6 +6152,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000449 "23andMe cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000449 "23andMe research participants")
 AnnotationAssertion(rdfs:label coho:COHO_0000449 "23andMe research cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000449 <https://research.23andme.com/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000449)
 
 # Individual: coho:COHO_0000450 (LIFE-Adult-Study)
@@ -6175,6 +6221,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Nurses' Health
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Harvard")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000456 "The acronym Harvard also denotes Mass General Brigham Biobank (COHO:0000383), Health Professionals Follow-up Study (COHO:0000527) and Nurses' Health Study II (COHO:0000619); this term is Nurses' Health Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000456 "Nurses' Health Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000456 <https://www.nurseshealthstudy.org>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000456)
 
 # Individual: coho:COHO_0000457 (Penn Medicine BioBank)
@@ -6290,6 +6337,7 @@ ObjectPropertyAssertion(Annotation(rdfs:comment "These phenotypes were collected
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000469 "QBB")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000469 "Qatar Biobank Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000469 "Qatar Biobank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000469 <https://www.qatarbiobank.org.qa>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000469)
 
 # Individual: coho:COHO_0000470 (Reykjavik Study)
@@ -6422,6 +6470,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000485 "Prostate, Lung, Colorectal and Ovarian Cancer Screening Trial")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000485 "PLCO Cancer Screening Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000485 "Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000485 <https://biometry.nci.nih.gov/cdas/studies/plco/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000485)
 
 # Individual: coho:COHO_0000486 (Korean Cancer Prevention Study-II Biobank)
@@ -6449,6 +6498,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000487)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000488 "BHP")
 AnnotationAssertion(rdfs:label coho:COHO_0000488 "Bandim Health Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000488 <https://www.bandim.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000488)
 
 # Individual: coho:COHO_0000489 (Center for Applied Genomics Biobank)
@@ -6714,6 +6764,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000520 "Mexico City Prospective Cohort")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000520 "National Autonomous University of Mexico")
 AnnotationAssertion(rdfs:label coho:COHO_0000520 "Mexico City Prospective Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000520 <https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000520)
 
 # Individual: coho:COHO_0000521 (Airwave Health Monitoring Study)
@@ -6832,6 +6883,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000533 "The Tonhoku Me
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000533 "Tohoku University, Tohoku Medical Megabank Organization")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000533 "Tohoku University Tohoku Medical Megabank Organization")
 AnnotationAssertion(rdfs:label coho:COHO_0000533 "Tohoku Medical Megabank Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000533 <http://www.megabank.tohoku.ac.jp/english/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000533)
 
 # Individual: coho:COHO_0000534 (Fred Hutchinson Prostate Cancer Study)
@@ -6912,6 +6964,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000541 "Kaiser Permane
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000541 "The acronym KP also denotes Genetic Epidemiology Research on Adult Health and Aging (COHO:0000431); this term is Kaiser Permanente Research Bank."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000541 "Kaiser Permanente Research Bank (KPRB)")
 AnnotationAssertion(rdfs:label coho:COHO_0000541 "Kaiser Permanente Research Bank"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000541 <https://researchbank.kaiserpermanente.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000541)
 
 # Individual: coho:COHO_0000542 (Minnesota Center for Twin and Family Research)
@@ -6938,6 +6991,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000544 "Rotterdam Study, first cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000544 "first cohort of the Rotterdam Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000544 "Rotterdam Study I"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000544 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000544 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS1")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000544)
 ObjectPropertyAssertion(Annotation(rdfs:comment "The Rotterdam Study (RS) is a prospective, population-based cohort study of determinants of chronic diseases in older adults (7). The first cohort (RS-I) started in 1990 and included 7,983 inhabitants, aged ≥55 years from Ommoord, a suburb of Rotterdam in the Netherlands.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7944992/fullTextXML") coho:isSubCohortOf coho:COHO_0000544 coho:COHO_0000148)
@@ -7607,6 +7661,7 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000619 "The acronym Harvard also 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000619 "NHSII (Nurses' Health Study II, NCI)")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000619 "Nurses' Health Study II, NCI")
 AnnotationAssertion(rdfs:label coho:COHO_0000619 "Nurses' Health Study II"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000619 <https://www.nurseshealthstudy.org>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000619)
 
 # Individual: coho:COHO_0000620 (National Institute on Alcohol Abuse and Alcoholism cohort)
@@ -8711,6 +8766,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000748 "The Danish National Birth Cohort")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000748 "Danish National Birth Cohort/Statens Serum Institut")
 AnnotationAssertion(rdfs:label coho:COHO_0000748 "Danish National Birth Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000748 <https://www.dnbc.dk>)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000748 <https://www.dnbc.dk/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000748 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/DNBC")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000748)
 
@@ -8822,6 +8879,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000759)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000760 "NFBC1986")
 AnnotationAssertion(rdfs:label coho:COHO_0000760 "Northern Finland Birth Cohort 1986"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000760 <https://www.oulu.fi/nfbc>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000760 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NFBC1986")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000760)
 
@@ -9015,6 +9073,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000783 "Japan Public H
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000783 "JPHC Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000783 "Japan Public Health Center-based Prospective Study on Cancer and Cardiovascular Diseases")
 AnnotationAssertion(rdfs:label coho:COHO_0000783 "Japan Public Health Center-based Prospective Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000783 <http://epi.ncc.go.jp/en/jphc/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000783)
 
 # Individual: coho:COHO_0000784 (MEGASTROKE consortium)
@@ -9547,6 +9606,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000843 "Pakistan Genom
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000843 "Pakistan Genome Resource")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000843 "Pakistan Genomic Resource (PGR)")
 AnnotationAssertion(rdfs:label coho:COHO_0000843 "Pakistan Genomic Resource"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000843 <https://www.cncdpk.com/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000843)
 
 # Individual: coho:COHO_0000844 (Pharmacogenetics of Nicotine Addiction Treatment)
@@ -9686,6 +9746,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000860 "CPTP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000860 "Canadian Partnership for Tomorrow Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000860 "Canadian Partnership for Tomorrow's Health"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000860 <https://canpath.ca/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000860)
 
 # Individual: coho:COHO_0000861 (DeCOI cohort)
@@ -9918,6 +9979,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000888 "Rotterdam Study, second cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000888 "second cohort of the Rotterdam Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000888 "Rotterdam Study II"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000888 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000888 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS2")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000888)
 ObjectPropertyAssertion(Annotation(rdfs:comment "In 2000, the RS was extended with a second subcohort (RS-II) of 3011 participants who moved to Ommoord or turned 55 years old.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12188677/fullTextXML") coho:isSubCohortOf coho:COHO_0000888 coho:COHO_0000148)
@@ -10072,6 +10134,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000906 "Doetinchem Coh
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000906 "The acronym DCS also denotes Hoorn Diabetes Care System (COHO:0000092); this term is Doetinchem Cohort Study."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000906 "Doetinchem Cohort Studie")
 AnnotationAssertion(rdfs:label coho:COHO_0000906 "Doetinchem Cohort Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000906 <https://rivm.nl/doetinchem-cohort-studie>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000906 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/DCS")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000906)
 
@@ -10380,6 +10443,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000942 "Generations St
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000942 "UK Breakthrough Generations Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000942 "BGS")
 AnnotationAssertion(rdfs:label coho:COHO_0000942 "Breakthrough Generations Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0000942 <http://www.breakthroughgenerations.org.uk/home>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000942)
 
 # Individual: coho:COHO_0000943 (DiaGene Study)
@@ -12646,6 +12710,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001213 "Northern Finland birth cohort 1966")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001213 "Northern Finland Premature Birth Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001213 "Northern Finland Birth Cohort 1966"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001213 <https://www.oulu.fi/nfbc>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0001213 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NFBC1966")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001213)
 
@@ -13524,6 +13589,7 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001320 "The acronym ELSA also den
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001320 "ELSA Brazil")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001320 "Brazilian Longitudinal Study of Adult Health (ELSA)")
 AnnotationAssertion(rdfs:label coho:COHO_0001320 "Estudo Longitudinal de Saúde do Adulto"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001320 <http://www.elsa.org.br/oelsabrasil.html>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0001320 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/ELSA%20Brazil")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001320)
 
@@ -14273,6 +14339,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001408 "Shanghai Men and Women's Health Studies")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001408 "Shanghai Men and Women's Health Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001408 "Shanghai Women's and Men's Health Studies"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001408 <https://swhs-smhs.app.vumc.org/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0001408)
 
 # Individual: coho:COHO_0001409 (Swedish National Myeloma Biobank)
@@ -14629,6 +14696,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001451 "Amsterdam-Born
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001451 "The acronym ABCD also denotes Adolescent Brain Cognitive Development Study (COHO:0000545); this term is Amsterdam Born Children and their Development."@en)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001451 "The Amsterdam Born Children and their Development Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001451 "Amsterdam Born Children and their Development"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001451 <http://www.abcd-studie.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0001451 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/ABCD")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001451)
 
@@ -16234,6 +16302,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001636 obo:IAO_0000124)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001636 "California Teachers Study (CTS)")
 AnnotationAssertion(rdfs:label coho:COHO_0001636 "California Teachers Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001636 <https://www.calteachersstudy.org/>)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001636)
 
 # Individual: coho:COHO_0001637 (Chinese University of Hong Kong Diabetes Study)
@@ -17901,6 +17970,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001869 obo:IAO_0000124)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001869 "Healthy Nevada")
 AnnotationAssertion(rdfs:label coho:COHO_0001869 "Healthy Nevada Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0001869 <https://Healthynv.org>)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001869)
 
 # Individual: coho:COHO_0001870 (Hawaii Ovarian Cancer Study)
@@ -23055,6 +23125,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002597 "Mine Indkøb")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002597 "My Purchases")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002597 "My purchases cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002597 "My Purchases cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002597 <https://mineindkob.ssi.dk/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002597 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/CON")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002597)
 
@@ -23073,6 +23144,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002599 "Cervical Scree
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002599 "Cervical screening cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002599 "Swedish cervical screening cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002599 "Swedish Cervical Screening Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002599 <https://nkcx.se>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002599 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/CSC")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002599)
 
@@ -23084,6 +23156,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002600 "Dutch famine b
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002600 "Dutch famine birth cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002600 "Dutch Famine Birth Cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0002600 "Dutch Famine Birth Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002600 <https://www.hongerwinter.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002600 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/DFBC")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002600)
 
@@ -23108,6 +23181,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002602 "French nationa
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002602 "ELFE cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002602 "Etude Longitudinale Française depuis l'Enfance\"  (French longitudinal study of children)")
 AnnotationAssertion(rdfs:label coho:COHO_0002602 "Étude Longitudinale Française depuis l'Enfance"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002602 <https://www.elfe-france.fr/en/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002602 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/ELFE")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002602)
 
@@ -23118,6 +23192,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002603 "Limburgs Geboo
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002603 "Environmental Influence on Early Aging")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002603 "Environmental Influence on Ageing in Early Life")
 AnnotationAssertion(rdfs:label coho:COHO_0002603 "ENVIRonmental influence ON early AGEing"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002603 <https://limburgsgeboortecohort.be/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002603 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/ENVIRONAGE")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002603)
 
@@ -23128,6 +23203,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002604 "HPV vaccinatio
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002604 "HPV-Rokotiitus")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002604 "NCT00534638")
 AnnotationAssertion(rdfs:label coho:COHO_0002604 "Finnish HPV vaccination cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002604 <https://projects.tuni.fi/hpv-rokotiitus/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002604 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/HPV")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002604)
 
@@ -23143,6 +23219,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002605 "NINFEA study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002605 "Progetto NINFEA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002605 "NINFEA project")
 AnnotationAssertion(rdfs:label coho:COHO_0002605 "Nascita e INFanzia: gli Effetti dell'Ambiente"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002605 <https://www.progettoninfea.it/index_en>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002605 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NINFEA")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002605)
 
@@ -23156,6 +23233,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002606 "Rhea cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002606 "Rhea pregnancy cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002606 "Rhea project")
 AnnotationAssertion(rdfs:label coho:COHO_0002606 "Rhea Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002606 <http://www.rhea.gr/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002606 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RHEA")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002606)
 
@@ -23168,6 +23246,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002607 "Rotterdam Study, third cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002607 "third cohort of the Rotterdam Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002607 "Rotterdam Study III"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002607 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002607 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS3")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002607)
 ObjectPropertyAssertion(Annotation(rdfs:comment "RS-III; third cohort of the Rotterdam Study") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7250962/fullTextXML") coho:isSubCohortOf coho:COHO_0002607 coho:COHO_0000148)
@@ -23183,6 +23262,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002608 "SEPAGES couple
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002608 "SEPAGES mother-child cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002608 "SEPAGES cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002608 "Suivi de l'Exposition à la Pollution Atmosphérique durant la Grossesse et Effets sur la Santé"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002608 <https://cohorte-sepages.fr/en>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002608 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/Sepages")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002608)
 
@@ -23205,6 +23285,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002610 "Maternity cohort")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002610 "Finnish Maternity Cohort Serum Bank")
 AnnotationAssertion(rdfs:label coho:COHO_0002610 "Finnish Maternity Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002610 <https://www.ppshp.fi/Tutkimus-ja-opetus/Biopankki/Pages/default.aspx>)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002610 <http://esis.fi/description/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002610 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/MAT")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002610)
 
@@ -23237,6 +23319,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002613 "Generation R Next")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002613 "Generation R Next - Optimaal Opgroeien")
 AnnotationAssertion(rdfs:label coho:COHO_0002613 "Generation R Next Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002613 <https://generationr.nl/next>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002613 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/GenR%20Next")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002613)
 
@@ -23248,6 +23331,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002614 "Keskosina synt
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002614 "NORDCAP study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002614 "NORDCAP project")
 AnnotationAssertion(rdfs:label coho:COHO_0002614 "Nordic Children and Adults Born Preterm"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002614 <https://www.oulu.fi/en/projects/nordic-children-and-adults-born-preterm-nordcap>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002614 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NORDCAP")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002614)
 
@@ -23279,6 +23363,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002617 "British Births Survey")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002617 "1970 British birth cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002617 "1970 British Cohort Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002617 <https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002617 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/BCS%201970")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002617)
 
@@ -23301,6 +23386,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002619 "Fat quality on
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002619 "Effect of fat quality on blood lipids and immune response")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002619 "NOMA study")
 AnnotationAssertion(rdfs:label coho:COHO_0002619 "NoMa study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002619 <https://www.med.uio.no/imb/english/research/projects/noma/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002619 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/NOMA")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002619)
 
@@ -23361,6 +23447,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002624 "Cohorte des Co
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002624 "CONSTANCES cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002624 "French CONSTANCES population-based cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002624 "Constances"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002624 <https://www.constances.fr/>)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002624 <http://www.constances.fr/index_EN.php>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002624 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/CONSTANCES")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002624)
 
@@ -23411,6 +23499,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002629 "Perturbateurs 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002629 "PELAGIE mother-child cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002629 "PELAGIE birth cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002629 "Perturbateurs Endocriniens: Étude Longitudinale sur les Anomalies de la Grossesse, l’Infertilité et l’Enfance"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002629 <http://www.pelagie-inserm.fr/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002629 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/PELAGIE")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002629)
 
@@ -23422,6 +23511,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002630 "Geração XXI"
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002630 "Geração 21")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002630 "Generation XXI birth cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002630 "Generation XXI"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002630 <http://www.geracao21.com/pt/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002630 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/G21")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002630)
 
@@ -23434,6 +23524,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002631 "Progetto Moli-
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002631 "Moli-sani cohort study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002631 "MOLI-SANI Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002631 "Moli-sani Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002631 <https://www.moli-sani.org/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002631 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/Moli-sani")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002631)
 
@@ -23445,6 +23536,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002632 "Central European Longitudinal Study of Parents and Children: The Next Generation")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002632 "The Next Generation")
 AnnotationAssertion(rdfs:label coho:COHO_0002632 "Central European Longitudinal Studies of Parents and Children: The Next Generation"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002632 <https://www.celspac.cz/tng>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002632 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/CELSPAC-TNG")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002632)
 
@@ -23646,6 +23738,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002651 "PROGRESS study
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002651 "PROGRESS cohort")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002651 "The acronym PROGRESS also denotes PSC Resource of Genetic Risk, Environment and Synergy Studies (COHO:0002284); this term is Programming Research in Obesity, Growth, Environment and Social Stressors."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002651 "Programming Research in Obesity, Growth, Environment and Social Stressors"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002651 <https://mountsinaiexposomics.org/progress/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002651 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/PROGRESS")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002651)
 
@@ -23694,6 +23787,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002655 "Maule Cohort S
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002655 "Maule cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002655 "MAUCO cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002655 "Maule Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002655 <https://www.mauco.org/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002655 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/MAUCO")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002655)
 
@@ -23867,6 +23961,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002670)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002671 "GCS")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002671 "Golestan cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0002671 "Golestan Cohort Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002671 <https://dceg2.cancer.gov/gemshare/studies/GCS/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002671)
 
 # Individual: coho:COHO_0002672 (Norwegian Family Based Life Course Study)
@@ -23884,11 +23979,13 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002673 "Chilean COVID-
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002673 "COVID-19 Genomics Network")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002673 "RED GENÓMICA COVID-19")
 AnnotationAssertion(rdfs:label coho:COHO_0002673 "Chilean COVID-19 Biorepository"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002673 <https://biobanco.uchile.cl/proyecto-c19-genonet-2/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002673)
 
 # Individual: coho:COHO_0002674 (Million Women Study)
 
 AnnotationAssertion(rdfs:label coho:COHO_0002674 "Million Women Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002674 <http://www.millionwomenstudy.org/introduction/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002674)
 
 # Individual: coho:COHO_0002675 (Saudi Biobank)
@@ -23908,6 +24005,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002676 "Prospective Ep
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002676 "PERSIAN Cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002676 "PERSIAN cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0002676 "Prospective Epidemiological Research Studies in Iran"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002676 <http://persiancohort.com>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002676)
 
 # Individual: coho:COHO_0002677 (Generation Victoria)
@@ -23915,6 +24013,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002676)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002677 "GenV")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002677 "Generation Victoria (GenV)")
 AnnotationAssertion(rdfs:label coho:COHO_0002677 "Generation Victoria"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002677 <https://genv.org.au//>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002677)
 
 # Individual: coho:COHO_0002678 (South Asia Biobank)
@@ -23930,6 +24029,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002679 "Dementias Platform UK Data Portal")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002679 "DPUK Data Portal")
 AnnotationAssertion(rdfs:label coho:COHO_0002679 "Dementias Platform UK"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002679 <https://portal.dementiasplatform.uk/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002679)
 
 # Individual: coho:COHO_0002680 (Iganga-Mayuge Health and Demographic Surveillance Site)
@@ -23943,6 +24043,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002680 "Iganga-Mayuge 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002680 "Iganga-Mayuge health and demographic surveillance site")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002680 "IMHDSS, Uganda")
 AnnotationAssertion(rdfs:label coho:COHO_0002680 "Iganga-Mayuge Health and Demographic Surveillance Site"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002680 <https://muchap.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002680)
 
 # Individual: coho:COHO_0002681 (HUNT4 70+)
@@ -23952,6 +24053,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002681 "HUNT4 70+ study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002681 "HUNT 70+ study")
 AnnotationAssertion(rdfs:label coho:COHO_0002681 "HUNT4 70+"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002681 <http://www.ntnu.edu/hunt>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002681)
 ObjectPropertyAssertion(Annotation(rdfs:comment "The fourth wave of the study, referred to as HUNT4, was conducted from 2017 to 2019. Within this wave, a sub-study, HUNT4 70+, focused on individuals aged 70 and older.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12678644/fullTextXML") coho:isSubCohortOf coho:COHO_0002681 coho:COHO_0000395)
 
@@ -23960,6 +24062,7 @@ ObjectPropertyAssertion(Annotation(rdfs:comment "The fourth wave of the study, r
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002682 "Coronagenes/University of Edinburgh")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002682 "Coronagenes study")
 AnnotationAssertion(rdfs:label coho:COHO_0002682 "Coronagenes"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002682 <https://www.ed.ac.uk/coronagenes/about/coronagenes-study>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002682)
 
 # Individual: coho:COHO_0002683 (German National Cohort)
@@ -23971,6 +24074,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002683 "NAKO Gesundhei
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002683 "NAKO Health Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002683 "German National Cohort health study")
 AnnotationAssertion(rdfs:label coho:COHO_0002683 "German National Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002683 <http://nako.de/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002683)
 
 # Individual: coho:COHO_0002684 (The Malaysian Cohort)
@@ -23980,6 +24084,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002684 "Malaysian Coho
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002684 "The Malaysian Cohort project")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002684 "The Malaysian Cohort Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002684 "The Malaysian Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002684 <http://www.ukm.my/mycohort/ms/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002684)
 
 # Individual: coho:COHO_0002685 (Cancer Prevention Study-3)
@@ -23990,6 +24095,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002685 "Cancer Prevention Study 3")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002685 "American Cancer Society's Cancer Prevention Study 3")
 AnnotationAssertion(rdfs:label coho:COHO_0002685 "Cancer Prevention Study-3"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002685 <https://www.cancer.org/research/cps3-cancer-prevention-study-3.html>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002685)
 
 # Individual: coho:COHO_0002686 (Personalized Environment and Genes Study)
@@ -24000,6 +24106,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002686 "Environmental Polymorphisms Registry")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002686 "Personalized Genes and Environment Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002686 "Personalized Environment and Genes Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002686 <https://www.niehs.nih.gov/research/clinical/studies/pegs/index.cfm>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002686)
 
 # Individual: coho:COHO_0002687 (Newfoundland and Labrador Genome Project)
@@ -24008,6 +24115,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002687 "Sequence Bio")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002687 "NL Genome Project")
 AnnotationAssertion(rdfs:label coho:COHO_0002687 "Newfoundland and Labrador Genome Project"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002687 <https://www.sequencebio.com/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002687)
 
 # Individual: coho:COHO_0002688 (UKCTOCS Longitudinal Women's Cohort)
@@ -24019,6 +24127,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002688 "United Kingdom
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002688 "UK Collaborative Trial of Ovarian Cancer Screening")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002688 "The acronym UKCTOCS also denotes UK Collaborative Trial of Ovarian Cancer Screening (COHO:0002501); this term is UKCTOCS Longitudinal Women's Cohort."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002688 "UKCTOCS Longitudinal Women's Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002688 <https://directory.biobankinguk.org/Profile/Biobank/GBR-1-123>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002688)
 
 # Individual: coho:COHO_0002689 (Kilifi Health and Demographic Surveillance System)
@@ -24026,6 +24135,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002688)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002689 "KHDSS")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002689 "KEMRI-Wellcome")
 AnnotationAssertion(rdfs:label coho:COHO_0002689 "Kilifi Health and Demographic Surveillance System"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002689 <https://www.kemri-wellcome.org/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002689)
 
 # Individual: coho:COHO_0002690 (Cancer Prevention Study II Nutrition Cohort)
@@ -24034,6 +24144,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "American Cance
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "Cancer Prevention Study-II Nutrition Cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "CPS-II Nutrition Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002690 "Cancer Prevention Study II Nutrition Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002690 <https://www.cancer.org/research/population-science/cancer-prevention-and-survivorship-research-team/acs-cancer-prevention-studies/cancer-prevention-study-2.html>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002690)
 ObjectPropertyAssertion(Annotation(rdfs:comment "Men and women in this study were participants in the CPS-II Nutrition Cohort, a subset of 1.2 million participants in the CPS-II Cohort (1982), who resided in 21 U.S. states when they were invited to enroll in the CPS-II Nutrition Cohort of incident cancer follow-up, beginning in 1992–1993") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8000483/fullTextXML") coho:isSubCohortOf coho:COHO_0002690 coho:COHO_0000024)
 
@@ -24048,6 +24159,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002691 "Environmental 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002691 "Environmental influences on Child Health Outcomes-wide Cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002691 "ECHO Cohort Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002691 "Environmental influences on Child Health Outcomes Cohort"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002691 <http://www.echochildren.org/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002691)
 
 # Individual: coho:COHO_0002692 (Japan Public Health Center-based Prospective Study for the Next Generation)
@@ -24057,6 +24169,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002692 "JPHC-NEXT Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002692 "JPHC Study for the Next Generation")
 AnnotationAssertion(rdfs:label coho:COHO_0002692 "Japan Public Health Center-based Prospective Study for the Next Generation"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002692 <http://epi.ncc.go.jp/en/jphc/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002692)
 
 # Individual: coho:COHO_0002693 (China Patient-centered Evaluative Assessment of Cardiac Events Million Persons Project)
@@ -24088,6 +24201,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002694 "Africa Centre 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002694 "ACDIS cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002694 "PIP cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002694 "Africa Centre Demographic Information System"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002694 <https://www.ahri.org>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002694)
 
 # Individual: coho:COHO_0002695 (LifeGene)
@@ -24097,6 +24211,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002695 "LifeGene cohor
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002695 "Swedish LifeGene cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002695 "LifeGene Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002695 "LifeGene"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002695 <https://lifegene.se/For-scientists/About-LifeGene/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002695)
 
 # Individual: coho:COHO_0002696 (SG100K)
@@ -24105,6 +24220,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002696 "PRECISE-SG100K
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002696 "SG100K cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002696 "SG100K population study")
 AnnotationAssertion(rdfs:label coho:COHO_0002696 "SG100K"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002696 <https://www.npm.sg/collaborate/partners/sg100k/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002696)
 
 # Individual: coho:COHO_0002697 (South African Population Research Infrastructure Network)
@@ -24113,6 +24229,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002697 "SAPRIN (South African Population Research Infrastructure Network)")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002697 "SAPRIN population cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002697 "South African Population Research Infrastructure Network"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002697 <http://saprin.mrc.ac.za/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002697)
 
 # Individual: coho:COHO_0002698 (Lifecourse biological pathways underlying social differences in healthy aging)
@@ -24124,6 +24241,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002698 "LIFEPATH Conso
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002698 "Lifepath Consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002698 "LIFEPATH project")
 AnnotationAssertion(rdfs:label coho:COHO_0002698 "Lifecourse biological pathways underlying social differences in healthy aging"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002698 <http://www.lifepathproject.eu/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002698)
 
 # Individual: coho:COHO_0002699 (Vorarlberg Health Monitoring and Prevention Programme)
@@ -24133,12 +24251,14 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002699 "Vorarlberg Hea
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002699 "Vorarlberg Health Monitoring and Promotion Program")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002699 "VHM&PP Study Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002699 "Vorarlberg Health Monitoring and Prevention Programme"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002699 <https://www.i-med.ac.at/msig/vhmpp.html>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002699)
 
 # Individual: coho:COHO_0002700 (45 and Up Study)
 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002700 "Sax Institute's 45 and Up Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002700 "45 and Up Study"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002700 <https://www.saxinstitute.org.au/our-work/45-up-study/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002700)
 
 # Individual: coho:COHO_0002701 (International Health Cohorts Consortium)
@@ -24149,6 +24269,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002701 "International 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002701 "International Hundred Thousand Plus Cohort Consortium")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002701 "The acronym IHCC also denotes International Hereditary Cancer Centre (COHO:0001909); this term is International Health Cohorts Consortium."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002701 "International Health Cohorts Consortium"@en)
+AnnotationAssertion(rdfs:seeAlso coho:COHO_0002701 <https://ihccglobal.org/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002701)
 
 SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:RO_0001025) coho:has_data_collection_location)

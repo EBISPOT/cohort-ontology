@@ -1,0 +1,79 @@
+ID,TYPE,subset,label
+ID,TYPE,AI oboInOwl:inSubset,
+COHO:0000006,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Africa Wits-INDEPTH partnership for Genomics studies
+COHO:0000064,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Estonian Biobank
+COHO:0000065,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,European Prospective Investigation into Cancer
+COHO:0000121,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Multiethnic Cohort Study of Diet and Health
+COHO:0000125,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Netherlands Twin Registry
+COHO:0000131,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Norwegian Mother and Child Cohort study
+COHO:0000176,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,UK Biobank
+COHO:0000206,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,"100,000 Genomes Project"
+COHO:0000244,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,East London Genes and Health
+COHO:0000345,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Uganda General Population Cohort
+COHO:0000371,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Million Veteran Program
+COHO:0000377,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,BioBank Japan
+COHO:0000390,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Swedish Infrastructure for Medical Population-Based Life-Course and Environmental Research
+COHO:0000394,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Qatar Genome Program
+COHO:0000409,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Women's Health Initiative
+COHO:0000411,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Korean Genome and Epidemiology Study
+COHO:0000417,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,BioVU
+COHO:0000422,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,China Kadoorie Biobank
+COHO:0000423,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,All of Us Research Program
+COHO:0000436,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Taiwan Biobank
+COHO:0000448,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,MyCode Community Health Initiative
+COHO:0000449,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,23andMe research cohort
+COHO:0000456,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Nurses' Health Study
+COHO:0000469,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Qatar Biobank
+COHO:0000485,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,"Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial"
+COHO:0000486,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Korean Cancer Prevention Study-II Biobank
+COHO:0000488,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Bandim Health Project
+COHO:0000489,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Center for Applied Genomics Biobank
+COHO:0000520,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Mexico City Prospective Study
+COHO:0000533,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Tohoku Medical Megabank Project
+COHO:0000541,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Kaiser Permanente Research Bank
+COHO:0000619,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Nurses' Health Study II
+COHO:0000748,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Danish National Birth Cohort
+COHO:0000783,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Japan Public Health Center-based Prospective Study
+COHO:0000843,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Pakistan Genomic Resource
+COHO:0000860,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Canadian Partnership for Tomorrow's Health
+COHO:0000926,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,National Biobank of Korea
+COHO:0000927,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Northern Sweden Health and Disease Study
+COHO:0000942,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Breakthrough Generations Study
+COHO:0001320,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Estudo Longitudinal de Saúde do Adulto
+COHO:0001408,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Shanghai Women's and Men's Health Studies
+COHO:0001636,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,California Teachers Study
+COHO:0001697,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Epidemiology for Health
+COHO:0001869,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Healthy Nevada Project
+COHO:0002610,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Finnish Maternity Cohort
+COHO:0002624,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Constances
+COHO:0002655,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Maule Cohort
+COHO:0002671,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Golestan Cohort Study
+COHO:0002672,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Norwegian Family Based Life Course Study
+COHO:0002673,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Chilean COVID-19 Biorepository
+COHO:0002674,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Million Women Study
+COHO:0002675,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Saudi Biobank
+COHO:0002676,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Prospective Epidemiological Research Studies in Iran
+COHO:0002677,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Generation Victoria
+COHO:0002678,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,South Asia Biobank
+COHO:0002679,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Dementias Platform UK
+COHO:0002680,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Iganga-Mayuge Health and Demographic Surveillance Site
+COHO:0002681,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,HUNT4 70+
+COHO:0002682,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Coronagenes
+COHO:0002683,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,German National Cohort
+COHO:0002684,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,The Malaysian Cohort
+COHO:0002685,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Cancer Prevention Study-3
+COHO:0002686,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Personalized Environment and Genes Study
+COHO:0002687,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Newfoundland and Labrador Genome Project
+COHO:0002688,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,UKCTOCS Longitudinal Women's Cohort
+COHO:0002689,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Kilifi Health and Demographic Surveillance System
+COHO:0002690,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Cancer Prevention Study II Nutrition Cohort
+COHO:0002691,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Environmental influences on Child Health Outcomes Cohort
+COHO:0002692,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Japan Public Health Center-based Prospective Study for the Next Generation
+COHO:0002693,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,China Patient-centered Evaluative Assessment of Cardiac Events Million Persons Project
+COHO:0002694,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Africa Centre Demographic Information System
+COHO:0002695,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,LifeGene
+COHO:0002696,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,SG100K
+COHO:0002697,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,South African Population Research Infrastructure Network
+COHO:0002698,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Lifecourse biological pathways underlying social differences in healthy aging
+COHO:0002699,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,Vorarlberg Health Monitoring and Prevention Programme
+COHO:0002700,owl:NamedIndividual,http://www.ebi.ac.uk/coho#IHCC_subset,45 and Up Study

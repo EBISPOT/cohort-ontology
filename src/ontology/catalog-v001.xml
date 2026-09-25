@@ -9,6 +9,8 @@
     <uri name="http://www.ebi.ac.uk/coho/components/PGS.owl" uri="components/PGS.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/MetaboLight.owl" uri="components/MetaboLight.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/EGA.owl" uri="components/EGA.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/GEC.owl" uri="components/GEC.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/IHCC.owl" uri="components/IHCC.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/locations.owl" uri="components/locations.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/aggregation_members.owl" uri="components/aggregation_members.owl" />

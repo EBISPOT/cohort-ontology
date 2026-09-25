@@ -1,0 +1,115 @@
+ID,TYPE,subset,label
+ID,TYPE,AI oboInOwl:inSubset,
+COHO:0000016,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Avon Longitudinal Study of Parents and Children
+COHO:0000037,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Children, Allergy, Milieu, Stockholm, Epidemiology"
+COHO:0000045,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Cooperative Health Research in the Region of Augsburg
+COHO:0000064,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Estonian Biobank
+COHO:0000065,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,European Prospective Investigation into Cancer
+COHO:0000074,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,GCAT Genomes for Life
+COHO:0000100,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,INfancia y Medio Ambiente Project
+COHO:0000108,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,LifeLines
+COHO:0000131,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Norwegian Mother and Child Cohort study
+COHO:0000140,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Physical Activity and Nutrition in Children Study
+COHO:0000176,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,UK Biobank
+COHO:0000204,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,The Health Effects of Arsenic Longitudinal Study
+COHO:0000207,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,1958 British Birth Cohort
+COHO:0000226,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Born in Bradford
+COHO:0000234,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,CHILD Cohort Study
+COHO:0000252,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Etude des Déterminants pré et postnatals précoces du développement et de la santé de l'Enfant
+COHO:0000265,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Health, Alcohol and Psychosocial factors In Eastern Europe study"
+COHO:0000324,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Prevention and Incidence of Asthma and Mite Allergy
+COHO:0000446,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Generation R Study
+COHO:0000521,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Airwave Health Monitoring Study
+COHO:0000544,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rotterdam Study I
+COHO:0000545,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Adolescent Brain Cognitive Development Study
+COHO:0000589,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Swiss Study on Air Pollution and Lung Diseases in Adults
+COHO:0000610,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Genetics and Epidemiology of Colorectal Cancer Consortium
+COHO:0000708,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,German Infant Study on the Influence of Nutrition Intervention plus Air pollution and Genetics on Allergy Development
+COHO:0000748,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Danish National Birth Cohort
+COHO:0000760,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Northern Finland Birth Cohort 1986
+COHO:0000801,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,UK Millennium Cohort Study
+COHO:0000827,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Human Early Life Exposome
+COHO:0000831,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Influence of Life-style factors on Development of the Immune System and Allergies in East and West Germany plus Air Pollution and Genetics on Allergy Development
+COHO:0000888,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rotterdam Study II
+COHO:0000891,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Finnish Gestational Diabetes Study
+COHO:0000906,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Doetinchem Cohort Study
+COHO:0001095,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Krakow stroke genetics study
+COHO:0001213,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Northern Finland Birth Cohort 1966
+COHO:0001320,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Estudo Longitudinal de Saúde do Adulto
+COHO:0001407,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Santiago Longitudinal Study
+COHO:0001451,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Amsterdam Born Children and their Development
+COHO:0002596,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Cardiovascular Effects of Air Pollution and Noise in Stockholm
+COHO:0002597,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,My Purchases cohort
+COHO:0002598,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Study on Transitions in Employment, Ability and Motivation"
+COHO:0002599,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Swedish Cervical Screening Cohort
+COHO:0002600,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Dutch Famine Birth Cohort
+COHO:0002601,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Diabetes Prediction in Skåne
+COHO:0002602,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Étude Longitudinale Française depuis l'Enfance
+COHO:0002603,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,ENVIRonmental influence ON early AGEing
+COHO:0002604,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Finnish HPV vaccination cohort
+COHO:0002605,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Nascita e INFanzia: gli Effetti dell'Ambiente
+COHO:0002606,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rhea Study
+COHO:0002607,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rotterdam Study III
+COHO:0002608,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Suivi de l'Exposition à la Pollution Atmosphérique durant la Grossesse et Effets sur la Santé
+COHO:0002609,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Sysdimet study
+COHO:0002610,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Finnish Maternity Cohort
+COHO:0002611,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Polish-Norwegian Study
+COHO:0002612,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Monitoring Project on Risk Factors for Chronic Diseases
+COHO:0002613,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Generation R Next Study
+COHO:0002614,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Nordic Children and Adults Born Preterm
+COHO:0002615,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Wearable data collection study
+COHO:0002616,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Kardiovize Brno 2030
+COHO:0002617,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,1970 British Cohort Study
+COHO:0002618,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Study on the influence of Air pollution on Lung function, Inflammation and Ageing"
+COHO:0002619,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,NoMa study
+COHO:0002620,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,National Health and Nutrition Survey – HYDRIA
+COHO:0002621,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Grain Fibre Modification for Gut-mediated Health Effects
+COHO:0002622,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Piccolipiù birth cohort
+COHO:0002623,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Foods for weight management
+COHO:0002624,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Constances
+COHO:0002625,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Gene and Environment: Prospective Study on Infancy in Italy
+COHO:0002626,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Kaunas cohort
+COHO:0002627,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Central European Longitudinal Studies of Parents and Children: Young Adults
+COHO:0002628,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,European Longitudinal Study of Pregnancy and Childhood
+COHO:0002629,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Perturbateurs Endocriniens: Étude Longitudinale sur les Anomalies de la Grossesse, l’Infertilité et l’Enfance"
+COHO:0002630,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Generation XXI
+COHO:0002631,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Moli-sani Study
+COHO:0002632,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Central European Longitudinal Studies of Parents and Children: The Next Generation
+COHO:0002633,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Cypriot Children's Health and Environment Observatory
+COHO:0002634,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Observation of Cardiovascular Risks and Health in Luxembourg
+COHO:0002635,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Barcelona Life Study Cohort
+COHO:0002636,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Puberty and metabolic risk in obese children. Epigenetic alterations and pathophysiological and diagnostic implications
+COHO:0002637,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Study of Secondary Exposure to Pesticides among Children, Adolescents, and Adults"
+COHO:0002638,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rome Longitudinal Study
+COHO:0002639,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Prevention Cube
+COHO:0002640,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Czech Health, Alcohol and Psychosocial factors In Eastern Europe study"
+COHO:0002641,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,International Lipid-Based Nutrient Supplements Project-DYAD-Malawi
+COHO:0002642,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,New Hampshire Birth Cohort Study
+COHO:0002643,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Shanghai Dapuqiao Aging and Cognition Study
+COHO:0002644,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Survey of Health, Ageing and Retirement in Europe"
+COHO:0002645,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Harmonized Diagnostic Assessment of Dementia for the Longitudinal Aging Study in India
+COHO:0002646,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Hokkaido Study on Environment and Children's Health
+COHO:0002647,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,GINIplus/LISA North
+COHO:0002648,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Walnuts Smart Snack Dietary Intervention Trial
+COHO:0002649,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,GENOBOX study
+COHO:0002650,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Rio Birth Cohort Study on Environmental Exposure and Childhood Development
+COHO:0002651,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Programming Research in Obesity, Growth, Environment and Social Stressors"
+COHO:0002652,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Infants' Environmental Health Study
+COHO:0002653,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Multi-Partner Consortium to Expand Dementia Research in Latin America
+COHO:0002654,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Sustainable plant protection transition: a global health approach
+COHO:0002655,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Maule Cohort
+COHO:0002656,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Survey on Health, Well-Being, and Aging in Colombia"
+COHO:0002657,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Encuesta Nacional de Situación Nutricional
+COHO:0002658,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Cohorts Consortium of Latin America and the Caribbean
+COHO:0002659,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Ecuador Life
+COHO:0002660,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Banco Nacional de Tumores Terry Fox
+COHO:0002661,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,China Health and Retirement Longitudinal Study
+COHO:0002662,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,REal-time Assessment of Community Transmission
+COHO:0002663,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,3xG study
+COHO:0002664,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Cohort ’18, Growing Up in Hungary"
+COHO:0002665,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,COMmunity-based Behavior and Attitude survey in Tuvalu
+COHO:0002666,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,São Paulo Western Region Birth Cohort
+COHO:0002667,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Next Steps
+COHO:0002668,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,PROMESA cohort study
+COHO:0002669,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,"Butajira Nutrition, Mental Health, and Pregnancy Study"
+COHO:0002670,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GEC_subset,Primeiros Laços
