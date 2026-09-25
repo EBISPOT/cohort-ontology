@@ -4039,10 +4039,11 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000169 "The Pakistan Risk Of Myocardial Infarction Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000169)
 
-# Individual: coho:COHO_0000170 (The Secondary Manifestations of ARTerial disease study)
+# Individual: coho:COHO_0000170 (Second Manifestations of ARTerial disease study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000170 "SMART")
-AnnotationAssertion(rdfs:label coho:COHO_0000170 "The Secondary Manifestations of ARTerial disease study"@en)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000170 "The Secondary Manifestations of ARTerial disease study")
+AnnotationAssertion(rdfs:label coho:COHO_0000170 "Second Manifestations of ARTerial disease study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000170)
 
 # Individual: coho:COHO_0000171 (The Hellenic study of Interactions between Single nucleotide polymorphisms and Eating in Atherosclerosis Susceptibility)

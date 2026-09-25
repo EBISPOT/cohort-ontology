@@ -12,13 +12,14 @@ Sources, in src/curation:
   definitions_evidence.tsv  one row per cohort: the drafted definition, its source,
                             the supporting quote and whether the quote was found in
                             the source (a review of 2026-09-22)
-  definitions_curated.tsv   overrides: ID, definition, source, note, drafted by. A
+  definitions_curated.tsv   overrides: ID, definition, source, note, drafted by, checked by. A
                             row here wins; an empty definition means the cohort is
                             to have none. The optional "drafted by" column names the
                             model or person that wrote the definition; where it is
                             empty, the definition was written by the checking model
-                            alone. A curated definition carries only its drafter's
-                            contributor annotation: nobody has checked it.
+                            alone. The optional "checked by" column names the model
+                            or person that checked it against its sources; where
+                            it is empty, nobody has.
 
 Every individual in coho-edit.owl that is not deprecated is expected to have a
 definition; those without are printed.
@@ -71,7 +72,7 @@ def main():
         if r["ID"] in deprecated:
             continue
         if r["definition"].strip():
-            rows[r["ID"]] = (r["definition"].strip(), r["source"], (r.get("drafted by") or "").strip() or WRITTEN_BY, "")
+            rows[r["ID"]] = (r["definition"].strip(), r["source"], (r.get("drafted by") or "").strip() or WRITTEN_BY, (r.get("checked by") or "").strip())
         else:
             rows.pop(r["ID"], None)
 
