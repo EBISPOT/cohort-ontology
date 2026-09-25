@@ -1,4 +1,4 @@
-min_owlmake_version: 0.4.0
+min_owlmake_version: 0.4.1
 id: coho
 title: Cohort Ontology
 github_org: EBISPOT
@@ -37,6 +37,29 @@ import_group:
   - id: omo
     module_type: mirror
   - id: NCIT
+# The NCIT and RO slices drag their upstream subset tags along (oboInOwl:inSubset
+# values like NCIT_C132298 or ro-eco), which then show up beside COHO's own
+# subsets. After the standard module pipeline declares them under
+# oboInOwl:SubsetProperty, one robot-style remove of that property's children
+# takes them and their inSubset annotations out; COHO's own subsets live in the
+# edit file and components, never in imports, so nothing of COHO's is touched.
+imports:
+- id: NCIT
+  extends: true
+  steps:
+  - op: remove-terms
+    terms:
+    - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+    selects:
+    - children
+- id: ro
+  extends: true
+  steps:
+  - op: remove-terms
+    terms:
+    - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+    selects:
+    - children
 documentation:
   documentation_system: mkdocs
 components:
