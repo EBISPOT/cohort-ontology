@@ -1779,6 +1779,35 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002667>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002668>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002669>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002670>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002671>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002672>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002673>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002674>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002675>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002676>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002677>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002678>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002679>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002680>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002681>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002683>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002684>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002685>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002686>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002687>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002688>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002689>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002690>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002691>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002692>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002693>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002694>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002695>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002696>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002697>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002698>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002699>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002700>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -9433,6 +9462,134 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002670> (<http://www.ebi.ac.uk/coho/COHO_0002670>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34257407+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We conducted a randomized controlled trial to test the efficacy of Primeiros Laços, a nurse HVP for adolescent mothers living in a poor urban area of São Paulo, Brazil.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002670> <http://dbpedia.org/resource/Brazil>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002671> (<http://www.ebi.ac.uk/coho/COHO_0002671>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10541463/fullTextXML") Annotation(rdfs:comment "Briefly, GCS is a prospective study of 50,045 adults, aged 40–75 years, who were enrolled between 2004 and 2008, from 329 rural and urban areas of the Golestan province in northeast Iran.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002671> <http://dbpedia.org/resource/Iran>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002672> (<http://www.ebi.ac.uk/coho/COHO_0002672>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22735991%20AND%20SRC:MED&resultType=core&format=json") Annotation(rdfs:comment "All Norwegians participating in censuses from 1960 to 2001 were included.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002672> <http://dbpedia.org/resource/Norway>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002673> (<http://www.ebi.ac.uk/coho/COHO_0002673>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11593408/fullTextXML") Annotation(rdfs:comment "This paper reports the articulation of a network across Chile and the creation of the Chilean COVID-19 Biorepository, the first nationwide multicenter repository built under biobanking standards to ensure the high quality, reproducibility, and interoperability of samples and data as a resource for collaborative multi-omics research.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002673> <http://dbpedia.org/resource/Chile>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002674> (<http://www.ebi.ac.uk/coho/COHO_0002674>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13913/fullTextXML") Annotation(rdfs:comment "Women are asked to join the Million Women Study when they are invited to routine screening for breast cancer at 61 of the screening centres of the UK National Health Service Breast Screening Programme (NHSBSP).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002674> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002675> (<http://www.ebi.ac.uk/coho/COHO_0002675>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.biobanking.org/biobanks/view/462") Annotation(rdfs:comment "The Saudi Biobank is one of the important medical research projects in the Kingdom of Saudi Arabia to study the impact of a healthy lifestyle, genes and the environment in the Saudi population.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002675> <http://dbpedia.org/resource/Saudi_Arabia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002676> (<http://www.ebi.ac.uk/coho/COHO_0002676>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12645788/fullTextXML") Annotation(rdfs:comment "The adult cohort includes Iranian residents aged 35–70 from 18 diverse regions, capturing the country’s ethnic, environmental, and socioeconomic diversity.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002676> <http://dbpedia.org/resource/Iran>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002677> (<http://www.ebi.ac.uk/coho/COHO_0002677>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13016905/fullTextXML") Annotation(rdfs:comment "All children living in Victoria, Australia, born between 4 October 2021 and 3 October 2023 and their parents/guardians are eligible for GenV’s ‘Cohort 2020s’.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002677> <http://dbpedia.org/resource/Australia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002678> (<http://www.ebi.ac.uk/coho/COHO_0002678>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002678> <http://dbpedia.org/resource/Bangladesh>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002678> <http://dbpedia.org/resource/India>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002678> <http://dbpedia.org/resource/Pakistan>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8271208/fullTextXML") Annotation(rdfs:comment "SAB is a cross-sectional population-based study that recruited participants from 118 surveillance sites that were centred on local primary community health care units in five study regions: Bangladesh, South India, North India, Pakistan and Sri Lanka.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002678> <http://dbpedia.org/resource/Sri_Lanka>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002679> (<http://www.ebi.ac.uk/coho/COHO_0002679>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002679> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002680> (<http://www.ebi.ac.uk/coho/COHO_0002680>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9012358/fullTextXML") Annotation(rdfs:comment "IM-HDSS is in Eastern Uganda and covers the districts of Iganga and Mayuge managed by the Makerere University Centre for health and population research (MUCHAP).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002680> <http://dbpedia.org/resource/Uganda>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002681> (<http://www.ebi.ac.uk/coho/COHO_0002681>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12678644/fullTextXML") Annotation(rdfs:comment "A longitudinal cohort design was used, with baseline assessment in the Norwegian HUNT4 70+ study (2017–19) and at follow-up four years later (2021–23).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002681> <http://dbpedia.org/resource/Norway>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002683> (<http://www.ebi.ac.uk/coho/COHO_0002683>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9581448/fullTextXML") Annotation(rdfs:comment "Between 2014 and 2019, a total of 205,415 men and women aged 19–74 years were recruited and examined in 18 study centres in Germany.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002683> <http://dbpedia.org/resource/Germany>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002684> (<http://www.ebi.ac.uk/coho/COHO_0002684>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6104700/fullTextXML") Annotation(rdfs:comment "TMC is a nationwide prospective cohort project, which recruited approximately 100 000 Malaysians aged between 35 and 70 y at baseline.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002684> <http://dbpedia.org/resource/Malaysia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002685> (<http://www.ebi.ac.uk/coho/COHO_0002685>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28171707%20AND%20SRC:MED&format=json&resultType=core") Annotation(rdfs:comment "The American Cancer Society (ACS) recruited a new prospective cohort study, Cancer Prevention Study 3 (CPS-3), between 2006 and 2013 from 35 states and Puerto Rico.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002685> <http://dbpedia.org/resource/Puerto_Rico>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11329134/fullTextXML") Annotation(rdfs:comment "The American Cancer Society Cancer Prevention Study-3 (CPS-3) is a prospective cohort study of over 300,000 US adults with the primary goal of investigating cancer incidence and mortality") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002685> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002686> (<http://www.ebi.ac.uk/coho/COHO_0002686>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13216552/fullTextXML") Annotation(rdfs:comment "PEGS participants are recruited in outpatient clinics and hospitals and at over 200 unique sites in North Carolina that include businesses, career fairs, universities, community events such as charity walks, health fairs and festivals, senior centers, sporting events, social clubs, religious institutions, and military bases.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002686> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002687> (<http://www.ebi.ac.uk/coho/COHO_0002687>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10147672/fullTextXML") Annotation(rdfs:comment "We have performed a systematic analysis of the European ancestry within the Canadian province of NL.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002687> <http://dbpedia.org/resource/Canada>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002688> (<http://www.ebi.ac.uk/coho/COHO_0002688>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11896025/fullTextXML") Annotation(rdfs:comment "In this trial 202,638 postmenopausal women aged 50 and above were recruited through thirteen UK centres between 2001 and 2005.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002688> <http://dbpedia.org/resource/United_Kingdom>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002689> (<http://www.ebi.ac.uk/coho/COHO_0002689>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3396317/fullTextXML") Annotation(rdfs:comment "The Kilifi Health and Demographic Surveillance System (KHDSS), located on the Indian Ocean coast of Kenya, was established in 2000 as a record of births, pregnancies, migration events and deaths and is maintained by 4-monthly household visits.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002689> <http://dbpedia.org/resource/Kenya>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002690> (<http://www.ebi.ac.uk/coho/COHO_0002690>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8000483/fullTextXML") Annotation(rdfs:comment "Men and women in this study were participants in the CPS-II Nutrition Cohort, a subset of 1.2 million participants in the CPS-II Cohort (1982), who resided in 21 U.S. states when they were invited to enroll in the CPS-II Nutrition Cohort of incident cancer follow-up, beginning in 1992–1993") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002690> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002691> (<http://www.ebi.ac.uk/coho/COHO_0002691>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10403303/fullTextXML") Annotation(rdfs:comment "The EWC enrolls pregnant people and children across the United States and Puerto Rico.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002691> <http://dbpedia.org/resource/Puerto_Rico>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002691> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002692> (<http://www.ebi.ac.uk/coho/COHO_0002692>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6908844/fullTextXML") Annotation(rdfs:comment "The JPHC-NEXT is being conducted under a population-based cohort design in 16 municipalities of seven prefectural areas across Japan") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002692> <http://dbpedia.org/resource/Japan>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002693> (<http://www.ebi.ac.uk/coho/COHO_0002693>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7928212/fullTextXML") Annotation(rdfs:comment "From September 2014 to November 2018, we used a purposive sampling strategy to select 189 sites (114 rural counties, 75 urban districts) from all 31 provinces in mainland China.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002693> <http://dbpedia.org/resource/China>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002694> (<http://www.ebi.ac.uk/coho/COHO_0002694>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7938501/fullTextXML") Annotation(rdfs:comment "The aim of ACDIS was to describe the demographic, social and health impacts of a rapidly progressing HIV epidemic in rural South Africa, and to monitor the impact of intervention strategies.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002694> <http://dbpedia.org/resource/South_Africa>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002695> (<http://www.ebi.ac.uk/coho/COHO_0002695>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11814342/fullTextXML") Annotation(rdfs:comment "The LifeGene study randomly invited individuals 18 years or older from the general population in Stockholm, Sweden, between 2009 and 2016") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002695> <http://dbpedia.org/resource/Sweden>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002696> (<http://www.ebi.ac.uk/coho/COHO_0002696>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.npm.sg/our-data-users/data-access/data-access-to-precise-sg100k/") Annotation(rdfs:comment "The PRECISE-SG100K resource is a unique multi-ancestry Asian population cohort dataset of ~100,000 Singaporean residents, jointly created by PRECISE, SG100K Institutions and GIS.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002696> <http://dbpedia.org/resource/Singapore>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002697> (<http://www.ebi.ac.uk/coho/COHO_0002697>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9365637/fullTextXML") Annotation(rdfs:comment "Since SAPRIN’s inception in 2016, three existing health and demographic surveillance system (HDSS) nodes in South Africa have been brought together to form a harmonized national network, namely: MRC/Wits University Agincourt HDSS in Bushbuckridge District, Mpumalanga, established in 1992 with a 2019 population of 115 000 individuals") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002697> <http://dbpedia.org/resource/South_Africa>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002698> (<http://www.ebi.ac.uk/coho/COHO_0002698>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7235337/fullTextXML") Annotation(rdfs:comment "Lifepath researchers explored SEP as a risk factor for adult NCDs in a multi-cohort study of over 1.7 million individuals from 48 independent cohorts from the UK, France, Switzerland, Portugal, Italy, the USA, and Australia") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/Australia>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/France>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/Italy>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/Portugal>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5448763/fullTextXML") Annotation(rdfs:comment "one Irish cohort (TILDA [58], random sample of community dwelling older persons aged 50 years+)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/Republic_of_Ireland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/Switzerland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002698> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002699> (<http://www.ebi.ac.uk/coho/COHO_0002699>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2361672/fullTextXML") Annotation(rdfs:comment "The Vorarlberg Health Monitoring and Promotion Program (VHM&PP) is carried out in Vorarlberg, the westernmost province of Austria.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002699> <http://dbpedia.org/resource/Austria>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002700> (<http://www.ebi.ac.uk/coho/COHO_0002700>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9908035/fullTextXML") Annotation(rdfs:comment "The 45 and Up Study (‘the Study’) recruited 267 357 participants aged ≥45 years from New South Wales, Australia between 2005 and 2009 as a resource for researchers and policy makers to source evidence to support better health and ageing.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002700> <http://dbpedia.org/resource/Australia>)
 
 
 )

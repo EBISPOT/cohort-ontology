@@ -145,5 +145,6 @@ WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0002063	ht
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0002575	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0002596	http://www.ebi.ac.uk/coho/hasCohort	0
 WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0002658	http://www.ebi.ac.uk/coho/hasCohort	1
+WARN	cohort-aggregation-members-report	http://www.ebi.ac.uk/coho/COHO_0002697	http://www.ebi.ac.uk/coho/hasCohort	1
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/COHO_0000000	rdfs:subClassOf	
 INFO	missing_superclass	http://www.ebi.ac.uk/coho/TEMP_temporary_unclassified	rdfs:subClassOf	

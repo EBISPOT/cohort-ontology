@@ -7,11 +7,12 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/PGS.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-24/components/PGS.owl>
-Annotation(owl:versionInfo "2026-09-24")
+<http://www.ebi.ac.uk/coho/releases/2026-09-25/components/PGS.owl>
+Annotation(owl:versionInfo "2026-09-25")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000411>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000424>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000533>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000585>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000597>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000720>))
@@ -482,7 +483,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002144>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002145>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002146>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002148>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002149>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002150>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002152>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002153>))
@@ -771,7 +771,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002462>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002463>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002464>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002465>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002466>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002467>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002469>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002471>))
@@ -896,6 +895,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000424> (<http://www.ebi.ac.uk/coho/COHO_0000424>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000424> <http://www.ebi.ac.uk/coho#PGS_subset>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0000533> (<http://www.ebi.ac.uk/coho/COHO_0000533>)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0000533> <http://www.ebi.ac.uk/coho#PGS_subset>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000585> (<http://www.ebi.ac.uk/coho/COHO_0000585>)
 
@@ -2777,10 +2780,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0002148> <http://www.ebi.ac.uk/coho#PGS_subset>)
 
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0002149> (<http://www.ebi.ac.uk/coho/COHO_0002149>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0002149> <http://www.ebi.ac.uk/coho#PGS_subset>)
-
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002150> (<http://www.ebi.ac.uk/coho/COHO_0002150>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0002150> <http://www.ebi.ac.uk/coho#PGS_subset>)
@@ -3932,10 +3931,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002465> (<http://www.ebi.ac.uk/coho/COHO_0002465>)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0002465> <http://www.ebi.ac.uk/coho#PGS_subset>)
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0002466> (<http://www.ebi.ac.uk/coho/COHO_0002466>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://www.ebi.ac.uk/coho/COHO_0002466> <http://www.ebi.ac.uk/coho#PGS_subset>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002467> (<http://www.ebi.ac.uk/coho/COHO_0002467>)
 
