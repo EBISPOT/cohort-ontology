@@ -3280,6 +3280,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000058)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000059 "DMP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000059 "Lifelines Dutch Microbiome Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000059 "Dutch Microbiome Project"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "This study used a subset of 8,208 volunteers from the Lifelines population cohort, enrolled in a parallel project: The Dutch Microbiome Project (DMP).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00992-y/MediaObjects/41588_2021_992_MOESM2_ESM.pdf") coho:isSubCohortOf coho:COHO_0000059 coho:COHO_0000108)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000059)
 
 # Individual: coho:COHO_0000060 (Edinburgh Stroke Study)
@@ -3337,6 +3338,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000065)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000066 "EPIC-Norfolk")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000066 "EPIC-Norfolk cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000066 "European Prospective Investigation of Cancer-Norfolk"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "EPIC-Norfolk , one of the UK arms of EPIC, recruited and examined 25,639 participants aged 40-79 years between 1993 and 1997 for the baseline examination9 .") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-020-0802-y/MediaObjects/42003_2020_802_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000066 coho:COHO_0000065)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000066)
 
 # Individual: coho:COHO_0000067 (EuroTARGET project)
@@ -3813,6 +3815,7 @@ AnnotationAssertion(owl:deprecated coho:COHO_0000135 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000136 "OBB")
 AnnotationAssertion(rdfs:label coho:COHO_0000136 "Oxford Biobank"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Oxford Biobank is supported by the Oxford Biomedical Research Centre and part of the National NIHR Bioresource.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4307976/fullTextXML") coho:isSubCohortOf coho:COHO_0000136 coho:COHO_0000312)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000136)
 
 # Individual: coho:COHO_0000137 (PanCareLIFE)
@@ -4923,6 +4926,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000297)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000298 "MGRB")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000298 "The Medical Genome Reference BioBank")
 AnnotationAssertion(rdfs:label coho:COHO_0000298 "Medical Genome Reference Bank"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Of these, 717 were from healthy participants aged ≥70 years and have become part of the Medical Genome Reference Bank.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9908035/fullTextXML") coho:isSubCohortOf coho:COHO_0000298 coho:COHO_0002700)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000298)
 
 # Individual: coho:COHO_0000299 (MESOMICS)
@@ -8427,6 +8431,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000710 "DNBC-GOYA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000710 "Genetics of Extremely Overweight Young Adults")
 AnnotationAssertion(rdfs:label coho:COHO_0000710 "Genetics of Overweight Young Adults"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Genomics of overweight in Young Adults (GOYA) study is a nested study within the DNBC, and conducted in collaboration with the MRC Integrative Epidemiology Unit at the University of Bristol (MC_UU_12013/1-9).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01343-9/MediaObjects/41588_2023_1343_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000710 coho:COHO_0000748)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000710)
 
 # Individual: coho:COHO_0000711 (International Consortium for Blood Pressure Genome-Wide Association Studies)
@@ -10350,6 +10355,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000932 "Qingdao Twins Registry")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000932 "The acronym QTR also denotes Queensland Twin Registry (COHO:0001226); this term is Qingdao Twin Registry."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000932 "Qingdao Twin Registry"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In 1998, the Qingdao Twin Registry was initiated as the main part of the Chinese National Twin Registry.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23182450+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000932 coho:COHO_0000933)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000932)
 
 # Individual: coho:COHO_0000933 (Chinese National Twin Registry)
@@ -12416,6 +12422,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "Gene-Lifestyle
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "Gene x Lifestyle interactions And Complex traits Involved in Elevated disease Risk Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "GLACIER Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001177 "Gene-Lifestyle Interactions and Complex Traits Involved in Elevated Disease Risk Study"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER study is a nested study within the Northern Sweden Health and Disease Study; phenotyping was conducted as part of the Västerbotten Intervention Project.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3679547/") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0002549)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001177)
 ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER Study is a prospective, population-based cohort study comprising 19,547 adults from the northern Swedish county of Västerbotten, nested within the Northern Sweden Health and Disease Study (20).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3012192/fullTextXML") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0000927)
 
@@ -14717,6 +14724,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001452)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001453 "2SISTER")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001453 "The Two Sister Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001453 "Two Sister Study"@en)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Two Sister Study is an offshoot of the Sister Study that focuses on young-onset breast cancer and is based on families.") Annotation(oboInOwl:hasDbXref "https://sisterstudy.niehs.nih.gov/English/2sis.htm") coho:isSubCohortOf coho:COHO_0001453 coho:COHO_0000660)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001453)
 
 # Individual: coho:COHO_0001454 (Women's Health Study: From Adolescence to Adulthood)
