@@ -130,7 +130,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000119>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000120>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000121>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000122>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000123>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000124>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000125>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000126>))
@@ -2317,10 +2316,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000122> (<http://www.ebi.ac.uk/coho/COHO_0000122>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19679614") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000122> "A case-control collection of patients younger than 70 with a first deep-vein thrombosis or pulmonary embolism, recruited through six Dutch anticoagulation clinics in 1999–2004, with partner and population controls, for investigation of environmental and genetic thrombosis risk factors.")
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000123> (<http://www.ebi.ac.uk/coho/COHO_0000123>)
-
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nhsbt.nhs.uk/who-we-are/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "GPT-6 (OpenAI Codex), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0000123> "A special health authority that provides blood donation services in England and organ transplantation services across the United Kingdom, managing donated blood, organs, tissues and stem cells and conducting research on treatments and processes.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000124> (<http://www.ebi.ac.uk/coho/COHO_0000124>)
 

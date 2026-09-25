@@ -130,7 +130,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000119>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000120>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000121>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000122>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000123>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000124>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000125>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000126>))
@@ -2839,11 +2838,6 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-Wide Search for Nonadditive Allele Effects Identifies <i>PSKH2</i> as Involved in the Variability of Factor V Activity.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39424413") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ext_id%3A39424413+AND+src%3Amed&format=json&resultType=core") Annotation(rdfs:comment "MEGA [Multiple Environmental and Genetic Assessment]") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000122> "GCST90446466")
 
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000123> (<http://www.ebi.ac.uk/coho/COHO_0000123>)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The influence of rare variants in circulating metabolic biomarkers.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32150548") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7108731/fullTextXML") Annotation(rdfs:comment "Participants in the INTERVAL randomised controlled trial were recruited with the active collaboration of NHS Blood and Transplant England") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000123> "EGAS00001000825")
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genomic atlas of the human plasma proteome.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29875488") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6697541") Annotation(rdfs:comment "National Health Service Blood and Transplant (NHSBT)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000123> "GCST90243401")
-
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000124> (<http://www.ebi.ac.uk/coho/COHO_0000124>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Deciphering colorectal cancer genetics through multi-omic analysis of 100,204 cases and 154,587 controls of European and east Asian ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36539618") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001005412") Annotation(rdfs:comment "Genotype data of 7,281 individuals with colorectal cancer from the National Study of Colorectal Cancer Genetics (NSCCG) study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000124> "EGAS00001005412")
@@ -3134,6 +3128,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Combining Asian
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000184> (<http://www.ebi.ac.uk/coho/COHO_0000184>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Whole_Genome_Sequencing_of_INTERVAL") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001002461") Annotation(rdfs:comment "15,000 individuals from the INTERVAL study cohort") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000184> "EGAS00001002461")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genomic atlas of the human plasma proteome.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29875488") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6697541") Annotation(rdfs:comment "Here we characterize the genetic architecture of the human plasma proteome in healthy blood donors from the INTERVAL study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000184> "GCST90243401")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Rare and common genetic determinants of metabolic individuality and their effects on human health.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36357675") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS834") Annotation(rdfs:comment "Rare and common genetic determinants of metabolic individuality and their effects on human health (INTERVAL study assays)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000184> "MTBLS834")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000185> (<http://www.ebi.ac.uk/coho/COHO_0000185>)

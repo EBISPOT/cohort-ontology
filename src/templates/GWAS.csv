@@ -72,7 +72,7 @@ COHO:0000077,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic C
 COHO:0000078,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic Epidemiology of Asthma in Costa Rica
 COHO:0000079,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic Overlap between Metabolic and Psychiatric traits
 COHO:0000080,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic Prostate cancer risk stratification for targeted screening
-COHO:0000081,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic Research in Isolated
+COHO:0000081,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetic Research in Isolated Populations
 COHO:0000082,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetics of diabetes Audit and Research
 COHO:0000083,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Genetics of Healthy Aging
 COHO:0000084,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,GenomeAsia 100K project
@@ -114,7 +114,6 @@ COHO:0000119,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Multi-Eth
 COHO:0000120,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Multicenter Family Study
 COHO:0000121,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Multiethnic Cohort Study of Diet and Health
 COHO:0000122,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis
-COHO:0000123,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,National Health Service Blood and Transplant
 COHO:0000124,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,National Study of Colorectal Cancer Genetics
 COHO:0000125,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Netherlands Twin Registry
 COHO:0000126,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,New England-based Case-Control Study of Ovarian Cancer
@@ -171,6 +170,7 @@ COHO:0000179,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,UK Househ
 COHO:0000180,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,UK Inflammatory Bowel Disease Genetics Consortium
 COHO:0000181,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Viking Health Study
 COHO:0000182,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Wellcome Trust Case Control Consortium
+COHO:0000184,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,INTERVAL study
 COHO:0000187,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,China Atherosclerosis Study
 COHO:0000188,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Diabetes Prediction and Prevention
 COHO:0000189,owl:NamedIndividual,http://www.ebi.ac.uk/coho#GWAS_subset,Functional genomic diagnostic tools for coronary artery disease

@@ -234,7 +234,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000117>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000119>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000121>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000122>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000123>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000124>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000125>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000126>))
@@ -2341,10 +2340,6 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000122> (<http://www.ebi.ac.uk/coho/COHO_0000122>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2726929/fullTextXML") Annotation(rdfs:comment "Between March 1999 and September 2004, consecutive patients aged <70 years with a first episode of deep venous thrombosis (leg or arm) or pulmonary embolism were included from the files of six participating anticoagulation clinics in the Netherlands (Amersfoort, Amsterdam, The Hague, Leiden, Rotterdam, and Utrecht)") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000122> <http://dbpedia.org/resource/Netherlands>)
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000123> (<http://www.ebi.ac.uk/coho/COHO_0000123>)
-
-ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6697541/unicode") Annotation(rdfs:comment "blood donors aged 18 years and older were recruited at 25 centres of England’s National Health Service Blood and Transplant (NHSBT).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000123> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000124> (<http://www.ebi.ac.uk/coho/COHO_0000124>)
 

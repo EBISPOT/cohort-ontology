@@ -3435,10 +3435,13 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000080 "The acronym PROFILE also 
 AnnotationAssertion(rdfs:label coho:COHO_0000080 "Genetic Prostate cancer risk stratification for targeted screening"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000080)
 
-# Individual: coho:COHO_0000081 (Genetic Research in Isolated)
+# Individual: coho:COHO_0000081 (Genetic Research in Isolated Populations)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000081 "GRIso")
-AnnotationAssertion(rdfs:label coho:COHO_0000081 "Genetic Research in Isolated"@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000081 "GRIP")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000081 "Genetic Research in Isolated")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000081 "Genetic Research in Isolated Population")
+AnnotationAssertion(rdfs:label coho:COHO_0000081 "Genetic Research in Isolated Populations"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000081)
 
 # Individual: coho:COHO_0000082 (Genetics of diabetes Audit and Research)
@@ -3716,11 +3719,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000122 "Multiple Environmental and Genetic Assessment of Risk Factors for Venous Thrombosis"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000122)
 
-# Individual: coho:COHO_0000123 (National Health Service Blood and Transplant)
+# Individual: coho:COHO_0000123 (obsolete National Health Service Blood and Transplant)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000123 "NHSBT")
-AnnotationAssertion(rdfs:label coho:COHO_0000123 "National Health Service Blood and Transplant"@en)
-ClassAssertion(coho:COHO_0000000 coho:COHO_0000123)
+AnnotationAssertion(oboInOwl:consider coho:COHO_0000123 coho:COHO_0000184)
+AnnotationAssertion(rdfs:comment coho:COHO_0000123 "Obsoleted 2026-09-25. NHS Blood and Transplant is the special health authority through which the INTERVAL trial recruited its blood donors, not a cohort: the GWAS Catalog tags the study recorded under this term (GCST90243401) with INTERVAL, and its EGA study (EGAS00001000825) is INTERVAL's exome sequencing. Found when the sweep of the cached papers for sub-cohort links was checked (src/curation/link_sweep_2026-09-25.csv). See INTERVAL study (COHO:0000184).")
+AnnotationAssertion(rdfs:label coho:COHO_0000123 "obsolete National Health Service Blood and Transplant"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0000123 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0000124 (National Study of Colorectal Cancer Genetics)
 
