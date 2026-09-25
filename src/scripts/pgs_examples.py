@@ -28,7 +28,9 @@ and are printed. A placeholder among them stays in the subset (the check exempts
 it); with --all, a curated term among them is taken out of the subset, since the
 subset-example check requires a PGS Catalog example of every curated term in it,
 and the removal is recorded in src/curation/subset_examples_backfill.tsv. So
-after placeholders are curated, run this with --all.
+after placeholders are curated, run this with --all. pgs_publications.py writes
+every publication the Catalog links to each term, for the curation of the
+placeholders.
 
 Usage: pgs_examples.py [--all] [--dry-run] [--cache DIR] [--refresh]
 """
@@ -102,7 +104,7 @@ def candidates(cat):
             for sample in s.get(kind) or []:
                 for c in sample.get("cohorts") or []:
                     add(c["name_short"], kind, s["id"], s.get("publication") or {}, sample,
-                        gcst=sample.get("source_GWAS_catalog"), source_pmid=sample.get("source_PMID"))
+                        gcst=sample.get("source_GWAS_catalog"), source_pmid=sample.get("source_PMID"), source_doi=sample.get("source_DOI"))
     samplesets = {x["id"]: x for x in cat["sample_set/all"]}
     for p in cat["performance/all"]:
         pss = (p.get("sampleset") or {}).get("id")
@@ -110,6 +112,77 @@ def candidates(cat):
             for c in sample.get("cohorts") or []:
                 add(c["name_short"], "evaluation", p["associated_pgs_id"], p.get("publication") or {}, sample, pss=pss, ppm=p["id"])
     return cands
+
+
+REPLACED = {}  # obsoleted term -> the term that replaced it (IAO:0100001), filled by terms()
+PLACED_BY = {}  # (term, Catalog cohort id) -> how catalog_ids placed the id there
+
+
+def terms():
+    """The edit file's terms, the live ones, the uncurated placeholders among them, and the live terms of the PGS subset."""
+    text = M.EDIT.read_text(encoding="utf-8")
+    T = M.parse(text)
+    live = {c for c, t in T.items() if t["types"] and not t["dep"]}
+    uncurated = set(re.findall(r"AnnotationAssertion\(obo:IAO_0000114 coho:(COHO_\d+) obo:IAO_0000124\)", text)) & live
+    REPLACED.update(re.findall(r"AnnotationAssertion\(obo:IAO_0100001 coho:(COHO_\d+) coho:(COHO_\d+)\)", text))
+    with M.PGS_SUBSET.open(newline="", encoding="utf-8") as f:
+        subset = [M.local(r[0]) for r in list(csv.reader(f))[2:] if r[0].startswith("COHO:")]
+    return T, live, uncurated, [c for c in subset if c in live]
+
+
+def catalog_ids(cands, T=None, live=()):
+    """term -> its cohort ids in the Catalog, from the review's `PGS id` column (or its `input name`,
+    where that is a Catalog id); a row whose term was obsoleted with a replacement places the id on the
+    replacement. Given the terms, the ids the review does not place (the cohorts COHO had before the
+    review) are matched by name: an id that is exactly, case and all, the label or a synonym of one live
+    term, or whose full name in the Catalog is, is that term's; one that names several terms is theirs
+    only where the full name picks one out, and is otherwise left out and printed. PLACED_BY records
+    for each placement whether the review or the name made it."""
+    ids = defaultdict(list)
+
+    def place(c, cid, how):
+        if cid not in ids[c]:
+            ids[c].append(cid)
+            PLACED_BY[(c, cid)] = how
+
+    decided = set()  # ids the review decided, whatever the verdict
+    with M.REVIEW.open(newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            decided.update(v for k in ("PGS id", "input name") if (v := (r[k] or "").strip()))
+            if not r["COHO ID"]:
+                continue
+            c = M.local(r["COHO ID"])
+            how = "review"
+            while c in REPLACED and (T is None or c not in live):
+                c, how = REPLACED[c], "review, via the replaced term"
+            for k in ("PGS id", "input name"):
+                v = (r[k] or "").strip()
+                if v and (v in cands or k == "PGS id"):
+                    place(c, v, how)
+    if T is None:
+        return ids
+    placed = {i for c in ids for i in ids[c]}
+    names = defaultdict(set)
+    for c in live:
+        names[T[c]["label"]].add(c)
+        for syn, _ in T[c]["syn"]:
+            names[syn].add(c)
+    with (M.CUR / "pgs_catalog_cohorts.csv").open(newline="", encoding="utf-8") as f:
+        full = {r["Cohort ID"]: r["Cohort Name"] for r in csv.DictReader(f)}
+    for cid in sorted(set(cands) - placed):
+        ts = names.get(cid, set())
+        by = "the Catalog id"
+        if not ts and full.get(cid):
+            ts, by = names.get(full[cid], set()), "the Catalog's full name"
+        if len(ts) > 1 and full.get(cid):
+            ts = {c for c in ts if full[cid] in {T[c]["label"]} | {syn for syn, _ in T[c]["syn"]}} or ts
+        if len(ts) == 1:
+            place(next(iter(ts)), cid, f"name ({by})")
+        elif ts:
+            print(f"Catalog id {cid} names several terms and is left out: " + ", ".join(f"{M.curie(c)} {T[c]['label']}" for c in sorted(ts)), file=sys.stderr)
+        elif cid not in decided:
+            print(f"Catalog id {cid} ({full.get(cid, '')}) names no term and is not in the review", file=sys.stderr)
+    return ids
 
 
 def note(cid, rec, today):
@@ -136,25 +209,10 @@ def main():
     ap.add_argument("--refresh", action="store_true", help="download the Catalog again")
     a = ap.parse_args()
 
-    text = M.EDIT.read_text(encoding="utf-8")
-    T = M.parse(text)
-    live = {c for c, t in T.items() if t["types"] and not t["dep"]}
-    uncurated = set(re.findall(r"AnnotationAssertion\(obo:IAO_0000114 coho:(COHO_\d+) obo:IAO_0000124\)", text)) & live
-    with M.PGS_SUBSET.open(newline="", encoding="utf-8") as f:
-        subset = [M.local(r[0]) for r in list(csv.reader(f))[2:] if r[0].startswith("COHO:")]
-    subset = [c for c in subset if c in live]
-
+    T, live, uncurated, subset = terms()
     cat = catalog(a.cache, a.refresh)
     cands = candidates(cat)
-    ids = defaultdict(list)  # term -> its Catalog cohort ids
-    with M.REVIEW.open(newline="", encoding="utf-8") as f:
-        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
-            if not r["COHO ID"]:
-                continue
-            for k in ("PGS id", "input name"):
-                v = (r[k] or "").strip()
-                if v and (v in cands or k == "PGS id") and v not in ids[M.local(r["COHO ID"])]:
-                    ids[M.local(r["COHO ID"])].append(v)
+    ids = catalog_ids(cands)
 
     have = defaultdict(set)  # term -> its curated example studies
     with CURATED.open(newline="", encoding="utf-8") as f:
