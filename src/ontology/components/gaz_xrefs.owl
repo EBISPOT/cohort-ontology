@@ -22,7 +22,9 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Austria>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Azerbaijan>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Bangladesh>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Barbados>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Belarus>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Belgium>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Botswana>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Brazil>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Bulgaria>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Burkina_Faso>))
@@ -55,8 +57,10 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Germany>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Ghana>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Greece>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Guatemala>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Guernsey>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Guinea>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Guinea-Bissau>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Haiti>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Hong_Kong>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Hungary>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Iceland>))
@@ -66,6 +70,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Iran>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Israel>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Italy>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Ivory_Coast>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Jamaica>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Japan>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Kazakhstan>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Kenya>))
@@ -79,6 +84,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Luxembourg>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Malawi>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Malaysia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Malta>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Mauritius>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Melanesia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Mexico>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Micronesia>))
@@ -87,6 +93,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Mozambique>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Netherlands>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/New_Zealand>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Nigeria>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/North_Macedonia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Northern_Africa>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Northern_America>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Norway>))
@@ -103,6 +110,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Qatar>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Republic_of_Ireland>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Romania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Russia>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Saint_Lucia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Saudi_Arabia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Serbia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Singapore>))
@@ -136,6 +144,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Venezuela>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Vietnam>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Western_Africa>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Zambia>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Zimbabwe>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Georgia_(country)>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
@@ -207,12 +216,26 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Barbados> "Barbados"
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Barbados>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Barbados> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 
+# Individual: <http://dbpedia.org/resource/Belarus> (Belarus)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Belarus> "GAZ:00006886")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Belarus> "Belarus")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Belarus>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Belarus> <http://dbpedia.org/resource/Europe>)
+
 # Individual: <http://dbpedia.org/resource/Belgium> (Belgium)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Belgium> "GAZ:00002938")
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Belgium> "Belgium")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Belgium>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Belgium> <http://dbpedia.org/resource/Europe>)
+
+# Individual: <http://dbpedia.org/resource/Botswana> (Botswana)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Botswana> "GAZ:00001097")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Botswana> "Botswana")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Botswana>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Botswana> <http://dbpedia.org/resource/Southern_Africa>)
 
 # Individual: <http://dbpedia.org/resource/Brazil> (Brazil)
 
@@ -437,6 +460,13 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Guatemala> "Guatemal
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Guatemala>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Guatemala> <http://dbpedia.org/resource/Central_America>)
 
+# Individual: <http://dbpedia.org/resource/Guernsey> (Guernsey)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guernsey> "GAZ:00001550")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Guernsey> "Guernsey")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Guernsey>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Guernsey> <http://dbpedia.org/resource/Europe>)
+
 # Individual: <http://dbpedia.org/resource/Guinea> (Guinea)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Guinea> "GAZ:00000909")
@@ -450,6 +480,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Guinea-Bissau> "Guinea-Bissau")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Guinea-Bissau>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Guinea-Bissau> <http://dbpedia.org/resource/Western_Africa>)
+
+# Individual: <http://dbpedia.org/resource/Haiti> (Haiti)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Haiti> "GAZ:00003953")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Haiti> "Haiti")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Haiti>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Haiti> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 
 # Individual: <http://dbpedia.org/resource/Hong_Kong> (Hong Kong)
 
@@ -513,6 +550,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Ivory_Coast> "Ivory Coast")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Ivory_Coast>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Ivory_Coast> <http://dbpedia.org/resource/Western_Africa>)
+
+# Individual: <http://dbpedia.org/resource/Jamaica> (Jamaica)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Jamaica> "GAZ:00003781")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Jamaica> "Jamaica")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Jamaica>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Jamaica> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 
 # Individual: <http://dbpedia.org/resource/Japan> (Japan)
 
@@ -604,6 +648,13 @@ AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Malta> "Malta")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Malta>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Malta> <http://dbpedia.org/resource/Europe>)
 
+# Individual: <http://dbpedia.org/resource/Mauritius> (Mauritius)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Mauritius> "GAZ:00003745")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mauritius> "Mauritius")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Mauritius>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Mauritius> <http://dbpedia.org/resource/Eastern_Africa>)
+
 # Individual: <http://dbpedia.org/resource/Melanesia> (Melanesia)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Melanesia> "GAZ:00005860")
@@ -659,6 +710,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Nigeria> "Nigeria")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Nigeria>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Nigeria> <http://dbpedia.org/resource/Western_Africa>)
+
+# Individual: <http://dbpedia.org/resource/North_Macedonia> (North Macedonia)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/North_Macedonia> "GAZ:00006895")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/North_Macedonia> "North Macedonia")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/North_Macedonia>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/North_Macedonia> <http://dbpedia.org/resource/Europe>)
 
 # Individual: <http://dbpedia.org/resource/Northern_Africa> (Northern Africa)
 
@@ -769,6 +827,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Russia> "Russia")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Russia>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Russia> <http://dbpedia.org/resource/Europe>)
+
+# Individual: <http://dbpedia.org/resource/Saint_Lucia> (Saint Lucia)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Saint_Lucia> "GAZ:00006909")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Saint_Lucia> "Saint Lucia")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Saint_Lucia>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Saint_Lucia> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean>)
 
 # Individual: <http://dbpedia.org/resource/Saudi_Arabia> (Saudi Arabia)
 
@@ -999,6 +1064,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Zambia> "Zambia")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Zambia>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Zambia> <http://dbpedia.org/resource/Eastern_Africa>)
+
+# Individual: <http://dbpedia.org/resource/Zimbabwe> (Zimbabwe)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Zimbabwe> "GAZ:00001106")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Zimbabwe> "Zimbabwe")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Zimbabwe>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Zimbabwe> <http://dbpedia.org/resource/Eastern_Africa>)
 
 # Individual: <http://dbpedia.org/resource/Georgia_(country)> (Georgia)
 
