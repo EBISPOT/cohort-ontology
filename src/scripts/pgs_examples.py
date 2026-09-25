@@ -23,8 +23,12 @@ By default the placeholders of the subset (uncurated terms, IAO:0000124) that ha
 no example yet are done; --all does every live term of the subset without a PGS
 example. The lines go to src/curation/example_studies_curated.tsv (a term that
 already has a PGS line there is left alone); run example_studies.py afterwards.
-Terms the Catalog lists in its cohort table but uses in no score are printed:
-they get no example.
+Terms the Catalog lists in its cohort table but uses in no score get no example
+and are printed. A placeholder among them stays in the subset (the check exempts
+it); with --all, a curated term among them is taken out of the subset, since the
+subset-example check requires a PGS Catalog example of every curated term in it,
+and the removal is recorded in src/curation/subset_examples_backfill.tsv. So
+after placeholders are curated, run this with --all.
 
 Usage: pgs_examples.py [--all] [--dry-run] [--cache DIR] [--refresh]
 """
@@ -44,6 +48,7 @@ import mint_cohorts as M  # noqa: E402
 
 REST = "https://www.pgscatalog.org/rest/"
 CURATED = M.CUR / "example_studies_curated.tsv"
+BACKFILL = M.CUR / "subset_examples_backfill.tsv"
 ENDPOINTS = ("score/all", "performance/all", "sample_set/all")
 ROLES = {"samples_training": 0, "evaluation": 1, "samples_variants": 2}
 
@@ -176,10 +181,15 @@ def main():
     kinds = defaultdict(int)
     for line in lines:
         kinds[re.search(r"training samples|variant associations|evaluated", line[3]).group(0)] += 1
+    drop = [c for c in unused if c not in uncurated]  # curated terms the Catalog uses in no score leave the subset
     print(f"{len(subset)} live terms in the PGS subset, {len(todo)} to do: {len(lines)} given a PGS Catalog example "
-          f"({', '.join(f'{v} {k}' for k, v in sorted(kinds.items()))}), {len(unused)} used by no score, {len(unmapped)} with no Catalog id")
+          f"({', '.join(f'{v} {k}' for k, v in sorted(kinds.items()))}), {len(unused)} used by no score "
+          f"({len(unused) - len(drop)} placeholders, which stay in the subset; {len(drop)} curated terms, taken out of it), "
+          f"{len(unmapped)} with no Catalog id")
     if unused:
         print("used by no score in the Catalog: " + ", ".join(f"{M.curie(c)} {T[c]['label']} [{'|'.join(ids[c])}]" for c in unused))
+    if drop:
+        print("taken out of the PGS subset: " + ", ".join(f"{M.curie(c)} {T[c]['label']}" for c in drop))
     if unmapped:
         print("no Catalog id in the review: " + ", ".join(f"{M.curie(c)} {T[c]['label']}" for c in unmapped))
     if a.dry_run:
@@ -190,6 +200,19 @@ def main():
         t = CURATED.read_text(encoding="utf-8")
         CURATED.write_text(t + ("" if t.endswith("\n") else "\n") + M.rows_to_text(lines), encoding="utf-8")
         print(f"{len(lines)} lines appended to {CURATED.relative_to(M.ROOT)}; now run example_studies.py")
+    if drop:
+        gone = {M.curie(c) for c in drop}
+        with M.PGS_SUBSET.open(newline="", encoding="utf-8") as f:
+            rows = [r for r in csv.reader(f) if r and r[0] not in gone]
+        with M.PGS_SUBSET.open("w", newline="", encoding="utf-8") as f:
+            csv.writer(f, lineterminator="\n").writerows(rows)
+        record = [[M.curie(c), "PGS", "NOT FOUND", "removed from subset", "", "", "", "", "",
+                   f"No score in the PGS Catalog uses {M.joinnames(ids[c])}: the Catalog's cohort table lists the id, but no score's "
+                   f"development samples and no evaluated sample set name it (REST API, every score, performance metric and sample set, {today})"]
+                  for c in drop]
+        t = BACKFILL.read_text(encoding="utf-8")
+        BACKFILL.write_text(t + ("" if t.endswith("\n") else "\n") + M.rows_to_text(record), encoding="utf-8")
+        print(f"{len(drop)} terms taken out of {M.PGS_SUBSET.relative_to(M.ROOT)}, recorded in {BACKFILL.relative_to(M.ROOT)}")
 
 
 if __name__ == "__main__":

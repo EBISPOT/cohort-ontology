@@ -1,9 +1,9 @@
 # A cohort in a subset needs an example study from that subset's resource:
 # an EGA study (EGAS...), a GWAS Catalog study (GCST...), a MetaboLights study
-# (MTBLS...) or a PRIDE project (PXD...). The examples come from the
-# example_studies component; a cohort in two subsets has two examples. Placeholder
-# terms (curation status uncurated, IAO:0000124) are exempt, and the PGS subset has
-# no example rule yet.
+# (MTBLS...), a PRIDE project (PXD...) or a PGS Catalog score (PGS...). The
+# examples come from the example_studies component; a cohort in two subsets has
+# two examples. Placeholder terms (curation status uncurated, IAO:0000124) are
+# exempt.
 PREFIX coho: <http://www.ebi.ac.uk/coho/>
 PREFIX cohosubset: <http://www.ebi.ac.uk/coho#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
@@ -18,6 +18,7 @@ WHERE {
     (cohosubset:GWAS_subset "^GCST[0-9]+$")
     (cohosubset:MetaboLight_subset "^MTBLS[0-9]+$")
     (cohosubset:PRIDE_subset "^PXD[0-9]+$")
+    (cohosubset:PGS_subset "^PGS[0-9]+$")
   }
   ?term oboInOwl:inSubset ?subset .
   FILTER(STRSTARTS(STR(?term), STR(coho:)))

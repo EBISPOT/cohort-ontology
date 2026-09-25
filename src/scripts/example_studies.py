@@ -6,11 +6,11 @@ IAO:0000112 "example of usage", with the study's PMID (the first, if it has
 several) as an xref on the axiom and a title as dcterms:title on the axiom: the
 paper's, from Europe PMC, or the EGA study's own where it has no paper.
 
-A cohort in a subset (EGA, GWAS, MetaboLight, PRIDE) needs an example from that
-subset's resource: an EGA study (EGAS...), a GWAS Catalog study (GCST...), a
-MetaboLights study (MTBLS...) or a PRIDE project (PXD...). The
-subset-example-violation check in src/sparql enforces this, so a cohort in two
-subsets has two examples. Otherwise a cohort has one example.
+A cohort in a subset (EGA, GWAS, MetaboLight, PRIDE, PGS) needs an example from
+that subset's resource: an EGA study (EGAS...), a GWAS Catalog study (GCST...), a
+MetaboLights study (MTBLS...), a PRIDE project (PXD...) or a PGS Catalog score
+(PGS...). The subset-example-violation check in src/sparql enforces this, so a
+cohort in two subsets has two examples. Otherwise a cohort has one example.
 
 Sources, in src/curation:
   ega_studies.tsv               the EGA studies a human reviewed for cohort mentions
@@ -46,8 +46,8 @@ the title, where given, is used when the study has no paper (a MetaboLights stud
 or PRIDE project without a PMID, say).
 
 Paper titles are kept in src/curation/example_studies_titles.tsv, so only PMIDs
-not yet in it are looked up. The curated lines of the PGS subset's placeholders
-(a PGS Catalog score, PGS...) are written by pgs_examples.py from the Catalog.
+not yet in it are looked up. The curated lines of the PGS subset (a PGS Catalog
+score, PGS...) are written by pgs_examples.py from the Catalog's records.
 
 The evidence that the study used the cohort, a quote and the URL it came from,
 is in src/curation/example_studies_evidence.tsv (one row per cohort, from the
@@ -78,7 +78,7 @@ CURATED = ROOT / "src/curation/example_studies_curated.tsv"
 EVIDENCE = ROOT / "src/curation/example_studies_evidence.tsv"
 TITLES = ROOT / "src/curation/example_studies_titles.tsv"
 EUROPEPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-SUBSETS = ["EGA", "GWAS", "MetaboLight", "PRIDE"]
+SUBSETS = ["EGA", "GWAS", "MetaboLight", "PRIDE", "PGS"]
 
 VERIFIED = ("confirmed correct", "corrected by reviewer")
 
@@ -91,7 +91,7 @@ def accession_key(acc):
     return int(re.sub(r"\D", "", acc) or 0)
 
 
-RESOURCES = {"EGA": r"EGAS\d+", "GWAS": r"GCST\d+", "MetaboLight": r"MTBLS\d+", "PRIDE": r"PXD\d+"}
+RESOURCES = {"EGA": r"EGAS\d+", "GWAS": r"GCST\d+", "MetaboLight": r"MTBLS\d+", "PRIDE": r"PXD\d+", "PGS": r"PGS\d+"}
 
 
 def resource(acc):
@@ -139,9 +139,11 @@ def evidence():
 
 
 def cohorts():
+    """labels, names and the uncurated placeholders (exempt from the checks, so not reported as gaps)"""
     txt = EDIT.read_text(encoding="utf-8")
     individuals = set(re.findall(r"Declaration\(NamedIndividual\(coho:(COHO_\d+)\)", txt))
     individuals -= set(re.findall(r"AnnotationAssertion\(owl:deprecated coho:(COHO_\d+) \"true\"", txt))
+    uncurated = set(re.findall(r"AnnotationAssertion\(obo:IAO_0000114 coho:(COHO_\d+) obo:IAO_0000124\)", txt)) & individuals
     labels, names = {}, defaultdict(set)
     for prop, cid, value in re.findall(
         r'AnnotationAssertion\((?:Annotation\([^)]*\) )?(rdfs:label|oboInOwl:has\w+Synonym) coho:(COHO_\d+) "((?:[^"\\]|\\.)*)"',
@@ -151,11 +153,11 @@ def cohorts():
             names[cid].add(value)
             if prop == "rdfs:label":
                 labels[cid] = value
-    return labels, names
+    return labels, names, uncurated
 
 
 def main():
-    labels, names = cohorts()
+    labels, names, uncurated = cohorts()
     index = defaultdict(set)
     for cid, ns in names.items():
         for n in ns:
@@ -247,8 +249,9 @@ def main():
             for r in list(csv.reader(f))[2:]:
                 subsets[r[0].replace(":", "_")].append(s)
 
-    missing = [c for c in sorted(labels) if c not in done]
-    print(f"{len(done)} of {len(labels)} cohorts given an example study; {len(missing)} without:")
+    missing = [c for c in sorted(labels) if c not in done and c not in uncurated]
+    print(f"{len(done)} of {len(labels)} cohorts given an example study; {len(missing)} without "
+          f"(not counting {len(uncurated - done)} uncurated placeholders, which are exempt):")
     for cid in missing:
         cand = min(ega_weak[cid])[-1] if ega_weak.get(cid) else ""
         note = f"  candidate {cand} ({ega_title.get(cand, '')[:60]})" if cand else ""
@@ -256,7 +259,8 @@ def main():
 
     # subset members without an example from their subset's resource
     suggest = {"EGA": lambda c: [r[-1] for r in sorted(ega.get(c, []) + ega_weak.get(c, []))], "GWAS": lambda c: [r[-1] for r in sorted(gwas.get(c, []))]}
-    gaps = [(s, c) for c in sorted(labels) for s in subsets[c] if s not in {resource(e[0]) for e in chosen.get(c, [])}]
+    gaps = [(s, c) for c in sorted(labels) if c not in uncurated
+            for s in subsets[c] if s not in {resource(e[0]) for e in chosen.get(c, [])}]
     print(f"{len(gaps)} subset memberships without an example from the subset's resource:")
     for s, cid in gaps:
         cands = list(dict.fromkeys(suggest[s](cid)))[:3] if s in suggest else []
