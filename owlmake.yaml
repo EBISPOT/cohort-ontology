@@ -19,6 +19,7 @@ release_property_assertions:
 - coho:hasSubCohort
 - coho:isSubCohortOf
 - coho:hasCohort
+- coho:isCohortOf
 - coho:has_data_collection_location
 export_formats:
 - owl
