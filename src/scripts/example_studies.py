@@ -46,7 +46,8 @@ the title, where given, is used when the study has no paper (a MetaboLights stud
 or PRIDE project without a PMID, say).
 
 Paper titles are kept in src/curation/example_studies_titles.tsv, so only PMIDs
-not yet in it are looked up.
+not yet in it are looked up. The curated lines of the PGS subset's placeholders
+(a PGS Catalog score, PGS...) are written by pgs_examples.py from the Catalog.
 
 The evidence that the study used the cohort, a quote and the URL it came from,
 is in src/curation/example_studies_evidence.tsv (one row per cohort, from the
