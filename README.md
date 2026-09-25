@@ -6,7 +6,7 @@ A lightweight ontology for consistent identification and description of human co
 
 ### The cohorts as a table
 
-[coho-cohorts.csv](coho-cohorts.csv) lists every cohort, cohort aggregation and uncurated placeholder with its names, definition, subsets, example studies, data collection locations, sub-cohorts and aggregations, and the sources of each, one row per term. Each release rewrites it.
+[coho-cohorts.csv](coho-cohorts.csv) lists every cohort, cohort aggregation and uncurated placeholder with its names, definition, number of participants, subsets, example studies, data collection locations, sub-cohorts and aggregations, and the sources of each, one row per term. Each release rewrites it.
 
 ### Editors' version
 

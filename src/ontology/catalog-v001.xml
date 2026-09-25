@@ -13,6 +13,7 @@
     <uri name="http://www.ebi.ac.uk/coho/components/IHCC.owl" uri="components/IHCC.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/locations.owl" uri="components/locations.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/participants.owl" uri="components/participants.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/aggregation_members.owl" uri="components/aggregation_members.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/definitions.owl" uri="components/definitions.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/example_studies.owl" uri="components/example_studies.owl" />

@@ -109,6 +109,11 @@ components:
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
     templates:
     - locations.tsv
+  - filename: participants.owl
+    use_template: true
+    template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
+    templates:
+    - participants.tsv
   - filename: aggregation_members.owl
     use_template: true
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
@@ -145,6 +150,7 @@ report:
   - overlapping-synonyms
   - subset-example
   - catalogue-subset
+  - participants-evidence
 targets:
 - target: docs/images/cohort-map.svg
   needs:

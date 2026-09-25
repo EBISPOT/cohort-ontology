@@ -26,12 +26,13 @@ Import(<http://www.ebi.ac.uk/coho/components/definitions.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/example_studies.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/locations.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/participants.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/NCIT_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/omo_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/ro_import.owl>)
 Annotation(dce:rights "Copyright 2026 EMBL - European Bioinformatics Institute
 Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.")
-Annotation(dcterms:description "A lightweight ontology for the consistent identification and description of human cohorts across EMBL-EBI resources. Each cohort is represented as a named individual with a stable identifier and minimal metadata: a definition, synonyms, the locations where its data were collected, its relations to sub-cohorts and cohort aggregations, and example studies from EMBL-EBI resources such as the GWAS Catalog, EGA, MetaboLights and PRIDE. This enables linkage, discovery and integration of cohort-related data while supporting both named and implicitly defined cohorts.")
+Annotation(dcterms:description "A lightweight ontology for the consistent identification and description of human cohorts across EMBL-EBI resources. Each cohort is represented as a named individual with a stable identifier and minimal metadata: a definition, synonyms, the number of participants it reports, the locations where its data were collected, its relations to sub-cohorts and cohort aggregations, and example studies from EMBL-EBI resources such as the GWAS Catalog, EGA, MetaboLights and PRIDE. This enables linkage, discovery and integration of cohort-related data while supporting both named and implicitly defined cohorts.")
 Annotation(dcterms:license <http://www.apache.org/licenses/LICENSE-2.0>)
 Annotation(dcterms:title "Cohort Ontology")
 Annotation(doap:bug-database <https://github.com/EBISPOT/cohort-ontology/issues>)
@@ -2791,6 +2792,9 @@ Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PRIDE_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GEC_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#IHCC_subset>))
 Declaration(AnnotationProperty(oboInOwl:hasSynonymType))
+Declaration(AnnotationProperty(coho:numberOfCases))
+Declaration(AnnotationProperty(coho:numberOfControls))
+Declaration(AnnotationProperty(coho:numberOfParticipants))
 ############################
 #   Annotation Properties
 ############################
@@ -2836,6 +2840,26 @@ SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#GEC_subset> oboInOwl:SubsetPr
 AnnotationAssertion(obo:IAO_0000115 <http://www.ebi.ac.uk/coho#IHCC_subset> "The cohorts listed in the IHCC Cohort Atlas, the International Health Cohorts Consortium's directory of its member cohorts."@en)
 AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/coho#IHCC_subset> "IHCC_subset")
 SubAnnotationPropertyOf(<http://www.ebi.ac.uk/coho#IHCC_subset> oboInOwl:SubsetProperty)
+
+
+# Annotation Property: coho:numberOfCases (numberOfCases)
+
+AnnotationAssertion(obo:IAO_0000115 coho:numberOfCases "The number of cases a cohort reports, as its own design or profile paper or website states it: the participants with the condition under study in a case-control study. It is the number a source states, never one derived; the assertion carries that source, the sentence stating the number and what it counts. Asserted beside numberOfParticipants, or instead of it where no source states a total."@en)
+AnnotationAssertion(rdfs:label coho:numberOfCases "numberOfCases"@en)
+AnnotationPropertyRange(coho:numberOfCases xsd:integer)
+
+# Annotation Property: coho:numberOfControls (numberOfControls)
+
+AnnotationAssertion(obo:IAO_0000115 coho:numberOfControls "The number of controls a cohort reports, as its own design or profile paper or website states it: the participants without the condition under study in a case-control study. It is the number a source states, never one derived; the assertion carries that source, the sentence stating the number and what it counts. Asserted beside numberOfParticipants, or instead of it where no source states a total."@en)
+AnnotationAssertion(rdfs:label coho:numberOfControls "numberOfControls"@en)
+AnnotationPropertyRange(coho:numberOfControls xsd:integer)
+
+# Annotation Property: coho:numberOfParticipants (numberOfParticipants)
+
+AnnotationAssertion(obo:IAO_0000115 coho:numberOfParticipants "The number of participants a cohort reports: the people it enrolled or recruited, as its own design or profile paper or website states them, or, for a cohort aggregation, the pooled number of participants in its main analysis. It is the number a source states, never one computed, summed or inferred; the assertion carries that source, the sentence stating the number and what it counts. A definition never gives a size."@en)
+AnnotationAssertion(rdfs:label coho:numberOfParticipants "numberOfParticipants"@en)
+AnnotationPropertyRange(coho:numberOfParticipants xsd:integer)
+
 
 
 ############################

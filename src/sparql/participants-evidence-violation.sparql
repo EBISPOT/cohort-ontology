@@ -1,0 +1,33 @@
+# A number of participants, cases or controls asserted on a cohort is the
+# number a source states, never one derived, so each assertion must carry its
+# source (oboInOwl:hasDbXref on the axiom, a PMID or a URL), its value must be a
+# non-negative integer, and a term has at most one number per property.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?term ?label ?property ?value
+WHERE {
+  VALUES ?property { coho:numberOfParticipants coho:numberOfCases coho:numberOfControls }
+  ?term ?property ?value .
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+  FILTER(
+    !isLiteral(?value)
+    || DATATYPE(?value) != xsd:integer
+    || !REGEX(STR(?value), "^[0-9]+$")
+    || NOT EXISTS {
+      ?axiom a owl:Axiom ;
+        owl:annotatedSource ?term ;
+        owl:annotatedProperty ?property ;
+        owl:annotatedTarget ?value ;
+        oboInOwl:hasDbXref ?source .
+      FILTER(STR(?source) != "")
+    }
+    || EXISTS { ?term ?property ?other . FILTER(?other != ?value) }
+  )
+}
+ORDER BY ?term ?property

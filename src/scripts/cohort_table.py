@@ -41,6 +41,11 @@ ACRONYM = "http://purl.obolibrary.org/obo/OMO_0003000"
 IN_SUBSET = "http://www.geneontology.org/formats/oboInOwl#inSubset"
 XREF = "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
 LOCATION = COHO + "has_data_collection_location"
+NUMBERS = {
+    COHO + "numberOfParticipants": "participants",
+    COHO + "numberOfCases": "cases",
+    COHO + "numberOfControls": "controls",
+}
 SUB_COHORT_OF = COHO + "isSubCohortOf"
 HAS_COHORT = COHO + "hasCohort"
 AXIOM = "http://www.w3.org/2002/07/owl#Axiom"
@@ -127,6 +132,21 @@ def main():
                 if kind == "iri" and target_kind == "literal":
                     acronyms.add((source, text))
 
+    # the sources of each cohort's numbers of participants, cases and controls:
+    # axiom annotations on the number assertions
+    number_sources = defaultdict(set)
+    for subject, properties in by_subject.items():
+        if not subject.startswith("_:"):
+            continue
+        if ("iri", AXIOM) not in properties.get(RDF_TYPE, []):
+            continue
+        if not any(("iri", p) in properties.get(ANNOTATED_PROPERTY, []) for p in NUMBERS):
+            continue
+        for kind, source in properties.get(ANNOTATED_SOURCE, []):
+            for source_kind, value in properties.get(XREF, []):
+                if kind == "iri" and source_kind == "literal":
+                    number_sources[source].add(value)
+
     # each cohort's aggregations, inverted from the aggregations' hasCohort
     member_of = defaultdict(set)
     for subject, properties in by_subject.items():
@@ -167,6 +187,11 @@ def main():
                 ),
                 "definition": definition,
                 "definition source": sources,
+                **{
+                    column: cell(v for kind, v in of(p) if kind == "literal")
+                    for p, column in NUMBERS.items()
+                },
+                "participants source": cell(number_sources[subject]),
                 "data collection locations": cell(
                     label(v) for kind, v in of(LOCATION) if kind == "iri"
                 ),
@@ -185,7 +210,7 @@ def main():
 
     rows.sort(key=lambda r: r["ID"])
     with open(CSV, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     print(f"{CSV.relative_to(ROOT)}: {len(rows)} rows")
