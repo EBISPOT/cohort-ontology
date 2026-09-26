@@ -49,6 +49,13 @@ NUMBERS = {
 SUB_COHORT_OF = COHO + "isSubCohortOf"
 HAS_COHORT = COHO + "hasCohort"
 AXIOM = "http://www.w3.org/2002/07/owl#Axiom"
+ON_PROPERTY = "http://www.w3.org/2002/07/owl#onProperty"
+SOME_VALUES_FROM = "http://www.w3.org/2002/07/owl#someValuesFrom"
+DISEASE_ROLES = {
+    COHO + "has_patients_with": "patients with",
+    COHO + "has_participants_at_risk_of": "at risk of",
+    COHO + "is_population_study_of": "population study of",
+}
 ANNOTATED_SOURCE = "http://www.w3.org/2002/07/owl#annotatedSource"
 ANNOTATED_PROPERTY = "http://www.w3.org/2002/07/owl#annotatedProperty"
 ANNOTATED_TARGET = "http://www.w3.org/2002/07/owl#annotatedTarget"
@@ -104,6 +111,11 @@ def read_triples():
 
 def curie(iri):
     return "COHO:" + iri[len(COHO) + len("COHO_") :]
+
+
+def external_curie(iri):
+    """MONDO:n, HP:n or EFO:n for an imported disease term"""
+    return iri.rsplit("/", 1)[-1].replace("_", ":", 1)
 
 
 def cell(values):
@@ -165,6 +177,20 @@ def main():
                 return value
         return iri.rsplit("/", 1)[-1].replace("_", " ")
 
+    def diseases(properties):
+        """'patients with: breast cancer (MONDO:0007254)' for each disease of
+        interest, a type of the form 'property some disease'"""
+        out = []
+        for kind, node in properties.get(RDF_TYPE, []):
+            if kind != "bnode":
+                continue
+            restriction = by_subject.get(node, {})
+            props = [v for k, v in restriction.get(ON_PROPERTY, []) if v in DISEASE_ROLES]
+            targets = [v for k, v in restriction.get(SOME_VALUES_FROM, []) if k == "iri"]
+            if props and targets:
+                out.append(f"{DISEASE_ROLES[props[0]]}: {label(targets[0])} ({external_curie(targets[0])})")
+        return out
+
     rows = []
     for subject, properties in by_subject.items():
         types = [t for kind, t in properties.get(RDF_TYPE, []) if t in TYPES]
@@ -192,6 +218,7 @@ def main():
                     for p, column in NUMBERS.items()
                 },
                 "participants source": cell(number_sources[subject]),
+                "diseases": cell(diseases(properties)),
                 "data collection locations": cell(
                     label(v) for kind, v in of(LOCATION) if kind == "iri"
                 ),

@@ -43,6 +43,8 @@ NCIT:C17005
 
 Now you can run the [refresh imports workflow](#refresh-imports) and the two terms will be imported.
 
+The term files of the disease imports (`mondo_terms.txt`, `hp_terms.txt`) are not edited by hand: `src/scripts/diseases.py` writes them from the cohorts' disease mappings (see [Diseases](components.md#diseases)), so those imports are refreshed after a change to the disease table or its mappings, with `om make imports/mondo_import.owl imports/hp_import.owl IMP=true MIR=false` (add `MIR=true` to fetch fresh copies of the source ontologies first). They are minimal modules: the seed terms and their ancestors, with labels and definitions but no logical definitions, and their subset tags removed.
+
 ### Refresh imports
 
 To rebuild the import modules so that they include any new terms you have added:

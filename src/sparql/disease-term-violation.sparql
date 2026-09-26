@@ -1,0 +1,38 @@
+# A disease of interest is asserted on a cohort as a type of the form
+# "has_patients_with some D" (or has_participants_at_risk_of, or
+# is_population_study_of), where D is a term of MONDO or HP that the
+# imports supply, so that the disease hierarchy is in the ontology. The parent
+# property has_disease_of_interest is never asserted directly: the sub-property
+# says the role. A restriction on any other class, on a term the imports do
+# not carry (no label, tested only where the imports are loaded, that is when
+# MONDO's root carries its label), or on an obsolete term is a violation.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?label ?property ?disease
+WHERE {
+  VALUES ?property {
+    coho:has_disease_of_interest
+    coho:has_patients_with
+    coho:has_participants_at_risk_of
+    coho:is_population_study_of
+  }
+  ?term rdf:type ?restriction .
+  ?restriction owl:onProperty ?property ;
+               owl:someValuesFrom ?disease .
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+  FILTER(
+    ?property = coho:has_disease_of_interest
+    || !isIRI(?disease)
+    || !(STRSTARTS(STR(?disease), "http://purl.obolibrary.org/obo/MONDO_")
+         || STRSTARTS(STR(?disease), "http://purl.obolibrary.org/obo/HP_"))
+    || (EXISTS { obo:MONDO_0000001 rdfs:label ?rootLabel } && NOT EXISTS { ?disease rdfs:label ?diseaseLabel })
+    || EXISTS { ?disease owl:deprecated true }
+  )
+}
+ORDER BY ?term ?property ?disease

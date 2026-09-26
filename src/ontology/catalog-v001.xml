@@ -4,6 +4,8 @@
     <uri name="http://www.ebi.ac.uk/coho/imports/ro_import.owl" uri="imports/ro_import.owl" />
     <uri name="http://www.ebi.ac.uk/coho/imports/omo_import.owl" uri="imports/omo_import.owl" />
     <uri name="http://www.ebi.ac.uk/coho/imports/NCIT_import.owl" uri="imports/NCIT_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/imports/mondo_import.owl" uri="imports/mondo_import.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/imports/hp_import.owl" uri="imports/hp_import.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl" uri="components/gaz_xrefs.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/GWAS.owl" uri="components/GWAS.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/PGS.owl" uri="components/PGS.owl" />
@@ -14,6 +16,7 @@
     <uri name="http://www.ebi.ac.uk/coho/components/PRIDE.owl" uri="components/PRIDE.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/locations.owl" uri="components/locations.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/participants.owl" uri="components/participants.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/diseases.owl" uri="components/diseases.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/aggregation_members.owl" uri="components/aggregation_members.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/definitions.owl" uri="components/definitions.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/example_studies.owl" uri="components/example_studies.owl" />
