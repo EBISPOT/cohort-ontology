@@ -41,6 +41,11 @@ import_group:
     module_type: minimal
   - id: hp
     module_type: minimal
+  - id: ecto
+    module_type: minimal
+    base_iris:
+    - http://purl.obolibrary.org/obo/ECTO_
+    - http://purl.obolibrary.org/obo/ExO_
 # The NCIT and RO slices drag their upstream subset tags along (oboInOwl:inSubset
 # values like NCIT_C132298 or ro-eco), which then show up beside COHO's own
 # subsets. After the standard module pipeline declares them under
@@ -49,7 +54,13 @@ import_group:
 # edit file and components, never in imports, so nothing of COHO's is touched.
 # MONDO and HP are cut as minimal modules (the terms the cohorts' diseases are
 # mapped to and their ancestors, with labels and definitions but no logical
-# definitions), and their subset tags come out the same way.
+# definitions), and their subset tags come out the same way. ECTO is cut the
+# same way around the terms the cohorts' exposures are mapped to.
+# ExO's exposure event, the root of ECTO, is a process that has the exposure
+# stressor and the exposure recipient, both material entities, as parts; under
+# RO's BFO axioms a material entity cannot be part of a process, so every
+# exposure term would be unsatisfiable. The stressor and the recipient, which
+# COHO does not use, are taken out with every axiom that mentions them.
 imports:
 - id: NCIT
   extends: true
@@ -83,6 +94,21 @@ imports:
     - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
     selects:
     - children
+- id: ecto
+  extends: true
+  steps:
+  - op: remove-terms
+    terms:
+    - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+    selects:
+    - children
+  - op: remove-terms
+    terms:
+    - http://purl.obolibrary.org/obo/ExO_0000000
+    - http://purl.obolibrary.org/obo/ExO_0000001
+    selects:
+    - self
+    signature: true
 documentation:
   documentation_system: mkdocs
 components:
@@ -138,6 +164,7 @@ components:
     templates:
     - participants.tsv
   - filename: diseases.owl
+  - filename: exposures.owl
   - filename: aggregation_members.owl
     use_template: true
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
@@ -176,6 +203,7 @@ report:
   - catalogue-subset
   - participants-evidence
   - disease-term
+  - exposure-term
 targets:
 - target: docs/images/cohort-map.svg
   needs:

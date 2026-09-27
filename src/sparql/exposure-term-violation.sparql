@@ -1,0 +1,38 @@
+# An exposure of interest is asserted on a cohort as a type of the form
+# "has_participants_with_exposure some E" (or is_designed_to_study_exposure),
+# where E is a term of ECTO that the import supplies (or ExO's exposure event,
+# the root of ECTO), so that the exposure hierarchy is in the ontology. The
+# parent property has_exposure_of_interest is never asserted directly: the
+# sub-property says the role. A restriction on any other class, on a term the
+# import does not carry (no label, tested only where the imports are loaded,
+# that is when ECTO's root carries its label), or on an obsolete term is a
+# violation.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?label ?property ?exposure
+WHERE {
+  VALUES ?property {
+    coho:has_exposure_of_interest
+    coho:has_participants_with_exposure
+    coho:is_designed_to_study_exposure
+  }
+  ?term rdf:type ?restriction .
+  ?restriction owl:onProperty ?property ;
+               owl:someValuesFrom ?exposure .
+  FILTER(STRSTARTS(STR(?term), STR(coho:)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  OPTIONAL { ?term rdfs:label ?label }
+  FILTER(
+    ?property = coho:has_exposure_of_interest
+    || !isIRI(?exposure)
+    || !(STRSTARTS(STR(?exposure), "http://purl.obolibrary.org/obo/ECTO_")
+         || ?exposure = obo:ExO_0000002)
+    || (EXISTS { obo:ExO_0000002 rdfs:label ?rootLabel } && NOT EXISTS { ?exposure rdfs:label ?exposureLabel })
+    || EXISTS { ?exposure owl:deprecated true }
+  )
+}
+ORDER BY ?term ?property ?exposure

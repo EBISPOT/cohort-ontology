@@ -56,6 +56,10 @@ DISEASE_ROLES = {
     COHO + "has_participants_at_risk_of": "at risk of",
     COHO + "is_population_study_of": "population study of",
 }
+EXPOSURE_ROLES = {
+    COHO + "has_participants_with_exposure": "participants with exposure",
+    COHO + "is_designed_to_study_exposure": "designed to study",
+}
 ANNOTATED_SOURCE = "http://www.w3.org/2002/07/owl#annotatedSource"
 ANNOTATED_PROPERTY = "http://www.w3.org/2002/07/owl#annotatedProperty"
 ANNOTATED_TARGET = "http://www.w3.org/2002/07/owl#annotatedTarget"
@@ -114,7 +118,7 @@ def curie(iri):
 
 
 def external_curie(iri):
-    """MONDO:n, HP:n or EFO:n for an imported disease term"""
+    """MONDO:n, HP:n or ECTO:n for an imported disease or exposure term"""
     return iri.rsplit("/", 1)[-1].replace("_", ":", 1)
 
 
@@ -177,18 +181,20 @@ def main():
                 return value
         return iri.rsplit("/", 1)[-1].replace("_", " ")
 
-    def diseases(properties):
+    def restrictions(properties, roles):
         """'patients with: breast cancer (MONDO:0007254)' for each disease of
-        interest, a type of the form 'property some disease'"""
+        interest, or 'designed to study: exposure to air pollution
+        (ECTO:8000036)' for each exposure, a type of the form 'property some
+        term' whose property is one of roles"""
         out = []
         for kind, node in properties.get(RDF_TYPE, []):
             if kind != "bnode":
                 continue
             restriction = by_subject.get(node, {})
-            props = [v for k, v in restriction.get(ON_PROPERTY, []) if v in DISEASE_ROLES]
+            props = [v for k, v in restriction.get(ON_PROPERTY, []) if v in roles]
             targets = [v for k, v in restriction.get(SOME_VALUES_FROM, []) if k == "iri"]
             if props and targets:
-                out.append(f"{DISEASE_ROLES[props[0]]}: {label(targets[0])} ({external_curie(targets[0])})")
+                out.append(f"{roles[props[0]]}: {label(targets[0])} ({external_curie(targets[0])})")
         return out
 
     rows = []
@@ -218,7 +224,8 @@ def main():
                     for p, column in NUMBERS.items()
                 },
                 "participants source": cell(number_sources[subject]),
-                "diseases": cell(diseases(properties)),
+                "diseases": cell(restrictions(properties, DISEASE_ROLES)),
+                "exposures": cell(restrictions(properties, EXPOSURE_ROLES)),
                 "data collection locations": cell(
                     label(v) for kind, v in of(LOCATION) if kind == "iri"
                 ),

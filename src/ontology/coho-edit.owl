@@ -25,17 +25,19 @@ Import(<http://www.ebi.ac.uk/coho/components/aggregation_members.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/definitions.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/diseases.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/example_studies.owl>)
+Import(<http://www.ebi.ac.uk/coho/components/exposures.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/locations.owl>)
 Import(<http://www.ebi.ac.uk/coho/components/participants.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/NCIT_import.owl>)
+Import(<http://www.ebi.ac.uk/coho/imports/ecto_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/hp_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/mondo_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/omo_import.owl>)
 Import(<http://www.ebi.ac.uk/coho/imports/ro_import.owl>)
 Annotation(dce:rights "Copyright 2026 EMBL - European Bioinformatics Institute
 Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.")
-Annotation(dcterms:description "A lightweight ontology for the consistent identification and description of human cohorts across EMBL-EBI resources. Each cohort is represented as a named individual with a stable identifier and minimal metadata: a definition, synonyms, the number of participants it reports, the diseases it studies (MONDO terms, with their hierarchy), the locations where its data were collected, its relations to sub-cohorts and cohort aggregations, and example studies from EMBL-EBI resources such as the GWAS Catalog, EGA, MetaboLights and PRIDE. This enables linkage, discovery and integration of cohort-related data while supporting both named and implicitly defined cohorts.")
+Annotation(dcterms:description "A lightweight ontology for the consistent identification and description of human cohorts across EMBL-EBI resources. Each cohort is represented as a named individual with a stable identifier and minimal metadata: a definition, synonyms, the number of participants it reports, the diseases it studies (MONDO terms, with their hierarchy), the environmental exposures it studies (ECTO terms, with their hierarchy), the locations where its data were collected, its relations to sub-cohorts and cohort aggregations, and example studies from EMBL-EBI resources such as the GWAS Catalog, EGA, MetaboLights and PRIDE. This enables linkage, discovery and integration of cohort-related data while supporting both named and implicitly defined cohorts.")
 Annotation(dcterms:license <http://www.apache.org/licenses/LICENSE-2.0>)
 Annotation(dcterms:title "Cohort Ontology")
 Annotation(doap:bug-database <https://github.com/EBISPOT/cohort-ontology/issues>)
@@ -52,8 +54,11 @@ Declaration(ObjectProperty(coho:isCohortOf))
 Declaration(ObjectProperty(coho:has_data_collection_location))
 Declaration(ObjectProperty(coho:isSubCohortOf))
 Declaration(ObjectProperty(coho:has_disease_of_interest))
+Declaration(ObjectProperty(coho:has_exposure_of_interest))
 Declaration(ObjectProperty(coho:has_participants_at_risk_of))
+Declaration(ObjectProperty(coho:has_participants_with_exposure))
 Declaration(ObjectProperty(coho:has_patients_with))
+Declaration(ObjectProperty(coho:is_designed_to_study_exposure))
 Declaration(ObjectProperty(coho:is_population_study_of))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Australia>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Austria>))
@@ -2901,11 +2906,23 @@ AnnotationAssertion(obo:IAO_0000115 coho:has_disease_of_interest "A relation bet
 AnnotationAssertion(rdfs:label coho:has_disease_of_interest "has_disease_of_interest"@en)
 ObjectPropertyDomain(coho:has_disease_of_interest ObjectUnionOf(coho:COHO_0000000 coho:COHO_0000001))
 
+# Object Property: coho:has_exposure_of_interest (has_exposure_of_interest)
+
+AnnotationAssertion(obo:IAO_0000115 coho:has_exposure_of_interest "A relation between a cohort and an environmental exposure it is about: the exposure its participants were selected for, or the exposure the cohort was designed to study. Asserted only through its sub-properties, which say which of these it is, as a type of the cohort (has_participants_with_exposure some E) carrying the sentence that shows the recruitment basis or purpose, its source and the exposure as the source names it. A general population, biobank, disease or trial cohort that measures exposures among many other variables has no exposure of interest, and a genotype, a medication, a medical procedure or socio-economic status by itself is not an exposure here."@en)
+AnnotationAssertion(rdfs:label coho:has_exposure_of_interest "has_exposure_of_interest"@en)
+ObjectPropertyDomain(coho:has_exposure_of_interest ObjectUnionOf(coho:COHO_0000000 coho:COHO_0000001))
+
 # Object Property: coho:has_participants_at_risk_of (has_participants_at_risk_of)
 
 AnnotationAssertion(obo:IAO_0000115 coho:has_participants_at_risk_of "A relation between a cohort and a disease its participants were selected for their risk of: relatives of patients, carriers of a mutation, people with a pre-disease state, or a group chosen for its high risk of the disease."@en)
 AnnotationAssertion(rdfs:label coho:has_participants_at_risk_of "has_participants_at_risk_of"@en)
 SubObjectPropertyOf(coho:has_participants_at_risk_of coho:has_disease_of_interest)
+
+# Object Property: coho:has_participants_with_exposure (has_participants_with_exposure)
+
+AnnotationAssertion(obo:IAO_0000115 coho:has_participants_with_exposure "A relation between a cohort and an environmental exposure its participants were selected for, or are followed for: residents of a contaminated or disaster area, survivors of an event, workers in an industry or trade, smokers recruited as smokers, veterans of a deployment, or a birth cohort exposed to a famine."@en)
+AnnotationAssertion(rdfs:label coho:has_participants_with_exposure "has_participants_with_exposure"@en)
+SubObjectPropertyOf(coho:has_participants_with_exposure coho:has_exposure_of_interest)
 
 # Object Property: coho:has_patients_with (has_patients_with)
 
@@ -2929,6 +2946,12 @@ ObjectPropertyDomain(coho:isSubCohortOf coho:COHO_0000000)
 ObjectPropertyRange(coho:isSubCohortOf coho:COHO_0000000)
 
 
+
+# Object Property: coho:is_designed_to_study_exposure (is_designed_to_study_exposure)
+
+AnnotationAssertion(obo:IAO_0000115 coho:is_designed_to_study_exposure "A relation between a cohort and an environmental exposure that its stated purpose or design centres on measuring, with its effects, its participants not being selected for the exposure: an exposome cohort, a birth cohort built around prenatal exposure to a pollutant, an air pollution cohort, a diet and cancer cohort, or an occupational health cohort."@en)
+AnnotationAssertion(rdfs:label coho:is_designed_to_study_exposure "is_designed_to_study_exposure"@en)
+SubObjectPropertyOf(coho:is_designed_to_study_exposure coho:has_exposure_of_interest)
 
 # Object Property: coho:is_population_study_of (is_population_study_of)
 

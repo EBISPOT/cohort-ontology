@@ -9,6 +9,9 @@ COHO imports terms from these ontologies, listed under `import_group` in `owlmak
 | ro | http://purl.obolibrary.org/obo/ro.owl | slme |
 | omo | http://purl.obolibrary.org/obo/omo.owl | mirror |
 | NCIT | http://purl.obolibrary.org/obo/NCIT.owl | slme |
+| mondo | http://purl.obolibrary.org/obo/mondo.owl | minimal |
+| hp | http://purl.obolibrary.org/obo/hp.owl | minimal |
+| ecto | http://purl.obolibrary.org/obo/ecto.owl | minimal |
 
 Each has an import module, `src/ontology/imports/<id>_import.owl`, holding just the terms COHO uses and what the source ontology says about them. Import modules are never edited by hand: any edit is lost the next time the imports are refreshed.
 
@@ -44,6 +47,8 @@ NCIT:C17005
 Now you can run the [refresh imports workflow](#refresh-imports) and the two terms will be imported.
 
 The term files of the disease imports (`mondo_terms.txt`, `hp_terms.txt`) are not edited by hand: `src/scripts/diseases.py` writes them from the cohorts' disease mappings (see [Diseases](components.md#diseases)), so those imports are refreshed after a change to the disease table or its mappings, with `om make imports/mondo_import.owl imports/hp_import.owl IMP=true MIR=false` (add `MIR=true` to fetch fresh copies of the source ontologies first). They are minimal modules: the seed terms and their ancestors, with labels and definitions but no logical definitions, and their subset tags removed.
+
+The term file of the exposure import (`ecto_terms.txt`) is written the same way by `src/scripts/exposures.py` from the cohorts' exposure mappings (see [Exposures](components.md#exposures)), and the import is refreshed with `om make imports/ecto_import.owl IMP=true MIR=false`. It is a minimal module of ECTO whose namespace takes in ExO, the ontology ECTO's root (exposure event) comes from. ExO's exposure stressor and exposure recipient are taken out of it with every axiom that mentions them: the exposure event has both as parts, and both are material entities, which RO's BFO axioms do not allow to be parts of a process, so with them every exposure term is unsatisfiable.
 
 ### Refresh imports
 
