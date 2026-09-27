@@ -1958,7 +1958,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002250>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002252>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002256>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002258>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002259>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002260>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002262>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002266>))
@@ -4315,6 +4314,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Whole-Exome Seq
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000485> (<http://www.ebi.ac.uk/coho/COHO_0000485>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study identifies tumor anatomical site-specific risk variants for colorectal cancer survival.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34996992") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8741984/fullTextXML") Annotation(rdfs:comment "PLCO Prostate, Lung, Colorectal and Ovarian Cancer Screening Trial") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000485> "GCST90102456")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Determining Risk of Colorectal Cancer and Starting Age of Screening Based on Lifestyle, Environmental, and Genetic Factors.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29458155") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000485> "PGS000148")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000486> (<http://www.ebi.ac.uk/coho/COHO_0000486>)
 
@@ -7006,6 +7006,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genetics of C-P
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001152> (<http://www.ebi.ac.uk/coho/COHO_0001152>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "GWAS meta-analysis of psoriasis identifies new susceptibility alleles impacting disease mechanisms and therapeutic targets.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40021644") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11871359/fullTextXML") Annotation(rdfs:comment "Individual level genotype data for the CASP GWAS, PsA GWAS, and Exomechip case-control studies are available on dbGaP (dbGaP: phs000019.v1.p1, phs000982.v1.p1, and phs001306.v1.p1, and WTCCC2 genotype data are archived at the European Genome-Phenome Archive (study ID EGAS00000000108).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001152> "GCST90472771")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genetic liability to psoriasis predicts severe disease outcomes.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41408349") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001152> "PGS005307")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001153> (<http://www.ebi.ac.uk/coho/COHO_0001153>)
 
@@ -10250,10 +10251,6 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002258> (<http://www.ebi.ac.uk/coho/COHO_0002258>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002258> "PGS000777")
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0002259> (<http://www.ebi.ac.uk/coho/COHO_0002259>)
-
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk scores and breast and epithelial ovarian cancer risks for carriers of BRCA1 and BRCA2 pathogenic variants.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32665703") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002259> "PGS000352")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002260> (<http://www.ebi.ac.uk/coho/COHO_0002260>)
 

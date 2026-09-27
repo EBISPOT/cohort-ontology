@@ -3672,6 +3672,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana Sisters Osteoporosis Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Study of Indiana Women")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000099 "IGBFS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana Genetics of Bone Fragility Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000099 "Indiana Sisters Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000099)
 
@@ -5283,6 +5285,9 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000330)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000331 "SCOOP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000331 "SCOOP Cohort")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000331 "SCOOP-UK")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000331 "Severe Childhood Onset Obesity Project United Kingdom")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000331 "Severe Childhood Onset Obesity Project UK")
 AnnotationAssertion(rdfs:label coho:COHO_0000331 "Severe Childhood Onset Obesity Project"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000331)
 
@@ -6372,6 +6377,9 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Nurses' Health
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Harvard")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000456 "The acronym Harvard also denotes Mass General Brigham Biobank (COHO:0000383), Health Professionals Follow-up Study (COHO:0000527) and Nurses' Health Study II (COHO:0000619); this term is Nurses' Health Study."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "NHS3")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "NHS-egems")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "NHS-cgems")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "NHS-Hu")
 AnnotationAssertion(rdfs:label coho:COHO_0000456 "Nurses' Health Study"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000456 <https://www.nurseshealthstudy.org>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000456)
@@ -6623,6 +6631,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000484)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000485 "PLCO")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000485 "Prostate, Lung, Colorectal and Ovarian Cancer Screening Trial")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000485 "PLCO Cancer Screening Trial")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000485 "PICO")
 AnnotationAssertion(rdfs:label coho:COHO_0000485 "Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000485 <https://biometry.nci.nih.gov/cdas/studies/plco/>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000485)
@@ -10073,6 +10082,10 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The name MD Anderson Canc
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The acronym MDACC also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874); this term is MD Anderson Cancer Center melanoma study."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000875 "MDACCS")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The acronym MDACCS also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874), Prostate Cancer Case-Control Studies at MD Anderson (COHO:0002044), MD Anderson Ovarian Cancer Study (COHO:0002047) and MD Anderson Renal Cell Cancer Study (COHO:0002048); this term is MD Anderson Cancer Center melanoma study."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000875 "HDAAM")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000875 "High Density SNP Association Analysis of Melanoma")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000875 "High Density SNP Association Analysis of Melanoma: Case-Control and Outcomes Investigation")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000875 "GENEVA Melanoma study")
 AnnotationAssertion(rdfs:label coho:COHO_0000875 "MD Anderson Cancer Center melanoma study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000875)
 
@@ -12280,6 +12293,10 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "3D Facial Norm
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "3D Facial Norms Dataset")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "3D Facial Norms dataset")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "3D Facial Norms")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001139 "PITT")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "Pittsburgh 3D Facial Norms")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "Pittsburgh 3D Facial Norms study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001139 "Pittsburgh 3DFN cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0001139 "3D Facial Norms cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001139)
 
@@ -12394,6 +12411,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001151)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001152 "CASP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001152 "Collaborative Association Study of psoriasis")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001152 "PSGDS")
 AnnotationAssertion(rdfs:label coho:COHO_0001152 "Collaborative Association Study of Psoriasis"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001152)
 
@@ -17437,12 +17455,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001762 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001762 "German Consortium for Hereditary Breast & Ovarian Cancer"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001762)
 
-# Individual: coho:COHO_0001763 (Genomics Collaborative Initiative)
+# Individual: coho:COHO_0001763 (obsolete Genomics Collaborative Initiative)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001763 "GCI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001763 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001763 "Genomics Collaborative Initiative"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001763)
+AnnotationAssertion(rdfs:comment coho:COHO_0001763 "Obsoleted 2026-09-27. GCI is Genomics Collaborative, Inc., a company that held a DNA repository and supplied case-control sets to other researchers; the rheumatoid arthritis papers' 'Genomics Collaborative Initiative' is a misreading of its name. A company, not a cohort. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001763 "obsolete Genomics Collaborative Initiative"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001763 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001764 (Guangdong Study)
 
@@ -18025,12 +18042,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0001846 "Obsoleted 2026-09-24. HCSC i
 AnnotationAssertion(rdfs:label coho:COHO_0001846 "obsolete Hospital Clinico San Carlos"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0001846 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001847 (High Density SNP Association Analysis of Melanoma)
+# Individual: coho:COHO_0001847 (obsolete High Density SNP Association Analysis of Melanoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001847 "HDAAM")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001847 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001847 "High Density SNP Association Analysis of Melanoma"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001847)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001847 coho:COHO_0000875)
+AnnotationAssertion(rdfs:comment coho:COHO_0001847 "Obsoleted 2026-09-27. HDAAM is the dbGaP study 'High Density SNP Association Analysis of Melanoma: Case-Control and Outcomes Investigation' (phs000187), under which the MD Anderson melanoma GWAS deposited its data (PMID:21926416). Replaced by COHO:0000875 (MD Anderson Cancer Center melanoma study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001847 "obsolete High Density SNP Association Analysis of Melanoma"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001847 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001848 (Health2 Study)
 
@@ -18459,12 +18476,12 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001906 "ICONA Cohort S
 AnnotationAssertion(rdfs:label coho:COHO_0001906 "Italian Cohort Naïve Antiretrovirals"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001906)
 
-# Individual: coho:COHO_0001907 (Indiana Genetics of Bone Fragility Study)
+# Individual: coho:COHO_0001907 (obsolete Indiana Genetics of Bone Fragility Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001907 "IGBFS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001907 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001907 "Indiana Genetics of Bone Fragility Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001907)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001907 coho:COHO_0000099)
+AnnotationAssertion(rdfs:comment coho:COHO_0001907 "Obsoleted 2026-09-27. The Indiana Genetics of Bone Fragility Study is the full name a bone mineral density consortium table (PMID:22504420) gives the Indiana sister-pair study whose GWAS (PMID:20164292) is the Indiana Sisters Study's example. Replaced by COHO:0000099 (Indiana Sisters Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001907 "obsolete Indiana Genetics of Bone Fragility Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001907 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001908 (obsolete Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire)
 
@@ -20144,12 +20161,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002140 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002140 "Newfoundland Osteoarthritis Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002140)
 
-# Individual: coho:COHO_0002141 (Australian NHMRC program)
+# Individual: coho:COHO_0002141 (obsolete Australian NHMRC program)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002141 "NHMRC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002141 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002141 "Australian NHMRC program"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002141)
+AnnotationAssertion(rdfs:comment coho:COHO_0002141 "Obsoleted 2026-09-27. NHMRC is Australia's National Health and Medical Research Council, and the Australian NHMRC program a funding programme: the bipolar disorder GWAS of PMID:21353194 credits it with the recruitment of its Australian sample. A funder, not a cohort. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002141 "obsolete Australian NHMRC program"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002141 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002142 (obsolete Nurses Health Study III)
 
@@ -20173,17 +20189,19 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002144 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002144 "Nurses Health Study, Adenoma Set"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002144)
 
-# Individual: coho:COHO_0002145 (NHS-egems)
+# Individual: coho:COHO_0002145 (obsolete NHS-egems)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002145 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002145 "NHS-egems"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002145)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002145 coho:COHO_0000456)
+AnnotationAssertion(rdfs:comment coho:COHO_0002145 "Obsoleted 2026-09-27. NHS-egems is the Catalog's misspelling of NHS-cgems, the label the age-at-menopause GWAS of PMID:22267201 gives the Nurses' Health Study's breast cancer GWAS set, genotyped by the CGEMS project; that paper lists the Nurses' Health Study as exactly two sets, NHS-cgems and NHS-Hu. Replaced by COHO:0000456 (Nurses' Health Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002145 "obsolete NHS-egems"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002145 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002146 (NHS-Hu)
+# Individual: coho:COHO_0002146 (obsolete NHS-Hu)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002146 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002146 "NHS-Hu"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002146)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002146 coho:COHO_0000456)
+AnnotationAssertion(rdfs:comment coho:COHO_0002146 "Obsoleted 2026-09-27. NHS-Hu is the label the age-at-menopause GWAS of PMID:22267201 gives the Nurses' Health Study's type 2 diabetes GWAS set. Replaced by COHO:0000456 (Nurses' Health Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002146 "obsolete NHS-Hu"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002146 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002147 (obsolete National Institute on Aging)
 
@@ -20964,11 +20982,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002258 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002258 "Parkinsonism: Incidence, Cognition and Non-motor heterogeneity in Cambridgeshire"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002258)
 
-# Individual: coho:COHO_0002259 (PICO)
+# Individual: coho:COHO_0002259 (obsolete PICO)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002259 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002259 "PICO"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002259)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002259 coho:COHO_0000485)
+AnnotationAssertion(rdfs:comment coho:COHO_0002259 "Obsoleted 2026-09-27. PICO is the PGS Catalog's mistyping of PLCO: its two scores from one paper list the same 95 cohorts, with PLCO in one and PICO in the other in the same place (PGS000351, PGS000352). Replaced by COHO:0000485 (Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002259 "obsolete PICO"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002259 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002260 (Prospective Imaging Study of Aging)
 
@@ -20977,12 +20996,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002260 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002260 "Prospective Imaging Study of Aging"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002260)
 
-# Individual: coho:COHO_0002261 (Pittsburgh 3D Facial Norms)
+# Individual: coho:COHO_0002261 (obsolete Pittsburgh 3D Facial Norms)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002261 "PITT")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002261 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002261 "Pittsburgh 3D Facial Norms"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002261)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002261 coho:COHO_0001139)
+AnnotationAssertion(rdfs:comment coho:COHO_0002261 "Obsoleted 2026-09-27. PITT is how facial genetics consortia name the 3D Facial Norms sample: 'Pittsburgh 3D Facial Norms study (PITT)' is the 3D Facial Norms dataset (PMID:31763980, PMID:30405702). Replaced by COHO:0001139 (3D Facial Norms cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002261 "obsolete Pittsburgh 3D Facial Norms"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002261 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002262 (Pittsburgh Lung Screening Study)
 
@@ -21241,12 +21260,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002296 "Obsoleted 2026-09-24. Checke
 AnnotationAssertion(rdfs:label coho:COHO_0002296 "obsolete Program in Sleep at Emory University"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002296 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002297 (Perlegen Sciences Genotyped Discovery Samples)
+# Individual: coho:COHO_0002297 (obsolete Perlegen Sciences Genotyped Discovery Samples)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002297 "PSGDS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002297 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002297 "Perlegen Sciences Genotyped Discovery Samples"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002297)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002297 coho:COHO_0001152)
+AnnotationAssertion(rdfs:comment coho:COHO_0002297 "Obsoleted 2026-09-27. The Perlegen Sciences genotyped discovery samples are the discovery sample of the psoriasis GWAS of the Collaborative Association Study of Psoriasis ('Perlegen Sciences (Mountain View, CA, USA) genotyped discovery samples', PMID:19169254). The Catalog's name describes that sample and is not carried over. Replaced by COHO:0001152 (Collaborative Association Study of Psoriasis), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002297 "obsolete Perlegen Sciences Genotyped Discovery Samples"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002297 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002298 (Pumwani Sex Workers Cohort)
 
@@ -21637,12 +21656,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002352 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002352 "Skin Cancer Nested Case-Control Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002352)
 
-# Individual: coho:COHO_0002353 (Severe Childhood Onset Obesity Project United Kingdom)
+# Individual: coho:COHO_0002353 (obsolete Severe Childhood Onset Obesity Project United Kingdom)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002353 "SCOOP-UK")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002353 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002353 "Severe Childhood Onset Obesity Project United Kingdom"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002353)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002353 coho:COHO_0000331)
+AnnotationAssertion(rdfs:comment coho:COHO_0002353 "Obsoleted 2026-09-27. SCOOP-UK is the Severe Childhood Onset Obesity Project: the childhood obesity GWAS of PMID:22484627 heads its study description with the Catalog's full name. Replaced by COHO:0000331 (Severe Childhood Onset Obesity Project), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002353 "obsolete Severe Childhood Onset Obesity Project United Kingdom"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002353 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002354 (Singapore Cohort study Of the Risk factors for Myopia study)
 
