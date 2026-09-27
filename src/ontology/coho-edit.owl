@@ -6079,6 +6079,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "deCode")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000428 "deCODE Genetics")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "Icelandic")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "IABS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "ISSS")
 AnnotationAssertion(rdfs:label coho:COHO_0000428 "deCODE genetics Icelandic cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000428)
 
@@ -15651,6 +15653,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001542)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001543 "BOMA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001543 "BOMA-Bipolar Study, University of Bonn and CIMH Mannheim")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001543 "The acronym BOMA also denotes Bonn-Mannheim MDD study (COHO:0001542); this term is BOMA-Bipolar Study."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001543 "German_BP")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001543 "German BP sample")
 AnnotationAssertion(rdfs:label coho:COHO_0001543 "BOMA-Bipolar Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001543)
 
@@ -17630,12 +17634,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001794 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001794 "GEPARSIXTO Trial"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001794)
 
-# Individual: coho:COHO_0001795 (German BP sample)
+# Individual: coho:COHO_0001795 (obsolete German BP sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001795 "German_BP")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001795 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001795 "German BP sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001795)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001795 coho:COHO_0001543)
+AnnotationAssertion(rdfs:comment coho:COHO_0001795 "Obsoleted 2026-09-27. German BP sample is how two 2012 papers name the Bonn/Mannheim bipolar disorder GWAS sample (PMID:22384057, PMID:23092984), which COHO holds as the BOMA-Bipolar Study. Replaced by COHO:0001543 (BOMA-Bipolar Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001795 "obsolete German BP sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001795 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001796 (German sib-pair study)
 
@@ -18254,12 +18258,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001884 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001884 "Integrating Biology & the Bedside"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001884)
 
-# Individual: coho:COHO_0001885 (Icelandic Atrioventricular Block Sample)
+# Individual: coho:COHO_0001885 (obsolete Icelandic Atrioventricular Block Sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001885 "IABS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001885 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001885 "Icelandic Atrioventricular Block Sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001885)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001885 coho:COHO_0000428)
+AnnotationAssertion(rdfs:comment coho:COHO_0001885 "Obsoleted 2026-09-27. No paper names the id, but every Icelandic genetic sample of advanced atrioventricular block is a deCODE genetics case set, drawn from Icelanders in deCODE's studies (PMID:20062063, PMID:23583979): the sample is part of the deCODE genetics Icelandic cohort. The Catalog's name describes only that disease subset and is not carried over. Replaced by COHO:0000428 (deCODE genetics Icelandic cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001885 "obsolete Icelandic Atrioventricular Block Sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001885 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001886 (Icelandic Atrial Fibrillation Sample)
 
@@ -18642,12 +18646,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001937 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001937 "Investigation of Serial Studies to Predict Your Therapeutic Response with Imaging And molecular analysis 2"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001937)
 
-# Individual: coho:COHO_0001938 (Icelandic Sick Sinus Syndrome sample)
+# Individual: coho:COHO_0001938 (obsolete Icelandic Sick Sinus Syndrome sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001938 "ISSS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001938 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001938 "Icelandic Sick Sinus Syndrome sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001938)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001938 coho:COHO_0000428)
+AnnotationAssertion(rdfs:comment coho:COHO_0001938 "Obsoleted 2026-09-27. deCODE genetics describes its sick sinus syndrome sample set among its Icelandic data ('The deCODE genetics SSS sample consisted of 3577 Icelanders diagnosed with SSS', PMID:33580673): the sample is part of the deCODE genetics Icelandic cohort. The Catalog's name describes only that disease subset and is not carried over. Replaced by COHO:0000428 (deCODE genetics Icelandic cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001938 "obsolete Icelandic Sick Sinus Syndrome sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001938 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001939 (Stanford IST)
 

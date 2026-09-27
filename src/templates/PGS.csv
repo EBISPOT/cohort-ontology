@@ -129,7 +129,6 @@ COHO:0001789,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genetics o
 COHO:0001790,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genomics Research in Cardiovascular Disease
 COHO:0001793,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genetic Etiologies of Primary-Open angle Glaucoma Study
 COHO:0001794,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,GEPARSIXTO Trial
-COHO:0001795,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,German BP sample
 COHO:0001796,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,German sib-pair study
 COHO:0001797,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Genetic Epidemiologic Study of Breast Cancer by Age 50
 COHO:0001798,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Danish General Suburban Population Study
@@ -211,7 +210,6 @@ COHO:0001879,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Molecular 
 COHO:0001880,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hannover-Ufa Ovarian Cancer Study
 COHO:0001882,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hypergenes - European Network for Genetic-Epidemological Studies
 COHO:0001884,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Integrating Biology & the Bedside
-COHO:0001885,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Atrioventricular Block Sample
 COHO:0001886,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Atrial Fibrillation Sample
 COHO:0001887,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,"GFG, Irish Affected Sib Pair Study of Alcohol Dependence"
 COHO:0001888,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Italian Atherosclerosis Thrombosis and Vascular Biology
@@ -251,7 +249,6 @@ COHO:0001934,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic 
 COHO:0001935,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Internet-based Students HeAlth Research Enterprise
 COHO:0001936,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,International Studies of Infarct Survival
 COHO:0001937,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Investigation of Serial Studies to Predict Your Therapeutic Response with Imaging And molecular analysis 2
-COHO:0001938,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Icelandic Sick Sinus Syndrome sample
 COHO:0001939,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Stanford IST
 COHO:0001940,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Multicenter Italian study on gene-environment interactions in lymphoma etiology: translational aspects
 COHO:0001941,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Jamaican Adolescent Asthma Study
@@ -813,3 +810,5 @@ COHO:0000813,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Associatio
 COHO:0000486,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Korean Cancer Prevention Study-II Biobank
 COHO:0000781,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Hospital-based Epidemiologic Research Program at Aichi Cancer Center
 COHO:0000481,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,Singapore Prospective Study Program
+COHO:0001543,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,BOMA-Bipolar Study
+COHO:0000428,owl:NamedIndividual,http://www.ebi.ac.uk/coho#PGS_subset,deCODE genetics Icelandic cohort

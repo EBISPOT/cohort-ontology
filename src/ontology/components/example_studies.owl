@@ -4082,6 +4082,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Whole-genome as
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000428> (<http://www.ebi.ac.uk/coho/COHO_0000428>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sequence variant at 4q25 near PITX2 associates with appendicitis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28596592") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5465083/fullTextXML") Annotation(rdfs:comment "This study is based on whole-genome sequence data from the whole blood of 15,220 Icelanders participating in various disease projects at deCODE genetics.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000428> "GCST90428450")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk scores associate with blood pressure traits across the lifespan.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38007706") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000428> "PGS005350")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000429> (<http://www.ebi.ac.uk/coho/COHO_0000429>)
 
@@ -8567,6 +8568,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Minimal phenoty
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001543> (<http://www.ebi.ac.uk/coho/COHO_0001543>)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Minimal phenotyping yields genome-wide association signals of low specificity for major depression.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32231276") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001543> "PGS000138")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Large-scale genome-wide association analysis of bipolar disorder identifies a new susceptibility locus near ODZ4.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21926972") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3637176/unicode") Annotation(rdfs:comment "Sample Ancestry Case (n)a Control (n)b Platformc Publicationd BOMA- Bipolar Study, University of Bonn and CIMH Mannheim German 675 1297 550 –") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001543> "PMID:21926972")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001544> (<http://www.ebi.ac.uk/coho/COHO_0001544>)
