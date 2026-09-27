@@ -8384,6 +8384,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001497> (<http://www.ebi.ac.uk/coho/COHO_0001497>)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Systematic evaluation of cancer-specific genetic risk score for 11 types of cancer in The Cancer Genome Atlas and Electronic Medical Records and Genomics cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30968590") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001497> "PGS000161")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Inorganic arsenic and basal cell carcinoma in areas of Hungary, Romania, and Slovakia: a case-control study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22436128") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22436128+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "The Arsenic Health Risk Assessment and Molecular Epidemiology (ASHRAM) study, a case-control study, was conducted in areas of Hungary, Romania, and Slovakia with reported presence of iAs in groundwater.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001497> "PMID:22436128")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001498> (<http://www.ebi.ac.uk/coho/COHO_0001498>)

@@ -6081,6 +6081,9 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000428 "deCODE Genetic
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "Icelandic")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "IABS")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "ISSS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "IAFS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "IECG")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000428 "IPPS")
 AnnotationAssertion(rdfs:label coho:COHO_0000428 "deCODE genetics Icelandic cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000428)
 
@@ -15268,6 +15271,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0001496)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001497 "ASHRAM")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001497 "Arsenic Health Risk Assessment and Molecular Epidemiology study in Central Europe")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001497 "EESP")
 AnnotationAssertion(rdfs:label coho:COHO_0001497 "Arsenic Health Risk Assessment and Molecular Epidemiology"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001497)
 
@@ -16831,12 +16835,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001681 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001681 "Eastern European Bladder Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001681)
 
-# Individual: coho:COHO_0001682 (The Eastern Europe Study Population)
+# Individual: coho:COHO_0001682 (obsolete The Eastern Europe Study Population)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001682 "EESP")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001682 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001682 "The Eastern Europe Study Population"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001682)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001682 coho:COHO_0001497)
+AnnotationAssertion(rdfs:comment coho:COHO_0001682 "Obsoleted 2026-09-27. The Eastern Europe study population is the heading deCODE genetics' papers give the samples of the ASHRAM case-control study (PMID:18794855, PMID:20348956, PMID:19151717). The heading is a description, not a name, and is not carried over. Replaced by COHO:0001497 (Arsenic Health Risk Assessment and Molecular Epidemiology), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001682 "obsolete The Eastern Europe Study Population"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001682 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001683 (Estudio Familiar de Influencia Genetica en Alzheimer)
 
@@ -17137,12 +17141,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001724 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001724 "Framingham Eye Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001724)
 
-# Individual: coho:COHO_0001725 (Finnish Genome Center)
+# Individual: coho:COHO_0001725 (obsolete Finnish Genome Center)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001725 "FGC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001725 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001725 "Finnish Genome Center"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001725)
+AnnotationAssertion(rdfs:comment coho:COHO_0001725 "Obsoleted 2026-09-27. The Finnish Genome Center is a genotyping laboratory of the University of Helsinki, now the FIMM Technology Centre (PMID:20159113): an institution, not a sample. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001725 "obsolete Finnish Genome Center"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001725 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001726 (Finnish Genetic Study of Arrhythmic Events)
 
@@ -17236,6 +17239,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001737)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001738 "FOTS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001738 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001738 "TOCS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001738 "Toronto Ovarian Cancer Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001738 "Familial Ovarian Tumor Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001738)
 
@@ -17951,12 +17956,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001840 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001840 "Heart Attack Risk in Puget Sound"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001840)
 
-# Individual: coho:COHO_0001841 (Helsinki Breast Cancer Project)
+# Individual: coho:COHO_0001841 (obsolete Helsinki Breast Cancer Project)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001841 "HBCP")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001841 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001841 "Helsinki Breast Cancer Project"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001841)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001841 coho:COHO_0001849)
+AnnotationAssertion(rdfs:comment coho:COHO_0001841 "Obsoleted 2026-09-27. HBCP is the 2007 name of the Helsinki Breast Cancer Study: the breast cancer GWAS of PMID:17529967 lists 'Helsinki Breast Cancer Project HBCP' and acknowledges the Helsinki Breast Cancer Study under the grant later papers give for HEBCS. Replaced by COHO:0001849 (Helsinki Breast Cancer Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001841 "obsolete Helsinki Breast Cancer Project"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001841 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001842 (U.S.A. Human Biological Data Interchange)
 
@@ -18010,6 +18015,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001848)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001849 "HEBCS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001849 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001849 "HBCP")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001849 "Helsinki Breast Cancer Project")
 AnnotationAssertion(rdfs:label coho:COHO_0001849 "Helsinki Breast Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001849)
 
@@ -18173,6 +18180,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001871)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001872 "HOPE")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001872 "The acronym HOPE also denotes Healthy Zhejiang One Million People Cohort (COHO:0001354); this term is Hormones and Ovarian Cancer Prediction Study."@en)
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001872 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001872 "NRFPEDMOC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001872 "Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer")
 AnnotationAssertion(rdfs:label coho:COHO_0001872 "Hormones and Ovarian Cancer Prediction Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001872)
 
@@ -18265,12 +18274,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0001885 "Obsoleted 2026-09-27. No pap
 AnnotationAssertion(rdfs:label coho:COHO_0001885 "obsolete Icelandic Atrioventricular Block Sample"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0001885 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001886 (Icelandic Atrial Fibrillation Sample)
+# Individual: coho:COHO_0001886 (obsolete Icelandic Atrial Fibrillation Sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001886 "IAFS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001886 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001886 "Icelandic Atrial Fibrillation Sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001886)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001886 coho:COHO_0000428)
+AnnotationAssertion(rdfs:comment coho:COHO_0001886 "Obsoleted 2026-09-27. The Icelandic atrial fibrillation sample is a deCODE genetics case set, described under that name in deCODE's papers (PMID:30271950) and listed under deCODE in PMID:30061737: it is part of the deCODE genetics Icelandic cohort. The Catalog's name describes only that disease subset and is not carried over. Replaced by COHO:0000428 (deCODE genetics Icelandic cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001886 "obsolete Icelandic Atrial Fibrillation Sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001886 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001887 (GFG, Irish Affected Sib Pair Study of Alcohol Dependence)
 
@@ -18392,12 +18401,12 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001903 "Hospital Clini
 AnnotationAssertion(rdfs:label coho:COHO_0001903 "Hospital Clínic Primary HIV-1 Infection Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001903)
 
-# Individual: coho:COHO_0001904 (Icelandic ECG study sample)
+# Individual: coho:COHO_0001904 (obsolete Icelandic ECG study sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001904 "IECG")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001904 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001904 "Icelandic ECG study sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001904)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001904 coho:COHO_0000428)
+AnnotationAssertion(rdfs:comment coho:COHO_0001904 "Obsoleted 2026-09-27. The Icelandic ECG sample is deCODE genetics' set of genotyped Icelanders with stored electrocardiograms from Landspitali University Hospital, listed as 'Study cohort: deCODE' in PMID:30012220: it is part of the deCODE genetics Icelandic cohort. The Catalog's name describes only that subset and is not carried over. Replaced by COHO:0000428 (deCODE genetics Icelandic cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001904 "obsolete Icelandic ECG study sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001904 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001905 (obsolete Irish Family Study)
 
@@ -18618,12 +18627,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001933 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001933 "IPO-Porto Prostate Cancer study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001933)
 
-# Individual: coho:COHO_0001934 (Icelandic Pacemaker Population Sample)
+# Individual: coho:COHO_0001934 (obsolete Icelandic Pacemaker Population Sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001934 "IPPS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001934 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001934 "Icelandic Pacemaker Population Sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001934)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001934 coho:COHO_0000428)
+AnnotationAssertion(rdfs:comment coho:COHO_0001934 "Obsoleted 2026-09-27. The Icelandic pacemaker sample is deCODE genetics' pacemaker population sample set (PMID:30271950, PMID:29050564): it is part of the deCODE genetics Icelandic cohort. The Catalog's name describes only that subset and is not carried over. Replaced by COHO:0000428 (deCODE genetics Icelandic cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001934 "obsolete Icelandic Pacemaker Population Sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001934 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001935 (Internet-based Students HeAlth Research Enterprise)
 
@@ -19239,17 +19248,19 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002022 "Obsoleted 2026-09-24. Leiden
 AnnotationAssertion(rdfs:label coho:COHO_0002022 "obsolete Leiden University Medical Center"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002022 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002023 (The Lutherstadt Wittenberg study)
+# Individual: coho:COHO_0002023 (obsolete The Lutherstadt Wittenberg study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002023 "LW")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002023 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002023 "The Lutherstadt Wittenberg study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002023)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002023 coho:COHO_0002024)
+AnnotationAssertion(rdfs:comment coho:COHO_0002023 "Obsoleted 2026-09-27. LW is the Lutherstadt Wittenberg study of the deCODE bladder cancer GWAS (PMID:21750109), the Lutherstadt Wittenberg Bladder Cancer Study. Replaced by COHO:0002024 (Lutherstadt Wittenberg Bladder Cancer Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002023 "obsolete The Lutherstadt Wittenberg study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002023 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002024 (Lutherstadt Wittenberg Bladder Cancer Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002024 "LWBCS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002024 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002024 "LW")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002024 "The Lutherstadt Wittenberg study")
 AnnotationAssertion(rdfs:label coho:COHO_0002024 "Lutherstadt Wittenberg Bladder Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002024)
 
@@ -20300,6 +20311,9 @@ AnnotationAssertion(owl:deprecated coho:COHO_0002169 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002170 "NOCS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002170 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002170 "POLYGENE")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002170 "Nijmegen Polygene Study & Nijmegen Biomedical Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002170 "Nijmegen Polygene Study and Nijmegen Biomedical Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002170 "Nijmegen Ovarian Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002170)
 
@@ -20369,12 +20383,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002179 "Obsoleted 2026-09-27. NPHS, 
 AnnotationAssertion(rdfs:label coho:COHO_0002179 "obsolete NPHS"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002179 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002180 (Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer)
+# Individual: coho:COHO_0002180 (obsolete Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002180 "NRFPEDMOC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002180 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002180 "Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002180)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002180 coho:COHO_0001872)
+AnnotationAssertion(rdfs:comment coho:COHO_0002180 "Obsoleted 2026-09-27. Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer is the name several Ovarian Cancer Association Consortium tables give its study HOP (PMID:23535730, PMID:27698005), which the consortium elsewhere names Hormones and Ovarian Cancer Prediction. Replaced by COHO:0001872 (Hormones and Ovarian Cancer Prediction Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002180 "obsolete Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002180 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002181 (obsolete NRG Oncology)
 
@@ -20423,12 +20437,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002187 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002187 "NSW non-Hodgkin lymphoma study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002187)
 
-# Individual: coho:COHO_0002188 (Nijmegen Thyroid Cancer Cohort)
+# Individual: coho:COHO_0002188 (obsolete Nijmegen Thyroid Cancer Cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002188 "NTCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002188 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002188 "Nijmegen Thyroid Cancer Cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002188)
+AnnotationAssertion(rdfs:comment coho:COHO_0002188 "Obsoleted 2026-09-27. NTCC names no study: it is the Nijmegen thyroid cancer case-control set of deCODE genetics' thyroid cancer GWAS, patients of the Radboud University Nijmegen Medical Centre with Nijmegen Biomedical Study controls, which the papers call only the Dutch study population (PMID:22267200, PMID:24586183). Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002188 "obsolete Nijmegen Thyroid Cancer Cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002188 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002189 (Northeastern Taiwan Community Medicine Research Cohort)
 
@@ -20630,12 +20643,11 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002217 "Obsoleted 2026-09-24. Ohio S
 AnnotationAssertion(rdfs:label coho:COHO_0002217 "obsolete Ohio State University Medical Center"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002217 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002218 (Ohio Thyroid Cancer Cohort)
+# Individual: coho:COHO_0002218 (obsolete Ohio Thyroid Cancer Cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002218 "OTCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002218 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002218 "Ohio Thyroid Cancer Cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002218)
+AnnotationAssertion(rdfs:comment coho:COHO_0002218 "Obsoleted 2026-09-27. OTCC names no study: it is The Ohio State University's thyroid cancer case-control collection used in deCODE genetics' thyroid cancer GWAS, which the papers call only the Ohio study group or the Ohio cohort (PMID:19198613, PMID:22267200). Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002218 "obsolete Ohio Thyroid Cancer Cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002218 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002219 (obsolete Odense University Hospital)
 
@@ -21004,12 +21016,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002269 "Obsoleted 2026-09-24. Poland
 AnnotationAssertion(rdfs:label coho:COHO_0002269 "obsolete Poland"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002269 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002270 (Nijmegen Polygene Study & Nijmegen Biomedical Study)
+# Individual: coho:COHO_0002270 (obsolete Nijmegen Polygene Study & Nijmegen Biomedical Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002270 "POLYGENE")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002270 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002270 "Nijmegen Polygene Study & Nijmegen Biomedical Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002270)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002270 coho:COHO_0002170)
+AnnotationAssertion(rdfs:comment coho:COHO_0002270 "Obsoleted 2026-09-27. POLYGENE is the Ovarian Cancer Association Consortium's Nijmegen study NTH ('Nijmegen Polygene Study & Nijmegen Biomedical Study POLYGENE NTH Netherlands', PMID:21639959), which the consortium's later tables call the Nijmegen Ovarian Cancer Study. Replaced by COHO:0002170 (Nijmegen Ovarian Cancer Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002270 "obsolete Nijmegen Polygene Study & Nijmegen Biomedical Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002270 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002271 (Prospective Study of Outcomes in Sporadic Versus Hereditary Breast Cancer Study)
 
@@ -22375,12 +22387,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002463 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002463 "Tasmanian Older Adult Cohort"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002463)
 
-# Individual: coho:COHO_0002464 (Toronto Ovarian Cancer Study)
+# Individual: coho:COHO_0002464 (obsolete Toronto Ovarian Cancer Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002464 "TOCS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002464 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002464 "Toronto Ovarian Cancer Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002464)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002464 coho:COHO_0001738)
+AnnotationAssertion(rdfs:comment coho:COHO_0002464 "Obsoleted 2026-09-27. Toronto Ovarian Cancer Study is the name the Ovarian Cancer Association Consortium's GWAS supplement of PMID:23535730 gives its study TOR, which the consortium's other tables name the Familial Ovarian Tumour Study (PMID:20852632, PMID:21639959). Replaced by COHO:0001738 (Familial Ovarian Tumor Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002464 "obsolete Toronto Ovarian Cancer Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002464 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002465 (TOMSK)
 
