@@ -26,5 +26,37 @@ Conventions for anyone, human or agent, adding or changing cohort terms. See `do
 ## Pipeline and build
 
 - Curated evidence lives in `src/curation/*_curated.tsv` (which override the `*_evidence.tsv` files). `example_studies_curated.tsv` takes one line per example (ID, example study, PMID, note, quote, URL); a cohort with curated lines gets exactly those examples and no automatic one, so when you add a second example to a cohort, write its first one there too. The scripts in `src/scripts` turn them into `src/templates/*.tsv`; `om make recreate-components` builds the components. Rows decided in `catalog_cohorts_review.tsv` are minted with `src/scripts/mint_cohorts.py --from-row N` (a dry run first with `--dry-run`). Do not hand-edit generated templates or components.
-- Every `om make` invocation carries `IMP=false PAT=false MIR=false`. After any `om make`, run `git status` at the repository root: the root release files (`coho*.owl`, `coho*.obo`, `coho*.json`) are hard links to build outputs and get rewritten; restore them with `git checkout` before committing unless you are cutting a release.
+- Every `om make` invocation carries `IMP=false PAT=false MIR=false`, except the rebuild of an import whose seed file (`*_terms.txt`) a script has just changed, which carries `IMP=true MIR=false PAT=false`. After any `om make`, run `git status` at the repository root: the root release files (`coho*.owl`, `coho*.obo`, `coho*.json`) are hard links to build outputs and get rewritten; restore them with `git checkout` before committing unless you are cutting a release.
 - Work on `main`. Do not push, tag or release unless asked.
+
+## Checklist for a new or newly curated cohort
+
+A cohort is finished only when every item below is in place, or its curation table records that the source gives nothing. That holds whether the cohort was minted with `mint_cohorts.py` or promoted from a placeholder with `curate_placeholders.py`. The rules for each item are in the sections above.
+
+1. **Identity.** Search `coho-cohorts.csv` and the edit file for every name and acronym of the cohort before minting. A match is an existing term to extend, not a new one. Decide whether it is a cohort or a cohort aggregation. Before minting, a second model checks the identity, name, definition, type, parent and possible duplicates against the sources, and its corrections are applied.
+2. **Names.** The label, the acronyms as `OMO:0003000` synonyms, the other names, and editor notes on both terms wherever an acronym is shared.
+3. **Definition.** A row in `definitions_curated.tsv` with its source, `drafted by` and, once a second model has checked it, `checked by`. No size in the definition.
+4. **Examples.** One example study for each subset the cohort is in, or one if it is in none, in `example_studies_curated.tsv` with a verbatim quote. Then run `pgs_examples.py --all`.
+5. **Catalogue entries.** Its entry in any outside catalogue, through `src/curation/<catalogue>.tsv`, `add_xrefs.py` and `catalogue_subsets.py`.
+6. **Location.** A row in `location_curated.tsv` with the country's DBpedia name, a verbatim quote and its URL.
+7. **Relations.** Its parent cohort (`isSubCohortOf`) and the aggregations it belongs to (`hasCohort`), each with a quote and URL, through `add_links.py`. For an aggregation, also its members.
+8. **Participants.** A row in `cohort_participants.csv`: the number the source states, with cases and controls where the source gives them separately, the quote and its source. If no source states a number, the row says so in its note.
+9. **Diseases.** A row in `cohort_diseases.csv`, whether the answer is yes or no, with its role, the diseases as the source names them, the quote and its source. Every disease name not already in `distinct_diseases_mapped.csv` gets a row there, mapped to the most specific MONDO or HP term that covers it, or to none.
+10. **Exposures.** The same for `cohort_exposures.csv` and `distinct_exposures_mapped.csv`, with ECTO terms.
+
+Then rebuild. The imports need rebuilding only if `diseases.py` or `exposures.py` changed a `*_terms.txt` seed file.
+
+    python3 src/scripts/definitions.py
+    python3 src/scripts/example_studies.py
+    python3 src/scripts/locations.py
+    python3 src/scripts/aggregation_members.py
+    python3 src/scripts/participants.py
+    python3 src/scripts/diseases.py
+    python3 src/scripts/exposures.py
+    cd src/ontology
+    om make imports/mondo_import.owl imports/hp_import.owl imports/ecto_import.owl IMP=true MIR=false PAT=false
+    om make recreate-components IMP=false PAT=false MIR=false
+    om make test IMP=false PAT=false MIR=false
+    om make ../../coho-cohorts.csv IMP=false PAT=false MIR=false
+
+Finally, read the cohort's row in `coho-cohorts.csv`. Every empty cell must be either correct or explained by a note in the curation table behind it. Run `git status` and restore the root release files, and any component whose only change is its date, before committing.
