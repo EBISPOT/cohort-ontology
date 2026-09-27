@@ -38,11 +38,8 @@ import_group:
     module_type: mirror
   - id: NCIT
   - id: mondo
-    module_type: minimal
   - id: hp
-    module_type: minimal
   - id: ecto
-    module_type: minimal
     base_iris:
     - http://purl.obolibrary.org/obo/ECTO_
     - http://purl.obolibrary.org/obo/ExO_
@@ -78,6 +75,12 @@ imports:
     - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
     selects:
     - children
+# The disease imports keep only what the cohorts point at. A BOT slice of MONDO
+# or HP drags in every class logically defined over a seed term (ureter
+# tuberculosis rides in on extrapulmonary tuberculosis, and each arrival's own
+# definitions drag in more), so the module is cut back to the seed terms and
+# their ancestors: every leaf is a disease some cohort studies, and the
+# hierarchy above it is there for the tree.
 - id: mondo
   extends: true
   steps:
@@ -86,6 +89,15 @@ imports:
     - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
     selects:
     - children
+  - op: filter
+    term_files:
+    - src/ontology/imports/mondo_terms.txt
+    selects:
+    - self
+    - ancestors
+    - annotation-properties
+    - ontology
+    trim: true
 - id: hp
   extends: true
   steps:
@@ -94,6 +106,15 @@ imports:
     - http://www.geneontology.org/formats/oboInOwl#SubsetProperty
     selects:
     - children
+  - op: filter
+    term_files:
+    - src/ontology/imports/hp_terms.txt
+    selects:
+    - self
+    - ancestors
+    - annotation-properties
+    - ontology
+    trim: true
 - id: ecto
   extends: true
   steps:
@@ -109,6 +130,15 @@ imports:
     selects:
     - self
     signature: true
+  - op: filter
+    term_files:
+    - src/ontology/imports/ecto_terms.txt
+    selects:
+    - self
+    - ancestors
+    - annotation-properties
+    - ontology
+    trim: true
 documentation:
   documentation_system: mkdocs
 components:
