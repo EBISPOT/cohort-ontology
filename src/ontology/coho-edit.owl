@@ -3777,6 +3777,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000115)
 # Individual: coho:COHO_0000116 (Molecular Genetics of Schizophrenia Collaboration)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000116 "MGS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000116 "MGS_nonGAIN")
 AnnotationAssertion(rdfs:label coho:COHO_0000116 "Molecular Genetics of Schizophrenia Collaboration"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000116)
 
@@ -4319,6 +4320,13 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000195)
 # Individual: coho:COHO_0000196 (Motor Neuron Disease Biobank study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000196 "MNDA")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UKMND")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UK National MND DNA")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UK National MND DNA bank")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UK National DNA Bank for Motor Neuron Disease Research")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UK MND DNA Bank")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "UK MND DNA bank")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000196 "MND DNA bank")
 AnnotationAssertion(rdfs:label coho:COHO_0000196 "Motor Neuron Disease Biobank study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000196)
 
@@ -9752,6 +9760,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000841 "Alcohol Resear
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000841 "Australian twin-family study of alcohol use disorder")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000841 "AUSTWIN")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000841 "Australian Twin-Family Studies")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000841 "NAG/IRPG")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000841 "Nicotine Addiction Genetics study / Interactive Research Project Grants")
 AnnotationAssertion(rdfs:label coho:COHO_0000841 "Australian Alcohol and Nicotine Studies"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000841)
 
@@ -12641,6 +12651,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001181)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001182 "GSK")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001182 "GlaxoSmithKline")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001182 "SGRD")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001182 "Southern German Recurrent Depression")
 AnnotationAssertion(rdfs:label coho:COHO_0001182 "GSK Munich recurrent major depression case-control study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001182)
 
@@ -16985,12 +16997,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001702 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001702 "Epidemiologisch Preventief Onderzoek Zoetermeer"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001702)
 
-# Individual: coho:COHO_0001703 (Expression Quantitative Trait Loci _ Lung)
+# Individual: coho:COHO_0001703 (obsolete Expression Quantitative Trait Loci _ Lung)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001703 "eQTL")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001703 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001703 "Expression Quantitative Trait Loci _ Lung"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001703)
+AnnotationAssertion(rdfs:comment coho:COHO_0001703 "Obsoleted 2026-09-27. eQTL names an analysis, expression quantitative trait loci mapped in lung tissue, which papers run on several different sets of lung samples (PMID:28604730); no score in the PGS Catalog uses the id. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001703 "obsolete Expression Quantitative Trait Loci _ Lung"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001703 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001704 (Evaluation of Risk of ALL treatment-related Side-Effects)
 
@@ -17006,12 +17017,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001705 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001705 "European Randomised Study of Screening for Prostate Cancer"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001705)
 
-# Individual: coho:COHO_0001706 (ESophageal Adeno-carcinoma)
+# Individual: coho:COHO_0001706 (obsolete ESophageal Adeno-carcinoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001706 "ESAC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001706 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001706 "ESophageal Adeno-carcinoma"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001706)
+AnnotationAssertion(rdfs:comment coho:COHO_0001706 "Obsoleted 2026-09-27. ESAC is the phenotype heading 'Esophageal Adeno-carcinoma' of the oesophageal adenocarcinoma rows of the BEACON GWAS (PMID:24121790), not a sample. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001706 "obsolete ESophageal Adeno-carcinoma"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001706 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001707 (Etude Sur les Cancers et les Leucémies de l'Enfant)
 
@@ -17221,12 +17231,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001735 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001735 "Fleurbaix-Laventie Ville Sant_ II study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001735)
 
-# Individual: coho:COHO_0001736 (FondaMental Bipolar)
+# Individual: coho:COHO_0001736 (obsolete FondaMental Bipolar)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001736 "FMB")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001736 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001736 "FondaMental Bipolar"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001736)
+AnnotationAssertion(rdfs:comment coho:COHO_0001736 "Obsoleted 2026-09-27. FondaMental Bipolar joins the name of a French foundation to the disease: the Fondation FondaMental collected the French bipolar disorder case-control sample of the European bipolar GWAS, which has no name of its own (PMID:25111785). Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001736 "obsolete FondaMental Bipolar"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001736 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001737 (Framingham Offspring Study)
 
@@ -18855,12 +18864,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001965 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001965 "Kick-it-at-Swope (KIS)-3"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001965)
 
-# Individual: coho:COHO_0001966 (Kentucky Lung Cancer Research Initiative)
+# Individual: coho:COHO_0001966 (obsolete Kentucky Lung Cancer Research Initiative)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001966 obo:IAO_0000124)
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001966 "KLCRI")
-AnnotationAssertion(rdfs:label coho:COHO_0001966 "Kentucky Lung Cancer Research Initiative"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001966)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001966 coho:COHO_0001992)
+AnnotationAssertion(rdfs:comment coho:COHO_0001966 "Obsoleted 2026-09-27. KLCRI is the Kentucky Lung Cancer Research Initiative, the population-based case-control study of lung cancer in Appalachian Kentucky that the lung cancer OncoArray study table lists as LCRI-DOD (PMID:28604730); a 2019 paper gives the id with the name (PMID:30059977). Replaced by COHO:0001992 (LCRI-DOD), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001966 "obsolete Kentucky Lung Cancer Research Initiative"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001966 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001967 (obsolete Korean Metabolic Syndrome Research Initiative)
 
@@ -18951,6 +18960,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001978)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001979 "Korea-Seoul")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001979 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001979 "SeCRC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001979 "The Seoul CRC Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001979 "Seoul Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001979)
 
@@ -19037,6 +19048,9 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001991)
 # Individual: coho:COHO_0001992 (LCRI-DOD)
 
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001992 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001992 "KLCRI")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001992 "Kentucky Lung Cancer Research Initiative")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001992 "LCRI DoD Lung Cancer Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001992 "LCRI-DOD"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001992)
 
@@ -19567,12 +19581,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002064 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002064 "Minority GWAS Japanese study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002064)
 
-# Individual: coho:COHO_0002065 (Molecular Genetics of Schizophrenia - nonGAIN Sample)
+# Individual: coho:COHO_0002065 (obsolete Molecular Genetics of Schizophrenia - nonGAIN Sample)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002065 "MGS_nonGAIN")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002065 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002065 "Molecular Genetics of Schizophrenia - nonGAIN Sample"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002065)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002065 coho:COHO_0000116)
+AnnotationAssertion(rdfs:comment coho:COHO_0002065 "Obsoleted 2026-09-27. MGS_nonGAIN is the second genotyping phase of the Molecular Genetics of Schizophrenia case-control sample ('The remainder of the sample (called “nonGAIN” here) was genotyped in the same laboratory several months later', PMID:19571809). The Catalog's name describes only that phase and is not carried over. Replaced by COHO:0000116 (Molecular Genetics of Schizophrenia Collaboration), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002065 "obsolete Molecular Genetics of Schizophrenia - nonGAIN Sample"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002065 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002066 (obsolete Mexican Hypertriglyceridemia cohort)
 
@@ -19877,12 +19891,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002107 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002107 "Nagano Breast Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002107)
 
-# Individual: coho:COHO_0002108 (Nicotine Addiction Genetics study / Interactive Research Project Grants)
+# Individual: coho:COHO_0002108 (obsolete Nicotine Addiction Genetics study / Interactive Research Project Grants)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002108 "NAG/IRPG")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002108 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002108 "Nicotine Addiction Genetics study / Interactive Research Project Grants"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002108)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002108 coho:COHO_0000841)
+AnnotationAssertion(rdfs:comment coho:COHO_0002108 "Obsoleted 2026-09-27. NAG/IRPG is the Australian Nicotine Addiction Genetics families with genome-wide genotypes from the Interactive Research Project Grants (PMID:22833196), one of the three coordinated studies of the Australian Alcohol and Nicotine Studies. Replaced by COHO:0000841 (Australian Alcohol and Nicotine Studies), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002108 "obsolete Nicotine Addiction Genetics study / Interactive Research Project Grants"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002108 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002109 (obsolete Nagoya Study)
 
@@ -20099,11 +20113,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002138 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002138 "The Neuss Bladder Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002138)
 
-# Individual: coho:COHO_0002139 (NEURO2006)
+# Individual: coho:COHO_0002139 (obsolete NEURO2006)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002139 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002139 "NEURO2006"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002139)
+AnnotationAssertion(rdfs:comment coho:COHO_0002139 "Obsoleted 2026-09-27. NEURO2006 is a funding programme, the 2006 neuroscience call of the French Agence Nationale de la Recherche, which funded the French bipolar disorder sample among other projects (PMID:19125158). Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002139 "obsolete NEURO2006"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002139 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002140 (Newfoundland Osteoarthritis Study)
 
@@ -20219,12 +20233,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002156 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002156 "Pritzker Neuropsychiatric Disorders Research Consortium"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002156)
 
-# Individual: coho:COHO_0002157 (Disorders and Stroke and the Alzheimers Disease and Related Disorders Association)
+# Individual: coho:COHO_0002157 (obsolete Disorders and Stroke and the Alzheimers Disease and Related Disorders Association)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002157 "NINCDS-ADRDA")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002157 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002157 "Disorders and Stroke and the Alzheimers Disease and Related Disorders Association"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002157)
+AnnotationAssertion(rdfs:comment coho:COHO_0002157 "Obsoleted 2026-09-27. NINCDS-ADRDA is a set of diagnostic criteria for Alzheimer's disease, which studies cite for how their cases were diagnosed, not a sample. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002157 "obsolete Disorders and Stroke and the Alzheimers Disease and Related Disorders Association"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002157 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002158 (NIOSH_AGCC)
 
@@ -21681,12 +21694,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002363 "Obsoleted 2026-09-24. Seattl
 AnnotationAssertion(rdfs:label coho:COHO_0002363 "obsolete Seattle"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002363 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002364 (The Seoul CRC Study)
+# Individual: coho:COHO_0002364 (obsolete The Seoul CRC Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002364 "SeCRC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002364 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002364 "The Seoul CRC Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002364)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002364 coho:COHO_0001979)
+AnnotationAssertion(rdfs:comment coho:COHO_0002364 "Obsoleted 2026-09-27. The Seoul CRC Study is the Seoul colorectal cancer study of the Asia Colorectal Cancer Consortium, whose GWAS supplement heads its description with that name and the id Korea-Seoul (PMID:24836286). Replaced by COHO:0001979 (Seoul Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002364 "obsolete The Seoul CRC Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002364 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002365 (Shanghai Endometrial Cancer Study)
 
@@ -21737,12 +21750,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002371 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002371 "GPC Cohort / Sanger Institute"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002371)
 
-# Individual: coho:COHO_0002372 (Southern German Recurrent Depression)
+# Individual: coho:COHO_0002372 (obsolete Southern German Recurrent Depression)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002372 "SGRD")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002372 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002372 "Southern German Recurrent Depression"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002372)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002372 coho:COHO_0001182)
+AnnotationAssertion(rdfs:comment coho:COHO_0002372 "Obsoleted 2026-09-27. Southern German Recurrent Depression is the name PMID:21521612 gives the southern German recurrent major depression case-control sample, citing the two papers the existing term is defined from. Replaced by COHO:0001182 (GSK Munich recurrent major depression case-control study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002372 "obsolete Southern German Recurrent Depression"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002372 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002373 (Shanghai Genome-Wide Association Studies)
 
@@ -22703,12 +22716,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002509 "Obsoleted 2026-09-27. UK Nat
 AnnotationAssertion(rdfs:label coho:COHO_0002509 "obsolete UK National Health Service Trusts"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002509 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002510 (UK National MND DNA)
+# Individual: coho:COHO_0002510 (obsolete UK National MND DNA)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002510 "UKMND")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002510 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002510 "UK National MND DNA"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002510)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002510 coho:COHO_0000196)
+AnnotationAssertion(rdfs:comment coho:COHO_0002510 "Obsoleted 2026-09-27. UK National MND DNA is the start of 'the UK National MND DNA bank', as PMID:20801717, the paper the existing term is defined from, names it. Replaced by COHO:0000196 (Motor Neuron Disease Biobank study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002510 "obsolete UK National MND DNA"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002510 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002511 (UK Ovarian Cancer Population Study)
 

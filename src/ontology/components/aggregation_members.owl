@@ -413,7 +413,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000989>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000996>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000997>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000998>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000999>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001000>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001003>))
@@ -620,7 +619,6 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001600>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001602>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001604>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001605>))
-Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001609>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001612>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001614>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001615>))
@@ -1569,10 +1567,6 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000989> (<http://www.ebi.ac.uk/coho/COHO_0000989>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5445618/fullTextXML") Annotation(rdfs:comment "AABC includes cases and controls from the following epidemiologic studies: The Multiethnic Cohort study, 734/1003; The Los Angeles component of The Women’s Contraceptive and Reproductive Experiences (CARE) Study, 380/224; The San Francisco Bay Area Breast Cancer Study, 172/23; The Northern California site of the Breast Cancer Family Registry, 440/53; The Nashville Breast Health Study, 310/186; and The Wake Forest University Breast Cancer Study, 125/153).") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000989> <http://www.ebi.ac.uk/coho/COHO_0002563>)
-
-# Individual: <http://www.ebi.ac.uk/coho/COHO_0000999> (<http://www.ebi.ac.uk/coho/COHO_0000999>)
-
-ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5322272/unicode") Annotation(rdfs:comment "DNS Duke Neurogenetics Study USA") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000999> <http://www.ebi.ac.uk/coho/COHO_0001609>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001000> (<http://www.ebi.ac.uk/coho/COHO_0001000>)
 

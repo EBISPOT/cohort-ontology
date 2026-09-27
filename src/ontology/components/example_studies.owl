@@ -5760,6 +5760,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genetic meta-an
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000841> (<http://www.ebi.ac.uk/coho/COHO_0000841>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association meta-analysis of nicotine metabolism and cigarette consumption measures in smokers of European descent.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32157176") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41380-020-0702-z/MediaObjects/41380_2020_702_MOESM1_ESM.pdf") Annotation(rdfs:comment "Cohort 5: OZALC-NAG (Australia) The Australian samples were women and men (aged between 20–90 years) ascertained through more than 12,000 families with information about history of cigarette smoking") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000841> "GCST009965")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Alcohol is neither a risk factor nor a protective factor for sudden cardiac death and/or fatal ventricular arrhythmia: A population-based study with genetic traits and alcohol consumption in the UK Biobank.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38697272") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000841> "PGS019953")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000842> (<http://www.ebi.ac.uk/coho/COHO_0000842>)
 
@@ -7122,6 +7123,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identifying the
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001182> (<http://www.ebi.ac.uk/coho/COHO_0001182>)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and hazard scores for Alzheimer's disease prediction.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30911569") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001182> "PGS000876")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A mega-analysis of genome-wide association studies for major depressive disorder.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22472876") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fmp.2012.21/MediaObjects/41380_2013_BFmp201221_MOESM194_ESM.doc") Annotation(rdfs:comment "the GSK, MPIP, STAR*D, GAIN, QIMR_317, QIMR_610, and GenRED samples") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001182> "PMID:22472876")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001183> (<http://www.ebi.ac.uk/coho/COHO_0001183>)
