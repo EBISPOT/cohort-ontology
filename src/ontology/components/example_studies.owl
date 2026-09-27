@@ -3900,6 +3900,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Rare variant as
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000383> (<http://www.ebi.ac.uk/coho/COHO_0000383>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genetics and context for precision health in Greater Boston.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41298473") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41298473+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We established the Mass General Brigham Biobank (MGBB), currently encompassing 142,238 participants, to unravel the intricate relationships among genomic profiles, environmental context, and disease manifestations within clinical practice.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000383> "GCST90837428")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Evaluating the use of blood pressure polygenic risk scores across race/ethnic background groups.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37268629") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000383> "PGS003964")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000384> (<http://www.ebi.ac.uk/coho/COHO_0000384>)
 
@@ -4980,6 +4981,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "GWAS meta-analy
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000649> (<http://www.ebi.ac.uk/coho/COHO_0000649>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Whole genome sequence analysis of blood lipid levels in >66,000 individuals.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36220816") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9553944/fullTextXML") Annotation(rdfs:comment "San Antonio Family Study (SAFS) phs001215 and phs000462;") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000649> "GCST90244653")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Metabolic polygenic risk scores for prediction of obesity, type 2 diabetes, and related morbidities.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41844147") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000649> "PGS005102")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000650> (<http://www.ebi.ac.uk/coho/COHO_0000650>)
 
@@ -6863,6 +6865,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A polygenic sco
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001116> (<http://www.ebi.ac.uk/coho/COHO_0001116>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29531354") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-018-0058-3/MediaObjects/41588_2018_58_MOESM1_ESM.pdf") Annotation(rdfs:comment "Asian Indian Diabetic Heart Study/Sikh Diabetes Study (AIDHS/SDS) is a case-control study designed to investigate the association between genetic and environmental factors and their risk on type 2 diabetes (T2D) and cardiovascular disease in a population of Punjabi ancestry from India.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001116> "GCST005843")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sexual Differences in Genetic Predisposition of Coronary Artery Disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33332181") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001116> "PGS004921")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001117> (<http://www.ebi.ac.uk/coho/COHO_0001117>)
 

@@ -1644,6 +1644,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001640>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001641>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001642>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001643>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001644>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001645>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001647>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001648>))
@@ -1674,6 +1675,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001679>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001680>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001681>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001683>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001684>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001685>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001687>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001688>))
@@ -1695,6 +1697,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001707>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001708>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001710>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001711>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001712>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001713>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001714>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001715>))
@@ -1757,10 +1760,12 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001777>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001778>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001779>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001780>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001782>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001783>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001784>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001786>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001787>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001788>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001789>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001790>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001793>))
@@ -1775,12 +1780,14 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001803>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001804>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001805>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001806>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001807>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001808>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001809>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001810>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001811>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001813>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001814>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001815>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001816>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001817>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001818>))
@@ -1789,19 +1796,23 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001820>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001821>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001822>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001823>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001824>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001825>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001826>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001827>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001829>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001832>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001834>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001835>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001836>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001837>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001838>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001839>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001840>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001843>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001844>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001845>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001848>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001849>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001850>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001851>))
@@ -1825,6 +1836,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001870>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001871>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001872>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001874>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001875>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001876>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001877>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001878>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001879>))
@@ -1851,6 +1864,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001914>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001915>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001916>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001919>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001920>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001922>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001923>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001924>))
@@ -1881,6 +1895,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001959>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001960>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001961>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001962>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001963>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001964>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001965>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001969>))
@@ -1931,6 +1946,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002029>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002031>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002033>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002034>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002035>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002036>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002038>))
@@ -1971,6 +1987,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002086>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002087>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002088>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002089>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002091>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002092>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002093>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002095>))
@@ -1998,6 +2015,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002124>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002125>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002126>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002127>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002128>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002130>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002131>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002132>))
@@ -2011,6 +2029,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002144>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002150>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002153>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002156>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002158>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002159>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002160>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002162>))
@@ -2035,6 +2054,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002189>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002190>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002191>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002192>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002193>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002194>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002195>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002196>))
@@ -2079,6 +2099,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002246>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002248>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002249>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002250>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002251>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002252>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002256>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002257>))
@@ -2128,7 +2149,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002313>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002314>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002315>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002316>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002317>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002318>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002319>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002321>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002322>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002323>))
@@ -2154,7 +2177,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002351>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002352>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002354>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002355>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002356>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002357>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002358>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002360>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002361>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002362>))
@@ -2176,6 +2201,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002386>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002387>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002388>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002389>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002390>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002391>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002393>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002394>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002395>))
@@ -2186,9 +2213,11 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002399>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002400>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002401>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002402>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002404>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002406>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002408>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002409>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002410>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002411>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002412>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002413>))
@@ -2205,6 +2234,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002428>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002429>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002430>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002431>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002433>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002434>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002435>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002436>))
@@ -2214,6 +2244,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002439>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002440>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002441>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002442>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002443>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002445>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002446>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002447>))
@@ -2245,6 +2276,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002484>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002486>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002487>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002490>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002491>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002493>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002494>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002495>))
@@ -2253,22 +2285,27 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002498>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002499>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002500>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002504>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002505>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002506>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002507>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002511>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002512>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002513>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002514>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002515>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002517>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002521>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002522>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002524>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002526>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002527>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002528>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002529>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002531>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002533>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002535>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002536>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002537>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002538>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002540>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002541>))
@@ -2282,8 +2319,10 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002550>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002551>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002552>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002553>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002554>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002555>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002556>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002559>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002560>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002561>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002563>))
@@ -2308,6 +2347,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002585>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002586>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002587>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002590>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002591>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002592>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002593>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002594>))
@@ -8963,6 +9003,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29273806") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001643> "A genome-wide association sample of asthma from the north of the Netherlands, assembled by the Dutch Asthma Genetics Consortium in two phases that were genotyped separately and meta-analysed: a family-based phase whose asthmatic cases came from a trio and family study, with non-asthmatic spouses or the untransmitted alleles of the trios as controls, and a case–control phase whose asthmatics came from earlier clinical and genetic studies of the investigators' research institute, with controls from COPACETIC, a population-based lung cancer screening study of male smokers. Cases had a physician's diagnosis of asthma, asthma symptoms and bronchial hyperresponsiveness; controls had no asthma, COPD or significant airway obstruction.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001644> (<http://www.ebi.ac.uk/coho/COHO_0001644>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24768677") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25611558") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31617229") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34165262") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001644> "A national registry of patients with autoimmune hepatitis in the Netherlands kept by the Dutch Autoimmune Hepatitis Study Group, a collaboration of Dutch tertiary referral and general hospitals supported by the Netherlands Association for the Study of the Liver, which includes known patients retrospectively and new patients prospectively. Its patients have been studied for the treatment and outcome of the disease, and its adult patients with type 1 autoimmune hepatitis were genotyped for a genome-wide association study of the disease.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001645> (<http://www.ebi.ac.uk/coho/COHO_0001645>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28275316") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001645> "A Danish population-based cohort of men and women aged 18 to 76, drawn at random from the national registers among people born in Denmark and living in the western part of greater Copenhagen and examined at the Research Centre for Prevention and Health, Glostrup, from 2011 to 2015, set up to study the epidemiology of functional somatic syndromes (such as fibromyalgia, irritable bowel syndrome and chronic fatigue syndrome) and bodily distress syndrome. It merges a follow-up examination of the Health2006 cohort (DanFunD part one, 2011-2012) with a new random sample examined from 2012 to 2015 (DanFunD part two).")
@@ -9083,6 +9127,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24425039") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28213371") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001683> "A family study of Caribbean Hispanics from families multiply affected by late-onset Alzheimer's disease, recruited at the Taub Institute for Research on Alzheimer's Disease and the Aging Brain in New York and from clinics in the Dominican Republic, with follow-up of unaffected family members, to study the genetics of familial late-onset Alzheimer's disease.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001684> (<http://www.ebi.ac.uk/coho/COHO_0001684>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21239051") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21270820") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001684> "A study of patients undergoing cardiac catheterization at Emory University hospitals, the Emory Clinic and Grady Memorial Hospital in Atlanta, Georgia, United States, designed to investigate the relationship of biochemical and genetic factors with coronary artery disease; patients with angiographic coronary artery disease or a history of myocardial infarction or coronary revascularisation serve as cases and those without coronary artery disease on catheterization as controls in genetic studies.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001685> (<http://www.ebi.ac.uk/coho/COHO_0001685>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15456990") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21037568") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2652/MediaObjects/41588_2013_BFng2652_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001685> "A population-based case-control study of lymphoma in the north of England, run from York, whose cases are patients aged 16 to 69 newly diagnosed with non-Hodgkin or Hodgkin lymphoma between 1998 and 2003 while resident in defined areas, and whose controls were matched to cases on sex, date of birth and area of residence and drawn from general practice registers.")
@@ -9166,6 +9214,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001711> (<http://www.ebi.ac.uk/coho/COHO_0001711>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16753010") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18637888") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21570397") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31220337") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001711> "A European collaboration, supported by the European Commission's 5th Framework Programme, that established a DNA case-control collection for studying the genetic basis of susceptibility to serious adverse drug reactions, ascertaining cases mainly through adverse drug reaction reports to pharmacovigilance centres; its cases have been used in genetic studies of drug-induced liver injury, statin-induced myopathy and other reactions.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001712> (<http://www.ebi.ac.uk/coho/COHO_0001712>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16163567") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27647854") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001712> "A European genetic study of diabetic nephropathy and retinopathy in type 1 diabetes, combining a family-based design of affected offspring and their family members with a larger case-control component, whose participants were ascertained through 28 centres across Europe, some of which had taken part in the EURODIAB Prospective Complications Study.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001713> (<http://www.ebi.ac.uk/coho/COHO_0001713>)
 
@@ -9415,6 +9467,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17408493") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18649400") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18986508") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001780> "An international multicentre study of the genetics of familial Parkinson's disease, designed for genetic linkage analysis of affected relative pairs, that recruits families with at least two members with Parkinson's disease meeting diagnostic criteria, ascertained through a proband with an affected sibling, parent, offspring or more distant relative, at academic centres and clinics in the United States, Canada, Australia, Germany, Italy, the United Kingdom and Denmark.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001782> (<http://www.ebi.ac.uk/coho/COHO_0001782>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34237774") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37674002") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001782> "A South Korean case–control study of host genetic influences on the severity of COVID-19, contributed to the COVID-19 Host Genetics Initiative, that compares patients hospitalised with COVID-19 with controls, all of East Asian ancestry, under the review of eight Korean institutional review boards, among them those of Chungnam National University Hospital, Keimyung University Dongsan Hospital, Myongji Hospital and Pusan National University Hospital; its cases were genotyped on version 1.1 and its controls on version 1.0 of the Korea Biobank Array (KoreanChip).")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001783> (<http://www.ebi.ac.uk/coho/COHO_0001783>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22197932") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3985/MediaObjects/41588_2017_BFng3985_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-41180-2/MediaObjects/41467_2023_41180_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001783> "A German case-control sample for genetic studies of atopic dermatitis, whose cases are patients recruited at the tertiary dermatology clinics of the Technische Universität München (in the GENEVA study itself), the University of Kiel and the University of Bonn and diagnosed by dermatologists on skin examination, and whose controls come from the PopGen biobank and the population-based KORA surveys.")
@@ -9430,6 +9486,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001787> (<http://www.ebi.ac.uk/coho/COHO_0001787>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23280790") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28411264") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34300314") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:38103737") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001787> "A multicentre Spanish study of patients of European ancestry with acute ischaemic stroke, admitted to the emergency rooms of Vall d'Hebron Hospital in Barcelona and other Spanish hospitals and treated with recombinant tissue plasminogen activator (r-tPA), set up to find genetic variants associated with haemorrhagic transformation and death after thrombolysis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001788> (<http://www.ebi.ac.uk/coho/COHO_0001788>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19898481") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20453842") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23555300") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001788> "A prospective collection of Dutch patients with rheumatoid arthritis meeting the 1987 American College of Rheumatology criteria, recruited from the outpatient rheumatology clinics of the VU University Medical Center, the Jan van Breemen Institute and the Academic Medical Center/University of Amsterdam in the Amsterdam region of the Netherlands, together with healthy blood-donor controls from the same region, which the Genetics Network Rheumatology Amsterdam contributed to genetic studies of rheumatoid arthritis susceptibility and of response to anti-TNF therapy.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001789> (<http://www.ebi.ac.uk/coho/COHO_0001789>)
 
@@ -9487,6 +9547,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16283990") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18552384") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20576483") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001806> "An Australian family and twin study of the genetics of myopia and other refractive errors, established in Melbourne in 2004, which recruited probands with myopia and a family history of it (contacted through the database of the Melbourne Excimer Laser Group) together with their family members, and adult twins from Victoria through the Australian Twin Registry, with a detailed eye examination, ocular biometry, questionnaire and blood sample for DNA.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001807> (<http://www.ebi.ac.uk/coho/COHO_0001807>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23459797") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23750159") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23935489") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28702030") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2766982/fullTextXML") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001807> "A European-African consortium project of the European Commission's Sixth Framework Programme on the genetics and immunology of HIV-1 long-term non-progression, and its French-Italian cohort of untreated, HIV-1-infected Caucasian long-term non-progressors (CD4+ T-cell counts above 500/μL for more than seven years after infection without antiretroviral therapy) drawn from the French asymptomatic long-term cohort, the Italian ELVIS study and the Chelsea and Westminster cohort. The cohort was genotyped genome-wide and compared with seroconverters of the French PRIMO cohort to find host genetic factors of long-term non-progression, and it contributed to the International Collaboration for the Genomics of HIV.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001808> (<http://www.ebi.ac.uk/coho/COHO_0001808>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:10465168") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20403154") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001808> "A multicentre Italian randomized trial of the Gruppo Italiano per lo Studio della Sopravvivenza nell'Infarto miocardico (GISSI) in which patients surviving a recent (3 months or less) myocardial infarction, with no limits of age and sex, were randomly assigned from October 1993 to September 1995 in a factorial design to supplements of n-3 polyunsaturated fatty acids, vitamin E, both, or none for 3.5 years, with death, non-fatal myocardial infarction and stroke as the combined primary endpoint.")
@@ -9510,6 +9574,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001814> (<http://www.ebi.ac.uk/coho/COHO_0001814>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22885922") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2383/MediaObjects/41588_2012_BFng2383_MOESM31_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001814> "A French type 2 diabetes case-control sample, whose DNA samples were managed by the CNRS UMR 8199 Genomic and Metabolic Disease unit in Lille, genotyped on the Metabochip and contributed to the stage 2 replication of the DIAGRAM consortium's 2012 type 2 diabetes meta-analysis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001815> (<http://www.ebi.ac.uk/coho/COHO_0001815>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20530747") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001815> "A population-based case-control study of overweight or obese adults and age- and sex-matched normal-weight controls aged 35–54 years, noninstitutionalized residents of two urban districts of Shanghai, China (Luwan and Zhabei), recruited from November 2007 to January 2008 to investigate the effects of gut microbiota and environmental factors on obesity and related metabolic disorders.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001816> (<http://www.ebi.ac.uk/coho/COHO_0001816>)
 
@@ -9543,6 +9611,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-022-01058-3/MediaObjects/41588_2022_1058_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01058-3/MediaObjects/41588_2022_1058_MOESM3_ESM.xlsx") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001823> "A collection of Indian cohorts brought together for genetic studies of type 2 diabetes by the Genomic Research on Complex Diseases group at the CSIR-Centre for Cellular and Molecular Biology (CCMB), Hyderabad, including the Indian Diabetes Prevention Study 3, the Pune Maternal Nutrition Study and the Wellcome Genetics (WellGen) study, whose type 2 diabetes cases (by history, treatment or WHO 1999 oral glucose tolerance criteria) and normoglycaemic controls were genotyped genome-wide.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001824> (<http://www.ebi.ac.uk/coho/COHO_0001824>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21082022") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26149279") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001824> "An ongoing research programme at the renal function unit of the University Medical Center Groningen, the Netherlands, that hosts and harmonises a series of studies of renal hemodynamics, mainly in healthy volunteers, under a common protocol of integrated measurement of renal hemodynamics and extracellular volume, with standardised methods and calibration over time; participants are typically studied on a standardised dietary sodium intake.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001825> (<http://www.ebi.ac.uk/coho/COHO_0001825>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19536330") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29447163") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:8420680") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001825> "A self-referred registry of families with two or more cases of ovarian cancer among blood relatives, or with a cancer syndrome possibly related to ovarian cancer, established in 1981 at Roswell Park Cancer Institute in Buffalo, New York, United States, which receives family cancer information from throughout the United States, obtains detailed family histories, documents cancers through medical records and pathology review, and collects and stores biological samples from registry participants for research on familial ovarian cancer.")
@@ -9562,6 +9634,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001832> (<http://www.ebi.ac.uk/coho/COHO_0001832>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20453838") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://europepmc.org/api/getPdf?pmcid=PMC4229095") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1049/MediaObjects/41588_2012_BFng1049_MOESM2_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001832> "The second UK genome-wide association study of breast cancer, funded by the Wellcome Trust and Cancer Research UK, whose cases are women with breast cancer from UK cancer genetics clinics, recruited through the Familial Breast Cancer Study, and from UK oncology clinics, recruited through the POSH study, and whose controls come from the 1958 Birth Cohort and the UK National Blood Service, genotyped by the Wellcome Trust Case Control Consortium 2.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001834> (<http://www.ebi.ac.uk/coho/COHO_0001834>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22158537") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001834> "A type 2 diabetes case-control sample of Korean adults contributed by the Korea National Institute of Health to the Asian Genetic Epidemiology Network's type 2 diabetes meta-analysis. Its cases, with type 2 diabetes of onset at age 40 or older, were drawn from the population-based Health2 cohort of the Korean Genome and Epidemiology Study; its controls, without diabetes or anti-diabetic medication and with normal fasting glucose, came partly from the Health2 cohort (those older than 60 with a normal oral glucose tolerance test) and partly from the Health Examinee (HEXA) shared control study. It was genotyped genome-wide on the Affymetrix Genome-Wide Human SNP Array 6.0.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001835> (<http://www.ebi.ac.uk/coho/COHO_0001835>)
 
@@ -9583,6 +9659,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18440328") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.nature.com/articles/s42003-022-03291-2") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001839> "A study of relatively healthy adults, aged 20 or over and from large families, of the Old Order Amish of Lancaster County, Pennsylvania, initiated in 2002 to measure cardiovascular responses to four short-term interventions (a cold pressor stress test, a high-salt diet, a high-fat challenge and aspirin therapy) and to identify the genetic and environmental determinants of these responses.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001840> (<http://www.ebi.ac.uk/coho/COHO_0001840>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19198609") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21239051") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001840> "A population-based case-control study of early-onset myocardial infarction in King, Pierce and Snohomish counties, Washington, United States, whose cases were men under 50 and women under 60 with a first myocardial infarction diagnosed between 1991 and 2002, ascertained through medical record review at all acute care facilities in those counties, and whose controls, matched on age and sex and free of cardiovascular disease, were identified by random digit dialling in the same counties; it is one of the six studies of the Myocardial Infarction Genetics Consortium.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001843> (<http://www.ebi.ac.uk/coho/COHO_0001843>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32250320") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:38480700") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8060834/fullTextXML") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001843> "A longitudinal biomarker cohort study run jointly by Brigham and Women's Hospital and Massachusetts General Hospital in Boston, following patients with Parkinson's disease, patients with other neurodegenerative diseases and healthy controls at structured in-person study visits with biobanked samples, to accelerate the discovery and validation of molecular diagnostic and progression markers of early-stage Parkinson's disease.")
@@ -9594,6 +9674,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001845> (<http://www.ebi.ac.uk/coho/COHO_0001845>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24836286") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001845> "The colorectal cancer arm of the Hwasun Cancer Epidemiology Study, a hospital-based case-control study of multiple cancers in South Korea. Its cases are patients newly diagnosed with colorectal cancer at Chonnam National University Hwasun Hospital, a cancer hospital in Jeollanam-do province, between April 2004 and February 2013, excluding secondary or recurrent cancers, and its controls are participants in the Korean Community Health Survey in Jindo and Bosung counties of Jeollanam-do in 2010 to 2012.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001848> (<http://www.ebi.ac.uk/coho/COHO_0001848>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25349825") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25705162") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28154504") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33374401") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:39050255") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001848> "A population-based cohort of the Korean Genome and Epidemiology Study (KoGES), set up by the Center for Genome Science of the Korea National Institute of Health, made up of community-based cohorts of adults aged 40–69 in five rural areas of South Korea (Wonju, Pyeongchang, Gangneung, Geumsan and Naju), and later counted as part of the KoGES Cardiovascular Disease Association Study (CAVAS). It served as a replication and case-control sample in Korean genetic association studies of type 2 diabetes, blood pressure, lipids and blood cell traits.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001849> (<http://www.ebi.ac.uk/coho/COHO_0001849>)
 
@@ -9686,6 +9770,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001874> (<http://www.ebi.ac.uk/coho/COHO_0001874>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3396/MediaObjects/41588_2015_BFng3396_MOESM57_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001874> "A Finnish forensic autopsy series of men aged 35 to 69 who died out of hospital, combining consecutive autopsies in Helsinki in 1991-1992 (the Helsinki Sudden Death Study) and in Tampere in 2001-2004 (the Tampere Coronary Study), in which coronary artery disease was assessed at autopsy from coronary stenosis of 50% or more, old or acute myocardial infarction, or sudden cardiac death from plaque rupture and thrombosis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001875> (<http://www.ebi.ac.uk/coho/COHO_0001875>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22961080") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001875> "A type 2 diabetes case-control sample of unrelated Han Chinese from Hubei province, China, made up of people with type 2 diabetes and nondiabetic controls, genotyped as one of three independent replication populations in a genome-wide association study of type 2 diabetes in Chinese Hans.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001876> (<http://www.ebi.ac.uk/coho/COHO_0001876>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23372812") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30224653") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31537879") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001876> "A family cohort of white British nuclear and extended families from Oxford, United Kingdom, recruited from 1993 through a proband with essential hypertension in the upper 5% of the blood pressure distribution, with other family members collected regardless of their blood pressure, for quantitative genetic study of hypertension, left ventricular mass and other cardiovascular risk factors; families were recalled for further cardiovascular phenotyping, including electrocardiography, echocardiography and cardiac magnetic resonance imaging.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001877> (<http://www.ebi.ac.uk/coho/COHO_0001877>)
 
@@ -9790,6 +9882,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001919> (<http://www.ebi.ac.uk/coho/COHO_0001919>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23205164") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001919> "A nationwide collaborative biorepository of DNA, plasma and serum from people with and without type 2 diabetes in India's two major ethnic groups (Indo-European and Dravidian speakers), collected from 2003 to 2011 with anthropometric and clinical measurements by the Indian Diabetes Consortium to study the genetic, epigenetic and environmental causes of type 2 diabetes in Indians undergoing socioeconomic transition, re-sampling the same areas at intervals to follow the effects of urbanisation.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001920> (<http://www.ebi.ac.uk/coho/COHO_0001920>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29273806") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001920> "A Danish and Dutch occupational research group whose pooled surveys of occupational asthma, drawn from population-based or prospective cohort studies of workers exposed to allergens and irritants (agricultural dust or animals in the Danish SUS study, the Dutch Omega study and the Veterinarian’s Health Study; wheat flour and amylase in the Dutch Bakers health surveillance project; wood dust in the Danish Wood Dust Cohort of furniture workers; isocyanates in Dutch industrial spray painters), provided prevalent asthma cases and industry-, sex- and age-matched controls, as the INDUSTRIAL subgroup of the GABRIEL Consortium, to the genome-wide meta-analysis of asthma of the Trans-National Asthma Genetic Consortium.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001922> (<http://www.ebi.ac.uk/coho/COHO_0001922>)
 
@@ -9910,6 +10006,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001962> (<http://www.ebi.ac.uk/coho/COHO_0001962>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19653109") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21637779") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27902461") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001962> "Two population-based case-control studies of prostate cancer among residents of King County, Washington, carried out by the Fred Hutchinson Cancer Research Center, whose cases are white and African American men with incident, histologically confirmed prostate cancer ascertained from the Seattle-Puget Sound SEER cancer registry in 1993–1996 and 2002–2005, and whose controls are men of similar age without prostate cancer identified by random digit dialing over the same periods.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001963> (<http://www.ebi.ac.uk/coho/COHO_0001963>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23717212") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25261933") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26686045") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30033078") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31844061") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0001963> "A case-control study of severe Plasmodium falciparum malaria in children of Kilifi County on the coast of Kenya, carried out by the KEMRI-Wellcome Trust Research Programme in the area of the Kilifi Health and Demographic Surveillance System: its cases are children younger than 14 years admitted with severe malaria to the high-dependency ward of Kilifi County Hospital, and its controls are infants aged 3–12 months born in the same area between August 2006 and September 2010 who were recruited to a cohort study of genetic susceptibility to childhood diseases. It is the Kenyan partner study of the Malaria Genomic Epidemiology Network's multicentre case-control study of severe malaria (Consortial Project 1), whose samples were used in MalariaGEN's candidate-gene and genome-wide association studies.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001964> (<http://www.ebi.ac.uk/coho/COHO_0001964>)
 
@@ -10111,6 +10211,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:12537875") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23218199") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31608855") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002034> "A population-based registry of twins and their families, primarily born or living in Virginia, North Carolina and South Carolina and ascertained mainly from birth records (and formerly school records), formed in 1997 by merging the Virginia Twin Registry (established around 1975) with the North Carolina Twin Registry, with South Carolina added in 1998; based at Virginia Commonwealth University, it recruits its twins into research studies, collects data and DNA, and keeps a DNA repository.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002035> (<http://www.ebi.ac.uk/coho/COHO_0002035>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15606693") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21874001") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.921/MediaObjects/41588_2011_BFng921_MOESM16_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002035> "A type 2 diabetes case-control sample of adults of self-reported South Asian ancestry in Mauritius, drawn from a population-based survey of people aged 20 years and older undertaken in 1998, one of the national surveys of 1987, 1992 and 1998 that included a 2-hour 75-g oral glucose tolerance test.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002036> (<http://www.ebi.ac.uk/coho/COHO_0002036>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20304703") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002036> "A case-control sample of lung cancer patients who had never smoked, identified and recruited at Mayo Clinic, Rochester, Minnesota, between 1997 and 2008, and never-smoking community residents matched to them by age, sex and ethnic background, genotyped for a genome-wide association study of lung cancer in never smokers.")
@@ -10271,6 +10375,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20860503") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23345460") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002089> "A United Kingdom case-control panel for asthma genome-wide association studies, combining childhood-onset asthma cases from the MRCA panel of British nuclear families ascertained through a child with asthma with United Kingdom control subjects.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002091> (<http://www.ebi.ac.uk/coho/COHO_0002091>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34237774") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:37674002") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002091> "A COVID-19 host genetics case–control study of the Mount Sinai Health System, contributed to the COVID-19 Host Genetics Initiative, that compares participants with reported SARS-CoV-2 infection with controls, under the review of the Mount Sinai Program for the Protection of Human Subjects; its participants, of European, African and admixed American ancestry, were genotyped on the Global Diversity Array or the Global Screening Array.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002092> (<http://www.ebi.ac.uk/coho/COHO_0002092>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19648920") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002092> "A hospital-based case-control study of bladder cancer at Memorial Sloan Kettering Cancer Center in New York, United States, whose cases and controls have been genotyped in bladder cancer susceptibility studies.")
@@ -10379,6 +10487,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34903541") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8672005/fullTextXML") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002127> "A prospective cohort study in China, coordinated by the Second Affiliated Hospital of Zhejiang University, of risk factors and biomarkers across the colorectal cancer continuum from aetiology to survivorship, made up of a screening cohort of people at high risk of colorectal cancer recruited from 2016 to 2020, first in Jiashan County, Zhejiang Province, and a multicentre cohort of patients newly diagnosed with colorectal cancer recruited from 2015 to 2020 at 16 hospitals in 11 provinces and followed up after surgery.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002128> (<http://www.ebi.ac.uk/coho/COHO_0002128>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22039354") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23702607") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002128> "A type 2 diabetes case-control study in Norfolk, UK, whose cases were men and women with type 2 diabetes identified through general practice diabetes registers and local hospital diabetes clinic and retinal screening programme registers in Norfolk, and whose controls, free of known diabetes, were randomly selected from participants of the EPIC-Norfolk cohort.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002130> (<http://www.ebi.ac.uk/coho/COHO_0002130>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18822177") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27135401") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30093612") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002130> "A hospital-based series of histologically confirmed endometrial cancer cases recruited consecutively from 1992 to 2005 among women presenting for treatment at the Hunter Centre for Gynaecological Cancer, John Hunter Hospital, in Newcastle, New South Wales, Australia, with reproductive and environmental risk factors (including ethnicity) from self-reported questionnaires and recurrence, stage, grade and histology from medical records; from 2005 patients at this site were recruited by the Australian National Endometrial Cancer Study. Its cases were genotyped in the genome-wide association studies of the Endometrial Cancer Association Consortium.")
@@ -10430,6 +10542,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002156> (<http://www.ebi.ac.uk/coho/COHO_0002156>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19416921") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21926972") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29906448") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002156> "A case–control sample for genome-wide association studies of bipolar disorder in the United States, assembled by the Pritzker Neuropsychiatric Disorders Research Consortium: its cases, of non-Ashkenazi European origin with bipolar I disorder, came from the NIMH Human Genetics Initiative repository, selected where possible as pairs of affected siblings from families collected in its multicentre bipolar family study, and from the University of Michigan Prechter Bipolar Genetics Repository; its controls came from the NIMH repository and reported no diagnosis of or treatment for bipolar disorder or schizophrenia and said they had not heard voices that others could not hear, with suspected major depression excluded. It is one of the bipolar disorder samples of the Psychiatric Genomics Consortium.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002158> (<http://www.ebi.ac.uk/coho/COHO_0002158>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15866761") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17131948") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22561519") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22691464") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22715102") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22886559") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002158> "A population-based case-control study of primary intracranial glioma, initiated in 1995 by the US National Institute for Occupational Safety and Health among adults aged 18 to 80 living in non-metropolitan counties of Iowa, Michigan, Minnesota and Wisconsin, to evaluate associations of glioma with farm and rural exposures, pesticides above all. Its cases had histologically confirmed glioma diagnosed from January 1995 to January 1997, and its controls, frequency-matched within state, were drawn from driver's licence and identification records (ages 18–64) and Medicare data (ages 65–80); its participants' DNA was later genotyped in National Cancer Institute genome-wide studies of glioma and of clonal mosaicism.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002159> (<http://www.ebi.ac.uk/coho/COHO_0002159>)
 
@@ -10526,6 +10642,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002192> (<http://www.ebi.ac.uk/coho/COHO_0002192>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:14710223") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15226762") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002192> "A prospective cohort of healthy women aged 34–65 years enrolled by New York University between 1985 and 1991 at the Guttman Breast Diagnostic Institute, a breast cancer screening centre in New York City, who gave blood at enrolment and at later annual screening visits and have been followed to study hormones, diet, environmental factors and the risk of cancer.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002193> (<http://www.ebi.ac.uk/coho/COHO_0002193>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18239157") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19198610") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21378990") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002193> "A case-control sample of patients with angiographically proven coronary artery disease (stenosis of at least 50% of the vessel diameter in at least one coronary artery) from the Otago-Southland region of New Zealand, with age-matched controls from the same region who had no history of ischaemic heart disease, assembled alongside abdominal aortic aneurysm and peripheral arterial disease series from the same region; it served as a replication sample in genetic studies of coronary artery disease.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002194> (<http://www.ebi.ac.uk/coho/COHO_0002194>)
 
@@ -10702,6 +10822,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002250> (<http://www.ebi.ac.uk/coho/COHO_0002250>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18985386") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000126.v1.p1") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002250> "A genome-wide association sample of familial Parkinson's disease that combines unrelated cases, one per multiplex family, from two familial Parkinson's disease studies, PROGENI and GenePD, diagnosed by modified UK Parkinson's Disease Society Brain Bank criteria and primarily Caucasian and non-Hispanic, with Caucasian non-Hispanic controls without neurological disease from the NINDS repository at the Coriell Institute, genotyped at the Center for Inherited Disease Research to find genetic risk factors for Parkinson's disease.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002251> (<http://www.ebi.ac.uk/coho/COHO_0002251>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28391887") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30005242") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31656041") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33234119") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002251> "A UK multicentre prospective observational cohort of patients hospitalised with a non-ST elevation acute coronary syndrome (non-ST elevation myocardial infarction or unstable angina), run at 16 hospital sites between 2008 and 2013, whose participants were followed up at one and 12 months, and annually thereafter while the study ran, for further cardiovascular events; its medication, adherence, plasma drug-level and genome-wide genotype data are used in pharmacogenetic studies of secondary-prevention cardiovascular drugs.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002252> (<http://www.ebi.ac.uk/coho/COHO_0002252>)
 
@@ -10899,9 +11023,17 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28604730") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002316> "A case-control study of lung cancer epidemiology run from Sheffield, England, since 2006, which recruits pathologically confirmed lung cancer cases diagnosed at age 60 or younger (or older with a family history of lung cancer) and family-matched controls through several cancer treatment centres, mostly in North Trent, collecting a lifestyle, occupational-exposure and family-history questionnaire and blood for DNA.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002317> (<http://www.ebi.ac.uk/coho/COHO_0002317>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29600553") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32406072") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36878686") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002317> "A community-based prospective cohort in Taiwan made up of the participants of the REVEAL study who were seropositive for hepatitis B surface antigen: the REVEAL study enrolled residents aged 30 to 65 years from seven townships in Taiwan in 1991–1992, who gave blood samples, completed questionnaires and had health examinations at enrolment, and its HBsAg-seropositive participants were followed with blood collection and abdominal ultrasonography every 6–12 months and by linkage to the Taiwan National Cancer Registry and death certification, to study the risk factors for hepatocellular carcinoma in chronic hepatitis B virus carriers. Its sister cohort, REVEAL-HCV, followed the participants seropositive for antibodies to hepatitis C virus.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002318> (<http://www.ebi.ac.uk/coho/COHO_0002318>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19767753") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24386513") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.450/MediaObjects/41588_2009_BFng450_MOESM22_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002318> "A population-based case-control study of prostate cancer run by the Cancer Council Victoria, which in 1994-1997 recruited men resident in Melbourne and Perth, Australia, who were diagnosed with prostate cancer before age 70, through the state cancer registries, together with controls identified from government electoral rolls and frequency-matched to the cases by age.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002319> (<http://www.ebi.ac.uk/coho/COHO_0002319>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25429064") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002319> "A type 2 diabetes study of Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, funded through the hospital's Key Laboratory for Endocrine and Metabolic Diseases of the Ministry of Health, whose genome-wide genotype data on participants of East Asian ancestry were one of the studies of the Asian Genetic Epidemiology Network meta-analysis of genome-wide association studies of adult height.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002321> (<http://www.ebi.ac.uk/coho/COHO_0002321>)
 
@@ -11003,9 +11135,17 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15150583") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15280622") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16912087") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29117387") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002355> "A population-based case-control study of prostate cancer in older African American and white men in South Carolina, United States, funded by the Centers for Disease Control and Prevention. Men aged 65–79 with incident, histologically confirmed prostate cancer diagnosed from October 1999 to September 2001 were identified through the South Carolina Central Cancer Registry, and controls of the same ages, frequency-matched on age, race and region, were sampled from the Medicare beneficiary file; both were interviewed by telephone by the University of South Carolina Survey Research Laboratory about lifestyle, diet, medical and family history and farm work.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002356> (<http://www.ebi.ac.uk/coho/COHO_0002356>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20862305") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22158264") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23406970") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002356> "A genome-wide association study of type 2 diabetes in Chinese women in Shanghai, contributed by Vanderbilt University and the Shanghai Cancer Institute, whose cases were incident type 2 diabetes cases from the Shanghai Women's Health Study and prevalent cases found among the controls of the Shanghai Breast Cancer Study, and whose controls were women from the general population free of cancer and diabetes, shared with the Shanghai Breast Cancer Genetics Study. Genotyped on the Affymetrix Genome-Wide Human SNP Array 6.0, it has also been pooled with the Shanghai breast and endometrial cancer genetics studies for genetic analyses of other traits in women.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002357> (<http://www.ebi.ac.uk/coho/COHO_0002357>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16284367") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22787114") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26090820") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002357> "A population-based case-control study of Barrett's oesophagus and reflux-related conditions in Brisbane, Australia, whose cases were residents of metropolitan Brisbane aged 18 to 79 with a new histologically confirmed diagnosis of Barrett's oesophagus, with or without dysplasia, between February 2003 and June 2006, identified through the pathology laboratories serving the city, and whose controls were people randomly selected from the Australian electoral roll and matched to the cases by age and sex, together with endoscopy patients with reflux symptoms or oesophageal inflammation but no Barrett's oesophagus.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002358> (<http://www.ebi.ac.uk/coho/COHO_0002358>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19937226") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21911749") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22961080") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002358> "The inpatient database of the Shanghai Diabetes Institute at Shanghai Jiao Tong University Affiliated Sixth People's Hospital, Shanghai, China: Han Chinese inpatients of the hospital's Department of Endocrinology and Metabolism, recruited from 2001, with type 2 diabetes, type 1 diabetes or genetic syndromes related to diabetes, for whom detailed phenotypes of glucose and lipid metabolism, blood pressure, liver and kidney function and diabetic complications were collected. Its type 2 diabetes patients have served as cases, with controls from the community-based Shanghai Diabetes Studies, in genetic association studies of type 2 diabetes and its complications.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002360> (<http://www.ebi.ac.uk/coho/COHO_0002360>)
 
@@ -11091,6 +11231,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20003391") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23143601") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002389> "A hospital-based case-control study of lung cancer in never-smoking ethnic Chinese women in Shenyang, Liaoning Province, northeast China, whose cases had histologically confirmed lung cancer and whose controls were non-smoking women with other lung diseases but free of cancer, frequency-matched to the cases on age; it is one of the studies pooled in the Female Lung Cancer Consortium in Asia.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002390> (<http://www.ebi.ac.uk/coho/COHO_0002390>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21874001") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.921/MediaObjects/41588_2011_BFng921_MOESM16_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002390> "A Sri Lankan type 2 diabetes case-control study whose cases came mostly from the Sri Lankan Young Diabetes Study of patients with early-onset diabetes recruited from the three largest hospitals in Sri Lanka, augmented with diabetes cases from the Sri Lankan Diabetes Cardiovascular Study, and whose controls were participants in the Sri Lankan Diabetes Cardiovascular Study, a cross-sectional nationally representative epidemiological investigation.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002391> (<http://www.ebi.ac.uk/coho/COHO_0002391>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18438839") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22031537") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:30326636") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34008864") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002391> "A longitudinal observational cohort study of systemic lupus erythematosus among the Gullah African Americans of the Sea Island region of South Carolina, United States, run from the Medical University of South Carolina, which enrols self-identified Gullah patients with lupus meeting the American College of Rheumatology classification criteria, their relatives, and unrelated unaffected Gullah controls, to study the genetic and environmental factors that contribute to lupus in this population. It is one of the community-engaged Sea Island Families Project studies.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002393> (<http://www.ebi.ac.uk/coho/COHO_0002393>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16931632") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17053057") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19377074") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28393470") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002393> "A population-based case-control study from Leiden, the Netherlands, of men born in the Netherlands, comparing men younger than 70 years who had a first myocardial infarction between 1990 and 1996 with control men without a history of myocardial infarction, frequency-matched on 10-year age groups, used to study coagulation and fibrinolytic factors, their genetic variants and cardiovascular risk factors as risk factors for myocardial infarction.")
@@ -11131,6 +11279,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41391-020-00311-2/MediaObjects/41391_2020_311_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21287-0/MediaObjects/41467_2021_21287_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-018-0142-8/MediaObjects/41588_2018_142_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002402> "A hospital-based, retrospective, observational case-control study of men from Guernsey, with prostate cancer cases and controls drawn from the island's population and the study run from Manchester and Southampton, UK, to look for serum proteomic biomarkers of aggressive prostate cancer.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002404> (<http://www.ebi.ac.uk/coho/COHO_0002404>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33846372") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34237774") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35933486") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002404> "A Spanish study of the molecular pathways and genetic predisposition behind the acute inflammatory response to SARS-CoV-2, run from the GENYO Centre for Genomics and Oncological Research in Granada, whose participants, patients with laboratory-confirmed SARS-CoV-2 infection whose blood was sampled on arrival at the emergency ward of the Hospital Clínico Universitario de Valladolid (from March 2020) or the Hospital Regional Universitario de Málaga (from August 2020), together with SARS-CoV-2 PCR-negative individuals, were genotyped on the Illumina Infinium Global Screening Array and profiled for whole-blood DNA methylation; it contributed to the COVID-19 Host Genetics Initiative.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002406> (<http://www.ebi.ac.uk/coho/COHO_0002406>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20446946") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22931315") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23726159") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002406> "A randomised, multicentre phase III secondary-prevention trial in patients with recent, MRI-confirmed symptomatic lacunar (small subcortical) stroke, recruited between 2003 and 2011 at clinical centres in North America, Latin America and Spain, which tested in a two-by-two factorial design aspirin plus clopidogrel against aspirin alone and a lower against a higher systolic blood-pressure target for preventing recurrent stroke.")
@@ -11142,6 +11294,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002409> (<http://www.ebi.ac.uk/coho/COHO_0002409>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22784820") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002409> "A case-control study of ischaemic cerebrovascular disease in southern Stockholm, Sweden, whose stroke patients underwent clinical investigation and standardised blood tests and whose patients and controls were genotyped for 100 polymorphisms in 47 candidate susceptibility genes to study the genetic profile of ischaemic stroke and its subtypes.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002410> (<http://www.ebi.ac.uk/coho/COHO_0002410>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34237774") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36042219") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002410> "A COVID-19 pandemic-tracking study at Stanford Health Care in northern California that, from March to July 2020, collected the residual nasopharyngeal swab media of clinical SARS-CoV-2 tests from approximately consecutive SARS-CoV-2-positive and -negative patients, linked them to electronic health record data, and sequenced the patients' genomes at low coverage together with viral genomes and transcriptomes, to study host genetic, viral and clinical correlates of COVID-19 severity; it contributed its host genetic data to the COVID-19 Host Genetics Initiative.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002411> (<http://www.ebi.ac.uk/coho/COHO_0002411>)
 
@@ -11207,6 +11363,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:27322543") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40691366") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002431> "A genotyped case-control sample from the sixth wave of the Tromsø Study, the population-based health study of the municipality of Tromsø in Northern Norway, in which participants who reported headache in the past year meeting modified ICHD criteria for migraine, or who reported previous or current migraine, were taken as migraine cases and the other participants genotyped as controls, first used in the International Headache Genetics Consortium's genome-wide meta-analysis of migraine.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002433> (<http://www.ebi.ac.uk/coho/COHO_0002433>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2797/MediaObjects/41588_2013_BFng2797_MOESM43_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2263-3/MediaObjects/41586_2020_2263_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002433> "A hospital-based cohort of patients with angina pectoris and objective documentation of myocardial ischaemia who underwent diagnostic coronary angiography or revascularisation at National Taiwan University Hospital at any time after October 2000, with questionnaire data including cardiovascular medication, electronic medical records and fasting blood samples taken before cardiac catheterisation. Collected independently of the similar TCAGEN study at the same hospital, it is one of the seven Taiwan-based cohorts of the TAICHI consortium.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002434> (<http://www.ebi.ac.uk/coho/COHO_0002434>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:28604730") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:32393777") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002434> "A hospital-based case-control study of lung cancer run from Washington State University at the H. Lee Moffitt Cancer Center in Tampa, Florida, United States, whose cases were patients with histologically confirmed primary lung cancer identified at the centre in 1999–2002 and recruited within a year of diagnosis, and whose cancer-free controls, matched to cases on age, race and sex, were recruited at the centre's affiliated Lifetime Cancer Screening Center.")
@@ -11242,6 +11402,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002442> (<http://www.ebi.ac.uk/coho/COHO_0002442>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25818243") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33976506") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3874/MediaObjects/41588_2017_BFng3874_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2263-3/MediaObjects/41586_2020_2263_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002442> "A hospital-based study of patients with cardiovascular disease receiving care at Taichung Veterans General Hospital in Taichung, Taiwan, chiefly people hospitalised for diagnostic and interventional coronary angiography and treatment, together with patients with a history of myocardial infarction or coronary revascularisation, whose angiographic and clinical records are used to study the severity and outcomes of stable coronary artery disease and whose DNA contributes to the TAICHI Consortium's genetic studies.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002443> (<http://www.ebi.ac.uk/coho/COHO_0002443>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2797/MediaObjects/41588_2013_BFng2797_MOESM43_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3874/MediaObjects/41588_2017_BFng3874_MOESM1_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-2263-3/MediaObjects/41586_2020_2263_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002443> "An ongoing hospital-based cohort of patients undergoing coronary angiography or percutaneous coronary intervention for stable angina pectoris or prior myocardial infarction at National Taiwan University Hospital, enrolling patients both in the north of Taiwan, where the main hospital is, and at a branch of the hospital in south-central Taiwan, with electronic medical records, fasting blood samples taken before cardiac catheterisation and blood collected in the catheter laboratory for DNA. It is one of the seven Taiwan-based cohorts of the TAICHI consortium.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002445> (<http://www.ebi.ac.uk/coho/COHO_0002445>)
 
@@ -11367,6 +11531,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15921047") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16887835") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002490> "A community-based prospective cohort study in Leidsche Rijn, a newly developed residential area of the city of Utrecht, the Netherlands, in which all new inhabitants are invited by their general practitioner to take part, receive a baseline individual health profile from research nurses, and are followed up through continuous linkage with the general practitioners' electronic medical records.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002491> (<http://www.ebi.ac.uk/coho/COHO_0002491>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24390345") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35627158") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature12828/MediaObjects/41586_2014_BFnature12828_MOESM230_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002491> "A type 2 diabetes case-control study of Mexican-mestizo adults in Mexico City, whose cases were recruited at the outpatient diabetes clinic of the Department of Endocrinology and Metabolism of the Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán (INCMNSZ) and whose normoglycaemic controls were recruited from a cohort of adults aged 45 years or older among government employees, blue-collar workers and people seeking attention in medical units.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002493> (<http://www.ebi.ac.uk/coho/COHO_0002493>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18502301") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21294771") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24902492") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002493> "A study of patients with type 2 diabetes in general practices in Birmingham and Coventry, United Kingdom, carried out in 2004-2007, made up of a community-based cluster randomised controlled trial of a culturally sensitive enhanced care package for patients of south Asian origin and a parallel cohort study of cardiovascular risk factors in south Asian and white European patients; its south Asian participants have also contributed to genetic association studies of type 2 diabetes.")
@@ -11399,6 +11567,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19648919") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://web.archive.org/web/20230402084624/https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/a-study-looking-at-family-history-and-ovarian-cancer") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002504> "A register of families in the United Kingdom in which at least two people have been diagnosed with ovarian cancer, begun in 1991 as the UKCCCR study of familial ovarian cancer and supported by Cancer Research UK and the University of Cambridge, which recruited until 2009 and collected medical information, family histories and, from some members, blood and tissue samples to study familial risk factors for ovarian cancer.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002505> (<http://www.ebi.ac.uk/coho/COHO_0002505>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16968788") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17952073") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24586183") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002505> "The patients with Graves' disease of the United Kingdom's national DNA collection for autoimmune thyroid disease (the AITD National Collection), a multicentre collection of Caucasian patients with Graves' disease or Hashimoto's thyroiditis and their family members, recruited at hospitals across the United Kingdom with clinical and biochemical data collected prospectively under a common protocol and funded by the Wellcome Trust. Its Graves' disease patients have served as cases in genetic association studies of Graves' disease, analysed against British 1958 Birth Cohort controls.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002506> (<http://www.ebi.ac.uk/coho/COHO_0002506>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:31089142") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36493335") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36528478") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002506> "A multi-institutional, longitudinal observational study of prostate cancer in the United Kingdom, conducted through the Royal Marsden NHS Foundation Trust, that since 1992 has recruited men with histologically confirmed prostate cancer in a population-based arm and in arms enriched for young age at onset or a family history of the disease, together with cancer-free men from its clinics as controls, collecting baseline and follow-up clinical data to study inherited susceptibility to prostate cancer and its outcomes.")
@@ -11414,6 +11586,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002512> (<http://www.ebi.ac.uk/coho/COHO_0002512>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:1778353") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40485651") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:9742976") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002512> "A multicentre randomised intervention trial in the United Kingdom, begun in 1977 and expanded to 23 centres by 1987, of patients aged 25–65 years with newly diagnosed type 2 diabetes, who after initial diet treatment were randomly allocated to intensive blood-glucose control (with a sulphonylurea or insulin, or metformin for overweight patients) or to conventional diet-based treatment, with the Hypertension in Diabetes Study nested in a factorial design comparing tight with less tight blood-pressure control; its participants were followed for diabetic complications and death for decades after the intervention ended.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002513> (<http://www.ebi.ac.uk/coho/COHO_0002513>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17982455") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19898481") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20852893") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002513> "A collection of adult patients with rheumatoid arthritis fulfilling the 1987 American College of Rheumatology criteria, and of healthy controls, assembled for genetic studies by the UK Rheumatoid Arthritis Genetics consortium, a collaboration of six UK rheumatology research groups. Cases were recruited in Manchester, Aberdeen, Leeds, Sheffield, London and Oxford, mostly from NHS rheumatology clinics but also from the Arthritis Research Campaign National Repository of Family Material and the Norfolk Arthritis Register, and controls in five of these centres; its samples were used to replicate and extend rheumatoid arthritis susceptibility loci from genome-wide association studies.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002514> (<http://www.ebi.ac.uk/coho/COHO_0002514>)
 
@@ -11435,9 +11611,17 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncomms5613/MediaObjects/41467_2014_BFncomms5613_MOESM440_ESM.pdf") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3654676/unicode") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002522> "The North Carolina site of the Cancer Care Outcomes Research and Surveillance (CanCORS) Consortium, run by the University of North Carolina at Chapel Hill: a prospective population-based cohort of patients with colorectal cancer diagnosed between April 2003 and January 2005 in counties of central and eastern North Carolina, United States, identified by rapid case ascertainment through the North Carolina Central Cancer Registry.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002524> (<http://www.ebi.ac.uk/coho/COHO_0002524>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18264013") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25031287") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:25906364") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26708676") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002524> "A cohort study of patients with non-disabling cerebral ischaemia of arterial origin referred to the University Medical Center Utrecht, the Netherlands, and included between 1994 and 2009 in the SMART study or the Utrecht Stroke Database, whose patients were genotyped with the Illumina Immunochip and followed up for new vascular events in order to test whether genetic information improves prognostic models for new ischaemic and haemorrhagic events. Its genotyped patients were also the Utrecht Immunochip case sample of genetic association studies of ischaemic stroke.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002526> (<http://www.ebi.ac.uk/coho/COHO_0002526>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01510-y/MediaObjects/41588_2023_1510_MOESM1_ESM.pdf") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002526> "A prospective population-based case-control study of abdominal aortic aneurysm in Uppsala, Sweden, in which all 65-year-old men identified through the National Population Registry were invited to an ultrasound examination; it aims to find biomarkers for the cause and progression of abdominal aortic aneurysm and to investigate how people with and without an aneurysm experience their health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002527> (<http://www.ebi.ac.uk/coho/COHO_0002527>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35077710") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:40029246") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002527> "A prospective, multicentre observational study of late radiotherapy toxicity that recruited men with prostate cancer without distant metastases who were scheduled for curative-intent radiotherapy (external beam radiotherapy with or without a brachytherapy boost, or brachytherapy alone) between April 2016 and March 2019 at two hospitals in the United States, the University of Rochester Wilmot Cancer Institute and the Medical College of Wisconsin; participants were enrolled before or in the first week of radiotherapy, followed with patient-reported outcomes (the Expanded Prostate Index Composite with added radiation-related questions) at the end of radiotherapy, at 6 months and yearly for up to four years, and genotyped genome-wide, to validate predictive models and biomarkers of toxicity such as hematuria.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002528> (<http://www.ebi.ac.uk/coho/COHO_0002528>)
 
@@ -11462,6 +11646,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002536> (<http://www.ebi.ac.uk/coho/COHO_0002536>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:26440539") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:35170738") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3433845/unicode") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002536> "A randomized, placebo-controlled smoking cessation trial of the University of Wisconsin Transdisciplinary Tobacco Use Research Center, run at the University of Wisconsin Center for Tobacco Research and Intervention with participants recruited in Madison and Milwaukee, Wisconsin, United States, in which adults who smoked 10 or more cigarettes a day and were motivated to quit were randomly assigned to placebo, nicotine patch, nicotine lozenge, sustained-release bupropion or a combination, and whose genotyped participants are used in genetic studies of nicotine dependence and smoking cessation.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002537> (<http://www.ebi.ac.uk/coho/COHO_0002537>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34237774") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:34645534") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:39715278") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002537> "A population-based SARS-CoV-2 study in the Gardena valley (Val Gardena/Gröden) of South Tyrol, Italy, one of the areas most afflicted early in the COVID-19 pandemic, that invited a random sample of the inhabitants of its main municipalities (Ortisei, Santa Cristina and Selva), stratified by municipality, sex and age group, to answer a questionnaire and undergo a nasopharyngeal swab test and a serological antibody test between 26 May and 8 June 2020, towards the end of the first wave, and stored their biological samples at the Eurac Research Biobank; funded by the Healthcare System of the Autonomous Province of Bolzano/Bozen, it later contributed genotyped participants to the COVID-19 Host Genetics Initiative and participants with confirmed infection to a whole-genome sequencing study of COVID-19 host genetics built on the German COVID-19 Omics Initiative.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002538> (<http://www.ebi.ac.uk/coho/COHO_0002538>)
 
@@ -11515,6 +11703,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16753056") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19672314") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20459604") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002553> "A collection, funded by Diabetes UK, of people with type 2 diabetes and their relatives recruited from across the United Kingdom for genetic studies of type 2 diabetes, comprising probands of affected sibships (sib pairs), parent-offspring trios and duos, and a later collection of cases diagnosed at 35 to 65 years who were not selected for a family history of diabetes.")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002554> (<http://www.ebi.ac.uk/coho/COHO_0002554>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:15006283") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:17698683") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002554> "A randomised, double-blind, placebo-controlled 2x2x2 factorial trial of vitamin C, vitamin E and beta carotene for the prevention of cardiovascular events among female health professionals in the United States aged 40 or older with a history of cardiovascular disease or at least three cardiovascular risk factors, randomised from June 1995 to October 1996, to which a folic acid, vitamin B6 and vitamin B12 component was added in 1998; participants were followed up by questionnaire to 2005.")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002555> (<http://www.ebi.ac.uk/coho/COHO_0002555>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:16758424") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19690614") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22498169") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:24171102") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:7802978") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:9586648") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002555> "A prospective, single-centre, population-based observational study of the natural history of HIV disease among people with HIV attending the tertiary HIV service in Perth, Western Australia, whose clinical data, HIV sequences and host HLA and genome-wide genotypes have been used to study HIV immune escape, host genetic control of the virus, and prospective HLA-B*5701 screening to prevent abacavir hypersensitivity.")
@@ -11522,6 +11714,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002556> (<http://www.ebi.ac.uk/coho/COHO_0002556>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19865486") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:33024820") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002556> "A multi-site case-control study of breast cancer in African American and European American women in metropolitan New York City and New Jersey, begun in 2003, with cases ascertained through hospitals and the New Jersey State Cancer Registry and controls through random digit dialing, recruited from bases at Mount Sinai School of Medicine and the Cancer Institute of New Jersey with data and biospecimens processed at Roswell Park Cancer Institute, to investigate genetic and lifestyle risk factors for aggressive (high-grade, estrogen receptor-negative) breast cancer and its earlier onset in African American women.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002559> (<http://www.ebi.ac.uk/coho/COHO_0002559>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:20862305") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22109280") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1001127.s008") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002559> "A hospital-based case-control study of type 2 diabetes in Han Chinese in Wuhan, China, whose cases were men and women aged 30 or older with newly diagnosed type 2 diabetes (by American Diabetes Association and World Health Organization criteria, using fasting and 2-hour oral glucose tolerance test glucose), recruited consecutively from the endocrinology outpatient clinics of Tongji Medical College Hospital, and whose controls were people with normal glucose tolerance from an unselected population attending routine health check-ups at the same hospital between December 2004 and November 2007. It has been used for replication genotyping in genetic association studies of type 2 diabetes and obesity.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002560> (<http://www.ebi.ac.uk/coho/COHO_0002560>)
 
@@ -11618,6 +11814,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002590> (<http://www.ebi.ac.uk/coho/COHO_0002590>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23143601") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002590> "A case-control study of lung cancer in never-smoking ethnic Chinese women in Yunnan Province, China, that enrolled incident lung cancer cases and controls without a history of cancer, all aged at least 18; it is one of the studies pooled in the Female Lung Cancer Consortium in Asia.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002591> (<http://www.ebi.ac.uk/coho/COHO_0002591>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:19421330") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21771975") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23469169") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:29379041") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002591> "A multicentre study run from Academia Sinica, Taiwan, of Han Chinese patients with young-onset essential hypertension, first diagnosed between the ages of 20 and 51, with secondary hypertension, diabetes and a body mass index of 35 kg/m2 or more excluded. Lymphoblastoid cell lines were established for its patients, who, with normotensive controls from other Taiwanese studies, have been used in genome-wide association, gene-expression and candidate-gene studies of hypertension, blood pressure, adiponectin and ACE activity.")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002592> (<http://www.ebi.ac.uk/coho/COHO_0002592>)
 

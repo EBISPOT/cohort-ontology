@@ -3543,6 +3543,15 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000081)
 # Individual: coho:COHO_0000082 (Genetics of diabetes Audit and Research)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "GoDARTS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UK2_GCC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UK2 GCC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UKT2DGC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UKT2D GCC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UKT2D-GCC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UK Type 2 Diabetes Genetics Consortium")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UK Type 2 Diabetes Genetics Consortium collection")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000082 "UK Type 2 Diabetes Genetics Consortium Collection")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000082 "United Kingdom Type 2 Diabetes Genetics Consortium")
 AnnotationAssertion(rdfs:label coho:COHO_0000082 "Genetics of diabetes Audit and Research"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000082)
 
@@ -5368,6 +5377,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000345 "Uganda Genome 
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000345 "The acronym GPC also denotes Genetics of Personality Consortium (COHO:0000461); this term is Uganda General Population Cohort."@en)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000345 "UGR")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000345 "Uganda General Population Cohort/Uganda Genome Resource/ MRC Uganda")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000345 "UVRIGPC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000345 "MRC/UVRI GPC")
 AnnotationAssertion(rdfs:label coho:COHO_0000345 "Uganda General Population Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000345)
 
@@ -5676,6 +5687,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000383 "Partners Healt
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000383 "Partners Healthcare System Biobank")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000383 "The acronym Harvard also denotes Nurses' Health Study (COHO:0000456), Health Professionals Follow-up Study (COHO:0000527) and Nurses' Health Study II (COHO:0000619); this term is Mass General Brigham Biobank."@en)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000383 "Partners Healthcare Biorepository")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000383 "PHBB")
 AnnotationAssertion(rdfs:label coho:COHO_0000383 "Mass General Brigham Biobank"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000383)
 
@@ -6343,6 +6355,10 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Genetic STudy 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Genetic Studies of Atherosclerosis Risk")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000455 "JH-SFHS")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Johns Hopkins Sibling and Family Heart Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000455 "GeneSTAR_b")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Johns Hopkins - Genetic STudy of Atherosclerosis Risk")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Johns Hopkins Genetic Study of Atherosclerosis Risk")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Johns Hopkins GeneSTAR Research Program")
 AnnotationAssertion(rdfs:label coho:COHO_0000455 "Genetic Study of Atherosclerosis Risk"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000455)
 
@@ -8069,6 +8085,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000649 "San Antonio Family Studies")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000649 "San Antonio Mexican American Family Studies")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000649 "San Antonio Mexican American Family Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000649 "MAFEGWAS")
 AnnotationAssertion(rdfs:label coho:COHO_0000649 "San Antonio Family Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000649)
 
@@ -12086,6 +12103,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001116 "Asian Indian D
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001116 "Khatri Sikh Diabetes Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001116 "Asian Indian Diabetes Heart Study/Sikh Diabetes Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001116 "Asian Indian diabetic heart study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001116 "Sikh")
 AnnotationAssertion(rdfs:label coho:COHO_0001116 "Asian Indian Diabetic Heart Study/Sikh Diabetes Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001116)
 
@@ -16608,12 +16626,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001650 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001650 "Diet, Cancer and Health cohort"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001650)
 
-# Individual: coho:COHO_0001651 (IBD discovery case cohort)
+# Individual: coho:COHO_0001651 (obsolete IBD discovery case cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001651 "DC-IBD")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001651 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001651 "IBD discovery case cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001651)
+AnnotationAssertion(rdfs:comment coho:COHO_0001651 "Obsoleted 2026-09-27. DC-IBD is the label the early-onset inflammatory bowel disease GWAS of PMID:19915574 gives its own discovery case-control set, not a named study. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001651 "obsolete IBD discovery case cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001651 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001652 (Case-Control Study of Prostate Cancer among African Americans in Washington, DC)
 
@@ -17550,12 +17567,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001780 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001780 "Genome-wide scan for Parkinsons diseaseÌ¨ Initiative"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001780)
 
-# Individual: coho:COHO_0001781 (Johns Hopkins - Genetic STudy of Atherosclerosis Risk)
+# Individual: coho:COHO_0001781 (obsolete Johns Hopkins - Genetic STudy of Atherosclerosis Risk)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001781 "GeneSTAR_b")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001781 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001781 "Johns Hopkins - Genetic STudy of Atherosclerosis Risk"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001781)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001781 coho:COHO_0000455)
+AnnotationAssertion(rdfs:comment coho:COHO_0001781 "Obsoleted 2026-09-27. GeneSTAR_b is the PGS Catalog's second id for GeneSTAR, which its own acknowledgements name 'The Johns Hopkins Genetic Study of Atherosclerosis Risk (GeneSTAR)'. Replaced by COHO:0000455 (Genetic Study of Atherosclerosis Risk), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001781 "obsolete Johns Hopkins - Genetic STudy of Atherosclerosis Risk"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001781 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001782 (Genetic influences on severity of COVID-19 illness in Korea)
 
@@ -17748,6 +17765,9 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001808)
 # Individual: coho:COHO_0001809 (Glasgow Stroke Sample)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001809 "Glasgow")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001809 "GSICSS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001809 "Glasgow, Scotland ImmunoChip Study Samples")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001809 "Glasgow ImmunoChip Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001809 "Glasgow Stroke Sample"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001809)
 
@@ -17876,12 +17896,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001827 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001827 "Greek Recurrent Myocardial Infarction Cohort"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001827)
 
-# Individual: coho:COHO_0001828 (Glasgow, Scotland ImmunoChip Study Samples)
+# Individual: coho:COHO_0001828 (obsolete Glasgow, Scotland ImmunoChip Study Samples)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001828 "GSICSS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001828 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001828 "Glasgow, Scotland ImmunoChip Study Samples"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001828)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001828 coho:COHO_0001809)
+AnnotationAssertion(rdfs:comment coho:COHO_0001828 "Obsoleted 2026-09-27. GSICSS is the Stroke Genetics Network's Glasgow ImmunoChip Study (PMID:26708676), the Glasgow ischaemic stroke sample with the same cases and controls as the Glasgow Stroke Sample. Replaced by COHO:0001809 (Glasgow Stroke Sample), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001828 "obsolete Glasgow, Scotland ImmunoChip Study Samples"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001828 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001829 (Brain Genomics Superstruct Project)
 
@@ -17897,12 +17917,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001830 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001830 "Ghanaian TB study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001830)
 
-# Individual: coho:COHO_0001831 (Greek TJR cases)
+# Individual: coho:COHO_0001831 (obsolete Greek TJR cases)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001831 "GTJR")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001831 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001831 "Greek TJR cases"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001831)
+AnnotationAssertion(rdfs:comment coho:COHO_0001831 "Obsoleted 2026-09-27. Greek TJR cases is the label osteoarthritis consortium papers give a Greek joint-replacement case-control set used for replication (PMID:20112360, PMID:23989986), not a named study. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001831 "obsolete Greek TJR cases"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001831 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001832 (GWAS_UK2)
 
@@ -18447,12 +18466,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001907 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001907 "Indiana Genetics of Bone Fragility Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001907)
 
-# Individual: coho:COHO_0001908 (Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire)
+# Individual: coho:COHO_0001908 (obsolete Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001908 "IGE-PCV")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001908 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001908 "Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001908)
+AnnotationAssertion(rdfs:comment coho:COHO_0001908 "Obsoleted 2026-09-27. IGE-PCV is a research unit of INSERM and the Université de Lorraine in Nancy, with its biobank, which supplied two different samples to the VEGF GWAS of PMID:26910538: an institution, not a cohort. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001908 "obsolete Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001908 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001909 (obsolete International Hereditary Cancer Centre)
 
@@ -19299,12 +19317,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002027 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002027 "GWA Meta-Analysis on Fat Distribution"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002027)
 
-# Individual: coho:COHO_0002028 (Mexican-American families EBNA-1 GWAS)
+# Individual: coho:COHO_0002028 (obsolete Mexican-American families EBNA-1 GWAS)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002028 "MAFEGWAS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002028 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002028 "Mexican-American families EBNA-1 GWAS"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002028)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002028 coho:COHO_0000649)
+AnnotationAssertion(rdfs:comment coho:COHO_0002028 "Obsoleted 2026-09-27. MAFEGWAS is the Mexican American family EBNA-1 GWAS of the San Antonio Family Heart Study, replicated in the San Antonio Family Diabetes/Gallbladder Study: the two studies of the San Antonio Family Study. The Catalog's name describes that analysis and is not carried over. Replaced by COHO:0000649 (San Antonio Family Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002028 "obsolete Mexican-American families EBNA-1 GWAS"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002028 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002029 (Multicenter Asthma Genetics in Childhood Study)
 
@@ -20902,12 +20920,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002252 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002252 "PHArmacogenetic study of Statin in the Elderly at risk"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002252)
 
-# Individual: coho:COHO_0002253 (Mass General Brigham - Host Vulnerability to COVID-19)
+# Individual: coho:COHO_0002253 (obsolete Mass General Brigham - Host Vulnerability to COVID-19)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002253 "PHBB")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002253 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002253 "Mass General Brigham - Host Vulnerability to COVID-19"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002253)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002253 coho:COHO_0000383)
+AnnotationAssertion(rdfs:comment coho:COHO_0002253 "Obsoleted 2026-09-27. PHBB is the Mass General Brigham Biobank's contribution to the COVID-19 Host Genetics Initiative, drawn from the biobank's own participants (PMID:36013271). The Catalog's name is that of the COVID-19 analysis and is not carried over. Replaced by COHO:0000383 (Mass General Brigham Biobank), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002253 "obsolete Mass General Brigham - Host Vulnerability to COVID-19"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002253 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002254 (obsolete Pirkanmaa Hospital District)
 
@@ -21805,12 +21823,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0002379 "Shanghai Institute of Hypertension GWAS"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002379)
 
-# Individual: coho:COHO_0002380 (Sikh GWAS)
+# Individual: coho:COHO_0002380 (obsolete Sikh GWAS)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002380 "Sikh")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002380 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002380 "Sikh GWAS"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002380)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002380 coho:COHO_0001116)
+AnnotationAssertion(rdfs:comment coho:COHO_0002380 "Obsoleted 2026-09-27. Sikh GWAS is the Punjabi Sikh type 2 diabetes GWAS sample of PMID:23300278, drawn from the Asian Indian Diabetic Heart Study, which the paper says is also named the Sikh Diabetes Study. The Catalog's name describes that analysis and is not carried over. Replaced by COHO:0001116 (Asian Indian Diabetic Heart Study/Sikh Diabetes Study), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002380 "obsolete Sikh GWAS"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002380 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002381 (Silk Road)
 
@@ -21913,6 +21931,9 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002394)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002395 "SNP_Prostate_Ghent")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002395 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002395 "UGhent")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002395 "UGhent-PrCa")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002395 "RGC-UGhent cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002395 "SNP Prostate Ghent (Belgium)"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002395)
 
@@ -22566,12 +22587,12 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002487 "UFDI cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002487 "University of Florida Diabetes Institute Study Bank"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002487)
 
-# Individual: coho:COHO_0002488 (RGC-UGhent cohort)
+# Individual: coho:COHO_0002488 (obsolete RGC-UGhent cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002488 "UGhent")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002488 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002488 "RGC-UGhent cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002488)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002488 coho:COHO_0002395)
+AnnotationAssertion(rdfs:comment coho:COHO_0002488 "Obsoleted 2026-09-27. UGhent is the Radiogenomics Consortium's Ghent cohort of men treated with radiotherapy for prostate cancer at Ghent University Hospital (PMID:31095341), whose patients are the cases of the PRACTICAL study SNP_Prostate_Ghent. Replaced by COHO:0002395 (SNP Prostate Ghent (Belgium)), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002488 "obsolete RGC-UGhent cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002488 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002489 (Umea Genetics of Obesity)
 
@@ -22594,12 +22615,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002491 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002491 "UNAM/INCMNSZ Diabetes Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002491)
 
-# Individual: coho:COHO_0002492 (UK Type 2 Diabetes Genetics Consortium)
+# Individual: coho:COHO_0002492 (obsolete UK Type 2 Diabetes Genetics Consortium)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002492 "UK2_GCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002492 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002492 "UK Type 2 Diabetes Genetics Consortium"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002492)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002492 coho:COHO_0000082)
+AnnotationAssertion(rdfs:comment coho:COHO_0002492 "Obsoleted 2026-09-27. UK2 GCC is the UK Type 2 Diabetes Genetics Consortium collection, whose subjects all lived in Tayside, Scotland (PMID:17767157): the case-control collection of the Genetics of Diabetes Audit and Research in Tayside Scotland, funded by the same grant. Replaced by COHO:0000082 (Genetics of diabetes Audit and Research), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002492 "obsolete UK Type 2 Diabetes Genetics Consortium"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002492 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002493 (UK Asian Diabetes Study)
 
@@ -22857,12 +22878,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002529 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002529 "National Cancer Institue U.S. Kidney Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002529)
 
-# Individual: coho:COHO_0002530 (US PA GWAS dataset)
+# Individual: coho:COHO_0002530 (obsolete US PA GWAS dataset)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002530 "USPA")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002530 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002530 "US PA GWAS dataset"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002530)
+AnnotationAssertion(rdfs:comment coho:COHO_0002530 "Obsoleted 2026-09-27. US PA GWAS dataset is the label the aneurysm meta-GWAS of PMID:27899403 gives its US discovery dataset of Geisinger patients with MyCode controls, not a named study. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002530 "obsolete US PA GWAS dataset"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002530 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002531 (Utah Chronic Lymphocytic Leukemia Study)
 
@@ -22885,11 +22905,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002533 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002533 "The Utah Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002533)
 
-# Individual: coho:COHO_0002534 (UVRIGPC)
+# Individual: coho:COHO_0002534 (obsolete UVRIGPC)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002534 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002534 "UVRIGPC"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002534)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002534 coho:COHO_0000345)
+AnnotationAssertion(rdfs:comment coho:COHO_0002534 "Obsoleted 2026-09-27. UVRIGPC is the MRC/UVRI General Population Cohort of Kyamulibwa, Uganda, as the lipids consortium's study table lists it (PMID:24097068). Replaced by COHO:0000345 (Uganda General Population Cohort), which now carries this term's names. Found by a search for the cohorts behind placeholder names with no known paper, 2026-09-27."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002534 "obsolete UVRIGPC"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002534 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002535 (UWA, LEI & Flinders)
 
