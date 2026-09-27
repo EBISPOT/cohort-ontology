@@ -3239,6 +3239,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000038)
 # Individual: coho:COHO_0000039 (Cilento study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000039 "Cilento")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000039 "INGI-Cilento")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000039 "INGI_CILENTO")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000039 "Italian Network on Genetic Isolates-Cliento")
 AnnotationAssertion(rdfs:label coho:COHO_0000039 "Cilento study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000039)
 
@@ -3654,6 +3657,12 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000098)
 # Individual: coho:COHO_0000099 (Indiana Sisters Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000099 "ISS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000099 "IFS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana Fragility Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana_cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Indiana Sisters Osteoporosis Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000099 "Study of Indiana Women")
 AnnotationAssertion(rdfs:label coho:COHO_0000099 "Indiana Sisters Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000099)
 
@@ -3755,6 +3764,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000113)
 # Individual: coho:COHO_0000114 (Mexican Biobank)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000114 "MXBB")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000114 "MXB")
 AnnotationAssertion(rdfs:label coho:COHO_0000114 "Mexican Biobank"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000114)
 
@@ -3871,6 +3881,9 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000131 "MoBa")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000131 "The Norwegian Mother, Father and Child Cohort Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000131 "Norwegian Mother and Child Cohort Study (MoBa)")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000131 "NMFCC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000131 "Norwegian Mother, Father and Child Cohort Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000131 "Norwegian Mother, Father and Child Cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0000131 "Norwegian Mother and Child Cohort study"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000131 <https://www.fhi.no/en/studies/moba/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000131 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/MoBa")
@@ -4066,6 +4079,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000160)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000161 "TDS")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000161 "TWT2D")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000161 "Taiwan Type 2 Diabetes Consortium")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000161 "TGWAS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000161 "Taiwan Genome Wide Association Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000161 "Taiwan Type 2 Diabetes Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000161)
 
@@ -4091,6 +4106,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000164)
 # Individual: coho:COHO_0000165 (The Helmholtz-Gemeinschaft Deutscher Forschungszentren)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000165 "HGF")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000165 "HMGU")
 AnnotationAssertion(rdfs:label coho:COHO_0000165 "The Helmholtz-Gemeinschaft Deutscher Forschungszentren"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000165)
 
@@ -4123,6 +4139,10 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000169)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000170 "SMART")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000170 "The Secondary Manifestations of ARTerial disease study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000170 "UCC-SMART")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000170 "Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000170 "Second Manifestations of ARTerial disease")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000170 "UCC-SMART study")
 AnnotationAssertion(rdfs:label coho:COHO_0000170 "Second Manifestations of ARTerial disease study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000170)
 
@@ -6308,6 +6328,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "GeneSTAR famil
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Genetic Study of Aspirin Responsiveness")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Genetic STudy of Aspirin Responsiveness")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Genetic Studies of Atherosclerosis Risk")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000455 "JH-SFHS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000455 "Johns Hopkins Sibling and Family Heart Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000455 "Genetic Study of Atherosclerosis Risk"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000455)
 
@@ -6320,6 +6342,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Nurses Health 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Nurses' Health Study I")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "Harvard")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000456 "The acronym Harvard also denotes Mass General Brigham Biobank (COHO:0000383), Health Professionals Follow-up Study (COHO:0000527) and Nurses' Health Study II (COHO:0000619); this term is Nurses' Health Study."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000456 "NHS3")
 AnnotationAssertion(rdfs:label coho:COHO_0000456 "Nurses' Health Study"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000456 <https://www.nurseshealthstudy.org>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000456)
@@ -6535,6 +6558,8 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000480)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000481 "SP2")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000481 "Singapore Prospective Study Programme")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000481 "SCCS2")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000481 "Singapore Cardiovascular Cohort Study 2")
 AnnotationAssertion(rdfs:label coho:COHO_0000481 "Singapore Prospective Study Program"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000481)
 ObjectPropertyAssertion(Annotation(rdfs:comment "The MEC was formed by combining two existing cohorts: the Singapore Prospective Study Program (SP2) and the Singapore Cardiovascular Cohort Study (SCCS2).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7731378/fullTextXML") coho:isSubCohortOf coho:COHO_0000481 coho:COHO_0000612)
@@ -6582,6 +6607,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000486 "Korean Cancer 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000486 "KCPS-II Biobank")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000486 "Korean Cancer Prevention Study (KCPS-II Biobank)")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000486 "Korean Cancer Prevention Study-II (KCPS-II) Biobank")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000486 "KMSRI")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000486 "Korean Metabolic Syndrome Research Initiative")
 AnnotationAssertion(rdfs:label coho:COHO_0000486 "Korean Cancer Prevention Study-II Biobank"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000486)
 
@@ -6918,6 +6945,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000527 "Health Professional Follow-up Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000527 "Harvard")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000527 "The acronym Harvard also denotes Mass General Brigham Biobank (COHO:0000383), Nurses' Health Study (COHO:0000456) and Nurses' Health Study II (COHO:0000619); this term is Health Professionals Follow-up Study."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000527 "HPFS3")
 AnnotationAssertion(rdfs:label coho:COHO_0000527 "Health Professionals Follow-up Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000527)
 
@@ -6982,6 +7010,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000533 "The Tonhoku Medical Megabank Organisations")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000533 "Tohoku University, Tohoku Medical Megabank Organization")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000533 "Tohoku University Tohoku Medical Megabank Organization")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000533 "IMM")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000533 "Iwate Tohoku Medical Megabank")
 AnnotationAssertion(rdfs:label coho:COHO_0000533 "Tohoku Medical Megabank Project"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000533 <http://www.megabank.tohoku.ac.jp/english/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000533)
@@ -7813,6 +7843,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000625)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000626 "PHS")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000626 "Physicians Health Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000626 "NPHS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000626 "National Physicians Health Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000626 "National Physicians' Health Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000626 "Physicians' Health Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000626)
 
@@ -7838,6 +7871,10 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000628)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000629 "CAVAS")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000629 "KoGES_CAVAS")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000629 "KoGES_cardiovascular disease association study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000629 "Rural")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000629 "RURAL")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000629 "Rural cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000629 "RURAL cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000629 "Cardiovascular Disease Association Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000629)
 
@@ -8105,6 +8142,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000659)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000660 "SISTER")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000660 "The Sister Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000660 "Sister Study Cohort")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000660 "Sisters")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000660 "SIS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000660 "Sisters Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000660 "Sister Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000660)
 
@@ -8151,6 +8191,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000665 "ESTHER cohort"
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000665 "ESTHER/VERDI")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000665 "ESTHER II/VERDI")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000665 "SAAR")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000665 "ESTHER_VERDI")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000665 "Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten")
 AnnotationAssertion(rdfs:label coho:COHO_0000665 "Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000665)
 
@@ -8160,6 +8202,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000666 "Gothenburg H70 Birth Cohort Studies and Clinical AD")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000666 "Gothenburg H70 Birth Cohort studies and clinical AD samples from Sweden")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000666 "Gothenburg H70 Birth Cohort Studies and Clinical AD from Sweden")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000666 "TGS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000666 "The acronym TGS also denotes MrOS Gothenburg (COHO:0000892); this term is Gothenburg H70 Birth Cohort Studies and Clinical AD Sweden."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000666 "Gothenburg H70 Birth Cohort Studies and Clinical AD Sweden"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000666)
 
@@ -8385,6 +8429,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000692)
 # Individual: coho:COHO_0000693 (Selenium and Vitamin E Cancer Prevention Trial)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000693 "SELECT")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000693 "SWOG-SELECT")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000693 "Selenium and Vitmain E Cancer Prevention Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000693 "Selenium and Vitamin E Cancer Prevention Trial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000693)
 
@@ -8731,6 +8777,11 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000733)
 # Individual: coho:COHO_0000734 (Mexican Hypertriglyceride Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000734 "MHS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000734 "MHC")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000734 "MexHTG")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000734 "MexTG")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000734 "Mexican Hypertriglyceridemia cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000734 "Mexican hypertriglyceridemia")
 AnnotationAssertion(rdfs:label coho:COHO_0000734 "Mexican Hypertriglyceride Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000734)
 
@@ -8905,6 +8956,8 @@ ObjectPropertyAssertion(Annotation(rdfs:comment "Epidemiologic Architecture for 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000752 "ELLIPSE")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000752 "ELLIPSE Consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000752 "Elucidating Loci Involved in Prostate Cancer Susceptibility OncoArray Consortium")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000752 "OncoArray_Prostate")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000752 "OncoArray: Prostate Cancer")
 AnnotationAssertion(rdfs:label coho:COHO_0000752 "Elucidating Loci Involved in Prostate Cancer Susceptibility"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000752)
 
@@ -9157,6 +9210,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000780)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000781 "HERPACC")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000781 "HERPACC Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000781 "Nagoya")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000781 "Nagoya Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000781 "Hospital-based Epidemiologic Research Program at Aichi Cancer Center"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000781)
 
@@ -9432,6 +9487,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000813 "Association Study Evaluating Risk for Sporadic Colorectal Cancer")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000813 "French Association Study Evaluating RISK for sporadic colorectal cancer")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000813 "French Association STudy Evaluating RISK for sporadic colorectal cancer")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000813 "FRENCH")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000813 "French Case-Control Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000813 "Association STudy Evaluating RISK for sporadic colorectal cancer"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000813)
 
@@ -9478,6 +9535,9 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000818 "ProGene")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000818 "CerePP French Prostate Cancer Case-Control Study (ProGene)")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000818 "French Prostate Case–Control Study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000818 "FPCC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000818 "CeRePP French Prostate Case-Control Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000818 "French Center for Research on Prostate Diseases")
 AnnotationAssertion(rdfs:label coho:COHO_0000818 "French Prostate Cancer Case-Control Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000818)
 
@@ -9968,6 +10028,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000874 "MD Anderson Cancer Center Lung Cancer Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000874 "Texas")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000874 "Texas-GWA study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000874 "MDACCS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000874 "The acronym MDACCS also denotes MD Anderson Cancer Center melanoma study (COHO:0000875), Prostate Cancer Case-Control Studies at MD Anderson (COHO:0002044), MD Anderson Ovarian Cancer Study (COHO:0002047) and MD Anderson Renal Cell Cancer Study (COHO:0002048); this term is MD Anderson Cancer Center lung cancer study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000874 "MD Anderson Cancer Center lung cancer study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000874)
 
@@ -9977,6 +10039,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000875 "MD Anderson Cancer Center Study")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The name MD Anderson Cancer Center Study also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874); this term is MD Anderson Cancer Center melanoma study."@en)
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The acronym MDACC also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874); this term is MD Anderson Cancer Center melanoma study."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000875 "MDACCS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000875 "The acronym MDACCS also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874), Prostate Cancer Case-Control Studies at MD Anderson (COHO:0002044), MD Anderson Ovarian Cancer Study (COHO:0002047) and MD Anderson Renal Cell Cancer Study (COHO:0002048); this term is MD Anderson Cancer Center melanoma study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000875 "MD Anderson Cancer Center melanoma study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000875)
 
@@ -10112,6 +10176,8 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000891)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000892 "MrOS")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000892 "The acronym MrOS also denotes Osteoporotic Fractures in Men Study (COHO:0000549); this term is MrOS Gothenburg."@en)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000892 "TGS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000892 "The acronym TGS also denotes Gothenburg H70 Birth Cohort Studies and Clinical AD Sweden (COHO:0000666); this term is MrOS Gothenburg."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000892 "MrOS Gothenburg"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000892)
 ObjectPropertyAssertion(Annotation(rdfs:comment "which consists of three sub-cohorts from three different Swedish cities (n = 1005 in Malmö, n = 1010 in Gothenburg, and n = 999 in Uppsala).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3390364/fullTextXML") coho:isSubCohortOf coho:COHO_0000892 coho:COHO_0000835)
@@ -10485,6 +10551,8 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000936 "SLRI/Toronto")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000936 "Samuel Lunenfeld Research Institute lung cancer study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000936 "Toronto lung cancer study")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000936 "LCSC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000936 "Lung Cancer Study from Canada")
 AnnotationAssertion(rdfs:label coho:COHO_0000936 "Samuel Lunenfeld Research Institute Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000936)
 
@@ -12376,6 +12444,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001161 "National Insti
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001161 "Long-term Study-1")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001161 "Long-term Study 1")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001161 "NET-PD Long term Study-1")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001161 "NET-PD")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001161 "Neuroprotection Exploratory Trials in Parkinson's disease")
 AnnotationAssertion(rdfs:label coho:COHO_0001161 "National Institute of Neurological Disorders and Stroke Exploratory Trials in Parkinson's Disease Long-Term Study-1"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001161)
 
@@ -14534,6 +14604,8 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0001419)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001420 "The \"European NAFLD Registry\" Metacohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001420 "LITMUS metacohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001420 "The European NAFLD Registry-Metacohort")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001420 "EPOS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001420 "EPoS Consortium")
 AnnotationAssertion(rdfs:label coho:COHO_0001420 "LITMUS Metacohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001420)
 
@@ -15610,6 +15682,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001547 "Belgian Case C
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001547 "Belgian case-control study on bladder cancer")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001547 "Belgian case control study on bladder cancer")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001547 "Belgian case control study on bladder cancer risk")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001547 "LIKAR")
 AnnotationAssertion(rdfs:label coho:COHO_0001547 "Belgian case-control study on bladder cancer risk"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001547)
 
@@ -16592,13 +16665,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001661 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001661 "Dutch Familial Colorectal Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001661)
 
-# Individual: coho:COHO_0001662 (Harvard Breast Cancer SPORE Blood Repository)
+# Individual: coho:COHO_0001662 (obsolete Harvard Breast Cancer SPORE Blood Repository)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001662 "DFCI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001662 obo:IAO_0000124)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001662 "The acronym DFCI also denotes Gastrointestinal Cancer Clinic of Dana-Farber Cancer Institute Study (COHO:0001663); this term is Harvard Breast Cancer SPORE Blood Repository."@en)
-AnnotationAssertion(rdfs:label coho:COHO_0001662 "Harvard Breast Cancer SPORE Blood Repository"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001662)
+AnnotationAssertion(rdfs:comment coho:COHO_0001662 "Obsoleted 2026-09-27. In every paper the PGS Catalog records the id DFCI in, it is the Dana-Farber Cancer Institute's centre in CIMBA, BRCA1 and BRCA2 carriers that CIMBA's study list names only after the institution (PMID:28346442); the carriers are covered by CIMBA (COHO:0000901). The Catalog's name, Harvard Breast Cancer SPORE Blood Repository, appears in none of the papers. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001662 "obsolete Harvard Breast Cancer SPORE Blood Repository"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001662 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001663 (Gastrointestinal Cancer Clinic of Dana-Farber Cancer Institute Study)
 
@@ -16606,7 +16677,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001663 "DFCI")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001663 "Dana-Farber Cancer Institute - Gastrointestinal Cancer Clinic")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001663 "Gastrointestinal Cancer Clinic of Dana-Farber Cancer Institute")
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001663 "The acronym DFCI also denotes Harvard Breast Cancer SPORE Blood Repository (COHO:0001662); this term is Gastrointestinal Cancer Clinic of Dana-Farber Cancer Institute Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0001663 "Gastrointestinal Cancer Clinic of Dana-Farber Cancer Institute Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001663)
 
@@ -16663,12 +16733,11 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001668 "Drug Induced L
 AnnotationAssertion(rdfs:label coho:COHO_0001668 "Drug-Induced Liver Injury Network Prospective Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001668)
 
-# Individual: coho:COHO_0001669 (Deutsches Krebsforschungszentrum (German Cancer Research Center))
+# Individual: coho:COHO_0001669 (obsolete Deutsches Krebsforschungszentrum (German Cancer Research Center))
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001669 "DKFZ")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001669 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001669 "Deutsches Krebsforschungszentrum (German Cancer Research Center)"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001669)
+AnnotationAssertion(rdfs:comment coho:COHO_0001669 "Obsoleted 2026-09-27. In every paper the PGS Catalog records the id DKFZ in, it is the German Cancer Research Center's centre in CIMBA, BRCA1 and BRCA2 carriers that CIMBA's study list names only after the institution (PMID:28346442); the carriers are covered by CIMBA (COHO:0000901). Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001669 "obsolete Deutsches Krebsforschungszentrum (German Cancer Research Center)"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001669 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001670 (Danish Longevity Study)
 
@@ -16894,12 +16963,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001700 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001700 "EPIPARK"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001700)
 
-# Individual: coho:COHO_0001701 (European Prospective Osteoporosis Study)
+# Individual: coho:COHO_0001701 (obsolete European Prospective Osteoporosis Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001701 "EPOS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001701 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001701 "European Prospective Osteoporosis Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001701)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001701 coho:COHO_0001420)
+AnnotationAssertion(rdfs:comment coho:COHO_0001701 "Obsoleted 2026-09-27. In the only paper the PGS Catalog records the id EPOS in (PMID:35654975), it is the EPoS Consortium's liver-biopsy cohort from the European NAFLD Registry, not an osteoporosis study. The Catalog's expansion, European Prospective Osteoporosis Study, is wrong and is not carried over. Replaced by COHO:0001420 (LITMUS Metacohort), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001701 "obsolete European Prospective Osteoporosis Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001701 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001702 (Epidemiologisch Preventief Onderzoek Zoetermeer)
 
@@ -16950,12 +17019,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001708 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001708 "Essen Obesity Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001708)
 
-# Individual: coho:COHO_0001709 (Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten)
+# Individual: coho:COHO_0001709 (obsolete Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001709 "ESTHER_VERDI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001709 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001709 "Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001709)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001709 coho:COHO_0000665)
+AnnotationAssertion(rdfs:comment coho:COHO_0001709 "Obsoleted 2026-09-27. ESTHER_VERDI is the GECCO colorectal cancer study ESTHER/VERDI (PMID:38561434), which COHO holds on the ESTHER term with the synonyms ESTHER/VERDI and ESTHER II/VERDI. Replaced by COHO:0000665 (Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001709 "obsolete Epidemiologische Studie zu Chancen der Verhütung, Früherkennung und optimierten Therapie chronischer Erkrankungen in der älteren Bevölkerung; Verlauf der diagnotischen Abklärung bei Krebspatienten"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001709 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001710 (Edinburgh Type 2 Diabetes Study)
 
@@ -17172,12 +17241,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001739 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001739 "FOURIER"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001739)
 
-# Individual: coho:COHO_0001740 (CeRePP French Prostate Case-Control Study)
+# Individual: coho:COHO_0001740 (obsolete CeRePP French Prostate Case-Control Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001740 "FPCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001740 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001740 "CeRePP French Prostate Case-Control Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001740)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001740 coho:COHO_0000818)
+AnnotationAssertion(rdfs:comment coho:COHO_0001740 "Obsoleted 2026-09-27. FPCC is the French Prostate Case-Control Study, CeRePP (PMID:22271044), whose collection also supplied the bladder cancer cases of the GWAS the PGS Catalog records the id in (PMID:24163127). Replaced by COHO:0000818 (French Prostate Cancer Case-Control Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001740 "obsolete CeRePP French Prostate Case-Control Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001740 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001741 (Fundación Pública Galega de Medicina Xenómica)
 
@@ -17186,12 +17255,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001741 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001741 "Fundación Pública Galega de Medicina Xenómica"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001741)
 
-# Individual: coho:COHO_0001742 (French Case-Control Study)
+# Individual: coho:COHO_0001742 (obsolete French Case-Control Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001742 "FRENCH")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001742 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001742 "French Case-Control Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001742)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001742 coho:COHO_0000813)
+AnnotationAssertion(rdfs:comment coho:COHO_0001742 "Obsoleted 2026-09-27. FRENCH is the PGS Catalog id, from the GECCO meta-analysis of PMID:21761138, for the French colorectal cancer case-control study that GECCO's later papers call ASTERISK. Replaced by COHO:0000813 (Association STudy Evaluating RISK for sporadic colorectal cancer), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001742 "obsolete French Case-Control Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001742 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001743 (FRISCII)
 
@@ -17532,11 +17601,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001790 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001790 "Genomics Research in Cardiovascular Disease"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001790)
 
-# Individual: coho:COHO_0001791 (GENYO)
+# Individual: coho:COHO_0001791 (obsolete GENYO)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001791 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001791 "GENYO"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001791)
+AnnotationAssertion(rdfs:comment coho:COHO_0001791 "Obsoleted 2026-09-27. GENYO is a research centre in Spain, one of the recruiting institutions of the lupus association study the PGS Catalog records the id in (PMID:24163247), not a named sample. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001791 "obsolete GENYO"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001791 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001792 (obsolete Georgetown)
 
@@ -17548,6 +17617,9 @@ AnnotationAssertion(owl:deprecated coho:COHO_0001792 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001793 "GEP")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001793 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001793 "MEEI")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001793 "Massachussetts Eye and Ear Infirmary")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001793 "Massachusetts Eye and Ear Infirmary")
 AnnotationAssertion(rdfs:label coho:COHO_0001793 "Genetic Etiologies of Primary-Open angle Glaucoma Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001793)
 
@@ -18055,11 +18127,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001866 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001866 "Hannover-Minsk Breast Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001866)
 
-# Individual: coho:COHO_0001867 (HMGU)
+# Individual: coho:COHO_0001867 (obsolete HMGU)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001867 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001867 "HMGU"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001867)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001867 coho:COHO_0000165)
+AnnotationAssertion(rdfs:comment coho:COHO_0001867 "Obsoleted 2026-09-27. HMGU is the German lung cancer case-control GWAS sample of the International Lung Cancer Consortium, with LUCY and Heidelberg cases and KORA controls (PMID:25644374), which COHO holds as COHO:0000165. Replaced by COHO:0000165 (The Helmholtz-Gemeinschaft Deutscher Forschungszentren), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001867 "obsolete HMGU"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001867 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001868 (Hannover-Minsk Ovarian Cancer Study)
 
@@ -18099,12 +18172,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001872 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001872 "Hormones and Ovarian Cancer Prediction Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001872)
 
-# Individual: coho:COHO_0001873 (Prospective cohort of men (USA))
+# Individual: coho:COHO_0001873 (obsolete Prospective cohort of men (USA))
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001873 "HPFS3")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001873 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001873 "Prospective cohort of men (USA)"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001873)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001873 coho:COHO_0000527)
+AnnotationAssertion(rdfs:comment coho:COHO_0001873 "Obsoleted 2026-09-27. HPFS3 is the third Health Professionals Follow-up Study case-control set of the colorectal cancer GWAS of PMID:29917119, beside NHS3. The Catalog's name for it, Prospective cohort of men (USA), is generic and is not carried over. Replaced by COHO:0000527 (Health Professionals Follow-up Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001873 "obsolete Prospective cohort of men (USA)"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001873 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001874 (Helsinki Sudden Death Study/Tampere Coronary Study)
 
@@ -18322,12 +18395,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001904 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001904 "Icelandic ECG study sample"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001904)
 
-# Individual: coho:COHO_0001905 (Irish Family Study)
+# Individual: coho:COHO_0001905 (obsolete Irish Family Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001905 "IFS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001905 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001905 "Irish Family Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001905)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001905 coho:COHO_0000099)
+AnnotationAssertion(rdfs:comment coho:COHO_0001905 "Obsoleted 2026-09-27. IFS is the Indiana Fragility Study (PMID:24064335), premenopausal white sister pairs from Indiana: the sample COHO holds as the Indiana Sisters Study. The Catalog's name for it, Irish Family Study, is wrong and is not carried over. Replaced by COHO:0000099 (Indiana Sisters Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001905 "obsolete Irish Family Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001905 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001906 (Italian Cohort Naïve Antiretrovirals)
 
@@ -18359,13 +18432,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001908 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001908 "Interaction Gåne-Environment en Physiopathologie Cardio-Vasculaire"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001908)
 
-# Individual: coho:COHO_0001909 (International Hereditary Cancer Centre)
+# Individual: coho:COHO_0001909 (obsolete International Hereditary Cancer Centre)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001909 "IHCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001909 obo:IAO_0000124)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001909 "The acronym IHCC also denotes International Health Cohorts Consortium (COHO:0002701); this term is International Hereditary Cancer Centre."@en)
-AnnotationAssertion(rdfs:label coho:COHO_0001909 "International Hereditary Cancer Centre"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001909)
+AnnotationAssertion(rdfs:comment coho:COHO_0001909 "Obsoleted 2026-09-27. The International Hereditary Cancer Centre of the Pomeranian Medical University, Szczecin, is an institution. In every paper the PGS Catalog records the id IHCC in, it labels the centre's contribution of BRCA1 and BRCA2 carriers or cancer cases to consortium analyses such as CIMBA (PMID:29058716), with no study name of its own. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001909 "obsolete International Hereditary Cancer Centre"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001909 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001910 (Intern Health Study)
 
@@ -18388,12 +18459,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0001912 "Obsoleted 2026-09-24. Checke
 AnnotationAssertion(rdfs:label coho:COHO_0001912 "obsolete Infanta Leonor University Hospital (Madrid, Spain)"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0001912 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001913 (Iwate Tohoku Medical Megabank)
+# Individual: coho:COHO_0001913 (obsolete Iwate Tohoku Medical Megabank)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001913 "IMM")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001913 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001913 "Iwate Tohoku Medical Megabank"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001913)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001913 coho:COHO_0000533)
+AnnotationAssertion(rdfs:comment coho:COHO_0001913 "Obsoleted 2026-09-27. IMM labels the Tohoku Medical Megabank cohort data (the Community-Based Cohort and the Birth and Three-Generation Cohort) analysed by the Iwate group in the papers the PGS Catalog records the id in (PMID:39174808, PMID:40695273). Replaced by COHO:0000533 (Tohoku Medical Megabank Project), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001913 "obsolete Iwate Tohoku Medical Megabank"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001913 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001914 (IMPROVE)
 
@@ -18423,12 +18494,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0001917 "Obsoleted 2026-09-24. INCa i
 AnnotationAssertion(rdfs:label coho:COHO_0001917 "obsolete French National Cancer Institute"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0001917 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001918 (Indiana cohort)
+# Individual: coho:COHO_0001918 (obsolete Indiana cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001918 "Indiana_cohort")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001918 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001918 "Indiana cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001918)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001918 coho:COHO_0000099)
+AnnotationAssertion(rdfs:comment coho:COHO_0001918 "Obsoleted 2026-09-27. Indiana cohort is how multi-cohort GWAS (PMID:20541252, PMID:28724990) name the Indiana University sample of premenopausal sister pairs, the Indiana Sisters Study. Replaced by COHO:0000099 (Indiana Sisters Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001918 "obsolete Indiana cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001918 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001919 (Indian Diabetes Consortium)
 
@@ -18444,12 +18515,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001920 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001920 "Industrial Cohorts Research Group"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001920)
 
-# Individual: coho:COHO_0001921 (Italian Network on Genetic Isolates-Cliento)
+# Individual: coho:COHO_0001921 (obsolete Italian Network on Genetic Isolates-Cliento)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001921 "INGI-Cilento")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001921 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001921 "Italian Network on Genetic Isolates-Cliento"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001921)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001921 coho:COHO_0000039)
+AnnotationAssertion(rdfs:comment coho:COHO_0001921 "Obsoleted 2026-09-27. INGI-Cilento is the Cilento isolates study of the Italian Network on Genetic Isolates (PMID:22479191, PMID:25811787). Replaced by COHO:0000039 (Cilento study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001921 "obsolete Italian Network on Genetic Isolates-Cliento"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001921 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001922 (International Head and Neck Cancer Epidemiology Consortium)
 
@@ -18628,12 +18699,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0001945 "Obsoleted 2026-09-24. Johns 
 AnnotationAssertion(rdfs:label coho:COHO_0001945 "obsolete Johns Hopkins Hospital"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0001945 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001946 (Johns Hopkins Sibling and Family Heart Study)
+# Individual: coho:COHO_0001946 (obsolete Johns Hopkins Sibling and Family Heart Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001946 "JH-SFHS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001946 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001946 "Johns Hopkins Sibling and Family Heart Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001946)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001946 coho:COHO_0000455)
+AnnotationAssertion(rdfs:comment coho:COHO_0001946 "Obsoleted 2026-09-27. The Johns Hopkins Sibling and Family Heart Study is the former name of GeneSTAR: 'The study was originally known as the Johns Hopkins Sibling and Family Heart Study, and was more recently renamed GeneSTAR' (PMID:21785111). Replaced by COHO:0000455 (Genetic Study of Atherosclerosis Risk), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001946 "obsolete Johns Hopkins Sibling and Family Heart Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001946 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001947 (Johns Hopkins University School of Medicine Atrial Fibrillation Genetics Study)
 
@@ -18680,12 +18751,11 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001952 "Joint Malaria 
 AnnotationAssertion(rdfs:label coho:COHO_0001952 "Human genetic determinants of severe malaria in North East Tanzania"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001952)
 
-# Individual: coho:COHO_0001953 (Kanagawa Cancer Center)
+# Individual: coho:COHO_0001953 (obsolete Kanagawa Cancer Center)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001953 "Kanagawa")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001953 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001953 "Kanagawa Cancer Center"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001953)
+AnnotationAssertion(rdfs:comment coho:COHO_0001953 "Obsoleted 2026-09-27. Kanagawa Cancer Center is a cancer hospital in Yokohama. In the genetic papers that use its samples it is one of several hospital sources of lung adenocarcinoma cases (PMID:37236969), with no study name of its own, and no score in the PGS Catalog uses the id. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001953 "obsolete Kanagawa Cancer Center"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001953 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001954 (Karelia Allergy Study)
 
@@ -18779,19 +18849,18 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0001966 "Kentucky Lung Cancer Research Initiative"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001966)
 
-# Individual: coho:COHO_0001967 (Korean Metabolic Syndrome Research Initiative)
+# Individual: coho:COHO_0001967 (obsolete Korean Metabolic Syndrome Research Initiative)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001967 "KMSRI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001967 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001967 "Korean Metabolic Syndrome Research Initiative"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001967)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001967 coho:COHO_0000486)
+AnnotationAssertion(rdfs:comment coho:COHO_0001967 "Obsoleted 2026-09-27. The Korean Metabolic Syndrome Research Initiative is the programme under which the Korean Cancer Prevention Study-II Biobank recruited its health examinees; papers use the two names for the same people (PMID:25113383, PMID:27632197). Replaced by COHO:0000486 (Korean Cancer Prevention Study-II Biobank), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001967 "obsolete Korean Metabolic Syndrome Research Initiative"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001967 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0001968 (Korean National Health Insurance)
+# Individual: coho:COHO_0001968 (obsolete Korean National Health Insurance)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001968 "KNHI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001968 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001968 "Korean National Health Insurance"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001968)
+AnnotationAssertion(rdfs:comment coho:COHO_0001968 "Obsoleted 2026-09-27. Korean National Health Insurance is South Korea's national health insurance programme and its claims database, a data source used by many unrelated studies, not a study sample; no score in the PGS Catalog uses the id. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001968 "obsolete Korean National Health Insurance"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001968 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001969 (Human genetic determinants of severe malaria in Kumasi, Ghana)
 
@@ -18958,12 +19027,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001992 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001992 "LCRI-DOD"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001992)
 
-# Individual: coho:COHO_0001993 (Lung Cancer Study from Canada)
+# Individual: coho:COHO_0001993 (obsolete Lung Cancer Study from Canada)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001993 "LCSC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001993 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001993 "Lung Cancer Study from Canada"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001993)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0001993 coho:COHO_0000936)
+AnnotationAssertion(rdfs:comment coho:COHO_0001993 "Obsoleted 2026-09-27. LCSC is the lung cancer study from Canada of the Lunenfeld-Tanenbaum Research Institute and the University of Toronto (PMID:26363033), the Toronto lung cancer GWAS COHO holds as COHO:0000936. Replaced by COHO:0000936 (Samuel Lunenfeld Research Institute Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001993 "obsolete Lung Cancer Study from Canada"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001993 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0001994 (Lung Cancer Study from Estonia)
 
@@ -19003,12 +19072,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001998 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0001998 "Lung Health Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001998)
 
-# Individual: coho:COHO_0001999 (London Health Sciences Center)
+# Individual: coho:COHO_0001999 (obsolete London Health Sciences Center)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001999 "LHSC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0001999 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0001999 "London Health Sciences Center"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0001999)
+AnnotationAssertion(rdfs:comment coho:COHO_0001999 "Obsoleted 2026-09-27. The London Health Sciences Centre, London, Ontario, is one of the two hospitals that supplied Canadian hypertrophic cardiomyopathy cases to the GWAS the PGS Catalog records the id in (PMID:33495596), with no study of its own. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0001999 "obsolete London Health Sciences Center"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0001999 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002000 (Long Island Breast Cancer Study Project)
 
@@ -19030,12 +19098,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002002 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002002 "LifeGen consortium"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002002)
 
-# Individual: coho:COHO_0002003 (Limburg Cancer Registry)
+# Individual: coho:COHO_0002003 (obsolete Limburg Cancer Registry)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002003 "LIKAR")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002003 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002003 "Limburg Cancer Registry"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002003)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002003 coho:COHO_0001547)
+AnnotationAssertion(rdfs:comment coho:COHO_0002003 "Obsoleted 2026-09-27. LIKAR is the Limburg Cancer Registry of Belgium, which is not a study; its only genetic use is as the source of the cases of the Belgian case-control study on bladder cancer risk (PMID:21750109), so the id goes on that study and the registry's name is not carried over. Replaced by COHO:0001547 (Belgian case-control study on bladder cancer risk), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002003 "obsolete Limburg Cancer Registry"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002003 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002004 (Linz Peripheral Arterial Disease study)
 
@@ -19226,15 +19294,21 @@ AnnotationAssertion(owl:deprecated coho:COHO_0002030 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002031 "MALOVA")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002031 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002031 "MaOCS")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002031 "MAL")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002031 "Malignant Ovarian Cancer Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002031 "MALignant OVArian cancer study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002031 "Danish MALOVA study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002031 "Danish MALOVA ovarian cancer study")
 AnnotationAssertion(rdfs:label coho:COHO_0002031 "Danish Malignant Ovarian Tumor Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002031)
 
-# Individual: coho:COHO_0002032 (Malignant Ovarian Cancer Study)
+# Individual: coho:COHO_0002032 (obsolete Malignant Ovarian Cancer Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002032 "MaOCS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002032 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002032 "Malignant Ovarian Cancer Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002032)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002032 coho:COHO_0002031)
+AnnotationAssertion(rdfs:comment coho:COHO_0002032 "Obsoleted 2026-09-27. MaOCS, the Malignant Ovarian Cancer Study, is the Danish MALOVA study, as the Ovarian Cancer Association Consortium's study tables expand it (PMID:23339562). Replaced by COHO:0002031 (Danish Malignant Ovarian Tumor Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002032 "obsolete Malignant Ovarian Cancer Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002032 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002033 (Sydney Memory and Ageing Study)
 
@@ -19326,15 +19400,16 @@ AnnotationAssertion(owl:deprecated coho:COHO_0002043 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002044 "MDA")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002044 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002044 "MDACCS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002044 "The acronym MDACCS also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874), MD Anderson Cancer Center melanoma study (COHO:0000875), MD Anderson Ovarian Cancer Study (COHO:0002047) and MD Anderson Renal Cell Cancer Study (COHO:0002048); this term is Prostate Cancer Case-Control Studies at MD Anderson."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002044 "Prostate Cancer Case-Control Studies at MD Anderson"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002044)
 
-# Individual: coho:COHO_0002045 (MD Anderson Cancer Center Study)
+# Individual: coho:COHO_0002045 (obsolete MD Anderson Cancer Center Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002045 "MDACCS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002045 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002045 "MD Anderson Cancer Center Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002045)
+AnnotationAssertion(rdfs:comment coho:COHO_0002045 "Obsoleted 2026-09-27. The PGS Catalog id MDACCS (MD Anderson Cancer Center Study) stands for a different MD Anderson study in each GWAS it is recorded in: the lung cancer study (COHO:0000874), the melanoma study (COHO:0000875), the ovarian, prostate and renal cell cancer studies (COHO:0002047, COHO:0002044, COHO:0002048), and pancreatic cancer, glioma and colorectal cancer series COHO does not have. It is not one cohort; the id is an acronym of each of those terms. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002045 "obsolete MD Anderson Cancer Center Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002045 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002046 (MD Anderson lymphoma case-control study)
 
@@ -19347,6 +19422,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002046)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002047 "MDAOCS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002047 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002047 "MDACCS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002047 "The acronym MDACCS also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874), MD Anderson Cancer Center melanoma study (COHO:0000875), Prostate Cancer Case-Control Studies at MD Anderson (COHO:0002044) and MD Anderson Renal Cell Cancer Study (COHO:0002048); this term is MD Anderson Ovarian Cancer Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002047 "MD Anderson Ovarian Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002047)
 
@@ -19354,6 +19431,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002047)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002048 "MDARCCS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002048 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002048 "MDACCS")
+AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002048 "The acronym MDACCS also denotes MD Anderson Cancer Center lung cancer study (COHO:0000874), MD Anderson Cancer Center melanoma study (COHO:0000875), Prostate Cancer Case-Control Studies at MD Anderson (COHO:0002044) and MD Anderson Ovarian Cancer Study (COHO:0002047); this term is MD Anderson Renal Cell Cancer Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002048 "MD Anderson Renal Cell Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002048)
 
@@ -19384,12 +19463,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002052 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002052 "MEta-analysis of type 2 DIabetes in African Americans consortium"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002052)
 
-# Individual: coho:COHO_0002053 (Massachussetts Eye and Ear Infirmary)
+# Individual: coho:COHO_0002053 (obsolete Massachussetts Eye and Ear Infirmary)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002053 "MEEI")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002053 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002053 "Massachussetts Eye and Ear Infirmary"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002053)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002053 coho:COHO_0001793)
+AnnotationAssertion(rdfs:comment coho:COHO_0002053 "Obsoleted 2026-09-27. In NEIGHBORHOOD (PMID:26752265) the MEEI dataset is the Genetic Etiologies of POAG project based at the Massachusetts Eye and Ear Infirmary, one of the three GLAUGEN studies. Replaced by COHO:0001793 (Genetic Etiologies of Primary-Open angle Glaucoma Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002053 "obsolete Massachussetts Eye and Ear Infirmary"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002053 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002054 (Melbourne Epidemiological Study of Childhood Asthma)
 
@@ -19480,12 +19559,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002065 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002065 "Molecular Genetics of Schizophrenia - nonGAIN Sample"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002065)
 
-# Individual: coho:COHO_0002066 (Mexican Hypertriglyceridemia cohort)
+# Individual: coho:COHO_0002066 (obsolete Mexican Hypertriglyceridemia cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002066 "MHC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002066 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002066 "Mexican Hypertriglyceridemia cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002066)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002066 coho:COHO_0000734)
+AnnotationAssertion(rdfs:comment coho:COHO_0002066 "Obsoleted 2026-09-27. MHC is the Mexican Hypertriglyceridemia study (MexHTG) of the BMI GWAS of PMID:40691366, funded by the grant of the Mexican Hypertriglyceride Study (HL-095056). Replaced by COHO:0000734 (Mexican Hypertriglyceride Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002066 "obsolete Mexican Hypertriglyceridemia cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002066 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002067 (obsolete The University of Miami – Sylvester Comprehensive Cancer Center)
 
@@ -19569,15 +19648,17 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002076)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002077 "MOFFITT")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002077 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002077 "MOFFITT_PC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002077 "Moffitt Prostate Cancer Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002077 "The Moffitt Group"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002077)
 
-# Individual: coho:COHO_0002078 (Moffitt Prostate Cancer Study)
+# Individual: coho:COHO_0002078 (obsolete Moffitt Prostate Cancer Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002078 "MOFFITT_PC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002078 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002078 "Moffitt Prostate Cancer Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002078)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002078 coho:COHO_0002077)
+AnnotationAssertion(rdfs:comment coho:COHO_0002078 "Obsoleted 2026-09-27. MOFFITT_PC is the Moffitt Prostate Cancer Study (PMID:29892016), the study the Moffitt group's papers call MOFFITT. Replaced by COHO:0002077 (The Moffitt Group), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002078 "obsolete Moffitt Prostate Cancer Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002078 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002079 (Mammography, Oestrogens and Growth factor study)
 
@@ -19732,11 +19813,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002100 "Obsoleted 2026-09-24. MUV is
 AnnotationAssertion(rdfs:label coho:COHO_0002100 "obsolete Medical University of Vienna"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002100 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002101 (MXB)
+# Individual: coho:COHO_0002101 (obsolete MXB)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002101 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002101 "MXB"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002101)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002101 coho:COHO_0000114)
+AnnotationAssertion(rdfs:comment coho:COHO_0002101 "Obsoleted 2026-09-27. MXB is the Mexican Biobank (MXBB), the training sample of the PGS Catalog score it is recorded in (PMID:37148359). Replaced by COHO:0000114 (Mexican Biobank), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002101 "obsolete MXB"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002101 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002102 (The Myopia Genomics Study)
 
@@ -19787,12 +19869,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002108 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002108 "Nicotine Addiction Genetics study / Interactive Research Project Grants"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002108)
 
-# Individual: coho:COHO_0002109 (Nagoya Study)
+# Individual: coho:COHO_0002109 (obsolete Nagoya Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002109 "Nagoya")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002109 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002109 "Nagoya Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002109)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002109 coho:COHO_0000781)
+AnnotationAssertion(rdfs:comment coho:COHO_0002109 "Obsoleted 2026-09-27. The Nagoya Study of the Asia Breast Cancer Consortium GWAS is the Hospital-based Epidemiologic Research Program at Aichi Cancer Center, HERPACC-II (PMID:25038754). Replaced by COHO:0000781 (Hospital-based Epidemiologic Research Program at Aichi Cancer Center), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002109 "obsolete Nagoya Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002109 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002110 (Norwegian Addison Registry)
 
@@ -19981,12 +20063,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002135 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002135 "Netherlands Ovarian Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002135)
 
-# Individual: coho:COHO_0002136 (Neuroprotection Exploratory Trials in Parkinson's disease)
+# Individual: coho:COHO_0002136 (obsolete Neuroprotection Exploratory Trials in Parkinson's disease)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002136 "NET-PD")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002136 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002136 "Neuroprotection Exploratory Trials in Parkinson's disease"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002136)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002136 coho:COHO_0001161)
+AnnotationAssertion(rdfs:comment coho:COHO_0002136 "Obsoleted 2026-09-27. In the only paper the PGS Catalog records the id in (PMID:33958783), NET-PD is the NET-PD Long-term Study-1. Replaced by COHO:0001161 (National Institute of Neurological Disorders and Stroke Exploratory Trials in Parkinson's Disease Long-Term Study-1), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002136 "obsolete Neuroprotection Exploratory Trials in Parkinson's disease"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002136 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002137 (National Emphysema Treatment Trial)
 
@@ -20022,12 +20104,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002141 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002141 "Australian NHMRC program"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002141)
 
-# Individual: coho:COHO_0002142 (Nurses Health Study III)
+# Individual: coho:COHO_0002142 (obsolete Nurses Health Study III)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002142 "NHS3")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002142 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002142 "Nurses Health Study III"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002142)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002142 coho:COHO_0000456)
+AnnotationAssertion(rdfs:comment coho:COHO_0002142 "Obsoleted 2026-09-27. NHS3 is the third Nurses' Health Study case-control set of the colorectal cancer GWAS of PMID:29917119, beside HPFS3, not the Nurses' Health Study 3 cohort begun in 2010, which could not have supplied its cases. The Catalog's name for it, Nurses Health Study III, names that other cohort and is not carried over. Replaced by COHO:0000456 (Nurses' Health Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002142 "obsolete Nurses Health Study III"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002142 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002143 (Singapore National Health Survey)
 
@@ -20062,12 +20144,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002147 "Obsoleted 2026-09-24. NIA is
 AnnotationAssertion(rdfs:label coho:COHO_0002147 "obsolete National Institute on Aging"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002147 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002148 (Norfolk Island Cohort)
+# Individual: coho:COHO_0002148 (obsolete Norfolk Island Cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002148 "NIC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002148 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002148 "Norfolk Island Cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002148)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002148 coho:COHO_0002153)
+AnnotationAssertion(rdfs:comment coho:COHO_0002148 "Obsoleted 2026-09-27. The Norfolk Island Cohort is what the Norfolk Island Health Study's papers call its sample (PMID:26628212, PMID:37886940). Replaced by COHO:0002153 (Norfolk Island Health Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002148 "obsolete Norfolk Island Cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002148 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002149 (obsolete National Israeli Cancer Control Center)
 
@@ -20088,17 +20170,18 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002151 "Obsoleted 2026-09-24. NICR i
 AnnotationAssertion(rdfs:label coho:COHO_0002151 "obsolete Northern Institute for Cancer Research"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002151 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002152 (Nigerian cohort)
+# Individual: coho:COHO_0002152 (obsolete Nigerian cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002152 "Nigerian")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002152 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002152 "Nigerian cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002152)
+AnnotationAssertion(rdfs:comment coho:COHO_0002152 "Obsoleted 2026-09-27. The PGS Catalog id Nigerian (Nigerian cohort) names only a nationality: no score uses it, and every paper found by the name uses the phrase for an unrelated, unnamed sample. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002152 "obsolete Nigerian cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002152 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002153 (Norfolk Island Health Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002153 "NIHS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002153 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002153 "NIC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002153 "Norfolk Island Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0002153 "Norfolk Island Health Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002153)
 
@@ -20108,12 +20191,11 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002154 "Obsoleted 2026-09-24. Nijmeg
 AnnotationAssertion(rdfs:label coho:COHO_0002154 "obsolete Nijmegen"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002154 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002155 (NIMH Intramural Research Program)
+# Individual: coho:COHO_0002155 (obsolete NIMH Intramural Research Program)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002155 "NIMH-IRP")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002155 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002155 "NIMH Intramural Research Program"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002155)
+AnnotationAssertion(rdfs:comment coho:COHO_0002155 "Obsoleted 2026-09-27. The NIMH Intramural Research Program is the in-house research division of the US National Institute of Mental Health, which papers name as an affiliation, a funder or the host of several distinct collections; no score in the PGS Catalog uses the id. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002155 "obsolete NIMH Intramural Research Program"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002155 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002156 (Pritzker Neuropsychiatric Disorders Research Consortium)
 
@@ -20184,12 +20266,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002165 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002165 "Nijmegen Lung Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002165)
 
-# Individual: coho:COHO_0002166 (Norwegian Mother, Father and Child Cohort Study)
+# Individual: coho:COHO_0002166 (obsolete Norwegian Mother, Father and Child Cohort Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002166 "NMFCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002166 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002166 "Norwegian Mother, Father and Child Cohort Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002166)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002166 coho:COHO_0000131)
+AnnotationAssertion(rdfs:comment coho:COHO_0002166 "Obsoleted 2026-09-27. The Norwegian Mother, Father and Child Cohort Study is the current full name of MoBa (PMID:31577359). Replaced by COHO:0000131 (Norwegian Mother and Child Cohort study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002166 "obsolete Norwegian Mother, Father and Child Cohort Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002166 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002167 (Nashville Men's Health Study)
 
@@ -20276,11 +20358,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002178 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002178 "NPC Genes, Environment, and EBV cohort"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002178)
 
-# Individual: coho:COHO_0002179 (NPHS)
+# Individual: coho:COHO_0002179 (obsolete NPHS)
 
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002179 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002179 "NPHS"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002179)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002179 coho:COHO_0000626)
+AnnotationAssertion(rdfs:comment coho:COHO_0002179 "Obsoleted 2026-09-27. NPHS, the National Physicians Health Study of PMID:26590902, is the Physicians' Health Study. Replaced by COHO:0000626 (Physicians' Health Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002179 "obsolete NPHS"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002179 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002180 (Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer)
 
@@ -20289,12 +20372,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002180 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002180 "Novel Risk Factors and Potential Early Detection Markers for Ovarian Cancer"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002180)
 
-# Individual: coho:COHO_0002181 (NRG Oncology)
+# Individual: coho:COHO_0002181 (obsolete NRG Oncology)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002181 "NRG_ONCOLOGY")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002181 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002181 "NRG Oncology"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002181)
+AnnotationAssertion(rdfs:comment coho:COHO_0002181 "Obsoleted 2026-09-27. NRG Oncology is a clinical trials group. In the CIMBA papers the PGS Catalog records the id in (PMID:29058716), it labels the group's contribution of BRCA1 and BRCA2 carriers, with no study name of its own; the carriers are covered by CIMBA (COHO:0000901). Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002181 "obsolete NRG Oncology"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002181 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002182 (Nambour Skin Cancer Study)
 
@@ -20437,6 +20519,8 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002201)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002202 "OHGS")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002202 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002202 "OHS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002202 "Ottawa Heart Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002202 "Ottawa Heart Genomics Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002202)
 
@@ -20446,12 +20530,12 @@ AnnotationAssertion(rdfs:comment coho:COHO_0002203 "Obsoleted 2026-09-24. Checke
 AnnotationAssertion(rdfs:label coho:COHO_0002203 "obsolete Ohio State University"@en)
 AnnotationAssertion(owl:deprecated coho:COHO_0002203 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002204 (Ottawa Heart Study)
+# Individual: coho:COHO_0002204 (obsolete Ottawa Heart Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002204 "OHS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002204 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002204 "Ottawa Heart Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002204)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002204 coho:COHO_0002202)
+AnnotationAssertion(rdfs:comment coho:COHO_0002204 "Obsoleted 2026-09-27. The Ottawa Heart Study of PMID:28209224 cites the design paper of the Ottawa Heart Genomics Study (PMID:17478681) and has its design. Replaced by COHO:0002202 (Ottawa Heart Genomics Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002204 "obsolete Ottawa Heart Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002204 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002205 (Ocular Hypertension Treatment Study)
 
@@ -20467,12 +20551,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002206 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002206 "Osaka-Midosuji Rotary Club"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002206)
 
-# Individual: coho:COHO_0002207 (OncoArray: Prostate Cancer)
+# Individual: coho:COHO_0002207 (obsolete OncoArray: Prostate Cancer)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002207 "OncoArray_Prostate")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002207 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002207 "OncoArray: Prostate Cancer"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002207)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002207 coho:COHO_0000752)
+AnnotationAssertion(rdfs:comment coho:COHO_0002207 "Obsoleted 2026-09-27. OncoArray: Prostate Cancer is the prostate cancer OncoArray project of the ELLIPSE consortium (dbGaP phs001391; PMID:29892050). Replaced by COHO:0000752 (Elucidating Loci Involved in Prostate Cancer Susceptibility), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002207 "obsolete OncoArray: Prostate Cancer"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002207 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002208 (Oregon Ovarian Cancer Registry)
 
@@ -20743,15 +20827,17 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002245)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002246 "PEGASUS")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002246 "The acronym PEGASUS also denotes Prostate Cancer Genome-wide Association Study of Uncommon Susceptibility Loci (COHO:0001219); this term is Prevention of Cardiovascular Events in Patients with Prior Heart Attack Using Ticagrelor Compared to Placebo on a Background of Aspirin."@en)
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002246 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002246 "PEGASUS-TIMI_54")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002246 "PEGASUS-TIMI 54")
 AnnotationAssertion(rdfs:label coho:COHO_0002246 "Prevention of Cardiovascular Events in Patients with Prior Heart Attack Using Ticagrelor Compared to Placebo on a Background of Aspirin"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002246)
 
-# Individual: coho:COHO_0002247 (PEGASUS-TIMI 54)
+# Individual: coho:COHO_0002247 (obsolete PEGASUS-TIMI 54)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002247 "PEGASUS-TIMI_54")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002247 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002247 "PEGASUS-TIMI 54"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002247)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002247 coho:COHO_0002246)
+AnnotationAssertion(rdfs:comment coho:COHO_0002247 "Obsoleted 2026-09-27. PEGASUS-TIMI_54 is the PEGASUS-TIMI 54 trial of ticagrelor after myocardial infarction, pooled with other TIMI trials in the papers the PGS Catalog records the id in (PMID:33185476, PMID:36474045, PMID:41419686). Replaced by COHO:0002246 (Prevention of Cardiovascular Events in Patients with Prior Heart Attack Using Ticagrelor Compared to Placebo on a Background of Aspirin), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002247 "obsolete PEGASUS-TIMI 54"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002247 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002248 (Peru Genetics and Genomics of Breast Cancer Study)
 
@@ -20858,12 +20944,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002262 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002262 "Pittsburgh Lung Screening Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002262)
 
-# Individual: coho:COHO_0002263 (Princess Margaret Cancer Centre)
+# Individual: coho:COHO_0002263 (obsolete Princess Margaret Cancer Centre)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002263 "PMCC")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002263 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002263 "Princess Margaret Cancer Centre"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002263)
+AnnotationAssertion(rdfs:comment coho:COHO_0002263 "Obsoleted 2026-09-27. The Princess Margaret Cancer Centre, Toronto, is a cancer hospital; no score in the PGS Catalog uses the id, and every paper found by the name is a different clinical series at the hospital. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002263 "obsolete Princess Margaret Cancer Centre"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002263 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002264 (Pharmacogenomics of Metformin)
 
@@ -20872,17 +20957,19 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002264 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002264 "Pharmacogenomics of Metformin"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002264)
 
-# Individual: coho:COHO_0002265 (Postmenopausal Hormone study)
+# Individual: coho:COHO_0002265 (obsolete Postmenopausal Hormone study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002265 "PMH")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002265 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002265 "Postmenopausal Hormone study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002265)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002265 coho:COHO_0002266)
+AnnotationAssertion(rdfs:comment coho:COHO_0002265 "Obsoleted 2026-09-27. The Postmenopausal Hormone study (PMH) is the Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry, as the GECCO supplement of PMID:26151821 shows. Replaced by COHO:0002266 (Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002265 "obsolete Postmenopausal Hormone study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002265 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002266 (Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002266 "PMH-CCFR")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002266 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002266 "PMH")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002266 "Postmenopausal Hormone study")
 AnnotationAssertion(rdfs:label coho:COHO_0002266 "Postmenopausal Hormones Supplementary Study to the Colon Cancer Family Registry"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002266)
 
@@ -20901,12 +20988,11 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002267 "The acronym MSH also deno
 AnnotationAssertion(rdfs:label coho:COHO_0002267 "Mount Sinai Hospital-Princess Margaret Multicancer Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002267)
 
-# Individual: coho:COHO_0002268 (Primary Open Angle Glaucoma)
+# Individual: coho:COHO_0002268 (obsolete Primary Open Angle Glaucoma)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002268 "POAG")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002268 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002268 "Primary Open Angle Glaucoma"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002268)
+AnnotationAssertion(rdfs:comment coho:COHO_0002268 "Obsoleted 2026-09-27. POAG names a disease, primary open-angle glaucoma, not a study; no score in the PGS Catalog uses the id. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002268 "obsolete Primary Open Angle Glaucoma"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002268 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002269 (obsolete Poland)
 
@@ -21356,12 +21442,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002331 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002331 "The Rugao Longevity and Ageing Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002331)
 
-# Individual: coho:COHO_0002332 (Rural cohort)
+# Individual: coho:COHO_0002332 (obsolete Rural cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002332 "Rural")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002332 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002332 "Rural cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002332)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002332 coho:COHO_0000629)
+AnnotationAssertion(rdfs:comment coho:COHO_0002332 "Obsoleted 2026-09-27. The KoGES rural cohort was renamed the Cardiovascular Disease Association Study: 'the Cardiovascular disease association study (CAVAS) cohort (formerly RURAL cohort)' (PMC7670174). Replaced by COHO:0000629 (Cardiovascular Disease Association Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002332 "obsolete Rural cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002332 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002333 (obsolete Rush University Medical Centre- Memory and Aging Project)
 
@@ -21483,12 +21569,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002349 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002349 "SCARFSHEEP"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002349)
 
-# Individual: coho:COHO_0002350 (Singapore Cardiovascular Cohort Study)
+# Individual: coho:COHO_0002350 (obsolete Singapore Cardiovascular Cohort Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002350 "SCCS2")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002350 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002350 "Singapore Cardiovascular Cohort Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002350)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002350 coho:COHO_0000481)
+AnnotationAssertion(rdfs:comment coho:COHO_0002350 "Obsoleted 2026-09-27. The Singapore Cardiovascular Cohort Study 2 is published jointly with the Singapore Prospective Study Program as one study, SP2/SCCS2 (PMID:19914996, PMID:23405065). The bare name the Catalog gives, Singapore Cardiovascular Cohort Study, is that of the earlier cohort it re-examined and is not carried over. Replaced by COHO:0000481 (Singapore Prospective Study Program), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002350 "obsolete Singapore Cardiovascular Cohort Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002350 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002351 (Subjective Cognitive Impairment Cohort)
 
@@ -21706,12 +21792,12 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002381 "The acronym SR also denot
 AnnotationAssertion(rdfs:label coho:COHO_0002381 "Silk Road"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002381)
 
-# Individual: coho:COHO_0002382 (Sisters Study)
+# Individual: coho:COHO_0002382 (obsolete Sisters Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002382 "Sisters")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002382 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002382 "Sisters Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002382)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002382 coho:COHO_0000660)
+AnnotationAssertion(rdfs:comment coho:COHO_0002382 "Obsoleted 2026-09-27. The PGS Catalog id Sisters is the NIEHS Sister Study: the ovarian cancer GWAS the id comes from (PMID:28346442) lists it as the OCAC study SIS, funded by the Sister Study's intramural grant Z01 ES044005. Replaced by COHO:0000660 (Sister Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002382 "obsolete Sisters Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002382 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002383 (obsolete St. Jude Childrens Research Hospital)
 
@@ -21986,12 +22072,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002421 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002421 "Shanghai-Vanderbilt Colorectal Cancer Genetic Project"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002421)
 
-# Individual: coho:COHO_0002422 (Swedish Bladder Cancer Study)
+# Individual: coho:COHO_0002422 (obsolete Swedish Bladder Cancer Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002422 "SwBCS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002422 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002422 "Swedish Bladder Cancer Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002422)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002422 coho:COHO_0002474)
+AnnotationAssertion(rdfs:comment coho:COHO_0002422 "Obsoleted 2026-09-27. The PGS Catalog id SwBCS and its name, Swedish Bladder Cancer Study, are a transcription error for TWBCS, the Taiwanese Breast Cancer Study of the breast cancer GWAS the id comes from (PMID:22267197), which has no Swedish or bladder cancer study. The name is not carried over. Replaced by COHO:0002474 (Taiwanese Breast Cancer Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002422 "obsolete Swedish Bladder Cancer Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002422 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002423 (Sweden Western Region Ovarian Cancer Study)
 
@@ -22015,12 +22101,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002425 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002425 "Swiss Memory Genetics Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002425)
 
-# Individual: coho:COHO_0002426 (Selenium and Vitmain E Cancer Prevention Trial)
+# Individual: coho:COHO_0002426 (obsolete Selenium and Vitmain E Cancer Prevention Trial)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002426 "SWOG-SELECT")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002426 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002426 "Selenium and Vitmain E Cancer Prevention Trial"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002426)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002426 coho:COHO_0000693)
+AnnotationAssertion(rdfs:comment coho:COHO_0002426 "Obsoleted 2026-09-27. The PGS Catalog id SWOG-SELECT denotes the Selenium and Vitamin E Cancer Prevention Trial, genotyped for prostate and colorectal cancer GWAS (PMID:29892016, PMID:30510241); the Catalog's name for it is the trial's name, misspelt. Replaced by COHO:0000693 (Selenium and Vitamin E Cancer Prevention Trial), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002426 "obsolete Selenium and Vitmain E Cancer Prevention Trial"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002426 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002427 (Southampton Womens Survey)
 
@@ -22209,19 +22295,18 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002452 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002452 "Twin families EBNA-1 genome-wide association study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002452)
 
-# Individual: coho:COHO_0002453 (The Gothenburg Study)
+# Individual: coho:COHO_0002453 (obsolete The Gothenburg Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002453 "TGS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002453 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002453 "The Gothenburg Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002453)
+AnnotationAssertion(rdfs:comment coho:COHO_0002453 "Obsoleted 2026-09-27. The PGS Catalog id TGS (The Gothenburg Study) names two cohorts, both already in COHO: MrOS Gothenburg in the scores from PMID:40691366 (COHO:0000892) and the Gothenburg H70 Birth Cohort Studies in the scores from PMID:42237039 (COHO:0000666). It is not one cohort; the id is an acronym of both terms. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002453 "obsolete The Gothenburg Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002453 "true"^^xsd:boolean)
 
-# Individual: coho:COHO_0002454 (Taiwan Genome Wide Association Study)
+# Individual: coho:COHO_0002454 (obsolete Taiwan Genome Wide Association Study)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002454 "TGWAS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002454 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002454 "Taiwan Genome Wide Association Study"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002454)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002454 coho:COHO_0000161)
+AnnotationAssertion(rdfs:comment coho:COHO_0002454 "Obsoleted 2026-09-27. The Taiwan Genome Wide Association Study (PMID:22344219) is the Academia Sinica type 2 diabetes case-control GWAS whose cases come from the Taiwan type 2 diabetes study and whose controls come from the Han Chinese Cell and Genome Bank: the collection COHO holds as the Taiwan Type 2 Diabetes Study. Replaced by COHO:0000161 (Taiwan Type 2 Diabetes Study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002454 "obsolete Taiwan Genome Wide Association Study"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002454 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002455 (Taiwan Han Chinese Cell and Genome Bank)
 
@@ -22339,12 +22424,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002471 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002471 "Tampere Sudden Death Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002471)
 
-# Individual: coho:COHO_0002472 (Tennessee Valley Healthcare System)
+# Individual: coho:COHO_0002472 (obsolete Tennessee Valley Healthcare System)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002472 "TVHS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002472 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002472 "Tennessee Valley Healthcare System"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002472)
+AnnotationAssertion(rdfs:comment coho:COHO_0002472 "Obsoleted 2026-09-27. The Tennessee Valley Healthcare System is a Veterans Affairs health-care system, an institution; no score in the PGS Catalog uses the id, and papers name it only as the setting of unrelated clinical studies. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002472 "obsolete Tennessee Valley Healthcare System"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002472 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002473 (Tampere Vascular Study)
 
@@ -22359,6 +22443,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002474 "BCST")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002474 "Breast Cancer Study in Taiwan")
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002474 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002474 "SwBCS")
 AnnotationAssertion(rdfs:label coho:COHO_0002474 "Taiwanese Breast Cancer Study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002474)
 
@@ -22382,12 +22467,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002477 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002477 "Utrecht Cannabis Cohort"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002477)
 
-# Individual: coho:COHO_0002478 (Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease)
+# Individual: coho:COHO_0002478 (obsolete Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002478 "UCC-SMART")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002478 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002478 "Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002478)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002478 coho:COHO_0000170)
+AnnotationAssertion(rdfs:comment coho:COHO_0002478 "Obsoleted 2026-09-27. UCC-SMART (Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease) is the SMART cohort under its current name (PMID:37845353). Replaced by COHO:0000170 (Second Manifestations of ARTerial disease study), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002478 "obsolete Utrecht Cardiovascular Cohort - Second Manifestations of ARTerial disease"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002478 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002479 (UC Irvine Ovarian Cancer Study, California)
 
@@ -22541,13 +22626,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002500 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002500 "UK Colorectal control"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002500)
 
-# Individual: coho:COHO_0002501 (UK Collaborative Trial of Ovarian Cancer Screening)
+# Individual: coho:COHO_0002501 (obsolete UK Collaborative Trial of Ovarian Cancer Screening)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002501 "UKCTOCS")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002501 obo:IAO_0000124)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002501 "The acronym UKCTOCS also denotes UKCTOCS Longitudinal Women's Cohort (COHO:0002688); this term is UK Collaborative Trial of Ovarian Cancer Screening."@en)
-AnnotationAssertion(rdfs:label coho:COHO_0002501 "UK Collaborative Trial of Ovarian Cancer Screening"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002501)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002501 coho:COHO_0002688)
+AnnotationAssertion(rdfs:comment coho:COHO_0002501 "Obsoleted 2026-09-27. The women of the UK Collaborative Trial of Ovarian Cancer Screening, whose samples the only paper the PGS Catalog records the id in uses (PMID:29730597), are the UKCTOCS Longitudinal Women's Cohort. Replaced by COHO:0002688 (UKCTOCS Longitudinal Women's Cohort), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002501 "obsolete UK Collaborative Trial of Ovarian Cancer Screening"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002501 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002502 (UKCVD)
 
@@ -22597,12 +22681,11 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002508 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002508 "UK HumanCoreExome genotyped IBD study"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002508)
 
-# Individual: coho:COHO_0002509 (UK National Health Service Trusts)
+# Individual: coho:COHO_0002509 (obsolete UK National Health Service Trusts)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002509 "UKHST")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002509 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002509 "UK National Health Service Trusts"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002509)
+AnnotationAssertion(rdfs:comment coho:COHO_0002509 "Obsoleted 2026-09-27. UK National Health Service Trusts are the organisations that run NHS services, an organisational setting, not a study; no score in the PGS Catalog uses the id. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002509 "obsolete UK National Health Service Trusts"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002509 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002510 (UK National MND DNA)
 
@@ -22646,13 +22729,12 @@ AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002515 obo:IAO_0000124)
 AnnotationAssertion(rdfs:label coho:COHO_0002515 "UK Testicular Cancer Collaboration"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002515)
 
-# Individual: coho:COHO_0002516 (Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort)
+# Individual: coho:COHO_0002516 (obsolete Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002516 "ULM")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002516 obo:IAO_0000124)
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002516 "The acronym ULM also denotes Familial Prostate Cancer Study Ulm (COHO:0002517); this term is Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort."@en)
-AnnotationAssertion(rdfs:label coho:COHO_0002516 "Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002516)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002516 coho:COHO_0002517)
+AnnotationAssertion(rdfs:comment coho:COHO_0002516 "Obsoleted 2026-09-27. The PGS Catalog id ULM is the Ulm prostate cancer case-control study of the PRACTICAL consortium (PMID:29892016, PMID:33623038). Every score that uses it is a cancer score, so the Catalog's name for it, Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort, is wrong and is not carried over. Replaced by COHO:0002517 (Familial Prostate Cancer Study Ulm), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002516 "obsolete Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002516 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002517 (Familial Prostate Cancer Study Ulm)
 
@@ -22660,7 +22742,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002517 "ULM")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002517 "Familial Prostate Cancer Study, University Hopsital of Ulm, Germany")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002517 "Prostate Cancer Genetics Project of Ulm")
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002517 "The acronym ULM also denotes Center of Excellence-Baden-Wuerttemberg Type 2 Diabetes Cohort (COHO:0002516); this term is Familial Prostate Cancer Study Ulm."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002517 "Familial Prostate Cancer Study Ulm"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002517)
 
@@ -22841,15 +22922,17 @@ ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002541)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002542 "VDB")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002542 "The acronym VDB also denotes Mayo Vascular Disease Biorepository (COHO:0001370); this term is Vejle Diabetes Biobank."@en)
 AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002542 obo:IAO_0000124)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002542 "Vejle")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002542 "Vejle Biobank")
 AnnotationAssertion(rdfs:label coho:COHO_0002542 "Vejle Diabetes Biobank"@en)
 ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002542)
 
-# Individual: coho:COHO_0002543 (Vejle Biobank)
+# Individual: coho:COHO_0002543 (obsolete Vejle Biobank)
 
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002543 "Vejle")
-AnnotationAssertion(obo:IAO_0000114 coho:COHO_0002543 obo:IAO_0000124)
-AnnotationAssertion(rdfs:label coho:COHO_0002543 "Vejle Biobank"@en)
-ClassAssertion(coho:TEMP_temporary_unclassified coho:COHO_0002543)
+AnnotationAssertion(obo:IAO_0100001 coho:COHO_0002543 coho:COHO_0002542)
+AnnotationAssertion(rdfs:comment coho:COHO_0002543 "Obsoleted 2026-09-27. Vejle is the Vejle Diabetes Biobank of the lipids GWAS the id comes from (PMID:34887591). Replaced by COHO:0002542 (Vejle Diabetes Biobank), which now carries this term's names. Found by a check of the placeholders against the papers the PGS Catalog links to them or found by their names, 2026-09-25."@en)
+AnnotationAssertion(rdfs:label coho:COHO_0002543 "obsolete Vejle Biobank"@en)
+AnnotationAssertion(owl:deprecated coho:COHO_0002543 "true"^^xsd:boolean)
 
 # Individual: coho:COHO_0002544 (Verlauf der diagnotischen Abklärung bei Krebspatienten)
 
@@ -24229,7 +24312,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002688 "UKCTOCS Longitudinal Women's Cohort (UKLWC)")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002688 "United Kingdom Collaborative Trial of Ovarian Cancer Screening")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002688 "UK Collaborative Trial of Ovarian Cancer Screening")
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002688 "The acronym UKCTOCS also denotes UK Collaborative Trial of Ovarian Cancer Screening (COHO:0002501); this term is UKCTOCS Longitudinal Women's Cohort."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002688 "UKCTOCS Longitudinal Women's Cohort"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002688 <https://directory.biobankinguk.org/Profile/Biobank/GBR-1-123>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002688)
@@ -24371,7 +24453,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002701 "International HundredK+ Cohorts Consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002701 "International Hundred K+ Cohorts Consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002701 "International Hundred Thousand Plus Cohort Consortium")
-AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002701 "The acronym IHCC also denotes International Hereditary Cancer Centre (COHO:0001909); this term is International Health Cohorts Consortium."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002701 "International Health Cohorts Consortium"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002701 <https://ihccglobal.org/>)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0002701)

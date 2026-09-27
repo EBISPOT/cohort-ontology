@@ -254,6 +254,19 @@ def main():
         for line in lines[:5]:
             print("\t".join(line))
         return
+    # A term with curated lines gets only those, so a term given its first curated line here keeps the example
+    # example_studies.py chose for it by writing that example here too (from the template it last wrote).
+    kept = []
+    firsts = {line[0] for line in lines if not have[M.local(line[0])]}
+    with (M.ROOT / "src/templates/example_studies.tsv").open(newline="", encoding="utf-8") as f:
+        rs = list(csv.reader(f, delimiter="\t"))
+    for r in rs[2:]:
+        if r and r[0] in firsts and len(r) > 8 and r[8] != "curated" and r[3]:
+            kept.append([r[0], r[3], r[4], f"the term's example from the {r[8]}, written here {today} when the term was given a PGS Catalog "
+                         "example, since a term with curated lines gets only those", r[6], r[7], r[5]])
+    if kept:
+        print(f"{len(kept)} examples kept for terms given their first curated line: " + ", ".join(f"{k[0]} {k[1]}" for k in kept))
+    lines = kept + lines
     if lines:
         t = CURATED.read_text(encoding="utf-8")
         CURATED.write_text(t + ("" if t.endswith("\n") else "\n") + M.rows_to_text(lines), encoding="utf-8")

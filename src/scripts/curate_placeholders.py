@@ -21,7 +21,14 @@ key and the placeholder's COHO ID. For each row this script
     puts that term in the PGS subset;
   - verdict "unresolved": leaves the term as it is;
 
-gives every term an editor note wherever a name becomes shared (and removes notes
+Two optional columns refine a row: `not carried` lists names (|-separated) that a
+merge leaves behind, such as a catalogue's wrong expansion of an id, and `also on`
+lists terms (COHO IDs, |-separated) that take the row's acronyms, its PGS id and its
+GWAS tags, for an id that names several cohorts; such a row's verdict is "not a
+cohort", since the id is not one cohort, and the placeholder is obsoleted without a
+replacement.
+
+The script gives every term an editor note wherever a name becomes shared (and removes notes
 that named an obsoleted term), and rewrites each placeholder's row of the review
 with the decision, the term's ID (the surviving term's, for a merge) and the terms
 its names clash with. Changes to terms other than the placeholders are limited to
@@ -46,7 +53,7 @@ REPLACED = "AnnotationAssertion(obo:IAO_0100001 coho:{} coho:{})"
 DEPRECATED = 'AnnotationAssertion(owl:deprecated coho:{} "true"^^xsd:boolean)'
 LABEL = 'AnnotationAssertion(rdfs:label coho:{} "{}"@en)'
 ANCHOR = "SubObjectPropertyOf(ObjectPropertyChain("
-PREFIX_RE = re.compile(r"^Tier E \(E\d+\), minted as a placeholder and checked against its sources on \d{4}-\d{2}-\d{2} without a draft\.\s*")
+PREFIX_RE = re.compile(r"^Tier E \(E\d+\), minted as a placeholder and checked against its sources on \d{4}-\d{2}-\d{2} (?:without|against) a draft\.\s*")
 
 
 def main():
@@ -130,6 +137,12 @@ def main():
             pass
         else:
             problems.append(f"{k}: verdict {v!r}")
+        x["_also"] = [M.local(r) for r in M.split(x.get("also on") or "")]
+        if x["_also"] and v != "not a cohort":
+            problems.append(f"{k}: also on goes with verdict not a cohort")
+        for t in x["_also"]:
+            if t not in live or t == c:
+                problems.append(f"{k}: also on {M.curie(t)} is not a live term other than the placeholder")
 
     def resolve(ref, exclude):
         """a row reference: a COHO ID, or the PGS id or label of another row of this file"""
@@ -161,6 +174,10 @@ def main():
     for x in merged:
         if x["_target"] in obsoleted:
             problems.append(f"{x['key']}: its target {M.curie(x['_target'])} is obsoleted by this run")
+    for x in rows:
+        for t in x["_also"]:
+            if t in obsoleted:
+                problems.append(f"{x['key']}: also on {M.curie(t)}, which is obsoleted by this run")
     for x in curated:
         if x.get("_parent") in obsoleted:
             problems.append(f"{x['key']}: its parent {M.curie(x['_parent'])} is obsoleted by this run")
@@ -189,8 +206,17 @@ def main():
         have = {e for e, _ in T[t]["syn"]}
         cands = [(s, True) for s in M.split(x["acronym synonyms"]) + [x["PGS id"]] + M.split(x["GWAS tags"], ";")]
         cands += [(s, acr) for s, acr in T[c]["syn"]] + [(T[c]["label"], False)] + [(s, False) for s in M.split(x["other synonyms"])]
+        left = set(M.split(x.get("not carried") or ""))
         for s, acr in cands:
-            add(added[t], T[t]["label"], s, acr, have)
+            if s not in left:
+                add(added[t], T[t]["label"], s, acr, have)
+    for x in rows:
+        c = x["_c"]
+        acrs = M.split(x["acronym synonyms"]) + [x["PGS id"]] + M.split(x["GWAS tags"], ";") + [s for s, acr in T[c]["syn"] if acr]
+        for t in x["_also"]:
+            have = {e for e, _ in T[t]["syn"]}
+            for s in acrs:
+                add(added[t], T[t]["label"], s, True, have)
     added = {k: v for k, v in added.items() if v}
 
     # --- shared names: editor notes on every term concerned; notes naming an obsoleted term go

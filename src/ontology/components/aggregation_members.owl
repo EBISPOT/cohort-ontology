@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/aggregation_members.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-25/components/aggregation_members.owl>
-Annotation(owl:versionInfo "2026-09-25")
+<http://www.ebi.ac.uk/coho/releases/2026-09-27/components/aggregation_members.owl>
+Annotation(owl:versionInfo "2026-09-27")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/hasCohort>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000005>))
@@ -26,6 +26,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000028>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000029>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000031>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000037>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000039>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000042>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000044>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000045>))
@@ -864,6 +865,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000105> (<http://www.ebi.ac.uk/coho/COHO_0000105>)
 
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3315455/fullTextXML") Annotation(rdfs:comment "The INGI-Cilento study was supported by grants from the EU (Vasoplus-037254), the Italian Ministry of Universities (FIRB -RBIN064YAT), the Assessorato Ricerca Regione Campania, the Ente Parco Nazionale del Cilento e Vallo di Diano, and the Fondazione Banco di Napoli to M Ciullo.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000105> <http://www.ebi.ac.uk/coho/COHO_0000039>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10178705/fullTextXML") Annotation(rdfs:comment "All three populations belong to the Italian Network of Genetic Isolates (INGI), a project aimed at studying the genetic basis of complex diseases and phenotypes (including eating habits) [41].") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000105> <http://www.ebi.ac.uk/coho/COHO_0000586>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10178705/fullTextXML") Annotation(rdfs:comment "All three populations belong to the Italian Network of Genetic Isolates (INGI), a project aimed at studying the genetic basis of complex diseases and phenotypes (including eating habits) [41].") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000105> <http://www.ebi.ac.uk/coho/COHO_0000593>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10178705/fullTextXML") Annotation(rdfs:comment "All three populations belong to the Italian Network of Genetic Isolates (INGI), a project aimed at studying the genetic basis of complex diseases and phenotypes (including eating habits) [41].") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0000105> <http://www.ebi.ac.uk/coho/COHO_0001091>)
