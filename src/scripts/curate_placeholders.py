@@ -65,6 +65,8 @@ def main():
     a = ap.parse_args()
 
     rows = list(csv.DictReader(open(a.rows, newline="", encoding="utf-8"), delimiter="\t", quoting=csv.QUOTE_NONE))
+    definitions = {r["ID"]: r for r in csv.DictReader(
+        open(M.CUR / "definitions_curated.tsv", newline="", encoding="utf-8"), delimiter="\t")}
     text = M.EDIT.read_text(encoding="utf-8")
     T = M.parse(text)
     live = {c for c, t in T.items() if t["types"] and not t["dep"]}
@@ -86,6 +88,12 @@ def main():
     byph = {}
     for x in rows:
         x["_c"] = M.local(x["placeholder"])
+        definition = definitions.get(M.curie(x["_c"]))
+        if definition:
+            # Preserve the curated definition and its checker attribution. Also
+            # retain its provenance in the review, even if the input omits it.
+            for column, field in (("definition", "definition"), ("definition source", "source"), ("drafted by", "drafted by")):
+                x[column] = definition[field]
         byph[x["_c"]] = x
     for x in rows:
         if x["same as"] and x["verdict"] != "unresolved":
@@ -355,7 +363,8 @@ def main():
         p = x["example PMID"].removeprefix("PMID:")
         if p and p not in titles and x["example title"]:
             titles.add(p); tit.append([p, x["example title"]])
-        de.append([i, x["definition"], x["definition source"], f"written from the cited source when the placeholder was {note}", x["drafted by"]])
+        if i not in definitions:
+            de.append([i, x["definition"], x["definition source"], f"written from the cited source when the placeholder was {note}", x["drafted by"]])
         if x["countries"]:
             for cs, q, u in zip(x["countries"].split(" || "), x["location quote"].split(" || "), x["location URL"].split(" || ")):
                 lo.append([i, cs.strip(), q.strip(), u.strip(), note + ("" if q.strip() else "; the country is given by the cohort's name, no quote")])

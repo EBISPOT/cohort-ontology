@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/mondo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/mondo/releases/2026-09-01/mondo.owl>)
-Annotation(owl:versionInfo "2026-09-27")
+Annotation(owl:versionInfo "2026-09-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -27,6 +27,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000569>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000586>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000588>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000589>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000591>))
@@ -562,6 +563,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016264>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016542>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016642>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016685>))
@@ -1037,6 +1039,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000569> "autoimmune disorder of endocrine system")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000569> <http://purl.obolibrary.org/obo/MONDO_0005151>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000569> <http://purl.obolibrary.org/obo/MONDO_0007179>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0000586> (autoimmune disorder of exocrine system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000586> "A hypersensitivity reaction type II disease that involves the exocrine system.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000586> "autoimmune disorder of exocrine system")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000586> <http://purl.obolibrary.org/obo/MONDO_0007179>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0000588> (autoimmune disorder of gastrointestinal tract)
 
@@ -4818,6 +4826,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016225> <http://purl.obolibrar
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0016226> "specific language disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016226> <http://purl.obolibrary.org/obo/MONDO_0016225>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0016264> (autoimmune hepatitis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0016264> "Hepatitis caused by autoantibodies. Drugs, infections, and toxins may trigger the production of the autoantibodies against the liver parenchyma.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0016264> "AIH")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0016264> "autoimmune chronic hepatitis")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0016264> "autoimmune hepatitis")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016264> <http://purl.obolibrary.org/obo/MONDO_0000569>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016264> <http://purl.obolibrary.org/obo/MONDO_0000586>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016264> <http://purl.obolibrary.org/obo/MONDO_0000588>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016264> <http://purl.obolibrary.org/obo/MONDO_0002251>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0016542> (IL10-related early-onset inflammatory bowel disease)
 

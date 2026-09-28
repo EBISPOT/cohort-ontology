@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/hp_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.owl>)
-Annotation(owl:versionInfo "2026-09-27")
+Annotation(owl:versionInfo "2026-09-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000079>))
@@ -33,6 +33,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000929>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001197>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001268>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001297>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001298>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001438>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001507>))
@@ -49,6 +50,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001677>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001679>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001695>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001871>))
@@ -59,12 +61,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002360>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002597>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002617>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002625>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002637>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002715>))
@@ -125,10 +129,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0020347>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025423>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025722>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025766>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025780>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030858>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030956>))
@@ -138,15 +145,18 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0031567>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0032101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0032169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0032180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0032325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0033127>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0033353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0033354>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0033401>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0034267>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0040195>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100326>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100543>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100547>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100659>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100716>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0100851>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0200134>))
@@ -403,6 +413,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001268> "Mental deterioration")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001268> <http://purl.obolibrary.org/obo/HP_0100543>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0001297> (Stroke)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001297> "Sudden impairment of blood flow to a part of the brain due to occlusion or rupture of an artery to the brain.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001297> "Cerebrovascular accidents")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001297> "Stroke")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0001297> <http://purl.obolibrary.org/obo/HP_0100659>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0001298> (Encephalopathy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001298> "Encephalopathy is a term that means brain disease, damage, or malfunction. In general, encephalopathy is manifested by an altered mental state.")
@@ -510,6 +527,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001679> "Abno
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001679> <http://purl.obolibrary.org/obo/HP_0011004>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001679> <http://purl.obolibrary.org/obo/HP_0030962>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0001681> (Angina pectoris)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001681> "Paroxysmal chest pain that occurs with exertion or stress and is related to myocardial ischemia.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001681> "Angina pectoris")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0001681> <http://purl.obolibrary.org/obo/HP_0011025>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0001695> (Cardiac arrest)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001695> "An abrupt loss of heart function.")
@@ -571,6 +594,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002087> "Abnormality of the upper respiratory tract")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002087> <http://purl.obolibrary.org/obo/HP_0012252>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0002140> (Ischemic stroke)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002140> "Acute ischemic stroke (AIS) is defined by the sudden loss of blood flow to an area of the brain with the resulting loss of neurologic function. It is caused by thrombosis or embolism that occludes a cerebral vessel supplying a specific area of the brain. During a vessel occlusion, there is a core area where damage to the brain is irreversible and an area of penumbra where the brain has lost function owing to decreased blood flow but is not irreversibly injured.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002140> "Ischemic stroke")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.org/obo/HP_0001297>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.org/obo/HP_0002637>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.org/obo/HP_0025722>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0002360> (Sleep disturbance)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002360> "An abnormal pattern in the quality, quantity, or characteristics of sleep.")
@@ -608,6 +639,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0002625> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002634> "Sclerosis (hardening) of the arteries with increased thickness of the wall of arteries as well as increased stiffness and a loss of elasticity.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002634> "Arteriosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002634> <http://purl.obolibrary.org/obo/HP_0011004>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0002637> (Cerebral ischemia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002637> "Restriction of arterial blood supply to the brain associated with insufficient oxygenation to support the metabolic requirements of the tissue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002637> "Cerebral ischemia")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0002637> <http://purl.obolibrary.org/obo/HP_0033401>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002664> (Neoplasm)
 
@@ -997,6 +1034,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025142> "Constitutional symptom")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025142> <http://purl.obolibrary.org/obo/HP_0000118>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0025323> (Abnormal arterial physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025323> "An anomaly of arterial function.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025323> "Abnormal arterial physiology")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0025323> <http://purl.obolibrary.org/obo/HP_0030163>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0025423> (Abnormal larynx morphology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025423> "Any anomaly of the structure of the larynx.")
@@ -1008,6 +1051,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0025423> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025502> "Increased body weight with a body mass index of 25-29.9 kg per square meter.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025502> "Overweight")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025502> <http://purl.obolibrary.org/obo/HP_0004324>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0025722> (Cerebral infarct)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025722> "A necrotic lesion in the cerebrum resulting from a sudden insufficiency of arterial or venous blood supply due to emboli, thrombi or mechanical factors.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025722> "Cerebral infarct")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0025722> <http://purl.obolibrary.org/obo/HP_0002060>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025766> (Abnormal affect)
 
@@ -1022,6 +1071,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0025780> "Abnormal motivation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025780> "Abnormal volitional state")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025780> <http://purl.obolibrary.org/obo/HP_0025766>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0030163> (Abnormal vascular physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030163> "Abnormality of vascular function.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030163> "Abnormal vascular physiology")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0030163> <http://purl.obolibrary.org/obo/HP_0002597>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0030163> <http://purl.obolibrary.org/obo/HP_0011025>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030680> (Abnormal cardiovascular system morphology)
 
@@ -1078,6 +1134,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0032180> "Abnormal circulating metabolite concentration")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0032180> <http://purl.obolibrary.org/obo/HP_0001939>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0032325> (Lacunar stroke)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0032325> "A stroke related to a small infarct (2-20 mm in diameter) in the deep cerebral white matter, basal ganglia, or pons, that is presumed to result from the occlusion of a single small perforating artery supplying the subcortical areas of the brain.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0032325> "Lacunar stroke")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0032325> <http://purl.obolibrary.org/obo/HP_0002140>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0033127> (Abnormality of the musculoskeletal system)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0033127> "An anomaly of the musculoskeletal system, which consists of the bones of the skeleton, muscles, cartilage, tendons, ligaments, joints, and other connective tissue. The musculoskeletal system supports the weight of the body, maintains body position and produces movements of the body or of parts of the body.")
@@ -1095,6 +1157,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0033353> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0033354> "Any deviation from the normal amount of a metabolite in urine.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0033354> "Abnormal urine metabolite level")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0033354> <http://purl.obolibrary.org/obo/HP_0003110>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0033401> (Tissue ischemia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0033401> "Ischemia is defined as a restriction of arterial blood supply to a tissue associated with insufficient oxygenation to support the metabolis requirements of the tissue. Depending on the involved tissues, clinical manifestations may include pain, pallor, lack of pulse, coldness, paresthesia, and paralysis. Additional associated manifestations include hemodynamic parameters (reduced blood pressure distal to the site of restricted arterial supply) and angiographic evidence of arterial occclusion.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0033401> "Tissue ischemia")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0033401> <http://purl.obolibrary.org/obo/HP_0025323>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0034267> (Pelvic pain)
 
@@ -1131,6 +1199,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0100545> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100547> "An abnormality of the forebrain, which has as its parts the telencephalon, diencephalon, lateral ventricles and third ventricle.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100547> "Abnormal forebrain morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100547> <http://purl.obolibrary.org/obo/HP_0012443>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0100659> (Abnormal cerebral vascular morphology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100659> "An anomaly of the cerebral blood vessels.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100659> "Abnormal cerebral vascular morphology")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0100659> <http://purl.obolibrary.org/obo/HP_0012443>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0100659> <http://purl.obolibrary.org/obo/HP_0025015>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100716> (Self-injurious behavior)
 
