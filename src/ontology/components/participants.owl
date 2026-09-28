@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/participants.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-28/components/participants.owl>
-Annotation(owl:versionInfo "2026-09-28")
+<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/participants.owl>
+Annotation(owl:versionInfo "2026-09-29")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -1527,16 +1527,21 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001691>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001692>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001694>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001698>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001700>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001702>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001704>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001705>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001707>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001710>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001714>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001715>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001716>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001718>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001719>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001720>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001721>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001722>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001724>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001726>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001730>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001732>))
@@ -1546,6 +1551,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001739>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001741>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001743>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001744>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001745>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001750>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001753>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001758>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001761>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001762>))
@@ -1554,9 +1562,14 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001765>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001767>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001769>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001771>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001776>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001777>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001778>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001779>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001786>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001787>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001790>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001796>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001797>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001799>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001800>))
@@ -1569,6 +1582,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001812>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001813>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001820>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001821>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001823>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001825>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001827>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001835>))
@@ -1603,7 +1617,10 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001899>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001902>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001903>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001906>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001915>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001916>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001919>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001920>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001922>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001923>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001925>))
@@ -1612,6 +1629,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001929>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001930>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001933>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001940>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001941>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001949>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001952>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001955>))
@@ -1621,8 +1639,14 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001969>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001971>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001972>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001973>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001974>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001975>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001976>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001977>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001978>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001979>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001980>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001981>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001986>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001987>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001988>))
@@ -1635,15 +1659,19 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001998>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002005>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002006>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002008>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002011>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002012>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002015>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002016>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002017>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002024>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002025>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002029>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002031>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002036>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002038>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002041>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002042>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002044>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002046>))
@@ -1658,10 +1686,15 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002075>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002076>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002077>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002080>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002085>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002088>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002089>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002097>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002103>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002105>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002107>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002111>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002112>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002116>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002119>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002122>))
@@ -1676,6 +1709,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002130>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002131>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002132>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002133>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002137>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002138>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002144>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002150>))
@@ -1720,8 +1754,10 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002242>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002245>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002246>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002248>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002249>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002251>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002256>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002258>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002266>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002267>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002271>))
@@ -1732,6 +1768,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002279>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002281>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002284>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002289>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002290>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002291>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002292>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002293>))
@@ -1750,6 +1787,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002323>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002334>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002335>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002337>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002338>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002341>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002344>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002352>))
@@ -1759,6 +1797,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002358>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002361>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002362>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002365>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002366>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002367>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002368>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002369>))
@@ -1789,6 +1828,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002421>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002423>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002424>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002428>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002431>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002433>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002434>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002435>))
@@ -1799,14 +1839,18 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002441>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002443>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002445>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002447>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002449>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002457>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002458>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002459>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002460>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002461>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002465>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002471>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002474>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002479>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002483>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002486>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002491>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002493>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002494>))
@@ -1835,6 +1879,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002549>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002553>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002554>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002559>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002562>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002563>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002564>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002566>))
@@ -1844,6 +1889,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002578>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002579>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002581>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002584>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002587>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002588>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002590>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002591>))
@@ -8547,6 +8593,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "App
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "lymphoma cases and controls recruited") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7351167/fullTextXML") Annotation(rdfs:comment "A total of 2,362 lymphoma cases and 2,465 controls were recruited into the study.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001698> "2362"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "lymphoma cases and controls recruited") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7351167/fullTextXML") Annotation(rdfs:comment "A total of 2,362 lymphoma cases and 2,465 controls were recruited into the study.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001698> "2465"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001700> (<http://www.ebi.ac.uk/coho/COHO_0001700>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "inhabitants of Lübeck screened by mailed questionnaire (the population arm; Parkinson's disease patients not included)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23257687") Annotation(rdfs:comment "Using a mailed questionnaire, we screened 5838 inhabitants of Lübeck, Germany, out of a target population of 10 000 citizens, enquiring about motor impairment, pain, quality of life, comorbidities, somatization and demographics.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001700> "5838"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001702> (<http://www.ebi.ac.uk/coho/COHO_0001702>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "subjects aged 5 to 91 years included in the study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4879491/fullTextXML") Annotation(rdfs:comment "It includes 10,361 subjects between 5 and 91 years old and originally focused on determinants of various chronic diseases.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001702> "10361"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001704> (<http://www.ebi.ac.uk/coho/COHO_0001704>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "ERASE clinical cohort in the 2021 toxicity report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8883571/fullTextXML") Annotation(rdfs:comment "The clinical cohort consisted of 1,251 children with ALL/LBL (Online Supplementary Figure S1) from six tertiary Australian pediatric oncology centers.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001704> "1251"^^xsd:integer)
@@ -8570,6 +8624,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "wom
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "women recruited (PCOS cases and controls), 2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32591571") Annotation(rdfs:comment "A total of 1,810 reproductive-aged women were recruited, including 927 control women and 883 women with PCOS, diagnosed based on the European Society for Human Reproduction and Embryology criteria.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001714> "927"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "women recruited (PCOS cases and controls), 2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32591571") Annotation(rdfs:comment "A total of 1,810 reproductive-aged women were recruited, including 927 control women and 883 women with PCOS, diagnosed based on the European Society for Human Reproduction and Embryology criteria.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001714> "1810"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001715> (<http://www.ebi.ac.uk/coho/COHO_0001715>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants recruited January 2010 to April 2018 (2010-2018)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8377980/fullTextXML") Annotation(rdfs:comment "EXTEND/PRB is an unselected population cohort of 11,074 participants, 8295 without known diabetes, recruited from the community and primary care in the South West, UK.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001715> "11074"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001716> (<http://www.ebi.ac.uk/coho/COHO_0001716>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Danish EYHS longitudinal sample measured at three ages in the 2023 study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10315841/fullTextXML") Annotation(rdfs:comment "In the European Youth Heart Study (EYHS), height, weight and habitual PA were measured at age 9.6-years, 15.7-years and 21.8-years in 399 Danish boys and girls.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001716> "399"^^xsd:integer)
@@ -8590,6 +8648,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Int
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001721> (<http://www.ebi.ac.uk/coho/COHO_0001721>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Fremantle Diabetes Study Phase II recruits, 2008-2011") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9820984/fullTextXML") Annotation(rdfs:comment "In FDS2, 4639 people with diabetes were identified from a population of approximately 157,000, and 1668 (36%) recruited of whom 1509 (90%) had type 2 diabetes.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001721> "1668"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001722> (<http://www.ebi.ac.uk/coho/COHO_0001722>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "age-, gender- and ethnicity-matched controls recruited by the FECD Genetics Multi-Center Study (2006-2009)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22045388") Annotation(rdfs:comment "Three hundred and four age, gender and ethnicity matched controls were recruited.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001722> "304"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001724> (<http://www.ebi.ac.uk/coho/COHO_0001724>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "surviving Framingham Heart Study original-cohort members, aged 52-85, given eye examinations in 1973-1975") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:879158") Annotation(rdfs:comment "During the period 1973--1975, 2675 out of 3977 still-living members of the Framingham, Massachusetts, study population, who have been under investigation for coronary disease risk factors since 1948 and who were in 1973--1975 aged 52 to 85, were given an eye examination stressing cataract, diabetic retinopathy, macular degeneration and glaucoma.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001724> "2675"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001726> (<http://www.ebi.ac.uk/coho/COHO_0001726>)
 
@@ -8632,6 +8698,20 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "FRI
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls included in the 2023 OCAC lifetime ovulatory years analysis") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC10165492/") Annotation(rdfs:comment "STA (33) USA Family Registry for Ovarian Cancer AND Genetic Epidemiology of Ovarian Cancer 1997-2001 Population-based Interview 47.77 (10.07) 567 (46.0) 665 (54.0)") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001744> "665"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls included in the 2023 OCAC lifetime ovulatory years analysis") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC10165492/") Annotation(rdfs:comment "STA (33) USA Family Registry for Ovarian Cancer AND Genetic Epidemiology of Ovarian Cancer 1997-2001 Population-based Interview 47.77 (10.07) 567 (46.0) 665 (54.0)") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001744> "567"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001745> (<http://www.ebi.ac.uk/coho/COHO_0001745>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "genetic arm: cocaine-dependent cases and unrelated controls") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2582594/") Annotation(rdfs:comment "The genetic arm of the Family Study of Cocaine Dependence (FSCD) included 504 cocaine-dependent individuals and 493 unrelated control subjects.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001745> "504"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "genetic arm: cocaine-dependent cases and unrelated controls") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2582594/") Annotation(rdfs:comment "The genetic arm of the Family Study of Cocaine Dependence (FSCD) included 504 cocaine-dependent individuals and 493 unrelated control subjects.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001745> "493"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001750> (<http://www.ebi.ac.uk/coho/COHO_0001750>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "subjects with childhood-onset asthma and controls from the GAIN families genotyped in the GABRIEL GWAS (analysed subset), 2010 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260321/") Annotation(rdfs:comment "GAIN Multiple countries 1475 1475 (56) — 1668 1668 (50) —") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001750> "1475"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "subjects with childhood-onset asthma and controls from the GAIN families genotyped in the GABRIEL GWAS (analysed subset), 2010 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260321/") Annotation(rdfs:comment "GAIN Multiple countries 1475 1475 (56) — 1668 1668 (50) —") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001750> "1668"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001753> (<http://www.ebi.ac.uk/coho/COHO_0001753>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Mexican and Puerto Rican individuals with asthma (the probands) recruited; their parents are not counted") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14617512+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "To determine whether ethnicity-specific differences in therapeutic response, clinical response, and/or genetic factors contribute to differences in asthma outcomes, we compared asthma-related clinical characteristics among 684 Mexican and Puerto Rican individuals with asthma recruited from San Francisco, New York City, Puerto Rico, and Mexico City.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001753> "684"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001758> (<http://www.ebi.ac.uk/coho/COHO_0001758>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GBTDS type 2 diabetes cases and nondiabetic controls recruited September 2009-January 2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3978/MediaObjects/41588_2017_BFng3978_MOESM1_ESM.pdf") Annotation(rdfs:comment "The participants include 1,824 type 2 diabetic cases (955 male and 869 female) and 1,719 nondiabetic controls (828 male and 891 female) aged 30 to 80 years, with at least 10 years residence in Bijie city.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001758> "1824"^^xsd:integer)
@@ -8672,9 +8752,28 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GEL
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GEMO database participants as of December 2019") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8320036/fullTextXML") Annotation(rdfs:comment "The updated version counted 6375 participants for GEMO (i.e. 1687 new participants), and 4925 participants for GENEPSO (i.e. 1586 new participants).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001771> "6375"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001776> (<http://www.ebi.ac.uk/coho/COHO_0001776>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA CH stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001776> "253"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA CH stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001776> "208"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001777> (<http://www.ebi.ac.uk/coho/COHO_0001777>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA NL stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001777> "230"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA NL stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001777> "232"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001778> (<http://www.ebi.ac.uk/coho/COHO_0001778>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA US stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001778> "486"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and healthy controls of the Gene MSA US stratum in the 2011 genome-wide meta-analysis (Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001778> "431"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001779> (<http://www.ebi.ac.uk/coho/COHO_0001779>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Gene-PARE prostate radiotherapy cohort in the 2016 meta-analysis") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5036513/fullTextXML") Annotation(rdfs:comment "Gene-PARE (n = 895) (Ho et al., 2006) was approved by the Mount Sinai Medical Center Institutional Review Board.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001779> "895"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001786> (<http://www.ebi.ac.uk/coho/COHO_0001786>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "twins in the eight member twin cohorts (stated as a lower bound, 'over 300,000')") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2687074/unicode") Annotation(rdfs:comment "The Danish, Dutch, Finnish, Italian, Norwegian and Swedish national twin cohorts, together with St. Thomas’ twin cohort in Great Britain and an Australian twin cohort, form the basis of the GenomEUtwin project, a collection of over 300,000 twins.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001786> "300000"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001787> (<http://www.ebi.ac.uk/coho/COHO_0001787>)
 
@@ -8684,6 +8783,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Gen
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GenRIC angiographically confirmed CAD cases and HEXA-derived controls in the study profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3396/MediaObjects/41588_2015_BFng3396_MOESM57_ESM.pdf") Annotation(rdfs:comment "Subjects of GenRIC (Genomics Research in Cardiovascular Disease) study is composed of 2,099 CAD patients from three teaching hospitals (Samsung Medical Center, Seoul National University Hospital and Yonsei University College of Medicine) and 2,690 controls from HEXA (Health Examinee) which is one of the KoGES (Korean Genome Epidemiology Study) population based cohorts that were initiated in 2001 aiming to identify genetic risk factors of complex diseases.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001790> "2099"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GenRIC angiographically confirmed CAD cases and HEXA-derived controls in the study profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3396/MediaObjects/41588_2015_BFng3396_MOESM57_ESM.pdf") Annotation(rdfs:comment "Subjects of GenRIC (Genomics Research in Cardiovascular Disease) study is composed of 2,099 CAD patients from three teaching hospitals (Samsung Medical Center, Seoul National University Hospital and Yonsei University College of Medicine) and 2,690 controls from HEXA (Health Examinee) which is one of the KoGES (Korean Genome Epidemiology Study) population based cohorts that were initiated in 2001 aiming to identify genetic risk factors of complex diseases.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001790> "2690"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001796> (<http://www.ebi.ac.uk/coho/COHO_0001796>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "members of the 201 families of both recruitment stages, including non-affected siblings") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC548502/fullTextXML") Annotation(rdfs:comment "Clinical characteristics of the 201 families (867 participants) that also include non-affected siblings of the core families.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001796> "867"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001797> (<http://www.ebi.ac.uk/coho/COHO_0001797>)
 
@@ -8741,6 +8844,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GRA
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GRAND participants in the 2025 remnant-cholesterol cross-sectional study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12382207/fullTextXML") Annotation(rdfs:comment "Of the 3779 individuals included in GRAND, 2296 had CAD, comprising 453 with myocardial infarction, 815 with stable angina, and 967 with unstable angina (Additional file 1: Table S2).") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001821> "2296"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GRAND participants in the 2025 remnant-cholesterol cross-sectional study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12382207/fullTextXML") Annotation(rdfs:comment "Coronary artery diseaseNcase = 2296; Ncontrol = 1483") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001821> "1483"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "GRAND participants in the 2025 remnant-cholesterol cross-sectional study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12382207/fullTextXML") Annotation(rdfs:comment "Of the 3779 individuals included in GRAND, 2296 had CAD, comprising 453 with myocardial infarction, 815 with stable angina, and 967 with unstable angina (Additional file 1: Table S2).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001821> "3779"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001823> (<http://www.ebi.ac.uk/coho/COHO_0001823>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants in the GIANT BMI GWAS (Nmax), an analysed subset") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "GRCCDS | Genomic Research Cohorts for CCMB Diabetes Study | SAS | 2219") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001823> "2219"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001825> (<http://www.ebi.ac.uk/coho/COHO_0001825>)
 
@@ -8902,10 +9009,24 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "con
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "people with HIV enrolled with HIV diagnosis 1997-2023 (analysed in the cancer study)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC12280848/") Annotation(rdfs:comment "General characteristics of 17,298 people living with HIV enrolled in the ICONA Cohort Study: Italy, 1997–2023.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001906> "17298"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001915> (<http://www.ebi.ac.uk/coho/COHO_0001915>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and Wellcome Trust Case Control Consortium healthy controls of the IMSGC UK stratum (2011 meta-analysis, Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001915> "453"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and Wellcome Trust Case Control Consortium healthy controls of the IMSGC UK stratum (2011 meta-analysis, Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001915> "2950"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001916> (<http://www.ebi.ac.uk/coho/COHO_0001916>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and NIMH healthy controls of the IMSGC US stratum (2011 meta-analysis, Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001916> "342"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multiple sclerosis cases and NIMH healthy controls of the IMSGC US stratum (2011 meta-analysis, Table 1)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3247076/") Annotation(rdfs:comment "Dataset IMSGC UK* IMSGC US* Gene MSA CH* Gene MSA NL* Gene MSA US* ANZ† BWH/TT§ Number of individuals (cases/controls) 453/2950 342/1679 253/208 230/232 486/431 1618/1988 2313/4857") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001916> "1679"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001919> (<http://www.ebi.ac.uk/coho/COHO_0001919>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "INDICO Dravidian component sampled from CURES in the biorepository profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs11568-011-9157-2/MediaObjects/11568_2011_9157_MOESM1_ESM.doc") Annotation(rdfs:comment "Of the total CURES participants, 2,087 individuals diagnosed with T2D and 1,927 non-diabetic control subjects were included as a part of this consortium.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001919> "2087"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "INDICO Dravidian component sampled from CURES in the biorepository profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs11568-011-9157-2/MediaObjects/11568_2011_9157_MOESM1_ESM.doc") Annotation(rdfs:comment "Of the total CURES participants, 2,087 individuals diagnosed with T2D and 1,927 non-diabetic control subjects were included as a part of this consortium.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001919> "1927"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001920> (<http://www.ebi.ac.uk/coho/COHO_0001920>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "workers (asthma cases and matched controls) retained after QC in the GWAS analyses of the GABRIEL and TAGC meta-analyses") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "After QC a total of 1,227 subjects were retained in the GWAS analyses.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001920> "1227"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001922> (<http://www.ebi.ac.uk/coho/COHO_0001922>)
 
@@ -8946,6 +9067,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "IPO
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "ItGxE participants in the own 2011-2017 study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8082925/fullTextXML") Annotation(rdfs:comment "Overall, 867 incident lymphoma cases and 774 controls participated in the study.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001940> "867"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "ItGxE participants in the own 2011-2017 study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8082925/fullTextXML") Annotation(rdfs:comment "Overall, 867 incident lymphoma cases and 774 controls participated in the study.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001940> "774"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "ItGxE participants in the own 2011-2017 study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8082925/fullTextXML") Annotation(rdfs:comment "Total867 (100)774 (100)1641 (100)") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001940> "1641"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001941> (<http://www.ebi.ac.uk/coho/COHO_0001941>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Jamaican adolescents in the cross-sectional prevalence study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-08469-7/MediaObjects/41467_2019_8469_MOESM1_ESM.pdf") Annotation(rdfs:comment "The Jamaican Adolescent Asthma Study (JAAS) is a cross-sectional study on the prevalence of asthma and allergies in 897 Jamaican adolescents [29].") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001941> "897"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001949> (<http://www.ebi.ac.uk/coho/COHO_0001949>)
 
@@ -8988,15 +9113,41 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Ko-
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients and family members at high risk for hereditary breast and ovarian cancer recruited May 2007-April 2013") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3800720/fullTextXML") Annotation(rdfs:comment "The KOHBRA Study recruited 3,144 patients and family members at high risk for HBOC from 40 centers between May 2007 and April 2013 and plans to report the comprehensive prevalence table for BRCA mutations using this larger sample size.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001973> "3144"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001974> (<http://www.ebi.ac.uk/coho/COHO_0001974>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "KORA S3 participants re-examined at the 10-year follow-up in 2004/05") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-32821-z/MediaObjects/41467_2022_32821_MOESM1_ESM.pdf") Annotation(rdfs:comment "3,006 participants from KORA S3 were reexamined in a 10-year follow- up (KORA F3) in the years 2004/05.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001974> "3006"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001975> (<http://www.ebi.ac.uk/coho/COHO_0001975>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "KORA S4 participants re-examined at the follow-up in 2006-2008") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01314-0/MediaObjects/41588_2023_1314_MOESM1_ESM.pdf") Annotation(rdfs:comment "KORA F4 including 3,080 individuals was conducted from 2006-2008 as a follow-up study to KORA S4 (1999-2001).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001975> "3080"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001976> (<http://www.ebi.ac.uk/coho/COHO_0001976>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "vertebral fracture cases and non-fracture controls in the GEFOS/GENOMOS vertebral fracture analysis (analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4102322/") Annotation(rdfs:comment "KorAMC Genant 101 1193 0.08") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001976> "101"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "vertebral fracture cases and non-fracture controls in the GEFOS/GENOMOS vertebral fracture analysis (analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4102322/") Annotation(rdfs:comment "KorAMC Genant 101 1193 0.08") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001976> "1193"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001977> (<http://www.ebi.ac.uk/coho/COHO_0001977>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "residents aged 25-74 examined in the 1994/95 survey") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01314-0/MediaObjects/41588_2023_1314_MOESM1_ESM.pdf") Annotation(rdfs:comment "The KORA S3 study including 4,856 individuals was conducted in 1994/95.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001977> "4856"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001978> (<http://www.ebi.ac.uk/coho/COHO_0001978>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "individuals aged 25-74 who took part in the 1999-2001 survey") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3554384/fullTextXML") Annotation(rdfs:comment "A total of 4,261 individuals between 25 and 74 years of age participated in the S4 survey between 1999 and 2001 (25).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001978> "4261"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001979> (<http://www.ebi.ac.uk/coho/COHO_0001979>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Seoul CRC cases and controls providing blood for stage 4 of the 2014 ACCC GWAS") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") Annotation(rdfs:comment "A total of 849 cases and 673 controls providing a blood sample were included in stage 4 of this project.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001979> "849"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Seoul CRC cases and controls providing blood for stage 4 of the 2014 ACCC GWAS") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") Annotation(rdfs:comment "A total of 849 cases and 673 controls providing a blood sample were included in stage 4 of this project.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001979> "673"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001980> (<http://www.ebi.ac.uk/coho/COHO_0001980>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Korean adults who underwent health screenings, 2011-2021") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40348730+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "This prospective cohort study used data from the Kangbuk Samsung Cohort Study, which involved 357,322 Korean adults who underwent health screenings from 2011 to 2021.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001980> "357322"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001981> (<http://www.ebi.ac.uk/coho/COHO_0001981>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated subjects recruited in 2003-2004 (patients with asthma and matched controls)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "A total of 429 unrelated subjects were recruited in this study, (215 patients with asthma and 214 controls).") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0001981> "215"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated subjects recruited in 2003-2004 (patients with asthma and matched controls)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "A total of 429 unrelated subjects were recruited in this study, (215 patients with asthma and 214 controls).") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0001981> "214"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated subjects recruited in 2003-2004 (patients with asthma and matched controls)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "A total of 429 unrelated subjects were recruited in this study, (215 patients with asthma and 214 controls).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001981> "429"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001986> (<http://www.ebi.ac.uk/coho/COHO_0001986>)
 
@@ -9051,6 +9202,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "LIT
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated Caucasians: 125 severe, 172 moderate and 386 mild asthmatics and 200 non-asthmatics") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24691493") Annotation(rdfs:comment "The LIWA cohort included a total of 883 unrelated Caucasians (125 severe, 172 moderate, 386 mild and 200 non-asthmatics) aged between 18 and 85.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002008> "200"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated Caucasians: 125 severe, 172 moderate and 386 mild asthmatics and 200 non-asthmatics") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24691493") Annotation(rdfs:comment "The LIWA cohort included a total of 883 unrelated Caucasians (125 severe, 172 moderate, 386 mild and 200 non-asthmatics) aged between 18 and 85.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002008> "883"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002011> (<http://www.ebi.ac.uk/coho/COHO_0002011>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with well-controlled asthma randomised in the trial") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17507702+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We randomly assigned 500 patients with asthma that was well controlled by inhaled fluticasone (100 microg twice daily) to receive continued fluticasone (100 microg twice daily) (169 patients), montelukast (5 or 10 mg each night) (166 patients), or fluticasone (100 microg) plus salmeterol (50 microg) each night (165 patients).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002011> "500"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002012> (<http://www.ebi.ac.uk/coho/COHO_0002012>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants with poorly controlled asthma randomised in the trial") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16998094+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We conducted a randomized, double-masked, placebo-controlled trial in 489 participants with poorly controlled asthma randomly assigned to placebo, theophylline (300 mg/d), or montelukast (10 mg/d).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002012> "489"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002015> (<http://www.ebi.ac.uk/coho/COHO_0002015>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Look AHEAD randomized overweight or obese adults with type 2 diabetes (2004)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3791615/") Annotation(rdfs:comment "We randomly assigned 5,145 overweight or obese individuals with type 2 diabetes recruited at 16 US centers to intensive lifestyle intervention (the intervention group), which promoted weight loss through decreased calorie intake and increased physical activity, or diabetes support and education (the control group).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002015> "5145"^^xsd:integer)
@@ -9073,6 +9232,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Lut
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "MABCS Macedonian Breast Cancer Study Hospital-based case-control study Macedonia 93 93 93 90 0 0") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002025> "93"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "MABCS Macedonian Breast Cancer Study Hospital-based case-control study Macedonia 93 93 93 90 0 0") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002025> "93"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002029> (<http://www.ebi.ac.uk/coho/COHO_0002029>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "asthmatic children from MAGICS in the case-control dataset of the first asthma GWAS, reused by GABRIEL and TAGC (analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "MAGICS consists of 655 asthmatic children (asthma diagnosed by a pulmonologist) were derived from the Multicenter Asthma Genetics In Childhood Study with a further 73 asthmatics and 694 unaffected individuals (randomly selected) from Phase One of the International Study of Asthma and Allergy in Childhood (ISAAC)78,79 .") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002029> "655"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002031> (<http://www.ebi.ac.uk/coho/COHO_0002031>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "MALOVA ovarian cancer patients; excludes the separately reported 235 borderline tumour patients") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2645422/fullTextXML") Annotation(rdfs:comment "Briefly, preoperative blood samples and tumor tissue samples were obtained from the majority of the 681 OC patients and from the 235 women with borderline ovarian tumor were included in the MALOVA study.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002031> "681"^^xsd:integer)
@@ -9089,6 +9252,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "wom
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "MBCSG Milan Breast Cancer Study Group129,130 Clinic-based recruitment of familial/early onset breast cancer cases ; population-based controls Italy 387 817 366 788 0 0") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002038> "817"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "MBCSG Milan Breast Cancer Study Group129,130 Clinic-based recruitment of familial/early onset breast cancer cases ; population-based controls Italy 387 817 366 788 0 0") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002038> "387"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002041> (<http://www.ebi.ac.uk/coho/COHO_0002041>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "study subjects in the 492 complete case-parent trios of the final GWAS data set (an analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2722731/fullTextXML") Annotation(rdfs:comment "There were 492 complete case-parent trios (1,468 study subjects) in the final analysis data set.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002041> "1468"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002042> (<http://www.ebi.ac.uk/coho/COHO_0002042>)
 
@@ -9160,6 +9327,19 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Mof
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Consenting MoMaTEC patients included at ten centers, May 2001-February 2013") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5542466/fullTextXML") Annotation(rdfs:comment "After obtaining written informed consent, a total of 1372 patients from 10 centers were included in the MoMaTEC study (Molecular Markers in Treatment of Endometrial Cancer, Clinical Trial Identifier NCT00598845) between May 2001 and February 2013.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002080> "1372"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002085> (<http://www.ebi.ac.uk/coho/COHO_0002085>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "children with atopic dermatitis recruited by the time of the 2020 design paper (recruitment ongoing)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC7338239/") Annotation(rdfs:comment "The MPAACH cohort has many strengths including its size (thus far we have recruited 557 participants), rigorous phenotyping of AD, comprehensive biospecimen collection, extensive biomarker determinations, and its longitudinal design.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002085> "557"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002088> (<http://www.ebi.ac.uk/coho/COHO_0002088>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "re-examined MPP participants who had echocardiography, 2002-2006") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7083427/fullTextXML") Annotation(rdfs:comment "In a subsample of 1792 participants, UCG recordings were carried out.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002088> "1792"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002089> (<http://www.ebi.ac.uk/coho/COHO_0002089>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "childhood-onset asthma cases and UK controls genotyped and passing QC in the GABRIEL GWAS (analysed panel), 2010 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260321/") Annotation(rdfs:comment "MRCA-UKC United Kingdom 177 177 (62) — 399 399 (29) —") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002089> "177"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "childhood-onset asthma cases and UK controls genotyped and passing QC in the GABRIEL GWAS (analysed panel), 2010 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260321/") Annotation(rdfs:comment "MRCA-UKC United Kingdom 177 177 (62) — 399 399 (29) —") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002089> "399"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002097> (<http://www.ebi.ac.uk/coho/COHO_0002097>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "MTLGEBCS Montreal Gene-Environment Breast Cancer Study Population-based case-control study Canada 183 366 29 44 0 0") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002097> "366"^^xsd:integer)
@@ -9169,6 +9349,12 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cas
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "MyOvCa women with invasive epithelial ovarian cancer tested in the founding cohort report (2015)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26541979+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "From October 2008 to February 2015, we established a hospital-based cohort of ovarian cancer patients and the germline status of all 218 women with invasive epithelial ovarian cancer was tested using targeted amplification and sequencing of the intron-exon junctions and exonic sequences of BRCA1, BRCA2, PALB2 and TP53.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002103> "218"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002105> (<http://www.ebi.ac.uk/coho/COHO_0002105>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "adults recruited June 2012 to February 2015, NAFLD cases and controls (2012-2015)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://link.springer.com/article/10.1007/s00394-018-1675-4") Annotation(rdfs:comment "The sample consisted of 134 patients with NAFLD and 217 controls.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002105> "134"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "adults recruited June 2012 to February 2015, NAFLD cases and controls (2012-2015)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://link.springer.com/article/10.1007/s00394-018-1675-4") Annotation(rdfs:comment "The sample consisted of 134 patients with NAFLD and 217 controls.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002105> "217"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "adults recruited June 2012 to February 2015, NAFLD cases and controls (2012-2015)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://link.springer.com/article/10.1007/s00394-018-1675-4") Annotation(rdfs:comment "After applying the exclusion criteria, a total of 351 individuals of Caucasian origin were recruited.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002105> "351"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002107> (<http://www.ebi.ac.uk/coho/COHO_0002107>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Nagano breast cancer cases recruited in 2001-2005") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1007/s10549-008-0168-1") Annotation(rdfs:comment "A total of 405 cases (98%) participated in Nagano, and 83 Japanese Brazilians (91%) and 389 non-Japanese Brazilians (99%) in São Paulo.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002107> "405"^^xsd:integer)
@@ -9177,6 +9363,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Nag
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "BRCA1-carrier iCOGS breast-cancer affected and unaffected contribution in PMID:29058716") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3785/MediaObjects/41588_2017_BFng3785_MOESM3_ESM.xlsx") Annotation(rdfs:comment "NAROD | Women's College Research Institute Hereditary Breast and Ovarian Cancer Study | CANADA |  |  |  | 100 | 46") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002111> "46"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "BRCA1-carrier iCOGS breast-cancer affected and unaffected contribution in PMID:29058716") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3785/MediaObjects/41588_2017_BFng3785_MOESM3_ESM.xlsx") Annotation(rdfs:comment "NAROD | Women's College Research Institute Hereditary Breast and Ovarian Cancer Study | CANADA |  |  |  | 100 | 46") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002111> "100"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002112> (<http://www.ebi.ac.uk/coho/COHO_0002112>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "male volunteers aged 21-80 from the greater Boston area enrolled in the closed cohort from 1963") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5010417/fullTextXML") Annotation(rdfs:comment "Briefly, the VA Normative Aging Study is a closed cohort of 2,280 male volunteers from the greater Boston area (Massachusetts), 21–80 years of age at study entry, who enrolled after an initial health screening determined that they were free of known chronic medical conditions.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002112> "2280"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002116> (<http://www.ebi.ac.uk/coho/COHO_0002116>)
 
@@ -9246,6 +9436,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "POA
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "NELCS participants who completed interviews before toenail and data exclusions, 2005-2007") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2801179/fullTextXML") Annotation(rdfs:comment "Of the 454 eligible cases, 24 (5%) could not be reached because of an inaccurate address or phone number, 52 (11%) were too ill to be interviewed, and 101 (22%) refused to participate, which yielded 277 subjects and a 61% participation rate.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002133> "277"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "NELCS participants who completed interviews before toenail and data exclusions, 2005-2007") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2801179/fullTextXML") Annotation(rdfs:comment "A total of 251 controls completed the interview for a 46% participation rate.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002133> "251"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "NELCS participants who completed interviews before toenail and data exclusions, 2005-2007") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2801179/fullTextXML") Annotation(rdfs:comment "Of the 528 participants, we excluded from the analysis 62 who did not provide a toenail sample and 2 (< 1%) whose toenail selenium could not be analyzed.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002133> "528"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002137> (<http://www.ebi.ac.uk/coho/COHO_0002137>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with severe emphysema randomly assigned to lung-volume-reduction surgery or continued medical treatment") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12759479") Annotation(rdfs:comment "A total of 1218 patients with severe emphysema underwent pulmonary rehabilitation and were randomly assigned to undergo lung-volume-reduction surgery or to receive continued medical treatment.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002137> "1218"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002138> (<http://www.ebi.ac.uk/coho/COHO_0002138>)
 
@@ -9454,6 +9648,11 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "PEG
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "PEGEN-BC breast-cancer patients recruited by April 2022") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10013058/fullTextXML") Annotation(rdfs:comment "The PEGEN-BC study is a hospital-based breast cancer cohort that includes 1943 patients diagnosed at the Instituto Nacional de Enfermedades Neoplásicas in Lima, Peru.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002248> "1943"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "PEGEN-BC breast-cancer patients recruited by April 2022") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10013058/fullTextXML") Annotation(rdfs:comment "As of April 2022, we have recruited 1,943 participants from the INEN in Lima, Peru.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002248> "1943"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002249> (<http://www.ebi.ac.uk/coho/COHO_0002249>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated asthma cases and non-asthmatic controls recruited in Cartagena, 2002-2005 (the families recruited through asthmatic probands are not counted)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncomms12522/MediaObjects/41467_2016_BFncomms12522_MOESM1276_ESM.pdf") Annotation(rdfs:comment "A total of 836 unrelated asthma cases and 574 non-asthmatic controls were recruited from the Social Security Clinic and outpatient health centers in Cartagena from 2002 to 2005.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002249> "836"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "unrelated asthma cases and non-asthmatic controls recruited in Cartagena, 2002-2005 (the families recruited through asthmatic probands are not counted)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncomms12522/MediaObjects/41467_2016_BFncomms12522_MOESM1276_ESM.pdf") Annotation(rdfs:comment "A total of 836 unrelated asthma cases and 574 non-asthmatic controls were recruited from the Social Security Clinic and outpatient health centers in Cartagena from 2002 to 2005.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002249> "574"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002251> (<http://www.ebi.ac.uk/coho/COHO_0002251>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "PhACS patients recruited at 16 UK sites, 2008-2013") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7687685/fullTextXML") Annotation(rdfs:comment "Briefly, PhACS was a UK 16-site prospective observational study between 2008 and 2013 that recruited 1470 patients hospitalised with an NSTE-ACS.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002251> "1470"^^xsd:integer)
@@ -9462,6 +9661,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "PhA
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "BRCA1-carrier OncoArray breast-cancer affected and unaffected contribution in PMID:29058716") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3785/MediaObjects/41588_2017_BFng3785_MOESM3_ESM.xlsx") Annotation(rdfs:comment "PBCS | Università di Pisa | ITALY | 39 | 49 |  | 6 | 5") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002256> "49"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "BRCA1-carrier OncoArray breast-cancer affected and unaffected contribution in PMID:29058716") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3785/MediaObjects/41588_2017_BFng3785_MOESM3_ESM.xlsx") Annotation(rdfs:comment "PBCS | Università di Pisa | ITALY | 39 | 49 |  | 6 | 5") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002256> "39"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002258> (<http://www.ebi.ac.uk/coho/COHO_0002258>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants in the PICNICS cohort (newly diagnosed patients, incident and inception cases)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11542283/fullTextXML") Annotation(rdfs:comment "Out of 280 participants in the PICNICS cohort, 198 were included in the analysis at visit 1 (mean 0.26 years from diagnosis), 133 at visit 2 (mean 2.05 years from diagnosis), and 78 at visit 3 (mean 3.73 years from diagnosis); Figure S1.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002258> "280"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002266> (<http://www.ebi.ac.uk/coho/COHO_0002266>)
 
@@ -9513,6 +9716,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "stu
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "study contribution in the 2021 OncoArray analysis, not whole recruitment (2021 analysis)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21287-0/MediaObjects/41467_2021_21287_MOESM1_ESM.pdf") Annotation(rdfs:comment "ProMPT (n=798) Prostate Cancer: Mechanisms of Progression and Treatment Cambridge, UK Population- based 12 786 627 37 791 7 0 156 0.5924") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002289> "786"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "study contribution in the 2021 OncoArray analysis, not whole recruitment (2021 analysis)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21287-0/MediaObjects/41467_2021_21287_MOESM1_ESM.pdf") Annotation(rdfs:comment "ProMPT (n=798) Prostate Cancer: Mechanisms of Progression and Treatment Cambridge, UK Population- based 12 786 627 37 791 7 0 156 0.5924") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002289> "12"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "study contribution in the 2021 OncoArray analysis, not whole recruitment (2021 analysis)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-021-21287-0/MediaObjects/41467_2021_21287_MOESM1_ESM.pdf") Annotation(rdfs:comment "ProMPT (n=798) Prostate Cancer: Mechanisms of Progression and Treatment Cambridge, UK Population- based 12 786 627 37 791 7 0 156 0.5924") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002289> "798"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002290> (<http://www.ebi.ac.uk/coho/COHO_0002290>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with Parkinson's disease evaluated (PROPARK baseline, design reference)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17646625") Annotation(rdfs:comment "A cohort of 420 patients with PD was evaluated for the occurrence of AS, motor and nonmotor symptoms, as well as for demographic and disease-related characteristics.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002290> "420"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002291> (<http://www.ebi.ac.uk/coho/COHO_0002291>)
 
@@ -9595,6 +9802,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "SAB
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Relatives of randomly ascertained probands and spouses in the original SAFHS report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8901667+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Members of 42 extended families were studied, including 1236 first-, second-, and third-degree relatives of randomly ascertained probands and their spouses.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002337> "1236"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002338> (<http://www.ebi.ac.uk/coho/COHO_0002338>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "children born in Manitoba in 1995 (population-based birth cohort from administrative records), 1995 births") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "The Study of Asthma Genes and Environment Study (SAGE5 ) is a population‐based sample of 16,320 children, born in the province of Manitoba, Canada in the year of 1995.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002338> "16320"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002341> (<http://www.ebi.ac.uk/coho/COHO_0002341>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Healthy unrelated SAPHIR participants in the study profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4411770/fullTextXML") Annotation(rdfs:comment "The study comprises 1770 healthy unrelated Caucasian subjects (663 females and 1107 males aged 39-67 years).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002341> "1770"^^xsd:integer)
@@ -9637,6 +9848,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "SEA
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "SECS incident cases and community controls recruited 1997-2003") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2238679/") Annotation(rdfs:comment "This study consisted of 1204 incident endometrial cancer cases diagnosed between 30 and 69 years of age and 1212 age frequency-matched community controls recruited from 1997 to 2003.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002365> "1204"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "SECS incident cases and community controls recruited 1997-2003") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2238679/") Annotation(rdfs:comment "This study consisted of 1204 incident endometrial cancer cases diagnosed between 30 and 69 years of age and 1212 age frequency-matched community controls recruited from 1997 to 2003.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002365> "1212"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002366> (<http://www.ebi.ac.uk/coho/COHO_0002366>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "severe asthma cases retained in the GABRIEL/TAGC GWAS after quality control (analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "After QC a total of 290 subjects were retained in the GWAS analyses.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002366> "290"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002367> (<http://www.ebi.ac.uk/coho/COHO_0002367>)
 
@@ -9782,6 +9997,11 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "BRC
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "SZBCS IHCC-Szczecin Breast Cancer Study155,156 Hospital based case-control study Poland 182 388 157 387 0 0") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002428> "388"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls received for OncoArray genotyping in the 2017 breast cancer study, before QC") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature24284/MediaObjects/41586_2017_BFnature24284_MOESM1_ESM.pdf") Annotation(rdfs:comment "SZBCS IHCC-Szczecin Breast Cancer Study155,156 Hospital based case-control study Poland 182 388 157 387 0 0") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002428> "182"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002431> (<http://www.ebi.ac.uk/coho/COHO_0002431>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "migraine cases and controls from the sixth wave of the Tromsø Study, genotyped") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3598/MediaObjects/41588_2016_BFng3598_MOESM73_ESM.pdf") Annotation(rdfs:comment "660 migraine cases and 2,407 controls were genotyped and in included in this study.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002431> "660"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "migraine cases and controls from the sixth wave of the Tromsø Study, genotyped") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3598/MediaObjects/41588_2016_BFng3598_MOESM73_ESM.pdf") Annotation(rdfs:comment "660 migraine cases and 2,407 controls were genotyped and in included in this study.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002431> "2407"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002433> (<http://www.ebi.ac.uk/coho/COHO_0002433>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Contributing sample in the GLGC 2013 Metabochip study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2797/MediaObjects/41588_2013_BFng2797_MOESM43_ESM.pdf") Annotation(rdfs:comment "TACT (TAICHI)a 173 31.2 64.1 (10.7) 34.3 (8.0) 103.5 (24.3) 180.1 (36.8) 130.0 (74.2) Yes F F Yes PLINK") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002433> "173"^^xsd:integer)
@@ -9827,6 +10047,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "TCG
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "TCPS participants recruited before colonoscopy, 2003-2010") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC7266682/") Annotation(rdfs:comment "In brief, the TCPS was conducted from February 2003 to October 2010 and included 7621 participants recruited from colonoscopy clinics at Vanderbilt University Medical Center and the Tennessee Valley Veterans Affairs Medical Center (Supplemental Figure 1).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002447> "7621"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002449> (<http://www.ebi.ac.uk/coho/COHO_0002449>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with severe or difficult-to-treat asthma enrolled who completed a baseline visit (2001)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14756462+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "A total of 4,756 patients enrolled and completed a baseline visit.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002449> "4756"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002457> (<http://www.ebi.ac.uk/coho/COHO_0002457>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "TIME-CHF enrolled congestive-heart-failure patients (2008)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC7738407/") Annotation(rdfs:comment "TIME-CHF was a randomized controlled trial that took place at 15 centers in Switzerland and Germany from January 2003 to June 2008 that enrolled a total of 622 patients.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002457> "622"^^xsd:integer)
@@ -9845,6 +10069,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "nev
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "TLGS baseline study population in the cohort profile") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6289309/fullTextXML") Annotation(rdfs:comment "The study population comprised 15005 Tehranian children, adolescents, and adults, 44% males and 56% females.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002460> "15005"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002461> (<http://www.ebi.ac.uk/coho/COHO_0002461>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "children born in 1961 and attending school in Tasmania, surveyed at baseline in 1968 (the probands)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12926821/fullTextXML") Annotation(rdfs:comment "Briefly, the baseline survey was carried out to assess the respiratory illnesses of 8583 offspring born in 1961, who were attending schools in Tasmania, Australia, in 1968.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002461> "8583"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002465> (<http://www.ebi.ac.uk/coho/COHO_0002465>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "family-study members retained in the GABRIEL/TAGC GWAS after quality control (analysed subset)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "After QC a total of 681 subjects were retained in the GWAS analyses.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002465> "681"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002471> (<http://www.ebi.ac.uk/coho/COHO_0002471>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "TSDS autopsy samples with genetic data and coronary measurements in 2024") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11525111/fullTextXML") Annotation(rdfs:comment "This study involved 660 cases who had both genetic data and coronary measurements available.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002471> "660"^^xsd:integer)
@@ -9862,6 +10094,11 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cas
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002483> (<http://www.ebi.ac.uk/coho/COHO_0002483>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "consented early-onset AF subjects in the dbGaP/TOPMed case set") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001933.v2.p1") Annotation(rdfs:comment "Total number of consented subjects: 113") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002483> "113"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002486> (<http://www.ebi.ac.uk/coho/COHO_0002486>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with asthma and disease-free controls in the study's GWAS sample (before quality control), 2011 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://link.springer.com/article/10.1134/S0026893311060057") Annotation(rdfs:comment "The study involved 358 unrelated patients with physician-diagnosed bronchial asthma and 369 disease-free control subjects of different ethnicity (Russians, Tatars, and Bashkirs).") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002486> "358"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with asthma and disease-free controls in the study's GWAS sample (before quality control), 2011 report") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://link.springer.com/article/10.1134/S0026893311060057") Annotation(rdfs:comment "The study involved 358 unrelated patients with physician-diagnosed bronchial asthma and 369 disease-free control subjects of different ethnicity (Russians, Tatars, and Bashkirs).") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002486> "369"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002491> (<http://www.ebi.ac.uk/coho/COHO_0002491>)
 
@@ -9990,6 +10227,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "WDS
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "WDS newly diagnosed T2D patients and normal-glucose-tolerance controls in the original profile (2007)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1001127.s008") Annotation(rdfs:comment "The study includes 2,471 participants, 1,063 newly diagnosed T2D patients and 1,408 normal glucose tolerance (NGT) individuals.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0002559> "1408"^^xsd:integer)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "WDS newly diagnosed T2D patients and normal-glucose-tolerance controls in the original profile (2007)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1001127.s008") Annotation(rdfs:comment "The study includes 2,471 participants, 1,063 newly diagnosed T2D patients and 1,408 normal glucose tolerance (NGT) individuals.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002559> "2471"^^xsd:integer)
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002562> (<http://www.ebi.ac.uk/coho/COHO_0002562>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "individuals in the 341 families") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185108/") Annotation(rdfs:comment "341 families; 1,481 individuals") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002562> "1481"^^xsd:integer)
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002563> (<http://www.ebi.ac.uk/coho/COHO_0002563>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cases and controls enrolled in the ongoing case-control study by 1 July 2008") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/api/getPdf?pmcid=PMC2722862") Annotation(rdfs:comment "First, this study is part of our second phase of the genotyping effort from an ongoing breast cancer case–control study (820 cases and 859 controls as of 1 July 2008).") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0002563> "820"^^xsd:integer)
@@ -10029,6 +10270,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Wes
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002584> (<http://www.ebi.ac.uk/coho/COHO_0002584>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "men with newly diagnosed prostate cancer in the hospital-based series, treated August 2004 to August 2011") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2560/MediaObjects/41588_2013_BFng2560_MOESM4_ESM.pdf") Annotation(rdfs:comment "A hospital-based series of 1901 patients with newly diagnosed prostate cancer, who were treated for prostate cancer") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002584> "1901"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002587> (<http://www.ebi.ac.uk/coho/COHO_0002587>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants in the GIANT BMI GWAS (Nmax), an analysed subset") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "ACD | Yonsei Avellino Corneal Dystrophy Study | EAS | 150") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002587> "150"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002588> (<http://www.ebi.ac.uk/coho/COHO_0002588>)
 

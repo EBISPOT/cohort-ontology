@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/mondo_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/mondo/releases/2026-09-01/mondo.owl>)
-Annotation(owl:versionInfo "2026-09-28")
+Annotation(owl:versionInfo "2026-09-29")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -47,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000723>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000724>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000745>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000764>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000771>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000812>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000816>))
@@ -233,6 +234,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004730>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004750>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004784>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004790>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004805>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004846>))
@@ -568,6 +570,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011429>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011786>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011849>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011855>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0011962>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0012038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0012268>))
@@ -616,6 +619,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017595>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018364>))
@@ -653,6 +657,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020122>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020283>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020573>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0020579>))
@@ -745,6 +750,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021945>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0022034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0022205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0022736>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0022742>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0023113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0023369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0023370>))
@@ -817,6 +824,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100313>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100329>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100342>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100574>))
@@ -1216,6 +1224,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000724> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000745> "Cessation of breathing and/or cardiac function.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000745> "cardiac arrest")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000745> <http://purl.obolibrary.org/obo/MONDO_0007263>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0000764> (epithelial-stromal TGFBI dystrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000764> "Any corneal dystrophy (disease) in which the cause of the disease is a mutation in the TGFBI gene.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000764> "epithelial-stromal TGFBI dystrophy")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000764> <http://purl.obolibrary.org/obo/MONDO_0003847>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000764> <http://purl.obolibrary.org/obo/MONDO_0018102>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0000771> (allergic respiratory disease)
 
@@ -2525,6 +2540,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004781> "acute myocardial infarction")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004781> <http://purl.obolibrary.org/obo/MONDO_0005068>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004781> <http://purl.obolibrary.org/obo/MONDO_0020683>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0004784> (allergic asthma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004784> "A asthma with a basis in a pathological type I hypersensitivity reaction.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004784> "allergic asthma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004784> <http://purl.obolibrary.org/obo/MONDO_0000771>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004784> <http://purl.obolibrary.org/obo/MONDO_0004979>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0004790> (fatty liver disease)
 
@@ -4917,6 +4939,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0011849> "p
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0011849> <http://purl.obolibrary.org/obo/MONDO_0002254>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0011849> <http://purl.obolibrary.org/obo/MONDO_0008383>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0011855> (granular corneal dystrophy type II)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0011855> "Type II granular corneal dystrophy (GCDII) is a rare form of stromal corneal dystrophy characterized by irregular-shaped well-demarcated granular deposits in the superficial central corneal stroma, and progressive visual impairment.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/mondo#ABBREVIATION>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "ACD")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/mondo#ABBREVIATION>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "CDA")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "combined granular-lattice corneal dystrophies")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "corneal dystrophy Avellino type")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "corneal dystrophy, AVELLINO type")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "granular and lattice corneal dystrophies")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0011855> "granular-lattice (Avellino) corneal dystrophy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0011855> "granular corneal dystrophy type II")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0011855> <http://purl.obolibrary.org/obo/MONDO_0000764>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0011855> <http://purl.obolibrary.org/obo/MONDO_0020213>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0011962> (endometrial cancer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0011962> "Primary or metastatic malignant neoplasm involving the endometrium (mucous membrane that lines the endometrial cavity).")
@@ -5249,6 +5285,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0018078> "s
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0018078> <http://purl.obolibrary.org/obo/MONDO_0005089>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0018078> <http://purl.obolibrary.org/obo/MONDO_0024637>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0018102> (corneal dystrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0018102> "The term corneal dystrophy embraces a heterogeneous group of bilateral genetically determined non-inflammatory corneal diseases that are usually restricted to the cornea. The designation is imprecise but remains in vogue because of its clinical value.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0018102> "corneal dystrophy")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0018102> <http://purl.obolibrary.org/obo/MONDO_0000942>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0018155> (lateral sclerosis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0018155> "Primary lateral sclerosis (PLS) is an idiopathic non-familial motor neuron disease characterized by slowly progressive upper motor neuron dysfunction leading to spasticity, mild weakness in voluntary muscle movement, hyperreflexia, and loss of motor speech production.")
@@ -5521,6 +5563,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0020128> "motor neuron disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0020128> <http://purl.obolibrary.org/obo/MONDO_0005559>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0020128> <http://purl.obolibrary.org/obo/MONDO_0019056>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0020213> (stromal corneal dystrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0020213> "The stromal corneal dystrophies refer to a group of rare genetically determined corneal dystrophies (CDs) characterized by lesions affecting the corneal stroma, and variable effects on vision depending on the type of dystrophy.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0020213> "stromal corneal dystrophy")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0020213> <http://purl.obolibrary.org/obo/MONDO_0018102>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0020283> (uveitis)
 
@@ -6241,6 +6289,28 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0022205> "pustular psoriasis")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0022205> <http://purl.obolibrary.org/obo/MONDO_0005083>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0022736> (occupational lung disease)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/MONDO_0022736> "ICD9:508.9")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022736> "Occupational inhalation disease")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022736> "Occupational lung disorder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022736> "Occupational pulmonary disease")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022736> "Occupational respiratory disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0022736> "occupational lung disease")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0022736> <http://purl.obolibrary.org/obo/MONDO_0005275>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0022736> <http://purl.obolibrary.org/obo/MONDO_0100366>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0022742> (occupational asthma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0022742> "Asthma attacks caused, triggered, or exacerbated by OCCUPATIONAL EXPOSURE.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022742> "Asthma, Occupational")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022742> "Asthmas, Occupational")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022742> "Industrial asthma")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0022742> "Occupational Asthmas")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0022742> "occupational asthma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0022742> <http://purl.obolibrary.org/obo/MONDO_0004979>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0022742> <http://purl.obolibrary.org/obo/MONDO_0022736>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0023113> (familial colorectal cancer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0023113> "Familial colon cancer is a cluster of colon cancer within a family. Most cases of colon cancer occur sporadically in people with little to no family history of the condition. Approximately 3-5% of colon cancer is considered 'hereditary' and is thought to be caused by an inherited predisposition tocolon cancer that is passed down through a family in an autosomal dominant or autosomal recessive manner. In some of these families, the underlying genetic cause is not known; however, many of these cases are caused by changes (mutations) in the APC , MYH , MLH1 , MSH2 , MSH6 , PMS2 , EPCAM , PTEN , STK11 , SMAD4 , BMPR1A , NTHL1 , POLE , and POLD1 genes (which are associated with hereditary cancer syndromes). An additional 10-30% of people diagnosed with colon cancer have a significant family history of the condition but have no identifiable mutation in a gene known to cause a hereditary predisposition to colon cancer. These clusters of colon cancer are likely due to a combination of gene(s) and other shared factors such as environment and lifestyle. High-risk cancer screening and other preventative measures such as prophylactic surgeries are typically recommended in people who have an increased risk for colon cancer based on their personal and/or family histories.")
@@ -6815,6 +6885,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0100342> "m
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100342> <http://purl.obolibrary.org/obo/MONDO_0002714>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100342> <http://purl.obolibrary.org/obo/MONDO_0020665>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100342> <http://purl.obolibrary.org/obo/MONDO_0021042>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0100366> (occupational disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0100366> "Any disorder that is realized in response to an exposure to occupation.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0100366> "occupational disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100366> <http://purl.obolibrary.org/obo/MONDO_7770010>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0100545> (hereditary neurological disease)
 

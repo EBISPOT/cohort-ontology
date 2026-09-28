@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/example_studies.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-28/components/example_studies.owl>
-Annotation(owl:versionInfo "2026-09-28")
+<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/example_studies.owl>
+Annotation(owl:versionInfo "2026-09-29")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -1719,6 +1719,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001745>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001749>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001750>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001753>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001754>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001755>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001758>))
@@ -1745,6 +1746,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001789>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001790>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001793>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001794>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001796>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001797>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001798>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001799>))
@@ -1819,6 +1821,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001914>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001915>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001916>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001919>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001920>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001922>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001923>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001924>))
@@ -1831,6 +1834,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001932>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001933>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001937>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001940>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001941>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001947>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001948>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0001949>))
@@ -1885,6 +1889,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002033>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002036>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002037>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002038>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002041>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002042>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002044>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002046>))
@@ -1911,6 +1916,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002077>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002080>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002081>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002082>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002085>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002086>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002087>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002088>))
@@ -1962,6 +1968,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002177>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002178>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002182>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002183>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002185>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002187>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002190>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002191>))
@@ -2001,6 +2008,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002242>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002245>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002246>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002248>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002249>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002250>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002251>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002252>))
@@ -2118,11 +2126,13 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002443>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002445>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002447>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002448>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002449>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002450>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002457>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002458>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002459>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002460>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002461>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002462>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002465>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002467>))
@@ -2171,6 +2181,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002554>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002556>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002559>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002561>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002562>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002563>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002564>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002566>))
@@ -9281,10 +9292,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The interaction
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001700> (<http://www.ebi.ac.uk/coho/COHO_0001700>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001700> "PGS000777")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8459648/unicode") Annotation(rdfs:comment "To further test the performance of the PHS score in independent patients (that were not previously used to discover and replicate the progression variants, nor to build and optimize the PHS), we analyzed three new independent cohorts (EPIPARK, DeNoPa; HBS2).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001700> "PMID:33958783")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001702> (<http://www.ebi.ac.uk/coho/COHO_0001702>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic score integrating neurodegenerative and vascular risk informs dementia risk stratification.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40042447") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001702> "PGS005170")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "EPOZ | Epidemiologisch Preventief Onderzoek Zoetermeer | EUR | 416") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001702> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001704> (<http://www.ebi.ac.uk/coho/COHO_0001704>)
 
@@ -9320,6 +9333,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001715> (<http://www.ebi.ac.uk/coho/COHO_0001715>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001715> "PGS005203")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "EXTEND | Exeter 10,000 Study | EUR | 6200") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001715> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001716> (<http://www.ebi.ac.uk/coho/COHO_0001716>)
 
@@ -9346,10 +9360,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Use of a type 1
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001722> (<http://www.ebi.ac.uk/coho/COHO_0001722>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A new polygenic score for refractive error improves detection of children at risk of high myopia but not the prediction of those at risk of myopic macular degeneration.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37055258") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001722> "PGS003860")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association meta-analysis highlights light-induced signaling as a driver for refractive error.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29808027") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0127-7/MediaObjects/41588_2018_127_MOESM1_ESM.pdf") Annotation(rdfs:comment "We utilized control subjects who were part of a larger study on the genetics of Fuchs‟ Endothelial Corneal Dystrophy (FECD)10 .") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001722> "PMID:29808027")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001724> (<http://www.ebi.ac.uk/coho/COHO_0001724>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association of a Primary Open-Angle Glaucoma Genetic Risk Score With Earlier Age at Diagnosis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31436842") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001724> "PGS000350")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide analysis of multi-ancestry cohorts identifies new loci influencing intraocular pressure and susceptibility to glaucoma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25173106") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3087/MediaObjects/41588_2014_BFng3087_MOESM36_ESM.pdf") Annotation(rdfs:comment "The Framingham Eye Study16 (FES) was nested within the Framingham Heart Study (FHS, http://www.framinghamheartstudy.org), which began its first round of extensive physical examinations in 1948 by recruiting 5,209 men and women from the town of Framingham, MA, USA.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001724> "PMID:25173106")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001726> (<http://www.ebi.ac.uk/coho/COHO_0001726>)
 
@@ -9408,6 +9424,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Validating gene
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001745> (<http://www.ebi.ac.uk/coho/COHO_0001745>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Alcohol is neither a risk factor nor a protective factor for sudden cardiac death and/or fatal ventricular arrhythmia: A population-based study with genetic traits and alcohol consumption in the UK Biobank.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38697272") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001745> "PGS019953")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Transancestral GWAS of alcohol dependence reveals common genetic underpinnings with psychiatric disorders.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30482948") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6430207/fullTextXML") Annotation(rdfs:comment "Support for collection of datasets and samples was provided by the Collaborative Study on the Genetics of Alcoholism [COGA; U10 AA008401], the Collaborative Genetic Study of Nicotine Dependence [COGEND; P01 CA089392; see also phs000404.v1.p1], and the Family Study of Cocaine Dependence [FSCD; R01 DA013423, R01 DA019963].") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001745> "PMID:30482948")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001747> (<http://www.ebi.ac.uk/coho/COHO_0001747>)
 
@@ -9421,6 +9438,11 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pan-cancer anal
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001750> (<http://www.ebi.ac.uk/coho/COHO_0001750>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001750> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cockroach sensitivity in Norway: a previously unidentified problem?") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12028118") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12028118+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "In association with the Genetics of Asthma International Network (GAIN) study, we report sensitization to cockroaches and possible association with IgE-mediated diseases in Norway.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001750> "PMID:12028118")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001753> (<http://www.ebi.ac.uk/coho/COHO_0001753>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Dual-specificity phosphatase 1 as a pharmacogenetic modifier of inhaled steroid response among asthmatic patients.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20673984") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20673984+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Study participants with asthma were drawn from the following multiethnic cohorts: the Genetics of Asthma in Latino Americans (GALA) study; the Study of African Americans, Asthma, Genes & Environments (SAGE); and the Study of Asthma Phenotypes and Pharmacogenomic Interactions by Race-ethnicity (SAPPHIRE).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001753> "PMID:20673984")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001754> (<http://www.ebi.ac.uk/coho/COHO_0001754>)
 
@@ -9487,14 +9509,17 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Albuminuria-Rel
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001776> (<http://www.ebi.ac.uk/coho/COHO_0001776>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Contribution of common risk variants to multiple sclerosis in Orkney and Shetland.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34088990") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001776> "PGS000809")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide meta-analysis identifies novel multiple sclerosis susceptibility loci.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22190364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3247076/unicode") Annotation(rdfs:comment "Five strata (IMSGC-US, IMSGC-UK, GeneMSA-US, GeneMSA-NL, and GeneMSA-CH) were taken from a previously published meta-analysis.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001776> "PMID:22190364")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001777> (<http://www.ebi.ac.uk/coho/COHO_0001777>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Contribution of common risk variants to multiple sclerosis in Orkney and Shetland.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34088990") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001777> "PGS000809")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide meta-analysis identifies novel multiple sclerosis susceptibility loci.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22190364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3247076/unicode") Annotation(rdfs:comment "Five strata (IMSGC-US, IMSGC-UK, GeneMSA-US, GeneMSA-NL, and GeneMSA-CH) were taken from a previously published meta-analysis.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001777> "PMID:22190364")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001778> (<http://www.ebi.ac.uk/coho/COHO_0001778>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Contribution of common risk variants to multiple sclerosis in Orkney and Shetland.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34088990") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001778> "PGS000809")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide meta-analysis identifies novel multiple sclerosis susceptibility loci.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22190364") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3247076/unicode") Annotation(rdfs:comment "Five strata (IMSGC-US, IMSGC-UK, GeneMSA-US, GeneMSA-NL, and GeneMSA-CH) were taken from a previously published meta-analysis.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001778> "PMID:22190364")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001779> (<http://www.ebi.ac.uk/coho/COHO_0001779>)
 
@@ -9512,6 +9537,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The Challenge o
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001786> (<http://www.ebi.ac.uk/coho/COHO_0001786>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Use of low-density lipoprotein cholesterol gene score to distinguish patients with polygenic and monogenic familial hypercholesterolaemia: a case-control study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23433573") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001786> "PGS000814")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Biological, clinical and population relevance of 95 loci for blood lipids.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20686565") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature09270/MediaObjects/41586_2010_BFnature09270_MOESM283_ESM.pdf") Annotation(rdfs:comment "Twin samples were drawn from the GenomEUtwin project23 , which is comprised of the Danish, Dutch, Finnish, Italian, Norwegian, and Swedish national twin cohorts, an Australian twin cohort, and the UK-based TwinsUK cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001786> "PMID:20686565")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001787> (<http://www.ebi.ac.uk/coho/COHO_0001787>)
 
@@ -9534,6 +9560,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association of 
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "European polygenic risk score for prediction of breast cancer shows similar performance in Asian women.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32737321") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001794> "PGS000344")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Germline Mutation Status, Pathological Complete Response, and Disease-Free Survival in Triple-Negative Breast Cancer: Secondary Analysis of the GeparSixto Randomized Clinical Trial.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28715532") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28715532+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "The GeparSixto trial provided evidence that the addition of neoadjuvant carboplatin to a regimen consisting of anthracycline, taxane, and bevacizumab increases pathological complete response (pCR) rates in patients with triple-negative breast cancer (TNBC).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001794> "PMID:28715532")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001796> (<http://www.ebi.ac.uk/coho/COHO_0001796>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sequence variants affecting eosinophil numbers associate with asthma and myocardial infarction.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19198610") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.323/MediaObjects/41588_2009_BFng323_MOESM13_ESM.pdf") Annotation(rdfs:comment "The German sib-pair study consisted of two hundred and one families, consisting of at least two children with confirmed clinical asthma.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001796> "PMID:19198610")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001797> (<http://www.ebi.ac.uk/coho/COHO_0001797>)
 
@@ -9619,6 +9649,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cross-ancestry 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001823> (<http://www.ebi.ac.uk/coho/COHO_0001823>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001823> "PGS005204")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM1_ESM.pdf") Annotation(rdfs:comment "Indian Diabetes Prevention Study 3 (IDPP3) (part of Genomic Research Cohorts for CCMB Diabetes Study (GRCCDS))") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001823> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001825> (<http://www.ebi.ac.uk/coho/COHO_0001825>)
 
@@ -9854,15 +9885,21 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genomic and dru
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001915> (<http://www.ebi.ac.uk/coho/COHO_0001915>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Contribution of common risk variants to multiple sclerosis in Orkney and Shetland.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34088990") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001915> "PGS000809")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study of severity in multiple sclerosis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21654844") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3640650/unicode") Annotation(rdfs:comment "The MS subjects were recruited from three clinical sites: 453 cases from the UK (IMSGC UK) and 342 cases from the US (IMSGC US); the remaining 860 MS patients were recruited at Partners MS Center in Boston, MA (BWH).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001915> "PMID:21654844")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001916> (<http://www.ebi.ac.uk/coho/COHO_0001916>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Contribution of common risk variants to multiple sclerosis in Orkney and Shetland.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34088990") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001916> "PGS000809")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study of severity in multiple sclerosis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21654844") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3640650/unicode") Annotation(rdfs:comment "The MS subjects were recruited from three clinical sites: 453 cases from the UK (IMSGC UK) and 342 cases from the US (IMSGC US); the remaining 860 MS patients were recruited at Partners MS Center in Boston, MA (BWH).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001916> "PMID:21654844")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001919> (<http://www.ebi.ac.uk/coho/COHO_0001919>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001919> "PGS005204")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM1_ESM.pdf") Annotation(rdfs:comment "The INDICO gratefully acknowledges the contributions of the participants and the study staff.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001919> "PMID:40691366")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001920> (<http://www.ebi.ac.uk/coho/COHO_0001920>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29273806") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "INDUSTRIAL (the Industrial Cohorts Research Group): The study base consists of several pooled surveys on occupational asthma from Denmark and The Netherlands.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001920> "PMID:29273806")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001922> (<http://www.ebi.ac.uk/coho/COHO_0001922>)
 
@@ -9922,6 +9959,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Development and
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pan-cancer analysis demonstrates that integrating polygenic risk scores with modifiable risk factors improves risk prediction.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33247094") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001940> "PGS000791")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Occupational exposure to glyphosate and risk of lymphoma:results of an Italian multicenter case-control study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33910586") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8082925/fullTextXML") Annotation(rdfs:comment "The “Gene-environment interactions in lymphoma etiology” (ItGxE) multicentre case-control study took place in 2011–2017 in six Italian centres, namely Perugia, Florence, Novara, Verona, Cagliari and Nuoro in Sardinia, and Bari and Taranto in Apulia.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001940> "PMID:33910586")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0001941> (<http://www.ebi.ac.uk/coho/COHO_0001941>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "African ancestry is a risk factor for asthma and high total IgE levels in African admixed populations.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23554133") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4051322/unicode") Annotation(rdfs:comment "A sample of 706 unrelated individuals (177 asthmatics, 529 nonasthmatic controls) was recruited from Kingston, St. Andrew, and St. Catherine, Jamaica as part of the Jamaican Adolescent Asthma Study as described in supplementary materials and methods and in references.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001941> "PMID:23554133")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001947> (<http://www.ebi.ac.uk/coho/COHO_0001947>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001947> "PGS005200")
@@ -9942,6 +9983,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Insights into m
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001954> (<http://www.ebi.ac.uk/coho/COHO_0001954>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001954> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A large-scale, consortium-based genomewide association study of asthma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20860503") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC4260321/") Annotation(rdfs:comment "Karelia Allergy Study Finland 73 33 (61) 40 (0) 75 36 (61) 39 (0)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001954> "PMID:20860503")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001955> (<http://www.ebi.ac.uk/coho/COHO_0001955>)
 
@@ -9992,10 +10034,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "European polyge
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001974> (<http://www.ebi.ac.uk/coho/COHO_0001974>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk score for predicting weight loss after bariatric surgery.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30185664") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001974> "PGS004864")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "DNA methylation of lipid-related genes affects blood lipid levels.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25583993") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25583993+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Eight associations were confirmed by replication in the Cooperative Health Research in the Region of Augsburg F3 study (n=499) and in the Invecchiare in Chianti, Aging in the Chianti Area study (n=472).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001974> "PMID:25583993")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001975> (<http://www.ebi.ac.uk/coho/COHO_0001975>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk score for predicting weight loss after bariatric surgery.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30185664") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001975> "PGS004864")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association between DNA Methylation in Whole Blood and Measures of Glucose Metabolism: KORA F4 Study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27019061") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27019061+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Therefore, we performed an epigenome-wide association study for measures of glucose metabolism in whole blood samples of the population-based Cooperative Health Research in the Region of Augsburg F4 study using the Illumina HumanMethylation 450 BeadChip.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001975> "PMID:27019061")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001976> (<http://www.ebi.ac.uk/coho/COHO_0001976>)
 
@@ -10004,10 +10048,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001977> (<http://www.ebi.ac.uk/coho/COHO_0001977>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk score for predicting weight loss after bariatric surgery.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30185664") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001977> "PGS004864")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide meta-analysis identifies 11 new loci for anthropometric traits and provides insights into genetic architecture.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23563607") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2606/MediaObjects/41588_2013_BFng2606_MOESM37_ESM.pdf") Annotation(rdfs:comment "KORA S3 and S4 - The KORA Augsburg studies were financed by the Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany and supported by grants from the German Federal Ministry of Education and Research (BMBF).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001977> "PMID:23563607")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001978> (<http://www.ebi.ac.uk/coho/COHO_0001978>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk score for predicting weight loss after bariatric surgery.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30185664") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001978> "PGS004864")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide meta-analysis identifies 11 new loci for anthropometric traits and provides insights into genetic architecture.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23563607") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2606/MediaObjects/41588_2013_BFng2606_MOESM37_ESM.pdf") Annotation(rdfs:comment "KORA S3 and S4 - The KORA Augsburg studies were financed by the Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany and supported by grants from the German Federal Ministry of Education and Research (BMBF).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001978> "PMID:23563607")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001979> (<http://www.ebi.ac.uk/coho/COHO_0001979>)
 
@@ -10017,10 +10063,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Large-Scale Gen
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001980> (<http://www.ebi.ac.uk/coho/COHO_0001980>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001980> "PGS005202")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "KSCS | Kangbuk Samsung Cohort Study | EAS | 2053") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001980> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001981> (<http://www.ebi.ac.uk/coho/COHO_0001981>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001981> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29273806") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "KSMU: is a population‐based case‐control study of adult cases of asthma and controls matched for age and sex.74,75 A total of 429 unrelated subjects were recruited in this study, (215 patients with asthma and 214 controls).The studysubjects were of Russian origin from Central Russia.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001981> "PMID:29273806")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001986> (<http://www.ebi.ac.uk/coho/COHO_0001986>)
 
@@ -10101,10 +10149,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Assessing Lung 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002011> (<http://www.ebi.ac.uk/coho/COHO_0002011>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pharmacogenetic Polygenic Risk Score for Bronchodilator Response in Children and Adolescents with Asthma: Proof-of-Concept.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33923870") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002011> "PGS000769")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association analysis in asthma subjects identifies SPATS2L as a novel bronchodilator response gene.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22792082") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22792082+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "A genome-wide association study (GWAS) of BDR, quantified as percent change in baseline FEV(1) after administration of a β(2)-agonist, was performed with 1,644 non-Hispanic white asthmatic subjects from six drug clinical trials: CAMP, LOCCS, LODO, a medication trial conducted by Sepracor, CARE, and ACRN.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002011> "PMID:22792082")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002012> (<http://www.ebi.ac.uk/coho/COHO_0002012>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pharmacogenetic Polygenic Risk Score for Bronchodilator Response in Children and Adolescents with Asthma: Proof-of-Concept.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33923870") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002012> "PGS000769")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association analysis in asthma subjects identifies SPATS2L as a novel bronchodilator response gene.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22792082") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22792082+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "A genome-wide association study (GWAS) of BDR, quantified as percent change in baseline FEV(1) after administration of a β(2)-agonist, was performed with 1,644 non-Hispanic white asthmatic subjects from six drug clinical trials: CAMP, LOCCS, LODO, a medication trial conducted by Sepracor, CARE, and ACRN.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002012> "PMID:22792082")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002015> (<http://www.ebi.ac.uk/coho/COHO_0002015>)
 
@@ -10137,6 +10187,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002029> (<http://www.ebi.ac.uk/coho/COHO_0002029>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002029> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A large-scale, consortium-based genomewide association study of asthma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20860503") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/api/getPdf?pmcid=PMC4260321") Annotation(rdfs:comment "Alt Fq denotes alternative allele frequency, CI confidence interval, and Ref reference allele. † The nominal gene was taken from the Illumina SNP database. ‡ Position is based on the number of base pairs from the start of the chromosome. § The rs3771166 SNP was imputed in the MRC Asthma and United Kingdom Control panel (MRCA-UKC) and in the Multicenter Asthma Genetics in Childhood Study (MAGICS) panel.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002029> "PMID:20860503")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002031> (<http://www.ebi.ac.uk/coho/COHO_0002031>)
 
@@ -10160,6 +10211,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Anastrozole Aro
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Combination of a 15-SNP Polygenic Risk Score and Classical Risk Factors for the Prediction of Breast Cancer Risk in Cypriot Women.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34572793") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002038> "PGS001778")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study identifies 32 novel breast cancer susceptibility loci from overall and subtype-specific analyses.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32424353") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM1_ESM.pdf") Annotation(rdfs:comment "MBCSG (Milan Breast Cancer Study Group): Irene Feroce, Aliana Guerrieri Gonzaga, Monica Marabelli and and the personnel of the Cogentech Cancer Genetic Test Laboratory.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002038> "PMID:32424353")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002041> (<http://www.ebi.ac.uk/coho/COHO_0002041>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification of ATPAF1 as a novel candidate gene for asthma in children.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21696813") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185108/") Annotation(rdfs:comment "No SNPs reached significance in any of the populations of Hispanic descent (CAMP and CARE Hispanic, GALA Mexican or Puerto Rican, and Mexico Childhood Asthma Study families) (Table II).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002041> "PMID:21696813")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002042> (<http://www.ebi.ac.uk/coho/COHO_0002042>)
 
@@ -10275,6 +10330,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A new 165-SNP l
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification of common genetic risk variants for autism spectrum disorder.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30804558") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002082> "PGS000327")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002085> (<http://www.ebi.ac.uk/coho/COHO_0002085>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Filaggrin loss-of-function variants are associated with atopic dermatitis phenotypes in a diverse, early-life prospective cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38564302") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11141906/fullTextXML") Annotation(rdfs:comment "We performed deep sequencing of the FLG gene in 438 individuals from MPAACH, an early-life cohort of children with AD.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002085> "PMID:38564302")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002086> (<http://www.ebi.ac.uk/coho/COHO_0002086>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Minimal phenotyping yields genome-wide association signals of low specificity for major depression.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32231276") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002086> "PGS000138")
@@ -10287,10 +10346,12 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic predi
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002088> (<http://www.ebi.ac.uk/coho/COHO_0002088>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002088> "PGS005203")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "Broad Bayer MPP-echo | The Malmö Preventive Project echo study | EUR") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002088> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002089> (<http://www.ebi.ac.uk/coho/COHO_0002089>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002089> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A large-scale, consortium-based genomewide association study of asthma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20860503") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/api/getPdf?pmcid=PMC4260321") Annotation(rdfs:comment "Alt Fq denotes alternative allele frequency, CI confidence interval, and Ref reference allele. † The nominal gene was taken from the Illumina SNP database. ‡ Position is based on the number of base pairs from the start of the chromosome. § The rs3771166 SNP was imputed in the MRC Asthma and United Kingdom Control panel (MRCA-UKC) and in the Multicenter Asthma Genetics in Childhood Study (MAGICS) panel.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002089> "PMID:20860503")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002092> (<http://www.ebi.ac.uk/coho/COHO_0002092>)
 
@@ -10321,6 +10382,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "BRCA Testing in
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002105> (<http://www.ebi.ac.uk/coho/COHO_0002105>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002105> "PGS005203")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM3_ESM.xlsx") Annotation(rdfs:comment "NAFLD | NAFLD study | EUR | 449") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002105> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002107> (<http://www.ebi.ac.uk/coho/COHO_0002107>)
 
@@ -10339,6 +10401,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002112> (<http://www.ebi.ac.uk/coho/COHO_0002112>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic obstructive pulmonary disease and related phenotypes: polygenic risk scores in population-based and case-control cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32649918") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002112> "PGS001800")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic obstructive pulmonary disease and related phenotypes: polygenic risk scores in population-based and case-control cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32649918") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7429152/fullTextXML") Annotation(rdfs:comment "Case-control studies included COPDGene (non-Hispanic white and African American participants),23 ECLIPSE,24 NETT25 and Normative Aging Study (NAS),26 SPIROMICS,27, 28 and the Lung Health Study (LHS).29, 30 Population-based studies included MESA (African American, non-Hispanic white, Hispanic, and Chinese participants),31, 32 Cardiovascular Health Study (CHS; African American and European ancestry participants),33 the Rotterdam Study (all three cohorts),34 and a study by Kangwon University.35 For lung-function growth patterns, we did an analysis using individuals in the Childhood Asthma Management Program (CAMP).18 CAMP was a randomised placebo-controlled trial of anti-inflammatory") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002112> "PMID:32649918")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002115> (<http://www.ebi.ac.uk/coho/COHO_0002115>)
 
@@ -10411,6 +10474,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Large-scale ass
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002137> (<http://www.ebi.ac.uk/coho/COHO_0002137>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic obstructive pulmonary disease and related phenotypes: polygenic risk scores in population-based and case-control cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32649918") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002137> "PGS001800")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Chronic obstructive pulmonary disease and related phenotypes: polygenic risk scores in population-based and case-control cohorts.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32649918") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7429152/fullTextXML") Annotation(rdfs:comment "Case-control studies included COPDGene (non-Hispanic white and African American participants),23 ECLIPSE,24 NETT25 and Normative Aging Study (NAS),26 SPIROMICS,27, 28 and the Lung Health Study (LHS).29, 30") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002137> "PMID:32649918")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002138> (<http://www.ebi.ac.uk/coho/COHO_0002138>)
 
@@ -10502,6 +10566,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations of
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pan-cancer analysis demonstrates that integrating polygenic risk scores with modifiable risk factors improves risk prediction.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33247094") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002183> "PGS000786")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "GWAS meta-analysis of 16 852 women identifies new susceptibility locus for endometrial cancer.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27008869") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/api/getPdf?pmcid=PMC5868213") Annotation(rdfs:comment "Meta-analysis of GWAS results from the Australian National Endometrial Cancer Study (ANECS), the US Epidemiology of Endometrial Cancer Consortium (E2C2), the UK National Study of Endometrial Cancer Genetics (NSECG) and the UK Studies of Epidemiology and Risk factors in Cancer Heredity (SEARCH) in 4907 cases and 11 945 controls of European ancestry examined 9 486 271 SNPs for association with risk of EC.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002183> "PMID:27008869")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002185> (<http://www.ebi.ac.uk/coho/COHO_0002185>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A sequence variant on 17q21 is associated with age at onset and severity of asthma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20372189") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fejhg.2010.38/MediaObjects/41431_2010_BFejhg201038_MOESM31_ESM.pdf") Annotation(rdfs:comment "Childhood asthma cases (n=57) were included by using index cases from the Nottingham sib pair asthma study12 and additional adult asthma cases were recruited from an ongoing study of asthma severity (N=141).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002185> "PMID:20372189")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002187> (<http://www.ebi.ac.uk/coho/COHO_0002187>)
 
@@ -10682,6 +10750,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A polygenic ris
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A Polygenic Risk Score for Breast Cancer in US Latinas and Latin American Women.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31553449") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002248> "PGS000317")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Breast cancer subtype and clinical characteristics in women from Peru.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36925912") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10013058/fullTextXML") Annotation(rdfs:comment "The PEGEN-BC study is a hospital-based breast cancer cohort that includes 1943 patients diagnosed at the Instituto Nacional de Enfermedades Neoplásicas in Lima, Peru.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002248> "PMID:36925912")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002249> (<http://www.ebi.ac.uk/coho/COHO_0002249>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association study in African-admixed populations across the Americas recapitulates asthma risk loci in non-African populations.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30787307") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6382865/fullTextXML") Annotation(rdfs:comment "While this association was observed in multiple African American samples, the strongest effects were observed in three non-U.S. studies from Barbados (BAGS), Cartagena, Colombia (PGCA), and Puerto Rico (GALA II; Supplementary Fig. 15).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002249> "PMID:30787307")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002250> (<http://www.ebi.ac.uk/coho/COHO_0002250>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prediction of Parkinson's Disease Risk Based on Genetic Profile and Established Risk Factors.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34440451") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002250> "PGS001774")
@@ -10702,6 +10774,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002258> (<http://www.ebi.ac.uk/coho/COHO_0002258>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002258> "PGS000777")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8459648/unicode") Annotation(rdfs:comment "HBS, Arizona Study of Aging/Brain and Body Donation Program, NET-PD LS1, CamPaIGN, PICNICS, DIGPD, PDBP, PIB, ParkWest, PROPARK and PROPARK-C cohorts comprised the discovery population and DATATOP, PPMI, PreCEPT and Tartu the replication population.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002258> "PMID:33958783")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002260> (<http://www.ebi.ac.uk/coho/COHO_0002260>)
 
@@ -10785,6 +10858,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic hazar
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002290> (<http://www.ebi.ac.uk/coho/COHO_0002290>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002290> "PGS000777")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide survival study identifies a novel synaptic locus and polygenic score for cognitive progression in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33958783") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC8459648/") Annotation(rdfs:comment "HBS, Arizona Study of Aging/Brain and Body Donation Program, NET-PD LS1, CamPaIGN, PICNICS, DIGPD, PDBP, PIB, ParkWest, PROPARK and PROPARK-C cohorts comprised the discovery population and DATATOP, PPMI, PreCEPT and Tartu the replication population.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002290> "PMID:33958783")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002291> (<http://www.ebi.ac.uk/coho/COHO_0002291>)
 
@@ -10917,6 +10991,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multi-ancestry 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002338> (<http://www.ebi.ac.uk/coho/COHO_0002338>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002338> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29273806") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "The Study of Asthma Genes and Environment Study (SAGE5 ) is a population‐based sample of 16,320 children, born in the province of Manitoba, Canada in the year of 1995.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002338> "PMID:29273806")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002340> (<http://www.ebi.ac.uk/coho/COHO_0002340>)
 
@@ -10985,6 +11060,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Interaction of 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002366> (<http://www.ebi.ac.uk/coho/COHO_0002366>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002366> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A large-scale, consortium-based genomewide association study of asthma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20860503") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/api/getPdf?pmcid=PMC4260321") Annotation(rdfs:comment "We did find a suggestive association with rs1837253 on chromosome 5, situated within the TSLP gene, among patients with severe asthma in the SEVERE study (P = 3×10−6; odds ratio, 0.56), but this association was not replicated among patients with severe asthma in the AUGOSA (Asthma UK Genetics of Severe Asthma) study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002366> "PMID:20860503")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002367> (<http://www.ebi.ac.uk/coho/COHO_0002367>)
 
@@ -11007,6 +11083,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prediction of b
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002374> (<http://www.ebi.ac.uk/coho/COHO_0002374>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pharmacogenetic Polygenic Risk Score for Bronchodilator Response in Children and Adolescents with Asthma: Proof-of-Concept.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33923870") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002374> "PGS000769")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association analysis in asthma subjects identifies SPATS2L as a novel bronchodilator response gene.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22792082") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3390407/") Annotation(rdfs:comment "and subsets of clinical trials within the Childhood Asthma Research and Education (CARE) network [38], and the Asthma Clinical Research Network (ACRN) [39] participating in the NHLBI SNP Health Association Resource (SHARe) Asthma Resource project (SHARP).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002374> "PMID:22792082")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002375> (<http://www.ebi.ac.uk/coho/COHO_0002375>)
 
@@ -11148,6 +11225,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Improving Genet
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002431> (<http://www.ebi.ac.uk/coho/COHO_0002431>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002431> "PGS005203")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM1_ESM.pdf") Annotation(rdfs:comment "Tromso-6 Migraine (TromsoMig)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002431> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002433> (<http://www.ebi.ac.uk/coho/COHO_0002433>)
 
@@ -11203,9 +11281,14 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Meat and meat-m
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A combined risk score enhances prediction of type 1 diabetes among susceptible children.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32770166") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002448> "PGS000024")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002449> (<http://www.ebi.ac.uk/coho/COHO_0002449>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study of asthma identifies RAD50-IL13 and HLA-DR/DQ regions.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20159242") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2824608/") Annotation(rdfs:comment "In this study, we performed GWAS of asthma in The Epidemiology and Natural History of Asthma: Outcomes and Treatment Regimens (TENOR) population of severe or difficult to treat asthmatics to search for novel genes and to confirm previously identified genes involved in asthma.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002449> "PMID:20159242")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002450> (<http://www.ebi.ac.uk/coho/COHO_0002450>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Association of a Primary Open-Angle Glaucoma Genetic Risk Score With Earlier Age at Diagnosis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31436842") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002450> "PGS000350")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide analysis of multi-ancestry cohorts identifies new loci influencing intraocular pressure and susceptibility to glaucoma.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25173106") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4177225/fullTextXML") Annotation(rdfs:comment "The discovery cohorts included 27,558 individuals of European ancestry from 14 studies (ALIENOR, BATS, BMES,29,30 ERF,31,32 Framingham Family Study,33 GHS1, GHS2, ORCADES,34 RAINE, 35-37 RS-I, RS-II, RS-III,38 TEST39 and TwinsUK40).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002450> "PMID:25173106")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002457> (<http://www.ebi.ac.uk/coho/COHO_0002457>)
 
@@ -11225,6 +11308,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Application of competing risks models in cardiovascular mortality research: findings from the Tehran lipid and glucose study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42488319") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42488319+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "This study aimed to provide more accurate estimates of associations between risk factors and CVD mortality by applying competing risk models within the Tehran Lipid and Glucose Study cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002460> "PMID:42488319")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002461> (<http://www.ebi.ac.uk/coho/COHO_0002461>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Childhood eczema and asthma incidence and persistence: a cohort study from childhood to middle age.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18572229") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18572229+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Data were gathered from the 1968, 1974, and 2004 surveys of the Tasmanian Longitudinal Health Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002461> "PMID:18572229")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002462> (<http://www.ebi.ac.uk/coho/COHO_0002462>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "European polygenic risk score for prediction of breast cancer shows similar performance in Asian women.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32737321") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002462> "PGS000344")
@@ -11232,6 +11319,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "European polyge
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002465> (<http://www.ebi.ac.uk/coho/COHO_0002465>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002465> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29273806") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "TOMSK: Is a population‐based family study conducted by the Research Institute of Medical Genetics and Siberian State Medical University (Tomsk, Russia) from 1998 onwards.88,89 Both nuclear families and extended pedigrees were recruited through atopic bronchial asthmatic probands.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002465> "PMID:29273806")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002467> (<http://www.ebi.ac.uk/coho/COHO_0002467>)
 
@@ -11276,6 +11364,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Photoreceptor L
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002486> (<http://www.ebi.ac.uk/coho/COHO_0002486>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic risk and the development and course of asthma: an analysis of data from a four-decade longitudinal study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24429243") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002486> "PGS000037")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Multiancestry association study identifies new asthma risk loci that colocalize with immune-cell enhancer marks.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29273806") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-017-0014-7/MediaObjects/41588_2017_14_MOESM1_ESM.pdf") Annotation(rdfs:comment "UFA:Isapopulation‐basedcase‐controlstudyofasthmacasesandcontrolsmatchedonageandsex.Cases are unrelated patients with physician‐diagnosed asthma and controls disease‐free.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002486> "PMID:29273806")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002487> (<http://www.ebi.ac.uk/coho/COHO_0002487>)
 
@@ -11441,6 +11530,10 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification 
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic scores of diabetes-related traits in subgroups of type 2 diabetes in India: a cohort study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37492423") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002561> "PGS000832")
 
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002562> (<http://www.ebi.ac.uk/coho/COHO_0002562>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification of ATPAF1 as a novel candidate gene for asthma in children.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21696813") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3185108/") Annotation(rdfs:comment "Transmission disequilibrium tests (TDT) in the Wessex replication population confirmed the association of rs2275380 with asthma diagnosis (Table II).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002562> "PMID:21696813")
+
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002563> (<http://www.ebi.ac.uk/coho/COHO_0002563>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Improved polygenic risk prediction models for breast cancer subtypes in women of African ancestry.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41629673") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002563> "PGS005378")
@@ -11522,6 +11615,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Risk of Breast 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002587> (<http://www.ebi.ac.uk/coho/COHO_0002587>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002587> "PGS005202")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Polygenic prediction of body mass index and obesity through the life course and across ancestries.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40691366") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41591-025-03827-z/MediaObjects/41591_2025_3827_MOESM1_ESM.pdf") Annotation(rdfs:comment "Yonsei Avellino Corneal Dystrophy Study (ACD)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002587> "PMID:40691366")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002588> (<http://www.ebi.ac.uk/coho/COHO_0002588>)
 
