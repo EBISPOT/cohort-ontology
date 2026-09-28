@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/ecto_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ecto/releases/2026-07-28/ecto.owl>)
-Annotation(owl:versionInfo "2026-09-27")
+Annotation(owl:versionInfo "2026-09-28")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -80,12 +80,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900332>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900406>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900407>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_0900473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_1000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000076>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_2000097>))
@@ -134,9 +136,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_8000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_8000054>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_8000061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000172>))
@@ -152,14 +156,17 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000271>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000284>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000308>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000409>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000521>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000533>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000945>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9000946>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001347>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001620>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9001630>))
@@ -175,6 +182,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002071>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECTO_9002355>))
@@ -649,6 +657,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0900407> "ex
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0900407> <http://purl.obolibrary.org/obo/ECTO_0900042>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0900407> <http://purl.obolibrary.org/obo/ECTO_9000190>)
 
+# Class: <http://purl.obolibrary.org/obo/ECTO_0900473> (exposure to sodium chloride via ingestion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_0900473> "An exposure to sodium chloride via ingestion route.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_0900473> "exposure to sodium chloride via ingestion")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0900473> <http://purl.obolibrary.org/obo/ECTO_0900042>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_0900473> <http://purl.obolibrary.org/obo/ECTO_9001347>)
+
 # Class: <http://purl.obolibrary.org/obo/ECTO_1000000> (exposure to environmental condition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_1000000> "A exposure event involving the interaction of an exposure receptor to the condition of environmental condition.")
@@ -684,6 +699,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECTO_2000065> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_2000068> "An exposure to dietary intervention.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_2000068> "exposure to dietary intervention")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_2000068> <http://purl.obolibrary.org/obo/ECTO_2000000>)
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_2000073> (exposure to high fat diet intake)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_2000073> "An exposure to high fat diet intake.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_2000073> "exposure to high fat diet intake")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_2000073> <http://purl.obolibrary.org/obo/ECTO_2000068>)
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_2000076> (exposure to pregnancy diet intake)
 
@@ -975,6 +996,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000010> "exposure to estrogens")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000010> <http://purl.obolibrary.org/obo/ECTO_9002127>)
 
+# Class: <http://purl.obolibrary.org/obo/ECTO_9000021> (exposure to alkali metal salt)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000021> "An exposure to alkali metal salt.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000021> "exposure to alkali metal salt")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000021> <http://purl.obolibrary.org/obo/ECTO_9000409>)
+
 # Class: <http://purl.obolibrary.org/obo/ECTO_9000026> (exposure to alcohol)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000026> "An exposure to alcohol.")
@@ -993,6 +1020,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000032> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000033> "An exposure to asbestos.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000033> "exposure to asbestos")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000033> <http://purl.obolibrary.org/obo/ECTO_0000231>)
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_9000044> (exposure to ketone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000044> "An exposure to ketone.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000044> "exposure to ketone")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000044> <http://purl.obolibrary.org/obo/ECTO_0000135>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000044> <http://purl.obolibrary.org/obo/ECTO_0000371>)
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_9000077> (exposure to chlorine)
 
@@ -1094,6 +1128,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000404> "exposure to nitrogen")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000404> <http://purl.obolibrary.org/obo/ECTO_0000231>)
 
+# Class: <http://purl.obolibrary.org/obo/ECTO_9000409> (exposure to salt)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000409> "An exposure to salt.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000409> "exposure to salt")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000409> <http://purl.obolibrary.org/obo/ECTO_0000231>)
+
 # Class: <http://purl.obolibrary.org/obo/ECTO_9000433> (exposure to polycyclic arene)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000433> "An exposure to polycyclic arene.")
@@ -1114,6 +1154,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000533> "exposure to organofluorine compound")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000533> <http://purl.obolibrary.org/obo/ECTO_0000135>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000533> <http://purl.obolibrary.org/obo/ECTO_9001124>)
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_9000553> (exposure to chlordecone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9000553> "An exposure to chlordecone.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9000553> "exposure to chlordecone")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000553> <http://purl.obolibrary.org/obo/ECTO_0001152>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9000553> <http://purl.obolibrary.org/obo/ECTO_9000044>)
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_9000906> (exposure to phthalate ester)
 
@@ -1145,6 +1192,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001124> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9001227> "An exposure to phosphorus molecular entity.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9001227> "exposure to phosphorus")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001227> <http://purl.obolibrary.org/obo/ECTO_0000231>)
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_9001347> (exposure to sodium chloride)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9001347> "An exposure to sodium chloride.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9001347> "exposure to sodium chloride")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001347> <http://purl.obolibrary.org/obo/ECTO_0000135>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001347> <http://purl.obolibrary.org/obo/ECTO_9000021>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001347> <http://purl.obolibrary.org/obo/ECTO_9000077>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9001347> <http://purl.obolibrary.org/obo/ECTO_9000172>)
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_9001353> (exposure to phenols)
 
@@ -1238,6 +1294,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9002126> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9002127> "An exposure to sex hormone.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9002127> "exposure to sex hormone")
 SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9002127> <http://purl.obolibrary.org/obo/ECTO_0000516>)
+
+# Class: <http://purl.obolibrary.org/obo/ECTO_9002138> (exposure to glyphosate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECTO_9002138> "An exposure to glyphosate.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECTO_9002138> "exposure to glyphosate")
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9002138> <http://purl.obolibrary.org/obo/ECTO_0000371>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9002138> <http://purl.obolibrary.org/obo/ECTO_9000190>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECTO_9002138> <http://purl.obolibrary.org/obo/ECTO_9001227>)
 
 # Class: <http://purl.obolibrary.org/obo/ECTO_9002148> (exposure to polycyclic hydrocarbon)
 

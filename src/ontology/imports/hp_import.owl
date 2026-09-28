@@ -72,6 +72,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002637>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002665>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002715>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002795>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0002977>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003110>))
@@ -89,7 +90,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004936>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004942>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004970>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0005115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0005162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0005181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0006536>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0006704>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0006932>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0007364>))
@@ -129,6 +132,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0020347>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025169>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025423>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025502>))
@@ -138,6 +142,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0025780>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030858>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030872>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030956>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0030962>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0031501>))
@@ -668,6 +673,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002715> "Abnormality of the immune system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002715> <http://purl.obolibrary.org/obo/HP_0000118>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0002795> (Abnormal respiratory system physiology)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002795> "Abnormal function of the respiratory system.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0002795> "Fyler:4200")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002795> "Impaired pulmonary function")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002795> "Respiratory problem")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002795> "Abnormal respiratory system physiology")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0002795> <http://purl.obolibrary.org/obo/HP_0002086>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0002977> (Aplasia/Hypoplasia involving the central nervous system)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002977> "Absence or underdevelopment of tissue in the central nervous system.")
@@ -783,11 +797,23 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005115> "Supraventricular arrhythmia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0005115> <http://purl.obolibrary.org/obo/HP_0011675>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0005162> (Abnormal left ventricular function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005162> "Inability of the left ventricle to perform its normal physiologic function. Failure is either due to an inability to contract the left ventricle or the inability to relax completely and fill with blood during diastole.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005162> "Abnormal left ventricular function")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0005162> <http://purl.obolibrary.org/obo/HP_0030872>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0005181> (Premature coronary artery atherosclerosis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005181> "Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries before age of 45.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005181> "Premature coronary artery atherosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0005181> <http://purl.obolibrary.org/obo/HP_0001677>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0006536> (Airway obstruction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006536> "Obstruction of conducting airways of the lung.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0006536> "Airway obstruction")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0006536> <http://purl.obolibrary.org/obo/HP_0002795>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0006704> (Abnormal coronary artery morphology)
 
@@ -1034,6 +1060,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025142> "Constitutional symptom")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025142> <http://purl.obolibrary.org/obo/HP_0000118>)
 
+# Class: <http://purl.obolibrary.org/obo/HP_0025169> (Left ventricular systolic dysfunction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025169> "Abnormality of left ventricular contraction, often defined operationally as an ejection fraction of less than 40 percent.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025169> "Left ventricular systolic dysfunction")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0025169> <http://purl.obolibrary.org/obo/HP_0005162>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0025323> (Abnormal arterial physiology)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025323> "An anomaly of arterial function.")
@@ -1090,6 +1122,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0030680> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030858> "When an activity, substance, object, or behavior becomes a major focus of a person's life, excluding other activities, or has begun to harm the individual or others physically, mentally, or socially, it can be considered addictive behavior. A person can become addicted or compulsively engaged with anything.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030858> "Addictive behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030858> <http://purl.obolibrary.org/obo/HP_5200241>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0030872> (Abnormal cardiac ventricular function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030872> "An abnormality of the cardiac ventricular function.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030872> "Abnormal cardiac ventricular function")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0030872> <http://purl.obolibrary.org/obo/HP_0011025>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030956> (Abnormality of cardiovascular system electrophysiology)
 

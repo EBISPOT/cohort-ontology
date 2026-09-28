@@ -17,6 +17,10 @@ Source:
                                          quote was found verbatim in the source,
                                          and a note
 
+Optional participants quote, cases quote and controls quote columns override
+the shared quote for that number, when a paper reports its counts in separate
+passages. They use the same source and verification status as the shared quote.
+
 A row with no number gives nothing. The quote is attached only where the check
 found it verbatim in its source ("quote verified" is yes); otherwise the number
 stands with its source and note alone, as with locations. Every number is
@@ -70,7 +74,9 @@ def main():
             out = [r["ID"], "owl:NamedIndividual", t["label"]]
             for k, _ in NUMBERS:
                 v = numbers.get(k, "")
-                out += [v, quote if v else "", r["source"].strip() if v else "", note(r) if v else ""]
+                specific_quote = (r.get(f"{k} quote") or "").strip()
+                evidence = (specific_quote or quote) if r["quote verified"] == "yes" else ""
+                out += [v, evidence if v else "", r["source"].strip() if v else "", note(r) if v else ""]
             rows.append(out)
     rows.sort(key=lambda x: x[0])
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:

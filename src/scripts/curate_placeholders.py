@@ -194,7 +194,14 @@ def main():
 
     # --- names after the run
     def add(lst, label, s, acr, have=()):
-        if s and s != label and s not in have and all(s != e for e, _ in lst):
+        if not s or s == label:
+            return
+        for i, (existing, is_acronym) in enumerate(lst):
+            if s == existing:
+                # A checked acronym may already be an ordinary placeholder synonym.
+                lst[i] = (s, is_acronym or acr)
+                return
+        if s not in have:
             lst.append((s, acr))
 
     names = {}  # curated term -> [(name, is_acronym)]
