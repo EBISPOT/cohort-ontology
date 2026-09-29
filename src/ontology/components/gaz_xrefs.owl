@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/gaz_xrefs.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-25/components/gaz_xrefs.owl>
-Annotation(owl:versionInfo "2026-09-25")
+<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/gaz_xrefs.owl>
+Annotation(owl:versionInfo "2026-09-29")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
@@ -99,6 +99,7 @@ Declaration(NamedIndividual(<http://dbpedia.org/resource/Northern_America>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Norway>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Oceania>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Pakistan>))
+Declaration(NamedIndividual(<http://dbpedia.org/resource/Palestinian_territories>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Panama>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Peru>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Philippines>))
@@ -750,6 +751,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Pakistan> "Pakistan")
 ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Pakistan>)
 ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Pakistan> <http://dbpedia.org/resource/South_Asia>)
+
+# Individual: <http://dbpedia.org/resource/Palestinian_territories> (Palestinian territories)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://dbpedia.org/resource/Palestinian_territories> "GAZ:00002475")
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Palestinian_territories> "Palestinian territories")
+ClassAssertion(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://dbpedia.org/resource/Palestinian_territories>)
+ObjectPropertyAssertion(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Palestinian_territories> <http://dbpedia.org/resource/Asia>)
 
 # Individual: <http://dbpedia.org/resource/Panama> (Panama)
 

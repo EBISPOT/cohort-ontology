@@ -16,13 +16,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000270>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000376>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000383>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000426>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000429>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000462>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000510>))
@@ -62,6 +65,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001056>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001142>))
@@ -82,7 +86,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001584>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001593>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001612>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001627>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001660>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001854>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001866>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001933>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001941>))
@@ -102,6 +108,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002149>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002156>))
@@ -171,6 +178,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002691>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002714>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002715>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002752>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002816>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002869>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002898>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0002908>))
@@ -224,12 +232,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004425>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004580>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004608>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004647>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004658>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004664>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004670>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004681>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004730>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004750>))
@@ -237,6 +247,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004781>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004784>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004790>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004805>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004821>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004846>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004847>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0004849>))
@@ -320,6 +331,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005095>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005098>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005108>))
@@ -335,6 +347,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005148>))
@@ -359,6 +372,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005192>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005202>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005204>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005206>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005211>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005212>))
@@ -396,6 +410,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005303>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005306>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005311>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005315>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005327>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005328>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005336>))
@@ -407,11 +422,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005351>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005359>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005361>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005365>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005367>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005369>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005371>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005374>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005377>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005379>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005381>))
@@ -422,6 +439,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005391>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005393>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005394>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005395>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005397>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005399>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005401>))
@@ -437,11 +455,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005451>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005454>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005462>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005473>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005487>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005494>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005495>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005503>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005515>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005517>))
@@ -482,6 +502,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005833>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005835>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005836>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005853>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005854>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005872>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005876>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0005899>))
@@ -510,6 +531,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006316>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006345>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006485>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0006496>))
@@ -545,11 +567,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007488>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007576>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007743>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007763>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007915>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0007959>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008171>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008315>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008383>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008433>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008487>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0008608>))
@@ -558,6 +583,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0009061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0009693>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0009807>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0009831>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0010030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0010108>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0010150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0010643>))
@@ -579,11 +605,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0012727>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0013153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0013209>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0013282>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0013662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0013792>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015459>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015474>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015486>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0015547>))
@@ -605,6 +635,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016264>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016362>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016542>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016642>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016685>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016691>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0016743>))
@@ -615,6 +646,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017276>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017341>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017343>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017344>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0017595>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0018076>))
@@ -646,8 +678,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019118>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019338>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019340>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019467>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019496>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019527>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019722>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0019751>))
@@ -720,6 +754,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021251>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021315>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021345>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021348>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021350>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0021351>))
@@ -761,6 +797,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024257>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024270>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024276>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024331>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024337>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024355>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024458>))
@@ -771,23 +808,27 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024503>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024582>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024625>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024634>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024635>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024637>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024643>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024644>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024647>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024654>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024664>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0024885>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0025294>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0029000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0035375>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0037254>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0037255>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0037256>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0037748>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0037847>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0040677>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0040679>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0040732>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0041526>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0041656>))
@@ -825,6 +866,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100320>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100329>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100366>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100480>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100545>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0100574>))
@@ -840,6 +882,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700220>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0700328>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0800178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0800486>))
@@ -848,11 +891,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0850271>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0850292>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0858950>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0958099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1010185>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1030011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1040015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1060134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1060198>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1060199>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1060200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_1060213>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770005>))
@@ -862,6 +907,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_7770011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_8000010>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000114>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -1020,6 +1066,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000001> "disease")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000001> <http://purl.obolibrary.org/obo/BFO_0000016>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0000004> (adrenocortical insufficiency)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000004> "An endocrine or hormonal disorder that occurs when the adrenal cortex does not produce enough of the hormone cortisol and in some cases, the hormone aldosterone. It may be due to a disorder of the adrenal cortex (Addison's disease or primary adrenal insufficiency) or to inadequate secretion of ACTH by the pituitary gland (secondary adrenal insufficiency).")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0000004> "hypoadrenalism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000004> "adrenocortical insufficiency")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000004> <http://purl.obolibrary.org/obo/MONDO_0002816>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0000270> (lower respiratory tract disorder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000270> "A disease involving the lower respiratory tract.")
@@ -1052,6 +1105,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000383> "b
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000383> <http://purl.obolibrary.org/obo/MONDO_0005165>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000383> <http://purl.obolibrary.org/obo/MONDO_0006054>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0000402> (small cell carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000402> "A neuroendocrine carcinoma composed of small malignant cells which are often said to resemble \"oat cells\" under the microscope. Small cell carcinoma most often affects the lungs. Clinically, this is often a rapidly growing cancer that spreads to distant sites early.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000402> "small cell carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000402> <http://purl.obolibrary.org/obo/MONDO_0002120>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0000426> (autosomal dominant disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000426> "Autosomal dominant form of disease.")
@@ -1064,6 +1123,12 @@ DisjointClasses(<http://purl.obolibrary.org/obo/MONDO_0000426> <http://purl.obol
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000429> "A monogenic disease that is has material basis in a mutation in a single gene on one of the non-sex chromosomes.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000429> "autosomal genetic disease")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000429> <http://purl.obolibrary.org/obo/MONDO_0003847>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0000462> (eye adnexa disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0000462> "A disease involving the ocular adnexa.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0000462> "eye adnexa disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0000462> <http://purl.obolibrary.org/obo/MONDO_0002022>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0000473> (arterial disorder)
 
@@ -1326,6 +1391,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001063> "cardia cancer")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001063> <http://purl.obolibrary.org/obo/MONDO_0001056>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0001104> (toxic diffuse goiter)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001104> "toxic diffuse goiter")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001104> <http://purl.obolibrary.org/obo/MONDO_0004425>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001104> <http://purl.obolibrary.org/obo/MONDO_0005397>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0001106> (kidney failure)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0001106> "An acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.")
@@ -1456,11 +1527,24 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001627> "dementia")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001627> <http://purl.obolibrary.org/obo/MONDO_0002039>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0001660> (proliferative diabetic retinopathy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0001660> "Advanced retinopathy due to diabetes mellitus characterized by the formation of new vessels in the retina. The new vessels are abnormal and fragile. If hemorrhage occurs due to the vascular fragility, there is increased risk of vision loss or blindness.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001660> "proliferative diabetic retinopathy")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001660> <http://purl.obolibrary.org/obo/MONDO_0005266>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0001697> (reading disorder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0001697> "A learning disability involving difficulty reading resulting primarily from neurological factors which affect any part of the reading process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001697> "reading disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001697> <http://purl.obolibrary.org/obo/MONDO_0004681>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0001854> (lacrimal apparatus disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0001854> "A non-neoplastic or neoplastic disorder that affects the lacrimal apparatus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0001854> "lacrimal apparatus disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001854> <http://purl.obolibrary.org/obo/MONDO_0000462>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0001854> <http://purl.obolibrary.org/obo/MONDO_0005328>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0001866> (bipolar I disorder)
 
@@ -1589,6 +1673,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002116> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0002118> "A disease involving the renal system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0002118> "urinary system disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002118> <http://purl.obolibrary.org/obo/MONDO_7770006>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0002120> (neuroendocrine carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0002120> "A malignant neuroendocrine neoplasm composed of cells containing secretory granules that stain positive for NSE and chromogranin. The neoplastic cells are often round and form clusters or trabecular sheets. Representative examples are small cell carcinoma, large cell neuroendocrine carcinoma, and Merkel cell carcinoma.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0002120> "neuroendocrine carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002120> <http://purl.obolibrary.org/obo/MONDO_0004993>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002120> <http://purl.obolibrary.org/obo/MONDO_0019496>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002120> <http://purl.obolibrary.org/obo/MONDO_0021069>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0002129> (bone cancer)
 
@@ -2062,6 +2154,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0002752> "o
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002752> <http://purl.obolibrary.org/obo/MONDO_0004970>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002752> <http://purl.obolibrary.org/obo/MONDO_0005140>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0002816> (adrenal cortex disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0002816> "A disease involving the adrenal cortex.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0002816> "adrenal cortex disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0002816> <http://purl.obolibrary.org/obo/MONDO_0005495>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0002869> (heart valve disorder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0002869> "A disease involving the cardial valve.")
@@ -2475,6 +2573,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004382> "laryngeal disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004382> <http://purl.obolibrary.org/obo/MONDO_0004867>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0004425> (hyperthyroidism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004425> "Overactivity of the thyroid gland resulting in overproduction of thyroid hormone and increased metabolic rate. Causes include diffuse hyperplasia of the thyroid gland (Graves' disease), single nodule in the thyroid gland, and thyroiditis. The symptoms are related to the increased metabolic rate and include weight loss, fatigue, heat intolerance, excessive sweating, diarrhea, tachycardia, insomnia, muscle weakness, and tremor.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004425> "hyperthyroidism")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004425> <http://purl.obolibrary.org/obo/MONDO_0003240>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0004580> (retinal degeneration)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004580> "Degeneration of the retina.")
@@ -2515,6 +2619,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004658> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004664> "A parasitic infection characterized by the infestation with worms, mainly in the intestine.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004664> "helminthiasis")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004664> <http://purl.obolibrary.org/obo/MONDO_0005135>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0004670> (lupus erythematosus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004670> "An autoimmune, connective tissue chronic inflammatory disorder affecting the skin, joints, kidneys, lungs, heart, and the peripheral blood cells. It is more commonly seen in women than men. Variants include discoid and systemic lupus erythematosus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004670> "lupus erythematosus")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004670> <http://purl.obolibrary.org/obo/MONDO_0005554>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004670> <http://purl.obolibrary.org/obo/MONDO_0007179>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0004681> (learning disability)
 
@@ -2560,6 +2671,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004805> "leukocyte disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004805> <http://purl.obolibrary.org/obo/MONDO_0005046>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004805> <http://purl.obolibrary.org/obo/MONDO_0005570>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0004821> (nasopharyngeal disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0004821> "A non-neoplastic or neoplastic disorder that affects the nasopharynx. Representative examples include nasopharyngitis, angiofibroma, and carcinoma.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0004821> "nasopharyngeal disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004821> <http://purl.obolibrary.org/obo/MONDO_0004867>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0004821> <http://purl.obolibrary.org/obo/MONDO_0020592>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0004846> (placental abruption)
 
@@ -3141,6 +3259,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005098> "stroke disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005098> <http://purl.obolibrary.org/obo/MONDO_0011057>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005100> (systemic sclerosis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005100> "A chronic disorder, possibly autoimmune, marked by excessive production of collagen which results in hardening and thickening of body tissues. The two types of systemic scleroderma, limited cutaneous and diffuse cutaneous are classified with focus on the extent of affected skin. A relationship exists between the extent of skin area affected and degree of internal organ/system involvement. Systemic scleroderma can manifest itself in pulmonary fibrosis, Raynaud's syndrome, digestive system telangiectasias, renal hypertension and/or pulmonary hypertension.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005100> "systemic sclerosis")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005100> <http://purl.obolibrary.org/obo/MONDO_0005093>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005100> <http://purl.obolibrary.org/obo/MONDO_0019340>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005101> (ulcerative colitis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005101> "An inflammatory bowel disease involving the mucosal surface of the large intestine and rectum. It may present with an acute or slow onset and follows an intermittent or continuous course. Signs and symptoms include abdominal pain, diarrhea, fever, weight loss, and intestinal hemorrhage.")
@@ -3244,6 +3369,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005140> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005141> "Infections with bacteria of the genus pseudomonas.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005141> "Pseudomonas infection")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005141> <http://purl.obolibrary.org/obo/MONDO_0005113>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005145> (sporadic amyotrophic lateral sclerosis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005145> "Sporadic amyotrophic lateral sclerosis is a amyotrophic lateral sclerosis in which there is no known cause, such as no family history.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005145> "sporadic amyotrophic lateral sclerosis")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005145> <http://purl.obolibrary.org/obo/MONDO_0004976>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005146> (post-traumatic stress disorder)
 
@@ -3401,6 +3532,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005193> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005202> "A genetic predisposition to form IgE antibodies in response to exposure to allergens and therefore, for the development of immediate (type I) hypersensitivity and atopic conditions, such as allergic rhinitis; bronchial asthma, atopic dermatitis, and food allergy. Mutations of specific alleles on the long arm of chromosome 5 have been associated with higher levels of IL-4 and IgE and are known as IL-4 promoter polymorphisms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005202> "atopic IgE-mediated allergic disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005202> <http://purl.obolibrary.org/obo/MONDO_0005271>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005204> (primary antiphospholipid syndrome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005204> "An antiphospholipid syndrome that occurs as an isolated disorder.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005204> "primary antiphospholipid syndrome")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005204> <http://purl.obolibrary.org/obo/MONDO_8000010>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005206> (renal carcinoma)
 
@@ -3670,6 +3807,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005315> "bone fracture")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005315> <http://purl.obolibrary.org/obo/MONDO_0021178>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005327> (hip fracture)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005327> "Traumatic or pathological injury to the hip in which the continuity of either the femoral head, femoral neck, intertrochanteric or subtrochanteric regions is broken. Symptoms include pain in the hip or groin, bruising and swelling in and around the hip area. The injured hip is turned outward and the leg appears shorter on that side.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005327> "hip fracture")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005327> <http://purl.obolibrary.org/obo/MONDO_0005315>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005328> (eye disorder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005328> "A non-neoplastic or neoplastic disorder that affects the eye. Representative examples include conjunctivitis, glaucoma, cataract, conjunctival squamous cell carcinoma, uveal melanoma, and retinoblastoma.")
@@ -3741,6 +3884,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005361> "e
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005361> <http://purl.obolibrary.org/obo/MONDO_0001409>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005361> <http://purl.obolibrary.org/obo/MONDO_0018438>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005364> (Graves disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005364> "Graves' disease is an autoimmune disorder that leads to overactivity of the thyroid gland (hyperthyroidism).It is caused by an abnormal immune system response that causes the thyroid gland to produce too much thyroid hormones. Graves disease is the most common cause of hyperthyroidism andoccurs mostoften in women over age 20. However, the disorder may occur at any age and may affect males as well.Treatmentmayinclude radioiodine therapy, antithyroid drugs, and/or thyroid surgery.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0005364> "Basedow disease")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0005364> "Graves' hyperthyroidism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0005364> "parry disease")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005364> "Graves disease")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005364> <http://purl.obolibrary.org/obo/MONDO_0001104>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005364> <http://purl.obolibrary.org/obo/MONDO_0005623>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005364> <http://purl.obolibrary.org/obo/MONDO_1060200>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005365> (hearing loss disorder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005365> "A partial or complete loss of hearing in one or both ears. It is classified as conductive, sensory, or central.")
@@ -3772,6 +3926,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005374> "bone marrow neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005374> <http://purl.obolibrary.org/obo/MONDO_0002334>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005374> <http://purl.obolibrary.org/obo/MONDO_0003225>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005375> (nasopharyngeal neoplasm)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005375> "A benign or malignant neoplasm affecting the nasopharynx. Representative examples of benign neoplasms include angiofibroma and squamous papilloma. Representative examples of malignant neoplasms include keratinizing squamous cell carcinoma and nonkeratinizing carcinoma.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005375> "nasopharyngeal neoplasm")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005375> <http://purl.obolibrary.org/obo/MONDO_0004821>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005375> <http://purl.obolibrary.org/obo/MONDO_0005586>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005375> <http://purl.obolibrary.org/obo/MONDO_0020641>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005375> <http://purl.obolibrary.org/obo/MONDO_0021246>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005377> (nephrotic syndrome)
 
@@ -3839,6 +4002,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005394> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005395> "Neurological conditions resulting in abnormal voluntary or involuntary movement, which may impact the speed, fluency, quality and ease of movement.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005395> "movement disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005395> <http://purl.obolibrary.org/obo/MONDO_0005071>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005397> (goiter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005397> "Enlargement of the thyroid gland usually caused by lack of iodine in the diet, hyperthyroidism, or thyroid nodules. Symptoms include difficulty in breathing and swallowing.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005397> "goiter")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005397> <http://purl.obolibrary.org/obo/MONDO_0003240>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005398> (upper aerodigestive tract neoplasm)
 
@@ -3943,6 +4112,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005462> "p
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005462> <http://purl.obolibrary.org/obo/MONDO_0005564>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005462> <http://purl.obolibrary.org/obo/MONDO_0021193>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005473> (temporomandibular joint disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005473> "Any condition affecting the anatomic and functional characteristics of the temporomandibular joint.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005473> "temporomandibular joint disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005473> <http://purl.obolibrary.org/obo/MONDO_0006816>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005484> (colorectal adenoma)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005484> "An adenoma that arises from the colon or rectum. The group of colorectal adenomas includes tubular, villous, and tubulovillous adenomas, traditional serrated adenomas, sessile serrated adenomas/polyps, and familial adenomatous polyposis.")
@@ -3976,6 +4151,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005494> "t
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005494> <http://purl.obolibrary.org/obo/MONDO_0000616>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005494> <http://purl.obolibrary.org/obo/MONDO_0000618>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005494> <http://purl.obolibrary.org/obo/MONDO_0006513>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005495> (adrenal gland disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005495> "A disease involving the adrenal gland.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005495> "adrenal gland disorder")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005495> <http://purl.obolibrary.org/obo/MONDO_0005151>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005503> (developmental disorder of mental health)
 
@@ -4279,6 +4460,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005853> "m
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005853> <http://purl.obolibrary.org/obo/MONDO_0004992>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005853> <http://purl.obolibrary.org/obo/MONDO_0021043>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0005854> (mixed connective tissue disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005854> "Mixed connective tissue disease (MCTD) is a rare autoimmune disorder that is characterized by features commonly seen in three different connective tissue disorders: systemic lupus erythematosus, scleroderma, and polymyositis. Some affected people may also have symptoms of rheumatoid arthritis. Although MCTD can affect people of all ages, it appears to be most common in women under age 30. Signs and symptoms vary but may include Raynaud's phenomenon ; arthritis; heart, lung and skin abnormalities; kidney disease; muscle weakness, and dysfunction of the esophagus. The cause of MCTD is currently unknown. There is no cure but certain medications such as nonsteroidal anti-inflammatory drugs (NSAIDs), corticosteroids and immunosuppresivedrugsmay help manage the symptoms.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0005854> "mixed connective tissue disease")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005854> <http://purl.obolibrary.org/obo/MONDO_0005554>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0005854> <http://purl.obolibrary.org/obo/MONDO_0016663>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0005872> (nervous system cancer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0005872> "A primary or metastatic malignant neoplasm involving the nervous system.")
@@ -4485,6 +4673,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0006424> "SOFT_TISSUE")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0006424> "soft tissue neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0006424> <http://purl.obolibrary.org/obo/MONDO_0044334>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0006474> (transitional cell carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0006474> "A malignant neoplasm arising from the transitional epithelium, usually affecting the urinary bladder, ureter, or renal pelvis. It may or may not have a papillary configuration. It is graded 1 to 3 or 4 according to the degree of cellular differentiation and architectural patterns. Grade 1 transitional cell carcinoma is histologically benign but it may recur. Transitional cell carcinomas may also affect the upper respiratory tract and the ovaries.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0006474> "transitional cell carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0006474> <http://purl.obolibrary.org/obo/MONDO_0004993>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0006485> (uterine carcinosarcoma)
 
@@ -4738,6 +4932,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0007763> "nonpapillary renal cell carcinoma")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0007763> <http://purl.obolibrary.org/obo/MONDO_0005086>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0007915> (systemic lupus erythematosus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0007915> "An autoimmune multi-organ disease typically associated with vasculopathy and autoantibody production. Most patients have antinuclear antibodies (ANA). The presence of anti-dsDNA or anti-Smith antibodies are highly-specific.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0007915> "systemic lupus erythematosus")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0007915> <http://purl.obolibrary.org/obo/MONDO_0004670>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0007915> <http://purl.obolibrary.org/obo/MONDO_0023603>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0007959> (medulloblastoma)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0007959> "A malignant, invasive embryonal neoplasm arising from the cerebellum. It occurs predominantly in children and has the tendency to metastasize via the cerebrospinal fluid pathways. Signs and symptoms include truncal ataxia, disturbed gait, lethargy, headache, and vomiting. There are four histologic variants: classic medulloblastoma, large cell/anaplastic medulloblastoma, desmoplastic/nodular medulloblastoma, and medulloblastoma with extensive nodularity.")
@@ -4762,6 +4963,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0008170> "o
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008170> <http://purl.obolibrary.org/obo/MONDO_0001416>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008170> <http://purl.obolibrary.org/obo/MONDO_0021068>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0008171> (nephrolithiasis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0008171> "The presence of a calculus in the pelvis of the kidney; this is most often composed of mineral salts and proteins.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/mondo#ABBREVIATION>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0008171> "CAON")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0008171> "nephrolithiasis")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008171> <http://purl.obolibrary.org/obo/MONDO_0005240>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008171> <http://purl.obolibrary.org/obo/MONDO_0024647>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0008315> (prostate cancer)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0008315> "A primary or metastatic malignant tumor involving the prostate gland. The vast majority are carcinomas.")
@@ -4776,6 +4985,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0008383> "r
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008383> <http://purl.obolibrary.org/obo/MONDO_0000589>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008383> <http://purl.obolibrary.org/obo/MONDO_0005554>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008383> <http://purl.obolibrary.org/obo/MONDO_0005578>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0008433> (small cell lung carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0008433> "Small cell lung cancer (SCLC) is a highly aggressive malignant neoplasm, accounting for 10-15% of lung cancer cases, characterized byrapid growth, and early metastasis. SCLC usually manifests as a large hilar mass with bulky mediastinal lymphadenopathy presenting clinically with chest pain, persistent cough, dyspnea, wheezing, hoarseness, hemoptysis, loss of appetite, weight loss, and neurological and endocrine paraneoplastic syndromes. SCLC is primarily reported in elderly people with a history of long-term tobacco exposure.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/mondo#ABBREVIATION>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0008433> "SCLC1")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0008433> "small cell lung carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008433> <http://purl.obolibrary.org/obo/MONDO_0000402>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008433> <http://purl.obolibrary.org/obo/MONDO_0005138>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0008433> <http://purl.obolibrary.org/obo/MONDO_0005454>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0008487> (polycystic ovary syndrome)
 
@@ -4836,6 +5054,15 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0009831> "malignant pancreatic neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0009831> <http://purl.obolibrary.org/obo/MONDO_0002516>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0009831> <http://purl.obolibrary.org/obo/MONDO_0021040>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0010030> (Sjogren syndrome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0010030> "An autoimmune disorder in which immune cells attack and destroy the glands that produce tears and saliva. Sjögren syndrome is also associated with rheumatic disorders such as rheumatoid arthritis or systemic lupus erythematosus. The hallmark symptoms of Sjögren syndrome are dry mouth and dry eyes. In addition, Sjogren syndrome may cause skin, nose, and vaginal dryness. It also may affect other organs of the body including the kidneys, blood vessels, lungs, liver, pancreas, and brain")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0010030> "Sjogren syndrome")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0010030> <http://purl.obolibrary.org/obo/MONDO_0000586>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0010030> <http://purl.obolibrary.org/obo/MONDO_0001142>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0010030> <http://purl.obolibrary.org/obo/MONDO_0002254>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0010030> <http://purl.obolibrary.org/obo/MONDO_0024625>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0010108> (testicular germ cell tumor)
 
@@ -5014,11 +5241,32 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0013282> <http://purl.obolibrar
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0013282> <http://purl.obolibrary.org/obo/MONDO_0002273>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0013282> <http://purl.obolibrary.org/obo/MONDO_0005087>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0013662> (Barrett esophagus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0013662> "Esophageal lesion lined with columnar metaplastic epithelium which is flat or villiform. Barrett epithelium is characterized by two different types of cells: goblet cells and columnar cells. The symptomatology of Barrett esophagus is that of gastro-esophageal reflux. It is the precursor of most esophageal adenocarcinomas. (WHO)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003005>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0013662> "adenocarcinoma of oesophagus")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0013662> "Barrett esophagus")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0013662> <http://purl.obolibrary.org/obo/MONDO_0003749>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0013792> (intracerebral hemorrhage)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0013792> "A cerebrovascular disorder characterized by bleeding into one or both cerebral hemispheres including the basal ganglia and the cerebral cortex. It is often associated with hypertension and craniocerebral trauma.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0013792> "intracerebral hemorrhage")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0013792> <http://purl.obolibrary.org/obo/MONDO_1060199>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0015128> (primary adrenal insufficiency)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0015128> "A hormonal disorder that occurs when the adrenal glands fail to release adequate amounts of glucocorticoids (cortisol), mineralocorticoids (aldosterone, 11-deoxycorticosterone), and androgens (dehydroepiandrosterone) to meet physiologic needs, despite release of ACTH from the pituitary.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0015128> "primary adrenal insufficiency")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015128> <http://purl.obolibrary.org/obo/MONDO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0015129> (chronic primary adrenal insufficiency)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0015129> "A chronic disorder of the adrenal cortex resulting in the inadequate production of glucocorticoid and mineralocorticoid hormones.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0015129> "adrenal gland hypofunction")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/MONDO_0015129> "hypoadrenocorticism familial")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0015129> "chronic primary adrenal insufficiency")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015129> <http://purl.obolibrary.org/obo/MONDO_0015128>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0015140> (early-onset autosomal dominant Alzheimer disease)
 
@@ -5048,6 +5296,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0015356> "h
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015356> <http://purl.obolibrary.org/obo/MONDO_0003847>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015356> <http://purl.obolibrary.org/obo/MONDO_0020573>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015356> <http://purl.obolibrary.org/obo/MONDO_0021058>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0015459> (nasopharyngeal carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0015459> "A carcinoma arising from the nasopharyngeal epithelium. It includes the following types: keratinizing squamous cell carcinoma, nonkeratinizing carcinoma (differentiated and undifferentiated), basaloid squamous cell carcinoma, and papillary adenocarcinoma.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0015459> "nasopharyngeal carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015459> <http://purl.obolibrary.org/obo/MONDO_0002038>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015459> <http://purl.obolibrary.org/obo/MONDO_0017344>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015459> <http://purl.obolibrary.org/obo/MONDO_0021315>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0015459> <http://purl.obolibrary.org/obo/MONDO_0021345>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0015474> (cryptosporidiosis)
 
@@ -5195,6 +5452,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0016642> "meningioma")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016642> <http://purl.obolibrary.org/obo/MONDO_0016743>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0016663> (overlapping connective tissue disease)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0016663> "overlapping connective tissue disease")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016663> <http://purl.obolibrary.org/obo/MONDO_0003900>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0016663> <http://purl.obolibrary.org/obo/MONDO_0007179>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0016685> (low-grade astrocytoma)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0016685> "low-grade astrocytoma")
@@ -5256,6 +5519,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0017342> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0017343> "A range of lymphoproliferative diseases characterized by uncontrolled proliferation of B cells, T cells, or NK cells infected with Epstein-Barr virus. Depending on host immunity and viral factors, viral persistence in host cells can induce lymphoproliferation with a diverse clinical spectrum ranging from simple reactive hyperplasia to aggressive lymphoma/leukemia with unique clinical and pathological presentations.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0017343> "Epstein-Barr virus-associated lymphoproliferative disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0017343> <http://purl.obolibrary.org/obo/MONDO_0017342>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0017344> (Epstein-Barr virus-associated carcinoma)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0017344> "Epstein-Barr virus-associated carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0017344> <http://purl.obolibrary.org/obo/MONDO_0017342>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0017594> (indolent B-cell non-Hodgkin lymphoma)
 
@@ -5482,6 +5750,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0019338> "sarcoidosis")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019338> <http://purl.obolibrary.org/obo/MONDO_0019751>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0019340> (scleroderma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0019340> "Scleroderma is a rare autoimmune connective tissue disorder characterized by abnormal hardening of the skin and, sometimes, other organs. It is classified into two main forms: localized scleroderma and systemic sclerosis (SSc), the latter comprising three subsets; diffuse cutaneous SSc (dcSSc), limited cutaneous SSc (lcSSc) and limited SSc (lSSc).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0019340> "scleroderma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019340> <http://purl.obolibrary.org/obo/MONDO_0005554>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019340> <http://purl.obolibrary.org/obo/MONDO_0007179>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0019467> (CD4+/CD56+ hematodermic neoplasm)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0019467> "An aggressive immature hematologic neoplasm formerly known as blastic NK cell lymphoma, composed of cells with a lymphoblast-like morphology. Recent evidence suggests derivation from a plasmacytoid monocyte. Patients present with cutaneous tumors and bone marrow involvement.")
@@ -5496,6 +5771,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019467> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0019496> "Endocrine tumors, also referred to as neuroendocrine tumors (NETs), are defined by a common phenotype which is characterized by the expression of general markers (neuron specific enolase, chromogranin, synaptophysin) and hormone secretion products. These tumors may be localized in any part of the body and are generally discovered in non-specific situations, i.e. not immediately suggestive of NETs (tests for inherited predisposition to tumors or for a clinical syndrome caused by abnormal hormone secretion).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0019496> "neuroendocrine neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019496> <http://purl.obolibrary.org/obo/MONDO_0002082>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0019527> (undifferentiated connective tissue syndrome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0019527> "An autoimmune disorder which does not meet classification criteria used to establish the presence of other well-defined connective tissue diseases.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0019527> "undifferentiated connective tissue syndrome")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0019527> <http://purl.obolibrary.org/obo/MONDO_0007179>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0019632> (Lyme disease)
 
@@ -6032,6 +6313,20 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0021310> "m
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021310> <http://purl.obolibrary.org/obo/MONDO_0005627>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021310> <http://purl.obolibrary.org/obo/MONDO_0021351>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0021315> (malignant tumor of nasopharynx)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0021315> "A cancer that involves the nasopharynx.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0021315> "malignant tumor of nasopharynx")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021315> <http://purl.obolibrary.org/obo/MONDO_0005375>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021315> <http://purl.obolibrary.org/obo/MONDO_0005517>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0021345> (carcinoma of pharynx)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0021345> "A carcinoma that involves the pharynx.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0021345> "carcinoma of pharynx")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021345> <http://purl.obolibrary.org/obo/MONDO_0006181>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0021345> <http://purl.obolibrary.org/obo/MONDO_0021246>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0021348> (neoplasm of testis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0021348> "A neoplasm (disease) that involves the testis.")
@@ -6379,6 +6674,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024331> "c
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024331> <http://purl.obolibrary.org/obo/MONDO_0005575>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024331> <http://purl.obolibrary.org/obo/MONDO_0006181>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0024337> (urothelial neoplasm)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0024337> "A neoplasm involving a urothelium.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024337> "urothelial neoplasm")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024337> <http://purl.obolibrary.org/obo/MONDO_0021066>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024337> <http://purl.obolibrary.org/obo/MONDO_0037254>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0024352> (viral respiratory tract infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0024352> "A respiratory tract infection caused by a virus. Viruses represent the most common causes of upper and lower respiratory tract infections and include rhinoviruses, influenza viruses, parainfluenza viruses, and respiratory syncytial virus.")
@@ -6479,6 +6781,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024623> "otorhinolaryngologic disease")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024623> <http://purl.obolibrary.org/obo/MONDO_7770006>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0024625> (disorder of lacrimal gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0024625> "A disease that involves the lacrimal gland.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024625> "disorder of lacrimal gland")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024625> <http://purl.obolibrary.org/obo/MONDO_0001854>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0024633> (hypertensive nephropathy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0024633> "Kidney damage that results from chronically elevated blood pressure; complications include glomerular damage resulting in proteinuria and hematuria.")
@@ -6529,6 +6837,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024644> "myocardial ischemia")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024644> <http://purl.obolibrary.org/obo/MONDO_0005053>)
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024644> <http://purl.obolibrary.org/obo/MONDO_0024643>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0024647> (urolithiasis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0024647> "Stone(s) within the urinary tract.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0024647> "urolithiasis")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0024647> <http://purl.obolibrary.org/obo/MONDO_0002118>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0024654> (skull disorder)
 
@@ -6589,6 +6903,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0029000> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0035375> "multisystem inflammatory syndrome in children and adults")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0035375> <http://purl.obolibrary.org/obo/MONDO_0100320>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0037254> (transitional cell neoplasm)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0037254> "transitional cell neoplasm")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0037254> <http://purl.obolibrary.org/obo/MONDO_0005626>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0037255> (ovarian serous tumor)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0037255> "A benign, borderline, or malignant epithelial tumor of the ovary characterized by the presence of neoplastic epithelial cells that, in well differentiated tumors, resemble the epithelial cells of the fallopian tube and, in poorly differentiated tumors, show anaplastic features. Approximately thirty to fifty percent of the tumors are bilateral. Grossly, the better differentiated tumors consist of cystic masses, usually unilocular, containing a clear but sometimes viscous fluid. Papillary formations are often present. The more malignant tumors tend to be solid and invasive, with areas of necrosis and hemorrhage.")
@@ -6619,6 +6938,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0037847> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0040677> "A carcinoma that is not confined to the epithelium, and has spread to the surrounding stroma.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0040677> "invasive carcinoma")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0040677> <http://purl.obolibrary.org/obo/MONDO_0004993>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_0040679> (urothelial carcinoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0040679> "A malignant neoplasm derived from the transitional epithelium of the urinary tract (urinary bladder, ureter, urethra, or renal pelvis). It is frequently papillary.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0040679> "urothelial carcinoma")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0040679> <http://purl.obolibrary.org/obo/MONDO_0006295>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0040679> <http://purl.obolibrary.org/obo/MONDO_0006474>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0040679> <http://purl.obolibrary.org/obo/MONDO_0024337>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_0040732> (Pseudomonas aeruginosa infectious disease)
 
@@ -6892,6 +7219,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0100366> "occupational disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100366> <http://purl.obolibrary.org/obo/MONDO_7770010>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0100480> (autoimmune primary adrenal insufficiency)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0100480> "Diminished production of adrenocortical hormones due to autoimmune destruction of the adrenal glands.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0100480> "autoimmune primary adrenal insufficiency")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0100480> <http://purl.obolibrary.org/obo/MONDO_0015129>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0100545> (hereditary neurological disease)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0100545> "A heterogeneous group of genetic conditions with Mendelian (autosomal dominant, recessive, or X-linked) or chromosomal etiology characterized by abnormalities in the brain, spinal cord, nerves, or muscles.")
@@ -6984,6 +7317,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0700124> "chromosome 21 disorder")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0700124> <http://purl.obolibrary.org/obo/MONDO_0020049>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_0700220> (disease related to transplantation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0700220> "Disease that occurs as a consequence of immunosuppression in a recipient of a solid organ or bone marrow transplant, or as a consequence of the transplantation.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0700220> "disease related to transplantation")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0700220> <http://purl.obolibrary.org/obo/MONDO_7770010>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_0700328> (podocytopathy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_0700328> "A glomerular disorder caused by the structural or functional impairment of podocytes, which leads to proteinuria and often nephrotic syndrome.")
@@ -7033,6 +7372,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0858950> <http://purl.obolibrar
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_0958099> "idiopathic subglottic stenosis")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_0958099> <http://purl.obolibrary.org/obo/MONDO_0004382>)
 
+# Class: <http://purl.obolibrary.org/obo/MONDO_1010185> (transplant rejection)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_1010185> "A disease related to transplantation that occurs when transplant tissue is rejected by the recipient's immune system, which destroys the transplanted tissue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_1010185> "transplant rejection")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_1010185> <http://purl.obolibrary.org/obo/MONDO_0700220>)
+
 # Class: <http://purl.obolibrary.org/obo/MONDO_1030011> (paroxysmal atrial fibrillation)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_1030011> "An atrial fibrillation disorder characterized by intermittent atrial fibrillation that lasts less than seven days from onset.")
@@ -7062,6 +7407,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_1060198> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_1060199> "A stroke disorder caused by bleeding into the brain parenchyma or surrounding spaces. Hemorrhagic stroke includes intracerebral hemorrhage (bleeding within the brain tissue) and subarachnoid hemorrhage (bleeding in the space between the brain and the surrounding membrane).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_1060199> "hemorrhagic stroke")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_1060199> <http://purl.obolibrary.org/obo/MONDO_0005098>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_1060200> (primary hyperthyroidism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_1060200> "A form of hyperthyroidism caused by overproduction of thyroid hormones (T3 and T4) due to pathology within the thyroid gland itself. Primary hyperthyroidism is characterized by low TSH levels and elevated T3/T4 levels.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_1060200> "primary hyperthyroidism")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_1060200> <http://purl.obolibrary.org/obo/MONDO_0004425>)
 
 # Class: <http://purl.obolibrary.org/obo/MONDO_1060213> (reticular pseudodrusen)
 
@@ -7116,6 +7467,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/MONDO_7770010> <http://purl.obolibrar
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_7770011> "A grouping class for human diseases classified by their underlying molecular or pathophysiological mechanism, such as protein aggregation, ion channel dysfunction, or signal transduction disruption.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_7770011> "disease by molecular mechanism")
 SubClassOf(<http://purl.obolibrary.org/obo/MONDO_7770011> <http://purl.obolibrary.org/obo/MONDO_7770007>)
+
+# Class: <http://purl.obolibrary.org/obo/MONDO_8000010> (antiphospholipid syndrome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MONDO_8000010> "A disorder caused by the presence of autoantibodies directed against phospholipids, causing a hypercoaguable state, which may result in blood clots, stroke, heart attack, and in women, significant pregnancy-related complications, including miscarriage and still birth. The syndrome is often associated with other autoimmune disorders, most commonly lupus erythematosus, and infections, including syphilis and Lyme disease.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MONDO_8000010> "antiphospholipid syndrome")
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_8000010> <http://purl.obolibrary.org/obo/MONDO_0002254>)
+SubClassOf(<http://purl.obolibrary.org/obo/MONDO_8000010> <http://purl.obolibrary.org/obo/MONDO_0007179>)
 
 
 )
