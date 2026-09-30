@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/participants.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/participants.owl>
-Annotation(owl:versionInfo "2026-09-29")
+<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/participants.owl>
+Annotation(owl:versionInfo "2026-09-30")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -2302,6 +2302,24 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002721>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002722>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002723>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002725>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002726>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002728>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002730>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002731>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002732>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002733>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002734>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002735>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002736>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002737>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002739>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002740>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002742>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002743>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002745>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfCases>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfControls>))
@@ -12319,6 +12337,78 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Par
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002725> (<http://www.ebi.ac.uk/coho/COHO_0002725>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Patients accepting inclusion in the original NPCR Follow-up Study, with diagnoses/registration 1997–2002; eligible frame8304. (1997–2002 diagnoses)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897875/") Annotation(rdfs:comment "In total, 8304 patients fulfilled these criteria and 7960 accepted inclusion to the study (Figure 1).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002725> "7960"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002726> (<http://www.ebi.ac.uk/coho/COHO_0002726>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients with acute myocardial infarction (STEMI or NSTEMI) prospectively enrolled over one year (2009)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22777311+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We compared clinical features, hospital management and prognosis of STEMI/NSTEMI in an unselected cohort of 1,496 prospectively enrolled patients (STEMI, 36.9 % and NSTEMI, 63.1 %), admitted in 1 year to one of the six hospitals in Florence health district (Italy).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002726> "1496"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002728> (<http://www.ebi.ac.uk/coho/COHO_0002728>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "transplant recipients sampled up to the end of collection on 31 December 2021 (the source says 'more than 5,900'), besides 2,400 donors") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.cryostem.org/en/about-cryostem/") Annotation(rdfs:comment "Today, this national collective has made it possible to constitute a collection rich in the biological resources of 82% of transplanted patients in France, i.e. nearly 200,000 biological samples taken pre- and post-transplant, from more than 5,900 patients and 2,400 donors (data as of December 31, 2021 – date of the end of collection).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002728> "5900"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002730> (<http://www.ebi.ac.uk/coho/COHO_0002730>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "children randomized between September 2017 and August 2018") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34582462+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Between September 5, 2017 and August 31, 2018, 1,188 children were randomized, of whom 1,084 (n = 277 placebo/placebo, 273 antimicrobial/placebo, 274 placebo/nicotinamide, and 260 antimicrobial/nicotinamide) were included in the modified intention-to-treat analysis.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002730> "1188"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002731> (<http://www.ebi.ac.uk/coho/COHO_0002731>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "multi-organ donors in the biobank (the source says 'more than 200'), 2019") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6609645/fullTextXML") Annotation(rdfs:comment "The subjects were selected from a cohort of more than 200 multi-organ donors from the EXODIAB biobank with no statistical difference for age, body-mass index (BMI) and gender across the different phenotypes to accurately capture the metabolic fingerprint of T2D onset.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002731> "200"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002732> (<http://www.ebi.ac.uk/coho/COHO_0002732>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "low fruit and vegetable consumers at increased cardiovascular risk randomly assigned") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24452238+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "Male and female low-F&V consumers who had a ≥ 1.5-fold increased risk of CVD (n = 174) were randomly assigned to receive an HF F&V, an LF F&V, or a habitual diet, with HF and LF F&V amounts sequentially increasing by 2, 4, and 6 (+2, +4, and +6) portions/d every 6 wk over habitual intakes.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002732> "174"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002733> (<http://www.ebi.ac.uk/coho/COHO_0002733>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "young healthy male participants") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11513335/unicode") Annotation(rdfs:comment "Briefly, 15 healthy male participants were recruited for the study. Participants were young (mean age of 27.8 years ±2.9), had normal weight (mean body mass index (BMI) of 23.1 kg/m2 ± 1.8), did not take any medication, and did not show any metabolic abnormalities.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002733> "15"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002734> (<http://www.ebi.ac.uk/coho/COHO_0002734>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "adults hospitalised with COVID-19 enrolled May 2020 to March 2021") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10764789/fullTextXML") Annotation(rdfs:comment "In all, 1164 participants were enrolled between May 5th, 2020 and March 19th, 2021 and followed up to 28 days while hospitalized.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002734> "1164"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002735> (<http://www.ebi.ac.uk/coho/COHO_0002735>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "adult AARP members aged 50 to 74 recruited (2012)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32819883+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "From January through September 2012, 1,110 adult members of AARP, 50 to 74 years of age, were recruited from the Pittsburgh, PA, area to participate in the Interactive Diet and Activity Tracking in AARP (IDATA) study.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002735> "1110"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002736> (<http://www.ebi.ac.uk/coho/COHO_0002736>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "women whose self-collected vaginal samples were analysed (of 6,007 who registered), 2020") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10627828/fullTextXML") Annotation(rdfs:comment "Here we established the Isala citizen-science project to analyse the vaginal microbiomes of 3,345 women in Belgium (18–98 years) through self-sampling, 16S amplicon sequencing and extensive questionnaires.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002736> "3345"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002737> (<http://www.ebi.ac.uk/coho/COHO_0002737>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "cancer cases with harmonised biospecimens and epidemiological data, 2018-2022") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10943582/fullTextXML") Annotation(rdfs:comment "Through this international network of 50 institutional collaborators in 30 countries, between 2018 and 2022, the Mutographs team harmonized biospecimen and epidemiologic data on 7,808 cancer cases.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002737> "7808"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002739> (<http://www.ebi.ac.uk/coho/COHO_0002739>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "individuals with Parkinson's disease enrolled and randomised (2022)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10684646/fullTextXML") Annotation(rdfs:comment "In total, 26 individuals with PD were screened, and 20 eligible participants were enrolled, all of whom completed the study (Fig. 1).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002739> "20"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002740> (<http://www.ebi.ac.uk/coho/COHO_0002740>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "preterm infants born before 29 weeks of gestational age included (2018)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6538605/fullTextXML") Annotation(rdfs:comment "Fifty-eight preterm infants born before 29 weeks GA were included. Six infants died and the mortality rate was 11.5%. Blood samples were obtained from 52 infants at a median time of 12 h and a maximum time of 48 h after birth.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002740> "58"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002742> (<http://www.ebi.ac.uk/coho/COHO_0002742>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "patients enrolled, of whom 267 met full eligibility and provided baseline data") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8544781/fullTextXML") Annotation(rdfs:comment "We enrolled 275 patients of whom 267 met full eligibility and provided baseline data.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002742> "275"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002743> (<http://www.ebi.ac.uk/coho/COHO_0002743>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "twin individuals who took part in the baseline telephone interview, 1998-2002") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9925275/fullTextXML") Annotation(rdfs:comment "A total of 44 919 twin individuals participated in the SALT baseline assessment, 18 496 of whom were of older age (i.e. ≥ 60 years).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002743> "44919"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002745> (<http://www.ebi.ac.uk/coho/COHO_0002745>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "healthy participants who gave informed consent, of whom 20 completed all study activities") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.medrxiv.org/content/early/2025/10/17/2025.10.16.25338140.source.xml") Annotation(rdfs:comment "A total of 27 healthy participants (mean ± sem; 38.9 ± 2.4 y) gave their informed consent and 20 (8 men and 12 women) participants completed all study activities") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002745> "27"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002746> (<http://www.ebi.ac.uk/coho/COHO_0002746>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "pregnant women recruited and longitudinally sampled") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8514602/fullTextXML") Annotation(rdfs:comment "A total of 160 women recruited to the VMET study were longitudinally sampled throughout pregnancy") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002746> "160"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002747> (<http://www.ebi.ac.uk/coho/COHO_0002747>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "women at risk of preterm birth prospectively recruited, 2014-2023") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12423329/fullTextXML") Annotation(rdfs:comment "A total of 2084 women were prospectively recruited from Preterm Birth Prevention Clinics across five participating sites (Queen Charlottes and Chelsea Hospital, St Mary’s Hospital, Chelsea and Westminster Hospital, and University College Hospital (all in London), and the Royal Infirmary Edinburgh Hospital) between 2014 and 2023") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002747> "2084"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002748> (<http://www.ebi.ac.uk/coho/COHO_0002748>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "HIV-infected women and their infants enrolled and randomised (2004)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18525036+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We enrolled 958 HIV-infected women and their infants in Lusaka, Zambia.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002748> "958"^^xsd:integer)
 
 
 )

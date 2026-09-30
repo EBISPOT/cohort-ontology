@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/aggregation_members.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/aggregation_members.owl>
-Annotation(owl:versionInfo "2026-09-29")
+<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/aggregation_members.owl>
+Annotation(owl:versionInfo "2026-09-30")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/hasCohort>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000005>))
@@ -1141,6 +1141,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002720>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002721>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002722>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002723>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002741>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002742>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -3166,6 +3168,10 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7521995/fullTextXML") Annotation(rdfs:comment "The BBCC included data from the International BRCA1/2 Carrier Cohort Study (IBCCS), Breast Cancer Family Registry (BCFR), and the Kathleen Cunningham Foundation Consortium for Research into Familial Breast Cancer (kConFab) (details in Supplementary material).") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002722> <http://www.ebi.ac.uk/coho/COHO_0000668>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7521995/fullTextXML") Annotation(rdfs:comment "The BBCC included data from the International BRCA1/2 Carrier Cohort Study (IBCCS), Breast Cancer Family Registry (BCFR), and the Kathleen Cunningham Foundation Consortium for Research into Familial Breast Cancer (kConFab) (details in Supplementary material).") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002722> <http://www.ebi.ac.uk/coho/COHO_0001094>)
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7521995/fullTextXML") Annotation(rdfs:comment "The BBCC included data from the International BRCA1/2 Carrier Cohort Study (IBCCS), Breast Cancer Family Registry (BCFR), and the Kathleen Cunningham Foundation Consortium for Research into Familial Breast Cancer (kConFab) (details in Supplementary material).") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002722> <http://www.ebi.ac.uk/coho/COHO_0001889>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002741> (<http://www.ebi.ac.uk/coho/COHO_0002741>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8544781/fullTextXML") Annotation(rdfs:comment "a cohort of newly diagnosed seropositive RA patients – the ‘Towards A CurE for RA’ (TACERA) cohort – was established and followed frequently and deeply phenotyped.") <http://www.ebi.ac.uk/coho/hasCohort> <http://www.ebi.ac.uk/coho/COHO_0002741> <http://www.ebi.ac.uk/coho/COHO_0002742>)
 
 
 )

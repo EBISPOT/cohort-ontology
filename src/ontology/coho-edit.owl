@@ -2820,6 +2820,29 @@ Declaration(NamedIndividual(coho:COHO_0002722))
 Declaration(NamedIndividual(coho:COHO_0002723))
 Declaration(NamedIndividual(coho:COHO_0002724))
 Declaration(NamedIndividual(coho:COHO_0002725))
+Declaration(NamedIndividual(coho:COHO_0002726))
+Declaration(NamedIndividual(coho:COHO_0002727))
+Declaration(NamedIndividual(coho:COHO_0002728))
+Declaration(NamedIndividual(coho:COHO_0002729))
+Declaration(NamedIndividual(coho:COHO_0002730))
+Declaration(NamedIndividual(coho:COHO_0002731))
+Declaration(NamedIndividual(coho:COHO_0002732))
+Declaration(NamedIndividual(coho:COHO_0002733))
+Declaration(NamedIndividual(coho:COHO_0002734))
+Declaration(NamedIndividual(coho:COHO_0002735))
+Declaration(NamedIndividual(coho:COHO_0002736))
+Declaration(NamedIndividual(coho:COHO_0002737))
+Declaration(NamedIndividual(coho:COHO_0002738))
+Declaration(NamedIndividual(coho:COHO_0002739))
+Declaration(NamedIndividual(coho:COHO_0002740))
+Declaration(NamedIndividual(coho:COHO_0002741))
+Declaration(NamedIndividual(coho:COHO_0002742))
+Declaration(NamedIndividual(coho:COHO_0002743))
+Declaration(NamedIndividual(coho:COHO_0002744))
+Declaration(NamedIndividual(coho:COHO_0002745))
+Declaration(NamedIndividual(coho:COHO_0002746))
+Declaration(NamedIndividual(coho:COHO_0002747))
+Declaration(NamedIndividual(coho:COHO_0002748))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#EGA_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GWAS_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PGS_subset>))
@@ -3149,6 +3172,7 @@ AnnotationAssertion(rdfs:label coho:COHO_0000022 "Cancer and Leukemia Group B"@e
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000022)
 
 # Individual: coho:COHO_0000023 (Cancer Genome Atlas)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000023 "The Cancer Genomic Atlas")
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000023 "TCGA")
 AnnotationAssertion(rdfs:label coho:COHO_0000023 "Cancer Genome Atlas"@en)
@@ -4176,6 +4200,7 @@ AnnotationAssertion(rdfs:label coho:COHO_0000168 "The Norwegian Biobank for Myel
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000168)
 
 # Individual: coho:COHO_0000169 (The Pakistan Risk Of Myocardial Infarction Study)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000169 "Pakistan Risk of Myocardial Infarction Study")
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000169 "PROMIS")
 AnnotationAssertion(rdfs:label coho:COHO_0000169 "The Pakistan Risk Of Myocardial Infarction Study"@en)
@@ -25325,6 +25350,7 @@ AnnotationAssertion(rdfs:seeAlso coho:COHO_0002689 <https://www.kemri-wellcome.o
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002689)
 
 # Individual: coho:COHO_0002690 (Cancer Prevention Study II Nutrition Cohort)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "Cancer Prevention II Nutrition Cohort")
 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "American Cancer Society Cancer Prevention Study II Nutrition Cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "Cancer Prevention Study-II Nutrition Cohort")
@@ -25671,6 +25697,188 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0002725 "National Prostate Cancer Register of Sweden Follow-up Study"@en)
 ObjectPropertyAssertion(Annotation(rdfs:comment "The Follow-up Study was an observational study in the NPCR, with the aim of assessing outcome among patients with localized prostate cancer who were diagnosed after PSA testing had become prevalent in Sweden and for whom curative treatment may have been indicated.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897875/") coho:isSubCohortOf coho:COHO_0002725 coho:COHO_0002724)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002725)
+
+# Individual: coho:COHO_0002726 (Florence Acute Myocardial Infarction-2 registry)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002726 "AMI-Florence 2")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002726 "AMI-Florence II")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002726 "AMI-Florence II cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002726 "AMI-Florence 2 registry")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002726 "acute myocardial infarction in Florence 2 registry")
+AnnotationAssertion(rdfs:label coho:COHO_0002726 "Florence Acute Myocardial Infarction-2 registry"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002726)
+
+# Individual: coho:COHO_0002727 (Chinese Glioma Genome Atlas)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002727 "CGGA")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002727 "CGGA cohort")
+AnnotationAssertion(rdfs:label coho:COHO_0002727 "Chinese Glioma Genome Atlas"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002727)
+
+# Individual: coho:COHO_0002728 (CRYOSTEM)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002728 "Cryostem biobank")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002728 "CRYOSTEM cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002728 "CRYOSTEM collection")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002728 "CRYOSTEM Consortium")
+AnnotationAssertion(rdfs:label coho:COHO_0002728 "CRYOSTEM"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002728)
+
+# Individual: coho:COHO_0002729 (Dana-Farber Cancer Institute ALL Consortium)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002729 "DFCI ALL Consortium")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002729 "Dana Farber Cancer Institute ALL Consortium")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002729 "Dana-Farber Cancer Institute (DFCI) acute lymphoblastic leukemia (ALL) Consortium")
+AnnotationAssertion(rdfs:label coho:COHO_0002729 "Dana-Farber Cancer Institute ALL Consortium"@en)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0002729)
+
+# Individual: coho:COHO_0002730 (Early Life Interventions for Childhood Growth and Development in Tanzania)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002730 "ELICIT")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002730 "Early Life Interventions for Childhood growth and development in Tanzania")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002730 "Early Life Interventions for Childhood Growth and Development In Tanzania")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002730 "ELICIT trial")
+AnnotationAssertion(rdfs:label coho:COHO_0002730 "Early Life Interventions for Childhood Growth and Development in Tanzania"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002730)
+
+# Individual: coho:COHO_0002731 (Human Tissue Laboratory)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002731 "HTL")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002731 "EXODIAB")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002731 "Excellence in Diabetes biobank")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002731 "EXODIAB biobank")
+AnnotationAssertion(rdfs:label coho:COHO_0002731 "Human Tissue Laboratory"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002731)
+
+# Individual: coho:COHO_0002732 (FLAVonoids: University of Reading Study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002732 "FLAVURS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002732 "FLAVURS trial")
+AnnotationAssertion(rdfs:label coho:COHO_0002732 "FLAVonoids: University of Reading Study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002732)
+
+# Individual: coho:COHO_0002733 (Human Metabolome study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002733 "HuMet")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002733 "HuMet study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002733 "HuMet Repository")
+AnnotationAssertion(rdfs:label coho:COHO_0002733 "Human Metabolome study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002733)
+
+# Individual: coho:COHO_0002734 (Immunophenotyping Assessment in a COVID-19 Cohort)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002734 "IMPACC")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002734 "IMmunoPhenotyping Assessment in a COVID-19 Cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002734 "IMPACC study")
+AnnotationAssertion(rdfs:label coho:COHO_0002734 "Immunophenotyping Assessment in a COVID-19 Cohort"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002734)
+
+# Individual: coho:COHO_0002735 (Interactive Diet and Activity Tracking in AARP Study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002735 "IDATA")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002735 "IDATA Study")
+AnnotationAssertion(rdfs:label coho:COHO_0002735 "Interactive Diet and Activity Tracking in AARP Study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002735)
+
+# Individual: coho:COHO_0002736 (Isala)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002736 "Isala citizen-science project")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002736 "Isala program")
+AnnotationAssertion(rdfs:label coho:COHO_0002736 "Isala"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002736)
+
+# Individual: coho:COHO_0002737 (Mutographs)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002737 "Mutographs biorepository")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002737 "Mutographs project")
+AnnotationAssertion(rdfs:label coho:COHO_0002737 "Mutographs"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002737)
+
+# Individual: coho:COHO_0002738 (NCI-UMD-German cohort)
+
+AnnotationAssertion(rdfs:label coho:COHO_0002738 "NCI-UMD-German cohort"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002738)
+
+# Individual: coho:COHO_0002739 (NR-SAFE)
+
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002739 "NR-SAFE: a Safety Study Investigating Treatment With High-dose Nicotinamide Riboside (NR) in Parkinson's Disease")
+AnnotationAssertion(rdfs:label coho:COHO_0002739 "NR-SAFE"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002739)
+
+# Individual: coho:COHO_0002740 (OmegaROP)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002740 "OMEGAROP")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002740 "Omega-ROP")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002740 "OmegaROP study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002740 "Study of the Implication of Omega-3 Polyunsaturated Fatty Acids in Retinopathy of Prematurity in Newborns")
+AnnotationAssertion(rdfs:label coho:COHO_0002740 "OmegaROP"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002740)
+
+# Individual: coho:COHO_0002741 (RA-MAP Consortium)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002741 "RA-MAP")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002741 "RA-MAP Project")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002741 "RA-MAP consortium")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002741 "RA MRC/ABPI (RA-MAP) Consortium")
+AnnotationAssertion(rdfs:label coho:COHO_0002741 "RA-MAP Consortium"@en)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0002741)
+
+# Individual: coho:COHO_0002742 (Towards A Cure for Early Rheumatoid Arthritis)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002742 "TACERA")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002742 "Towards A CurE for RA")
+AnnotationAssertion(rdfs:label coho:COHO_0002742 "Towards A Cure for Early Rheumatoid Arthritis"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002742)
+
+# Individual: coho:COHO_0002743 (Screening Across the Lifespan Twin Study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002743 "SALT")
+AnnotationAssertion(rdfs:label coho:COHO_0002743 "Screening Across the Lifespan Twin Study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002743)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The SALT study, which is part of the Swedish Twin Registry, assessed 44,919 twin individuals aged between 41 and 97 years in 1998–2002") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10711760/fullTextXML") coho:isSubCohortOf coho:COHO_0002743 coho:COHO_0000160)
+
+# Individual: coho:COHO_0002744 (TOFI_Asia)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002744 "TOFI-Asia")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002744 "HVN PANaMAH TOFI")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002744 "TOFI_Asia study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002744 "Characterising the Pre-diabetic Asian and Caucasian Phenotype: The 'TOFI' Profile")
+AnnotationAssertion(rdfs:label coho:COHO_0002744 "TOFI_Asia"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002744)
+
+# Individual: coho:COHO_0002745 (The Effect of Dietary Bioactives on Gut Microbiome Diversity)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002745 "DIME")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002745 "The Effect of Dietary Bioactives on Gut Microbiome DivErsity")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002745 "The Effect of Dietary BIoactives on Gut Microbiome DivErsity")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002745 "Dietary BIoactives and Microbiome DivErsity study")
+AnnotationAssertion(rdfs:label coho:COHO_0002745 "The Effect of Dietary Bioactives on Gut Microbiome Diversity"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002745)
+
+# Individual: coho:COHO_0002746 (VMET study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002746 "VMET")
+AnnotationAssertion(rdfs:label coho:COHO_0002746 "VMET study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002746)
+
+# Individual: coho:COHO_0002747 (Vaginal Microbiome and Metabonome in Pregnancy study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002747 "VMET II")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002747 "VMET-2")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002747 "VMET2")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002747 "VMET 2")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002747 "Vaginal Microbiome and Metabonome in Pregnancy (VMET-2) Research study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002747 "Vaginal Microbiome and Metabolome in Pregnancy (VMET 2) Research Study")
+AnnotationAssertion(rdfs:label coho:COHO_0002747 "Vaginal Microbiome and Metabonome in Pregnancy study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002747)
+
+# Individual: coho:COHO_0002748 (Zambia Exclusive Breastfeeding Study)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002748 "ZEBS")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002748 "Zambian Exclusive Breast-feeding Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002748 "ZEBS study")
+AnnotationAssertion(rdfs:label coho:COHO_0002748 "Zambia Exclusive Breastfeeding Study"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002748)
 
 SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:RO_0001025) coho:has_data_collection_location)
 )

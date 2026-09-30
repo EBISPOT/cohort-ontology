@@ -8,9 +8,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/hp_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.owl>)
-Annotation(owl:versionInfo "2026-09-29")
+Annotation(owl:versionInfo "2026-09-30")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000118>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000119>))
@@ -37,6 +38,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001297>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001298>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001438>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001510>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001600>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001607>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0001622>))
@@ -83,6 +85,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003418>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0003419>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004322>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004324>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0004370>))
@@ -283,6 +286,12 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inS
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000001> "All")
 
+# Class: <http://purl.obolibrary.org/obo/HP_0000002> (Abnormality of body height)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000002> "Deviation from the norm of height with respect to that which is expected according to age and gender norms.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000002> "Abnormality of body height")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0000002> <http://purl.obolibrary.org/obo/HP_0001507>)
+
 # Class: <http://purl.obolibrary.org/obo/HP_0000079> (Abnormality of the urinary system)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000079> "An abnormality of the urinary system.")
@@ -448,6 +457,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001438> <http://purl.obolibrary.o
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001507> "Growth abnormality")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001507> <http://purl.obolibrary.org/obo/HP_0000118>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0001510> (Growth delay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001510> "A deficiency or slowing down of growth pre- and postnatally.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001510> "Very poor growth")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001510> "Growth delay")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0001510> <http://purl.obolibrary.org/obo/HP_0001507>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001600> (Abnormality of the larynx)
 
@@ -751,6 +767,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0003418> <http://purl.obolibrary.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003419> "An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the lower back.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0003419> "Low back pain")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003419> <http://purl.obolibrary.org/obo/HP_0003418>)
+
+# Class: <http://purl.obolibrary.org/obo/HP_0004322> (Short stature)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004322> "A height below that which is expected according to age and gender norms. Although there is no universally accepted definition of short stature, many refer to \"short stature\" as height more than 2 standard deviations below the mean for age and gender (or below the 3rd percentile for age and gender dependent norms).")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004322> "Short stature")
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0004322> <http://purl.obolibrary.org/obo/HP_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/HP_0004322> <http://purl.obolibrary.org/obo/HP_0001510>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004323> (Abnormality of body weight)
 

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/example_studies.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-29/components/example_studies.owl>
-Annotation(owl:versionInfo "2026-09-29")
+<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/example_studies.owl>
+Annotation(owl:versionInfo "2026-09-30")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -2518,6 +2518,29 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002722>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002723>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002724>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002725>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002726>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002727>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002728>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002729>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002730>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002731>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002732>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002733>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002734>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002735>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002736>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002737>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002738>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002739>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002740>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002741>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002742>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002743>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002744>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002745>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000112>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
@@ -3609,6 +3632,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Whole genome se
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000234> (<http://www.ebi.ac.uk/coho/COHO_0000234>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000234> "EGAS00001006725")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Delayed gut microbiota maturation in the first year of life is a hallmark of pediatric allergic disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37644001") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS7919") Annotation(rdfs:comment "Here we show, using deeply phenotyped participants in the CHILD birth cohort (n = 1115), that there are early-life influences and microbiome features which are uniformly associated with four distinct allergic diagnoses at 5 years: atopic dermatitis (AD, n = 367), asthma (As, n = 165), food allergy (FA, n = 136), and allergic rhinitis (AR, n = 187).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000234> "MTBLS7919")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000235> (<http://www.ebi.ac.uk/coho/COHO_0000235>)
 
@@ -4235,6 +4259,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide ass
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000391> (<http://www.ebi.ac.uk/coho/COHO_0000391>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association study of image-based emphysema scoring in the Swedish CArdioPulmonary bioImage Study (SCAPIS) suggests two new risk loci in smokers.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:42634071") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42634071+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We conducted a genome-wide association study (GWAS) of CT-based emphysema, with a particular focus on non-smoking-related genetic determinants.MethodsWe analyzed 25,639 individuals of European ancestry from the SCAPIS national cohort, aged 50-65 years, of which 51% were never-smokers.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000391> "GCST90837374")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "An online atlas of human plasma metabolite signatures of gut microbiome composition.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36151114") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS407") Annotation(rdfs:comment "In this cross-sectional study, we used deep metagenomic sequencing and ultra-high-performance liquid chromatography linked to mass spectrometry for a detailed characterization of the gut microbiota and plasma metabolome, respectively, of 8583 participants invited at age 50 to 64 from the population-based Swedish CArdioPulmonary bioImage Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000391> "MTBLS407")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000392> (<http://www.ebi.ac.uk/coho/COHO_0000392>)
 
@@ -4462,6 +4487,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Mapping gene by
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000447> (<http://www.ebi.ac.uk/coho/COHO_0000447>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Sex-biased genetic regulation of inflammatory proteins in the Dutch population.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38326779") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10851559/fullTextXML") Annotation(rdfs:comment "The 500FG cohort is a population-based cohort of healthy individuals of Western European ancestry consisting of 237 males and 296 females with age range of 18-75 years.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000447> "GCST90503338")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Integration of metabolomics, genomics, and immune phenotypes reveals the causal roles of metabolites in disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34229738") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS2633") Annotation(rdfs:comment "We systematically investigate circulating metabolites in a cohort of 500 healthy subjects (500FG) in whom immune function and activity are deeply measured and whose genetics are profiled.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000447> "MTBLS2633")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000448> (<http://www.ebi.ac.uk/coho/COHO_0000448>)
 
@@ -5077,6 +5103,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cumulative Burd
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000598> (<http://www.ebi.ac.uk/coho/COHO_0000598>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genetic influences on circulating retinol and its relationship to human health.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38374065") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10876955/fullTextXML") Annotation(rdfs:comment "In this study, we used three input datasets – INTERVAL, METSIM, and ATBC/PLCO.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000598> "GCST90399849")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification of pre-diagnostic lipid sets associated with liver cancer risk using untargeted lipidomics and chemical set analysis: A nested case-control study within the ATBC cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37694774") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS7776") Annotation(rdfs:comment "We conducted a high-resolution mass spectrometry based untargeted lipidomics analysis of pre-diagnostic serum samples from a nested case-control study (219 liver cancer cases and 219 controls) within the Alpha-Tocopherol, Beta-Carotene Cancer Prevention (ATBC) Study.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000598> "MTBLS7776")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000599> (<http://www.ebi.ac.uk/coho/COHO_0000599>)
 
@@ -6810,6 +6837,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cross-definitio
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001026> (<http://www.ebi.ac.uk/coho/COHO_0001026>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Genome-wide association meta-analysis of age at onset of walking in over 70,000 infants of European ancestry.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40335706") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12283345/fullTextXML") Annotation(rdfs:comment "We conducted a GWAS meta-analysis of AOW in 70,560 children including data from four European-ancestry cohorts: the Norwegian Mother, Father and Child Cohort Study20,21 (MoBa, N = 58,302), the Netherlands Twin Register22 (NTR, N = 6,251), the Lifelines multigenerational prospective population-based birth cohort study23 from the North of the Netherlands (N = 3,415) and the United Kingdom Medical Research Council National Study for Health and Development24 (NSHD, N = 2,592).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001026> "GCST90651078")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A lipidomic human population and translational feeding study of hepatic steatosis and de novo lipogenesis (Human plasma assay)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS616") Annotation(rdfs:comment "Results: We conducted direct infusion mass spectrometry of lipids in plasma to study the association between specific triacylglycerols (TAGs) and hepatic steatosis assessed by ultrasound and fatty liver index in volunteers from the UK-based Fenland Study (n=1507), and evaluated clustering of TAGs in the National Survey of Health and Development UK cohort (n=1701).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0001026> "MTBLS616")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001027> (<http://www.ebi.ac.uk/coho/COHO_0001027>)
 
@@ -12706,6 +12734,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Associations be
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002603> (<http://www.ebi.ac.uk/coho/COHO_0002603>)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "A multi-omic analysis of birthweight in newborn cord blood reveals new underlying mechanisms related to cholesterol metabolism.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32553738") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS1684") Annotation(rdfs:comment "Since the results of the omics integration indicated the central role of cholesterol metabolism, we explored the association of cholesterol levels in cord blood with birthweight in the ENVIRONAGE cohort (n=1,097), finding that higher birthweight was associated with increased high-density lipoprotein cholesterol and that high-density lipoprotein cholesterol was lower in small versus large for gestational age newborns.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002603> "MTBLS1684")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cord Blood Appetite Hormones and Early-Life Growth and Childhood Adiposity in the ENVIRONAGE Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41196593") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12593129/fullTextXML") Annotation(rdfs:comment "This prospective birth cohort study was conducted within the Environmental Influence on Early Aging (ENVIRONAGE) birth cohort, with follow-up data collected at 4 to 6 years of age.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002603> "PMID:41196593")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002604> (<http://www.ebi.ac.uk/coho/COHO_0002604>)
@@ -13055,6 +13084,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Prevalence, spa
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002690> (<http://www.ebi.ac.uk/coho/COHO_0002690>)
 
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Serum metabolomic profiles associated with postmenopausal hormone use.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30830410") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS136") Annotation(rdfs:comment "Untargeted metabolomics analysis was carried out on serum from 1,336 women enrolled in the Cancer Prevention II Nutrition Cohort.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002690> "MTBLS136")
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Pre-Diagnostic Circulating Metabolites and Colorectal Cancer Risk in the Cancer Prevention Study-II Nutrition Cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:33803340") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8000483/fullTextXML") Annotation(rdfs:comment "Men and women in this study were participants in the CPS-II Nutrition Cohort, a subset of 1.2 million participants in the CPS-II Cohort (1982), who resided in 21 U.S. states when they were invited to enroll in the CPS-II Nutrition Cohort of incident cancer follow-up, beginning in 1992–1993") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002690> "PMID:33803340")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002691> (<http://www.ebi.ac.uk/coho/COHO_0002691>)
@@ -13200,6 +13230,98 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Surveillance an
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002725> (<http://www.ebi.ac.uk/coho/COHO_0002725>)
 
 AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Outcomes in localized prostate cancer: National Prostate Cancer Register of Sweden follow-up study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20562373") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897875/") Annotation(rdfs:comment "In the National Prostate Cancer Register of Sweden Follow-up Study, a nationwide cohort, we identified 6849 patients aged 70 years or younger.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002725> "PMID:20562373")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002726> (<http://www.ebi.ac.uk/coho/COHO_0002726>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "NMR-based metabolomics identifies patients at high risk of death within two years after acute myocardial infarction in the AMI-Florence II cohort.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30616610") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS395") Annotation(rdfs:comment "NMR-based metabolomics identifies patients at high risk of death within two years after acute myocardial infarction in the AMI-Florence II cohort") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002726> "MTBLS395")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002727> (<http://www.ebi.ac.uk/coho/COHO_0002727>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "SNAP25 Inhibits Glioma Progression by Regulating Synapse Plasticity via GLS-Mediated Glutaminolysis.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34490096") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS2806") Annotation(rdfs:comment "Cox proportional hazards regression analysis and survival analysis indicated that the candidate gene SNAP25 could differentiate the outcome of low- and high-risk patients, and the Chinese Glioma Genome Atlas (CGGA) cohort was used for validation of the data set.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002727> "MTBLS2806")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002728> (<http://www.ebi.ac.uk/coho/COHO_0002728>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Metabolomics analysis of human acute graft-versus-host disease reveals changes in host and microbiota-derived metabolites.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31836702") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS205") Annotation(rdfs:comment "A first monocentric cohort from Saint Louis hospital (Paris, France) was used as an exploratory cohort (n=43) and a second multicentric national cohort from Cryostem biobank was used as a confimatory cohort (n=56).Metabolomic profile markedly differed between recipients and donors.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002728> "MTBLS205")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002729> (<http://www.ebi.ac.uk/coho/COHO_0002729>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Impact of acute lymphoblastic leukemia induction therapy: findings from metabolomics on non-fasted plasma samples from a biorepository.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34175981") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS2394") Annotation(rdfs:comment "Several chemotherapies intercept cancer metabolism, but little is known about their collective role in altering host metabolism.OBJECTIVES: We profiled the metabolomic changes in plasma of ALL patients initial- and post- induction therapy.METHODS: We exploited a biorepository of non-fasted plasma samples derived from the Dana Farber Cancer Institute ALL Consortium; these samples were obtained from 50 ALL patients initial- and post-induction therapy.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002729> "MTBLS2394")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002730> (<http://www.ebi.ac.uk/coho/COHO_0002730>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Birth season shapes the infant metabolome and development in Tanzania: a secondary explorative analysis of the early life interventions for childhood growth and development in Tanzania (ELICIT) trial.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:41390468") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS13213") Annotation(rdfs:comment "Birth season shapes the infant metabolome and development in Tanzania: a secondary explorative analysis of The Early Life Interventions for Childhood growth and development in Tanzania (ELICIT) trial") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002730> "MTBLS13213")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002731> (<http://www.ebi.ac.uk/coho/COHO_0002731>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Intra- and inter-individual metabolic profiling highlights carnitine and lysophosphatidylcholine pathways as key molecular defects in type 2 diabetes.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31273253") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS690") Annotation(rdfs:comment "The samples originate from the Excellence in Diabetes biobank (EXODIAB) in Sweden.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002731> "MTBLS690")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002732> (<http://www.ebi.ac.uk/coho/COHO_0002732>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Urinary metabolomic profiling to identify biomarkers of a flavonoid-rich and flavonoid-poor fruits and vegetables diet in adults: the FLAVURS trial") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS198") Annotation(rdfs:comment "Urinary metabolomic profiling to identify biomarkers of a flavonoid-rich and flavonoid-poor fruits and vegetables diet in adults: the FLAVURS trial") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002732> "MTBLS198")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002733> (<http://www.ebi.ac.uk/coho/COHO_0002733>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The HuMet Repository: Watching human metabolism at work.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39033506") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS89") Annotation(rdfs:comment "We present the HuMet Repository for exploring dynamic metabolic responses to oral glucose/lipid loads, mixed meals, 36-h fasting, exercise, and cold stress in healthy subjects.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002733> "MTBLS89")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002734> (<http://www.ebi.ac.uk/coho/COHO_0002734>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Features of acute COVID-19 associated with post-acute sequelae of SARS-CoV-2 phenotypes: results from the IMPACC study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38172101") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS850") Annotation(rdfs:comment "Features of acute COVID-19 associated with post-acute sequelae of SARS-CoV-2 phenotypes: results from the IMPACC study") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002734> "MTBLS850")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002735> (<http://www.ebi.ac.uk/coho/COHO_0002735>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Identification and validation of poly-metabolite scores for diets high in ultra-processed food: An observational study and post-hoc randomized controlled crossover-feeding trial.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40392756") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS12705") Annotation(rdfs:comment "We aimed to identify poly-metabolite scores in blood and urine that are predictive of UPF intake.METHODS AND FINDINGS: Of the 1082 Interactive Diet and Activity Tracking in AARP (IDATA) Study (clinicaltrials.gov ID NCT03268577) participants, aged 50-74 years, who provided biospecimen consent, n=718 with serially collected blood and urine and one to six 24-hour dietary recalls (ASA-24s), collected over 12-months, met eligibility criteria and were included in the metabolomics analysis.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002735> "MTBLS12705")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002736> (<http://www.ebi.ac.uk/coho/COHO_0002736>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Riboflavin produced in the vagina by lactobacilli as symbiotic factor") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS7389") Annotation(rdfs:comment "In this study, we analyzed the vaginal microbiome and metabolome of 258 healthy women from the Isala program.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002736> "MTBLS7389")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002737> (<http://www.ebi.ac.uk/coho/COHO_0002737>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Geographic variation of mutagenic exposures in kidney cancer genomes.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38693263") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS9394") Annotation(rdfs:comment "The results indicate the existence of multiple, geographically variable, mutagenic exposures potentially affecting 10s of millions of people and illustrate the opportunities for new insights into cancer causation through large-scale global cancer genomics.Linked cross omic data sets:Geographic variation of mutagenic exposures in kidney cancer genomes – patient metadata files (Mutographs) associated with this study are available in the European Genome-Phenome Archive: https://ega-archive.org/datasets/EGAD00001012223.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002737> "MTBLS9394")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002738> (<http://www.ebi.ac.uk/coho/COHO_0002738>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "ELAPOR1 induces the classical/progenitor subtype and contributes to reduced disease aggressiveness through metabolic reprogramming in pancreatic cancer.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38630934") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS9418") Annotation(rdfs:comment "Using our integrated approach, we identified endosome-lysosome associated apoptosis and autophagy regulator 1 (ELAPOR1/KIAA1324) as a candidate tumor suppressor in both our NCI-UMD-German cohort and additional validation cohorts.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002738> "MTBLS9418")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002739> (<http://www.ebi.ac.uk/coho/COHO_0002739>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "NR-SAFE: a randomized, double-blind safety trial of high dose nicotinamide riboside in Parkinson's disease.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:38016950") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS8812") Annotation(rdfs:comment "NR-SAFE: a randomized, double-blind safety trial of high dose nicotinamide riboside in Parkinson's disease") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002739> "MTBLS8812")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002740> (<http://www.ebi.ac.uk/coho/COHO_0002740>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Modification of erythrocyte membrane phospholipid composition in preterm newborns with retinopathy of prematurity: The omegaROP study.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36158214") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS4219") Annotation(rdfs:comment "In the OmegaROP prospective cohort study, we showed that preterm infants who will develop ROP accumulate the n-6 PUFA arachidonic acid (ARA) at the expense of the n-3 PUFA docosahexaenoic acid (DHA) in erythrocytes with advancing gestational age (GA).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002740> "MTBLS4219")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002741> (<http://www.ebi.ac.uk/coho/COHO_0002741>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "RA-MAP: mapping the molecular immunological landscape in early rheumatoid arthritis with vaccine controls") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS1497") Annotation(rdfs:comment "RA-MAP: mapping the molecular immunological landscape in early rheumatoid arthritis with vaccine controls") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002741> "MTBLS1497")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002742> (<http://www.ebi.ac.uk/coho/COHO_0002742>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "RA-MAP: mapping the molecular immunological landscape in early rheumatoid arthritis with vaccine controls") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS1497") Annotation(rdfs:comment "In the Towards A Cure for Early Rheumatoid Arthritis (TACERA) study, 239 out of 267 eligible patients, newly diagnosed with symptom duration less than 12 mth and untreated with DMARDs or corticosteroids, had a 6-mth assessment visit.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002742> "MTBLS1497")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002743> (<http://www.ebi.ac.uk/coho/COHO_0002743>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Cardiometabolic multimorbidity and incident dementia: the Swedish twin registry.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36577740") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9925275/fullTextXML") Annotation(rdfs:comment "Between March 1998 and December 2002, all living twins in the registry aged >40 years (i.e. born in 1958 or earlier) were invited to participate in a computer-assisted telephone interview on demographics and health conditions as part of the Screening Across the Lifespan Twin (SALT) study (response rate: 72.6%).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002743> "PMID:36577740")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002744> (<http://www.ebi.ac.uk/coho/COHO_0002744>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The impact of ethnicity and intra-pancreatic fat on the postprandial metabolome response to whey protein in overweight Asian Chinese and European Caucasian women with prediabetes.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:36992769") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS5568") Annotation(rdfs:comment "The 'Thin on the Outside Fat on the Inside' TOFI_Asia study found Asian Chinese to be more susceptible to Type 2 Diabetes (T2D) compared to European Caucasians matched for gender and body mass index (BMI).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002744> "MTBLS5568")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002745> (<http://www.ebi.ac.uk/coho/COHO_0002745>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "The Effect of Dietary Bioactives on Gut Microbiome DivErsity (DIME) - A pilot study (Targeted metabolomics)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS7290") Annotation(rdfs:comment "The Effect of Dietary Bioactives on Gut Microbiome DivErsity (DIME) - A pilot study (Targeted metabolomics)") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002745> "MTBLS7290")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002746> (<http://www.ebi.ac.uk/coho/COHO_0002746>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Direct on-swab metabolic profiling of vaginal microbiome host interactions during pregnancy and preterm birth.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34645809") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS717") Annotation(rdfs:comment "Here we describe direct on-swab metabolic profiling by Desorption Electrospray Ionization Mass Spectrometry (DESI-MS) for sample preparation-free characterisation of the cervicovaginal metabolome in two independent pregnancy cohorts (VMET, n = 160; 455 swabs; VMET II, n = 205; 573 swabs).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002746> "MTBLS717")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002747> (<http://www.ebi.ac.uk/coho/COHO_0002747>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Direct on-swab metabolic profiling of vaginal microbiome host interactions during pregnancy and preterm birth.") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34645809") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS717") Annotation(rdfs:comment "Here we describe direct on-swab metabolic profiling by Desorption Electrospray Ionization Mass Spectrometry (DESI-MS) for sample preparation-free characterisation of the cervicovaginal metabolome in two independent pregnancy cohorts (VMET, n = 160; 455 swabs; VMET II, n = 205; 573 swabs).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002747> "MTBLS717")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002748> (<http://www.ebi.ac.uk/coho/COHO_0002748>)
+
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "Altered milk tryptophan and tryptophan metabolites and health of children born to women with HIV (ZEBS study milk assays).") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/metabolights/ws/studies/public/study/MTBLS2307") Annotation(rdfs:comment "Altered milk tryptophan and tryptophan metabolites and health of children born to women with HIV (ZEBS study milk assays).") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0002748> "MTBLS2307")
 
 
 )
