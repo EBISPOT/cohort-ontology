@@ -2541,6 +2541,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002745>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002749>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002751>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
@@ -12673,6 +12676,18 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002748> (<http://www.ebi.ac.uk/coho/COHO_0002748>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:18525036") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002748> "A randomised trial in Lusaka, Zambia, in which HIV-infected women who planned to breastfeed exclusively to four months were assigned to counselling that encouraged abrupt weaning at four months or continued breastfeeding, to evaluate the effect of early weaning on the HIV-free survival of their children to 24 months.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002749> (<http://www.ebi.ac.uk/coho/COHO_0002749>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.pedpd.org/") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002749> "A global consortium of paediatric nephrology centres dedicated to the care of children on chronic dialysis, which runs two registries: the IPPN registry for children on chronic peritoneal dialysis and the IPHN registry for children on haemodialysis.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002750> (<http://www.ebi.ac.uk/coho/COHO_0002750>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:36361044") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002750> "A population-based multi-centre longitudinal cohort of pregnant women recruited in Poland from 2007 to 2011, with their children followed through infancy, childhood and adolescence, to evaluate the impact of occupational, environmental and lifestyle exposures during pregnancy and after birth on pregnancy outcomes and offspring health.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002751> (<http://www.ebi.ac.uk/coho/COHO_0002751>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23269124") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002751> "A prospective cohort of mother-infant pairs recruited in the coastal Province of Trieste, Italy, in Ljubljana, Slovenia, in Rijeka, Croatia, and on Greek islands, set up within the PHIME project (2006 to 2011) to investigate the effects of prenatal low-level mercury exposure from maternal fish and seafood consumption on child neurodevelopment.")
 
 
 )

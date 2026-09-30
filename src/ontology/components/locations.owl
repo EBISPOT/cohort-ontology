@@ -2508,6 +2508,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002745>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002751>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -13432,6 +13434,17 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002748> (<http://www.ebi.ac.uk/coho/COHO_0002748>)
 
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2137948/fullTextXML") Annotation(rdfs:comment "HIV-infected women were recruited between May 2001 and September 2004 from prevention of mother-to-child transmission (PMTCT) programs established at two antenatal clinics in Lusaka, Zambia.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002748> <http://dbpedia.org/resource/Zambia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002750> (<http://www.ebi.ac.uk/coho/COHO_0002750>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9656994/fullTextXML") Annotation(rdfs:comment "The Polish Mother and Child Cohort (REPRO_PL) is a population-based multi-center longitudinal study established in 2007 in Poland.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002750> <http://dbpedia.org/resource/Poland>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002751> (<http://www.ebi.ac.uk/coho/COHO_0002751>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Croatia>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3700240/fullTextXML") Annotation(rdfs:comment "The cohort includes 4 recruitment areas: (a) the coastal Province of Trieste, Italy, (b) the city of Ljubljana, Slovenia and its surroundings (up to 50 km), (c) the coastal city of Rijeka, Croatia and its county (Primorsko-goranska), and (d) the Greek islands of Lesvos, Chios, Samos, and Leros in the eastern Aegean.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Greece>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Italy>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Slovenia>)
 
 
 )

@@ -2320,6 +2320,7 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002745>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfCases>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfControls>))
@@ -12409,6 +12410,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "wom
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002748> (<http://www.ebi.ac.uk/coho/COHO_0002748>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "HIV-infected women and their infants enrolled and randomised (2004)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18525036+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "We enrolled 958 HIV-infected women and their infants in Lusaka, Zambia.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002748> "958"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002750> (<http://www.ebi.ac.uk/coho/COHO_0002750>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "pregnant women recruited (2011)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9656994/fullTextXML") Annotation(rdfs:comment "A total of 1763 women were recruited in the REPRO_PL cohort") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002750> "1763"^^xsd:integer)
 
 
 )

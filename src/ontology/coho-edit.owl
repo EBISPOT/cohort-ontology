@@ -2843,6 +2843,9 @@ Declaration(NamedIndividual(coho:COHO_0002745))
 Declaration(NamedIndividual(coho:COHO_0002746))
 Declaration(NamedIndividual(coho:COHO_0002747))
 Declaration(NamedIndividual(coho:COHO_0002748))
+Declaration(NamedIndividual(coho:COHO_0002749))
+Declaration(NamedIndividual(coho:COHO_0002750))
+Declaration(NamedIndividual(coho:COHO_0002751))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#EGA_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#GWAS_subset>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho#PGS_subset>))
@@ -3491,6 +3494,9 @@ AnnotationAssertion(rdfs:label coho:COHO_0000067 "EuroTARGET project"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000067)
 
 # Individual: coho:COHO_0000068 (Extremely Low Gestational Age Newborns)
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000068 "Extremely Low Gestational Age Newborn Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000068 "ELGAN Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000068 "ELGAN cohort")
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000068 "ELGAN")
 AnnotationAssertion(rdfs:label coho:COHO_0000068 "Extremely Low Gestational Age Newborns"@en)
@@ -25879,6 +25885,28 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002748 "Zambian Exclus
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002748 "ZEBS study")
 AnnotationAssertion(rdfs:label coho:COHO_0002748 "Zambia Exclusive Breastfeeding Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002748)
+
+# Individual: coho:COHO_0002749 (International Pediatric Dialysis Network)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002749 "IPDN")
+AnnotationAssertion(rdfs:label coho:COHO_0002749 "International Pediatric Dialysis Network"@en)
+ClassAssertion(coho:COHO_0000001 coho:COHO_0002749)
+
+# Individual: coho:COHO_0002750 (Polish Mother and Child Cohort)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002750 "REPRO_PL")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002750 "Polish Mother and Child Cohort Study")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002750 "Polish Mother and Child cohort")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002750 "REPRO_PL cohort")
+AnnotationAssertion(rdfs:label coho:COHO_0002750 "Polish Mother and Child Cohort"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002750)
+
+# Individual: coho:COHO_0002751 (Mediterranean PHIME cohort)
+
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002751 "PHIME")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002751 "PHIME cohort")
+AnnotationAssertion(rdfs:label coho:COHO_0002751 "Mediterranean PHIME cohort"@en)
+ClassAssertion(coho:COHO_0000000 coho:COHO_0002751)
 
 SubObjectPropertyOf(ObjectPropertyChain(coho:has_data_collection_location obo:RO_0001025) coho:has_data_collection_location)
 )
