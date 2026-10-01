@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/definitions.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/definitions.owl>
-Annotation(owl:versionInfo "2026-09-30")
+<http://www.ebi.ac.uk/coho/releases/2026-10-01/components/definitions.owl>
+Annotation(owl:versionInfo "2026-10-01")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -2544,6 +2544,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002749>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002751>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002752>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002753>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002754>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000119>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
@@ -12688,6 +12691,18 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMI
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002751> (<http://www.ebi.ac.uk/coho/COHO_0002751>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:23269124") Annotation(<http://purl.org/dc/terms/contributor> "Claude Fable 5.1 (Anthropic), 2026-09") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002751> "A prospective cohort of mother-infant pairs recruited in the coastal Province of Trieste, Italy, in Ljubljana, Slovenia, in Rijeka, Croatia, and on Greek islands, set up within the PHIME project (2006 to 2011) to investigate the effects of prenatal low-level mercury exposure from maternal fish and seafood consumption on child neurodevelopment.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002752> (<http://www.ebi.ac.uk/coho/COHO_0002752>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:21836165") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-10") Annotation(<http://purl.org/dc/terms/contributor> "Claude Sonnet 5.5 (Anthropic), 2026-10") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002752> "A consortium initiated in 2008 by the National Human Genome Research Institute to investigate the epidemiologic architecture of well-replicated genetic variants associated with complex diseases across several large, ethnically diverse population-based studies of African American, white, Hispanic/Latino, Asian/Pacific Islander and American Indian participants, harmonising phenotypes across the studies and running coordinated cohort-specific analyses and meta-analyses.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002753> (<http://www.ebi.ac.uk/coho/COHO_0002753>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "PMID:22721967") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-10") Annotation(<http://purl.org/dc/terms/contributor> "Claude Sonnet 5.5 (Anthropic), 2026-10") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002753> "A consortium formed to examine previously reported genetic associations with diabetic nephropathy in type 1 diabetes, bringing together similarly ascertained participants of European ancestry with type 1 diabetes, with and without diabetic nephropathy, from the All Ireland-Warren 3-Genetics of Kidneys in Diabetes UK and Republic of Ireland collection and the Finnish Diabetic Nephropathy Study, with reanalysed data from the Genetics of Kidneys in Diabetes US Study.")
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002754> (<http://www.ebi.ac.uk/coho/COHO_0002754>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs001584/phs001584.v2.p2/GapExchange_phs001584.v2.p2.xml") Annotation(<http://purl.org/dc/terms/contributor> "Claude Opus 5.5 (Anthropic), 2026-10") Annotation(<http://purl.org/dc/terms/contributor> "Claude Sonnet 5.5 (Anthropic), 2026-10") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.ebi.ac.uk/coho/COHO_0002754> "A biorepository based at the University of Washington and co-managed by the University of Washington and Kaiser Permanente Washington, built as infrastructure for a broad range of future genetic research, through which Kaiser Permanente Washington participants were enrolled in the eMERGE Network.")
 
 
 )

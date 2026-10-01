@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/participants.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/participants.owl>
-Annotation(owl:versionInfo "2026-09-30")
+<http://www.ebi.ac.uk/coho/releases/2026-10-01/components/participants.owl>
+Annotation(owl:versionInfo "2026-10-01")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -2321,6 +2321,8 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002746>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002752>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002753>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000116>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfCases>))
 Declaration(AnnotationProperty(<http://www.ebi.ac.uk/coho/numberOfControls>))
@@ -12414,6 +12416,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "HIV
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002750> (<http://www.ebi.ac.uk/coho/COHO_0002750>)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "pregnant women recruited (2011)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9656994/fullTextXML") Annotation(rdfs:comment "A total of 1763 women were recruited in the REPRO_PL cohort") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002750> "1763"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002752> (<http://www.ebi.ac.uk/coho/COHO_0002752>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants available for study across the PAGE cohorts (the source says 'over 121,200')") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3176830/fullTextXML") Annotation(rdfs:comment "With over 121,200 African-American, white, Hispanic/Latino, Asian/Pacific Islander, and American Indian participants available for study across the cohorts, PAGE investigators are well poised to address the critical research questions that follow the establishment of GWAS associations through large-scale replication and generalization.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002752> "121200"^^xsd:integer)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002753> (<http://www.ebi.ac.uk/coho/COHO_0002753>)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants of European ancestry with type 1 diabetes, with and without diabetic nephropathy") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22721967+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "GENIE consists of 6,366 similarly ascertained participants of European ancestry with type 1 diabetes, with and without DN, from the All Ireland-Warren 3-Genetics of Kidneys in Diabetes U.K. and Republic of Ireland (U.K.-R.O.I.) collection and the Finnish Diabetic Nephropathy Study (FinnDiane), combined with reanalyzed data from the Genetics of Kidneys in Diabetes U.S. Study (U.S. GoKinD).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002753> "6366"^^xsd:integer)
 
 
 )

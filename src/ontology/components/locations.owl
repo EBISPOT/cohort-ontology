@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/locations.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-09-30/components/locations.owl>
-Annotation(owl:versionInfo "2026-09-30")
+<http://www.ebi.ac.uk/coho/releases/2026-10-01/components/locations.owl>
+Annotation(owl:versionInfo "2026-10-01")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/has_data_collection_location>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Africa>))
@@ -2510,6 +2510,9 @@ Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002747>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002748>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002750>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002751>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002752>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002753>))
+Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0002754>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
@@ -13445,6 +13448,21 @@ ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location>
 ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3700240/fullTextXML") Annotation(rdfs:comment "The cohort includes 4 recruitment areas: (a) the coastal Province of Trieste, Italy, (b) the city of Ljubljana, Slovenia and its surroundings (up to 50 km), (c) the coastal city of Rijeka, Croatia and its county (Primorsko-goranska), and (d) the Greek islands of Lesvos, Chios, Samos, and Leros in the eastern Aegean.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Greece>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Italy>)
 ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002751> <http://dbpedia.org/resource/Slovenia>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002752> (<http://www.ebi.ac.uk/coho/COHO_0002752>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6785182/unicode") Annotation(rdfs:comment "The PAGE study was developed by the National Human Genome Research Institute and the National Institute on Minority Health and Health Disparities to conduct genetic epidemiological research in ancestrally diverse populations within the United States.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002752> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002753> (<http://www.ebi.ac.uk/coho/COHO_0002753>)
+
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002753> <http://dbpedia.org/resource/Finland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002753> <http://dbpedia.org/resource/Republic_of_Ireland>)
+ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002753> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22721967+AND+SRC%3AMED&format=json&resultType=core") Annotation(rdfs:comment "GENIE consists of 6,366 similarly ascertained participants of European ancestry with type 1 diabetes, with and without DN, from the All Ireland-Warren 3-Genetics of Kidneys in Diabetes U.K. and Republic of Ireland (U.K.-R.O.I.) collection and the Finnish Diabetic Nephropathy Study (FinnDiane), combined with reanalyzed data from the Genetics of Kidneys in Diabetes U.S. Study (U.S. GoKinD).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002753> <http://dbpedia.org/resource/United_States>)
+
+# Individual: <http://www.ebi.ac.uk/coho/COHO_0002754> (<http://www.ebi.ac.uk/coho/COHO_0002754>)
+
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs001584/phs001584.v2.p2/GapExchange_phs001584.v2.p2.xml") Annotation(rdfs:comment "Kaiser Permanente Washington with the University of Washington and the Fred Hutchinson Cancer Research Center, Seattle, WA, USA") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002754> <http://dbpedia.org/resource/United_States>)
 
 
 )
