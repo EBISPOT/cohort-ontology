@@ -85,15 +85,18 @@ def main():
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "data collection location", "evidence", "source"])
-        w.writerow(["ID", "TYPE", "", "I coho:has_data_collection_location SPLIT=|", ">A rdfs:comment", ">A oio:hasDbXref"])
+        w.writerow(["ID", "TYPE", "", "I coho:has_data_collection_location", ">A rdfs:comment", ">A oio:hasDbXref"])
         n = 0
         for cid in sorted(rows):
             located = False
             for countries, quote, url in rows[cid]:
                 if not countries:
                     continue
-                value = "|".join(f"dbpedia:{c}" for c in countries.split("|"))
-                w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), value, quote, url])
+                # One row per location. A row that listed several locations with SPLIT=| came
+                # out of the template with the quote and source on its last location only.
+                for c in countries.split("|"):
+                    if c:
+                        w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), f"dbpedia:{c}", quote, url])
                 located = True
             n += located
     unlocated = sorted(cid for cid in labels if cid not in deprecated and not any(c for c, _, _ in rows.get(cid, [])))
