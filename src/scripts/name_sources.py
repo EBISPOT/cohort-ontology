@@ -12,7 +12,8 @@ without a quote. In order:
     (pgs_catalog_cohorts.csv), as its REST record;
   - a GWAS Catalog study that tags its sample with it
     (gwas_catalog_cohorts.tsv.gz), the term's own example study when it is one.
-A name none of these use is left out and counted.
+A variant of a name one of these uses (capitals, punctuation, a leading "The") is sourced by the same record, with a
+note saying how the catalogue writes it. A name none of these use is left out and counted.
 
 Usage: src/scripts/name_sources.py
 """
@@ -63,6 +64,10 @@ def main():
     examples = defaultdict(set)
     for r in rows(M.ROOT / "src/templates/example_studies.tsv")[1:]:
         examples[r["ID"]].add(r["example study"])
+    def vnorm(x):
+        return re.sub(r"^the ", "", re.sub(r"[\W_]+", " ", x.lower()).strip())
+    pgs_v = {vnorm(k): k for k in pgs}
+    gwas_v = {vnorm(k): k for k in gwas}
     out, left = [], 0
     for c in sorted(names):
         for n in sorted(names[c]):
@@ -75,6 +80,19 @@ def main():
             if not hit and n in gwas:
                 gcst = sorted(gwas[n] & examples[c]) or sorted(gwas[n])
                 hit = (f"https://www.ebi.ac.uk/gwas/studies/{gcst[0]}", f"GWAS Catalog study {gcst[0]} tags its sample with this name")
+            if not hit:
+                v = vnorm(n)
+                for given, url, label in entries[c]:
+                    g = next((x for x in given if vnorm(x) == v), None)
+                    if g:
+                        hit = (url, f'the catalogue writes it "{g}": the {label} entry for the term'); break
+                if not hit and v in pgs_v:
+                    k = pgs_v[v]
+                    hit = (f"https://www.pgscatalog.org/rest/cohort/{urllib.parse.quote(pgs[k])}", f'the catalogue writes it "{k}": the PGS Catalog cohort {pgs[k]}')
+                if not hit and v in gwas_v:
+                    k = gwas_v[v]
+                    gcst = sorted(gwas[k] & examples[c]) or sorted(gwas[k])
+                    hit = (f"https://www.ebi.ac.uk/gwas/studies/{gcst[0]}", f'the catalogue writes it "{k}": GWAS Catalog study {gcst[0]} tags its sample with it')
             if hit:
                 out.append([c, n, hit[0], hit[1]])
             else:
