@@ -1,0 +1,66 @@
+# Every fact asserted on a curated cohort carries its evidence: at least one
+# copy of the assertion annotated with a verbatim quote (rdfs:comment) and its
+# source (oboInOwl:hasDbXref: PMID:n for a paper, or the URL of the document,
+# which may be a registry record, a catalogue entry or a website; a paper is
+# preferred but any source counts). The facts: the definition, the label and
+# the synonyms, the type (cohort or cohort aggregation), the data collection
+# locations, the numbers of participants, cases and controls, the members of
+# an aggregation, the parent of a sub-cohort and the example studies. Some
+# evidence is by nature a database record, whose URL suffices without a quote:
+# a PGS Catalog example (the Catalog's record of the score), and a name that is
+# a catalogue's own code or name for the cohort (the GWAS Catalog study, PGS
+# Catalog cohort, Global Exposome Cohort Catalogue or IHCC Atlas entry that uses
+# it).
+# A location inferred into the release from an evidenced one (the region a
+# located country lies in, through the property chain with RO:0001025) needs no
+# evidence of its own. Placeholders (curation status uncurated) and deprecated
+# terms are skipped.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?property ?value
+WHERE {
+  {
+    VALUES ?property {
+      obo:IAO_0000115 rdfs:label oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym
+      oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
+      coho:has_data_collection_location coho:numberOfParticipants coho:numberOfCases
+      coho:numberOfControls coho:hasCohort coho:isSubCohortOf obo:IAO_0000112
+    }
+    ?term ?property ?value .
+  } UNION {
+    VALUES ?value { coho:COHO_0000000 coho:COHO_0000001 }
+    BIND(rdf:type AS ?property)
+    ?term rdf:type ?value .
+  }
+  ?term a owl:NamedIndividual .
+  FILTER(STRSTARTS(STR(?term), STR(coho:COHO_)))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+  FILTER NOT EXISTS { ?term obo:IAO_0000114 obo:IAO_0000124 }
+  FILTER NOT EXISTS {
+    FILTER(?property = coho:has_data_collection_location)
+    ?located a owl:Axiom ;
+      owl:annotatedSource ?term ;
+      owl:annotatedProperty coho:has_data_collection_location ;
+      owl:annotatedTarget ?place ;
+      rdfs:comment ?q .
+    ?place obo:RO_0001025+ ?value .
+  }
+  FILTER NOT EXISTS {
+    ?axiom a owl:Axiom ;
+      owl:annotatedSource ?term ;
+      owl:annotatedProperty ?property ;
+      owl:annotatedTarget ?value ;
+      oboInOwl:hasDbXref ?source .
+    FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|https?://)"))
+    FILTER(EXISTS { ?axiom rdfs:comment ?quote }
+           || (?property = obo:IAO_0000112 && REGEX(STR(?value), "^PGS[0-9]+$"))
+           || (?property IN (rdfs:label, oboInOwl:hasExactSynonym, oboInOwl:hasRelatedSynonym, oboInOwl:hasBroadSynonym, oboInOwl:hasNarrowSynonym)
+               && REGEX(STR(?source), "^https://(www\\.ebi\\.ac\\.uk/gwas/studies/|www\\.pgscatalog\\.org/rest/cohort/|molgeniscatalogue\\.org/|atlas\\.ihccglobal\\.org)")))
+  }
+}
+ORDER BY ?property ?term

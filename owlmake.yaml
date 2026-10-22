@@ -21,9 +21,10 @@ release_property_assertions:
 - coho:hasCohort
 - coho:isCohortOf
 - coho:has_data_collection_location
+# No OBO: a fact with several quotes is one annotated copy of its axiom per quote, which OBO's single
+# name: and def: lines cannot carry (the converter keeps one and drops the rest).
 export_formats:
 - owl
-- obo
 - json
 import_group:
   annotation_properties:
@@ -195,6 +196,8 @@ components:
     - participants.tsv
   - filename: diseases.owl
   - filename: exposures.owl
+  - filename: names.owl
+  - filename: types.owl
   - filename: aggregation_members.owl
     use_template: true
     template_options: '--prefix "COHO: http://www.ebi.ac.uk/coho/COHO_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "RO: http://purl.obolibrary.org/obo/RO_" --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" --prefix "coho: http://www.ebi.ac.uk/coho/"'
@@ -263,6 +266,18 @@ targets:
     command: python3 ../scripts/cohort_table.py
     requires:
     - python3
+# The facts on curated cohorts that carry no verbatim quote and source (src/sparql/axiom-evidence-violation.sparql),
+# from the asserted ontology (edit file and components, before reasoning). A report, not a check: what no source
+# states is kept in the ontology and listed (src/curation/evidence_review.tsv).
+- target: src/ontology/reports/axiom-evidence.tsv
+  needs:
+  - src/ontology/tmp/coho-cohorts.nt
+  - src/sparql/axiom-evidence-violation.sparql
+  steps:
+  - op: shell
+    command: om query -i tmp/coho-cohorts.nt -q ../sparql/axiom-evidence-violation.sparql reports/axiom-evidence.tsv
+    requires:
+    - om
 - target: prepare_release
   extends: true
   needs:

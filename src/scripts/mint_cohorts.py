@@ -78,6 +78,17 @@ SUB = ('ObjectPropertyAssertion(Annotation(rdfs:comment "{}") Annotation(oboInOw
        "coho:isSubCohortOf coho:{} coho:{})")
 
 
+def fact_quotes():
+    """The quotes the evidence passes found for facts that had none (src/curation/fact_quotes.tsv, written by the
+    pipeline's collect.py): (ID, property, value) -> (quote, PMID, URL). property is as the passes name it (location,
+    participants, cases, controls, has_patients_with, ...); value is dbpedia:X, a number, or obo:X_n."""
+    path = ROOT / "src/curation/fact_quotes.tsv"
+    if not path.exists():
+        return {}
+    with open(path, newline="", encoding="utf-8") as f:
+        return {(r["ID"], r["property"], r["value"]): (r["quote"], r["PMID"], r["URL"]) for r in csv.DictReader(f, delimiter="\t")}
+
+
 def esc(s):
     return s.replace("\\", "\\\\").replace('"', '\\"')
 

@@ -31,7 +31,11 @@ Usage: src/scripts/locations.py
 
 import csv
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import mint_cohorts as M  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 REVIEW = ROOT / "src/curation/location_evidence.tsv"
@@ -84,8 +88,9 @@ def main():
 
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["ID", "TYPE", "label", "data collection location", "evidence", "source"])
-        w.writerow(["ID", "TYPE", "", "I coho:has_data_collection_location", ">A rdfs:comment", ">A oio:hasDbXref"])
+        w.writerow(["ID", "TYPE", "label", "data collection location", "evidence", "source", "PMID"])
+        w.writerow(["ID", "TYPE", "", "I coho:has_data_collection_location", ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref"])
+        FQ = M.fact_quotes()
         n = 0
         for cid in sorted(rows):
             located = False
@@ -96,7 +101,9 @@ def main():
                 # out of the template with the quote and source on its last location only.
                 for c in countries.split("|"):
                     if c:
-                        w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), f"dbpedia:{c}", quote, url])
+                        # a location asserted without a quote takes the one the evidence passes found for it
+                        q, pmid, u = (quote, "", url) if quote else FQ.get((cid, "location", f"dbpedia:{c}"), ("", "", url))
+                        w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), f"dbpedia:{c}", q, u, pmid])
                 located = True
             n += located
     unlocated = sorted(cid for cid in labels if cid not in deprecated and not any(c for c, _, _ in rows.get(cid, [])))

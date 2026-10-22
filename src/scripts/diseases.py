@@ -79,6 +79,7 @@ def term(curie):
 
 def main():
     T = M.parse(M.EDIT.read_text(encoding="utf-8"))
+    FQ = M.fact_quotes()
     with open(MAPPED, newline="", encoding="utf-8") as f:
         terms = {r["name"].lower(): r["id"] for r in csv.DictReader(f)}  # the table keys names case-insensitively
     assertions, unmapped, cohorts, used = [], {}, set(), set()
@@ -101,10 +102,14 @@ def main():
                     unmapped.setdefault(name, []).append(r["ID"])
                     continue
                 notes = []
-                if r["quote"].strip():
-                    notes.append(f'Annotation(rdfs:comment "{M.esc(r["quote"].strip())}")')
-                if r["source"].strip():
-                    notes.append(f'Annotation(oboInOwl:hasDbXref "{M.esc(r["source"].strip())}")')
+                quote, sources = r["quote"].strip(), [r["source"].strip()]
+                if not quote and (r["ID"], prop, term(tid)) in FQ:
+                    # a restriction with no quote takes the one the evidence passes found for it
+                    quote, pmid, url = FQ[(r["ID"], prop, term(tid))]
+                    sources = [pmid, url]
+                if quote:
+                    notes.append(f'Annotation(rdfs:comment "{M.esc(quote)}")')
+                notes += [f'Annotation(oboInOwl:hasDbXref "{M.esc(x)}")' for x in sources if x]
                 notes.append(f'Annotation(obo:IAO_0000116 "{M.esc(name)}")')
                 assertions.append((c, tid, f"ClassAssertion({' '.join(notes)} ObjectSomeValuesFrom(coho:{prop} {term(tid)}) coho:{c})"))
                 cohorts.add(c)

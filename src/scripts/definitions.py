@@ -8,10 +8,18 @@ agents that wrote and checked it. The definitions were drafted by an AI model
 from sources it retrieved and checked by another against those sources; the
 contributor annotations say so on each one.
 
+Each definition also carries the verbatim quotes that support it (rdfs:comment), each with the paper's PMID, when the
+document is a paper, and the document's URL (oboInOwl:hasDbXref): one copy of the definition axiom per quote, so each
+quote stays with its own source. A cohort without quotes keeps one row. Quotes are attached only while the definition
+reads as it did when they were found (their "definition md5"); those of a definition changed since are printed and
+left off until the definition is sourced again.
+
 Sources, in src/curation:
   definitions_evidence.tsv  one row per cohort: the drafted definition, its source,
                             the supporting quote and whether the quote was found in
                             the source (a review of 2026-09-22)
+  definition_quotes.tsv     the supporting quotes found by the evidence passes: ID, supports, quote, PMID, URL,
+                            found by, batch, definition md5
   definitions_curated.tsv   overrides: ID, definition, source, note, drafted by, checked by. A
                             row here wins; an empty definition means the cohort is
                             to have none. The optional "drafted by" column names the
@@ -28,12 +36,14 @@ Usage: src/scripts/definitions.py
 """
 
 import csv
+import hashlib
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EVIDENCE = ROOT / "src/curation/definitions_evidence.tsv"
 CURATED = ROOT / "src/curation/definitions_curated.tsv"
+QUOTES = ROOT / "src/curation/definition_quotes.tsv"
 TEMPLATE = ROOT / "src/templates/definitions.tsv"
 EDIT = ROOT / "src/ontology/coho-edit.owl"
 
@@ -76,13 +86,26 @@ def main():
         else:
             rows.pop(r["ID"], None)
 
+    quotes, stale = {}, set()
+    for r in read(QUOTES):
+        if r["ID"] not in rows:
+            continue
+        if r["definition md5"] != hashlib.md5(rows[r["ID"]][0].encode()).hexdigest()[:12]:
+            stale.add(r["ID"])
+            continue
+        quotes.setdefault(r["ID"], []).append((r["quote"], r["PMID"], r["URL"]))
+
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by"])
-        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119 SPLIT=|", ">A dcterms:contributor", ">A dcterms:contributor"])
+        w.writerow(["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by", "quote", "quote PMID", "quote URL"])
+        w.writerow(["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119 SPLIT=|", ">A dcterms:contributor", ">A dcterms:contributor",
+                    ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref"])
         for cid in sorted(rows):
             definition, source, drafted, checked = rows[cid]
-            w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), definition, source, drafted, checked])
+            for quote, pmid, url in quotes.get(cid) or [("", "", "")]:
+                w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), definition, source, drafted, checked, quote, pmid, url])
+    print(f"{sum(len(v) for v in quotes.values())} supporting quotes on {len(quotes)} definitions"
+          + (f"; quotes left off {len(stale)} definitions changed since they were found: {', '.join(sorted(stale))}" if stale else ""))
     missing = sorted(set(labels) - set(rows))
     print(f"{len(rows)} of {len(labels)} cohorts defined; without: {', '.join(f'{c} {labels[c]}' for c in missing) or 'none'}")
 

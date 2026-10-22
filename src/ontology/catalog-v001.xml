@@ -18,6 +18,8 @@
     <uri name="http://www.ebi.ac.uk/coho/components/locations.owl" uri="components/locations.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/participants.owl" uri="components/participants.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/diseases.owl" uri="components/diseases.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/names.owl" uri="components/names.owl" />
+    <uri name="http://www.ebi.ac.uk/coho/components/types.owl" uri="components/types.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/exposures.owl" uri="components/exposures.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/aggregation_members.owl" uri="components/aggregation_members.owl" />
     <uri name="http://www.ebi.ac.uk/coho/components/definitions.owl" uri="components/definitions.owl" />

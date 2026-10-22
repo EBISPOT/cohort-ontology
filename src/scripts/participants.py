@@ -56,6 +56,7 @@ def note(row):
 def main():
     T = M.parse(M.EDIT.read_text(encoding="utf-8"))
     rows = []
+    FQ = M.fact_quotes()
     with open(TABLE, newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             numbers = {k: r[k].strip() for k, _ in NUMBERS if r[k].strip()}
@@ -76,19 +77,25 @@ def main():
                 v = numbers.get(k, "")
                 specific_quote = (r.get(f"{k} quote") or "").strip()
                 evidence = (specific_quote or quote) if r["quote verified"] == "yes" else ""
-                out += [v, evidence if v else "", r["source"].strip() if v else "", note(r) if v else ""]
+                source, url = r["source"].strip(), ""
+                if v and not evidence and (r["ID"], k, v) in FQ:
+                    # a number with no verified quote takes the one the evidence passes found for it
+                    evidence, pmid, url = FQ[(r["ID"], k, v)]
+                    source = pmid or url
+                    url = url if pmid else ""
+                out += [v, evidence if v else "", source if v else "", url if v else "", note(r) if v else ""]
             rows.append(out)
     rows.sort(key=lambda x: x[0])
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         header, spec = ["ID", "TYPE", "label"], ["ID", "TYPE", ""]
         for k, prop in NUMBERS:
-            header += [k, f"{k} evidence", f"{k} source", f"{k} note"]
-            spec += [f"AT coho:{prop}^^xsd:integer", ">A rdfs:comment", ">A oio:hasDbXref", ">A IAO:0000116"]
+            header += [k, f"{k} evidence", f"{k} source", f"{k} URL", f"{k} note"]
+            spec += [f"AT coho:{prop}^^xsd:integer", ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref", ">A IAO:0000116"]
         w.writerow(header)
         w.writerow(spec)
         w.writerows(rows)
-    n = {k: sum(1 for x in rows if x[3 + 4 * i]) for i, (k, _) in enumerate(NUMBERS)}
+    n = {k: sum(1 for x in rows if x[3 + 5 * i]) for i, (k, _) in enumerate(NUMBERS)}
     print(f"{TEMPLATE.relative_to(M.ROOT)}: {len(rows)} cohorts, {n}")
 
 
