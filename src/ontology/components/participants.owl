@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/participants.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-10-22/components/participants.owl>
-Annotation(owl:versionInfo "2026-10-22")
+<http://www.ebi.ac.uk/coho/releases/2026-10-23/components/participants.owl>
+Annotation(owl:versionInfo "2026-10-23")
 
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000002>))
 Declaration(NamedIndividual(<http://www.ebi.ac.uk/coho/COHO_0000003>))
@@ -5641,8 +5641,8 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "pre
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000867> (<http://www.ebi.ac.uk/coho/COHO_0000867>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "analysed subset: adenoma cases and controls with DNA (no total or full enrolment stated)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC3836614/unicode") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0000867> "914"^^xsd:integer)
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "analysed subset: adenoma cases and controls with DNA (no total or full enrolment stated)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC3836614/unicode") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0000867> "1188"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "analysed subset: adenoma cases and controls with DNA (no total or full enrolment stated)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24083639") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836614/") Annotation(rdfs:comment "The present analyses were based on 914 colorectal adenoma cases and 1,188 controls with available DNA.") <http://www.ebi.ac.uk/coho/numberOfCases> <http://www.ebi.ac.uk/coho/COHO_0000867> "914"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "analysed subset: adenoma cases and controls with DNA (no total or full enrolment stated)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24083639") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC3836614/") Annotation(rdfs:comment "The present analyses were based on 914 colorectal adenoma cases and 1,188 controls with available DNA.") <http://www.ebi.ac.uk/coho/numberOfControls> <http://www.ebi.ac.uk/coho/COHO_0000867> "1188"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000868> (<http://www.ebi.ac.uk/coho/COHO_0000868>)
 
@@ -7547,7 +7547,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "you
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001342> (<http://www.ebi.ac.uk/coho/COHO_0001342>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Latinos with type 2 diabetes and readable retinal images (diabetic subset), 2020") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://europepmc.org/article/PMC/PMC7208167") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001342> "614"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Latinos with type 2 diabetes and readable retinal images (diabetic subset), 2020") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC7208167/") Annotation(rdfs:comment "using a large cohort of Latinos with type 2 DM and readable retinal images in the GOLDR study (n=614).") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001342> "614"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001343> (<http://www.ebi.ac.uk/coho/COHO_0001343>)
 
@@ -7792,7 +7792,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "chi
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001407> (<http://www.ebi.ac.uk/coho/COHO_0001407>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "infants enrolled 1991-1996 in the iron-deficiency preventive trial and neurophysiology study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC6696926/unicode") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001407> "1798"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "infants enrolled 1991-1996 in the iron-deficiency preventive trial and neurophysiology study") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30515969") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://pmc.ncbi.nlm.nih.gov/articles/PMC6696926/") Annotation(rdfs:comment "Briefly, from 1991 to 1996, 1798 infants with no major health problems, born at term and weighing ≥ 3.0 kg, participated in a randomized trial of iron supplementation to prevent IDA, a neurophysiology study of those with IDA, and nonanemic controls.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001407> "1798"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001409> (<http://www.ebi.ac.uk/coho/COHO_0001409>)
 
@@ -11816,7 +11816,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "598
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002594> (<http://www.ebi.ac.uk/coho/COHO_0002594>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants of NHS, NHS II and NHS3 together (stated as more than 275,000)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://nurseshealthstudy.org/about-nhs") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002594> "275000"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants of NHS, NHS II and NHS3 together (stated as more than 275,000)") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://hsph.harvard.edu/department/nutrition/research/") Annotation(rdfs:comment "Nurses’ Health Study 3 (which is still enrolling male and female nurses) and count more than 275,000 participants.") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0002594> "275000"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002595> (<http://www.ebi.ac.uk/coho/COHO_0002595>)
 

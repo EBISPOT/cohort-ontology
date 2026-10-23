@@ -68,6 +68,9 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import mint_cohorts as M  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 EDIT = ROOT / "src/ontology/coho-edit.owl"
 TEMPLATE = ROOT / "src/templates/example_studies.tsv"
@@ -231,6 +234,7 @@ def main():
 
     done = set(chosen)
     ev = evidence()
+    FQ = M.fact_quotes()
     with open(TEMPLATE, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
         w.writerow(["ID", "TYPE", "label", "example study", "PMID", "title", "evidence", "evidence source", "source"])
@@ -241,6 +245,8 @@ def main():
                 title = titles.get(pmid) or given_title or ega_title.get(acc, "")
                 if not (quote and url) and curie in ev and ev[curie][2] == acc and ev[curie][3] == (f"PMID:{pmid}" if pmid else ""):
                     quote, url = ev[curie][:2]  # evidence is for this very study, not an earlier choice
+                if not (quote and url) and (curie, "example", acc or f"PMID:{pmid}") in FQ:
+                    quote, _, url = FQ[(curie, "example", acc or f"PMID:{pmid}")]  # found by the evidence passes
                 w.writerow([curie, "owl:NamedIndividual", labels[cid], acc or f"PMID:{pmid}", f"PMID:{pmid}" if pmid else "", title, quote, url, source])
 
     subsets = defaultdict(list)
