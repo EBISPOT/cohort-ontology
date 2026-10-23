@@ -15,7 +15,9 @@ Source:
                                          them separately), what it counts, the
                                          year, the quote, its source, whether the
                                          quote was found verbatim in the source,
-                                         and a note
+                                         a note, and an optional URL: the document
+                                         the quote was read in, when that is not
+                                         the source itself (both become hasDbXref)
 
 Optional participants quote, cases quote and controls quote columns override
 the shared quote for that number, when a paper reports its counts in separate
@@ -77,7 +79,7 @@ def main():
                 v = numbers.get(k, "")
                 specific_quote = (r.get(f"{k} quote") or "").strip()
                 evidence = (specific_quote or quote) if r["quote verified"] == "yes" else ""
-                source, url = r["source"].strip(), ""
+                source, url = r["source"].strip(), (r.get("URL") or "").strip()   # URL: the document the quote was read in, when it is not the source
                 if v and not evidence and (r["ID"], k, v) in FQ:
                     # a number with no verified quote takes the one the evidence passes found for it
                     evidence, pmid, url = FQ[(r["ID"], k, v)]

@@ -3857,7 +3857,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "peo
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000414> (<http://www.ebi.ac.uk/coho/COHO_0000414>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Clinical Core participants, April 2009 to March 2026") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://adrc.wisc.edu/sites/default/files/styles/max_650x650/public/2026-06/Wisconsin%20ADRC%20By%20the%20Numbers%20%281%29.jpg?itok=OHMophYE") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0000414> "1151"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "Clinical Core participants, April 2009 through March 31, 2024") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.adrc.wisc.edu/sites/default/files/2024-10/ADRC_ByTheNumbers_2024.pdf") Annotation(rdfs:comment "The following is a summary of our accomplishments since the center was formally established in April 2009 through March 31, 2024. 1129 Clinical Core participants") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0000414> "1129"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000415> (<http://www.ebi.ac.uk/coho/COHO_0000415>)
 
@@ -8115,7 +8115,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "ANZ
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001489> (<http://www.ebi.ac.uk/coho/COHO_0001489>)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants in the registry (website counter), 2026") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://anzrag.com.au/") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001489> "9373"^^xsd:integer)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000116> "participants, the figure held by the registry website's Participants counter (read from the page's HTML; the rendered text shows the counter animating from 0), October 2025; a news item of the same month says more than 9,000") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://anzrag.com.au/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://digital.mivision.com.au/collections/mivision-journal-october-2025/participants-needed-for-congenital-glaucoma-study") Annotation(rdfs:comment "The registry, which has more than 9,000 participants") <http://www.ebi.ac.uk/coho/numberOfParticipants> <http://www.ebi.ac.uk/coho/COHO_0001489> "9373"^^xsd:integer)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001490> (<http://www.ebi.ac.uk/coho/COHO_0001490>)
 
