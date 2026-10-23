@@ -3464,7 +3464,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000230> (<http://www.ebi.ac.uk/coho/COHO_0000230>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000230> <http://dbpedia.org/resource/Canada>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5751811/fullTextXML") Annotation(rdfs:comment "Whole-slide images of The Cancer Genome Atlas Project (TCGA, N = 260) and the Canadian Prostate Cancer Genome Network (CPC-GENE, N = 199) radical prostatectomy datasets were reviewed for Gleason score (GS) and presence of CR/IDC.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000230> <http://dbpedia.org/resource/Canada>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000232> (<http://www.ebi.ac.uk/coho/COHO_0000232>)
 
@@ -3517,7 +3517,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000246> (<http://www.ebi.ac.uk/coho/COHO_0000246>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000246> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6752724/unicode") Annotation(rdfs:comment "For the participants with IBD and IL10RA deficiency, the study was approved by the Medical Ethical Committee of the Erasmus University Medical Center.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000246> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000247> (<http://www.ebi.ac.uk/coho/COHO_0000247>)
 
@@ -3573,7 +3573,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000261> (<http://www.ebi.ac.uk/coho/COHO_0000261>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000261> <http://dbpedia.org/resource/Germany>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000079") Annotation(rdfs:comment "The experiment will use the early onset patients from the German MI cohort and the UK BHF CAD/MI cohort both of which have strong family history.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000261> <http://dbpedia.org/resource/Germany>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000262> (<http://www.ebi.ac.uk/coho/COHO_0000262>)
 
@@ -3698,11 +3698,11 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000309> (<http://www.ebi.ac.uk/coho/COHO_0000309>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000309> <http://dbpedia.org/resource/China>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001007722") Annotation(rdfs:comment "Studies EGAS00001007722 pending for release Exome_NanoSeq__China_NCI_DEE_buccal_cells_ Exome NanoSeq in buccal cells obtained from the NCI China cohort, This cohort consists of patients with, and without, bladder cancer who have provided buccal swabs.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000309> <http://dbpedia.org/resource/China>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000310> (<http://www.ebi.ac.uk/coho/COHO_0000310>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000310> <http://dbpedia.org/resource/Taiwan>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001007728") Annotation(rdfs:comment "Studies EGAS00001007728 pending for release Targeted_NanoSeq__Taiwan_NCI_buccal_cells_ Targeted NanoSeq in buccal cells obtained from the NCI Taiwan cohort, This cohort consists of patients with, and without, oral cancer, in addition to dysplasia and risk factors for oral cancer.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000310> <http://dbpedia.org/resource/Taiwan>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000312> (<http://www.ebi.ac.uk/coho/COHO_0000312>)
 
@@ -3834,7 +3834,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000349> (<http://www.ebi.ac.uk/coho/COHO_0000349>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000349> <http://dbpedia.org/resource/United_Kingdom>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://ega-archive.org/studies/EGAS00001000101") Annotation(rdfs:comment "Studies EGAS00001000101 UK10K_RARE_NEUROMUSCULAR In the UK10K project we propose a series of complementary genetic approaches to find new low frequency/rare variants contributing to disease phenotypes.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000349> <http://dbpedia.org/resource/United_Kingdom>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000350> (<http://www.ebi.ac.uk/coho/COHO_0000350>)
 
@@ -7278,7 +7278,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001172> (<http://www.ebi.ac.uk/coho/COHO_0001172>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001172> <http://dbpedia.org/resource/United_States>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3356921/unicode") Annotation(rdfs:comment "A second group of primarily unrelated individuals includes participants of the Genetic and Environmental Risk Factors for Alzheimer Disease Among African Americans (GenerAAtions) Study, who were identified through the electronic claims database of the Henry Ford Health System.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0001172> <http://dbpedia.org/resource/United_States>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0001173> (<http://www.ebi.ac.uk/coho/COHO_0001173>)
 
@@ -11830,7 +11830,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002329> (<http://www.ebi.ac.uk/coho/COHO_0002329>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002329> <http://dbpedia.org/resource/Netherlands>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3448/MediaObjects/41588_2016_BFng3448_MOESM1_ESM.pdf") Annotation(rdfs:comment "The Rotterdam-Clinic study was supported by ZoNMW project number: 170885606, MDfonds, Landelijke Stichting voor Blinden en Slechtzienden (LSBS).") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0002329> <http://dbpedia.org/resource/Netherlands>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0002330> (<http://www.ebi.ac.uk/coho/COHO_0002330>)
 

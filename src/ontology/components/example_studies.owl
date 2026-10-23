@@ -3880,7 +3880,7 @@ AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "An association 
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000294> (<http://www.ebi.ac.uk/coho/COHO_0000294>)
 
-AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "WGS_low_coverage_sequencing_of_Fulani_from_Burkina_Faso") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000294> "EGAS00001000629")
+AnnotationAssertion(Annotation(<http://purl.org/dc/terms/title> "WGS_low_coverage_sequencing_of_Fulani_from_Burkina_Faso") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://metadata.ega-archive.org/studies/EGAS00001000629") Annotation(rdfs:comment "It uses DNA samples and clinical data that have been collected as part of an ongoing multi-centre study of severe malaria undertaken by MalariaGEN, coordinated jointly by the Sanger Institute and Oxford University.") <http://purl.obolibrary.org/obo/IAO_0000112> <http://www.ebi.ac.uk/coho/COHO_0000294> "EGAS00001000629")
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000295> (<http://www.ebi.ac.uk/coho/COHO_0000295>)
 
