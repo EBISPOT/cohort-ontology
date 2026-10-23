@@ -3071,7 +3071,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000003)
 # Individual: coho:COHO_0000004 (Adenoma Prevention with Celecoxib trial)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000004 "APC")
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000004 "APC Trail")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000004 "APC trial")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000004 "Adenoma Prevention with Celecoxib")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000004 "Adenoma Prevention with Celecoxib Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000004 "Adenoma Prevention with Celecoxib trial"@en)
@@ -3204,7 +3204,7 @@ AnnotationAssertion(rdfs:label coho:COHO_0000022 "Cancer and Leukemia Group B"@e
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000022)
 
 # Individual: coho:COHO_0000023 (Cancer Genome Atlas)
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000023 "The Cancer Genomic Atlas")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000023 "The Cancer Genome Atlas")
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000023 "TCGA")
 AnnotationAssertion(rdfs:label coho:COHO_0000023 "Cancer Genome Atlas"@en)
@@ -4305,7 +4305,6 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000168)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000169 "Pakistan Risk of Myocardial Infarction Study")
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000169 "PROMIS")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000169 "Pakistan Risk of Myocardial Infraction Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000169 "The Pakistan Risk Of Myocardial Infarction Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000169)
 
@@ -4730,7 +4729,6 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000223)
 
 # Individual: coho:COHO_0000224 (BELLINI trial)
 
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000224 "Bellini Trail")
 AnnotationAssertion(rdfs:label coho:COHO_0000224 "BELLINI trial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000224)
 
@@ -5280,7 +5278,6 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000297)
 # Individual: coho:COHO_0000298 (Medical Genome Reference Bank)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000298 "MGRB")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000298 "The Medical Genome Reference BioBank")
 AnnotationAssertion(rdfs:label coho:COHO_0000298 "Medical Genome Reference Bank"@en)
 ObjectPropertyAssertion(Annotation(rdfs:comment "Of these, 717 were from healthy participants aged ≥70 years and have become part of the Medical Genome Reference Bank.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9908035/fullTextXML") coho:isSubCohortOf coho:COHO_0000298 coho:COHO_0002700)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000298)
@@ -5400,14 +5397,12 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000315)
 
 # Individual: coho:COHO_0000316 (PETAL trial)
 
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000316 "PETAL trail")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000316 "Positron Emission Tomography-guided Therapy of Aggressive Non-Hodgkin Lymphomas trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000316 "PETAL trial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000316)
 
 # Individual: coho:COHO_0000317 (PHOENIX trial)
 
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000317 "Pheonix Clinical Trail")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000317 "Phoenix Clinical Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000317 "PHOENIX trial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000317)
@@ -8342,7 +8337,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "CEPH Utah residents with ancestry from northern and western Europe")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "HapMap CEU")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "CEPH HapMap")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "Hap Map CEU")
 AnnotationAssertion(rdfs:label coho:COHO_0000637 "Utah residents (CEPH) with Northern and Western European ancestry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000637)
 ObjectPropertyAssertion(Annotation(rdfs:comment "These included all HapMap Phase I and II samples, along with further samples from the same four populations: individuals from the Centre d’Etude du Polymorphisme Humain collected in Utah, USA, with ancestry from northern and western Europe (CEU);") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3173859/unicode") coho:isSubCohortOf coho:COHO_0000637 coho:COHO_0000284)
@@ -25781,7 +25775,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002686 "EPR")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002686 "Personalized Genes and Environment Study/NIEHS")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002686 "Environmental Polymorphisms Registry")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002686 "Personalized Genes and Environment Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002686 "Personalized Environment and Genes Study"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002686 <https://www.niehs.nih.gov/research/clinical/studies/pegs/index.cfm>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002686)
