@@ -1,0 +1,44 @@
+# Every source of a quote on a COHO term (oboInOwl:hasDbXref on an annotated axiom, and a definition's
+# IAO:0000119) is in the form src/scripts/sources.py sets out: a paper by PMID:n (DOI:... when PubMed does not
+# index it, PMCID:PMCn when it has neither), never by an address it was read at; a supplementary file by its URL
+# beside its paper's identifier; a database record by its public page, never its API address; anything else by its
+# URL. A violation is a value in none of these forms, a paper or a DOI cited by an address, a record cited by its API
+# address, a Springer supplementary file on Springer's image host, or a supplementary file without its paper. The
+# fix is in the curation tables: the paper's PMID in the row's PMID column (src/scripts/sources.py fills it where the
+# address names the paper), with the address kept in its read-at column.
+PREFIX coho: <http://www.ebi.ac.uk/coho/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?term ?property ?source ?problem
+WHERE {
+  VALUES ?property { oboInOwl:hasDbXref obo:IAO_0000119 }
+  ?axiom a owl:Axiom ;
+    owl:annotatedSource ?term ;
+    ?property ?source .
+  FILTER(STRSTARTS(STR(?term), STR(coho:COHO_)))
+  BIND(STR(?source) AS ?s)
+  BIND(
+    IF(!REGEX(?s, "^(PMID:[0-9]+|DOI:10\\.[0-9]+/\\S+|PMCID:PMC[0-9]+|https?://\\S+)$"),
+       "not a PMID, DOI, PMCID or URL",
+    IF((REGEX(?s, "^https?://(www\\.ebi\\.ac\\.uk/europepmc/|(www\\.)?europepmc\\.org/|pmc\\.ncbi\\.nlm\\.nih\\.gov/articles/|www\\.ncbi\\.nlm\\.nih\\.gov/(pmc|pubmed|research/bionlp)/|pubmed\\.ncbi\\.nlm\\.nih\\.gov/|eutils\\.ncbi\\.nlm\\.nih\\.gov/)")
+        && !REGEX(?s, "(/PMC[0-9]+/supplementaryFiles(#.*)?|/bin/[^/]+)$"))
+       || REGEX(?s, "^https?://(www\\.nature\\.com/articles/|link\\.springer\\.com/(article|chapter|content/pdf)/|[a-z0-9-]+\\.biomedcentral\\.com/articles/|journals\\.plos\\.org/[a-z]+/article\\?|www\\.frontiersin\\.org/(journals/[^/]+/)?articles/|www\\.sciencedirect\\.com/science/article/|www\\.(cell|thelancet)\\.com/|academic\\.oup\\.com/[^/]+/article|www\\.cambridge\\.org/core/journals/[^/]+/article/|jamanetwork\\.com/journals/|(www\\.)?karger\\.com/|www\\.mdpi\\.com/|journals\\.lww\\.com/|diabetesjournals\\.org/|www\\.jci\\.org/articles/|www\\.jstage\\.jst\\.go\\.jp/article/|elifesciences\\.org/articles/|www\\.journalslibrary\\.nihr\\.ac\\.uk/|www\\.(medrxiv|biorxiv)\\.org/content/10\\.)")
+       || REGEX(?s, "^https?://[^/]+/doi/(full/|abs/|pdf/|epdf/)?10\\.")
+       || (REGEX(?s, "^https?://([a-z-]+\\.)?bmj\\.com/content/") && !REGEX(?s, "/DC[0-9]+/embed/")),
+       "a paper cited by an address it was read at: cite its PMID",
+    IF(REGEX(?s, "^https?://((dx\\.)?doi\\.org|api\\.datacite\\.org/dois)/"),
+       "a DOI cited by its address: cite it as DOI:",
+    IF(REGEX(?s, "^https?://(www\\.ebi\\.ac\\.uk/gwas/rest/|metadata\\.ega-archive\\.org/|(classic\\.)?clinicaltrials\\.gov/(api|ct2)/|www\\.ebi\\.ac\\.uk/metabolights/ws/|www\\.ebi\\.ac\\.uk/pride/ws/|www\\.pgscatalog\\.org/rest/(score|publication)/|www\\.isrctn\\.com/api/|ftp\\.ncbi\\.nlm\\.nih\\.gov/dbgap/studies/[^/]+/[^/]+/GapExchange_)"),
+       "a record cited by its API address: cite its public page",
+    IF(STRSTARTS(?s, "https://media.springernature.com/"),
+       "a Springer supplementary file on the image host: cite it on static-content.springer.com",
+    IF((REGEX(?s, "^https?://(static-content\\.springer\\.com/esm/|ars\\.els-cdn\\.com/|cdn-links\\.lww\\.com/permalink/|(ndownloader\\.)?figshare\\.com/(ndownloader/)?files/|oup\\.silverchair-cdn\\.com/|onlinelibrary\\.wiley\\.com/action/downloadSupplement)")
+        || REGEX(?s, "(/PMC[0-9]+/supplementaryFiles(#.*)?|/bin/[^/]+|/DC[0-9]+/embed/[^/]+|/doi/suppl/.+)$"))
+       && NOT EXISTS { ?axiom ?property ?paper . FILTER(REGEX(STR(?paper), "^(PMID:[0-9]+|DOI:10\\.|PMCID:PMC[0-9]+)")) },
+       "a supplementary file cited without its paper",
+    "")))))) AS ?problem)
+  FILTER(?problem != "")
+}
+ORDER BY ?problem ?term ?source

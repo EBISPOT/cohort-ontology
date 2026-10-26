@@ -238,6 +238,7 @@ report:
   - disease-term
   - exposure-term
   - axiom-evidence
+  - source-form
 targets:
 - target: docs/images/cohort-map.svg
   needs:

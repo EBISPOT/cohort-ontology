@@ -1,8 +1,9 @@
 # Every fact asserted on a curated cohort carries its evidence: at least one
 # copy of the assertion annotated with a verbatim quote (rdfs:comment) and its
-# source (oboInOwl:hasDbXref: PMID:n for a paper, or the URL of the document,
-# which may be a registry record, a catalogue entry or a website; a paper is
-# preferred but any source counts). The facts: the definition, the label and
+# source (oboInOwl:hasDbXref: PMID:n for a paper, or DOI:... or PMCID:PMCn for
+# one PubMed does not index, or the URL of a registry record, a catalogue entry,
+# a website or a supplementary file; a paper is preferred but any source counts;
+# the source-form check holds the forms). The facts: the definition, the label and
 # the synonyms, the type (cohort or cohort aggregation), the data collection
 # locations, the numbers of participants, cases and controls, the members of
 # an aggregation, the parent of a sub-cohort and the example studies. Some
@@ -64,7 +65,7 @@ WHERE {
       owl:annotatedProperty ?property ;
       owl:annotatedTarget ?value ;
       oboInOwl:hasDbXref ?source .
-    FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|https?://)"))
+    FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|DOI:10\\.|PMCID:PMC[0-9]+|https?://)"))
     FILTER(EXISTS { ?axiom rdfs:comment ?quote }
            || (?property = obo:IAO_0000112 && REGEX(STR(?value), "^PGS[0-9]+$"))
            || (?property IN (rdfs:label, oboInOwl:hasExactSynonym, oboInOwl:hasRelatedSynonym, oboInOwl:hasBroadSynonym, oboInOwl:hasNarrowSynonym)

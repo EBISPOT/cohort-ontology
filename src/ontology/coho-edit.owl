@@ -3475,7 +3475,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000058)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000059 "DMP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000059 "Lifelines Dutch Microbiome Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000059 "Dutch Microbiome Project"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "This study used a subset of 8,208 volunteers from the Lifelines population cohort, enrolled in a parallel project: The Dutch Microbiome Project (DMP).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-021-00992-y/MediaObjects/41588_2021_992_MOESM2_ESM.pdf") coho:isSubCohortOf coho:COHO_0000059 coho:COHO_0000108)
+ObjectPropertyAssertion(Annotation(rdfs:comment "This study used a subset of 8,208 volunteers from the Lifelines population cohort, enrolled in a parallel project: The Dutch Microbiome Project (DMP).") Annotation(oboInOwl:hasDbXref "PMID:35115690") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-021-00992-y/MediaObjects/41588_2021_992_MOESM2_ESM.pdf") coho:isSubCohortOf coho:COHO_0000059 coho:COHO_0000108)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000059)
 
 # Individual: coho:COHO_0000060 (Edinburgh Stroke Study)
@@ -3537,7 +3537,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000066 "EPIC-Norfolk cohort")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000066 "European Prospective Investigation into Cancer-Norfolk")
 AnnotationAssertion(rdfs:label coho:COHO_0000066 "European Prospective Investigation of Cancer-Norfolk"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "EPIC-Norfolk , one of the UK arms of EPIC, recruited and examined 25,639 participants aged 40-79 years between 1993 and 1997 for the baseline examination9 .") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-020-0802-y/MediaObjects/42003_2020_802_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000066 coho:COHO_0000065)
+ObjectPropertyAssertion(Annotation(rdfs:comment "EPIC-Norfolk , one of the UK arms of EPIC, recruited and examined 25,639 participants aged 40-79 years between 1993 and 1997 for the baseline examination9 .") Annotation(oboInOwl:hasDbXref "PMID:32193507") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs42003-020-0802-y/MediaObjects/42003_2020_802_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000066 coho:COHO_0000065)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000066)
 
 # Individual: coho:COHO_0000067 (EuroTARGET project)
@@ -4071,7 +4071,7 @@ AnnotationAssertion(owl:deprecated coho:COHO_0000135 "true"^^xsd:boolean)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000136 "OBB")
 AnnotationAssertion(rdfs:label coho:COHO_0000136 "Oxford Biobank"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Oxford Biobank is supported by the Oxford Biomedical Research Centre and part of the National NIHR Bioresource.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4307976/fullTextXML") coho:isSubCohortOf coho:COHO_0000136 coho:COHO_0000312)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Oxford Biobank is supported by the Oxford Biomedical Research Centre and part of the National NIHR Bioresource.") Annotation(oboInOwl:hasDbXref "PMID:25625282") coho:isSubCohortOf coho:COHO_0000136 coho:COHO_0000312)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000136)
 
 # Individual: coho:COHO_0000137 (PanCareLIFE)
@@ -4444,7 +4444,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000186 "Gene-Environme
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000186 "Gene-environment interaction and phenotype")
 AnnotationAssertion(rdfs:label coho:COHO_0000186 "Gene-Environmental Interaction and phenotype study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000186)
-ObjectPropertyAssertion(Annotation(rdfs:comment "We prospectively collected blood samples from 17 455 of those individuals (9396 men and 8059 women) from October 2013 to form the Gene-environmental interaction and phenotype (GENIE) study, a subcohort of the H-PEACE study.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5914782/fullTextXML") coho:isSubCohortOf coho:COHO_0000186 coho:COHO_0001355)
+ObjectPropertyAssertion(Annotation(rdfs:comment "We prospectively collected blood samples from 17 455 of those individuals (9396 men and 8059 women) from October 2013 to form the Gene-environmental interaction and phenotype (GENIE) study, a subcohort of the H-PEACE study.") Annotation(oboInOwl:hasDbXref "PMID:29674364") coho:isSubCohortOf coho:COHO_0000186 coho:COHO_0001355)
 
 # Individual: coho:COHO_0000187 (China Atherosclerosis Study)
 
@@ -4490,7 +4490,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0000193 "TwinGene Study"@en)
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000193 "TwinGene Registry")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000193)
-ObjectPropertyAssertion(Annotation(rdfs:comment "A total of 4891 unrelated individuals from the Swedish Twin Registry (Twingene) were used as population controls") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12062381/fullTextXML") coho:isSubCohortOf coho:COHO_0000193 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "A total of 4891 unrelated individuals from the Swedish Twin Registry (Twingene) were used as population controls") Annotation(oboInOwl:hasDbXref "PMID:40341528") coho:isSubCohortOf coho:COHO_0000193 coho:COHO_0000160)
 
 # Individual: coho:COHO_0000194 (Uppsala Longitudinal Study of Adult Men)
 
@@ -5209,7 +5209,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000288 "LifeLines-NEXT
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000288 "Lifelines NEXT")
 AnnotationAssertion(rdfs:label coho:COHO_0000288 "Lifelines-NEXT"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000288)
-ObjectPropertyAssertion(Annotation(rdfs:comment "In Lifelines NEXT we aim to include 1500 pregnant Lifelines participants and intensively follow them, their partners and their children until at least 1 year after birth.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32100173%20AND%20SRC%3AMED&resultType=core&format=json") coho:isSubCohortOf coho:COHO_0000288 coho:COHO_0000108)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In Lifelines NEXT we aim to include 1500 pregnant Lifelines participants and intensively follow them, their partners and their children until at least 1 year after birth.") Annotation(oboInOwl:hasDbXref "PMID:32100173") coho:isSubCohortOf coho:COHO_0000288 coho:COHO_0000108)
 
 # Individual: coho:COHO_0000289 (Liverpool Preterm Birth Biomarker Study)
 
@@ -5279,7 +5279,7 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000297)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000298 "MGRB")
 AnnotationAssertion(rdfs:label coho:COHO_0000298 "Medical Genome Reference Bank"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Of these, 717 were from healthy participants aged ≥70 years and have become part of the Medical Genome Reference Bank.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9908035/fullTextXML") coho:isSubCohortOf coho:COHO_0000298 coho:COHO_0002700)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Of these, 717 were from healthy participants aged ≥70 years and have become part of the Medical Genome Reference Bank.") Annotation(oboInOwl:hasDbXref "PMID:35604374") coho:isSubCohortOf coho:COHO_0000298 coho:COHO_0002700)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000298)
 
 # Individual: coho:COHO_0000299 (MESOMICS)
@@ -5333,14 +5333,14 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000305)
 
 AnnotationAssertion(rdfs:label coho:COHO_0000306 "MultiMuTHER"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000306)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The heritability scores were derived from the MultiMuTHER study (a subset of TwinsUK), consisting of 335 European participants from the UK") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13392353/fullTextXML") coho:isSubCohortOf coho:COHO_0000306 coho:COHO_0000175)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The heritability scores were derived from the MultiMuTHER study (a subset of TwinsUK), consisting of 335 European participants from the UK") Annotation(oboInOwl:hasDbXref "PMID:42215465") coho:isSubCohortOf coho:COHO_0000306 coho:COHO_0000175)
 
 # Individual: coho:COHO_0000307 (Multiple Tissue Human Expression Resource)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000307 "MuTHER")
 AnnotationAssertion(rdfs:label coho:COHO_0000307 "Multiple Tissue Human Expression Resource"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000307)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The study included 856 female twins from the TwinsUK registry [27,55] who participated in the MuTHER study [52].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9942974/fullTextXML") coho:isSubCohortOf coho:COHO_0000307 coho:COHO_0000175)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The study included 856 female twins from the TwinsUK registry [27,55] who participated in the MuTHER study [52].") Annotation(oboInOwl:hasDbXref "PMID:36802379") coho:isSubCohortOf coho:COHO_0000307 coho:COHO_0000175)
 
 # Individual: coho:COHO_0000308 (Nala GSI GSAv3 PGx Study)
 
@@ -5445,7 +5445,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000322 "PAS pedigrees"
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000322 "The acronym AMC-PAS also denotes Academic Medical Center Amsterdam Premature Atherosclerosis Study (COHO:0000463); this term is Premature Atherosclerosis Study pedigrees."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000322 "Premature Atherosclerosis Study pedigrees"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000322)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Over the last two years pedigree histories have been compiled from the AMC-PAS cohort and so far ten families have been identified with evidence of autosomal inheritance of CVD without any known monogenic causes of CVD.") Annotation(oboInOwl:hasDbXref "https://metadata.ega-archive.org/studies/EGAS00001000052") coho:isSubCohortOf coho:COHO_0000322 coho:COHO_0000463)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Over the last two years pedigree histories have been compiled from the AMC-PAS cohort and so far ten families have been identified with evidence of autosomal inheritance of CVD without any known monogenic causes of CVD.") Annotation(oboInOwl:hasDbXref "https://ega-archive.org/studies/EGAS00001000052") coho:isSubCohortOf coho:COHO_0000322 coho:COHO_0000463)
 
 # Individual: coho:COHO_0000323 (PrevANZ trial)
 
@@ -5721,7 +5721,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000359 "Hypertension c
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000359 "WTCCC hypertension collection")
 AnnotationAssertion(rdfs:label coho:COHO_0000359 "WTCCC case-control study for Hypertension"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000359)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The BRIGHT sample-included WTCCC severe hypertension cases (n = 1754), and additional BRIGHT cases (n = 493) and controls (n = 1947) genotyped in this study.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2685752/fullTextXML") coho:isSubCohortOf coho:COHO_0000359 coho:COHO_0000557)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The BRIGHT sample-included WTCCC severe hypertension cases (n = 1754), and additional BRIGHT cases (n = 493) and controls (n = 1947) genotyped in this study.") Annotation(oboInOwl:hasDbXref "PMID:19304780") coho:isSubCohortOf coho:COHO_0000359 coho:COHO_0000557)
 
 # Individual: coho:COHO_0000360 (WTCCC case-control study for Inflammatory Bowel Disease)
 
@@ -5883,7 +5883,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000378 "Age Gene/Envir
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000378 "Age, Gene, Environment and Susceptibility-Reykjavik")
 AnnotationAssertion(rdfs:label coho:COHO_0000378 "Age, Gene/Environment Susceptibility-Reykjavik Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000378)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The AGES-Reykjavik sample is drawn from an established population-based cohort, the Reykjavik Study.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17351290+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000378 coho:COHO_0000470)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The AGES-Reykjavik sample is drawn from an established population-based cohort, the Reykjavik Study.") Annotation(oboInOwl:hasDbXref "PMID:17351290") coho:isSubCohortOf coho:COHO_0000378 coho:COHO_0000470)
 
 # Individual: coho:COHO_0000379 (Stanford Alzheimer's Disease Research Center)
 
@@ -5916,7 +5916,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000382 "UK Biobank Pha
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000382 "UKB Pharma Plasma Proteome")
 AnnotationAssertion(rdfs:label coho:COHO_0000382 "UK Biobank Pharma Proteomics Project"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000382)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37794186+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000382 coho:COHO_0000176)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants.") Annotation(oboInOwl:hasDbXref "PMID:37794186") coho:isSubCohortOf coho:COHO_0000382 coho:COHO_0000176)
 
 # Individual: coho:COHO_0000383 (Mass General Brigham Biobank)
 
@@ -5972,7 +5972,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000387 "European Prosp
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000387 "European Investigation into Cancer and Nutrition, Potsdam study")
 AnnotationAssertion(rdfs:label coho:COHO_0000387 "European Prospective Investigation into Cancer and Nutrition-Potsdam"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000387)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The European Prospective Investigation into Cancer and Nutrition (EPIC)-Potsdam is part of the ongoing multicenter EPIC study and comprises 27,548 participants from the general population in the area of Potsdam in eastern Germany who were mainly 35–65 years of age at time of recruitment between 1994 and 1998 (17).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3554384/fullTextXML") coho:isSubCohortOf coho:COHO_0000387 coho:COHO_0000065)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The European Prospective Investigation into Cancer and Nutrition (EPIC)-Potsdam is part of the ongoing multicenter EPIC study and comprises 27,548 participants from the general population in the area of Potsdam in eastern Germany who were mainly 35–65 years of age at time of recruitment between 1994 and 1998 (17).") Annotation(oboInOwl:hasDbXref "PMID:23043162") coho:isSubCohortOf coho:COHO_0000387 coho:COHO_0000065)
 
 # Individual: coho:COHO_0000388 (Hispanic Community Health Study/Study of Latinos)
 
@@ -6034,7 +6034,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000394 "Qatar Precisio
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000394 "QPHI")
 AnnotationAssertion(rdfs:label coho:COHO_0000394 "Qatar Genome Program"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000394)
-ObjectPropertyAssertion(Annotation(rdfs:comment "We combine genome sequencing (WGS) data and clinically relevant phenotypic traits for 6045 healthy volunteers from the Qatar Biobank (QBB) released as part of Qatar Genome Program (QGP) [28].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11000384/fullTextXML") coho:isSubCohortOf coho:COHO_0000394 coho:COHO_0000469)
+ObjectPropertyAssertion(Annotation(rdfs:comment "We combine genome sequencing (WGS) data and clinically relevant phenotypic traits for 6045 healthy volunteers from the Qatar Biobank (QBB) released as part of Qatar Genome Program (QGP) [28].") Annotation(oboInOwl:hasDbXref "PMID:38584274") coho:isSubCohortOf coho:COHO_0000394 coho:COHO_0000469)
 
 # Individual: coho:COHO_0000395 (Trøndelag Health Study)
 
@@ -6127,7 +6127,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000404 "National Insti
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000404 "BR-RD")
 AnnotationAssertion(rdfs:label coho:COHO_0000404 "NIHR BioResource Rare Diseases Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000404)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Study participants were enrolled by one of three mechanisms between December 2012 and March 2017 under the overall coordination of the National Institute for Health Research BioResource (NBR) at the University of Cambridge.") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7610553/unicode") coho:isSubCohortOf coho:COHO_0000404 coho:COHO_0000312)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Study participants were enrolled by one of three mechanisms between December 2012 and March 2017 under the overall coordination of the National Institute for Health Research BioResource (NBR) at the University of Cambridge.") Annotation(oboInOwl:hasDbXref "PMID:32581362") coho:isSubCohortOf coho:COHO_0000404 coho:COHO_0000312)
 
 # Individual: coho:COHO_0000405 (Australian Imaging, Biomarker & Lifestyle Flagship Study of Ageing)
 
@@ -6408,7 +6408,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000431 "Kaiser Resourc
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000431 "Resource for Genetic Epidemiology on Adult Health and Aging")
 AnnotationAssertion(rdfs:label coho:COHO_0000431 "Genetic Epidemiology Research on Adult Health and Aging"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000431)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The GERA cohort is part of the Kaiser Permanente Northern California (KPNC) Research Program on Genes, Environment and Health (RPGEH).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7939422/fullTextXML") coho:isSubCohortOf coho:COHO_0000431 coho:COHO_0000473)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The GERA cohort is part of the Kaiser Permanente Northern California (KPNC) Research Program on Genes, Environment and Health (RPGEH).") Annotation(oboInOwl:hasDbXref "PMID:33778338") coho:isSubCohortOf coho:COHO_0000431 coho:COHO_0000473)
 
 # Individual: coho:COHO_0000432 (Correlated Expression and Disease Association Research)
 
@@ -6511,7 +6511,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000443 "IMPaCT cohort"
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000443 "The acronym IMPaCT also denotes Identification of Men with a genetic predisposition to ProstAte Cancer (COHO:0000097), written IMPACT; this term is Immune and Metabolic Markers during Pregnancy and Child Development Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000443 "Immune and Metabolic Markers during Pregnancy and Child Development Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000443)
-ObjectPropertyAssertion(Annotation(rdfs:comment "All mothers had previously provided written consent to participate in the Research Program on Genes, Environment, and Health (RPGEH) pregnancy cohort") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13340790/fullTextXML") coho:isSubCohortOf coho:COHO_0000443 coho:COHO_0000473)
+ObjectPropertyAssertion(Annotation(rdfs:comment "All mothers had previously provided written consent to participate in the Research Program on Genes, Environment, and Health (RPGEH) pregnancy cohort") Annotation(oboInOwl:hasDbXref "PMID:42378311") coho:isSubCohortOf coho:COHO_0000443 coho:COHO_0000473)
 
 # Individual: coho:COHO_0000444 (Cohorts for Heart and Aging Research in Genomic Epidemiology Consortium)
 
@@ -6623,7 +6623,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000453 "Health2000 Gen
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000453 "GENMETS subcohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000453 "Health 2000 GenMets Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000453)
-ObjectPropertyAssertion(Annotation(rdfs:comment "GenMets is a subset from the Health 2000 survey collected in 2000–2001 to obtain information on the most important public health problems in Finland [30].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3916240/fullTextXML") coho:isSubCohortOf coho:COHO_0000453 coho:COHO_0000090)
+ObjectPropertyAssertion(Annotation(rdfs:comment "GenMets is a subset from the Health 2000 survey collected in 2000–2001 to obtain information on the most important public health problems in Finland [30].") Annotation(oboInOwl:hasDbXref "PMID:24516404") coho:isSubCohortOf coho:COHO_0000453 coho:COHO_0000090)
 
 # Individual: coho:COHO_0000454 (Qatar Metabolomics Study on Diabetes)
 
@@ -6775,7 +6775,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000468 "deCODE Health study")
 AnnotationAssertion(rdfs:label coho:COHO_0000468 "deCODE Health Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000468)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These phenotypes were collected through the deCODE Health Study and other research projects at deCODE genetics.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10256171/fullTextXML") coho:isSubCohortOf coho:COHO_0000468 coho:COHO_0000428)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These phenotypes were collected through the deCODE Health Study and other research projects at deCODE genetics.") Annotation(oboInOwl:hasDbXref "PMID:37294764") coho:isSubCohortOf coho:COHO_0000468 coho:COHO_0000428)
 
 # Individual: coho:COHO_0000469 (Qatar Biobank)
 
@@ -6817,7 +6817,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000473 "Research Progr
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000473 "Research Program in Genes, Environment and Health")
 AnnotationAssertion(rdfs:label coho:COHO_0000473 "Research Program on Genes, Environment and Health"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000473)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Launched in May 2016, the KPRB is built on an existing repository (Research Program on Genes, Environment and Health, or RPGEH) of approximately 220,000 KP members with data and biospecimens collected primarily between 2007 and 2011 from members of KP Northern California, and to a smaller extent, Southern California [6].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8876075/fullTextXML") coho:isSubCohortOf coho:COHO_0000473 coho:COHO_0000541)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Launched in May 2016, the KPRB is built on an existing repository (Research Program on Genes, Environment and Health, or RPGEH) of approximately 220,000 KP members with data and biospecimens collected primarily between 2007 and 2011 from members of KP Northern California, and to a smaller extent, Southern California [6].") Annotation(oboInOwl:hasDbXref "PMID:35216576") coho:isSubCohortOf coho:COHO_0000473 coho:COHO_0000541)
 
 # Individual: coho:COHO_0000474 (Africa America Diabetes Mellitus Study)
 
@@ -6885,7 +6885,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000481 "Singapore Cardiovascular Cohort Study 2")
 AnnotationAssertion(rdfs:label coho:COHO_0000481 "Singapore Prospective Study Program"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000481)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The MEC was formed by combining two existing cohorts: the Singapore Prospective Study Program (SP2) and the Singapore Cardiovascular Cohort Study (SCCS2).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7731378/fullTextXML") coho:isSubCohortOf coho:COHO_0000481 coho:COHO_0000612)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The MEC was formed by combining two existing cohorts: the Singapore Prospective Study Program (SP2) and the Singapore Cardiovascular Cohort Study (SCCS2).") Annotation(oboInOwl:hasDbXref "PMID:33287415") coho:isSubCohortOf coho:COHO_0000481 coho:COHO_0000612)
 
 # Individual: coho:COHO_0000482 (Colorado Center for Personalized Medicine Biobank)
 
@@ -7019,7 +7019,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000494 "GOLDN study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000494 "Genetics of Lipid Lowering Drugs and Diet Network")
 AnnotationAssertion(rdfs:label coho:COHO_0000494 "Genetics of Lipid-Lowering Drugs and Diet Network"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000494)
-ObjectPropertyAssertion(Annotation(rdfs:comment "GOLDN participants were identified through 3-generation families previously screened in the NHLBI Family Heart Study Minnesota or Utah centers [33].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8617762/fullTextXML") coho:isSubCohortOf coho:COHO_0000494 coho:COHO_0000582)
+ObjectPropertyAssertion(Annotation(rdfs:comment "GOLDN participants were identified through 3-generation families previously screened in the NHLBI Family Heart Study Minnesota or Utah centers [33].") Annotation(oboInOwl:hasDbXref "PMID:34836252") coho:isSubCohortOf coho:COHO_0000494 coho:COHO_0000582)
 
 # Individual: coho:COHO_0000495 (Study of Women's Health Across the Nation)
 
@@ -7110,9 +7110,9 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000505 "Genome-wide As
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000505 "Womens Health Initiative Genome-wide Association Research Network into Effects of Treatment")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000505 "WHI GARNET")
 AnnotationAssertion(rdfs:label coho:COHO_0000505 "WHI Genomics and Randomized Trials Network"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The WHI-GARNET sub-study consisted of individuals selected as a nested case- control sample of coronary heart disease, stroke, venous thrombosis, and incident diabetes events from the parent WHI Hormone Therapy Trial.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-019-0519-3/MediaObjects/41588_2019_519_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000505 coho:COHO_0002568)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The WHI-GARNET sub-study consisted of individuals selected as a nested case- control sample of coronary heart disease, stroke, venous thrombosis, and incident diabetes events from the parent WHI Hormone Therapy Trial.") Annotation(oboInOwl:hasDbXref "PMID:31676865") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-019-0519-3/MediaObjects/41588_2019_519_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000505 coho:COHO_0002568)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000505)
-ObjectPropertyAssertion(Annotation(rdfs:comment "White WHI participants were drawn from three substudies: the Genome-wide Association Research Network into Effects of Treatment (GARNET) (National Institutes of Health 2013), Modification of PM-Mediated Arrhythmogenesis in Populations (MOPMAP) (National Institutes of Health 2010), and Women's Health Initiative Memory Study (WHIMS) (Shumaker et al. 1998).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5714283/fullTextXML") coho:isSubCohortOf coho:COHO_0000505 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "White WHI participants were drawn from three substudies: the Genome-wide Association Research Network into Effects of Treatment (GARNET) (National Institutes of Health 2013), Modification of PM-Mediated Arrhythmogenesis in Populations (MOPMAP) (National Institutes of Health 2010), and Women's Health Initiative Memory Study (WHIMS) (Shumaker et al. 1998).") Annotation(oboInOwl:hasDbXref "PMID:28749367") coho:isSubCohortOf coho:COHO_0000505 coho:COHO_0000409)
 
 # Individual: coho:COHO_0000506 (ALS Utrecht)
 
@@ -7134,7 +7134,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000508 "Brain SCALE")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000508 "Brainscale Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000508 "BrainSCALE study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000508)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The participants were recruited from The Netherlands Twin Register (NTR) and at baseline consisted of 112 families, with 9-year-old twins and an older sibling.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22856378+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000508 coho:COHO_0000125)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The participants were recruited from The Netherlands Twin Register (NTR) and at baseline consisted of 112 families, with 9-year-old twins and an older sibling.") Annotation(oboInOwl:hasDbXref "PMID:22856378") coho:isSubCohortOf coho:COHO_0000508 coho:COHO_0000125)
 
 # Individual: coho:COHO_0000509 (Norwegian Cognitive NeuroGenetics sample)
 
@@ -7148,7 +7148,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000509)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000510 "NeuroIMAGE")
 AnnotationAssertion(rdfs:label coho:COHO_0000510 "NeuroIMAGE study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000510)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The NeuroIMAGE study is a follow-up of the Dutch part of the International Multicenter ADHD Genetics (IMAGE) project.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25012461+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000510 coho:COHO_0000607)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The NeuroIMAGE study is a follow-up of the Dutch part of the International Multicenter ADHD Genetics (IMAGE) project.") Annotation(oboInOwl:hasDbXref "PMID:25012461") coho:isSubCohortOf coho:COHO_0000510 coho:COHO_0000607)
 
 # Individual: coho:COHO_0000511 (Inter99 Study)
 
@@ -7204,7 +7204,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000516 "Womens Genome Health Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000516 "Women's Genome Health Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000516)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The primary aim of the Women's Genome Health Study (WGHS) is to create a comprehensive, fully searchable genome-wide database of >360 000 single nucleotide polymorphisms among at least 25 000 initially healthy American women participating in the ongoing NIH-funded Women's Health Study (WHS).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18070814+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000516 coho:COHO_0000609)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The primary aim of the Women's Genome Health Study (WGHS) is to create a comprehensive, fully searchable genome-wide database of >360 000 single nucleotide polymorphisms among at least 25 000 initially healthy American women participating in the ongoing NIH-funded Women's Health Study (WHS).") Annotation(oboInOwl:hasDbXref "PMID:18070814") coho:isSubCohortOf coho:COHO_0000516 coho:COHO_0000609)
 
 # Individual: coho:COHO_0000517 (Cameron County Hispanic Cohort)
 
@@ -7274,7 +7274,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000525 "ADDITION-PRO cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000525 "ADDITION-PRO Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000525)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The ADDITION-PRO study is nested within the Danish arm (ADDITION-DK) of the ADDITION-Europe study [3,8].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3583712/fullTextXML") coho:isSubCohortOf coho:COHO_0000525 coho:COHO_0000613)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The ADDITION-PRO study is nested within the Danish arm (ADDITION-DK) of the ADDITION-Europe study [3,8].") Annotation(oboInOwl:hasDbXref "PMID:23241242") coho:isSubCohortOf coho:COHO_0000525 coho:COHO_0000613)
 
 # Individual: coho:COHO_0000526 (Finnish Cardiovascular Study)
 
@@ -7487,7 +7487,7 @@ AnnotationAssertion(rdfs:label coho:COHO_0000544 "Rotterdam Study I"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000544 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000544 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS1")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000544)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Rotterdam Study (RS) is a prospective, population-based cohort study of determinants of chronic diseases in older adults (7). The first cohort (RS-I) started in 1990 and included 7,983 inhabitants, aged ≥55 years from Ommoord, a suburb of Rotterdam in the Netherlands.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7944992/fullTextXML") coho:isSubCohortOf coho:COHO_0000544 coho:COHO_0000148)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Rotterdam Study (RS) is a prospective, population-based cohort study of determinants of chronic diseases in older adults (7). The first cohort (RS-I) started in 1990 and included 7,983 inhabitants, aged ≥55 years from Ommoord, a suburb of Rotterdam in the Netherlands.") Annotation(oboInOwl:hasDbXref "PMID:33717105") coho:isSubCohortOf coho:COHO_0000544 coho:COHO_0000148)
 
 # Individual: coho:COHO_0000545 (Adolescent Brain Cognitive Development Study)
 
@@ -7575,7 +7575,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000554 "MHI Biobank phase 2")
 AnnotationAssertion(rdfs:label coho:COHO_0000554 "Montreal Heart Institute Biobank phase2"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000554)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Montreal Heart Institute Biobank phase2") Annotation(oboInOwl:hasDbXref "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420308229-mmc1.xlsx") coho:isSubCohortOf coho:COHO_0000554 coho:COHO_0000615)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Montreal Heart Institute Biobank phase2") Annotation(oboInOwl:hasDbXref "PMID:32888493") Annotation(oboInOwl:hasDbXref "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420308229-mmc1.xlsx") coho:isSubCohortOf coho:COHO_0000554 coho:COHO_0000615)
 
 # Individual: coho:COHO_0000555 (Montreal Heart Institute Biobank phase1)
 
@@ -7583,7 +7583,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000555 "MHI Biobank phase 1")
 AnnotationAssertion(rdfs:label coho:COHO_0000555 "Montreal Heart Institute Biobank phase1"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000555)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Montreal Heart Institute Biobank phase1") Annotation(oboInOwl:hasDbXref "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420308229-mmc1.xlsx") coho:isSubCohortOf coho:COHO_0000555 coho:COHO_0000615)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Montreal Heart Institute Biobank phase1") Annotation(oboInOwl:hasDbXref "PMID:32888493") Annotation(oboInOwl:hasDbXref "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420308229-mmc1.xlsx") coho:isSubCohortOf coho:COHO_0000555 coho:COHO_0000615)
 
 # Individual: coho:COHO_0000556 (Darmkrebs: Chancen der Verhütung durch Screening)
 
@@ -7874,7 +7874,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000587 "EPIC-InterAct 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000587 "European Prospective Investigation into Cancer - InterAct Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000587 "EPIC-InterAct Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000587)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The EPIC-InterAct study is a prospective case-cohort study, nested within the European EPIC study.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7341350/fullTextXML") coho:isSubCohortOf coho:COHO_0000587 coho:COHO_0000065)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The EPIC-InterAct study is a prospective case-cohort study, nested within the European EPIC study.") Annotation(oboInOwl:hasDbXref "PMID:32641421") coho:isSubCohortOf coho:COHO_0000587 coho:COHO_0000065)
 
 # Individual: coho:COHO_0000588 (Leipzig Adults)
 
@@ -8025,7 +8025,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000603 "Womens Health 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000603 "WHIMS+")
 AnnotationAssertion(rdfs:label coho:COHO_0000603 "Women's Health Initiative Memory Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000603)
-ObjectPropertyAssertion(Annotation(rdfs:comment "WHIMS, an ancillary study of the WHI Hormone Trials, was designed to investigate the effects of hormone therapy (conjugated equine estrogens (CEE) alone vs. placebo or CEE plus medroxyprogesterone [E + P] acetate vs. placebo) on cognitive outcomes among 7479 women aged 65–80 years recruited from 39 clinical sites across the United States who were cognitively unimpaired at randomization (1996–1999)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12928021/fullTextXML") coho:isSubCohortOf coho:COHO_0000603 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "WHIMS, an ancillary study of the WHI Hormone Trials, was designed to investigate the effects of hormone therapy (conjugated equine estrogens (CEE) alone vs. placebo or CEE plus medroxyprogesterone [E + P] acetate vs. placebo) on cognitive outcomes among 7479 women aged 65–80 years recruited from 39 clinical sites across the United States who were cognitively unimpaired at randomization (1996–1999)") Annotation(oboInOwl:hasDbXref "PMID:41721741") coho:isSubCohortOf coho:COHO_0000603 coho:COHO_0000409)
 
 # Individual: coho:COHO_0000604 (WHI SNP Health Association Resource)
 
@@ -8037,7 +8037,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000604 "Women's Health
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000604 "Women's Health Initiative SNP Health Association Resource GWAS study")
 AnnotationAssertion(rdfs:label coho:COHO_0000604 "WHI SNP Health Association Resource"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000604)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Black and Hispanic WHI participants were drawn from the single nucleotide polymorphism (SNP) Health Association Resource Project (SHARe) (National Institutes of Health 2011).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5714283/fullTextXML") coho:isSubCohortOf coho:COHO_0000604 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Black and Hispanic WHI participants were drawn from the single nucleotide polymorphism (SNP) Health Association Resource Project (SHARe) (National Institutes of Health 2011).") Annotation(oboInOwl:hasDbXref "PMID:28749367") coho:isSubCohortOf coho:COHO_0000604 coho:COHO_0000409)
 
 # Individual: coho:COHO_0000605 (Isle of Wight Whole Population Birth Cohort)
 
@@ -8126,7 +8126,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000613 "ADDITION study
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000613 "The acronym ADDITION also denotes Anglo-Danish-Dutch Study of Intensive Treatment in People with Screen Detected Diabetes in Primary Care (COHO:0000614); this term is ADDITION-Denmark."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000613 "ADDITION-Denmark"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000613)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Danish arm of the ADDITION-Europe study7 was a trial of intensive treatment of people with screen-detected diabetes, which included training in motivational interviewing for GPs.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7330202/fullTextXML") coho:isSubCohortOf coho:COHO_0000613 coho:COHO_0000614)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Danish arm of the ADDITION-Europe study7 was a trial of intensive treatment of people with screen-detected diabetes, which included training in motivational interviewing for GPs.") Annotation(oboInOwl:hasDbXref "PMID:32071038") coho:isSubCohortOf coho:COHO_0000613 coho:COHO_0000614)
 
 # Individual: coho:COHO_0000614 (Anglo-Danish-Dutch Study of Intensive Treatment in People with Screen Detected Diabetes in Primary Care)
 
@@ -8300,7 +8300,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000632)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000633 "CATSS")
 AnnotationAssertion(rdfs:label coho:COHO_0000633 "Child and Adolescent Twin Study in Sweden"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000633)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Since 2004, the Swedish Twin Registry has invited parents of twins to participate in CATSS, contacting them at age 9 years in most years and at age 12 years during the first 3 years of data collection.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13580976/fullTextXML") coho:isSubCohortOf coho:COHO_0000633 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Since 2004, the Swedish Twin Registry has invited parents of twins to participate in CATSS, contacting them at age 9 years in most years and at age 12 years during the first 3 years of data collection.") Annotation(oboInOwl:hasDbXref "PMID:42748058") coho:isSubCohortOf coho:COHO_0000633 coho:COHO_0000160)
 
 # Individual: coho:COHO_0000634 (CLUE II)
 
@@ -8339,8 +8339,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "HapMap CEU")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000637 "CEPH HapMap")
 AnnotationAssertion(rdfs:label coho:COHO_0000637 "Utah residents (CEPH) with Northern and Western European ancestry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000637)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These included all HapMap Phase I and II samples, along with further samples from the same four populations: individuals from the Centre d’Etude du Polymorphisme Humain collected in Utah, USA, with ancestry from northern and western Europe (CEU);") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3173859/unicode") coho:isSubCohortOf coho:COHO_0000637 coho:COHO_0000284)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3042601/unicode") coho:isSubCohortOf coho:COHO_0000637 coho:COHO_0000002)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These included all HapMap Phase I and II samples, along with further samples from the same four populations: individuals from the Centre d’Etude du Polymorphisme Humain collected in Utah, USA, with ancestry from northern and western Europe (CEU);") Annotation(oboInOwl:hasDbXref "PMID:20811451") coho:isSubCohortOf coho:COHO_0000637 coho:COHO_0000284)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "PMID:20981092") coho:isSubCohortOf coho:COHO_0000637 coho:COHO_0000002)
 
 # Individual: coho:COHO_0000638 (Yoruba in Ibadan, Nigeria)
 
@@ -8349,8 +8349,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000638 "Yoruba")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000638 "HapMap YRI")
 AnnotationAssertion(rdfs:label coho:COHO_0000638 "Yoruba in Ibadan, Nigeria"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000638)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Japanese in Tokyo, Japan (JPT); and Yoruba in Ibadan, Nigeria (YRI).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3173859/unicode") coho:isSubCohortOf coho:COHO_0000638 coho:COHO_0000284)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3042601/unicode") coho:isSubCohortOf coho:COHO_0000638 coho:COHO_0000002)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Japanese in Tokyo, Japan (JPT); and Yoruba in Ibadan, Nigeria (YRI).") Annotation(oboInOwl:hasDbXref "PMID:20811451") coho:isSubCohortOf coho:COHO_0000638 coho:COHO_0000284)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "PMID:20981092") coho:isSubCohortOf coho:COHO_0000638 coho:COHO_0000002)
 
 # Individual: coho:COHO_0000639 (Copenhagen Prospective Study on Asthma in Childhood)
 
@@ -8386,7 +8386,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000642 "DISCOVeRY-BMT 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000642 "DISCOVeRY-BMT cohorts")
 AnnotationAssertion(rdfs:label coho:COHO_0000642 "Determining the Influence of Susceptibility COnveying Variants Related to one-Year mortality after BMT"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000642)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Recipients and donors provided written informed consent for participation in the Center for International Blood and Marrow Transplant Research clinical outcome database and research repository.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8548922/fullTextXML") coho:isSubCohortOf coho:COHO_0000642 coho:COHO_0000676)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Recipients and donors provided written informed consent for participation in the Center for International Blood and Marrow Transplant Research clinical outcome database and research repository.") Annotation(oboInOwl:hasDbXref "PMID:34746714") coho:isSubCohortOf coho:COHO_0000642 coho:COHO_0000676)
 
 # Individual: coho:COHO_0000643 (European Alzheimer's Disease Initiative)
 
@@ -8463,7 +8463,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000650 "Swedish Adoption Twin Study of Aging")
 AnnotationAssertion(rdfs:label coho:COHO_0000650 "Swedish Adoption/Twin Study of Aging"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000650)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The SATSA dataset was drawn from the Swedish Twin Registry and includes same-sex twin pairs born in Sweden separated before the age of 11 years and reared apart.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12283397/fullTextXML") coho:isSubCohortOf coho:COHO_0000650 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The SATSA dataset was drawn from the Swedish Twin Registry and includes same-sex twin pairs born in Sweden separated before the age of 11 years and reared apart.") Annotation(oboInOwl:hasDbXref "PMID:40188287") coho:isSubCohortOf coho:COHO_0000650 coho:COHO_0000160)
 
 # Individual: coho:COHO_0000651 (Stroke Genetics Network)
 
@@ -8616,7 +8616,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000667 "BCFR-NC")
 AnnotationAssertion(rdfs:label coho:COHO_0000667 "Northern California Breast Cancer Family Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000667)
-ObjectPropertyAssertion(Annotation(rdfs:comment "We initially performed a GWAS of Latina women from the San Francisco Bay Area including 977 cases and 722 controls, from the San Francisco Bay Area Breast Cancer Study (SFBCS), the Northern California site of the Breast Cancer Family Registry (NC-BCFR) and the Genetics of Asthma in Latino Americans (GALA1, controls).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4204111/fullTextXML") coho:isSubCohortOf coho:COHO_0000667 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "We initially performed a GWAS of Latina women from the San Francisco Bay Area including 977 cases and 722 controls, from the San Francisco Bay Area Breast Cancer Study (SFBCS), the Northern California site of the Breast Cancer Family Registry (NC-BCFR) and the Genetics of Asthma in Latino Americans (GALA1, controls).") Annotation(oboInOwl:hasDbXref "PMID:25327703") coho:isSubCohortOf coho:COHO_0000667 coho:COHO_0000668)
 
 # Individual: coho:COHO_0000668 (Breast Cancer Family Registry)
 
@@ -8672,7 +8672,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000672)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000673 "ARIES")
 AnnotationAssertion(rdfs:label coho:COHO_0000673 "Accessible Resource for Integrated Epigenomic Studies"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000673)
-ObjectPropertyAssertion(Annotation(rdfs:comment "ARIES is a sub-study of the Avon Longitudinal Study of Parents and Children (ALSPAC).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5593097/unicode") coho:isSubCohortOf coho:COHO_0000673 coho:COHO_0000016)
+ObjectPropertyAssertion(Annotation(rdfs:comment "ARIES is a sub-study of the Avon Longitudinal Study of Parents and Children (ALSPAC).") Annotation(oboInOwl:hasDbXref "PMID:25991711") coho:isSubCohortOf coho:COHO_0000673 coho:COHO_0000016)
 
 # Individual: coho:COHO_0000674 (Bellygenes initiative)
 
@@ -8993,7 +8993,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000710 "Genetics of Extremely Overweight Young Adults")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000710 "Genetics of Extreme Overweight in Young Adults")
 AnnotationAssertion(rdfs:label coho:COHO_0000710 "Genetics of Overweight Young Adults"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Genomics of overweight in Young Adults (GOYA) study is a nested study within the DNBC, and conducted in collaboration with the MRC Integrative Epidemiology Unit at the University of Bristol (MC_UU_12013/1-9).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01343-9/MediaObjects/41588_2023_1343_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000710 coho:COHO_0000748)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Genomics of overweight in Young Adults (GOYA) study is a nested study within the DNBC, and conducted in collaboration with the MRC Integrative Epidemiology Unit at the University of Bristol (MC_UU_12013/1-9).") Annotation(oboInOwl:hasDbXref "PMID:37012456") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-023-01343-9/MediaObjects/41588_2023_1343_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0000710 coho:COHO_0000748)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000710)
 
 # Individual: coho:COHO_0000711 (International Consortium for Blood Pressure Genome-Wide Association Studies)
@@ -9286,7 +9286,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000741 "The acronym AHS also denotes Agricultural Health Study (COHO:0000740); this term is Agricultural Lung Health Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000741 "Agricultural Lung Health Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000741)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Participants were enroled in the Agricultural Lung Health Study (ALHS), a case-control study of adult current asthma nested within the Agricultural Health Study (AHS).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7469973/fullTextXML") coho:isSubCohortOf coho:COHO_0000741 coho:COHO_0000740)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Participants were enroled in the Agricultural Lung Health Study (ALHS), a case-control study of adult current asthma nested within the Agricultural Health Study (AHS).") Annotation(oboInOwl:hasDbXref "PMID:32381493") coho:isSubCohortOf coho:COHO_0000741 coho:COHO_0000740)
 
 # Individual: coho:COHO_0000742 (AncestryDNA Human Diversity Project)
 
@@ -9395,7 +9395,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000751 "Epidemiologic 
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000751 "The acronym EAGLE also denotes Environment And Genetics in Lung cancer Etiology study (COHO:0000749) and EArly Genetics and Lifecourse Epidemiology consortium (COHO:0000750); this term is EAGLE BioVU."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000751 "EAGLE BioVU"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000751)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Epidemiologic Architecture for Genes Linked to Environment (EAGLE)-accessing the Vanderbilt University Medical Center’s biorepository (BioVU);") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6059436/fullTextXML") coho:isSubCohortOf coho:COHO_0000751 coho:COHO_0000417)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Epidemiologic Architecture for Genes Linked to Environment (EAGLE)-accessing the Vanderbilt University Medical Center’s biorepository (BioVU);") Annotation(oboInOwl:hasDbXref "PMID:30044860") coho:isSubCohortOf coho:COHO_0000751 coho:COHO_0000417)
 
 # Individual: coho:COHO_0000752 (Elucidating Loci Involved in Prostate Cancer Susceptibility)
 
@@ -9466,7 +9466,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000758 "cardiovascular
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000758 "Malmö Diet and Cancer Study-Cardiovascular Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000758 "Malmö Diet and Cancer Study–Cardiovascular Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000758)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Between October 1991 and February 1994 a randomly selected subgroup of 6103 MDC participants was included into a study focusing on carotid artery disease epidemiology (MDC-CV)12.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11109115/fullTextXML") coho:isSubCohortOf coho:COHO_0000758 coho:COHO_0000296)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Between October 1991 and February 1994 a randomly selected subgroup of 6103 MDC participants was included into a study focusing on carotid artery disease epidemiology (MDC-CV)12.") Annotation(oboInOwl:hasDbXref "PMID:38773223") coho:isSubCohortOf coho:COHO_0000758 coho:COHO_0000296)
 
 # Individual: coho:COHO_0000759 (MiaLAtinX Consortium)
 
@@ -9499,7 +9499,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000762 "Singapore Chinese Eyes Study")
 AnnotationAssertion(rdfs:label coho:COHO_0000762 "Singapore Chinese Eye Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000762)
-ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10630666/fullTextXML") coho:isSubCohortOf coho:COHO_0000762 coho:COHO_0000763)
+ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "PMID:38025163") coho:isSubCohortOf coho:COHO_0000762 coho:COHO_0000763)
 
 # Individual: coho:COHO_0000763 (Singapore Epidemiology of Eye Diseases Study)
 
@@ -9515,9 +9515,9 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000763)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000764 "SINDI")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000764 "SINDI-2")
 AnnotationAssertion(rdfs:label coho:COHO_0000764 "Singapore Indian Eye Study"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Briefly, the Singapore Indian Eye Study (SINDI), which is part of the Singapore Indian Chinese Cohort Eye Study (SICC) [42], consists of 2538 Indian subjects aged 40 and above, and the Singapore Malay Eye Study (SiMES) [43-45] is a genome-wide association study of CCT phenotype which contains 2542 Malay subjects aged 40 and above.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3852120/fullTextXML") coho:isSubCohortOf coho:COHO_0000764 coho:COHO_0002378)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Briefly, the Singapore Indian Eye Study (SINDI), which is part of the Singapore Indian Chinese Cohort Eye Study (SICC) [42], consists of 2538 Indian subjects aged 40 and above, and the Singapore Malay Eye Study (SiMES) [43-45] is a genome-wide association study of CCT phenotype which contains 2542 Malay subjects aged 40 and above.") Annotation(oboInOwl:hasDbXref "PMID:23964661") coho:isSubCohortOf coho:COHO_0000764 coho:COHO_0002378)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000764)
-ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10630666/fullTextXML") coho:isSubCohortOf coho:COHO_0000764 coho:COHO_0000763)
+ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "PMID:38025163") coho:isSubCohortOf coho:COHO_0000764 coho:COHO_0000763)
 
 # Individual: coho:COHO_0000765 (TAICHI Consortium)
 
@@ -9625,7 +9625,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000776 "DiscovEHR coho
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000776 "Geisinger DiscovEHR-MyCode cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000776 "DiscovEHR study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000776)
-ObjectPropertyAssertion(Annotation(rdfs:comment "In short, the DiscovEHR cohort is a subset of individuals enrolled in the Geisinger Healthcare system who consented to participate in Geisinger's MyCode Community Health Initiative.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8457092/fullTextXML") coho:isSubCohortOf coho:COHO_0000776 coho:COHO_0000448)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In short, the DiscovEHR cohort is a subset of individuals enrolled in the Geisinger Healthcare system who consented to participate in Geisinger's MyCode Community Health Initiative.") Annotation(oboInOwl:hasDbXref "PMID:34184762") coho:isSubCohortOf coho:COHO_0000776 coho:COHO_0000448)
 
 # Individual: coho:COHO_0000777 (Epidemiological Investigation of Multiple Sclerosis)
 
@@ -9788,7 +9788,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000796 "SiMES")
 AnnotationAssertion(rdfs:label coho:COHO_0000796 "Singapore Malay Eye Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000796)
-ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10630666/fullTextXML") coho:isSubCohortOf coho:COHO_0000796 coho:COHO_0000763)
+ObjectPropertyAssertion(Annotation(rdfs:comment "At baseline visit, Malay, Indian, and Chinese subjects from SEED were recruited under 3 studies: the Singapore Malay Eye Study (year 2004–2006), the Singapore Indian Eye Study (year 2007–2009), and the Singapore Chinese Eye Study (year 2009–2011).") Annotation(oboInOwl:hasDbXref "PMID:38025163") coho:isSubCohortOf coho:COHO_0000796 coho:COHO_0000763)
 
 # Individual: coho:COHO_0000797 (Spanish Bladder Cancer Study)
 
@@ -9899,8 +9899,8 @@ AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000808 "The acronym ASN also deno
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000808 "The acronym CHB also denotes Copenhagen Hospital Biobank (COHO:0000046); this term is Han Chinese in Beijing, China."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000808 "Han Chinese in Beijing, China"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000808)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Han Chinese in Beijing, China (CHB);") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3173859/unicode") coho:isSubCohortOf coho:COHO_0000808 coho:COHO_0000284)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3042601/unicode") coho:isSubCohortOf coho:COHO_0000808 coho:COHO_0000002)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Han Chinese in Beijing, China (CHB);") Annotation(oboInOwl:hasDbXref "PMID:20811451") coho:isSubCohortOf coho:COHO_0000808 coho:COHO_0000284)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "PMID:20981092") coho:isSubCohortOf coho:COHO_0000808 coho:COHO_0000002)
 
 # Individual: coho:COHO_0000809 (Japanese in Tokyo, Japan)
 
@@ -9910,8 +9910,8 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000809 "HapMap JPT")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000809 "The acronym ASN also denotes Han Chinese in Beijing, China (COHO:0000808); this term is Japanese in Tokyo, Japan."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000809 "Japanese in Tokyo, Japan"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000809)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Japanese in Tokyo, Japan (JPT); and Yoruba in Ibadan, Nigeria (YRI).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3173859/unicode") coho:isSubCohortOf coho:COHO_0000809 coho:COHO_0000284)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3042601/unicode") coho:isSubCohortOf coho:COHO_0000809 coho:COHO_0000002)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Japanese in Tokyo, Japan (JPT); and Yoruba in Ibadan, Nigeria (YRI).") Annotation(oboInOwl:hasDbXref "PMID:20811451") coho:isSubCohortOf coho:COHO_0000809 coho:COHO_0000284)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Low coverage project: whole genome shotgun sequencing at low coverage (2-6x) of 59 unrelated individuals from YRI, 60 unrelated individuals from CEU, 30 unrelated Han Chinese individuals in Beijing (CHB) and 30 unrelated Japanese individuals in Tokyo (JPT).") Annotation(oboInOwl:hasDbXref "PMID:20981092") coho:isSubCohortOf coho:COHO_0000809 coho:COHO_0000002)
 
 # Individual: coho:COHO_0000810 (Rush Memory and Aging Project)
 
@@ -10354,7 +10354,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000858 "ASPS Family St
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000858 "The acronym ASPS also denotes Austrian Stroke Prevention Study (COHO:0000857); this term is Austrian Stroke Prevention Family Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000858 "Austrian Stroke Prevention Family Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000858)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Austrian Stroke Prevention Family Study (ASPS-Fam) cohort represents an extension of the prospective, population-based ASPS (Austrian Stroke Prevention Study) on the effects of vascular risk factors in normal aging.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10030935/fullTextXML") coho:isSubCohortOf coho:COHO_0000858 coho:COHO_0000857)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Austrian Stroke Prevention Family Study (ASPS-Fam) cohort represents an extension of the prospective, population-based ASPS (Austrian Stroke Prevention Study) on the effects of vascular risk factors in normal aging.") Annotation(oboInOwl:hasDbXref "PMID:36970523") coho:isSubCohortOf coho:COHO_0000858 coho:COHO_0000857)
 
 # Individual: coho:COHO_0000859 (B-Vitamins for the PRevention Of Osteoporotic Fractures)
 
@@ -10531,7 +10531,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000877)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000878 "PNC")
 AnnotationAssertion(rdfs:label coho:COHO_0000878 "Philadelphia Neurodevelopmental Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000878)
-ObjectPropertyAssertion(Annotation(rdfs:comment "All participants were recruited through the Center for Applied Genomics at The Children’s Hospital in Philadelphia.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8713563/fullTextXML") coho:isSubCohortOf coho:COHO_0000878 coho:COHO_0000489)
+ObjectPropertyAssertion(Annotation(rdfs:comment "All participants were recruited through the Center for Applied Genomics at The Children’s Hospital in Philadelphia.") Annotation(oboInOwl:hasDbXref "PMID:34970657") coho:isSubCohortOf coho:COHO_0000878 coho:COHO_0000489)
 
 # Individual: coho:COHO_0000879 (ProHealth Study)
 
@@ -10574,7 +10574,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000883 "Swedish Rheuma
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000883 "SRQ biobank")
 AnnotationAssertion(rdfs:label coho:COHO_0000883 "Swedish Rheumatology Quality Register Biobank"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000883)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Our primary analysis cohort consisted of early-RA patients receiving MTX in DMARD monotherapy as their first RA treatment, identified in the Epidemiological Investigation of RA (EIRA) biobank or the Swedish Rheumatology Quality Register’s (SRQ) biobank (SRQb).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11065441/fullTextXML") coho:isSubCohortOf coho:COHO_0000883 coho:COHO_0000884)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Our primary analysis cohort consisted of early-RA patients receiving MTX in DMARD monotherapy as their first RA treatment, identified in the Epidemiological Investigation of RA (EIRA) biobank or the Swedish Rheumatology Quality Register’s (SRQ) biobank (SRQb).") Annotation(oboInOwl:hasDbXref "PMID:37326842") coho:isSubCohortOf coho:COHO_0000883 coho:COHO_0000884)
 
 # Individual: coho:COHO_0000884 (Swedish Rheumatology Quality Register)
 
@@ -10616,14 +10616,14 @@ AnnotationAssertion(rdfs:label coho:COHO_0000888 "Rotterdam Study II"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0000888 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0000888 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS2")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000888)
-ObjectPropertyAssertion(Annotation(rdfs:comment "In 2000, the RS was extended with a second subcohort (RS-II) of 3011 participants who moved to Ommoord or turned 55 years old.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12188677/fullTextXML") coho:isSubCohortOf coho:COHO_0000888 coho:COHO_0000148)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In 2000, the RS was extended with a second subcohort (RS-II) of 3011 participants who moved to Ommoord or turned 55 years old.") Annotation(oboInOwl:hasDbXref "PMID:40563098") coho:isSubCohortOf coho:COHO_0000888 coho:COHO_0000148)
 
 # Individual: coho:COHO_0000889 (MrOS Malmö)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000889 "MrOS Malmo")
 AnnotationAssertion(rdfs:label coho:COHO_0000889 "MrOS Malmö"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000889)
-ObjectPropertyAssertion(Annotation(rdfs:comment "which consists of three sub-cohorts from three different Swedish cities (n = 1005 in Malmö, n = 1010 in Gothenburg, and n = 999 in Uppsala).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3390364/fullTextXML") coho:isSubCohortOf coho:COHO_0000889 coho:COHO_0000835)
+ObjectPropertyAssertion(Annotation(rdfs:comment "which consists of three sub-cohorts from three different Swedish cities (n = 1005 in Malmö, n = 1010 in Gothenburg, and n = 999 in Uppsala).") Annotation(oboInOwl:hasDbXref "PMID:22792071") coho:isSubCohortOf coho:COHO_0000889 coho:COHO_0000835)
 
 # Individual: coho:COHO_0000890 (Longitudinal Aging Study Amsterdam)
 
@@ -10649,7 +10649,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000892 "The acronym TGS also denotes Gothenburg H70 Birth Cohort Studies and Clinical AD Sweden (COHO:0000666); this term is MrOS Gothenburg."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000892 "MrOS Gothenburg"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000892)
-ObjectPropertyAssertion(Annotation(rdfs:comment "which consists of three sub-cohorts from three different Swedish cities (n = 1005 in Malmö, n = 1010 in Gothenburg, and n = 999 in Uppsala).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3390364/fullTextXML") coho:isSubCohortOf coho:COHO_0000892 coho:COHO_0000835)
+ObjectPropertyAssertion(Annotation(rdfs:comment "which consists of three sub-cohorts from three different Swedish cities (n = 1005 in Malmö, n = 1010 in Gothenburg, and n = 999 in Uppsala).") Annotation(oboInOwl:hasDbXref "PMID:22792071") coho:isSubCohortOf coho:COHO_0000892 coho:COHO_0000835)
 
 # Individual: coho:COHO_0000893 (African Ancestry Anthropometry Genetics Consortium)
 
@@ -10717,7 +10717,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000900 "Cambridge NIHR
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000900 "BioResource")
 AnnotationAssertion(rdfs:label coho:COHO_0000900 "NIHR Cambridge BioResource"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000900)
-ObjectPropertyAssertion(Annotation(rdfs:comment "We gratefully acknowledge the participation of all Cambridge NIHR BioResource volunteers and we thank the Cambridge BioResource staff for their help with volunteer recruitment to the studies discussed in this review.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12590175/fullTextXML") coho:isSubCohortOf coho:COHO_0000900 coho:COHO_0000312)
+ObjectPropertyAssertion(Annotation(rdfs:comment "We gratefully acknowledge the participation of all Cambridge NIHR BioResource volunteers and we thank the Cambridge BioResource staff for their help with volunteer recruitment to the studies discussed in this review.") Annotation(oboInOwl:hasDbXref "PMID:41194662") coho:isSubCohortOf coho:COHO_0000900 coho:COHO_0000312)
 
 # Individual: coho:COHO_0000901 (Consortium of Investigators of Modifiers of BRCA1 and BRCA2)
 
@@ -10816,7 +10816,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000911 "Health and Aging in Africa: A Longitudinal Study of an INDEPTH Community in South Africa")
 AnnotationAssertion(rdfs:label coho:COHO_0000911 "Health and Ageing in Africa: A Longitudinal Study of an INDEPTH Community in South Africa"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000911)
-ObjectPropertyAssertion(Annotation(rdfs:comment "HAALSI was funded by the National Institute on Aging (P01 AG041710) nested within the Agincourt Health and Demographic Surveillance System supported by the University of the Witwatersrand and Medical Research Council, South Africa, and the Wellcome Trust, UK (grants 058893/Z/99/A; 069683/Z/02/Z; 085477/Z/08/Z; 085477/B/08/Z).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10043003/fullTextXML") coho:isSubCohortOf coho:COHO_0000911 coho:COHO_0000912)
+ObjectPropertyAssertion(Annotation(rdfs:comment "HAALSI was funded by the National Institute on Aging (P01 AG041710) nested within the Agincourt Health and Demographic Surveillance System supported by the University of the Witwatersrand and Medical Research Council, South Africa, and the Wellcome Trust, UK (grants 058893/Z/99/A; 069683/Z/02/Z; 085477/Z/08/Z; 085477/B/08/Z).") Annotation(oboInOwl:hasDbXref "PMID:36973338") coho:isSubCohortOf coho:COHO_0000911 coho:COHO_0000912)
 
 # Individual: coho:COHO_0000912 (Agincourt Health and Socio-demographic Surveillance System)
 
@@ -10872,7 +10872,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000918 "Immunomodulati
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000918 "Immunomodulation and MS Epidemiology")
 AnnotationAssertion(rdfs:label coho:COHO_0000918 "Immunomodulation and Multiple Sclerosis Epidemiology"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000918)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Current projects include an incidence cohort (EIMS), post-marketing cohorts of patients on novel disease-modifying drugs (IMSE), and a prevalence cohort (GEMS).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4657484/fullTextXML") coho:isSubCohortOf coho:COHO_0000918 coho:COHO_0000778)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Current projects include an incidence cohort (EIMS), post-marketing cohorts of patients on novel disease-modifying drugs (IMSE), and a prevalence cohort (GEMS).") Annotation(oboInOwl:hasDbXref "PMID:26046553") coho:isSubCohortOf coho:COHO_0000918 coho:COHO_0000778)
 
 # Individual: coho:COHO_0000919 (International Parkinson Disease Genomics Consortium)
 
@@ -10951,7 +10951,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000928 "Ontario site o
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000928 "Ontario Breast Cancer Family Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0000928 "Ontario Familial Breast Cancer Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000928)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Population-based families were recruited from the Greater San Francisco Bay area, California, USA, by the Northern California Cancer Center; from the province of Ontario, Canada, by Cancer Care Ontario; and from the metropolitan areas of Melbourne and Sydney, Australia, by the University of Melbourne and the New South Wales Cancer Council.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC468645/fullTextXML") coho:isSubCohortOf coho:COHO_0000928 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Population-based families were recruited from the Greater San Francisco Bay area, California, USA, by the Northern California Cancer Center; from the province of Ontario, Canada, by Cancer Care Ontario; and from the metropolitan areas of Melbourne and Sydney, Australia, by the University of Melbourne and the New South Wales Cancer Council.") Annotation(oboInOwl:hasDbXref "PMID:15217505") coho:isSubCohortOf coho:COHO_0000928 coho:COHO_0000668)
 
 # Individual: coho:COHO_0000929 (Prolonged Anticoagulation During eighteen months vs placebo after Initial Six-month treatment for a first episode of idiopathic Pulmonary Embolism)
 
@@ -10986,7 +10986,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000932 "Qingdao Twins Registry")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0000932 "The acronym QTR also denotes Queensland Twin Registry (COHO:0001226); this term is Qingdao Twin Registry."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0000932 "Qingdao Twin Registry"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "In 1998, the Qingdao Twin Registry was initiated as the main part of the Chinese National Twin Registry.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23182450+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0000932 coho:COHO_0000933)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In 1998, the Qingdao Twin Registry was initiated as the main part of the Chinese National Twin Registry.") Annotation(oboInOwl:hasDbXref "PMID:23182450") coho:isSubCohortOf coho:COHO_0000932 coho:COHO_0000933)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000932)
 
 # Individual: coho:COHO_0000933 (Chinese National Twin Registry)
@@ -11070,7 +11070,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000940 "Tracking Adole
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000940 "TRAILS clinical cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0000940 "TRacking Adolescents' Individual Lives Survey Clinical Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000940)
-ObjectPropertyAssertion(Annotation(rdfs:comment "TRAILS consists of a population cohort (N = 2230) and a clinical cohort (N = 543), both of which were followed from about age 11 years onwards.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4339762/fullTextXML") coho:isSubCohortOf coho:COHO_0000940 coho:COHO_0000524)
+ObjectPropertyAssertion(Annotation(rdfs:comment "TRAILS consists of a population cohort (N = 2230) and a clinical cohort (N = 543), both of which were followed from about age 11 years onwards.") Annotation(oboInOwl:hasDbXref "PMID:25431468") coho:isSubCohortOf coho:COHO_0000940 coho:COHO_0000524)
 
 # Individual: coho:COHO_0000941 (Taiwan-US Diabetic Retinopathy Study)
 
@@ -11453,7 +11453,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000986 "Umeå Fracture
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000986 "Umeå Fracture and Osteoporosis study")
 AnnotationAssertion(rdfs:label coho:COHO_0000986 "Umeå Fracture and Osteoporosis Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000986)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Umeå Fracture and Osteoporosis (UFO) study is a population-based, nested case–control study sampled from the Northern Sweden Health and Disease study cohort that started in 1985 and now consists of blood samples, and lifestyle and dietary data from around 135 000 unique subjects from the county of Västerbotten.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10583993/fullTextXML") coho:isSubCohortOf coho:COHO_0000986 coho:COHO_0000927)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Umeå Fracture and Osteoporosis (UFO) study is a population-based, nested case–control study sampled from the Northern Sweden Health and Disease study cohort that started in 1985 and now consists of blood samples, and lifestyle and dietary data from around 135 000 unique subjects from the county of Västerbotten.") Annotation(oboInOwl:hasDbXref "PMID:37178220") coho:isSubCohortOf coho:COHO_0000986 coho:COHO_0000927)
 
 # Individual: coho:COHO_0000987 (Multicenter Study of Hydroxyurea in Sickle Cell Anemia)
 
@@ -11489,7 +11489,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000990 "African Americ
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000990 "African American DHS")
 AnnotationAssertion(rdfs:label coho:COHO_0000990 "African American-Diabetes Heart Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000990)
-ObjectPropertyAssertion(Annotation(rdfs:comment "DHS comprises a series of studies to analyze vascular diabetic complications. Data collection in DHS-Bone and DHS-Fat are completed. DHS-GWAS, DHS-Mind, and African American DHS are currently ongoing.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3061609/") coho:isSubCohortOf coho:COHO_0000990 coho:COHO_0000460)
+ObjectPropertyAssertion(Annotation(rdfs:comment "DHS comprises a series of studies to analyze vascular diabetic complications. Data collection in DHS-Bone and DHS-Fat are completed. DHS-GWAS, DHS-Mind, and African American DHS are currently ongoing.") Annotation(oboInOwl:hasDbXref "PMID:21409311") coho:isSubCohortOf coho:COHO_0000990 coho:COHO_0000460)
 
 # Individual: coho:COHO_0000991 (Anti-Aging Study Cohort)
 
@@ -11509,7 +11509,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000992 "ADNI Department of Defense studies")
 AnnotationAssertion(rdfs:label coho:COHO_0000992 "Department of Defense Alzheimer's Disease Neuroimaging Initiative"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000992)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The DoD-ADNI is a multi-site extension of ADNI designed to investigate the effects of TBI and PTSD on AD-related pathology in Vietnam-era Veterans (Weiner et al., 2014, 2017).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13311454/fullTextXML") coho:isSubCohortOf coho:COHO_0000992 coho:COHO_0000367)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The DoD-ADNI is a multi-site extension of ADNI designed to investigate the effects of TBI and PTSD on AD-related pathology in Vietnam-era Veterans (Weiner et al., 2014, 2017).") Annotation(oboInOwl:hasDbXref "PMID:42316769") coho:isSubCohortOf coho:COHO_0000992 coho:COHO_0000367)
 
 # Individual: coho:COHO_0000993 (Anorexia Nervosa Genetics Initiative)
 
@@ -11611,7 +11611,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001004 "European Prosp
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001004 "EPIC-CVD case-cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0001004 "European Prospective Investigation into Cancer and Nutrition–Cardiovascular Disease Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001004)
-ObjectPropertyAssertion(Annotation(rdfs:comment "EPIC-CVD is a case-cohort study nested within the European Prospective Investigation into Cancer and Nutrition (EPIC) cohort (1).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729111/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001004 coho:COHO_0000065)
+ObjectPropertyAssertion(Annotation(rdfs:comment "EPIC-CVD is a case-cohort study nested within the European Prospective Investigation into Cancer and Nutrition (EPIC) cohort (1).") Annotation(oboInOwl:hasDbXref "PMID:36474045") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729111/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001004 coho:COHO_0000065)
 
 # Individual: coho:COHO_0001005 (Fangshan Family-based Ischemic Stroke Study in China)
 
@@ -11664,7 +11664,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001010 "Genetic Links to Anxiety and Depression")
 AnnotationAssertion(rdfs:label coho:COHO_0001010 "Genetic Links to Anxiety and Depression Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001010)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Once participants have returned their saliva sample, they become full members of the GLAD Study (and of the NIHR BioResource) and are eligible to take part in future studies.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6891252/fullTextXML") coho:isSubCohortOf coho:COHO_0001010 coho:COHO_0000312)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Once participants have returned their saliva sample, they become full members of the GLAD Study (and of the NIHR BioResource) and are eligible to take part in future studies.") Annotation(oboInOwl:hasDbXref "PMID:31715324") coho:isSubCohortOf coho:COHO_0001010 coho:COHO_0000312)
 
 # Individual: coho:COHO_0001011 (Genetics of the Scottish Health Research Register)
 
@@ -11997,7 +11997,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001048 "Australian Breast Cancer Family Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0001048 "Australian Breast Cancer Family Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001048)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Australian Breast Cancer Family Registry (ABCFR) is a population-based, case control family study of breast cancer with an emphasis on early-onset breast cancer that is being carried out in Melbourne and Sydney, Australia [9-11], and is part of the Breast Cancer Family Registry [12].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3046454/fullTextXML") coho:isSubCohortOf coho:COHO_0001048 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Australian Breast Cancer Family Registry (ABCFR) is a population-based, case control family study of breast cancer with an emphasis on early-onset breast cancer that is being carried out in Melbourne and Sydney, Australia [9-11], and is part of the Breast Cancer Family Registry [12].") Annotation(oboInOwl:hasDbXref "PMID:21182766") coho:isSubCohortOf coho:COHO_0001048 coho:COHO_0000668)
 
 # Individual: coho:COHO_0001049 (Asia Colorectal Cancer Consortium)
 
@@ -12047,7 +12047,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001054 "Antioxydants, 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001054 "Antioxydants Lipides Essentiels Nutrition et Maladies Oculaires")
 AnnotationAssertion(rdfs:label coho:COHO_0001054 "Antioxydants, Lipides Essentiels, Nutrition et maladies OculaiRes"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001054)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The ALIENOR study included 963 participants aged ≥73 years from the Three-City (3C) study in Bordeaux, for an ophthalmic follow-up.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40808916+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0001054 coho:COHO_0000812)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The ALIENOR study included 963 participants aged ≥73 years from the Three-City (3C) study in Bordeaux, for an ophthalmic follow-up.") Annotation(oboInOwl:hasDbXref "PMID:40808916") coho:isSubCohortOf coho:COHO_0001054 coho:COHO_0000812)
 
 # Individual: coho:COHO_0001055 (Autopsy-Confirmed Parkinson Disease GWAS Consortium)
 
@@ -12248,7 +12248,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001078 "Epidemiology o
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001078 "Epidemiology of Dementia in Singapore study")
 AnnotationAssertion(rdfs:label coho:COHO_0001078 "Epidemiology of Dementia in Singapore"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001078)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The ongoing Epidemiology of Dementia in Singapore (EDIS) study draws participants from the Singapore Epidemiology of Eye Disease (SEED) study, a multiethnic population-based study among persons ages 40–85 years among Chinese (Singapore Chinese Eye Study [SCES]), Malay (Singapore Malay Eye Study [SiMES-2]), and Indians (Singapore Indian Eye Study [SINDI-2]).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4616471/fullTextXML") coho:isSubCohortOf coho:COHO_0001078 coho:COHO_0000763)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The ongoing Epidemiology of Dementia in Singapore (EDIS) study draws participants from the Singapore Epidemiology of Eye Disease (SEED) study, a multiethnic population-based study among persons ages 40–85 years among Chinese (Singapore Chinese Eye Study [SCES]), Malay (Singapore Malay Eye Study [SiMES-2]), and Indians (Singapore Indian Eye Study [SINDI-2]).") Annotation(oboInOwl:hasDbXref "PMID:26061305") coho:isSubCohortOf coho:COHO_0001078 coho:COHO_0000763)
 
 # Individual: coho:COHO_0001079 (Early-Onset Venous Thrombosis)
 
@@ -12466,7 +12466,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001104 "Maculopathy Op
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001104 "Montrachet Study Cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0001104 "Montrachet Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001104)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Participants of the Montrachet Study were recruited from an ongoing population‐based study, the Three‐City (3C) Study, which examined the vascular risk factors for dementia (2003).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5057364/fullTextXML") coho:isSubCohortOf coho:COHO_0001104 coho:COHO_0000812)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Participants of the Montrachet Study were recruited from an ongoing population‐based study, the Three‐City (3C) Study, which examined the vascular risk factors for dementia (2003).") Annotation(oboInOwl:hasDbXref "PMID:26466845") coho:isSubCohortOf coho:COHO_0001104 coho:COHO_0000812)
 
 # Individual: coho:COHO_0001105 (MUNICH stroke study)
 
@@ -12534,7 +12534,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001113 "Screening Across the Lifespan Twin study in Younger adults")
 AnnotationAssertion(rdfs:label coho:COHO_0001113 "Screening Across the Lifespan Twin survey, Younger cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001113)
-ObjectPropertyAssertion(Annotation(rdfs:comment "National health register information (until 2016) was linked to 5 subcohorts of child and adult twins (total twin pairs: n = 38 723) from the Swedish Twin Registry including: 17 593 pairs from the Child and Adolescent Twin Study of Sweden (CATSS), born 1992 to 2012; 2254 pairs from the Young Adult Twins in Sweden Study (YATSS), born 1985 to 1991; 9234 pairs from the Study of Twin Adults: Genes and Environment (STAGE), born 1958 to 1985; 3649 pairs from the Screening Across the Lifespan Twin study in Younger adults (SALTY), born 1943 to 1958; and 5993 pairs from TwinGene, born 1911 to 1958 (Figure 1).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11369071/fullTextXML") coho:isSubCohortOf coho:COHO_0001113 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "National health register information (until 2016) was linked to 5 subcohorts of child and adult twins (total twin pairs: n = 38 723) from the Swedish Twin Registry including: 17 593 pairs from the Child and Adolescent Twin Study of Sweden (CATSS), born 1992 to 2012; 2254 pairs from the Young Adult Twins in Sweden Study (YATSS), born 1985 to 1991; 9234 pairs from the Study of Twin Adults: Genes and Environment (STAGE), born 1958 to 1985; 3649 pairs from the Screening Across the Lifespan Twin study in Younger adults (SALTY), born 1943 to 1958; and 5993 pairs from TwinGene, born 1911 to 1958 (Figure 1).") Annotation(oboInOwl:hasDbXref "PMID:38412344") coho:isSubCohortOf coho:COHO_0001113 coho:COHO_0000160)
 
 # Individual: coho:COHO_0001114 (Severe Asthma Research Program)
 
@@ -12571,7 +12571,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001116)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001117 "SGP")
 AnnotationAssertion(rdfs:label coho:COHO_0001117 "Sickle Cell Genome Project"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001117)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Germline-only data of pediatric sickle cell patients represents 807 patients from the Sickle Cell Genome Project (SGP), an initiative that is part of the Sickle Cell Clinical Research and Intervention Program (SCCRIP).") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC8102307/unicode") coho:isSubCohortOf coho:COHO_0001117 coho:COHO_0001115)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Germline-only data of pediatric sickle cell patients represents 807 patients from the Sickle Cell Genome Project (SGP), an initiative that is part of the Sickle Cell Clinical Research and Intervention Program (SCCRIP).") Annotation(oboInOwl:hasDbXref "PMID:33408242") coho:isSubCohortOf coho:COHO_0001117 coho:COHO_0001115)
 
 # Individual: coho:COHO_0001118 (St George's stroke cohort)
 
@@ -12694,7 +12694,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001132 "Sea Islands Genetic Network – Reasons for Geographic And Racial Differences in Stroke")
 AnnotationAssertion(rdfs:label coho:COHO_0001132 "Sea Islands Genetics Network – Reasons for Geographic and Racial Differences in Stroke"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001132)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Only the REGARDS sample from the SIGNET project was included in this investigation, and is referred to as SIGNET-REGARDS.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4125087/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001132 coho:COHO_0000692)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Only the REGARDS sample from the SIGNET project was included in this investigation, and is referred to as SIGNET-REGARDS.") Annotation(oboInOwl:hasDbXref "PMID:25102180") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4125087/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001132 coho:COHO_0000692)
 
 # Individual: coho:COHO_0001133 (Wellcome Trust Case Control Consortium 2 Parkinson's disease study)
 
@@ -13089,9 +13089,9 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "Gene-Lifestyle
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "Gene x Lifestyle interactions And Complex traits Involved in Elevated disease Risk Study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001177 "GLACIER Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001177 "Gene-Lifestyle Interactions and Complex Traits Involved in Elevated Disease Risk Study"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER study is a nested study within the Northern Sweden Health and Disease Study; phenotyping was conducted as part of the Västerbotten Intervention Project.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3679547/") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0002549)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER study is a nested study within the Northern Sweden Health and Disease Study; phenotyping was conducted as part of the Västerbotten Intervention Project.") Annotation(oboInOwl:hasDbXref "PMID:23202125") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0002549)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001177)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER Study is a prospective, population-based cohort study comprising 19,547 adults from the northern Swedish county of Västerbotten, nested within the Northern Sweden Health and Disease Study (20).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3012192/fullTextXML") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0000927)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The GLACIER Study is a prospective, population-based cohort study comprising 19,547 adults from the northern Swedish county of Västerbotten, nested within the Northern Sweden Health and Disease Study (20).") Annotation(oboInOwl:hasDbXref "PMID:20870969") coho:isSubCohortOf coho:COHO_0001177 coho:COHO_0000927)
 
 # Individual: coho:COHO_0001178 (German Multicenter Allergy Study)
 
@@ -13167,7 +13167,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001184)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001185 "HCES-Br")
 AnnotationAssertion(rdfs:label coho:COHO_0001185 "Hwasun Cancer Epidemiology Study-Breast"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Hwasun Cancer Epidemiology Study (HCES-Br) is a hospital-based case-control 92 study whose goal is to identify factors of the cancer development and clinical 93 progression in a Korean population.6,7 Included in this project were 3,387 female breast 94 cancer cases, who were newly diagnosed between April 2004 and February 2013 at 95 Chonnam National University Hwasun Hospital, a cancer specified hospital in 96 Jeollanam-do province, South Korea.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-020-15046-w/MediaObjects/41467_2020_15046_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001185 coho:COHO_0002709)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Hwasun Cancer Epidemiology Study (HCES-Br) is a hospital-based case-control 92 study whose goal is to identify factors of the cancer development and clinical 93 progression in a Korean population.6,7 Included in this project were 3,387 female breast 94 cancer cases, who were newly diagnosed between April 2004 and February 2013 at 95 Chonnam National University Hwasun Hospital, a cancer specified hospital in 96 Jeollanam-do province, South Korea.") Annotation(oboInOwl:hasDbXref "PMID:32139696") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-15046-w/MediaObjects/41467_2020_15046_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001185 coho:COHO_0002709)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001185)
 
 # Individual: coho:COHO_0001186 (Health2008 Study)
@@ -13221,7 +13221,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001191 "HUNT2 survey")
 AnnotationAssertion(rdfs:label coho:COHO_0001191 "Nord-Trøndelag Health Study 1995–97"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001191)
-ObjectPropertyAssertion(Annotation(rdfs:comment "All current residents ≥20 years of age in Nord-Trøndelag have been invited to each survey wave: the HUNT1 (1984–86, 77 202 participants, 89.4% of invitees participated),1 HUNT2 (1995-97, 65 228 participants, 69.5%)2 and HUNT3 (2006-08, 50 800 participants, 54.1%)3 surveys (Figure 1).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9908054/fullTextXML") coho:isSubCohortOf coho:COHO_0001191 coho:COHO_0000395)
+ObjectPropertyAssertion(Annotation(rdfs:comment "All current residents ≥20 years of age in Nord-Trøndelag have been invited to each survey wave: the HUNT1 (1984–86, 77 202 participants, 89.4% of invitees participated),1 HUNT2 (1995-97, 65 228 participants, 69.5%)2 and HUNT3 (2006-08, 50 800 participants, 54.1%)3 surveys (Figure 1).") Annotation(oboInOwl:hasDbXref "PMID:35578897") coho:isSubCohortOf coho:COHO_0001191 coho:COHO_0000395)
 
 # Individual: coho:COHO_0001192 (HypnoLaus Sleep Cohort Study)
 
@@ -13231,7 +13231,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001192 "HypnoLaus coho
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001192 "HypnoLaus Sleep Cohort study")
 AnnotationAssertion(rdfs:label coho:COHO_0001192 "HypnoLaus Sleep Cohort Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001192)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The HypnoLaus study was performed between September 1, 2009 and June 30, 2013, and participants were recruited among the CoLaus/PsyCoLaus study.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6509728/fullTextXML") coho:isSubCohortOf coho:COHO_0001192 coho:COHO_0000522)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The HypnoLaus study was performed between September 1, 2009 and June 30, 2013, and participants were recruited among the CoLaus/PsyCoLaus study.") Annotation(oboInOwl:hasDbXref "PMID:30898062") coho:isSubCohortOf coho:COHO_0001192 coho:COHO_0000522)
 
 # Individual: coho:COHO_0001193 (Interaction of Gene and Environment of Depression during PostPartum)
 
@@ -13264,7 +13264,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001195)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001196 "JAPC")
 AnnotationAssertion(rdfs:label coho:COHO_0001196 "JAPC GWAS"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001196)
-ObjectPropertyAssertion(Annotation(rdfs:comment "GWAS of prostate cancer in Latinos (LAPC GWAS) and Japanese (JAPC GWAS) in the Multiethnic Cohort Study (MEC)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8148035/fullTextXML") coho:isSubCohortOf coho:COHO_0001196 coho:COHO_0000957)
+ObjectPropertyAssertion(Annotation(rdfs:comment "GWAS of prostate cancer in Latinos (LAPC GWAS) and Japanese (JAPC GWAS) in the Multiethnic Cohort Study (MEC)") Annotation(oboInOwl:hasDbXref "PMID:33398198") coho:isSubCohortOf coho:COHO_0001196 coho:COHO_0000957)
 
 # Individual: coho:COHO_0001197 (Japan Prospective Studies Collaboration for Aging and Dementia)
 
@@ -13284,7 +13284,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001198)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001199 "LAPC")
 AnnotationAssertion(rdfs:label coho:COHO_0001199 "LAPC GWAS"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001199)
-ObjectPropertyAssertion(Annotation(rdfs:comment "GWAS of prostate cancer in Latinos (LAPC GWAS) and Japanese (JAPC GWAS) in the Multiethnic Cohort Study (MEC)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8148035/fullTextXML") coho:isSubCohortOf coho:COHO_0001199 coho:COHO_0000957)
+ObjectPropertyAssertion(Annotation(rdfs:comment "GWAS of prostate cancer in Latinos (LAPC GWAS) and Japanese (JAPC GWAS) in the Multiethnic Cohort Study (MEC)") Annotation(oboInOwl:hasDbXref "PMID:33398198") coho:isSubCohortOf coho:COHO_0001199 coho:COHO_0000957)
 
 # Individual: coho:COHO_0001200 (Levodopa in Early Parkinson's Disease)
 
@@ -13449,7 +13449,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001219 "Prostate cance
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001219 "The acronym PEGASUS also denotes Prevention of Cardiovascular Events in Patients With Prior Heart Attack Using Ticagrelor Compared to Placebo on a Background of Aspirin-Thrombolysis in Myocardial Infarction 54 (COHO:0002246); this term is Prostate Cancer Genome-wide Association Study of Uncommon Susceptibility Loci."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0001219 "Prostate Cancer Genome-wide Association Study of Uncommon Susceptibility Loci"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001219)
-ObjectPropertyAssertion(Annotation(rdfs:comment "For PEGASUS, non-cases between ages 55–74 years were selected between 1993 and 2001 from non-Hispanic white men in the Prostate, Lung, Colorectal, and Ovarian (PLCO) Cancer Screening Trial") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5290311/fullTextXML") coho:isSubCohortOf coho:COHO_0001219 coho:COHO_0000485)
+ObjectPropertyAssertion(Annotation(rdfs:comment "For PEGASUS, non-cases between ages 55–74 years were selected between 1993 and 2001 from non-Hispanic white men in the Prostate, Lung, Colorectal, and Ovarian (PLCO) Cancer Screening Trial") Annotation(oboInOwl:hasDbXref "PMID:28139693") coho:isSubCohortOf coho:COHO_0001219 coho:COHO_0000485)
 
 # Individual: coho:COHO_0001220 (University of Pennsylvania Catheterization Study)
 
@@ -13592,7 +13592,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001237 "Screening Twin
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001237 "Swedish Twin Study of Adults: Genes and Environment")
 AnnotationAssertion(rdfs:label coho:COHO_0001237 "Study of Twin Adults: Genes and Environment"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001237)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The 'Study of Twin Adults: Genes and Environment’ (STAGE) is a cohort of the Swedish Twin Registry at the Karolinska Institute in Stockholm, of approximately 32,000 twin individuals, born between 1959 and 1985.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12859210/fullTextXML") coho:isSubCohortOf coho:COHO_0001237 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The 'Study of Twin Adults: Genes and Environment’ (STAGE) is a cohort of the Swedish Twin Registry at the Karolinska Institute in Stockholm, of approximately 32,000 twin individuals, born between 1959 and 1985.") Annotation(oboInOwl:hasDbXref "PMID:41624966") coho:isSubCohortOf coho:COHO_0001237 coho:COHO_0000160)
 
 # Individual: coho:COHO_0001238 (Sequenced Treatment Alternatives to Relieve Depression)
 
@@ -13615,7 +13615,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001240 "Twin Study of 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001240 "Twin study of CHild and Adolescent Development")
 AnnotationAssertion(rdfs:label coho:COHO_0001240 "Swedish Twin study of CHild and Adolescent Development"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001240)
-ObjectPropertyAssertion(Annotation(rdfs:comment "A population-based prospective cohort study including all twins from the Swedish Twin Registry who were born in Sweden 1985–1986 (N = 2960) [19] was conducted. These twins were invited to participate in a longitudinal Twin study of CHild and Adolescent Development (TCHAD), see [20].") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5581816/fullTextXML") coho:isSubCohortOf coho:COHO_0001240 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "A population-based prospective cohort study including all twins from the Swedish Twin Registry who were born in Sweden 1985–1986 (N = 2960) [19] was conducted. These twins were invited to participate in a longitudinal Twin study of CHild and Adolescent Development (TCHAD), see [20].") Annotation(oboInOwl:hasDbXref "PMID:28638965") coho:isSubCohortOf coho:COHO_0001240 coho:COHO_0000160)
 
 # Individual: coho:COHO_0001241 (Transforming Research and Clinical Knowledge in Traumatic Brain Injury)
 
@@ -14791,7 +14791,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001380 "UK Nephropathy Family Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001380 "Nephropathy Family Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001380)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The NFS was set up in 2000 as part of the Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes Inflammation Laboratory: Genetic Resource Investigating Diabetes (GRID) study (14).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2809284/fullTextXML") coho:isSubCohortOf coho:COHO_0001380 coho:COHO_0001013)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The NFS was set up in 2000 as part of the Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes Inflammation Laboratory: Genetic Resource Investigating Diabetes (GRID) study (14).") Annotation(oboInOwl:hasDbXref "PMID:19918004") coho:isSubCohortOf coho:COHO_0001380 coho:COHO_0001013)
 
 # Individual: coho:COHO_0001381 (Nigerian Breast Cancer Study)
 
@@ -14957,7 +14957,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001398 "Western Austra
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001398 "Western Australian Pregnancy Cohort (Raine) Study: 20-year follow-up Eye Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001398 "Raine Eye Health Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001398)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These 14 cohorts were: Singapore Chinese Eye Study (SCES), Singapore Malay Eye Study (SiMES), Singapore Indian Eye Study (SINDI), Age Related Eye Study (AREDS), Rotterdam Study I (RSI), Erasmus Rucphen Family (ERF), Raine Eye Health Study (REHS) of the Raine Study, Beaver Dam Eye Study (BDES), Estonian Genome Center for the University of Tartu (EGCUT), Finnish Twin Study on Aging (FITSA), Ogliastra, Croatia-Korcula, TwinsUK, and EPIC-Norfolk.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9810640/fullTextXML") coho:isSubCohortOf coho:COHO_0001398 coho:COHO_0000538)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These 14 cohorts were: Singapore Chinese Eye Study (SCES), Singapore Malay Eye Study (SiMES), Singapore Indian Eye Study (SINDI), Age Related Eye Study (AREDS), Rotterdam Study I (RSI), Erasmus Rucphen Family (ERF), Raine Eye Health Study (REHS) of the Raine Study, Beaver Dam Eye Study (BDES), Estonian Genome Center for the University of Tartu (EGCUT), Finnish Twin Study on Aging (FITSA), Ogliastra, Croatia-Korcula, TwinsUK, and EPIC-Norfolk.") Annotation(oboInOwl:hasDbXref "PMID:36596879") coho:isSubCohortOf coho:COHO_0001398 coho:COHO_0000538)
 
 # Individual: coho:COHO_0001399 (Racial Variability in Genotypic Determinants of Breast Cancer Risk Study)
 
@@ -15068,7 +15068,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001411 "Study of Latin
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001411 "Study of Latino Youth Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001411 "Hispanic Community Children's Health Study/Study of Latino Youth"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001411)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Hispanic Community Children’s Health Study/Study of Latino Youth (SOL Youth) cohort is an ancillary study of the Hispanic Community Health Study/Study of Latinos (HCHS/SOL) that recruited n = 1,466 children aged 8–16 years between 2012 and 2014 whose parents/legal guardians participated in the HCHS/SOL at one of four field centers (Chicago, Bronx, San Diego, and Miami).33 A total of n = 1,073 children were included in GWAS analyses (mean age = 12.00 years).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11875162/fullTextXML") coho:isSubCohortOf coho:COHO_0001411 coho:COHO_0000388)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Hispanic Community Children’s Health Study/Study of Latino Youth (SOL Youth) cohort is an ancillary study of the Hispanic Community Health Study/Study of Latinos (HCHS/SOL) that recruited n = 1,466 children aged 8–16 years between 2012 and 2014 whose parents/legal guardians participated in the HCHS/SOL at one of four field centers (Chicago, Bronx, San Diego, and Miami).33 A total of n = 1,073 children were included in GWAS analyses (mean age = 12.00 years).") Annotation(oboInOwl:hasDbXref "PMID:39885687") coho:isSubCohortOf coho:COHO_0001411 coho:COHO_0000388)
 
 # Individual: coho:COHO_0001412 (Sao Paulo Heart Failure Cohort)
 
@@ -15179,7 +15179,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001424)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001425 "TWSC")
 AnnotationAssertion(rdfs:label coho:COHO_0001425 "Taiwan Super Control Study"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Control participants of the Taiwan Super Control Study (Taiwan) who took part in the current analysis included 1,000 randomly selected individuals whose genetic data were extracted from the Han‐Chinese Cell and Genome Bank in Taiwan.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3405/MediaObjects/41588_2015_BFng3405_MOESM35_ESM.pdf") coho:isSubCohortOf coho:COHO_0001425 coho:COHO_0002455)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Control participants of the Taiwan Super Control Study (Taiwan) who took part in the current analysis included 1,000 randomly selected individuals whose genetic data were extracted from the Han‐Chinese Cell and Genome Bank in Taiwan.") Annotation(oboInOwl:hasDbXref "PMID:26390057") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.3405/MediaObjects/41588_2015_BFng3405_MOESM35_ESM.pdf") coho:isSubCohortOf coho:COHO_0001425 coho:COHO_0002455)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001425)
 
 # Individual: coho:COHO_0001426 (Taizhou Longitudinal Study)
@@ -15468,7 +15468,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001459 "Amsterdam Breast Cancer Study - Familial")
 AnnotationAssertion(rdfs:label coho:COHO_0001459 "Amsterdam Breast Cancer Study – Familial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001459)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Breast cancer patients diagnosed before age 50 in 2003-2009 at the NKI-AVL; and (ABCS-F) All non-BRCA1/2 breast cancer cases from the family cancer clinic of the NKI-AVL tested in the period 1995-2009; all ages and diagnosed with breast cancer in 1965-2008.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4754625/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001459 coho:COHO_0001458)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Breast cancer patients diagnosed before age 50 in 2003-2009 at the NKI-AVL; and (ABCS-F) All non-BRCA1/2 breast cancer cases from the family cancer clinic of the NKI-AVL tested in the period 1995-2009; all ages and diagnosed with breast cancer in 1965-2008.") Annotation(oboInOwl:hasDbXref "PMID:25855707") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4754625/supplementaryFiles") coho:isSubCohortOf coho:COHO_0001459 coho:COHO_0001458)
 
 # Individual: coho:COHO_0001460 (Australian Breast Cancer Tissue Bank)
 
@@ -15681,7 +15681,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001482 "Aichi CRC Stud
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001482 "Asian Consortium, Colorectal Cancer Aichi")
 AnnotationAssertion(rdfs:label coho:COHO_0001482 "Aichi Colorectal Cancer Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001482)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Aichi Study: This study is part of the Hospital-based Epidemiologic Research Program at Aichi Cancer Center (HERPACC-II), Japan") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2505/MediaObjects/41588_2013_BFng2505_MOESM12_ESM.pdf") coho:isSubCohortOf coho:COHO_0001482 coho:COHO_0000781)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Aichi Study: This study is part of the Hospital-based Epidemiologic Research Program at Aichi Cancer Center (HERPACC-II), Japan") Annotation(oboInOwl:hasDbXref "PMID:23263487") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.2505/MediaObjects/41588_2013_BFng2505_MOESM12_ESM.pdf") coho:isSubCohortOf coho:COHO_0001482 coho:COHO_0000781)
 
 # Individual: coho:COHO_0001483 (African American Breast Cancer Epidemiology and Risk Consortium)
 
@@ -15948,7 +15948,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001514 "Metropolitan N
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001514 "Metropolitan NY Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0001514 "New York Breast Cancer Family Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001514)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These nuclear families were selected from breast cancer families participating in the Metropolitan New York Registry, one of the six centers of the National Cancer Institute's Breast Cancer Family Registry.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1064100/fullTextXML") coho:isSubCohortOf coho:COHO_0001514 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These nuclear families were selected from breast cancer families participating in the Metropolitan New York Registry, one of the six centers of the National Cancer Institute's Breast Cancer Family Registry.") Annotation(oboInOwl:hasDbXref "PMID:15642171") coho:isSubCohortOf coho:COHO_0001514 coho:COHO_0000668)
 
 # Individual: coho:COHO_0001515 (Philadelphia Breast Cancer Family Registry)
 
@@ -15956,7 +15956,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001515 "Philadelphia site of the Breast Cancer Family Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0001515 "Philadelphia Breast Cancer Family Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001515)
-ObjectPropertyAssertion(Annotation(rdfs:comment "BCFR Breast Cancer Family Registry USA, Canada, Australia BCFR-NY New York site of the Breast Cancer Family Registry BCFR-PA Philadelphia site of the Breast Cancer Family Registry BCFR-UTAH Utah site of the Breast Cancer Family Registry") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx") coho:isSubCohortOf coho:COHO_0001515 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "BCFR Breast Cancer Family Registry USA, Canada, Australia BCFR-NY New York site of the Breast Cancer Family Registry BCFR-PA Philadelphia site of the Breast Cancer Family Registry BCFR-UTAH Utah site of the Breast Cancer Family Registry") Annotation(oboInOwl:hasDbXref "PMID:32424353") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx") coho:isSubCohortOf coho:COHO_0001515 coho:COHO_0000668)
 
 # Individual: coho:COHO_0001516 (Utah Breast Cancer Family Registry)
 
@@ -15966,7 +15966,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001516 "Utah site of t
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001516 "Utah Cooperative Breast Cancer Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0001516 "Utah Breast Cancer Family Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001516)
-ObjectPropertyAssertion(Annotation(rdfs:comment "BCFR Breast Cancer Family Registry USA, Canada, Australia BCFR-NY New York site of the Breast Cancer Family Registry BCFR-PA Philadelphia site of the Breast Cancer Family Registry BCFR-UTAH Utah site of the Breast Cancer Family Registry") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx") coho:isSubCohortOf coho:COHO_0001516 coho:COHO_0000668)
+ObjectPropertyAssertion(Annotation(rdfs:comment "BCFR Breast Cancer Family Registry USA, Canada, Australia BCFR-NY New York site of the Breast Cancer Family Registry BCFR-PA Philadelphia site of the Breast Cancer Family Registry BCFR-UTAH Utah site of the Breast Cancer Family Registry") Annotation(oboInOwl:hasDbXref "PMID:32424353") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-0609-2/MediaObjects/41588_2020_609_MOESM3_ESM.xlsx") coho:isSubCohortOf coho:COHO_0001516 coho:COHO_0000668)
 
 # Individual: coho:COHO_0001517 (Barry Caerphilly Growth Study)
 
@@ -16248,7 +16248,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001550 "Brisbane Twin 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001550 "TWin Mole study")
 AnnotationAssertion(rdfs:label coho:COHO_0001550 "Brisbane Twin Nevus Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001550)
-ObjectPropertyAssertion(Annotation(rdfs:comment "SPHERE-34 was administered as part of three main projects that make up the Brisbane Longitudinal Twin Study (BLTS; also known as the Brisbane Adolescent Twin Study (BATS)) [8]. The first two waves of data were collected in the clinic, following an assessment of Melanocyte Naevi (moles) around the twelfth (TWin Mole study visit 1: TW1) and fourteenth birthday of the twins (TWin Mole study visit 2: TW2)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5540428/fullTextXML") coho:isSubCohortOf coho:COHO_0001550 coho:COHO_0000744)
+ObjectPropertyAssertion(Annotation(rdfs:comment "SPHERE-34 was administered as part of three main projects that make up the Brisbane Longitudinal Twin Study (BLTS; also known as the Brisbane Adolescent Twin Study (BATS)) [8]. The first two waves of data were collected in the clinic, following an assessment of Melanocyte Naevi (moles) around the twelfth (TWin Mole study visit 1: TW1) and fourteenth birthday of the twins (TWin Mole study visit 2: TW2)") Annotation(oboInOwl:hasDbXref "PMID:28764680") coho:isSubCohortOf coho:COHO_0001550 coho:COHO_0000744)
 
 # Individual: coho:COHO_0001551 (Bus Santé)
 
@@ -16844,7 +16844,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of Risk of Colorectal Tumors in Canada")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "ARCTIC Genome Project")
 AnnotationAssertion(rdfs:label coho:COHO_0001615 "Assessment of Risk for Colorectal Tumors in Canada"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Briefly, the ARCTIC study involved 1,257 CRC cases and 1,336 matched community controls from the Ontario Familial Colorectal Cancer Registry.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2885303/fullTextXML") coho:isSubCohortOf coho:COHO_0001615 coho:COHO_0002200)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Briefly, the ARCTIC study involved 1,257 CRC cases and 1,336 matched community controls from the Ontario Familial Colorectal Cancer Registry.") Annotation(oboInOwl:hasDbXref "PMID:20437058") coho:isSubCohortOf coho:COHO_0001615 coho:COHO_0002200)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001615)
 
 # Individual: coho:COHO_0001616 (Breast Cancer Collaborative Registry)
@@ -16906,7 +16906,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001622 "COPD Pathology
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001622 "COPACETIC cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0001622 "COPD Pathology: Addressing Critical gaps, Early Treatment & diagnosis and Innovative Concepts"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001622)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The COPACETIC cohort included 1,226 Dutch participants from the NELSON lung cancer screening trial recruited by the University Medical Centers of Groningen and Utrecht") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3548843/fullTextXML") coho:isSubCohortOf coho:COHO_0001622 coho:COHO_0000058)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The COPACETIC cohort included 1,226 Dutch participants from the NELSON lung cancer screening trial recruited by the University Medical Centers of Groningen and Utrecht") Annotation(oboInOwl:hasDbXref "PMID:23349703") coho:isSubCohortOf coho:COHO_0001622 coho:COHO_0000058)
 
 # Individual: coho:COHO_0001623 (Copenhagen Breast Cancer Study)
 
@@ -17153,7 +17153,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001650 "Diet, Cancer, 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001650 "Danish EPIC Diet, Cancer and Health cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0001650 "Diet, Cancer and Health"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001650)
-ObjectPropertyAssertion(Annotation(rdfs:comment "As example Diet, Cancer, and Health is an associated cohort of the European Prospective Investigation into Cancer and Nutrition (EPIC).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9960719/fullTextXML") coho:isSubCohortOf coho:COHO_0001650 coho:COHO_0000065)
+ObjectPropertyAssertion(Annotation(rdfs:comment "As example Diet, Cancer, and Health is an associated cohort of the European Prospective Investigation into Cancer and Nutrition (EPIC).") Annotation(oboInOwl:hasDbXref "PMID:36852012") coho:isSubCohortOf coho:COHO_0001650 coho:COHO_0000065)
 
 # Individual: coho:COHO_0001651 (obsolete IBD discovery case cohort)
 
@@ -17182,7 +17182,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001653)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001654 "deCODE_CAD")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001654 "deCODE CAD")
 AnnotationAssertion(rdfs:label coho:COHO_0001654 "deCODE CAD/MI Study"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The controls used for the study were recruited as a part of various genetic programs at deCODE.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.327/MediaObjects/41588_2009_BFng327_MOESM15_ESM.pdf") coho:isSubCohortOf coho:COHO_0001654 coho:COHO_0000428)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The controls used for the study were recruited as a part of various genetic programs at deCODE.") Annotation(oboInOwl:hasDbXref "PMID:19198609") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.327/MediaObjects/41588_2009_BFng327_MOESM15_ESM.pdf") coho:isSubCohortOf coho:COHO_0001654 coho:COHO_0000428)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001654)
 
 # Individual: coho:COHO_0001655 (Deterioration of Kidney Allograft Function Genomics)
@@ -17410,7 +17410,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001680)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001681 "EEBCS")
 AnnotationAssertion(rdfs:label coho:COHO_0001681 "Eastern European Bladder Cancer Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001681)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The EEBCS refers to the bladder cancer component of the ASHRAM case control study of bladder, skin and kidney cancers.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC2782435/") coho:isSubCohortOf coho:COHO_0001681 coho:COHO_0001497)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The EEBCS refers to the bladder cancer component of the ASHRAM case control study of bladder, skin and kidney cancers.") Annotation(oboInOwl:hasDbXref "PMID:19706757") coho:isSubCohortOf coho:COHO_0001681 coho:COHO_0001497)
 
 # Individual: coho:COHO_0001682 (obsolete The Eastern Europe Study Population)
 
@@ -17515,7 +17515,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001693 "European Prosp
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001693 "EPIC-Obesity Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001693 "EPIC Obesity study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001693)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The EPIC Obesity study comprises a representative sample (n = 2,566) nested within the EPIC-Norfolk Study27, a population-based cohort study of 25,663 men and women of European descent aged 39–79 y recruited in Norfolk, UK between 1993 and 1997.") Annotation(oboInOwl:hasDbXref "https://europepmc.org/api/getPdf?pmcid=PMC2669167") coho:isSubCohortOf coho:COHO_0001693 coho:COHO_0000066)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The EPIC Obesity study comprises a representative sample (n = 2,566) nested within the EPIC-Norfolk Study27, a population-based cohort study of 25,663 men and women of European descent aged 39–79 y recruited in Norfolk, UK between 1993 and 1997.") Annotation(oboInOwl:hasDbXref "PMID:18454148") coho:isSubCohortOf coho:COHO_0001693 coho:COHO_0000066)
 
 # Individual: coho:COHO_0001694 (EPICOLON)
 
@@ -17780,7 +17780,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001724 "FRAM")
 AnnotationAssertion(rdfs:label coho:COHO_0001724 "Framingham Eye Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001724)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Framingham Eye Study is a sub-study of the Framingham Heart Study, which is conducted and supported by the National Heart, Lung, and Blood Institute (NHLBI) in collaboration with Boston University (Contract No. N01-HC-25195).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3087/MediaObjects/41588_2014_BFng3087_MOESM36_ESM.pdf") coho:isSubCohortOf coho:COHO_0001724 coho:COHO_0000385)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Framingham Eye Study is a sub-study of the Framingham Heart Study, which is conducted and supported by the National Heart, Lung, and Blood Institute (NHLBI) in collaboration with Boston University (Contract No. N01-HC-25195).") Annotation(oboInOwl:hasDbXref "PMID:25173106") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.3087/MediaObjects/41588_2014_BFng3087_MOESM36_ESM.pdf") coho:isSubCohortOf coho:COHO_0001724 coho:COHO_0000385)
 
 # Individual: coho:COHO_0001725 (obsolete Finnish Genome Center)
 
@@ -17834,7 +17834,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001730 "Finnish Randomised Study of Screening for Prostate Cancer")
 AnnotationAssertion(rdfs:label coho:COHO_0001730 "Finnish Randomized Study of Screening for Prostate Cancer"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001730)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Of them, 2283 were clinical cases from the Pirkanmaa Hospital District, and 455 were from the Finnish Randomized Study of Screening for Prostate Cancer (FinRSPC)22, which is the largest component of the European Randomized Study of Screening for Prostate Cancer (ERSPC)23.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7553910/fullTextXML") coho:isSubCohortOf coho:COHO_0001730 coho:COHO_0001705)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Of them, 2283 were clinical cases from the Pirkanmaa Hospital District, and 455 were from the Finnish Randomized Study of Screening for Prostate Cancer (FinRSPC)22, which is the largest component of the European Randomized Study of Screening for Prostate Cancer (ERSPC)23.") Annotation(oboInOwl:hasDbXref "PMID:33051487") coho:isSubCohortOf coho:COHO_0001730 coho:COHO_0001705)
 
 # Individual: coho:COHO_0001731 (Finland SO replication)
 
@@ -17895,7 +17895,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001737 "Framingham Off
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001737 "offspring FHS cohort")
 AnnotationAssertion(rdfs:label coho:COHO_0001737 "Framingham Offspring Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001737)
-ObjectPropertyAssertion(Annotation(rdfs:comment "FOS includes offspring and spouses of the Framingham Heart Study original cohort participants that were recruited in 1971.") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC9398962/unicode") coho:isSubCohortOf coho:COHO_0001737 coho:COHO_0000385)
+ObjectPropertyAssertion(Annotation(rdfs:comment "FOS includes offspring and spouses of the Framingham Heart Study original cohort participants that were recruited in 1971.") Annotation(oboInOwl:hasDbXref "PMID:35880530") coho:isSubCohortOf coho:COHO_0001737 coho:COHO_0000385)
 
 # Individual: coho:COHO_0001738 (Familial Ovarian Tumor Study)
 
@@ -18015,7 +18015,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001751 "Genetic Associ
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001751 "NIMH Genetic Association Information Network bipolar disorder project")
 AnnotationAssertion(rdfs:label coho:COHO_0001751 "Bipolar Disorder Genetic Association Information Network"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001751)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The initial BiGS GWA study was funded through the Foundation for the National Institutes of Health Genetic Information Association Network (GAIN) initiative (http://www.genome.gov/19518664) and we report the results of this GWA study here.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035981/") coho:isSubCohortOf coho:COHO_0001751 coho:COHO_0001532)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The initial BiGS GWA study was funded through the Foundation for the National Institutes of Health Genetic Information Association Network (GAIN) initiative (http://www.genome.gov/19518664) and we report the results of this GWA study here.") Annotation(oboInOwl:hasDbXref "PMID:19488044") coho:isSubCohortOf coho:COHO_0001751 coho:COHO_0001532)
 
 # Individual: coho:COHO_0001752 (GAIN Major Depressive Disorder Study)
 
@@ -18085,7 +18085,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001759 "Gothenburg cervical artery dissection collection")
 AnnotationAssertion(rdfs:label coho:COHO_0001759 "Gothenburg Cervical Artery Dissection Collection"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001759)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Sweden The Sahlgrenska Academy at Gothenburg University (SAHLSIS) Gothenburg 71 Sweden The Sahlgrenska Academy at Gothenburg University (SAHLSIS) Gothenburg 67") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3154/MediaObjects/41588_2015_BFng3154_MOESM24_ESM.pdf") coho:isSubCohortOf coho:COHO_0001759 coho:COHO_0000150)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Sweden The Sahlgrenska Academy at Gothenburg University (SAHLSIS) Gothenburg 71 Sweden The Sahlgrenska Academy at Gothenburg University (SAHLSIS) Gothenburg 67") Annotation(oboInOwl:hasDbXref "PMID:25420145") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.3154/MediaObjects/41588_2015_BFng3154_MOESM24_ESM.pdf") coho:isSubCohortOf coho:COHO_0001759 coho:COHO_0000150)
 
 # Individual: coho:COHO_0001760 (CBDB/NIMH Genetic Study of Schizophrenia)
 
@@ -18174,7 +18174,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001770 "GEM Study")
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0001770 "The acronym GEM also denotes Ginkgo Evaluation of Memory Study (COHO:0000682) and Genes in Myopia Study (COHO:0001806); this term is Genetic Epidemiology of Migraine Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0001770 "Genetic Epidemiology of Migraine Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001770)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The GEM cohort is embedded within the ‘MORGEN’ project—a population-based study designed to monitor risk factors for and the prevalence of chronic diseases of public health importance in Dutch adults 20-65 years of age.") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2566523/unicode") coho:isSubCohortOf coho:COHO_0001770 coho:COHO_0002612)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The GEM cohort is embedded within the ‘MORGEN’ project—a population-based study designed to monitor risk factors for and the prevalence of chronic diseases of public health importance in Dutch adults 20-65 years of age.") Annotation(oboInOwl:hasDbXref "PMID:18676988") coho:isSubCohortOf coho:COHO_0001770 coho:COHO_0002612)
 
 # Individual: coho:COHO_0001771 (Genetic Modifiers of cancer risk in BRCA1/2 mutation carriers)
 
@@ -18575,7 +18575,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001818 "Genetics of Br
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001818 "Genetics of Brain Structure")
 AnnotationAssertion(rdfs:label coho:COHO_0001818 "Genetics of Brain Structure and Function Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001818)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Participants were part of the genetics of brain structure and function study (GOBS) (McKay et al. 2014; Olvera et al. 2011), a subset of individuals from the San Antonio Family Heart Study (Mahaney et al. 1995; Mitchell et al. 1996) and the San Antonio Family Gallbladder Study (Puppala et al. 2006).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11702472/fullTextXML") coho:isSubCohortOf coho:COHO_0001818 coho:COHO_0000649)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Participants were part of the genetics of brain structure and function study (GOBS) (McKay et al. 2014; Olvera et al. 2011), a subset of individuals from the San Antonio Family Heart Study (Mahaney et al. 1995; Mitchell et al. 1996) and the San Antonio Family Gallbladder Study (Puppala et al. 2006).") Annotation(oboInOwl:hasDbXref "PMID:39757975") coho:isSubCohortOf coho:COHO_0001818 coho:COHO_0000649)
 
 # Individual: coho:COHO_0001819 (Geelong Osteoporosis Study)
 
@@ -18692,7 +18692,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001834 "HT2DS")
 AnnotationAssertion(rdfs:label coho:COHO_0001834 "Health2 T2D Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001834)
-ObjectPropertyAssertion(Annotation(rdfs:comment "A total of 1,183 T2D cases were selected from population-based 'Health2 cohort'.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") coho:isSubCohortOf coho:COHO_0001834 coho:COHO_0001848)
+ObjectPropertyAssertion(Annotation(rdfs:comment "A total of 1,183 T2D cases were selected from population-based 'Health2 cohort'.") Annotation(oboInOwl:hasDbXref "PMID:22158537") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.1019/MediaObjects/41588_2012_BFng1019_MOESM23_ESM.pdf") coho:isSubCohortOf coho:COHO_0001834 coho:COHO_0001848)
 
 # Individual: coho:COHO_0001835 (Hannover Breast Cancer Study)
 
@@ -18774,7 +18774,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001844)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001845 "HCES-CRC")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001845 "Hwasun Cancer Epidemiology Study–Colon and Rectum Cancer")
 AnnotationAssertion(rdfs:label coho:COHO_0001845 "Hwasun Cancer Epidemiology Study-Colon and Rectum Cancer"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The HCES is a hospital-based case-control study conducted in South Korea that includes multiple cancers 13, 14 . The HCES-CRC consisted of 3,378 cases and 4,552 controls who were included in stage 4 of this project.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") coho:isSubCohortOf coho:COHO_0001845 coho:COHO_0002709)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The HCES is a hospital-based case-control study conducted in South Korea that includes multiple cancers 13, 14 . The HCES-CRC consisted of 3,378 cases and 4,552 controls who were included in stage 4 of this project.") Annotation(oboInOwl:hasDbXref "PMID:24836286") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") coho:isSubCohortOf coho:COHO_0001845 coho:COHO_0002709)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001845)
 
 # Individual: coho:COHO_0001846 (obsolete Hospital Clinico San Carlos)
@@ -18799,7 +18799,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001848 "Health 2")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001848 "Health2 project")
 AnnotationAssertion(rdfs:label coho:COHO_0001848 "Health2 Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001848)
-ObjectPropertyAssertion(Annotation(rdfs:comment "the CArdioVascular disease Association Study (CAVAS) cohort (formerly Health2 or RURAL cohort) (Cho et al., 2009)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11266026/fullTextXML") coho:isSubCohortOf coho:COHO_0001848 coho:COHO_0000629)
+ObjectPropertyAssertion(Annotation(rdfs:comment "the CArdioVascular disease Association Study (CAVAS) cohort (formerly Health2 or RURAL cohort) (Cho et al., 2009)") Annotation(oboInOwl:hasDbXref "PMID:39050255") coho:isSubCohortOf coho:COHO_0001848 coho:COHO_0000629)
 
 # Individual: coho:COHO_0001849 (Helsinki Breast Cancer Study)
 
@@ -18888,7 +18888,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001857)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001858 "HHO")
 AnnotationAssertion(rdfs:label coho:COHO_0001858 "Health Habits and Opinions study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001858)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The sample is a follow up of the 1988 MATR study above.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC4038932/") coho:isSubCohortOf coho:COHO_0001858 coho:COHO_0002034)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The sample is a follow up of the 1988 MATR study above.") Annotation(oboInOwl:hasDbXref "PMID:24569950") coho:isSubCohortOf coho:COHO_0001858 coho:COHO_0002034)
 
 # Individual: coho:COHO_0001859 (obsolete Hussman Institute of Human Genomics)
 
@@ -19127,7 +19127,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001890 "IBCS-GWAS")
 AnnotationAssertion(rdfs:label coho:COHO_0001890 "Iceland Bladder Cancer Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001890)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The 37 781 controls (41% males; mean age 61 years; SD = 21) used in this study consisted of individuals from other ongoing GWAS at deCODE and represent >15% of the adult population of Iceland.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3188988/") coho:isSubCohortOf coho:COHO_0001890 coho:COHO_0000428)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The 37 781 controls (41% males; mean age 61 years; SD = 21) used in this study consisted of individuals from other ongoing GWAS at deCODE and represent >15% of the adult population of Iceland.") Annotation(oboInOwl:hasDbXref "PMID:21750109") coho:isSubCohortOf coho:COHO_0001890 coho:COHO_0000428)
 
 # Individual: coho:COHO_0001891 (Indiana Biobank Liver cohort)
 
@@ -19784,14 +19784,14 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001974 "MONICA/KORA F3")
 AnnotationAssertion(rdfs:label coho:COHO_0001974 "Cooperative Health Research in the Region of Augsburg F3"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001974)
-ObjectPropertyAssertion(Annotation(rdfs:comment "3,006 participants from KORA S3 were reexamined in a 10-year follow- up (KORA F3) in the years 2004/05.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-32821-z/MediaObjects/41467_2022_32821_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001974 coho:COHO_0001977)
+ObjectPropertyAssertion(Annotation(rdfs:comment "3,006 participants from KORA S3 were reexamined in a 10-year follow- up (KORA F3) in the years 2004/05.") Annotation(oboInOwl:hasDbXref "PMID:36050321") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-32821-z/MediaObjects/41467_2022_32821_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001974 coho:COHO_0001977)
 
 # Individual: coho:COHO_0001975 (Cooperative Health Research in the Region of Augsburg F4)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001975 "KORA F4")
 AnnotationAssertion(rdfs:label coho:COHO_0001975 "Cooperative Health Research in the Region of Augsburg F4"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001975)
-ObjectPropertyAssertion(Annotation(rdfs:comment "KORA F4 including 3,080 individuals was conducted from 2006-2008 as a follow-up study to KORA S4 (1999-2001).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-023-01314-0/MediaObjects/41588_2023_1314_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001975 coho:COHO_0001978)
+ObjectPropertyAssertion(Annotation(rdfs:comment "KORA F4 including 3,080 individuals was conducted from 2006-2008 as a follow-up study to KORA S4 (1999-2001).") Annotation(oboInOwl:hasDbXref "PMID:36914875") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-023-01314-0/MediaObjects/41588_2023_1314_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0001975 coho:COHO_0001978)
 
 # Individual: coho:COHO_0001976 (Korean Osteoporosis Study at Asan Medical Center)
 
@@ -20454,9 +20454,9 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002058 "Mexican ancestry in Los Angeles, California, USA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002058 "HapMap Phase III Mexican population")
 AnnotationAssertion(rdfs:label coho:COHO_0002058 "Mexican ancestry in Los Angeles, California"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "People with Mexican Ancestry in Los Angeles, CA, USA Mexican-American MXL AMR 66 64") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature15393/MediaObjects/41586_2015_BFnature15393_MOESM86_ESM.pdf") coho:isSubCohortOf coho:COHO_0002058 coho:COHO_0000002)
+ObjectPropertyAssertion(Annotation(rdfs:comment "People with Mexican Ancestry in Los Angeles, CA, USA Mexican-American MXL AMR 66 64") Annotation(oboInOwl:hasDbXref "PMID:26432245") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fnature15393/MediaObjects/41586_2015_BFnature15393_MOESM86_ESM.pdf") coho:isSubCohortOf coho:COHO_0002058 coho:COHO_0000002)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002058)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Samples from seven additional populations were also included: African ancestry in the southwestern USA (ASW); Chinese in metropolitan Denver, Colorado, USA (CHD); Gujarati Indians in Houston, Texas, USA (GIH); Luhya in Webuye, Kenya (LWK); Maasai in Kinyawa, Kenya (MKK); Mexican ancestry in Los Angeles, California, USA (MXL); and samples collected in Tuscany, Italy (TSI).") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC3173859/") coho:isSubCohortOf coho:COHO_0002058 coho:COHO_0000284)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Samples from seven additional populations were also included: African ancestry in the southwestern USA (ASW); Chinese in metropolitan Denver, Colorado, USA (CHD); Gujarati Indians in Houston, Texas, USA (GIH); Luhya in Webuye, Kenya (LWK); Maasai in Kinyawa, Kenya (MKK); Mexican ancestry in Los Angeles, California, USA (MXL); and samples collected in Tuscany, Italy (TSI).") Annotation(oboInOwl:hasDbXref "PMID:20811451") coho:isSubCohortOf coho:COHO_0002058 coho:COHO_0000284)
 
 # Individual: coho:COHO_0002059 (Minority GWAS African American study)
 
@@ -20470,7 +20470,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002060 "Myasthenia Gravis GWAS")
 AnnotationAssertion(rdfs:label coho:COHO_0002060 "Myaesthenia Gravis GWAS"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002060)
-ObjectPropertyAssertion(Annotation(rdfs:comment "MG_GWAS (Myaesthenia Gravis GWAS) These genome-wide data were obtained from healthy Norwegian individuals recruited through the Norwegian Bone Marrow Donor Registry held at the Institute of Immunology, Oslo University Hospital, Norway (http://www.nordonor.org/).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature10251/MediaObjects/41586_2011_BFnature10251_MOESM243_ESM.pdf") coho:isSubCohortOf coho:COHO_0002060 coho:COHO_0002118)
+ObjectPropertyAssertion(Annotation(rdfs:comment "MG_GWAS (Myaesthenia Gravis GWAS) These genome-wide data were obtained from healthy Norwegian individuals recruited through the Norwegian Bone Marrow Donor Registry held at the Institute of Immunology, Oslo University Hospital, Norway (http://www.nordonor.org/).") Annotation(oboInOwl:hasDbXref "PMID:21833088") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fnature10251/MediaObjects/41586_2011_BFnature10251_MOESM243_ESM.pdf") coho:isSubCohortOf coho:COHO_0002060 coho:COHO_0002118)
 
 # Individual: coho:COHO_0002061 (MGH Cardiology and Metabolic Patient Cohort)
 
@@ -20709,7 +20709,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002087 "Malmö Prevent
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002087 "MPP AF")
 AnnotationAssertion(rdfs:label coho:COHO_0002087 "Malmö Preventive Project atrial fibrillation study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002087)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Subjects with prevalent or incident AF were identified from national registers as previously described14 , and cases with DNA were then matched in a 1:1 fashion to controls with DNA from the same cohort by sex, age (±1 year), and date of baseline exam (±1 year).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41588-018-0133-9/MediaObjects/41588_2018_133_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0002087 coho:COHO_0000787)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Subjects with prevalent or incident AF were identified from national registers as previously described14 , and cases with DNA were then matched in a 1:1 fashion to controls with DNA from the same cohort by sex, age (±1 year), and date of baseline exam (±1 year).") Annotation(oboInOwl:hasDbXref "PMID:29892015") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0133-9/MediaObjects/41588_2018_133_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0002087 coho:COHO_0000787)
 
 # Individual: coho:COHO_0002088 (Malmö Preventive Project echo study)
 
@@ -20721,7 +20721,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002088 "MPP Echo")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002088 "MPP-Echo")
 AnnotationAssertion(rdfs:label coho:COHO_0002088 "Malmö Preventive Project echo study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002088)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Hence, our aim in this observational study was to investigate SNPs with documented association with diabetes and their further association with one of the earliest signs of left ventricular dysfunction (i.e. diastolic dysfunction) in two independent Swedish population UCG cohorts: the population‐based Malmö Preventive Project‐Re‐examination Study UCG (MPP‐RES UCG) and the VARA UCG.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7083427/fullTextXML") coho:isSubCohortOf coho:COHO_0002088 coho:COHO_0000787)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Hence, our aim in this observational study was to investigate SNPs with documented association with diabetes and their further association with one of the earliest signs of left ventricular dysfunction (i.e. diastolic dysfunction) in two independent Swedish population UCG cohorts: the population‐based Malmö Preventive Project‐Re‐examination Study UCG (MPP‐RES UCG) and the VARA UCG.") Annotation(oboInOwl:hasDbXref "PMID:31860786") coho:isSubCohortOf coho:COHO_0002088 coho:COHO_0000787)
 
 # Individual: coho:COHO_0002089 (MRC Asthma and United Kingdom Control panel)
 
@@ -20777,7 +20777,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002095 "Mammography Sc
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002095 "Northern Sweden Mammography Screening Project")
 AnnotationAssertion(rdfs:label coho:COHO_0002095 "Mammography Screening Project"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002095)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The NSHDS includes three sub-cohorts: the Västerbotten Intervention Programme (VIP), the expanded Northern Sweden Monitoring of Trends and Determinants of Cardiovascular Disease (MONICA) Study, and the Mammography Screening Project (MSP).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11790227/fullTextXML") coho:isSubCohortOf coho:COHO_0002095 coho:COHO_0000927)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The NSHDS includes three sub-cohorts: the Västerbotten Intervention Programme (VIP), the expanded Northern Sweden Monitoring of Trends and Determinants of Cardiovascular Disease (MONICA) Study, and the Mammography Screening Project (MSP).") Annotation(oboInOwl:hasDbXref "PMID:39899988") coho:isSubCohortOf coho:COHO_0002095 coho:COHO_0000927)
 
 # Individual: coho:COHO_0002096 (Mid-South Tobacco Family)
 
@@ -21142,7 +21142,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002144 "Nurses Health 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002144 "NHS (Advanced Adenoma)")
 AnnotationAssertion(rdfs:label coho:COHO_0002144 "Nurses' Health Study advanced adenoma set"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002144)
-ObjectPropertyAssertion(Annotation(rdfs:comment "NHS (Advanced Adenoma) USA Cohort 513 100 578 100 1,091 Illumina OmniExpress") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncomms8138/MediaObjects/41467_2015_BFncomms8138_MOESM787_ESM.pdf") coho:isSubCohortOf coho:COHO_0002144 coho:COHO_0000456)
+ObjectPropertyAssertion(Annotation(rdfs:comment "NHS (Advanced Adenoma) USA Cohort 513 100 578 100 1,091 Illumina OmniExpress") Annotation(oboInOwl:hasDbXref "PMID:26151821") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fncomms8138/MediaObjects/41467_2015_BFncomms8138_MOESM787_ESM.pdf") coho:isSubCohortOf coho:COHO_0002144 coho:COHO_0000456)
 
 # Individual: coho:COHO_0002145 (obsolete NHS-egems)
 
@@ -21550,7 +21550,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002200 "Ontario Regist
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002200 "Ontario Familial Colon Cancer Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0002200 "Ontario Familial Colorectal Cancer Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002200)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The OFCCR is one of six international sites participating in the Cooperative Familial Registry for Colorectal Studies established by the US National Cancer Institute (http://epi.grants.cancer.gov/CFR/).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng2089/MediaObjects/41588_2007_BFng2089_MOESM20_ESM.pdf") coho:isSubCohortOf coho:COHO_0002200 coho:COHO_0000547)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The OFCCR is one of six international sites participating in the Cooperative Familial Registry for Colorectal Studies established by the US National Cancer Institute (http://epi.grants.cancer.gov/CFR/).") Annotation(oboInOwl:hasDbXref "PMID:17618283") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng2089/MediaObjects/41588_2007_BFng2089_MOESM20_ESM.pdf") coho:isSubCohortOf coho:COHO_0002200 coho:COHO_0000547)
 
 # Individual: coho:COHO_0002201 (Ogliastra Genetic Park)
 
@@ -21968,7 +21968,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002252 "PHArmacogenomi
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002252 "PHArmacogenomic study of Statins in the Elderly at risk for cardiovascular disease")
 AnnotationAssertion(rdfs:label coho:COHO_0002252 "PHArmacogenetic study of Statins in the Elderly at risk"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002252)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The PHArmacogenetic study of Statins in the Elderly at risk (PHASE) is a genome wide association study in the PROspective Study of Pravastatin in the Elderly at risk for vascular disease (PROSPER) that investigates the genetic variation responsible for the individual variation in drug response to pravastatin.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3207930/fullTextXML") coho:isSubCohortOf coho:COHO_0002252 coho:COHO_0000539)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The PHArmacogenetic study of Statins in the Elderly at risk (PHASE) is a genome wide association study in the PROspective Study of Pravastatin in the Elderly at risk for vascular disease (PROSPER) that investigates the genetic variation responsible for the individual variation in drug response to pravastatin.") Annotation(oboInOwl:hasDbXref "PMID:21977987") coho:isSubCohortOf coho:COHO_0002252 coho:COHO_0000539)
 
 # Individual: coho:COHO_0002253 (obsolete Mass General Brigham - Host Vulnerability to COVID-19)
 
@@ -22230,7 +22230,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002281 "PROgression in
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002281 "PROgression in CAncer of the Prostate")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002281 "PROCAP study")
 AnnotationAssertion(rdfs:label coho:COHO_0002281 "Progression in Cancer of the Prostate"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Men in the NPCR of Sweden Follow-up Study who were still alive in 2007 (n = 7075) were eligible for and invited to participate in the PROCAP study. In total, 5779 (82%) men agreed to participate in PROCAP.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC7012357/") coho:isSubCohortOf coho:COHO_0002281 coho:COHO_0002725)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Men in the NPCR of Sweden Follow-up Study who were still alive in 2007 (n = 7075) were eligible for and invited to participate in the PROCAP study. In total, 5779 (82%) men agreed to participate in PROCAP.") Annotation(oboInOwl:hasDbXref "PMID:31343436") coho:isSubCohortOf coho:COHO_0002281 coho:COHO_0002725)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002281)
 
 # Individual: coho:COHO_0002282 (Prognostic Genetic factors in Multiple Sclerosis)
@@ -22706,7 +22706,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002336 "San Antonio Fa
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002336 "San Antonio Family Diabetes Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002336 "San Antonio Family Diabetes/Gallbladder Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002336)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These family data were obtained from two studies: the San Antonio Family Heart Study (SAFHS) and the San Antonio Family Diabetes/Gallbladder Study (SAFDGS), which are together referred to as the San Antonio Family Studies (SAFS).") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC4145406/") coho:isSubCohortOf coho:COHO_0002336 coho:COHO_0000649)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These family data were obtained from two studies: the San Antonio Family Heart Study (SAFHS) and the San Antonio Family Diabetes/Gallbladder Study (SAFDGS), which are together referred to as the San Antonio Family Studies (SAFS).") Annotation(oboInOwl:hasDbXref "PMID:25519314") coho:isSubCohortOf coho:COHO_0002336 coho:COHO_0000649)
 
 # Individual: coho:COHO_0002337 (San Antonio Family Heart Study)
 
@@ -22714,7 +22714,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002337 "The San Antonio Family Heart Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002337 "San Antonio Family Heart Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002337)
-ObjectPropertyAssertion(Annotation(rdfs:comment "These family data were obtained from two studies: the San Antonio Family Heart Study (SAFHS) and the San Antonio Family Diabetes/Gallbladder Study (SAFDGS), which are together referred to as the San Antonio Family Studies (SAFS).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4145406/fullTextXML") coho:isSubCohortOf coho:COHO_0002337 coho:COHO_0000649)
+ObjectPropertyAssertion(Annotation(rdfs:comment "These family data were obtained from two studies: the San Antonio Family Heart Study (SAFHS) and the San Antonio Family Diabetes/Gallbladder Study (SAFDGS), which are together referred to as the San Antonio Family Studies (SAFS).") Annotation(oboInOwl:hasDbXref "PMID:25519314") coho:isSubCohortOf coho:COHO_0002337 coho:COHO_0000649)
 
 # Individual: coho:COHO_0002338 (Study of Asthma, Genes and the Environment)
 
@@ -22825,7 +22825,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002351 "SCIENCe project")
 AnnotationAssertion(rdfs:label coho:COHO_0002351 "Subjective Cognitive Impairment Cohort"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002351)
-ObjectPropertyAssertion(Annotation(rdfs:comment "We included 329 participants with SCD from the Subjective Cognitive Impairment Cohort (SCIENCe), embedded within the Amsterdam Dementia Cohort at the Alzheimer Center Amsterdam, Amsterdam UMC for whom baseline amyloid status had been assessed using cerebrospinal fluid (CSF) or positron emission tomography (PET).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12185448/fullTextXML") coho:isSubCohortOf coho:COHO_0002351 coho:COHO_0000374)
+ObjectPropertyAssertion(Annotation(rdfs:comment "We included 329 participants with SCD from the Subjective Cognitive Impairment Cohort (SCIENCe), embedded within the Amsterdam Dementia Cohort at the Alzheimer Center Amsterdam, Amsterdam UMC for whom baseline amyloid status had been assessed using cerebrospinal fluid (CSF) or positron emission tomography (PET).") Annotation(oboInOwl:hasDbXref "PMID:40557139") coho:isSubCohortOf coho:COHO_0002351 coho:COHO_0000374)
 
 # Individual: coho:COHO_0002352 (Skin Cancer Nested Case-Control Study)
 
@@ -22834,7 +22834,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002352 "Skin Cancer Ne
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002352 "skin cancer nested case-control study")
 AnnotationAssertion(rdfs:label coho:COHO_0002352 "Skin Cancer Nested Case-Control Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002352)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The sample consisted of 870 controls of European ancestry from a nested case-control study of skin cancer within the Nurses' Health Study (NHS).") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC2367449/") coho:isSubCohortOf coho:COHO_0002352 coho:COHO_0000456)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The sample consisted of 870 controls of European ancestry from a nested case-control study of skin cancer within the Nurses' Health Study (NHS).") Annotation(oboInOwl:hasDbXref "PMID:18483556") coho:isSubCohortOf coho:COHO_0002352 coho:COHO_0000456)
 
 # Individual: coho:COHO_0002353 (obsolete Severe Childhood Onset Obesity Project United Kingdom)
 
@@ -22920,7 +22920,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002362 "Studies of Epi
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002362 "Studies of Epidemiology and Risk Factors in Cancer Heredity-Ovarian Cancer")
 AnnotationAssertion(rdfs:label coho:COHO_0002362 "UK SEARCH Ovarian Cancer Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002362)
-ObjectPropertyAssertion(Annotation(rdfs:comment "SEARCH (Studies of Epidemiology and Risk Factors in Cancer Heredity Ovarian Cancer Study)") Annotation(oboInOwl:hasDbXref "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3013232/unicode") coho:isSubCohortOf coho:COHO_0002362 coho:COHO_0000881)
+ObjectPropertyAssertion(Annotation(rdfs:comment "SEARCH (Studies of Epidemiology and Risk Factors in Cancer Heredity Ovarian Cancer Study)") Annotation(oboInOwl:hasDbXref "PMID:20570913") coho:isSubCohortOf coho:COHO_0002362 coho:COHO_0000881)
 
 # Individual: coho:COHO_0002363 (obsolete Seattle)
 
@@ -22959,7 +22959,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002367 "Seattle Colon 
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002367 "Seattle Familial Colon Cancer Registry")
 AnnotationAssertion(rdfs:label coho:COHO_0002367 "Seattle Familial Colorectal Cancer Registry"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002367)
-ObjectPropertyAssertion(Annotation(rdfs:comment "through NCI/NIH cooperative agreements with the following Colon Cancer Family Registry (CCFR) sites: Australasian Colorectal Cancer Family Registry (U01 CA074778 and U01/U24 CA097735), Mayo Colon Cancer Family Registry (U01/U24 CA074800), Ontario Familial Colorectal Cancer Registry (U01/U24 CA074783), Seattle Familial Colorectal Cancer Registry (U01/U24 CA074794)") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6888855/fullTextXML") coho:isSubCohortOf coho:COHO_0002367 coho:COHO_0000547)
+ObjectPropertyAssertion(Annotation(rdfs:comment "through NCI/NIH cooperative agreements with the following Colon Cancer Family Registry (CCFR) sites: Australasian Colorectal Cancer Family Registry (U01 CA074778 and U01/U24 CA097735), Mayo Colon Cancer Family Registry (U01/U24 CA074800), Ontario Familial Colorectal Cancer Registry (U01/U24 CA074783), Seattle Familial Colorectal Cancer Registry (U01/U24 CA074794)") Annotation(oboInOwl:hasDbXref "PMID:31551580") coho:isSubCohortOf coho:COHO_0002367 coho:COHO_0000547)
 
 # Individual: coho:COHO_0002368 (San Francisco Prostate Cancer Study)
 
@@ -23396,7 +23396,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002420)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002421 "SVCRCGP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002421 "Shanghai-Vanderbilt Colorectal Cancer Genetics Project")
 AnnotationAssertion(rdfs:label coho:COHO_0002421 "Shanghai-Vanderbilt Colorectal Cancer Genetic Project"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "This study included 2,368 cases and 8,219 controls from three case- control collections, Shanghai-1, Shanghai-2 and Shanghai-3.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") coho:isSubCohortOf coho:COHO_0002421 coho:COHO_0002708)
+ObjectPropertyAssertion(Annotation(rdfs:comment "This study included 2,368 cases and 8,219 controls from three case- control collections, Shanghai-1, Shanghai-2 and Shanghai-3.") Annotation(oboInOwl:hasDbXref "PMID:24836286") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.2985/MediaObjects/41588_2014_BFng2985_MOESM57_ESM.pdf") coho:isSubCohortOf coho:COHO_0002421 coho:COHO_0002708)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002421)
 
 # Individual: coho:COHO_0002422 (obsolete Swedish Bladder Cancer Study)
@@ -23469,7 +23469,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002431 "TromsoMig")
 AnnotationAssertion(rdfs:label coho:COHO_0002431 "Tromso-6 Migraine"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002431)
-ObjectPropertyAssertion(Annotation(rdfs:comment "In the 6th wave of the study, which was used in the current study, 19,762 residents were invited and 12,984 (65.7%) participated (53% women, age range 30–87 years).") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3598/MediaObjects/41588_2016_BFng3598_MOESM73_ESM.pdf") coho:isSubCohortOf coho:COHO_0002431 coho:COHO_0000852)
+ObjectPropertyAssertion(Annotation(rdfs:comment "In the 6th wave of the study, which was used in the current study, 19,762 residents were invited and 12,984 (65.7%) participated (53% women, age range 30–87 years).") Annotation(oboInOwl:hasDbXref "PMID:27322543") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.3598/MediaObjects/41588_2016_BFng3598_MOESM73_ESM.pdf") coho:isSubCohortOf coho:COHO_0002431 coho:COHO_0000852)
 
 # Individual: coho:COHO_0002432 (Telomerase Activity Cohort)
 
@@ -23970,7 +23970,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002495 "UK BiLEVE Coho
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002495 "UK BiLEVE study")
 AnnotationAssertion(rdfs:label coho:COHO_0002495 "UK Biobank Lung Exome Variant Evaluation"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002495)
-ObjectPropertyAssertion(Annotation(rdfs:comment "UK BiLEVE is a subset of UK Biobank and is described in detail elsewhere62.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3752/MediaObjects/41588_2017_BFng3752_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0002495 coho:COHO_0000176)
+ObjectPropertyAssertion(Annotation(rdfs:comment "UK BiLEVE is a subset of UK Biobank and is described in detail elsewhere62.") Annotation(oboInOwl:hasDbXref "PMID:28166215") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.3752/MediaObjects/41588_2017_BFng3752_MOESM1_ESM.pdf") coho:isSubCohortOf coho:COHO_0002495 coho:COHO_0000176)
 
 # Individual: coho:COHO_0002496 (UK Barrett's Oesophagus Gene Study)
 
@@ -24395,7 +24395,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002549 "VIP study")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002549 "Västerbotten Intervention Program")
 AnnotationAssertion(rdfs:label coho:COHO_0002549 "Västerbotten Intervention Project"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002549)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Northern Sweden Health and Disease Study (NSHDS) comprises three sub-surveys, the Västerbotten Intervention Program (VIP), the Northerns Sweden MONICA study and the Mammography Screening Program (MSP), whereof VIP and MONICA are actively recruiting.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12807872/supplementaryFiles") coho:isSubCohortOf coho:COHO_0002549 coho:COHO_0000927)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Northern Sweden Health and Disease Study (NSHDS) comprises three sub-surveys, the Västerbotten Intervention Program (VIP), the Northerns Sweden MONICA study and the Mammography Screening Program (MSP), whereof VIP and MONICA are actively recruiting.") Annotation(oboInOwl:hasDbXref "PMID:41419686") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12807872/supplementaryFiles") coho:isSubCohortOf coho:COHO_0002549 coho:COHO_0000927)
 
 # Individual: coho:COHO_0002550 (Variation in Recovery: Role of Gender on Outcomes of Young AMI Patients)
 
@@ -24539,7 +24539,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002566 "Women's Health
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002566 "WHI Clinical Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0002566 "Women's Health Initiative Clinical Trial"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002566)
-ObjectPropertyAssertion(Annotation(rdfs:comment "From 1993 to 1998, the WHI enrolled 161,808 women aged 50 to 79 in randomized clinical trials (CT) or an observational study (OS).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9933300/fullTextXML") coho:isSubCohortOf coho:COHO_0002566 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "From 1993 to 1998, the WHI enrolled 161,808 women aged 50 to 79 in randomized clinical trials (CT) or an observational study (OS).") Annotation(oboInOwl:hasDbXref "PMID:36797788") coho:isSubCohortOf coho:COHO_0002566 coho:COHO_0000409)
 
 # Individual: coho:COHO_0002567 (Women's Health Initiative Genetic Components of HIP Fracture Consortium)
 
@@ -24552,7 +24552,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002567 "Genetic Compon
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002567 "Genetic Components of Hip Fracture")
 AnnotationAssertion(rdfs:label coho:COHO_0002567 "Women's Health Initiative Genetic Components of HIP Fracture Consortium"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002567)
-ObjectPropertyAssertion(Annotation(rdfs:comment "This is a case control sample from the Women's Health Initiative.") Annotation(oboInOwl:hasDbXref "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.2249/MediaObjects/41588_2012_BFng2249_MOESM26_ESM.pdf") coho:isSubCohortOf coho:COHO_0002567 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "This is a case control sample from the Women's Health Initiative.") Annotation(oboInOwl:hasDbXref "PMID:22504420") Annotation(oboInOwl:hasDbXref "https://static-content.springer.com/esm/art%3A10.1038%2Fng.2249/MediaObjects/41588_2012_BFng2249_MOESM26_ESM.pdf") coho:isSubCohortOf coho:COHO_0002567 coho:COHO_0000409)
 
 # Individual: coho:COHO_0002568 (Women's Health Initiative Hormone Therapy Trials)
 
@@ -24563,7 +24563,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002568 "WHI-HT trials"
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002568 "Women's Health Initiative Hormone Therapy study")
 AnnotationAssertion(rdfs:label coho:COHO_0002568 "Women's Health Initiative Hormone Therapy Trials"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002568)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The WHI Clinical Trials (CT; N=68,132) includes three overlapping components, each a randomized controlled comparison: the Hormone Therapy Trials (HT), Dietary Modification Trial, and Calcium and Vitamin D Trial.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12171572/supplementaryFiles") coho:isSubCohortOf coho:COHO_0002568 coho:COHO_0002566)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The WHI Clinical Trials (CT; N=68,132) includes three overlapping components, each a randomized controlled comparison: the Hormone Therapy Trials (HT), Dietary Modification Trial, and Calcium and Vitamin D Trial.") Annotation(oboInOwl:hasDbXref "PMID:40472801") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12171572/supplementaryFiles") coho:isSubCohortOf coho:COHO_0002568 coho:COHO_0002566)
 
 # Individual: coho:COHO_0002569 (Women's Health Initiative Long Life Study)
 
@@ -24576,7 +24576,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002569 "Long Life Stud
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002569 "The acronym LLS also denotes Leiden Longevity Study (COHO:0000107); this term is Women's Health Initiative Long Life Study."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002569 "Women's Health Initiative Long Life Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002569)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The study population consisted of 7,875 women over 70 years old who enrolled in the WHI-LLS, an ancillary study to the WHI.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC9434234/") coho:isSubCohortOf coho:COHO_0002569 coho:COHO_0000409)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The study population consisted of 7,875 women over 70 years old who enrolled in the WHI-LLS, an ancillary study to the WHI.") Annotation(oboInOwl:hasDbXref "PMID:35522983") coho:isSubCohortOf coho:COHO_0002569 coho:COHO_0000409)
 
 # Individual: coho:COHO_0002570 (Wheezing Illnesses Study Leidsche Rijn)
 
@@ -24585,7 +24585,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002570 "Wheezing-Illne
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002570 "WHeezing-Illnesses-STudy-LEidsche-Rijn")
 AnnotationAssertion(rdfs:label coho:COHO_0002570 "Wheezing Illnesses Study Leidsche Rijn"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002570)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Based on actual neonatal care practice and embedded in a larger epidemiological study, the Utrecht Health Project, WHISTLER will provide an unique framework to address issues in childhood respiratory disease that are currently insufficiently understood.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15499901+AND+SRC%3AMED&format=json&resultType=core") coho:isSubCohortOf coho:COHO_0002570 coho:COHO_0002490)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Based on actual neonatal care practice and embedded in a larger epidemiological study, the Utrecht Health Project, WHISTLER will provide an unique framework to address issues in childhood respiratory disease that are currently insufficiently understood.") Annotation(oboInOwl:hasDbXref "PMID:15499901") coho:isSubCohortOf coho:COHO_0002570 coho:COHO_0002490)
 
 # Individual: coho:COHO_0002571 (Whitehall II Study)
 
@@ -24913,7 +24913,7 @@ AnnotationAssertion(rdfs:label coho:COHO_0002607 "Rotterdam Study III"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002607 <https://www.ergo-onderzoek.nl/>)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002607 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/RS3")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002607)
-ObjectPropertyAssertion(Annotation(rdfs:comment "RS-III; third cohort of the Rotterdam Study") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7250962/fullTextXML") coho:isSubCohortOf coho:COHO_0002607 coho:COHO_0000148)
+ObjectPropertyAssertion(Annotation(rdfs:comment "RS-III; third cohort of the Rotterdam Study") Annotation(oboInOwl:hasDbXref "PMID:32367290") coho:isSubCohortOf coho:COHO_0002607 coho:COHO_0000148)
 
 # Individual: coho:COHO_0002608 (Suivi de l'Exposition à la Pollution Atmosphérique durant la Grossesse et Effets sur la Santé)
 
@@ -25143,7 +25143,7 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(rdfs:label coho:COHO_0002627 "Central European Longitudinal Studies of Parents and Children: Young Adults"@en)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002627 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/CELSPAC-YA")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002627)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Young Adults cohort is an on-going follow-up study of the Czech part of the ELSPAC birth cohort (European Longitudinal Study of Pregnancy and Childhood) that was initiated in 1991–1992 in the Czech Republic, in Brno and Znojmo region.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11142448/fullTextXML") coho:isSubCohortOf coho:COHO_0002627 coho:COHO_0002628)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Young Adults cohort is an on-going follow-up study of the Czech part of the ELSPAC birth cohort (European Longitudinal Study of Pregnancy and Childhood) that was initiated in 1991–1992 in the Czech Republic, in Brno and Znojmo region.") Annotation(oboInOwl:hasDbXref "PMID:38820320") coho:isSubCohortOf coho:COHO_0002627 coho:COHO_0002628)
 
 # Individual: coho:COHO_0002628 (European Longitudinal Study of Pregnancy and Childhood)
 
@@ -25242,7 +25242,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002636 "PUBMEP study")
 AnnotationAssertion(rdfs:label coho:COHO_0002636 "Puberty and metabolic risk in obese children. Epigenetic alterations and pathophysiological and diagnostic implications"@en)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002636 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/PUBMEP")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002636)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The PUBMEP is a longitudinal study based on the follow-up of a cohort of children who had previously participated in the GENOBOX study (22–29).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9806164/fullTextXML") coho:isSubCohortOf coho:COHO_0002636 coho:COHO_0002649)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The PUBMEP is a longitudinal study based on the follow-up of a cohort of children who had previously participated in the GENOBOX study (22–29).") Annotation(oboInOwl:hasDbXref "PMID:36601007") coho:isSubCohortOf coho:COHO_0002636 coho:COHO_0002649)
 
 # Individual: coho:COHO_0002637 (Study of Secondary Exposure to Pesticides among Children, Adolescents, and Adults)
 
@@ -25284,7 +25284,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002640 "Health, Alcoho
 AnnotationAssertion(rdfs:label coho:COHO_0002640 "Czech Health, Alcohol and Psychosocial factors In Eastern Europe study"@en)
 AnnotationAssertion(oboInOwl:hasDbXref coho:COHO_0002640 "https://molgeniscatalogue.org/Global%20Exposome%20Cohorts/collections/HAPIEE-CZ")
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002640)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The HAPIEE (Health, Alcohol and Psychosocial factors In Eastern Europe) study consists of three cohorts in Novosibirsk (Russia), Krakow (Poland) and six centres in the Czech Republic (Havirov/Karvina, Hradec Kralove, Jihlava, Kromeriz, Liberec and Usti nad Labem).") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1626086/fullTextXML") coho:isSubCohortOf coho:COHO_0002640 coho:COHO_0000265)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The HAPIEE (Health, Alcohol and Psychosocial factors In Eastern Europe) study consists of three cohorts in Novosibirsk (Russia), Krakow (Poland) and six centres in the Czech Republic (Havirov/Karvina, Hradec Kralove, Jihlava, Kromeriz, Liberec and Usti nad Labem).") Annotation(oboInOwl:hasDbXref "PMID:17049075") coho:isSubCohortOf coho:COHO_0002640 coho:COHO_0000265)
 
 # Individual: coho:COHO_0002641 (International Lipid-Based Nutrient Supplements Project-DYAD-Malawi)
 
@@ -25719,7 +25719,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002681 "HUNT 70+ study
 AnnotationAssertion(rdfs:label coho:COHO_0002681 "HUNT4 70+"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002681 <http://www.ntnu.edu/hunt>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002681)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The fourth wave of the study, referred to as HUNT4, was conducted from 2017 to 2019. Within this wave, a sub-study, HUNT4 70+, focused on individuals aged 70 and older.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12678644/fullTextXML") coho:isSubCohortOf coho:COHO_0002681 coho:COHO_0000395)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The fourth wave of the study, referred to as HUNT4, was conducted from 2017 to 2019. Within this wave, a sub-study, HUNT4 70+, focused on individuals aged 70 and older.") Annotation(oboInOwl:hasDbXref "PMID:40879407") coho:isSubCohortOf coho:COHO_0002681 coho:COHO_0000395)
 
 # Individual: coho:COHO_0002682 (Coronagenes)
 
@@ -25809,7 +25809,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002690 "CPS-II Nutriti
 AnnotationAssertion(rdfs:label coho:COHO_0002690 "Cancer Prevention Study II Nutrition Cohort"@en)
 AnnotationAssertion(rdfs:seeAlso coho:COHO_0002690 <https://www.cancer.org/research/population-science/cancer-prevention-and-survivorship-research-team/acs-cancer-prevention-studies/cancer-prevention-study-2.html>)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002690)
-ObjectPropertyAssertion(Annotation(rdfs:comment "Men and women in this study were participants in the CPS-II Nutrition Cohort, a subset of 1.2 million participants in the CPS-II Cohort (1982), who resided in 21 U.S. states when they were invited to enroll in the CPS-II Nutrition Cohort of incident cancer follow-up, beginning in 1992–1993") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8000483/fullTextXML") coho:isSubCohortOf coho:COHO_0002690 coho:COHO_0000024)
+ObjectPropertyAssertion(Annotation(rdfs:comment "Men and women in this study were participants in the CPS-II Nutrition Cohort, a subset of 1.2 million participants in the CPS-II Cohort (1982), who resided in 21 U.S. states when they were invited to enroll in the CPS-II Nutrition Cohort of incident cancer follow-up, beginning in 1992–1993") Annotation(oboInOwl:hasDbXref "PMID:33803340") coho:isSubCohortOf coho:COHO_0002690 coho:COHO_0000024)
 
 # Individual: coho:COHO_0002691 (Environmental influences on Child Health Outcomes Cohort)
 
@@ -25952,7 +25952,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0002703 "Special Turku 
 AnnotationAssertion(obo:IAO_0000116 coho:COHO_0002703 "The acronym STRIP also denotes Special Turku Coronary Risk Factor Intervention Project (COHO:0002415); this term is Special Turku Coronary Risk Factor Intervention Project, Parents."@en)
 AnnotationAssertion(rdfs:label coho:COHO_0002703 "Special Turku Coronary Risk Factor Intervention Project, Parents"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002703)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The STRIP study enrolled children and their families who were recruited at well‐baby clinics at their routine 5‐month visit between December 1, 1989, and May 30, 1992 in the city of Turku, Finland. The children constituted a representative sample of 5‐month‐old children in the area. A total of 1062 7‐month‐old infants and their parents were enrolled in the trial.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13092225/fullTextXML") coho:isSubCohortOf coho:COHO_0002703 coho:COHO_0002415)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The STRIP study enrolled children and their families who were recruited at well‐baby clinics at their routine 5‐month visit between December 1, 1989, and May 30, 1992 in the city of Turku, Finland. The children constituted a representative sample of 5‐month‐old children in the area. A total of 1062 7‐month‐old infants and their parents were enrolled in the trial.") Annotation(oboInOwl:hasDbXref "PMID:42011282") coho:isSubCohortOf coho:COHO_0002703 coho:COHO_0002415)
 
 # Individual: coho:COHO_0002704 (Identification of a risk profile to guide atrial fibrillation therapy)
 
@@ -26147,7 +26147,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002724)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002725 "NPCR Follow-up Study")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002725 "NPCR of Sweden Follow-up Study")
 AnnotationAssertion(rdfs:label coho:COHO_0002725 "National Prostate Cancer Register of Sweden Follow-up Study"@en)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The Follow-up Study was an observational study in the NPCR, with the aim of assessing outcome among patients with localized prostate cancer who were diagnosed after PSA testing had become prevalent in Sweden and for whom curative treatment may have been indicated.") Annotation(oboInOwl:hasDbXref "https://pmc.ncbi.nlm.nih.gov/articles/PMC2897875/") coho:isSubCohortOf coho:COHO_0002725 coho:COHO_0002724)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The Follow-up Study was an observational study in the NPCR, with the aim of assessing outcome among patients with localized prostate cancer who were diagnosed after PSA testing had become prevalent in Sweden and for whom curative treatment may have been indicated.") Annotation(oboInOwl:hasDbXref "PMID:20562373") coho:isSubCohortOf coho:COHO_0002725 coho:COHO_0002724)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002725)
 
 # Individual: coho:COHO_0002726 (Florence Acute Myocardial Infarction-2 registry)
@@ -26287,7 +26287,7 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0002742)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0002743 "SALT")
 AnnotationAssertion(rdfs:label coho:COHO_0002743 "Screening Across the Lifespan Twin Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0002743)
-ObjectPropertyAssertion(Annotation(rdfs:comment "The SALT study, which is part of the Swedish Twin Registry, assessed 44,919 twin individuals aged between 41 and 97 years in 1998–2002") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10711760/fullTextXML") coho:isSubCohortOf coho:COHO_0002743 coho:COHO_0000160)
+ObjectPropertyAssertion(Annotation(rdfs:comment "The SALT study, which is part of the Swedish Twin Registry, assessed 44,919 twin individuals aged between 41 and 97 years in 1998–2002") Annotation(oboInOwl:hasDbXref "PMID:37769628") coho:isSubCohortOf coho:COHO_0002743 coho:COHO_0000160)
 
 # Individual: coho:COHO_0002744 (TOFI_Asia)
 

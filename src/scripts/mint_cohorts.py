@@ -19,20 +19,22 @@ at or after --from-row the script
   - adds the names of "existing" rows, and of same-as rows, to the term they denote;
   - gives both terms an editor note wherever a name becomes shared, in the form
     CLAUDE.md sets out, and rewrites an existing note when the terms it names change;
-  - asserts isSubCohortOf, with its quote and URL;
+  - asserts isSubCohortOf, with its quote and the address it was read at;
   - appends the definitions, examples (with their titles), locations and
     memberships to src/curation, and the cohorts whose example is a GWAS Catalog
     study to the GWAS subset. Countries backed by different quotes are given as
     groups separated by " || " in the countries, location quote and location URL
     columns alike (e.g. "India || Canada"), and each group becomes its own
-    location line. An example needs its quote and URL;
+    location line. An example needs its quote and the address it was read at;
   - copies the quotes for the new term's label, its names the catalogue's record
     does not give, its type and its definition from src/curation/review_evidence.tsv
     (term: the row's input name; fact: label, acronym, synonym, type or definition;
-    value; quote; PMID; URL; note; found by) into name_evidence.tsv,
+    value; quote; PMID; read at; note; found by) into name_evidence.tsv,
     type_evidence.tsv and definition_quotes.tsv under the new ID. A row whose
     label, type or definition, or a name only it gives, has no quote there is not
     minted: the axiom-evidence check would fail the build;
+  - leaves the papers' PMIDs of the quotes it copies from addresses (locations,
+    memberships, the sub-cohort link) to sources.py, which is run afterwards;
   - writes the new COHO IDs, and the terms each row's names clash with, back
     into the review.
 
@@ -91,7 +93,7 @@ SUB = ('ObjectPropertyAssertion(Annotation(rdfs:comment "{}") Annotation(oboInOw
 
 def review_evidence(path=REVIEW_EVIDENCE):
     """The quotes for the facts of terms still to be minted or curated (src/curation/review_evidence.tsv: term, fact,
-    value, quote, PMID, URL, note, found by), keyed by `term`: the review row's input name, or the placeholder's COHO
+    value, quote, PMID, read at, note, found by), keyed by `term`: the review row's input name, or the placeholder's COHO
     ID. fact is label, acronym or synonym (value: the name), type (value empty) or definition (value: what the quote
     supports). The minting scripts copy them into name_evidence.tsv, type_evidence.tsv and definition_quotes.tsv under
     the term's ID."""
@@ -128,20 +130,20 @@ def plan_evidence(cid, x, rows, names, catalogue, have=(), batch="review"):
     md5 = hashlib.md5(x["definition"].encode()).hexdigest()[:12]
     for r in rows:
         fact, value = r["fact"].strip(), r["value"].strip()
-        if not r["quote"].strip() or not (r["PMID"].strip() or r["URL"].strip()):
-            problems.append(f"the {fact} quote needs its text and a PMID or URL")
+        if not r["quote"].strip() or not (r["PMID"].strip() or r["read at"].strip()):
+            problems.append(f"the {fact} quote needs its text and a PMID or the address it was read at")
         elif fact in ("label", "acronym", "synonym"):
             if value != x["label"] and all(value != s for s, _ in names):
                 problems.append(f"a quote for the name {value!r}, which the term does not carry")
                 continue
             kind = "label" if value == x["label"] else "acronym" if value in acronyms else "synonym"
-            ne.append([cid, value, kind, r["quote"], r["PMID"], r["URL"], r["note"], r["found by"], batch])
+            ne.append([cid, value, kind, r["quote"], r["PMID"], r["read at"], r["note"], r["found by"], batch])
             got.add(value)
         elif fact == "type":
-            te.append([cid, x["type"], r["quote"], r["PMID"], r["URL"], r["found by"], batch])
+            te.append([cid, x["type"], r["quote"], r["PMID"], r["read at"], r["note"], r["found by"], batch])
             got.add("type")
         elif fact == "definition":
-            dq.append([cid, value, r["quote"], r["PMID"], r["URL"], r["found by"], batch, md5])
+            dq.append([cid, value, r["quote"], r["PMID"], r["read at"], r["found by"], batch, md5])
             got.add("definition")
         else:
             problems.append(f"evidence fact {fact!r}")
@@ -484,7 +486,7 @@ def main():
             key = (resolve(x["parent"], x), idof(x))
             if key not in have:
                 have.add(key)
-                am.append([*key, x["parent quote"], x["parent URL"], f"membership stated in the source; added {a.date} when the cohorts were minted from {prov}"])
+                am.append([*key, x["parent quote"], "", x["parent URL"], f"membership stated in the source; added {a.date} when the cohorts were minted from {prov}"])
 
     # --- review: COHO IDs of minted and same-as rows, and clashes
     L = open(review_path, newline="", encoding="utf-8").read().split("\n")

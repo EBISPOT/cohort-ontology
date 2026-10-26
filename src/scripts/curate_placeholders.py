@@ -400,7 +400,7 @@ def main():
                 for country in M.split(cs):
                     lo.append([i, country, q.strip(), "", u.strip(), note + ("" if q.strip() else "; the country is given by the cohort's name, no quote")])
         if x.get("_parent") and x["parent relation"] == "memberOf":
-            am.append([M.curie(x["_parent"]), i, x["parent quote"], x["parent URL"], f"membership stated in the source; added when the placeholder was {note}"])
+            am.append([M.curie(x["_parent"]), i, x["parent quote"], "", x["parent URL"], f"membership stated in the source; added when the placeholder was {note}"])
         ty.append([i, x["label"], "temporary unclassified", x["type"], "yes", f"placeholder {note}"])
     pgs = open(M.PGS_SUBSET, encoding="utf-8").read().split("\n")
     pgs_ids = {l.split(",")[0] for l in pgs}

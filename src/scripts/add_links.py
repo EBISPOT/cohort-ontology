@@ -3,12 +3,14 @@
 Add sub-cohort and membership links between existing terms from a table.
 
 The table (tab-separated, with a header) has the columns `child`, `parent`,
-`relation` (isSubCohortOf or memberOf), `quote`, `url` and optionally `note`.
+`relation` (isSubCohortOf or memberOf), `quote`, `url` (the address the quote
+was read at) and optionally `PMID` (the paper it was read in) and `note`.
 An isSubCohortOf row becomes an `isSubCohortOf` assertion from the child to
 the parent in the edit file, placed after the child's label, annotated with
-the quote and its URL; a memberOf row becomes a line of
+the quote and the address; a memberOf row becomes a line of
 `src/curation/aggregation_members_curated.tsv` (aggregation, member, quote,
-URL, note), from which `components.py` rebuilds the template. Links
+PMID, read at, note), from which `components.py` rebuilds the template. Run
+`sources.py` afterwards: it cites a paper by its PMID on both. Links
 already present are skipped; both terms must be live curated terms, the parent
 of a membership an aggregation and the parent of a sub-cohort link a cohort.
 
@@ -57,7 +59,7 @@ def main():
             if key in have_mem or key in have_tpl:
                 continue
             have_mem.add(key)
-            mems.append([r["parent"], r["child"], r["quote"], r["url"], r.get("note", "")])
+            mems.append([r["parent"], r["child"], r["quote"], r.get("PMID", ""), r["url"], r.get("note", "")])
         else:
             raise SystemExit(f"unknown relation {rel!r}")
     out, cur, added = [], None, 0

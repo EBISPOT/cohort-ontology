@@ -3,13 +3,15 @@
 Write the evidence components of COHO from the curation tables in src/curation.
 
 Every fact a table records on a cohort becomes a copy of the fact's axiom
-annotated with its evidence: the verbatim quote (rdfs:comment) and the source
-it came from (oboInOwl:hasDbXref: the paper's PMID, when the document is a
-paper, and the document's URL), one copy per quote so that each quote keeps its
-own source. Most components are written as ROBOT templates in src/templates,
-which owlmake builds; names, types, diseases and exposures are written directly
-in OWL functional syntax, because they copy assertions the edit file holds
-(with their synonym types and language tags) or carry class expressions.
+annotated with its evidence: the verbatim quote (rdfs:comment) and its source
+(oboInOwl:hasDbXref, in the forms sources.py sets out: a paper by its PMID or
+DOI, a supplementary file by its paper and the file's URL, a database record by
+its public page, a website by its address), one copy per quote so that each
+quote keeps its own source. Most components are written as ROBOT templates in
+src/templates, which owlmake builds; names, types, diseases and exposures are
+written directly in OWL functional syntax, because they copy assertions the
+edit file holds (with their synonym types and language tags) or carry class
+expressions.
 
   component    table(s) read                               written
   definitions  definitions_curated.tsv, definition_quotes.tsv   templates/definitions.tsv
@@ -25,9 +27,10 @@ in OWL functional syntax, because they copy assertions the edit file holds
 
 The tables have one row per fact and quote: the cohort's ID, what the fact is
 (a name and its kind, a type, a country, a number, a disease or exposure as
-the source names it, a member, an example study), the quote, its PMID and URL,
-a note, and who found the quote. A row with an empty fact (no country, no
-number, no disease) records that the sources give none. A fact on a term the
+the source names it, a member, an example study), the quote, the paper it was
+read in (PMID) and the address it was read at (read at), a note, and who found
+the quote. A row with an empty fact (no country, no number, no disease) records
+that the sources give none. A fact on a term the
 edit file no longer carries, or on a deprecated term, is left out and counted.
 Definitions are one per cohort (definitions_curated.tsv: the text, its source
 and the agents that drafted and checked it) with their quotes in
@@ -52,6 +55,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import mint_cohorts as M  # noqa: E402
+import sources as S  # noqa: E402
 
 CUR = M.CUR
 TEMPLATES = M.ROOT / "src/templates"
@@ -113,19 +117,24 @@ def write_owl(path, header, declarations, axioms):
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-def evidence(quote, pmid, url, note=""):
-    """The axiom annotations for one quote: the quote, its sources, and the editor note on how the source writes a
-    name (a variant: capitals, punctuation, a leading "The"; a sourced name plus a descriptor) or that it describes
-    the cohort without naming it."""
+def evidence(quote, paper, read_at, note=""):
+    """The axiom annotations for one quote: the quote, its sources (S.cite), and the editor note on how the source
+    writes a name (a variant: capitals, punctuation, a leading "The"; a sourced name plus a descriptor) or that it
+    describes the cohort without naming it."""
     notes = [f'Annotation(rdfs:comment "{M.esc(quote)}")'] if quote else []
-    notes += [f'Annotation(oboInOwl:hasDbXref "{M.esc(x)}")' for x in (pmid, url) if x]
+    notes += xrefs(S.cite(paper, read_at))
     if note.startswith(("the source writes it", "the catalogue writes it", "the source describes it")):
         notes.append(f'Annotation(obo:IAO_0000116 "{M.esc(note.split(":")[0])}")')
     return " ".join(notes)
 
 
-def sources(*xs):
-    return [f'Annotation(oboInOwl:hasDbXref "{M.esc(x)}")' for x in xs if x]
+def xrefs(xs):
+    return [f'Annotation(oboInOwl:hasDbXref "{M.esc(x)}")' for x in xs]
+
+
+def cited(paper, read_at, **kw):
+    """The sources of one quote as a template cell (split on |)."""
+    return "|".join(S.cite(paper, read_at, **kw))
 
 
 # ---------------------------------------------------------------- components
@@ -148,16 +157,17 @@ def definitions(E):
         if r["definition md5"] != hashlib.md5(rows[r["ID"]][0].encode()).hexdigest()[:12]:
             stale.add(r["ID"])
             continue
-        quotes.setdefault(r["ID"], []).append((r["quote"], r["PMID"], r["URL"]))
+        quotes.setdefault(r["ID"], []).append((r["quote"], r["PMID"], r["read at"]))
     out = []
     for cid in sorted(rows):
         definition, source, drafted, checked = rows[cid]
-        for quote, pmid, url in quotes.get(cid) or [("", "", "")]:
-            out.append([cid, INDIVIDUAL, E.labels.get(cid, ""), definition, source, drafted, checked, quote, pmid, url])
+        source = "|".join(S.cite_sources(source))
+        for quote, pmid, read_at in quotes.get(cid) or [("", "", "")]:
+            out.append([cid, INDIVIDUAL, E.labels.get(cid, ""), definition, source, drafted, checked, quote, cited(pmid, read_at)])
     write_template(TEMPLATES / "definitions.tsv",
-                   ["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by", "quote", "quote PMID", "quote URL"],
+                   ["ID", "TYPE", "label", "definition", "definition source", "drafted by", "checked by", "quote", "quote source"],
                    ["ID", "TYPE", "", "A IAO:0000115", ">A IAO:0000119 SPLIT=|", ">A dcterms:contributor", ">A dcterms:contributor",
-                    ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref"], out)
+                    ">A rdfs:comment", ">A oio:hasDbXref SPLIT=|"], out)
     missing = sorted(set(E.labels) - set(rows))
     print(f"definitions: {len(rows)} of {len(E.labels)} cohorts defined, {sum(len(v) for v in quotes.values())} quotes on {len(quotes)}"
           + (f"; quotes left off {len(stale)} definitions changed since they were found: {', '.join(sorted(stale))}" if stale else "")
@@ -194,7 +204,7 @@ def examples(E):
     curated = defaultdict(list)
     for r in read(CUR / "example_studies_curated.tsv"):
         curated[r["ID"]].append((r["example study"].strip(), (r["PMID"] or "").strip().removeprefix("PMID:"),
-                                 (r.get("quote") or "").strip(), (r.get("URL") or "").strip(), (r.get("title") or "").strip()))
+                                 (r.get("quote") or "").strip(), (r.get("read at") or "").strip(), (r.get("title") or "").strip()))
     chosen = {}
     for cid in sorted(E.labels, key=M.local):
         if cid in curated:
@@ -205,11 +215,15 @@ def examples(E):
         print("examples: no title found for PMID " + ", ".join(untitled), file=sys.stderr)
     out = []
     for cid, es in chosen.items():
-        for acc, pmid, quote, url, given in es:
-            out.append([cid, INDIVIDUAL, E.labels[cid], acc or f"PMID:{pmid}", f"PMID:{pmid}" if pmid else "", titles.get(pmid) or given, quote, url, "curated"])
+        for acc, pmid, quote, read_at, given in es:
+            paper = f"PMID:{pmid}" if pmid else ""
+            # the quote's own source beside the example's paper: the record, supplement or website it was read at
+            # (an address of the example's paper itself adds nothing)
+            source = "|".join(x for x in S.cite(paper, read_at, copies=False) if x != paper)
+            out.append([cid, INDIVIDUAL, E.labels[cid], acc or paper, paper, titles.get(pmid) or given, quote, source, "curated"])
     write_template(TEMPLATES / "example_studies.tsv",
                    ["ID", "TYPE", "label", "example study", "PMID", "title", "evidence", "evidence source", "source"],
-                   ["ID", "TYPE", "", "A IAO:0000112", ">A oboInOwl:hasDbXref", ">A dcterms:title", ">A rdfs:comment", ">A oboInOwl:hasDbXref", ""], out)
+                   ["ID", "TYPE", "", "A IAO:0000112", ">A oboInOwl:hasDbXref", ">A dcterms:title", ">A rdfs:comment", ">A oboInOwl:hasDbXref SPLIT=|", ""], out)
     subsets = defaultdict(list)
     for s in RESOURCES:
         for r in list(csv.reader(open(TEMPLATES / f"{s}.csv", encoding="utf-8")))[2:]:
@@ -239,10 +253,10 @@ def locations(E):
     for cid in sorted(rows):
         for r in rows[cid]:
             if r["country"]:
-                out.append([cid, INDIVIDUAL, E.labels.get(cid, ""), f"dbpedia:{r['country']}", r["quote"], r["URL"], r["PMID"]])
+                out.append([cid, INDIVIDUAL, E.labels.get(cid, ""), f"dbpedia:{r['country']}", r["quote"], cited(r["PMID"], r["read at"])])
                 located.add(cid)
-    write_template(TEMPLATES / "locations.tsv", ["ID", "TYPE", "label", "data collection location", "evidence", "source", "PMID"],
-                   ["ID", "TYPE", "", "I coho:has_data_collection_location", ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref"], out)
+    write_template(TEMPLATES / "locations.tsv", ["ID", "TYPE", "label", "data collection location", "evidence", "source"],
+                   ["ID", "TYPE", "", "I coho:has_data_collection_location", ">A rdfs:comment", ">A oio:hasDbXref SPLIT=|"], out)
     unlocated = sorted(c for c in E.labels if c not in located)
     print(f"locations: {len(located)} cohorts located, {len(out)} locations; {len(unlocated)} unlocated")
 
@@ -258,10 +272,10 @@ def members(E):
         if r["note"].lower().startswith("remove"):
             links.pop(key, None)
         else:
-            links[key] = (r["quote"], r["URL"])
-    out = [[agg, INDIVIDUAL, E.labels.get(agg, ""), member, quote, url] for (agg, member), (quote, url) in sorted(links.items())]
+            links[key] = (r["quote"], cited(r["PMID"], r["read at"]))
+    out = [[agg, INDIVIDUAL, E.labels.get(agg, ""), member, quote, source] for (agg, member), (quote, source) in sorted(links.items())]
     write_template(TEMPLATES / "aggregation_members.tsv", ["ID", "TYPE", "label", "member cohort", "evidence", "source"],
-                   ["ID", "TYPE", "", "I coho:hasCohort", ">A rdfs:comment", ">A oio:hasDbXref"], out)
+                   ["ID", "TYPE", "", "I coho:hasCohort", ">A rdfs:comment", ">A oio:hasDbXref SPLIT=|"], out)
     print(f"members: {len(links)} memberships of {len({a for a, _ in links})} aggregations")
 
 
@@ -281,7 +295,7 @@ def participants(E):
             raise SystemExit(f"{r['ID']}: {r['number']} {r['value']!r} is not an integer")
         if not E.is_live(r["ID"]):
             raise SystemExit(f"{r['ID']} is not a live term")
-        if not r["source"].strip():
+        if not (r["PMID"].strip() or r["read at"].strip()):
             raise SystemExit(f"{r['ID']}: a number without a source")
         if r["number"] in by_cohort[r["ID"]]:
             raise SystemExit(f"{r['ID']}: two {r['number']} numbers")
@@ -291,12 +305,12 @@ def participants(E):
         row = [cid, INDIVIDUAL, E.labels.get(cid, "")]
         for k, _ in NUMBERS:
             r = by_cohort[cid].get(k)
-            row += [r["value"].strip(), r["quote"], r["source"].strip(), r["URL"].strip(), r["counts"]] if r else ["", "", "", "", ""]
+            row += [r["value"].strip(), r["quote"], cited(r["PMID"].strip(), r["read at"].strip()), r["counts"]] if r else ["", "", "", ""]
         out.append(row)
     header, spec = ["ID", "TYPE", "label"], ["ID", "TYPE", ""]
     for k, prop in NUMBERS:
-        header += [k, f"{k} evidence", f"{k} source", f"{k} URL", f"{k} note"]
-        spec += [f"AT coho:{prop}^^xsd:integer", ">A rdfs:comment", ">A oio:hasDbXref", ">A oio:hasDbXref", ">A IAO:0000116"]
+        header += [k, f"{k} evidence", f"{k} source", f"{k} note"]
+        spec += [f"AT coho:{prop}^^xsd:integer", ">A rdfs:comment", ">A oio:hasDbXref SPLIT=|", ">A IAO:0000116"]
     write_template(TEMPLATES / "participants.tsv", header, spec, out)
     print(f"participants: {len(out)} cohorts with a number; " + ", ".join(f"{k} {sum(1 for c in by_cohort.values() if k in c)}" for k, _ in NUMBERS))
 
@@ -335,7 +349,7 @@ def diseases(E):
         if prefix not in ("MONDO", "HP"):
             raise SystemExit(f"{tid}: not a MONDO or HP term")
         c, t = M.local(r["ID"]), f"obo:{prefix}_{local}"
-        notes = ([f'Annotation(rdfs:comment "{M.esc(r["quote"].strip())}")'] if r["quote"].strip() else []) + sources(r["source"].strip(), r["URL"].strip())
+        notes = ([f'Annotation(rdfs:comment "{M.esc(r["quote"].strip())}")'] if r["quote"].strip() else []) + xrefs(S.cite(r["PMID"].strip(), r["read at"].strip()))
         notes.append(f'Annotation(obo:IAO_0000116 "{M.esc(name)}")')
         assertions.append((c, tid, f"ClassAssertion({' '.join(notes)} ObjectSomeValuesFrom(coho:{prop} {t}) coho:{c})"))
         cohorts.add(c)
@@ -362,7 +376,7 @@ def exposures(E):
     """Types of the form `has_participants_with_exposure some X` (or is_designed_to_study_exposure) over the ECTO term
     each exposure name is mapped to; names of one cohort mapped to one term give one assertion carrying each name."""
     terms = mapping(CUR / "distinct_exposures_mapped.csv")
-    groups = {}  # (cohort, term) -> (prop, quote, source, URL, [names])
+    groups = {}  # (cohort, term) -> (prop, quote, PMID, read at, [names])
     unmapped, bare, order = defaultdict(list), [], []
     for r in read(CUR / "cohort_exposures.tsv"):
         if r["exposure cohort"] != "yes":
@@ -390,14 +404,14 @@ def exposures(E):
             raise SystemExit(f"{tid}: not an ECTO term")
         key = (M.local(r["ID"]), tid)
         if key not in groups:
-            groups[key] = (prop, r["quote"].strip(), r["source"].strip(), r["URL"].strip(), [])
+            groups[key] = (prop, r["quote"].strip(), r["PMID"].strip(), r["read at"].strip(), [])
         groups[key][4].append(name)
     mapped_cohorts = {c for c, _ in groups}
     bare = [cid for cid in order if M.local(cid) not in mapped_cohorts]
     assertions, used = [], set()
-    for (c, tid), (prop, quote, source, url, names) in groups.items():
+    for (c, tid), (prop, quote, paper, read_at, names) in groups.items():
         t = "obo:" + tid.replace(":", "_", 1)
-        notes = ([f'Annotation(rdfs:comment "{M.esc(quote)}")'] if quote else []) + sources(source, url)
+        notes = ([f'Annotation(rdfs:comment "{M.esc(quote)}")'] if quote else []) + xrefs(S.cite(paper, read_at))
         notes += [f'Annotation(obo:IAO_0000116 "{M.esc(n)}")' for n in names]
         assertions.append((c, tid, f"ClassAssertion({' '.join(notes)} ObjectSomeValuesFrom(coho:{prop} {t}) coho:{c})"))
         used.add(tid)
@@ -430,7 +444,7 @@ def names(E):
             if not found:
                 gone += 1
                 continue
-            ev = evidence("", "", r["URL"], r["note"]) if record else evidence(r["quote"], r["PMID"], r["URL"], r.get("note") or "")
+            ev = evidence("", "", r["URL"], r["note"]) if record else evidence(r["quote"], r["PMID"], r["read at"], r.get("note") or "")
             for anns, prop, lang in found:
                 lead = (anns + " ") if anns else ""
                 out.append(f'AnnotationAssertion({lead}{ev} {prop} coho:{c} "{M.esc(r["name"])}"{lang})')
@@ -455,7 +469,7 @@ def types(E):
         if (t, c) not in have:
             gone += 1
             continue
-        out.append(f'ClassAssertion({evidence(r["quote"], r["PMID"], r["URL"])} coho:{t} coho:{c})')
+        out.append(f'ClassAssertion({evidence(r["quote"], r["PMID"], r["read at"])} coho:{t} coho:{c})')
         terms.add(c)
     out = sorted(set(out))
     write_owl(COMPONENTS / "types.owl", owl_header("http://www.ebi.ac.uk/coho/components/types.owl"),
