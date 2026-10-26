@@ -246,7 +246,7 @@ def main():
                 if not (quote and url) and curie in ev and ev[curie][2] == acc and ev[curie][3] == (f"PMID:{pmid}" if pmid else ""):
                     quote, url = ev[curie][:2]  # evidence is for this very study, not an earlier choice
                 if not (quote and url) and (curie, "example", acc or f"PMID:{pmid}") in FQ:
-                    quote, _, url = FQ[(curie, "example", acc or f"PMID:{pmid}")]  # found by the evidence passes
+                    quote, _, url = FQ[(curie, "example", acc or f"PMID:{pmid}")]  # recorded in fact_quotes.tsv
                 w.writerow([curie, "owl:NamedIndividual", labels[cid], acc or f"PMID:{pmid}", f"PMID:{pmid}" if pmid else "", title, quote, url, source])
 
     subsets = defaultdict(list)

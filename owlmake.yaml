@@ -237,6 +237,7 @@ report:
   - participants-evidence
   - disease-term
   - exposure-term
+  - axiom-evidence
 targets:
 - target: docs/images/cohort-map.svg
   needs:
@@ -267,8 +268,8 @@ targets:
     requires:
     - python3
 # The facts on curated cohorts that carry no verbatim quote and source (src/sparql/axiom-evidence-violation.sparql),
-# from the asserted ontology (edit file and components, before reasoning). A report, not a check: what no source
-# states is kept in the ontology and listed (src/curation/evidence_review.tsv).
+# from the asserted ontology (edit file and components, before reasoning), as a table. The same query is the
+# `axiom-evidence` check above, which fails `om make test` on any such fact.
 - target: src/ontology/reports/axiom-evidence.tsv
   needs:
   - src/ontology/tmp/coho-cohorts.nt

@@ -8778,7 +8778,6 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0000684)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000685 "IGAP")
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000685 "I-GAP")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000685 "International Genomics of Alzheimer’s Project")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000685 "International Genomics Alzheimer's Project")
 AnnotationAssertion(rdfs:label coho:COHO_0000685 "International Genomics of Alzheimer's Project"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0000685)
 
@@ -9352,7 +9351,6 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000747 "Diabetes Contr
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000747 "Epidemiology of Diabetes Interventions and Complications")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000747 "Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000747 "Diabetes Control and Complications Trial/Epidemiology of Diabetes Intervention and Complications study")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000747 "Epidemiology of Diabetes Intervention and Control Trial")
 AnnotationAssertion(rdfs:label coho:COHO_0000747 "Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000747)
 
@@ -9590,7 +9588,6 @@ ClassAssertion(coho:COHO_0000001 coho:COHO_0000771)
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0000772 "COGA")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000772 "The Collaborative Study on the Genetics of Alcoholism")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000772 "Collaborative Studies on the Genetics of Alcoholism")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0000772 "Collaborative Study for the Genetics of Alcoholism")
 AnnotationAssertion(rdfs:label coho:COHO_0000772 "Collaborative Study on the Genetics of Alcoholism"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0000772)
 
@@ -13600,7 +13597,6 @@ ObjectPropertyAssertion(Annotation(rdfs:comment "The 'Study of Twin Adults: Gene
 # Individual: coho:COHO_0001238 (Sequenced Treatment Alternatives to Relieve Depression)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001238 "STAR*D")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001238 "Sequential Treatment Alternatives to Relieve Depression")
 AnnotationAssertion(rdfs:label coho:COHO_0001238 "Sequenced Treatment Alternatives to Relieve Depression"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001238)
 
@@ -15445,7 +15441,6 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001455 "African Ancest
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001455 "African-ancestry Breast Cancer Genetic Consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001455 "African-ancestry Breast Cancer Genetic consortium")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001455 "African Ancestry Breast Cancer Genetics Consortium")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001455 "African American Breast Cancer Genetic consortium")
 AnnotationAssertion(rdfs:label coho:COHO_0001455 "African Ancestry Breast Cancer Genetic Consortium"@en)
 ClassAssertion(coho:COHO_0000001 coho:COHO_0001455)
 
@@ -15862,7 +15857,6 @@ ClassAssertion(coho:COHO_0000000 coho:COHO_0001503)
 # Individual: coho:COHO_0001504 (Austrian Diabetic Nephropathy Study)
 
 AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl:hasRelatedSynonym coho:COHO_0001504 "AusDiane")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001504 "Austrian Diabetes Nephropathy Study")
 AnnotationAssertion(rdfs:label coho:COHO_0001504 "Austrian Diabetic Nephropathy Study"@en)
 ClassAssertion(coho:COHO_0000000 coho:COHO_0001504)
 
@@ -16848,7 +16842,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003000) oboInOwl
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of Risk in Colorectal Tumors In Canada")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of Risk in Colorectal Tumors in Canada")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of Risk of Colorectal Tumors in Canada")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "Assessment of Risk of Colorectal Tumours in Canada")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym coho:COHO_0001615 "ARCTIC Genome Project")
 AnnotationAssertion(rdfs:label coho:COHO_0001615 "Assessment of Risk for Colorectal Tumors in Canada"@en)
 ObjectPropertyAssertion(Annotation(rdfs:comment "Briefly, the ARCTIC study involved 1,257 CRC cases and 1,336 matched community controls from the Ontario Familial Colorectal Cancer Registry.") Annotation(oboInOwl:hasDbXref "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2885303/fullTextXML") coho:isSubCohortOf coho:COHO_0001615 coho:COHO_0002200)

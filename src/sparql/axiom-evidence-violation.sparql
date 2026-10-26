@@ -7,14 +7,20 @@
 # locations, the numbers of participants, cases and controls, the members of
 # an aggregation, the parent of a sub-cohort and the example studies. Some
 # evidence is by nature a database record, whose URL suffices without a quote:
-# a PGS Catalog example (the Catalog's record of the score), and a name that is
-# a catalogue's own code or name for the cohort (the GWAS Catalog study, PGS
-# Catalog cohort, Global Exposome Cohort Catalogue or IHCC Atlas entry that uses
-# it).
+# a PGS Catalog example (the Catalog's record of the score), and, for a name
+# that no document quotes, a database's record of the cohort (the GWAS Catalog
+# study, PGS Catalog cohort, EGA study, Global Exposome Cohort Catalogue or IHCC
+# Atlas entry that uses or names it): a quote is always sought first, and the
+# record is the fallback.
 # A location inferred into the release from an evidenced one (the region a
 # located country lies in, through the property chain with RO:0001025) needs no
 # evidence of its own. Placeholders (curation status uncurated) and deprecated
 # terms are skipped.
+# The check runs on the release file coho-full.owl, where the components that
+# hold the evidence copies are merged with the edit file; on the edit file alone,
+# which holds the facts but not their copies, it is skipped (the ontology IRI
+# guard below). `om make reports/axiom-evidence.tsv` runs the same query on the
+# asserted merge as a table.
 PREFIX coho: <http://www.ebi.ac.uk/coho/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
@@ -24,6 +30,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?term ?property ?value
 WHERE {
+  ?ontology a owl:Ontology .
+  FILTER(STRENDS(STR(?ontology), "/coho-full.owl"))
   {
     VALUES ?property {
       obo:IAO_0000115 rdfs:label oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym
@@ -60,7 +68,7 @@ WHERE {
     FILTER(EXISTS { ?axiom rdfs:comment ?quote }
            || (?property = obo:IAO_0000112 && REGEX(STR(?value), "^PGS[0-9]+$"))
            || (?property IN (rdfs:label, oboInOwl:hasExactSynonym, oboInOwl:hasRelatedSynonym, oboInOwl:hasBroadSynonym, oboInOwl:hasNarrowSynonym)
-               && REGEX(STR(?source), "^https://(www\\.ebi\\.ac\\.uk/gwas/studies/|www\\.pgscatalog\\.org/rest/cohort/|molgeniscatalogue\\.org/|atlas\\.ihccglobal\\.org)")))
+               && REGEX(STR(?source), "^https://(www\\.ebi\\.ac\\.uk/gwas/studies/|www\\.pgscatalog\\.org/rest/cohort/|ega-archive\\.org/studies/|molgeniscatalogue\\.org/|atlas\\.ihccglobal\\.org)")))
   }
 }
 ORDER BY ?property ?term

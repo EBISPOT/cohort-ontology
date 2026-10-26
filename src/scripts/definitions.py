@@ -18,8 +18,8 @@ Sources, in src/curation:
   definitions_evidence.tsv  one row per cohort: the drafted definition, its source,
                             the supporting quote and whether the quote was found in
                             the source (a review of 2026-09-22)
-  definition_quotes.tsv     the supporting quotes found by the evidence passes: ID, supports, quote, PMID, URL,
-                            found by, batch, definition md5
+  definition_quotes.tsv     the quotes supporting each definition: ID, supports, quote, PMID, URL,
+                            found by (the model or person), definition md5
   definitions_curated.tsv   overrides: ID, definition, source, note, drafted by, checked by. A
                             row here wins; an empty definition means the cohort is
                             to have none. The optional "drafted by" column names the

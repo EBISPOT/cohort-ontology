@@ -13,7 +13,9 @@ does (src/curation/name_sources.tsv, written by name_sources.py) gets a copy
 with the catalogue record's URL as oboInOwl:hasDbXref and no quote: the record
 is the evidence. A variant of the name its source uses (capitals,
 punctuation, a leading "The") carries that source and a note (IAO:0000116) saying
-how the source writes it. A quote or record for a name the term no longer carries is
+how the source writes it, and a label that is COHO's own description of a cohort no
+source names carries the source's describing sentence with a note saying so. A quote
+or record for a name the term no longer carries is
 left out and counted.
 
 Usage: src/scripts/names.py
@@ -51,8 +53,9 @@ NAME = re.compile(rf'^AnnotationAssertion\(((?:{ANN}\s*)*)(rdfs:label|oboInOwl:h
 def evidence(quote, pmid, url, note=""):
     notes = [f'Annotation(rdfs:comment "{M.esc(quote)}")'] if quote else []
     notes += [f'Annotation(oboInOwl:hasDbXref "{M.esc(x)}")' for x in (pmid, url) if x]
-    if note.startswith(("the source writes it", "the catalogue writes it")):
-        # a variant (capitals, punctuation, a leading "The") of the name its source uses: say how the source writes it
+    if note.startswith(("the source writes it", "the catalogue writes it", "the source describes it")):
+        # a variant (capitals, punctuation, a leading "The") of the name its source uses: say how the source writes it;
+        # a label that is COHO's own description of a cohort no source names: say that the source describes it
         notes.append(f'Annotation(obo:IAO_0000116 "{M.esc(note.split(":")[0])}")')
     return " ".join(notes)
 

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.ebi.ac.uk/coho/components/locations.owl>
-<http://www.ebi.ac.uk/coho/releases/2026-10-23/components/locations.owl>
-Annotation(owl:versionInfo "2026-10-23")
+<http://www.ebi.ac.uk/coho/releases/2026-10-26/components/locations.owl>
+Annotation(owl:versionInfo "2026-10-26")
 
 Declaration(ObjectProperty(<http://www.ebi.ac.uk/coho/has_data_collection_location>))
 Declaration(NamedIndividual(<http://dbpedia.org/resource/Africa>))
@@ -3793,7 +3793,7 @@ ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000339> (<http://www.ebi.ac.uk/coho/COHO_0000339>)
 
-ObjectPropertyAssertion(<http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000339> <http://dbpedia.org/resource/United_States>)
+ObjectPropertyAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39107334") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11303725/fullTextXML") Annotation(rdfs:comment "n = 229 (miRNA-seq)TARGET project, USA.") <http://www.ebi.ac.uk/coho/has_data_collection_location> <http://www.ebi.ac.uk/coho/COHO_0000339> <http://dbpedia.org/resource/United_States>)
 
 # Individual: <http://www.ebi.ac.uk/coho/COHO_0000340> (<http://www.ebi.ac.uk/coho/COHO_0000340>)
 

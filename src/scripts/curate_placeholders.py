@@ -12,7 +12,12 @@ key and the placeholder's COHO ID. For each row this script
     its ID: the row's label (the old label kept as a synonym), its acronyms and
     other names, the type, an isSubCohortOf link with its quote, and rows for its
     definition, example, locations and memberships in the curated files; the
-    curation status goes, the PGS subset membership stays;
+    curation status goes, the PGS subset membership stays. The quotes for its
+    label, its names the catalogue's record does not give, its type and its
+    definition come from src/curation/review_evidence.tsv (term: the placeholder's
+    COHO ID or the row's key) and go into name_evidence.tsv, type_evidence.tsv and
+    definition_quotes.tsv under its ID; a row lacking one of them is not applied,
+    since the axiom-evidence check would fail the build;
   - verdict "not a cohort": obsoletes the term (label "obsolete …", owl:deprecated,
     a comment giving the reason) and drops it from the PGS subset;
   - verdict "existing" (the COHO ID column names the term the sample is) or
@@ -34,7 +39,7 @@ with the decision, the term's ID (the surviving term's, for a merge) and the ter
 its names clash with. Changes to terms other than the placeholders are limited to
 the names a merge adds and the editor notes.
 
-Usage: curate_placeholders.py --rows FILE --provenance TEXT [--date YYYY-MM-DD] [--dry-run]
+Usage: curate_placeholders.py --rows FILE --provenance TEXT [--date YYYY-MM-DD] [--evidence FILE] [--dry-run]
 """
 
 import argparse
@@ -62,6 +67,7 @@ def main():
     ap.add_argument("--provenance", required=True)
     ap.add_argument("--date", default=datetime.date.today().isoformat())
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--evidence", default=str(M.REVIEW_EVIDENCE), help="the quotes for the curated terms' names, types and definitions")
     a = ap.parse_args()
 
     rows = list(csv.DictReader(open(a.rows, newline="", encoding="utf-8"), delimiter="\t", quoting=csv.QUOTE_NONE))
@@ -118,8 +124,8 @@ def main():
                 problems.append(f"{k}: definition, its source and its drafter are all needed")
             if not (x["example study"] or x["example PMID"]):
                 problems.append(f"{k}: no example study or paper")
-            elif bool(x["example quote"]) != bool(x["example quote URL"]):
-                problems.append(f"{k}: the example's quote and URL go together")
+            elif not (x["example quote"] and x["example quote URL"]):
+                problems.append(f"{k}: the example needs a quote and its URL")
             groups = [g.strip() for g in x["countries"].split(" || ")] if x["countries"] else []
             if x["countries"] and len({len(groups), len(x["location quote"].split(" || ")), len(x["location URL"].split(" || "))}) != 1:
                 problems.append(f"{k}: countries, location quote and location URL have different numbers of groups")
@@ -233,6 +239,22 @@ def main():
             for s in acrs:
                 add(added[t], T[t]["label"], s, True, have)
     added = {k: v for k, v in added.items() if v}
+
+    # --- evidence for the curated terms' names, types and definitions (review_evidence.tsv)
+    ev, catalogue = M.review_evidence(Path(a.evidence)), M.catalogue_names()
+    evidenced = collections.defaultdict(set)  # term -> names already carrying a quote or a record
+    for path in (M.CUR / "name_evidence.tsv", M.CUR / "name_sources.tsv"):
+        if path.exists():
+            with open(path, newline="", encoding="utf-8") as f:
+                for r in csv.DictReader(f, delimiter="\t"):
+                    evidenced[M.local(r["ID"])].add(r["name"])
+    for x in curated:
+        c = x["_c"]
+        rows_ev = ev.get(x["placeholder"], []) + (ev.get(x["key"], []) if x["key"] != x["placeholder"] else [])
+        x["_ev"] = M.plan_evidence(M.curie(c), x, rows_ev, names[c], catalogue, evidenced.get(c, ()))
+        problems += [f"{x['key']}: {p} (review_evidence.tsv)" for p in x["_ev"][3]]
+    if problems:
+        raise SystemExit("not applied:\n  " + "\n  ".join(dict.fromkeys(problems)))
 
     # --- shared names: editor notes on every term concerned; notes naming an obsoleted term go
     live2 = live - obsoleted
@@ -361,12 +383,13 @@ def main():
     text2 = "\n".join(out)
 
     # --- curated files and subsets
-    ex, tit, de, lo, am, ty = [], [], [], [], [], []
+    ex, tit, de, lo, am, ty, ne, te, dq = [], [], [], [], [], [], [], [], []
     titles = {r["PMID"] for r in csv.DictReader(open(M.CUR / "example_studies_titles.tsv", encoding="utf-8"), delimiter="\t")}
     for x in curated:
         i = M.curie(x["_c"])
         note = f"curated {a.date} from {a.provenance}"
-        ex.append([i, x["example study"], x["example PMID"], note + ("" if x["example quote"] else "; no quote: the paper could not be read (see the review's note)"), x["example quote"], x["example quote URL"], ""])
+        ne += x["_ev"][0]; te += x["_ev"][1]; dq += x["_ev"][2]
+        ex.append([i, x["example study"], x["example PMID"], note, x["example quote"], x["example quote URL"], ""])
         p = x["example PMID"].removeprefix("PMID:")
         if p and p not in titles and x["example title"]:
             titles.add(p); tit.append([p, x["example title"]])
@@ -414,11 +437,13 @@ def main():
     print(f"names added to merge targets {sum(len(v) for v in added.values())} on {len(added)} terms; editor notes {sum(len(v) for v in notes.values())} new, "
           f"{sum(len(v) for v in rewrite.values())} rewritten, {sum(len(v) for v in stale.values())} removed; isSubCohortOf {len(subs)}; memberships {len(am)}")
     print(f"definitions {len(de)}, examples {len(ex)}, titles {len(tit)}, location lines {len(lo)}; PGS subset lines now {len(pgs) - 1}")
+    print(f"evidence copied from {Path(a.evidence).name}: name quotes {len(ne)}, type quotes {len(te)}, definition quotes {len(dq)}")
     if a.dry_run:
         return
     M.EDIT.write_text(text2, encoding="utf-8")
     for path, rs in ((M.CUR / "example_studies_curated.tsv", ex), (M.CUR / "example_studies_titles.tsv", tit), (M.CUR / "definitions_curated.tsv", de),
-                     (M.CUR / "location_curated.tsv", lo), (M.CUR / "aggregation_members_curated.tsv", am), (M.CUR / "type_changes.tsv", ty)):
+                     (M.CUR / "location_curated.tsv", lo), (M.CUR / "aggregation_members_curated.tsv", am), (M.CUR / "type_changes.tsv", ty),
+                     (M.CUR / "name_evidence.tsv", ne), (M.CUR / "type_evidence.tsv", te), (M.CUR / "definition_quotes.tsv", dq)):
         if rs:
             t = path.read_text(encoding="utf-8")
             path.write_text(t + ("" if t.endswith("\n") else "\n") + M.rows_to_text(rs), encoding="utf-8")

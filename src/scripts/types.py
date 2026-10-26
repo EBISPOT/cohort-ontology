@@ -2,7 +2,7 @@
 """
 Write the evidence for the cohorts' types as the component
 src/ontology/components/types.owl: for every quote in
-src/curation/type_evidence.tsv (found by the evidence passes) and
+src/curation/type_evidence.tsv and
 src/curation/type_curated.tsv (found by a curator: ID, type, quote, PMID, URL,
 note), a copy of the term's class assertion in
 coho-edit.owl to cohort (COHO:0000000) or cohort aggregation (COHO:0000001),

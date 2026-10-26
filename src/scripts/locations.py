@@ -101,7 +101,7 @@ def main():
                 # out of the template with the quote and source on its last location only.
                 for c in countries.split("|"):
                     if c:
-                        # a location asserted without a quote takes the one the evidence passes found for it
+                        # a location asserted without a quote takes the one recorded for it in fact_quotes.tsv
                         q, pmid, u = (quote, "", url) if quote else FQ.get((cid, "location", f"dbpedia:{c}"), ("", "", url))
                         w.writerow([cid, "owl:NamedIndividual", labels.get(cid, ""), f"dbpedia:{c}", q, u, pmid])
                 located = True

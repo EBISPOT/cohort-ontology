@@ -81,7 +81,7 @@ def main():
                 evidence = (specific_quote or quote) if r["quote verified"] == "yes" else ""
                 source, url = r["source"].strip(), (r.get("URL") or "").strip()   # URL: the document the quote was read in, when it is not the source
                 if v and not evidence and (r["ID"], k, v) in FQ:
-                    # a number with no verified quote takes the one the evidence passes found for it
+                    # a number with no verified quote takes the one recorded for it in fact_quotes.tsv
                     evidence, pmid, url = FQ[(r["ID"], k, v)]
                     source = pmid or url
                     url = url if pmid else ""

@@ -25,8 +25,14 @@ at or after --from-row the script
     study to the GWAS subset. Countries backed by different quotes are given as
     groups separated by " || " in the countries, location quote and location URL
     columns alike (e.g. "India || Canada"), and each group becomes its own
-    location line. An example without a quote (its paper could not be read) is
-    minted with the reason taken from the row's note, and listed;
+    location line. An example needs its quote and URL;
+  - copies the quotes for the new term's label, its names the catalogue's record
+    does not give, its type and its definition from src/curation/review_evidence.tsv
+    (term: the row's input name; fact: label, acronym, synonym, type or definition;
+    value; quote; PMID; URL; note; found by) into name_evidence.tsv,
+    type_evidence.tsv and definition_quotes.tsv under the new ID. A row whose
+    label, type or definition, or a name only it gives, has no quote there is not
+    minted: the axiom-evidence check would fail the build;
   - writes the new COHO IDs, and the terms each row's names clash with, back
     into the review.
 
@@ -42,17 +48,20 @@ Earlier rows are only read, to resolve references. Changes to terms minted
 earlier other than new names (a new definition, type or label) are not made here:
 record them in catalog_cohorts_review_existing_terms.tsv and make them by hand.
 
-Usage: src/scripts/mint_cohorts.py --from-row N --provenance TEXT [--date YYYY-MM-DD] [--dry-run]
+Usage: src/scripts/mint_cohorts.py --from-row N --provenance TEXT [--date YYYY-MM-DD] [--evidence FILE] [--dry-run]
   --from-row    the first data row (1-based) of the review that this run mints from
   --provenance  how the rows were decided, used in the curated files' notes, e.g.
-                "the fourth tier of the GWAS and PGS Catalog review, checked by an
-                independent review before minting"
+                "the GWAS and PGS Catalog review, checked by an independent
+                review before minting"
+  --evidence    the quotes for the new terms' names, types and definitions
+                (default src/curation/review_evidence.tsv)
 """
 
 import argparse
 import collections
 import csv
 import datetime
+import hashlib
 import io
 import re
 from pathlib import Path
@@ -64,6 +73,8 @@ EDIT = ROOT / "src/ontology/coho-edit.owl"
 GAZ = ROOT / "src/templates/gaz_xrefs.tsv"
 GWAS_SUBSET = ROOT / "src/templates/GWAS.csv"
 PGS_SUBSET = ROOT / "src/templates/PGS.csv"
+REVIEW_EVIDENCE = CUR / "review_evidence.tsv"
+PGS_COHORTS = CUR / "pgs_catalog_cohorts.csv"
 COHORT, AGGREGATION, UNCLASSIFIED = "COHO_0000000", "COHO_0000001", "TEMP_temporary_unclassified"
 MINT = ("mint cohort", "mint aggregation")
 PLACEHOLDER = "placeholder"
@@ -79,14 +90,78 @@ SUB = ('ObjectPropertyAssertion(Annotation(rdfs:comment "{}") Annotation(oboInOw
 
 
 def fact_quotes():
-    """The quotes the evidence passes found for facts that had none (src/curation/fact_quotes.tsv, written by the
-    pipeline's collect.py): (ID, property, value) -> (quote, PMID, URL). property is as the passes name it (location,
-    participants, cases, controls, has_patients_with, ...); value is dbpedia:X, a number, or obo:X_n."""
+    """The quotes recorded for facts whose own table has none (src/curation/fact_quotes.tsv): (ID, property, value) ->
+    (quote, PMID, URL). property is location, participants, cases, controls, example, has_patients_with, ...; value is
+    dbpedia:X, a number, an accession or obo:X_n."""
     path = ROOT / "src/curation/fact_quotes.tsv"
     if not path.exists():
         return {}
     with open(path, newline="", encoding="utf-8") as f:
         return {(r["ID"], r["property"], r["value"]): (r["quote"], r["PMID"], r["URL"]) for r in csv.DictReader(f, delimiter="\t")}
+
+
+def review_evidence(path=REVIEW_EVIDENCE):
+    """The quotes for the facts of terms still to be minted or curated (src/curation/review_evidence.tsv: term, fact,
+    value, quote, PMID, URL, note, found by), keyed by `term`: the review row's input name, or the placeholder's COHO
+    ID. fact is label, acronym or synonym (value: the name), type (value empty) or definition (value: what the quote
+    supports). The minting scripts copy them into name_evidence.tsv, type_evidence.tsv and definition_quotes.tsv under
+    the term's ID."""
+    out = collections.defaultdict(list)
+    if path.exists():
+        with open(path, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                out[r["term"].strip()].append(r)
+    return out
+
+
+def catalogue_names():
+    """PGS Catalog cohort id -> the names its record gives (the id, the name, other names): a name the record gives
+    is sourced by the record (name_sources.py) and needs no quote."""
+    out = collections.defaultdict(set)
+    if PGS_COHORTS.exists():
+        with open(PGS_COHORTS, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                out[r["Cohort ID"]] |= {n.strip() for n in [r["Cohort ID"], r["Cohort Name"]]
+                                        + (r["Previous/other/additional names"] or "").split("|") if n.strip()}
+    return out
+
+
+def plan_evidence(cid, x, rows, names, catalogue, have=(), batch="review"):
+    """The evidence rows for a term minted or curated from review row x: (name_evidence rows, type_evidence rows,
+    definition_quotes rows, problems). `names` is [(name, is_acronym)] the term carries beside its label; `have` the
+    names already evidenced on it. A name that is the row's PGS id, one of its GWAS tags or a name the PGS Catalog's
+    record gives is sourced by the record and needs no quote; every other name, the type and the definition need one
+    from `rows` (review_evidence.tsv), or the term would fail the axiom-evidence check."""
+    acronyms = {s for s, acr in names if acr}
+    free = {x["PGS id"]} | set(split(x["GWAS tags"], ";")) | catalogue.get(x["PGS id"], set()) | set(have)
+    need = [s for s in dict.fromkeys([x["label"]] + [s for s, _ in names]) if s not in free]
+    ne, te, dq, problems, got = [], [], [], [], set()
+    md5 = hashlib.md5(x["definition"].encode()).hexdigest()[:12]
+    for r in rows:
+        fact, value = r["fact"].strip(), r["value"].strip()
+        if not r["quote"].strip() or not (r["PMID"].strip() or r["URL"].strip()):
+            problems.append(f"the {fact} quote needs its text and a PMID or URL")
+        elif fact in ("label", "acronym", "synonym"):
+            if value != x["label"] and all(value != s for s, _ in names):
+                problems.append(f"a quote for the name {value!r}, which the term does not carry")
+                continue
+            kind = "label" if value == x["label"] else "acronym" if value in acronyms else "synonym"
+            ne.append([cid, value, kind, r["quote"], r["PMID"], r["URL"], r["note"], r["found by"], batch])
+            got.add(value)
+        elif fact == "type":
+            te.append([cid, x["type"], r["quote"], r["PMID"], r["URL"], r["found by"], batch])
+            got.add("type")
+        elif fact == "definition":
+            dq.append([cid, value, r["quote"], r["PMID"], r["URL"], r["found by"], batch, md5])
+            got.add("definition")
+        else:
+            problems.append(f"evidence fact {fact!r}")
+    problems += [f"no quote for the name {s!r}" for s in need if s not in got]
+    if "type" not in got:
+        problems.append("no quote for the type")
+    if x["definition"] and "definition" not in got:
+        problems.append("no quote for the definition")
+    return ne, te, dq, problems
 
 
 def esc(s):
@@ -152,6 +227,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--review", default=str(REVIEW), help="the review to mint from (default: the GWAS and PGS Catalog review); "
                     "a review of another catalogue names its ids in a `catalogue id` column, which stands in for `PGS id`")
+    ap.add_argument("--evidence", default=str(REVIEW_EVIDENCE), help="the quotes for the new terms' names, types and definitions")
     a = ap.parse_args()
     review_path = Path(a.review)
 
@@ -221,8 +297,8 @@ def main():
             problems.append(f"row {n}: definition, its source and its drafter are all needed")
         if not (x["example study"] or x["example PMID"]):
             problems.append(f"row {n}: no example study or paper")
-        elif bool(x["example quote"]) != bool(x["example quote URL"]):
-            problems.append(f"row {n}: the example's quote and URL go together")
+        elif not (x["example quote"] and x["example quote URL"]):
+            problems.append(f"row {n}: the example needs a quote and its URL")
         groups = [g.strip() for g in x["countries"].split(" || ")] if x["countries"] else []
         if x["countries"] and len({len(groups), len(x["location quote"].split(" || ")), len(x["location URL"].split(" || "))}) != 1:
             problems.append(f"row {n}: countries, location quote and location URL have different numbers of groups")
@@ -280,6 +356,16 @@ def main():
             else:
                 problems.append(f"row {x['_n']}: {curie(tid)} is not in the edit file")
     added = {k: v for k, v in added.items() if v}
+
+    # --- evidence for the new terms' names, types and definitions (review_evidence.tsv)
+    ev, catalogue = review_evidence(Path(a.evidence)), catalogue_names()
+    for x in new:
+        if x["verdict"] == PLACEHOLDER:
+            continue
+        key = (x.get("input name") or "").strip()
+        rows_ev = ev.get(key, []) + (ev.get(x["label"], []) if x["label"] != key else [])
+        x["_ev"] = plan_evidence(x["_id"], x, rows_ev, names[local(x["_id"])], catalogue)
+        problems += [f"row {x['_n']}: {p} (review_evidence.tsv)" for p in x["_ev"][3]]
 
     if problems:
         raise SystemExit("not minted:\n  " + "\n  ".join(dict.fromkeys(problems)))
@@ -378,19 +464,16 @@ def main():
 
     # --- curated files
     prov = a.provenance
-    ex, tit, de, lo, gw, am, pg = [], [], [], [], [], [], []
+    ex, tit, de, lo, gw, am, pg, ne, te, dq = [], [], [], [], [], [], [], [], [], []
     titles = {r["PMID"] for r in csv.DictReader(open(CUR / "example_studies_titles.tsv", encoding="utf-8"), delimiter="\t")}
     subset = {l.split(",")[0] for l in open(GWAS_SUBSET, encoding="utf-8")}
-    unquoted = []
     for x in new:
         i = x["_id"]
         if x["verdict"] == PLACEHOLDER:
             pg.append([i, "owl:NamedIndividual", "http://www.ebi.ac.uk/coho#PGS_subset", x["label"]])
             continue
         note = f"minted {a.date} from {prov}"
-        if not x["example quote"]:
-            note += "; no quote: the paper could not be read (see the review's note)"
-            unquoted.append(f"{i} {x['label']}")
+        ne += x["_ev"][0]; te += x["_ev"][1]; dq += x["_ev"][2]
         ex.append([i, x["example study"], x["example PMID"], note, x["example quote"], x["example quote URL"], ""])
         p = x["example PMID"].removeprefix("PMID:")
         if p and p not in titles and x["example title"]:
@@ -433,14 +516,14 @@ def main():
           f"editor notes {sum(len(v) for v in notes.values())} new, {nrew} rewritten; "
           f"isSubCohortOf {sum(len(v) for v in subs.values())}; memberships {len(am)}")
     print(f"definitions {len(de)}, examples {len(ex)}, titles {len(tit)}, location lines {len(lo)}, GWAS subset {len(gw)}; review IDs filled {nid}")
-    if unquoted:
-        print("examples without a quote: " + "; ".join(unquoted))
+    print(f"evidence copied from {Path(a.evidence).name}: name quotes {len(ne)}, type quotes {len(te)}, definition quotes {len(dq)}")
     if a.dry_run:
         return
     EDIT.write_text(text2, encoding="utf-8")
     for path, rs, delim in ((CUR / "example_studies_curated.tsv", ex, "\t"), (CUR / "example_studies_titles.tsv", tit, "\t"),
                             (CUR / "definitions_curated.tsv", de, "\t"), (CUR / "location_curated.tsv", lo, "\t"),
-                            (CUR / "aggregation_members_curated.tsv", am, "\t"), (GWAS_SUBSET, gw, ","), (PGS_SUBSET, pg, ",")):
+                            (CUR / "aggregation_members_curated.tsv", am, "\t"), (GWAS_SUBSET, gw, ","), (PGS_SUBSET, pg, ","),
+                            (CUR / "name_evidence.tsv", ne, "\t"), (CUR / "type_evidence.tsv", te, "\t"), (CUR / "definition_quotes.tsv", dq, "\t")):
         if rs:
             t = path.read_text(encoding="utf-8")
             path.write_text(t + ("" if t.endswith("\n") else "\n") + rows_to_text(rs, delim), encoding="utf-8")

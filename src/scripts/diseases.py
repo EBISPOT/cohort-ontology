@@ -104,7 +104,7 @@ def main():
                 notes = []
                 quote, sources = r["quote"].strip(), [r["source"].strip()]
                 if not quote and (r["ID"], prop, term(tid)) in FQ:
-                    # a restriction with no quote takes the one the evidence passes found for it
+                    # a restriction with no quote takes the one recorded for it in fact_quotes.tsv
                     quote, pmid, url = FQ[(r["ID"], prop, term(tid))]
                     sources = [pmid, url]
                 if quote:
