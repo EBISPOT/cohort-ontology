@@ -8,7 +8,7 @@ An isSubCohortOf row becomes an `isSubCohortOf` assertion from the child to
 the parent in the edit file, placed after the child's label, annotated with
 the quote and its URL; a memberOf row becomes a line of
 `src/curation/aggregation_members_curated.tsv` (aggregation, member, quote,
-URL, note), from which `aggregation_members.py` rebuilds the template. Links
+URL, note), from which `components.py` rebuilds the template. Links
 already present are skipped; both terms must be live curated terms, the parent
 of a membership an aggregation and the parent of a sub-cohort link a cohort.
 

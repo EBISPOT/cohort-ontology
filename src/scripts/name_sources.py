@@ -4,7 +4,7 @@ Find the catalogue record that uses each of a cohort's names for which no
 document gave a quote (not in src/curation/name_evidence.tsv), and write them
 to src/curation/name_sources.tsv (ID, name, URL, note): many names are a
 catalogue's own code or name for the cohort and appear in no paper. The record
-is the evidence, so names.py puts its URL on the name as oboInOwl:hasDbXref,
+is the evidence, so components.py puts its URL on the name as oboInOwl:hasDbXref,
 without a quote. In order:
   - the term's entry in the Global Exposome Cohort Catalogue or the IHCC Cohort
     Atlas that gives the name (exposome_catalogue.tsv, ihcc_atlas.tsv);
@@ -31,7 +31,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import mint_cohorts as M  # noqa: E402
-from names import NAME  # noqa: E402
+from components import NAME  # noqa: E402
 import pgs_examples as P  # noqa: E402
 
 CUR = M.ROOT / "src/curation"

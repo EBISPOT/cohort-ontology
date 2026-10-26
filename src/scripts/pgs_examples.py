@@ -22,7 +22,7 @@ Catalog id).
 By default the placeholders of the subset (uncurated terms, IAO:0000124) that have
 no example yet are done; --all does every live term of the subset without a PGS
 example. The lines go to src/curation/example_studies_curated.tsv (a term that
-already has a PGS line there is left alone); run example_studies.py afterwards.
+already has a PGS line there is left alone); run components.py afterwards.
 Terms the Catalog lists in its cohort table but uses in no score get no example
 and are printed. A placeholder among them stays in the subset (the check exempts
 it); with --all, a curated term among them is taken out of the subset, since the
@@ -255,7 +255,7 @@ def main():
             print("\t".join(line))
         return
     # A term with curated lines gets only those, so a term given its first curated line here keeps the example
-    # example_studies.py chose for it by writing that example here too (from the template it last wrote).
+    # the examples component chose for it by writing that example here too (from the template it last wrote).
     kept = []
     firsts = {line[0] for line in lines if not have[M.local(line[0])]}
     with (M.ROOT / "src/templates/example_studies.tsv").open(newline="", encoding="utf-8") as f:
@@ -270,7 +270,7 @@ def main():
     if lines:
         t = CURATED.read_text(encoding="utf-8")
         CURATED.write_text(t + ("" if t.endswith("\n") else "\n") + M.rows_to_text(lines), encoding="utf-8")
-        print(f"{len(lines)} lines appended to {CURATED.relative_to(M.ROOT)}; now run example_studies.py")
+        print(f"{len(lines)} lines appended to {CURATED.relative_to(M.ROOT)}; now run components.py examples")
     if drop:
         gone = {M.curie(c) for c in drop}
         with M.PGS_SUBSET.open(newline="", encoding="utf-8") as f:

@@ -397,7 +397,8 @@ def main():
             de.append([i, x["definition"], x["definition source"], f"written from the cited source when the placeholder was {note}", x["drafted by"]])
         if x["countries"]:
             for cs, q, u in zip(x["countries"].split(" || "), x["location quote"].split(" || "), x["location URL"].split(" || ")):
-                lo.append([i, cs.strip(), q.strip(), u.strip(), note + ("" if q.strip() else "; the country is given by the cohort's name, no quote")])
+                for country in M.split(cs):
+                    lo.append([i, country, q.strip(), "", u.strip(), note + ("" if q.strip() else "; the country is given by the cohort's name, no quote")])
         if x.get("_parent") and x["parent relation"] == "memberOf":
             am.append([M.curie(x["_parent"]), i, x["parent quote"], x["parent URL"], f"membership stated in the source; added when the placeholder was {note}"])
         ty.append([i, x["label"], "temporary unclassified", x["type"], "yes", f"placeholder {note}"])

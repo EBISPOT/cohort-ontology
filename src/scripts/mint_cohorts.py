@@ -89,17 +89,6 @@ SUB = ('ObjectPropertyAssertion(Annotation(rdfs:comment "{}") Annotation(oboInOw
        "coho:isSubCohortOf coho:{} coho:{})")
 
 
-def fact_quotes():
-    """The quotes recorded for facts whose own table has none (src/curation/fact_quotes.tsv): (ID, property, value) ->
-    (quote, PMID, URL). property is location, participants, cases, controls, example, has_patients_with, ...; value is
-    dbpedia:X, a number, an accession or obo:X_n."""
-    path = ROOT / "src/curation/fact_quotes.tsv"
-    if not path.exists():
-        return {}
-    with open(path, newline="", encoding="utf-8") as f:
-        return {(r["ID"], r["property"], r["value"]): (r["quote"], r["PMID"], r["URL"]) for r in csv.DictReader(f, delimiter="\t")}
-
-
 def review_evidence(path=REVIEW_EVIDENCE):
     """The quotes for the facts of terms still to be minted or curated (src/curation/review_evidence.tsv: term, fact,
     value, quote, PMID, URL, note, found by), keyed by `term`: the review row's input name, or the placeholder's COHO
@@ -484,7 +473,8 @@ def main():
                 note = f"minted {a.date} from {prov}"
                 if not q.strip():
                     note += "; the country is given by the cohort's name, no quote"
-                lo.append([i, cs.strip(), q.strip(), u.strip(), note])
+                for country in split(cs):
+                    lo.append([i, country, q.strip(), "", u.strip(), note])
         if x["example study"].startswith("GCST") and i not in subset:
             gw.append([i, "owl:NamedIndividual", "http://www.ebi.ac.uk/coho#GWAS_subset", x["label"]])
     have = {(r["ID"], r["member cohort"]) for r in csv.DictReader(open(ROOT / "src/templates/aggregation_members.tsv", encoding="utf-8"), delimiter="\t")}
