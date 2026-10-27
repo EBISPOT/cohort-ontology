@@ -4,9 +4,9 @@
 # the root of ECTO), so that the exposure hierarchy is in the ontology. The
 # parent property has_exposure_of_interest is never asserted directly: the
 # sub-property says the role. A restriction on any other class, on a term the
-# import does not carry (no label, tested only where the imports are loaded,
-# that is when ECTO's root carries its label), or on an obsolete term is a
-# violation.
+# import does not carry (no label, tested wherever the imports are loaded, which
+# the label of RO's part of shows, so that a release built from an empty ECTO
+# import fails here), or on an obsolete term is a violation.
 PREFIX coho: <http://www.ebi.ac.uk/coho/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -31,7 +31,7 @@ WHERE {
     || !isIRI(?exposure)
     || !(STRSTARTS(STR(?exposure), "http://purl.obolibrary.org/obo/ECTO_")
          || ?exposure = obo:ExO_0000002)
-    || (EXISTS { obo:ExO_0000002 rdfs:label ?rootLabel } && NOT EXISTS { ?exposure rdfs:label ?exposureLabel })
+    || (EXISTS { obo:BFO_0000050 rdfs:label ?partOfLabel } && NOT EXISTS { ?exposure rdfs:label ?exposureLabel })
     || EXISTS { ?exposure owl:deprecated true }
   )
 }
