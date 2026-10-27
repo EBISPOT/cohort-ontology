@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.ebi.ac.uk/coho/imports/hp_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.owl>)
-Annotation(owl:versionInfo "2026-09-30")
+Annotation(owl:versionInfo "2026-10-27")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000002>))
@@ -187,95 +187,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HP_5210009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_5210013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HP_5210014>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003000>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003002>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003004>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OMO_0003011>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/BRAND_NAME>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/INN>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/chebi/IUPAC_NAME>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/hp#layperson>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/hp#uk_spelling>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/pr#Gene-based>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/rights>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
-Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#consider>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0100001> (term replaced by)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "term replaced by")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003000> (<http://purl.obolibrary.org/obo/OMO_0003000>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003000> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003002> (<http://purl.obolibrary.org/obo/OMO_0003002>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003002> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003004> (<http://purl.obolibrary.org/obo/OMO_0003004>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003004> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/OMO_0003011> (<http://purl.obolibrary.org/obo/OMO_0003011>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/OMO_0003011> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/chebi/BRAND_NAME> (<http://purl.obolibrary.org/obo/chebi/BRAND_NAME>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/chebi/BRAND_NAME> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/chebi/INN> (<http://purl.obolibrary.org/obo/chebi/INN>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/chebi/INN> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/chebi/IUPAC_NAME> (<http://purl.obolibrary.org/obo/chebi/IUPAC_NAME>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/chebi/IUPAC_NAME> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/hp#layperson> (<http://purl.obolibrary.org/obo/hp#layperson>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/hp#layperson> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/hp#uk_spelling> (<http://purl.obolibrary.org/obo/hp#uk_spelling>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/hp#uk_spelling> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/pr#Gene-based> (<http://purl.obolibrary.org/obo/pr#Gene-based>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/pr#Gene-based> <http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>)
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#consider> (consider)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#consider> "consider")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
-
 
 
 ############################
@@ -288,25 +204,25 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000001> "All"
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000002> (Abnormality of body height)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000002> "Deviation from the norm of height with respect to that which is expected according to age and gender norms.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000002> "Deviation from the norm of height with respect to that which is expected according to age and gender norms.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000002> "Abnormality of body height")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000002> <http://purl.obolibrary.org/obo/HP_0001507>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000079> (Abnormality of the urinary system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000079> "An abnormality of the urinary system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000079> "An abnormality of the urinary system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000079> "Abnormality of the urinary system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000079> <http://purl.obolibrary.org/obo/HP_0000119>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000118> (Phenotypic abnormality)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000118> "A phenotypic abnormality.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000118> "A phenotypic abnormality.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000118> "Phenotypic abnormality")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000118> <http://purl.obolibrary.org/obo/HP_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000119> (Abnormality of the genitourinary system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000119> "The presence of any abnormality of the genitourinary system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000119> "The presence of any abnormality of the genitourinary system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0000119> "Genitourinary disease")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0000119> "Genitourinary dysplasia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000119> "Abnormality of the genitourinary system")
@@ -314,25 +230,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0000119> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000152> (Abnormality of head or neck)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000152> "An abnormality of head and neck.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000152> "An abnormality of head and neck.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000152> "Abnormality of head or neck")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000152> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000234> (Abnormality of the head)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000234> "An abnormality of the head.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000234> "An abnormality of the head.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000234> "Abnormality of the head")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000234> <http://purl.obolibrary.org/obo/HP_0000152>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000240> (Abnormality of skull size)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000240> "Any abnormality of the size of the skull.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000240> "Any abnormality of the size of the skull.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000240> "Abnormality of skull size")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000240> <http://purl.obolibrary.org/obo/HP_0000929>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000252> (Microcephaly)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000252> "Head circumference below 2 standard deviations below the mean for age and gender.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15806441") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19125436") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25465325") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:9683597") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000252> "Head circumference below 2 standard deviations below the mean for age and gender.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0000252> "Fyler:4310")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000252> "Microcephaly")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000252> <http://purl.obolibrary.org/obo/HP_0007364>)
@@ -340,50 +256,60 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0000252> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000478> (Abnormality of the eye)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000478> "Any abnormality of the eye, including location, spacing, and intraocular abnormalities.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000478> "Any abnormality of the eye, including location, spacing, and intraocular abnormalities.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0000478> "Eye disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000478> "Abnormality of the eye")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000478> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000504> (Abnormality of vision)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000504> "Abnormality of eyesight (visual perception).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000504> "Abnormality of eyesight (visual perception).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000504> "Abnormality of vision")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000504> <http://purl.obolibrary.org/obo/HP_0012373>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000505> (Visual impairment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000505> "Visual impairment (or vision impairment) is vision loss (of a person) to such a degree as to qualify as an additional support need through a significant limitation of visual capability resulting from either disease, trauma, or congenital or degenerative conditions that cannot be corrected by conventional means, such as refractive correction, medication, or surgery.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0001-8727-6592>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000505> "Visual impairment (or vision impairment) is vision loss (of a person) to such a degree as to qualify as an additional support need through a significant limitation of visual capability resulting from either disease, trauma, or congenital or degenerative conditions that cannot be corrected by conventional means, such as refractive correction, medication, or surgery.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000505> "Visual impairment")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000505> <http://purl.obolibrary.org/obo/HP_0000504>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000539> (Abnormality of refraction)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000539> "An abnormality in the process of focusing of light by the eye in order to produce a sharp image on the retina.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000539> "An abnormality in the process of focusing of light by the eye in order to produce a sharp image on the retina.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000539> "Abnormality of refraction")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000539> <http://purl.obolibrary.org/obo/HP_0012373>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000545> (Myopia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000545> "An abnormality of refraction characterized by the ability to see objects nearby clearly, while objects in the distance appear blurry.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000545> "An abnormality of refraction characterized by the ability to see objects nearby clearly, while objects in the distance appear blurry.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000545> "Myopia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000545> <http://purl.obolibrary.org/obo/HP_0000539>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000707> (Abnormality of the nervous system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000707> "An abnormality of the nervous system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000707> "An abnormality of the nervous system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000707> "Abnormality of the nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000707> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000708> (Atypical behavior)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000708> "Atypical behavior is an abnormality in a person's actions that can be controlled or modulated by the will of the individual. While abnormal behaviors can be difficult to control, they are distinct from other abnormal actions that cannot be affected by the individual's will.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000708> <https://orcid.org/0000-0001-8430-6039>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000708> <https://orcid.org/0000-0002-0736-9199>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000708> <https://orcid.org/0000-0002-4142-7153>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000708> <https://orcid.org/0000-0002-4422-1708>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000708> <https://orcid.org/0000-0003-3777-1389>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000708> "Atypical behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000708> <http://purl.obolibrary.org/obo/HP_0011446>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000716> (Depression)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000716> "Frequently experiencing feelings of being down, miserable, and/or hopeless; struggling to recover from these moods; having a pessimistic outlook on the future; feeling a pervasive sense of shame; having a low self-worth; experiencing thoughts of suicide and engaging in suicidal behavior.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000716> <https://orcid.org/0000-0002-1111-7357>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000716> <https://orcid.org/0000-0002-7954-5235>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000716> <https://orcid.org/0000-0003-2897-0458>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000716> <https://orcid.org/0000-0003-4298-5074>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000716> <https://orcid.org/0000-0003-4618-6544>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0000716> "Depressive disorder")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000716> "Depression")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000716> <http://purl.obolibrary.org/obo/HP_0000745>)
@@ -392,63 +318,68 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0000716> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_0000745> (Abnormal diminished volition)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000745> "A reduction in willful and motivated goal-directed behavior that is considered the determinant of behavior and adaptation that allows individuals to get started, be energized to perform a sustained and directed action.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000745> <https://orcid.org/0000-0002-1111-7357>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000745> <https://orcid.org/0000-0002-7954-5235>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000745> <https://orcid.org/0000-0003-2897-0458>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000745> <https://orcid.org/0000-0003-4298-5074>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0000745> <https://orcid.org/0000-0003-4618-6544>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000745> "Abnormal diminished volition")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000745> <http://purl.obolibrary.org/obo/HP_0025780>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000855> (Insulin resistance)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000855> "Increased resistance towards insulin, that is, diminished effectiveness of insulin in reducing blood glucose levels.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000855> "Increased resistance towards insulin, that is, diminished effectiveness of insulin in reducing blood glucose levels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000855> "Insulin resistance")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000855> <http://purl.obolibrary.org/obo/HP_0011014>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000924> (Abnormality of the skeletal system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000924> "An abnormality of the skeletal system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000924> "An abnormality of the skeletal system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000924> "Abnormality of the skeletal system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000924> <http://purl.obolibrary.org/obo/HP_0033127>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000925> (Abnormality of the vertebral column)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000925> "Any abnormality of the vertebral column.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000925> "Any abnormality of the vertebral column.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0000925> "Abnormality of the backbone")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000925> "Abnormality of the vertebral column")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000925> <http://purl.obolibrary.org/obo/HP_0009121>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0000929> (Abnormal skull morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000929> "An abnormality of the skull, the bony framework of the head which is comprised of the neurocranium (with eight cranial bones) and the viscerocranium (facial skeleton) that comprises fourteen facial bones with the mandible as its largest bone.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0000929> "An abnormality of the skull, the bony framework of the head which is comprised of the neurocranium (with eight cranial bones) and the viscerocranium (facial skeleton) that comprises fourteen facial bones with the mandible as its largest bone.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0000929> "Abnormal skull morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000929> <http://purl.obolibrary.org/obo/HP_0000234>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0000929> <http://purl.obolibrary.org/obo/HP_0009121>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001197> (Abnormality of prenatal development or birth)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001197> "An abnormality of the fetus or the birth of the fetus, excluding structural abnormalities.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001197> "An abnormality of the fetus or the birth of the fetus, excluding structural abnormalities.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001197> "Abnormality of prenatal development or birth")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001197> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001268> (Mental deterioration)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001268> "Loss of previously present mental abilities, generally in adults.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001268> "Loss of previously present mental abilities, generally in adults.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001268> "Mental deterioration")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001268> <http://purl.obolibrary.org/obo/HP_0100543>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001297> (Stroke)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001297> "Sudden impairment of blood flow to a part of the brain due to occlusion or rupture of an artery to the brain.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001297> "Cerebrovascular accidents")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001297> "Sudden impairment of blood flow to a part of the brain due to occlusion or rupture of an artery to the brain.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-5316-1399>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001297> "Cerebrovascular accidents")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001297> "Stroke")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001297> <http://purl.obolibrary.org/obo/HP_0100659>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001298> (Encephalopathy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001298> "Encephalopathy is a term that means brain disease, damage, or malfunction. In general, encephalopathy is manifested by an altered mental state.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:KI_phemming") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001298> "Encephalopathy is a term that means brain disease, damage, or malfunction. In general, encephalopathy is manifested by an altered mental state.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001298> "Encephalopathy")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001298> <http://purl.obolibrary.org/obo/HP_0012638>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001438> (Abnormal abdomen morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001438> "A structural abnormality of the abdomen ('belly'), that is, the part of the body between the pelvis and the thorax.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001438> "A structural abnormality of the abdomen ('belly'), that is, the part of the body between the pelvis and the thorax.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001438> "Abdomen abnormality")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001438> "Abnormal abdomen morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001438> <http://purl.obolibrary.org/obo/HP_0025031>)
@@ -460,14 +391,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001507> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001510> (Growth delay)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001510> "A deficiency or slowing down of growth pre- and postnatally.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001510> "Very poor growth")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001510> "A deficiency or slowing down of growth pre- and postnatally.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-5316-1399>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001510> "Very poor growth")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001510> "Growth delay")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001510> <http://purl.obolibrary.org/obo/HP_0001507>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001600> (Abnormality of the larynx)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001600> "An abnormality of the larynx.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001600> "An abnormality of the larynx.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001600> "Abnormality of the larynx")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001600> <http://purl.obolibrary.org/obo/HP_0002087>)
 
@@ -478,33 +409,33 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001607> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001622> (Premature birth)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001622> "The birth of a baby of less than 37 weeks of gestational age.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001622> "The birth of a baby of less than 37 weeks of gestational age.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001622> "Premature birth")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001622> <http://purl.obolibrary.org/obo/HP_0001197>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001626> (Abnormality of the cardiovascular system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001626> "Any abnormality of the cardiovascular system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001626> "Any abnormality of the cardiovascular system.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001626> "Cardiovascular disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001626> "Abnormality of the cardiovascular system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001626> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001627> (Abnormal heart morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001627> "Any structural anomaly of the heart.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001627> "Any structural anomaly of the heart.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001627> "Abnormal heart morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001627> <http://purl.obolibrary.org/obo/HP_0030680>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001645> (Sudden cardiac death)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001645> "The heart suddenly and unexpectedly stops beating resulting in death within a short time period (generally within 1 h of symptom onset).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001645> "The heart suddenly and unexpectedly stops beating resulting in death within a short time period (generally within 1 h of symptom onset).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001645> "Sudden cardiac death")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001645> <http://purl.obolibrary.org/obo/HP_0001695>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001645> <http://purl.obolibrary.org/obo/HP_0001699>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001646> (Abnormal aortic valve morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001646> "Any abnormality of the aortic valve.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001646> "Any abnormality of the aortic valve.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0001646> "Fyler:1400")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0001646> "Fyler:1408")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001646> "Abnormal aortic valve morphology")
@@ -512,13 +443,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001646> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001647> (Bicuspid aortic valve)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001647> "The presence of an aortic valve with two instead of the normal three cusps (flaps). Bicuspid aortic valvue is a malformation of a commissure (small space between the attachment of each cusp to the aortic wall) and the adjacent parts of the two corresponding cusps forming a raphe (the fused area of the two underdeveloped cusps turning into a malformed commissure between both cusps; the raphe is a fibrous ridge that extends from the commissure to the free edge of the two underdeveloped, conjoint cusps).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17467434") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24827036") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001647> "The presence of an aortic valve with two instead of the normal three cusps (flaps). Bicuspid aortic valvue is a malformation of a commissure (small space between the attachment of each cusp to the aortic wall) and the adjacent parts of the two corresponding cusps forming a raphe (the fused area of the two underdeveloped cusps turning into a malformed commissure between both cusps; the raphe is a fibrous ridge that extends from the commissure to the free edge of the two underdeveloped, conjoint cusps).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001647> "Bicuspid aortic valve")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001647> <http://purl.obolibrary.org/obo/HP_0031567>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001649> (Tachycardia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001649> "A rapid heartrate that exceeds the range of the normal resting heartrate for age.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001649> "A rapid heartrate that exceeds the range of the normal resting heartrate for age.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001649> "Elevated heart rate")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001649> "Increased heart rate")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001649> "Rapid heart beat")
@@ -527,20 +458,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001649> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001654> (Abnormal heart valve morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001654> "Any structural abnormality of a cardiac valve.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001654> "Any structural abnormality of a cardiac valve.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001654> "Valvular heart disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001654> "Abnormal heart valve morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001654> <http://purl.obolibrary.org/obo/HP_0001627>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001662> (Bradycardia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001662> "A slower than normal heart rate (in adults, slower than 60 beats per minute).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001662> "A slower than normal heart rate (in adults, slower than 60 beats per minute).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001662> "Bradycardia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001662> <http://purl.obolibrary.org/obo/HP_0011675>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001677> (Coronary artery atherosclerosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001677> "Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries, which increases the risk of myocardial ischemia.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31420554") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001677> "Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries, which increases the risk of myocardial ischemia.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001677> "Coronary artery atherosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001677> <http://purl.obolibrary.org/obo/HP_0002621>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001677> <http://purl.obolibrary.org/obo/HP_0006704>)
@@ -548,7 +479,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001677> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001679> (Abnormal aortic morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001679> "An abnormality of the aorta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24910511") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001679> "An abnormality of the aorta.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0001679> "Fyler:1453")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001679> "Abnormal aortic morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001679> <http://purl.obolibrary.org/obo/HP_0011004>)
@@ -556,7 +487,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001679> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001681> (Angina pectoris)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001681> "Paroxysmal chest pain that occurs with exertion or stress and is related to myocardial ischemia.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001681> "Paroxysmal chest pain that occurs with exertion or stress and is related to myocardial ischemia.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001681> "Angina pectoris")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001681> <http://purl.obolibrary.org/obo/HP_0011025>)
 
@@ -568,13 +499,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001695> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001699> (Sudden death)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001699> "Rapid and unexpected death.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001699> "Rapid and unexpected death.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001699> "Sudden death")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001699> <http://purl.obolibrary.org/obo/HP_0025142>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001871> (Abnormality of blood and blood-forming tissues)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001871> "An abnormality of the hematopoietic system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001871> "An abnormality of the hematopoietic system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0001871> "Hematologic disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001871> "Abnormality of blood and blood-forming tissues")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001871> <http://purl.obolibrary.org/obo/HP_0000118>)
@@ -586,50 +517,50 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0001939> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001945> (Fever)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001945> "Body temperature elevated above the normal range.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0009-0006-4530-3154>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:9759682") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001945> "Body temperature elevated above the normal range.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001945> "Fever")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001945> <http://purl.obolibrary.org/obo/HP_0004370>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001952> (Glucose intolerance)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001952> "Glucose intolerance (GI) can be defined as dysglycemia that comprises both prediabetes and diabetes. It includes the conditions of impaired fasting glucose (IFG) and impaired glucose tolerance (IGT) and diabetes mellitus (DM).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29763085") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001952> "Glucose intolerance (GI) can be defined as dysglycemia that comprises both prediabetes and diabetes. It includes the conditions of impaired fasting glucose (IFG) and impaired glucose tolerance (IGT) and diabetes mellitus (DM).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001952> "Glucose intolerance")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001952> <http://purl.obolibrary.org/obo/HP_0011014>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0001977> (Abnormal thrombosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001977> "Venous or arterial thrombosis (formation of blood clots) of spontaneous nature and which cannot be fully explained by acquired risk (e.g. atherosclerosis).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0001977> "Venous or arterial thrombosis (formation of blood clots) of spontaneous nature and which cannot be fully explained by acquired risk (e.g. atherosclerosis).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0001977> "Abnormal thrombosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0001977> <http://purl.obolibrary.org/obo/HP_0001871>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002011> (Morphological central nervous system abnormality)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002011> "A structural abnormality of the central nervous system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002011> "A structural abnormality of the central nervous system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002011> "Central nervous system disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002011> "Morphological central nervous system abnormality")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002011> <http://purl.obolibrary.org/obo/HP_0012639>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002060> (Abnormal cerebral morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002060> "Any structural abnormality of the telencephalon, which is also known as the cerebrum.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002060> "Any structural abnormality of the telencephalon, which is also known as the cerebrum.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002060> "Abnormal cerebral morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002060> <http://purl.obolibrary.org/obo/HP_0100547>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002086> (Abnormality of the respiratory system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002086> "An abnormality of the respiratory system, which include the airways, lungs, and the respiratory muscles.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002086> "An abnormality of the respiratory system, which include the airways, lungs, and the respiratory muscles.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002086> "Abnormality of the respiratory system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002086> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002087> (Abnormality of the upper respiratory tract)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002087> "An abnormality of the upper respiratory tract.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002087> "An abnormality of the upper respiratory tract.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002087> "Abnormality of the upper respiratory tract")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002087> <http://purl.obolibrary.org/obo/HP_0012252>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002140> (Ischemic stroke)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002140> "Acute ischemic stroke (AIS) is defined by the sudden loss of blood flow to an area of the brain with the resulting loss of neurologic function. It is caused by thrombosis or embolism that occludes a cerebral vessel supplying a specific area of the brain. During a vessel occlusion, there is a core area where damage to the brain is irreversible and an area of penumbra where the brain has lost function owing to decreased blood flow but is not irreversibly injured.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32054610") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002140> "Acute ischemic stroke (AIS) is defined by the sudden loss of blood flow to an area of the brain with the resulting loss of neurologic function. It is caused by thrombosis or embolism that occludes a cerebral vessel supplying a specific area of the brain. During a vessel occlusion, there is a core area where damage to the brain is irreversible and an area of penumbra where the brain has lost function owing to decreased blood flow but is not irreversibly injured.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002140> "Ischemic stroke")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.org/obo/HP_0001297>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.org/obo/HP_0002637>)
@@ -637,19 +568,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0002140> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002360> (Sleep disturbance)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002360> "An abnormal pattern in the quality, quantity, or characteristics of sleep.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32809555") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002360> "An abnormal pattern in the quality, quantity, or characteristics of sleep.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0001-6262-8264>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0001-9446-5121>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0002-1592-0825>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0002-4672-4923>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0002-5554-6946>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0002360> <https://orcid.org/0000-0002-7367-663X>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002360> "Sleep disturbance")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002360> <http://purl.obolibrary.org/obo/HP_0011446>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002597> (Abnormality of the vasculature)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002597> "An abnormality of the vasculature.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002597> "An abnormality of the vasculature.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002597> "Abnormality of the vasculature")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002597> <http://purl.obolibrary.org/obo/HP_0001626>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002617> (Vascular dilatation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002617> "An abnormal increase in the diameter of an artery or vein, either as a diffuse dilatation or as a localized, sac-like outpouching of the vessel wall (aneurysm).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30225143") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002617> "An abnormal increase in the diameter of an artery or vein, either as a diffuse dilatation or as a localized, sac-like outpouching of the vessel wall (aneurysm).")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0002617> "Fyler:2399")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002617> "Aneurysmal disease")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002617> "Vascular dilatation")
@@ -657,19 +594,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0002617> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002621> (Atherosclerosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002621> "A condition characterized by patchy atheromas or atherosclerotic plaques which develop in the walls of medium-sized and large arteries and can lead to arterial stenosis with reduced or blocked blood flow.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31420554") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002621> "A condition characterized by patchy atheromas or atherosclerotic plaques which develop in the walls of medium-sized and large arteries and can lead to arterial stenosis with reduced or blocked blood flow.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002621> "Atherosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002621> <http://purl.obolibrary.org/obo/HP_0002634>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002625> (Deep venous thrombosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002625> "Formation of a blot clot in a deep vein. The clot often blocks blood flow, causing swelling and pain. The deep veins of the leg are most often affected.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002625> "Formation of a blot clot in a deep vein. The clot often blocks blood flow, causing swelling and pain. The deep veins of the leg are most often affected.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002625> "Deep venous thrombosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002625> <http://purl.obolibrary.org/obo/HP_0004936>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002634> (Arteriosclerosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002634> "Sclerosis (hardening) of the arteries with increased thickness of the wall of arteries as well as increased stiffness and a loss of elasticity.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002634> "Sclerosis (hardening) of the arteries with increased thickness of the wall of arteries as well as increased stiffness and a loss of elasticity.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002634> "Arteriosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002634> <http://purl.obolibrary.org/obo/HP_0011004>)
 
@@ -681,23 +618,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0002637> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002664> (Neoplasm)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002664> "An organ or organ-system abnormality that consists of uncontrolled autonomous cell-proliferation which can occur in any part of the body as a benign or malignant neoplasm (tumor).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002664> "An organ or organ-system abnormality that consists of uncontrolled autonomous cell-proliferation which can occur in any part of the body as a benign or malignant neoplasm (tumor).")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0002664> "NCIT:C3262")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002664> "Cancer")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002664> "Oncology")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0002664> "Oncology")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002664> "Neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002664> <http://purl.obolibrary.org/obo/HP_0000118>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002665> (Lymphoma)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002665> "A cancer originating in lymphocytes and presenting as a solid tumor of lymhpoid cells.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002665> "A cancer originating in lymphocytes and presenting as a solid tumor of lymhpoid cells.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0002665> "NCIT:C7065")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002665> "Lymphoma")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002665> <http://purl.obolibrary.org/obo/HP_0004377>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002715> (Abnormality of the immune system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002715> "An abnormality of the immune system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002715> "An abnormality of the immune system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002715> "Abnormality of the immune system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002715> <http://purl.obolibrary.org/obo/HP_0000118>)
 
@@ -712,13 +649,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0002795> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0002977> (Aplasia/Hypoplasia involving the central nervous system)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002977> "Absence or underdevelopment of tissue in the central nervous system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0002977> "Absence or underdevelopment of tissue in the central nervous system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0002977> "Aplasia/Hypoplasia involving the central nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0002977> <http://purl.obolibrary.org/obo/HP_0002011>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0003011> (Abnormality of the musculature)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003011> "Abnormality originating in one or more muscles, i.e., of the set of muscles of body.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003011> "Abnormality originating in one or more muscles, i.e., of the set of muscles of body.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0003011> "Abnormality of the musculature")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003011> <http://purl.obolibrary.org/obo/HP_0033127>)
 
@@ -730,7 +667,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0003107> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0003110> (Abnormality of urine homeostasis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003110> "An abnormality of the composition of urine or the levels of its components.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003110> "An abnormality of the composition of urine or the levels of its components.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0003110> "Abnormality of urine homeostasis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003110> <http://purl.obolibrary.org/obo/HP_0001939>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003110> <http://purl.obolibrary.org/obo/HP_0011277>)
@@ -745,13 +682,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0003119> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0003124> (Hypercholesterolemia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003124> "An increased concentration of cholesterol in the blood.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:gcarletti") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003124> "An increased concentration of cholesterol in the blood.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0003124> "Hypercholesterolemia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003124> <http://purl.obolibrary.org/obo/HP_0003107>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0003202> (Skeletal muscle atrophy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003202> "The presence of skeletal muscular atrophy (which is also known as amyotrophy).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0003202> "The presence of skeletal muscular atrophy (which is also known as amyotrophy).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0003202> "Skeletal muscle atrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0003202> <http://purl.obolibrary.org/obo/HP_0011805>)
 
@@ -770,14 +707,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0003419> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004322> (Short stature)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004322> "A height below that which is expected according to age and gender norms. Although there is no universally accepted definition of short stature, many refer to \"short stature\" as height more than 2 standard deviations below the mean for age and gender (or below the 3rd percentile for age and gender dependent norms).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004322> "A height below that which is expected according to age and gender norms. Although there is no universally accepted definition of short stature, many refer to \"short stature\" as height more than 2 standard deviations below the mean for age and gender (or below the 3rd percentile for age and gender dependent norms).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004322> "Short stature")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004322> <http://purl.obolibrary.org/obo/HP_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004322> <http://purl.obolibrary.org/obo/HP_0001510>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004323> (Abnormality of body weight)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004323> "An abnormal increase or decrease of weight or an abnormal distribution of mass in the body.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004323> "An abnormal increase or decrease of weight or an abnormal distribution of mass in the body.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0004323> "Abnormality of habitus")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004323> "Abnormality of body weight")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004323> <http://purl.obolibrary.org/obo/HP_0001507>)
@@ -791,14 +728,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0004324> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004370> (Abnormality of temperature regulation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004370> "An abnormality of temperature homeostasis.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004370> "An abnormality of temperature homeostasis.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/hp#layperson>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0004370> "Body temperature changes")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004370> "Abnormality of temperature regulation")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004370> <http://purl.obolibrary.org/obo/HP_0012337>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004377> (Hematological neoplasm)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004377> "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.ncbi.nlm.nih.gov/mesh?term=Hematologic%20Neoplasms") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004377> "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004377> "Hematological neoplasm")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004377> <http://purl.obolibrary.org/obo/HP_0001871>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004377> <http://purl.obolibrary.org/obo/HP_0011793>)
@@ -810,14 +747,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0004416> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004755> (Supraventricular tachycardia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004755> "Supraventricular tachycardia (SVT) is an abnormally increased heart rate (over 100 beats per minute at rest) with origin above the level of the ventricles.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:DDD_dbrown") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004755> "Supraventricular tachycardia (SVT) is an abnormally increased heart rate (over 100 beats per minute at rest) with origin above the level of the ventricles.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004755> "Supraventricular tachycardia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004755> <http://purl.obolibrary.org/obo/HP_0001649>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004755> <http://purl.obolibrary.org/obo/HP_0005115>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0004936> (Venous thrombosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004936> "Formation of a blood clot (thrombus) inside a vein, causing the obstruction of blood flow.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0004936> "Formation of a blood clot (thrombus) inside a vein, causing the obstruction of blood flow.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0004936> "Venous thrombosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0004936> <http://purl.obolibrary.org/obo/HP_0001977>)
 
@@ -840,31 +777,31 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0004970> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0005115> (Supraventricular arrhythmia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005115> "A type of arrhythmia that originates above the ventricles, whereby the electrical impulse propagates down the normal His Purkinje system similar to normal sinus rhythm.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005115> "A type of arrhythmia that originates above the ventricles, whereby the electrical impulse propagates down the normal His Purkinje system similar to normal sinus rhythm.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005115> "Supraventricular arrhythmia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0005115> <http://purl.obolibrary.org/obo/HP_0011675>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0005162> (Abnormal left ventricular function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005162> "Inability of the left ventricle to perform its normal physiologic function. Failure is either due to an inability to contract the left ventricle or the inability to relax completely and fill with blood during diastole.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:10956313") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.heart.org/HEARTORG/Conditions/HeartFailure/AboutHeartFailure/Types-of-Heart-Failure_UCM_306323_Article.jsp#.WmeKyJM-dL4") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005162> "Inability of the left ventricle to perform its normal physiologic function. Failure is either due to an inability to contract the left ventricle or the inability to relax completely and fill with blood during diastole.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005162> "Abnormal left ventricular function")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0005162> <http://purl.obolibrary.org/obo/HP_0030872>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0005181> (Premature coronary artery atherosclerosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005181> "Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries before age of 45.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28070240") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0005181> "Reduction of the diameter of the coronary arteries as the result of an accumulation of atheromatous plaques within the walls of the coronary arteries before age of 45.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0005181> "Premature coronary artery atherosclerosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0005181> <http://purl.obolibrary.org/obo/HP_0001677>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0006536> (Airway obstruction)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006536> "Obstruction of conducting airways of the lung.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006536> "Obstruction of conducting airways of the lung.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0006536> "Airway obstruction")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0006536> <http://purl.obolibrary.org/obo/HP_0002795>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0006704> (Abnormal coronary artery morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006704> "Any structural abnormality of the coronary arteries.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006704> "Any structural abnormality of the coronary arteries.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0006704> "Fyler:3100")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0006704> "Abnormal coronary artery morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0006704> <http://purl.obolibrary.org/obo/HP_0011004>)
@@ -872,6 +809,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0006704> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_0006932> (Transient psychotic episodes)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0006932> "Relatively short-lived periods of psychosis are characterized by the sudden onset of severe disturbances in perception, thinking, and behavior. These episodes typically last for a brief duration, generally ranging from a few days to a few weeks, and are often triggered by a significant stressor or traumatic event.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0001-7062-8192>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0001-7941-2961>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0001-9221-9226>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0002-0183-1637>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0003-1785-7126>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0003-2291-6952>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0006932> <https://orcid.org/0000-0003-4958-6025>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0006932> "Transient psychotic episodes")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0006932> <http://purl.obolibrary.org/obo/HP_5200430>)
 
@@ -883,7 +827,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0007364> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0007379> (Neoplasm of the genitourinary tract)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0007379> "A tumor (abnormal growth of tissue) of the genitourinary system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0007379> "A tumor (abnormal growth of tissue) of the genitourinary system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0007379> "NCIT:C3262")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0007379> "Genitourinary tract neoplasia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0007379> "Neoplasm of the genitourinary tract")
@@ -892,26 +836,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0007379> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0009121> (Abnormal axial skeleton morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0009121> "An abnormality of the axial skeleton, which comprises the skull, the vertebral column, the ribs and the sternum.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0009121> "An abnormality of the axial skeleton, which comprises the skull, the vertebral column, the ribs and the sternum.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0009121> "Abnormality of the axial skeleton")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0009121> "Abnormal axial skeleton morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0009121> <http://purl.obolibrary.org/obo/HP_0011842>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0010978> (Abnormality of immune system physiology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0010978> "A functional abnormality of the immune system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "MP:0001790") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0010978> "A functional abnormality of the immune system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0010978> "Abnormality of immune system physiology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0010978> <http://purl.obolibrary.org/obo/HP_0002715>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011003> (High myopia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011003> "A severe form of myopia with greater than -6.00 diopters.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:DDD_ncarter") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011003> "A severe form of myopia with greater than -6.00 diopters.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011003> "High myopia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011003> <http://purl.obolibrary.org/obo/HP_0000545>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011004> (Abnormal systemic arterial morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011004> "An abnormality of the systemic arterial tree, which consists of the aorta and other systemic arteries.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011004> "An abnormality of the systemic arterial tree, which consists of the aorta and other systemic arteries.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0011004> "Fyler:2600")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0011004> "Arterial abnormalities")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011004> "Abnormal systemic arterial morphology")
@@ -919,26 +863,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0011004> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011013> (Abnormal circulating carbohydrate concentration)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011013> "A deviation from the normal concentration of a carbohydrate in the blood circulation.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011013> "A deviation from the normal concentration of a carbohydrate in the blood circulation.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011013> "Abnormal circulating carbohydrate concentration")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011013> <http://purl.obolibrary.org/obo/HP_0430071>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011014> (Abnormal glucose homeostasis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011014> "Abnormality of glucose homeostasis.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011014> "Abnormality of glucose homeostasis.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011014> "Abnormal glucose homeostasis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011014> <http://purl.obolibrary.org/obo/HP_0012337>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011015> (Abnormal blood glucose concentration)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011015> "An abnormality of the concentration of glucose in the blood.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011015> "An abnormality of the concentration of glucose in the blood.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011015> "Abnormal blood glucose concentration")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011015> <http://purl.obolibrary.org/obo/HP_0011014>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011015> <http://purl.obolibrary.org/obo/HP_0020347>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011025> (Abnormal cardiovascular system physiology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011025> "Abnormal functionality of the cardiovascular system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011025> "Abnormal functionality of the cardiovascular system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011025> "Abnormal cardiovascular system physiology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011025> <http://purl.obolibrary.org/obo/HP_0001626>)
 
@@ -950,111 +894,118 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0011277> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_0011446> (Abnormality of mental function)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011446> "Cognitive, psychiatric, or memory anomaly.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0001-7062-8192>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0001-7941-2961>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0001-9221-9226>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0002-0183-1637>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0003-1785-7126>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0003-2291-6952>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0011446> <https://orcid.org/0000-0003-4958-6025>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011446> "Abnormality of mental function")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011446> <http://purl.obolibrary.org/obo/HP_0012638>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011451> (Primary microcephaly)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011451> "Head circumference below 2 standard deviations below the mean for age and gender at birth.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0011451> "Head circumference small for gestational age")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011451> "Head circumference below 2 standard deviations below the mean for age and gender at birth.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0001-5889-4463>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/HP_0011451> "Head circumference small for gestational age")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011451> "Primary microcephaly")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011451> <http://purl.obolibrary.org/obo/HP_0000252>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011675> (Arrhythmia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011675> "Any cardiac rhythm other than the normal sinus rhythm. Such a rhythm may be either of sinus or ectopic origin and either regular or irregular. An arrhythmia may be due to a disturbance in impulse formation or conduction or both.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:DDD_dbrown") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19063792") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011675> "Any cardiac rhythm other than the normal sinus rhythm. Such a rhythm may be either of sinus or ectopic origin and either regular or irregular. An arrhythmia may be due to a disturbance in impulse formation or conduction or both.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011675> "Arrhythmia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011675> <http://purl.obolibrary.org/obo/HP_0030956>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011793> (Neoplasm by anatomical site)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011793> "Neoplasm categorized according to the anatomical site of origin of the neoplasm.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-9113-2978>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011793> "Neoplasm categorized according to the anatomical site of origin of the neoplasm.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011793> "Neoplasm by anatomical site")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011793> <http://purl.obolibrary.org/obo/HP_0002664>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011805> (Abnormal skeletal muscle morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011805> "A structural abnormality of a skeletal muscle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011805> "A structural abnormality of a skeletal muscle.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011805> "Abnormal skeletal muscle morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011805> <http://purl.obolibrary.org/obo/HP_0003011>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0011842> (Abnormal skeletal morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011842> "An abnormality of the form, structure, or size of the skeletal system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0011842> "An abnormality of the form, structure, or size of the skeletal system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0011842> "Abnormal skeletal morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0011842> <http://purl.obolibrary.org/obo/HP_0000924>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012191> (B-cell lymphoma)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012191> "A type of lymphoma that originates in B-cells.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012191> "A type of lymphoma that originates in B-cells.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012191> "B-cell lymphoma")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012191> <http://purl.obolibrary.org/obo/HP_0012539>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012252> (Abnormal respiratory system morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012252> "A structural anomaly of the respiratory system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012252> "A structural anomaly of the respiratory system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0012252> "Fyler:4235")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012252> "Abnormal respiratory system morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012252> <http://purl.obolibrary.org/obo/HP_0002086>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012337> (Abnormal homeostasis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012337> "An anomaly in the processes involved in the maintenance of an internal equilibrium.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0012337> "MP:0001764")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012337> "An anomaly in the processes involved in the maintenance of an internal equilibrium.")
+AnnotationAssertion(Annotation(rdfs:label "Abnormal homeostasis") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0012337> "MP:0001764")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012337> "Abnormal homeostasis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012337> <http://purl.obolibrary.org/obo/HP_0001939>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012373> (Abnormal eye physiology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012373> "A functional anomaly of the eye.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012373> "A functional anomaly of the eye.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012373> "Abnormal eye physiology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012373> <http://purl.obolibrary.org/obo/HP_0000478>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012393> (Allergy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012393> "An allergy is an immune response or reaction to substances that are usually not harmful.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012393> "An allergy is an immune response or reaction to substances that are usually not harmful.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012393> "Allergy")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012393> <http://purl.obolibrary.org/obo/HP_0100326>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012443> (Abnormal brain morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012443> "A structural abnormality of the brain, which has as its parts the forebrain, midbrain, and hindbrain.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012443> "A structural abnormality of the brain, which has as its parts the forebrain, midbrain, and hindbrain.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012443> "Abnormal brain morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012443> <http://purl.obolibrary.org/obo/HP_0002011>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012531> (Pain)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012531> "An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0001-5208-3432>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012531> "An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012531> "Pain")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012531> <http://purl.obolibrary.org/obo/HP_0025142>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012539> (Non-Hodgkin lymphoma)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012539> "A type of lymphoma characterized microscopically by the absence of multinucleated Reed-Sternberg cells.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012539> "A type of lymphoma characterized microscopically by the absence of multinucleated Reed-Sternberg cells.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012539> "Non-Hodgkin lymphoma")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012539> <http://purl.obolibrary.org/obo/HP_0002665>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012592> (Albuminuria)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012592> "Increased concentration of albumin in the urine.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:Eurenomics_fschaefer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012592> "Increased concentration of albumin in the urine.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012592> "Albuminuria")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012592> <http://purl.obolibrary.org/obo/HP_0020129>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012594> (Moderate albuminuria)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012594> "The presence of moderately increased concentrations of albumin in the urine, defined as and albumin-creatinine ratio (ACR) of 30 to 299 mg/gm (3.4 to 34 mg/mmol).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "HPO_CONTRIBUTOR:Eurenomics_fschaefer") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30571025") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012594> "The presence of moderately increased concentrations of albumin in the urine, defined as and albumin-creatinine ratio (ACR) of 30 to 299 mg/gm (3.4 to 34 mg/mmol).")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012594> "Moderate albuminuria")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012594> <http://purl.obolibrary.org/obo/HP_0012592>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012638> (Abnormal nervous system physiology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012638> "A functional anomaly of the nervous system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012638> "A functional anomaly of the nervous system.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012638> "Abnormal nervous system physiology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012638> <http://purl.obolibrary.org/obo/HP_0000707>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012639> (Abnormal nervous system morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012639> "A structural anomaly of the nervous system.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012639> "A structural anomaly of the nervous system.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0012639> "Fyler:4135")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0012639> "Fyler:4300")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012639> "Abnormal nervous system morphology")
@@ -1062,13 +1013,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0012639> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0012727> (Thoracic aortic aneurysm)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012727> "An abnormal localized widening (dilatation) of the thoracic aorta.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0012727> "An abnormal localized widening (dilatation) of the thoracic aorta.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0012727> "Thoracic aortic aneurysm")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0012727> <http://purl.obolibrary.org/obo/HP_0004942>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0020114> (Persistent human papillomavirus infection)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020114> "Human papillomaviruses (HPVs) are small oncogenic viruses. HPV has been shown to cause a variety of lesions and malignancies, which predominantly affect the anogenital region. Low-risk, non-oncogenic HPV types are associated with anogenital warts and recurrent respiratory papillomatosis while high-risk, oncogenic types are associated with cervical, penile, anal, vaginal, vulvar, and oropharyngeal cancers. Infection with anogenital HPV is usually asymptomatic and resolves spontaneously without consequences in the immunocompetent host. When disease does occur, the most common manifestation is genital warts, which may be small papules, or flat, smooth or pedunculated lesions. This resolution of HPV lesions is not generally seen in the immunosuppressed, resulting in severe, persistent and extensive manifestations of HPV disease.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24643184") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26239127") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020114> "Human papillomaviruses (HPVs) are small oncogenic viruses. HPV has been shown to cause a variety of lesions and malignancies, which predominantly affect the anogenital region. Low-risk, non-oncogenic HPV types are associated with anogenital warts and recurrent respiratory papillomatosis while high-risk, oncogenic types are associated with cervical, penile, anal, vaginal, vulvar, and oropharyngeal cancers. Infection with anogenital HPV is usually asymptomatic and resolves spontaneously without consequences in the immunocompetent host. When disease does occur, the most common manifestation is genital warts, which may be small papules, or flat, smooth or pedunculated lesions. This resolution of HPV lesions is not generally seen in the immunosuppressed, resulting in severe, persistent and extensive manifestations of HPV disease.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0020114> "Persistent human papillomavirus infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0020114> <http://purl.obolibrary.org/obo/HP_0032169>)
 
@@ -1080,13 +1031,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0020129> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0020169> (Abnormal drug response)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020169> "An anomalous response to a medication related to individual variation in metabolic or immune response to drugs varying from potentially from potentially life-threatening adverse drug reactions to alteration of therapeutic efficacy.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-7440-8864>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16948615") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020169> "An anomalous response to a medication related to individual variation in metabolic or immune response to drugs varying from potentially from potentially life-threatening adverse drug reactions to alteration of therapeutic efficacy.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0020169> "Abnormal drug response")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0020169> <http://purl.obolibrary.org/obo/HP_0001939>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0020172> (Adverse drug response)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020172> "An unpleasant or harmful reaction resulting from treatment with a drug.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-7440-8864>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11072960") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0020172> "An unpleasant or harmful reaction resulting from treatment with a drug.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0020172> "Adverse drug response")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0020172> <http://purl.obolibrary.org/obo/HP_0020169>)
 
@@ -1139,13 +1090,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0025502> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025722> (Cerebral infarct)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025722> "A necrotic lesion in the cerebrum resulting from a sudden insufficiency of arterial or venous blood supply due to emboli, thrombi or mechanical factors.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:10867785") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025722> "A necrotic lesion in the cerebrum resulting from a sudden insufficiency of arterial or venous blood supply due to emboli, thrombi or mechanical factors.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025722> "Cerebral infarct")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025722> <http://purl.obolibrary.org/obo/HP_0002060>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0025766> (Abnormal affect)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025766> "An anomaly in intensity, frequency, or duration of the verbal or behavioral expression of emotions, feelings, or thoughts.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37925091") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0025766> "An anomaly in intensity, frequency, or duration of the verbal or behavioral expression of emotions, feelings, or thoughts.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0025766> "Abnormal affect")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0025766> <http://purl.obolibrary.org/obo/HP_0011446>)
 
@@ -1159,7 +1110,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0025780> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030163> (Abnormal vascular physiology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030163> "Abnormality of vascular function.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030163> "Abnormality of vascular function.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030163> "Abnormal vascular physiology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030163> <http://purl.obolibrary.org/obo/HP_0002597>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030163> <http://purl.obolibrary.org/obo/HP_0011025>)
@@ -1172,25 +1123,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0030680> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030828> (Wheezing)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030828> "A high-pitched whistling sound associated with labored breathing.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26229557") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030828> "A high-pitched whistling sound associated with labored breathing.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030828> "Wheezing")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030828> <http://purl.obolibrary.org/obo/HP_0030829>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030829> (Abnormal breath sound)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030829> "An anomalous (adventitious) sound produced by the breathing process.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030829> "An anomalous (adventitious) sound produced by the breathing process.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030829> "Abnormal breath sound")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030829> <http://purl.obolibrary.org/obo/HP_0002795>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030858> (Addictive behavior)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030858> "When an activity, substance, object, or behavior becomes a major focus of a person's life, excluding other activities, or has begun to harm the individual or others physically, mentally, or socially, it can be considered addictive behavior. A person can become addicted or compulsively engaged with anything.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0001-6624-2975>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0001-8430-6039>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-0736-9199>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-2984-1124>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-4142-7153>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-4422-1708>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-4691-7362>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-6581-7754>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0002-7674-1767>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0003-2598-6622>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0003-3777-1389>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0030858> <https://orcid.org/0000-0003-4014-4490>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030858> "Addictive behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030858> <http://purl.obolibrary.org/obo/HP_5200241>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0030872> (Abnormal cardiac ventricular function)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030872> "An abnormality of the cardiac ventricular function.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0003-4546-6667>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0030872> "An abnormality of the cardiac ventricular function.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0030872> "Abnormal cardiac ventricular function")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0030872> <http://purl.obolibrary.org/obo/HP_0011025>)
 
@@ -1214,7 +1177,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0031501> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0031567> (Abnormal aortic valve cusp morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0031567> "Any structural anomaly of the aortic valve leaflets.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Fyler:1480") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0031567> "Any structural anomaly of the aortic valve leaflets.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/HP_0031567> "Fyler:1480")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0031567> "Abnormal aortic valve cusp morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0031567> <http://purl.obolibrary.org/obo/HP_0001646>)
@@ -1222,6 +1185,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0031567> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_0032101> (Unusual infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0032101> "Increased susceptibility to infection, as manifested by recurrent infection, severe or invasive infection, infection occurring in an unusual anatomical location, or infection with opportunistic organisms, that is unusual for a healthy individual of the same age.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0032101> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0032101> "Unusual infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0032101> <http://purl.obolibrary.org/obo/HP_0010978>)
 
@@ -1239,7 +1208,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0032180> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0032325> (Lacunar stroke)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0032325> "A stroke related to a small infarct (2-20 mm in diameter) in the deep cerebral white matter, basal ganglia, or pons, that is presumed to result from the occlusion of a single small perforating artery supplying the subcortical areas of the brain.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15834013") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0032325> "A stroke related to a small infarct (2-20 mm in diameter) in the deep cerebral white matter, basal ganglia, or pons, that is presumed to result from the occlusion of a single small perforating artery supplying the subcortical areas of the brain.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0032325> "Lacunar stroke")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0032325> <http://purl.obolibrary.org/obo/HP_0002140>)
 
@@ -1263,25 +1232,25 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0033354> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0033401> (Tissue ischemia)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0033401> "Ischemia is defined as a restriction of arterial blood supply to a tissue associated with insufficient oxygenation to support the metabolis requirements of the tissue. Depending on the involved tissues, clinical manifestations may include pain, pallor, lack of pulse, coldness, paresthesia, and paralysis. Additional associated manifestations include hemodynamic parameters (reduced blood pressure distal to the site of restricted arterial supply) and angiographic evidence of arterial occclusion.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:10720362") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26858079") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0033401> "Ischemia is defined as a restriction of arterial blood supply to a tissue associated with insufficient oxygenation to support the metabolis requirements of the tissue. Depending on the involved tissues, clinical manifestations may include pain, pallor, lack of pulse, coldness, paresthesia, and paralysis. Additional associated manifestations include hemodynamic parameters (reduced blood pressure distal to the site of restricted arterial supply) and angiographic evidence of arterial occclusion.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0033401> "Tissue ischemia")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0033401> <http://purl.obolibrary.org/obo/HP_0025323>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0034267> (Pelvic pain)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0034267> "Pain perceived in the area of the pelvis, the lower part of the abdomen located between the hip bones.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32119472") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0034267> "Pain perceived in the area of the pelvis, the lower part of the abdomen located between the hip bones.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0034267> "Pelvic pain")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0034267> <http://purl.obolibrary.org/obo/HP_0012531>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0040195> (Decreased head circumference)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0040195> "An abnormally reduced head circumference in a growing child. Head circumference is measured with a nonelastic tape and comprises the distance from above the eyebrows and ears and around the back of the head. The measured HC is then plotted on an appropriate growth chart. Microcephaly is defined as a head circumference (HC) that is great than two standard deviations below the mean of age- and gender-matched population based samples. Severe microcephaly is defined with an HC that is three standard deviations below the mean.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26505062") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0040195> "An abnormally reduced head circumference in a growing child. Head circumference is measured with a nonelastic tape and comprises the distance from above the eyebrows and ears and around the back of the head. The measured HC is then plotted on an appropriate growth chart. Microcephaly is defined as a head circumference (HC) that is great than two standard deviations below the mean of age- and gender-matched population based samples. Severe microcephaly is defined with an HC that is three standard deviations below the mean.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0040195> "Decreased head circumference")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0040195> <http://purl.obolibrary.org/obo/HP_0000240>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100326> (Immunologic hypersensitivity)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100326> "Immunological states where the immune system produces harmful responses upon reexposure to sensitizing antigens.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://www.st-andrews.ac.uk/~gdk/bl4217web/Gp3%20Ref%20list/hypersensitivity%20printed.pdf") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100326> "Immunological states where the immune system produces harmful responses upon reexposure to sensitizing antigens.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100326> "Immunologic hypersensitivity")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100326> <http://purl.obolibrary.org/obo/HP_0010978>)
 
@@ -1293,19 +1262,19 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0100543> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100545> (Arterial stenosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100545> "Narrowing or constriction of the inner surface (lumen) of an artery.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100545> "Narrowing or constriction of the inner surface (lumen) of an artery.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100545> "Arterial stenosis")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100545> <http://purl.obolibrary.org/obo/HP_0011004>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100547> (Abnormal forebrain morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100547> "An abnormality of the forebrain, which has as its parts the telencephalon, diencephalon, lateral ventricles and third ventricle.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <https://orcid.org/0000-0002-0736-9199>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100547> "An abnormality of the forebrain, which has as its parts the telencephalon, diencephalon, lateral ventricles and third ventricle.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100547> "Abnormal forebrain morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100547> <http://purl.obolibrary.org/obo/HP_0012443>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100659> (Abnormal cerebral vascular morphology)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100659> "An anomaly of the cerebral blood vessels.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30335330") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100659> "An anomaly of the cerebral blood vessels.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100659> "Abnormal cerebral vascular morphology")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100659> <http://purl.obolibrary.org/obo/HP_0012443>)
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100659> <http://purl.obolibrary.org/obo/HP_0025015>)
@@ -1313,18 +1282,30 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0100659> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_0100716> (Self-injurious behavior)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100716> "Self-aggression.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0001-6624-2975>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0002-2984-1124>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0002-4691-7362>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0002-6581-7754>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0002-7674-1767>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0003-2598-6622>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100716> <https://orcid.org/0000-0003-4014-4490>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100716> "Self-injurious behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100716> <http://purl.obolibrary.org/obo/HP_5200241>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0100851> (Abnormal emotional state)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100851> "A disturbance in the experience or expression of emotion, characterized by alterations in valence, intensity, frequency, or duration. It may also involve emotional responses that are mismatched, exaggerated, or incongruent relative to internal expectations or external contextual stimuli, such as experiencing negative affect in response to neutral or positive events.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35461985") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:37925091") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0100851> "A disturbance in the experience or expression of emotion, characterized by alterations in valence, intensity, frequency, or duration. It may also involve emotional responses that are mismatched, exaggerated, or incongruent relative to internal expectations or external contextual stimuli, such as experiencing negative affect in response to neutral or positive events.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100851> <https://orcid.org/0000-0002-1111-7357>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100851> <https://orcid.org/0000-0002-7954-5235>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100851> <https://orcid.org/0000-0003-2897-0458>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100851> <https://orcid.org/0000-0003-4298-5074>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_0100851> <https://orcid.org/0000-0003-4618-6544>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0100851> "Abnormal emotional state")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0100851> <http://purl.obolibrary.org/obo/HP_0025766>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_0200134> (Epileptic encephalopathy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0200134> "A condition in which epileptiform abnormalities are believed to contribute to the progressive disturbance in cerebral function. Epileptic encephalaopathy is characterized by (1) electrographic EEG paroxysmal activity that is often aggressive, (2) seizures that are usually multiform and intractable, (3) cognitive, behavioral and neurological deficits that may be relentless, and (4) sometimes early death.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21590624") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23213494") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_0200134> "A condition in which epileptiform abnormalities are believed to contribute to the progressive disturbance in cerebral function. Epileptic encephalaopathy is characterized by (1) electrographic EEG paroxysmal activity that is often aggressive, (2) seizures that are usually multiform and intractable, (3) cognitive, behavioral and neurological deficits that may be relentless, and (4) sometimes early death.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_0200134> "Epileptic encephalopathy")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_0200134> <http://purl.obolibrary.org/obo/HP_0001298>)
 
@@ -1343,60 +1324,124 @@ SubClassOf(<http://purl.obolibrary.org/obo/HP_0430071> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/HP_5200241> (Recurrent maladaptive behavior)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200241> "A repeating behavior that is either immediately unproductive or has negative long-term consequences. This includes harmful coping mechanisms such as addictive behavior and failure to control impulses and compulsions.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0001-6624-2975>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0002-2984-1124>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0002-4691-7362>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0002-6581-7754>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0002-7674-1767>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0003-2598-6622>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200241> <https://orcid.org/0000-0003-4014-4490>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5200241> "Recurrent maladaptive behavior")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5200241> <http://purl.obolibrary.org/obo/HP_0000708>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5200283> (Sleep-related breathing disorders)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200283> "Conditions of abnormal and difficult respiration during sleep, including chronic snoring and sleep apnea.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29779616") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34191224") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200283> "Conditions of abnormal and difficult respiration during sleep, including chronic snoring and sleep apnea.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0001-6262-8264>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0001-9446-5121>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0002-1592-0825>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0002-4672-4923>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0002-5554-6946>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200283> <https://orcid.org/0000-0002-7367-663X>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5200283> "Sleep-related breathing disorders")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5200283> <http://purl.obolibrary.org/obo/HP_0002360>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5200330> (Suicide behaviors)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200330> "Suicide attempts or preparations")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18653727") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200330> "Suicide attempts or preparations")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0001-6624-2975>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0002-2984-1124>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0002-4691-7362>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0002-6581-7754>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0002-7674-1767>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0003-2598-6622>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200330> <https://orcid.org/0000-0003-4014-4490>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5200330> "Suicide behaviors")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5200330> <http://purl.obolibrary.org/obo/HP_0100716>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5200423> (Abnormal experience of reality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200423> "Subjective phenomena or perceptions that deviate from what is considered correct or are outside the range of normal human experiences.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0001-7062-8192>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0001-7941-2961>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0001-9221-9226>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0002-0183-1637>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0003-1785-7126>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0003-2291-6952>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200423> <https://orcid.org/0000-0003-4958-6025>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5200423> "Abnormal experience of reality")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5200423> <http://purl.obolibrary.org/obo/HP_0011446>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5200430> (Abnormal psychotic pattern)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5200430> "Any abnormal pattern of psychotic experiences, where an individual has significant disturbances in their thoughts, perceptions, emotions, and behavior, resulting in a loss of touch with reality.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0001-7062-8192>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0001-7941-2961>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0001-9221-9226>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0002-0183-1637>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0003-1785-7126>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0003-2291-6952>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5200430> <https://orcid.org/0000-0003-4958-6025>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5200430> "Abnormal psychotic pattern")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5200430> <http://purl.obolibrary.org/obo/HP_5200423>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5210000> (Unusual bacterial infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5210000> "Increased susceptibility to bacterial infections as manifested by recurrent or severe/invasive bacterial infection, or by bacterial infection in an unusual anatomical location.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210000> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5210000> "Unusual bacterial infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5210000> <http://purl.obolibrary.org/obo/HP_0032101>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5210001> (Unusual gram-positive bacterial infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5210001> "Increased susceptibility to gram-positive bacterial infections as manifested by recurrent or severe/invasive infection with gram-positive organisms.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210001> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5210001> "Unusual gram-positive bacterial infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5210001> <http://purl.obolibrary.org/obo/HP_5210000>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5210009> (Unusual Streptococcus infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5210009> "Increased susceptibility to Streptococcus infections as manifested by recurrent or severe/invasive infection with Streptococcus, or by Streptococcus infection occurring in an unusual anatomical location.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210009> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5210009> "Unusual Streptococcus infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5210009> <http://purl.obolibrary.org/obo/HP_5210001>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5210013> (Unusual Streptococcus pyogenes infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5210013> "Increased susceptibility to Streptococcus pyogenes infections as manifested by recurrent or severe/invasive infection with Streptococcus pyogenes, or by Streptococcus pyogenes infection occurring in an unusual anatomical location.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210013> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5210013> "Unusual Streptococcus pyogenes infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5210013> <http://purl.obolibrary.org/obo/HP_5210009>)
 
 # Class: <http://purl.obolibrary.org/obo/HP_5210014> (Severe Streptococcus pyogenes infection)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HP_5210014> "Increased susceptibility to Streptococcus pyogenes infections as manifested by a severe or invasive infection with Streptococcus pyogenes.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0000-0001-7601-9822>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0000-0001-9382-150X>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0000-0002-2029-0733>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0000-0002-3577-9021>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0000-0002-4315-9105>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/HP_5210014> <https://orcid.org/0009-0004-8124-8864>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HP_5210014> "Severe Streptococcus pyogenes infection")
 SubClassOf(<http://purl.obolibrary.org/obo/HP_5210014> <http://purl.obolibrary.org/obo/HP_5210013>)
 
