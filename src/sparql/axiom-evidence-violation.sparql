@@ -4,24 +4,28 @@
 # one PubMed does not index, or the URL of a registry record, a catalogue entry,
 # a website or a supplementary file; a paper is preferred but any source counts;
 # the source-form check holds the forms). The facts: the definition, the label and
-# the synonyms, the type (cohort or cohort aggregation), the data collection
-# locations, the numbers of participants, cases and controls, the members of
-# an aggregation, the parent of a sub-cohort and the example studies. Some
-# evidence is by nature a database record, whose URL suffices without a quote:
-# a PGS Catalog example (the Catalog's record of the score), and, for a name
-# that no document quotes, a database's record of the cohort (the GWAS Catalog
-# study, PGS Catalog cohort, EGA study, Global Exposome Cohort Catalogue or IHCC
-# Atlas entry that uses or names it): a quote is always sought first, and the
-# record is the fallback.
+# the synonyms, the type (cohort or cohort aggregation), the diseases and the
+# exposures (the types `has_patients_with some D`, `has_participants_at_risk_of
+# some D`, `is_population_study_of some D`, `has_participants_with_exposure some
+# E` and `is_designed_to_study_exposure some E`, reported as the role and the
+# disease or exposure), the data collection locations, the numbers of
+# participants, cases and controls, the members of an aggregation, the parent of
+# a sub-cohort and the example studies. Some evidence is by nature a database
+# record, whose URL suffices without a quote: a PGS Catalog example (the
+# Catalog's record of the score), and, for a name that no document quotes, a
+# database's record of the cohort (the GWAS Catalog study, PGS Catalog cohort,
+# EGA study, Global Exposome Cohort Catalogue or IHCC Atlas entry that uses or
+# names it): a quote is always sought first, and the record is the fallback.
 # A location inferred into the release from an evidenced one (the region a
 # located country lies in, through the property chain with RO:0001025) needs no
 # evidence of its own. Placeholders (curation status uncurated) and deprecated
 # terms are skipped.
-# The check runs on the release file coho-full.owl, where the components that
-# hold the evidence copies are merged with the edit file; on the edit file alone,
-# which holds the facts but not their copies, it is skipped (the ontology IRI
-# guard below). `om make reports/axiom-evidence.tsv` runs the same query on the
-# asserted merge as a table.
+# The evidence copies are in the components, which are merged with the edit file
+# in the release file coho-full.owl, where the check runs, and in the asserted
+# merge tmp/coho-cohorts.nt, where `om make reports/axiom-evidence.tsv` runs the
+# same query as a table. On the edit file alone, which holds the facts but not
+# their copies, the check is skipped: the guard below asks for one definition
+# copy, which only the definitions component holds.
 PREFIX coho: <http://www.ebi.ac.uk/coho/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
@@ -31,45 +35,71 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?term ?property ?value
 WHERE {
-  ?ontology a owl:Ontology .
-  FILTER(STRENDS(STR(?ontology), "/coho-full.owl"))
-  {
-    VALUES ?property {
-      obo:IAO_0000115 rdfs:label oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym
-      oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
-      coho:has_data_collection_location coho:numberOfParticipants coho:numberOfCases
-      coho:numberOfControls coho:hasCohort coho:isSubCohortOf obo:IAO_0000112
-    }
-    ?term ?property ?value .
-  } UNION {
-    VALUES ?value { coho:COHO_0000000 coho:COHO_0000001 }
-    BIND(rdf:type AS ?property)
-    ?term rdf:type ?value .
+  FILTER EXISTS {
+    ?copy a owl:Axiom ;
+      owl:annotatedProperty obo:IAO_0000115 ;
+      rdfs:comment ?quote ;
+      oboInOwl:hasDbXref ?source .
   }
   ?term a owl:NamedIndividual .
   FILTER(STRSTARTS(STR(?term), STR(coho:COHO_)))
   FILTER NOT EXISTS { ?term owl:deprecated true }
   FILTER NOT EXISTS { ?term obo:IAO_0000114 obo:IAO_0000124 }
-  FILTER NOT EXISTS {
-    FILTER(?property = coho:has_data_collection_location)
-    ?located a owl:Axiom ;
-      owl:annotatedSource ?term ;
-      owl:annotatedProperty coho:has_data_collection_location ;
-      owl:annotatedTarget ?place ;
-      rdfs:comment ?q .
-    ?place obo:RO_0001025+ ?value .
-  }
-  FILTER NOT EXISTS {
-    ?axiom a owl:Axiom ;
-      owl:annotatedSource ?term ;
-      owl:annotatedProperty ?property ;
-      owl:annotatedTarget ?value ;
-      oboInOwl:hasDbXref ?source .
-    FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|DOI:10\\.|PMCID:PMC[0-9]+|https?://)"))
-    FILTER(EXISTS { ?axiom rdfs:comment ?quote }
-           || (?property = obo:IAO_0000112 && REGEX(STR(?value), "^PGS[0-9]+$"))
-           || (?property IN (rdfs:label, oboInOwl:hasExactSynonym, oboInOwl:hasRelatedSynonym, oboInOwl:hasBroadSynonym, oboInOwl:hasNarrowSynonym)
-               && REGEX(STR(?source), "^https://(www\\.ebi\\.ac\\.uk/gwas/studies/|www\\.pgscatalog\\.org/rest/cohort/|ega-archive\\.org/studies/|molgeniscatalogue\\.org/|atlas\\.ihccglobal\\.org)")))
+  {
+    {
+      VALUES ?property {
+        obo:IAO_0000115 rdfs:label oboInOwl:hasExactSynonym oboInOwl:hasRelatedSynonym
+        oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym
+        coho:has_data_collection_location coho:numberOfParticipants coho:numberOfCases
+        coho:numberOfControls coho:hasCohort coho:isSubCohortOf obo:IAO_0000112
+      }
+      ?term ?property ?value .
+    } UNION {
+      VALUES ?value { coho:COHO_0000000 coho:COHO_0000001 }
+      BIND(rdf:type AS ?property)
+      ?term rdf:type ?value .
+    }
+    FILTER NOT EXISTS {
+      FILTER(?property = coho:has_data_collection_location)
+      ?located a owl:Axiom ;
+        owl:annotatedSource ?term ;
+        owl:annotatedProperty coho:has_data_collection_location ;
+        owl:annotatedTarget ?place ;
+        rdfs:comment ?q .
+      ?place obo:RO_0001025+ ?value .
+    }
+    FILTER NOT EXISTS {
+      ?axiom a owl:Axiom ;
+        owl:annotatedSource ?term ;
+        owl:annotatedProperty ?property ;
+        owl:annotatedTarget ?value ;
+        oboInOwl:hasDbXref ?source .
+      FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|DOI:10\\.|PMCID:PMC[0-9]+|https?://)"))
+      FILTER(EXISTS { ?axiom rdfs:comment ?quote }
+             || (?property = obo:IAO_0000112 && REGEX(STR(?value), "^PGS[0-9]+$"))
+             || (?property IN (rdfs:label, oboInOwl:hasExactSynonym, oboInOwl:hasRelatedSynonym, oboInOwl:hasBroadSynonym, oboInOwl:hasNarrowSynonym)
+                 && REGEX(STR(?source), "^https://(www\\.ebi\\.ac\\.uk/gwas/studies/|www\\.pgscatalog\\.org/rest/cohort/|ega-archive\\.org/studies/|molgeniscatalogue\\.org/|atlas\\.ihccglobal\\.org)")))
+    }
+  } UNION {
+    # A disease or exposure is the type `role some D`; its evidence is a copy of
+    # that class assertion, with the same role and D, that carries a quote and a
+    # source. Reported as the role and D.
+    ?term rdf:type ?restriction .
+    ?restriction owl:onProperty ?property ;
+      owl:someValuesFrom ?value .
+    FILTER(?property IN (coho:has_patients_with, coho:has_participants_at_risk_of, coho:is_population_study_of,
+                         coho:has_participants_with_exposure, coho:is_designed_to_study_exposure))
+    FILTER NOT EXISTS {
+      ?axiom a owl:Axiom ;
+        owl:annotatedSource ?term ;
+        owl:annotatedProperty rdf:type ;
+        owl:annotatedTarget ?evidenced ;
+        rdfs:comment ?quote ;
+        oboInOwl:hasDbXref ?source .
+      ?evidenced owl:onProperty ?property ;
+        owl:someValuesFrom ?value .
+      FILTER(REGEX(STR(?source), "^(PMID:[0-9]+|DOI:10\\.|PMCID:PMC[0-9]+|https?://)"))
+    }
   }
 }
 ORDER BY ?property ?term
